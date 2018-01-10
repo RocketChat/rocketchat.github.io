@@ -8,7 +8,7 @@ ios_release: true
 Rocket.Chat is excited to announce our new release for iOS (1.8.0) with the following highlighted features: 
 
 - Message reactions
-- Slash commands
+- Auto-completion for server commands
 - Access to admin panel 
 - Various bug fixes and performance improvements. 
 
@@ -16,11 +16,11 @@ Rocket.Chat is excited to announce our new release for iOS (1.8.0) with the foll
 
 [Luca Zimmerman](https://github.com/soundstorm) is our featured contributor for this release. Thank you for your great work on testing the app and reporting issues. 
 
-## Reactions
+## Message reactions
 
-Users can see, add, or remove reactions to any message. Rocket.Chat iOS also supports custom emojis in reactions.
+Users can see, add, or remove emoji reactions to any message. Rocket.Chat iOS also supports custom emojis in reactions.
 
-![Rocket.Chat iOS supports reactions](/images/posts/2018/01/2018-01-09-ios-1-8-released/2018-01-09-ios-1-8-released-reaction.png)
+![Rocket.Chat iOS supports reactions](/images/posts/2018/01/2018-01-09-ios-1-8-released/2018-01-09-ios-1-8-release-reaction-cropped.png)
 
 ## Auto-completion for server commands
 
@@ -45,7 +45,7 @@ Users with an admin account will be able to access the admin panel from Rocket.C
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/01/2018-01-09-ios-1-8-released/2018-01-09-ios-1-8-released-admin panel final.png"/>
+    <img src="/images/posts/2018/01/2018-01-09-ios-1-8-released/2018-01-09-ios-1-8-released-admin-panel"/>
   </p>
 </div>
 <div class="clear"></div>
