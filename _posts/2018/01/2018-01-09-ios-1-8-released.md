@@ -20,7 +20,7 @@ Rocket.Chat is excited to announce our new release for iOS (1.8.0) with the foll
 
 Users can see, add, or remove reactions to any message. Rocket.Chat iOS also supports custom emojis in reactions.
 
-![Rocket.Chat iOS supports reactions](web/images/posts/2018/01/2018-01-09-ios-1-8-released/2018-01-09-ios-1-8-released-reaction.png)
+![Rocket.Chat iOS supports reactions](/images/posts/2018/01/2018-01-09-ios-1-8-released/2018-01-09-ios-1-8-released-reaction.png)
 
 ## Auto-completion for server commands
 
