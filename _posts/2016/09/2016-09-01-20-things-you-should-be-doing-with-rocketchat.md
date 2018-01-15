@@ -39,4 +39,4 @@ To make sure you're getting the most out of the app, here are 20 things you shou
 6.  New employee onboarding.
 7.  Town Hall Meeting for your company or your larger community to source feedback and opinions.
 
-What's your company doing with Rocket.Chat that we haven't mentioned? Tweet it to us at [@RocketChatApp!](http://twitter.com/rocketchatapp)
+What's your company doing with Rocket.Chat that we haven't mentioned? Tweet it to us at [@RocketChat](https://twitter.com/rocketchat?lang=en)
