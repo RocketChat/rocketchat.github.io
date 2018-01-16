@@ -8,6 +8,8 @@ The Brazilian Space Agency (AEB) is a governmental organization responsible for 
 
 Alongside space exploration, the agency develops technology for domestic purposes such as communications satellites and data collection satellites that map Brazil's diverse terrain and environment. 
 
+Since its implementation over a year ago, Rocket.Chat has overtaken email as the department's number-one communication tool. This is a real achievement for a governmental agency, which tend to be reliant on email. 
+
 ## Connecting remote colleagues with real-time chat
 
 Much of the AEB's work involves collaboration within the organization's own departments and with remote researchers who are based across the world. 
@@ -23,11 +25,9 @@ The department heard that Rocket.Chat was open source, self-hosted (and founded 
 
 According to Eduardo Santos, a Technologist in the department, the team's Rocket.Chat is running well, is stable and has solved a lot of issues the team had with Slack. 
 
+>"Rocket.Chat is the first tool I open when I come to work"
+
 The ability to self-host with Rocket.Chat also means that confidential documents are kept secure by their own policies on their own servers. 
-
-## "Rocket.Chat is the first tool I open when I come to work"
-
-Since its implementation over a year ago, Rocket.Chat has overtaken email as the department's number-one communication tool. This is a real achievement for a governmental agency, which tend to be reliant on email. 
 
 ## What next for the AEB and Rocket.Chat
 
