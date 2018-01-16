@@ -7,7 +7,7 @@ cover: /images/posts/2018/01/2018-01-06-AEB-and-rocket-chat/2018-01-16-AEB-blog-
 
 The Brazilian Space Agency's (AEB) Department of Information Technology moved from Slack to Rocket.Chat over a year ago when they outgrew Slack's free offering and needed a self-hosted open source alternative. Rocket.Chat has now overtaken email as the number-one communication tool in the department.
 
-Alongside the growing space exploration, the agency develops technology for domestic purposes such as communications satellites and data collection satellites that map Brazil's diverse terrain and environment and uses Rocket.Chat to communicate with internal team members and external researchers and contributors.
+Alongside its growing space exploration program, the agency develops technology for domestic purposes, including data collection satellites that map Brazil's diverse terrain and environment. The team uses Rocket.Chat to communicate with internal team members and remote researchers.
 
 ## Connecting remote colleagues with real-time chat
 
