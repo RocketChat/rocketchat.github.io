@@ -30,7 +30,7 @@ small:
   backup: Daily backup
   monitoring: 24x7
   reporting: Weekly
-  support: Rocket.Chat Cloud SLA
+  support: Basic Plan
 
 medium:
   name: Medium
@@ -47,7 +47,7 @@ medium:
   backup: Twice daily backup
   monitoring: 24x7
   reporting: Daily
-  support: Rocket.Chat Cloud SLA
+  support: Basic Plan
 
 large:
   name: Large
@@ -64,4 +64,4 @@ large:
   backup: Hourly backup
   monitoring: 24x7
   reporting: Hourly
-  support: Rocket.Chat Cloud SLA
+  support: Basic Plan
