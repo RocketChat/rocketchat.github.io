@@ -35,7 +35,7 @@ Rocket.Chat has accounts on the following platforms:
 
 ### Process
 
-- Shorten URLs in [Google URL Shortener](https://goo.gl). This is for tracxking purposes. Ensure that you are signed in with your Rocket.Chat account when using this tool in order to keep all of your links in one place. 
+- Shorten URLs in [Google URL Shortener](https://goo.gl). This is for tracking purposes. Ensure that you are signed in with your Rocket.Chat account when using this tool in order to keep all of your links in one place. 
     * If you choose to not use a link, ensure that you archive it. 
 - Schedule posts in [Hootsuite](https://hootsuite.com/dashboard) the week before they are due to be published. 
 - Record your scheduled posts in the [Social Media Schedule](https://docs.google.com/spreadsheets/d/1qIVBC0fUMCBfzRJK2TQA5K0m_gWZc5rNnPsGemZSUxE/edit?usp=sharing) so that they can be approved ahead of being published. 
