@@ -5,5 +5,5 @@ todo Louise (ask Marcelo for missing info):
   - GitHub contributors contract for Rocket.Chat repo
   - Equipment
   - Expenses
-  - São Paulo team members
+  - Porto Alegre team members
   - London team members
