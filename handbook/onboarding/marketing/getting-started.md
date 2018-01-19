@@ -1,4 +1,4 @@
-## Marketing - getting started
+# Marketing - getting started
 
 The core responsibilities of the marketing department are:
 
@@ -10,12 +10,12 @@ The core responsibilities of the marketing department are:
 
 The team's goals for Q1 of 2018 can be viewed [here](https://docs.google.com/document/d/1ESjLw0AIiTKY_xNkB96H0_ewbLBr_ZhdomzJArWFaOs/edit?usp=sharing).
 
-### Key people
+## Key people
 
 - **Sean Packham**, VP of Marketing
 - **Louise Message** - Junior Marketing Assistant
 
-### Software
+## Software
 
 - [GitHub Desktop](https://desktop.github.com) - used for source control when writing blog posts with Visual Studio Code. 
 
@@ -25,7 +25,7 @@ The team's goals for Q1 of 2018 can be viewed [here](https://docs.google.com/doc
 
  - [Image.Optim](https://imageoptim.com/mac) compression tool for publishing images on the web. 
 
- ### Useful websites 
+ ## Useful websites 
 
  - [GitHub.com](https://github.com) - use to create pull requests for others to review your work. We recommend that you star (favourite) the following Rocket.Chat folders on GitHub for marketing purposes:
 

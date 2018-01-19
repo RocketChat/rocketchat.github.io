@@ -1,6 +1,6 @@
-## Your first week at Rocket.Chat 
+# Your first week at Rocket.Chat 
 
-### Important sites and platforms
+## Important sites and platforms
 
 All new Rocket.Chat employees are sent invitation links through their @rocket.chat email address to the following platforms and websites by the COO (Chief Operations Officer):
 
@@ -16,7 +16,7 @@ All new Rocket.Chat employees are sent invitation links through their @rocket.ch
 
 - [Workplace](https://www.facebook.com/workplace) - Facebook-owned social media platform for workplaces. Use Workplace to follow company-wide annoucements and to share news and developments with the team.
 
-### Joining the team's Rocket.Chat
+## Joining the team's Rocket.Chat
 
 The Rocket.Chat team uses Rocket.Chat to collaborate in real-time. You can access Rocket.Chat in several ways: 
 - [Through web](https://open.rocket.chat/home)
@@ -33,11 +33,11 @@ You will be automatically added to the #sandbox and #general channels. These are
 - rocket.chat-officevibe
 - rocket.chat-working-on
 
-### Rocket.Chat t-shirts
+## Rocket.Chat t-shirts
 
 All team members receive three Rocket.Chat t-shirts when they join. You can use [this form](https://docs.google.com/spreadsheets/d/1zjOnlscEeHy5F1a40dQ04ct96S49q9PJ-Y4pTNpBzrQ/edit?usp=sharing) to request your t-shirt colours and sizes. The t-shirts will be shipped to you from Brazil if you work remotely. 
 
-### Meeting the team
+## Meeting the team
 
 If you are working remotely, we recommend speaking to the following team members to hear about what they're currently working on: 
 
