@@ -30,6 +30,14 @@ a:hover {
 ul, ol {
   padding: 0 0 0 1.5em;
   margin: 0 0 1.5em;
+
+  ul, ol {
+    margin: 0;
+  }
+
+  ul {
+    list-style: disc;
+  }
 }
 
 code, pre {
@@ -49,22 +57,22 @@ table {
   width: 100%;
   border-collapse: collapse;
   color: $color-dark;
-  
+
   tr {
     width: 100%;
     border-top: 1px solid #eef0f3;
   }
-  
+
   td {
     width: 26%;
     padding: 0.75em;
     border-left: 1px solid #eef0f3;
     text-align: center;
   }
-  
+
   tr:nth-child(1) {
     border: none;
-    
+
     td {
       padding: 0 1em 1em;
     }
@@ -73,11 +81,11 @@ table {
       min-height: 80px;
       vertical-align: top;
     }
-    
+
     .pricing {
       margin-top: 1em;
       font-size: 1.25em;
-      
+
       span {
         font-size: 1.5em;
         font-weight: 600;
@@ -91,13 +99,13 @@ table {
     border: none;
     text-align: left;
   }
-  
+
   .seperator {
     background: #f7f8fa;
     font-size: 1.2em;
     font-weight: 600;
   }
-      
+
   span.yes:before {
     content: '';
     height: 3px;
@@ -112,7 +120,7 @@ table {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  
+
   span.yes:after {
     content: '';
     height: 3px;
@@ -170,7 +178,7 @@ a.button, input[type=submit], input[type=button] {
   &.primary {
     background-color: $color-primary;
   }
-  
+
   &.secondary {
     background-color: $color-secondary;
   }
@@ -211,7 +219,7 @@ header {
 
   .logo {
     display: inline-block;
-  
+
     img {
       display: inline-block;
       color: #fff;
@@ -228,7 +236,7 @@ header {
     li {
       display: inline-block;
       padding-right: 18px;
-      
+
       &:last-child {
         padding-right: 0;
       }
@@ -238,7 +246,7 @@ header {
   a, a:visited {
     color: #fff;
   }
-  
+
   a:hover, a.active {
     color: $color-light;
   }
@@ -248,7 +256,7 @@ section {
   background-color: #fff;
   margin: 0;
   padding: 9em 0 6em;
-  
+
   &.hero {
     background-repeat: no-repeat;
     background-size: contain;
@@ -261,7 +269,7 @@ section {
     h1 {
       font-size: 2.2em;
     }
-    
+
     em {
       font-style: normal;
     }
@@ -272,15 +280,15 @@ section {
   .wrapper {
     max-width: 800px;
   }
-  
+
   p {
     font-size: 16px;
   }
-  
+
   .left {
     width: 200px;
   }
-  
+
   .right {
     width: 550px;
   }
@@ -322,24 +330,24 @@ footer {
 
   section {
     padding: 3em 0;
-    
+
     &.hero {
       padding-bottom: 6em;
     }
   }
-    
+
   .left {
     float: none;
     width: 100%;
     padding: 0;
   }
-  
+
   .right {
     float: none;
     width: 100%;
     padding: 0;
   }
-  
+
   .testimonials {
     margin: 0;
   }
@@ -353,7 +361,7 @@ footer {
       padding-top: 1em;
     }
   }
-  
+
   footer {
     ul {
       width: 50%;

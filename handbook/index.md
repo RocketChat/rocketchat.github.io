@@ -1,13 +1,10 @@
----
-layout: en/default
----
 
-[Onboarding](onboarding/)
-[Meetings](meetings/)
-[Marketiing](marketing/)
-- [Getting started](getting-started/)
-- [Social media](social-media/)
-
-
-
-
+- [Onboarding](onboarding/)
+  - [Team Page](onboarding/team-page/)
+  - [Marketing](onboarding/marketing/)
+- [Meetings](meetings/)
+- [Operations](operations/)
+- [Marketing](marketing/)
+  - [Website](marketing/website/)
+  - [Blogging](marketing/blogging/)
+  - [Social media](marketing/social-media/)
