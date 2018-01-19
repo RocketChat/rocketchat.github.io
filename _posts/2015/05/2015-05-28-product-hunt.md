@@ -6,6 +6,8 @@ cover: /images/posts/2015/05/product-hunt/producthunt.jpg
 redirect_from: /blog/product-hunt
 ---
 
-![](/images/posts/2015/05/product-hunt/ProductHunt---May-28-2015.jpg?)
+If you want the low-down on Rocket.Chat, take a look at our <a href="https://www.producthunt.com/posts/rocket-chat" target="_blank">page on Product Hunt</a>.
 
-If you want the lowdown on Rocket.Chat, take a look at our [very own page on Product Hunt](https://www.producthunt.com/tech/rocket-chat). There are some nice screenshots that show off our features and demonstrate Rocket.Chat in action. CEO Gabriel also provides some information about our open source web chat server.
+The page shows Rocket.Chat in action, some of its key features and user reviews. If you enjoy using Rocket.Chat, please remember to upvote the project from the page. 
+
+Rocket.Chat's CEO, <a href="https://github.com/engelgabriel" target="_blank">Gabriel</a> also provides information about our open source web chat server.
