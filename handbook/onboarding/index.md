@@ -2,7 +2,7 @@
 
 ## Important sites and platforms
 
-All new Rocket.Chat employees are sent invitation links through their @rocket.chat email address to the following platforms and websites by the COO (Chief Operations Officer):
+All new Rocket.Chat employees are sent invitation links through their [@rocket.chat]() email address to the following platforms and websites by the COO (Chief Operations Officer):
 
 - [Gmail](http://gmail.com) - all Rocket.Chat employees are created a Gmail/ Google account for work purposes. Rocket.Chat email addresses take the form of [firstname.surname@rocket.chat]().
 
@@ -39,15 +39,7 @@ All team members receive three Rocket.Chat t-shirts when they join. You can use 
 
 ## Meeting the team
 
-If you are working remotely, we recommend speaking to the following team members to hear about what they're currently working on:
-
-- **Diego Dorgam**, Bots Engineer
-- **Gabriel Engel**, Founder & CEO
-- **Rafael Kellermann**, Lead Mobile Engineer
-- **Sing Li**, Senior VP of Partnerships and Opportunities
-- **Aaron Ogle**, Lead Cloud Architect
-- **Theo Renck**, Project Manager
-- **Martin Schoeler**, Full Stack Engineer
+If you are working remotely, we recommend you arrange meetings with Gabriel and nine other team members using the [team page](https://rocket.chat/blog/). Ensure that you speak to team members from a range of departments. 
 
 Refer to the [Meetings](link) section of the handbook for advice on scheduling these meetings.
 
