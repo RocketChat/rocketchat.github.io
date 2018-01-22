@@ -6,5 +6,6 @@
 - [Operations](operations/)
 - [Marketing](marketing/)
   - [Website](marketing/website/)
-  - [Blogging](marketing/blogging/)
+  - [Blog](marketing/blogging-intro/)
+  - [Creating a blog](marketing/blogging-post-creation/)
   - [Social media](marketing/social-media/)
