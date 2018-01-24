@@ -23,15 +23,15 @@ The Rocket.Chat team uses Rocket.Chat to collaborate in real-time. You can acces
 
 You will be automatically added to the #sandbox and #general channels. These are public channels. You will also be invited to relevant private channels that are only accessible to the Rocket.Chat team:
 
-- documentation
-- important
-- random
-- rocket.marketing
-- rocket.chat-dev
-- rocket.chat-officevibe
-- rocket.chat-working-on
-- support-backroom
-- security-reports
+- [documentation](https://open.rocket.chat/group/documentation)
+- [important](https://open.rocket.chat/group/important)
+- [random](https://open.rocket.chat/group/random)
+- [rocket.marketing](https://open.rocket.chat/group/rocket.marketing)
+- [rocket.chat-dev](https://open.rocket.chat/group/rocket.chat-dev)
+- [rocket.chat-officevibe](https://open.rocket.chat/group/rocket.chat-officevibe)
+- [rocket.chat-working-on](https://open.rocket.chat/group/rocket.chat-working-on)
+- [support-backroom](https://open.rocket.chat/group/support-backroom)
+- [security-reports](https://open.rocket.chat/group/security-reports)
 
 ## Rocket.Chat t-shirts
 
