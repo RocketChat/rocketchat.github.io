@@ -2,7 +2,6 @@
 - [Onboarding](onboarding/)
   - [Marketing](onboarding/marketing/)
 - [Meetings](meetings/)
-- [Operations](operations/)
 - [Marketing](marketing/)
   - [Website](marketing/website/)
   - [Blog](marketing/blogging-intro/)
