@@ -4,26 +4,24 @@
 
 All new Rocket.Chat employees are sent invitation links through their [@rocket.chat]() email address to the following platforms and websites by the COO (Chief Operations Officer):
 
-- [Gmail](http://gmail.com) - all Rocket.Chat employees are created a Gmail/ Google account for work purposes. Rocket.Chat email addresses take the form of [firstname.surname@rocket.chat]().
+- [Google Account](http://mail.google.com) - all Rocket.Chat receive a Google account for work purposes. Rocket.Chat email addresses take the form of [firstname.surname@rocket.chat]().
 
-- [GitHub](https://github.com) - a web-based hosting service for version control using git. Where the Rocket.Chat project is based. All changes made to the project and website are committed through GitHub. For those completely new to GitHub, [this guide](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/) is useful.
+- [GitHub](https://github.com) - Git version control and project managemt tools for all Rocket.Chat project (server, apps, website and operations projects). For those completely new to GitHub, [this guide](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/) is useful.
 
-- [Google Drive](https://www.google.com/drive/) - although GitHub is used as the company's main respository for documents and source control, you can access a variety of textbooks and videos courses provided by [Egghead.io](https://egghead.io/browse/). If you would like to request a course, check the availability at [Egghead.io](https://egghead.io/browse/) and add it to the assets request in [BambooHR](https://www.bamboohr.com).
+- [Google Drive](https://www.google.com/drive/) - GitHub is used as the main respository for text based documents, source code and artwork, you can access a variety of Google Docs, Spreadsheets, textbooks and videos courses on Google Drive.
 
-- [BambooHR](https://www.bamboohr.com) - HR software used to request time off, check who is off work and make asset requests. Once you join BambooHR, ensure that you verify your personal details, add your mobile phone number and include your t-shirt size (for Rocket.Chat company t-shirts).
-
-- [Small Improvements](https://www.small-improvements.com) - site through which you receive feedback from your manager and complete quarterly self-assessments. You can also give feedback to team members that you do not work directly with but want to comment on their performance.
-
-- [Workplace](https://www.facebook.com/workplace) - Facebook-owned social media platform for workplaces. Use Workplace to follow company-wide annoucements and to share news and developments with the team.
+- [BambooHR](https://www.bamboohr.com) - HR software used to request time off, check who is off work and make asset requests. Once you join BambooHR, ensure that you verify your personal details, add your mobile phone number and include your t-shirt size to recieve your Rocket.Chat t-shirt.
 
 ## Joining the team's Rocket.Chat
 
 The Rocket.Chat team uses Rocket.Chat to collaborate in real-time. You can access Rocket.Chat in several ways:
-- [Through web](https://open.rocket.chat/home)
-- By [installing the desktop client](https://rocket.chat/download)
-- By downloading the app from [Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android) or the [Apple Store](https://itunes.apple.com/app/rocket-chat/id1148741252)
 
-You will be automatically added to the #sandbox and #general channels. These are public channels. You will also be invited to the following private channels that are only accessible to the Rocket.Chat team:
+- [Browser client](https://open.rocket.chat/home)
+- [Desktop client](https://rocket.chat/download)
+- [Android app](https://play.google.com/store/apps/details?id=chat.rocket.android)
+- [iPhone app](https://itunes.apple.com/app/rocket-chat/id1148741252)
+
+You will be automatically added to the #sandbox and #general channels. These are public channels. You will also be invited to relevant private channels that are only accessible to the Rocket.Chat team:
 
 - documentation
 - important
@@ -32,14 +30,15 @@ You will be automatically added to the #sandbox and #general channels. These are
 - rocket.chat-dev
 - rocket.chat-officevibe
 - rocket.chat-working-on
+- support-backroom
+- security-reports
 
 ## Rocket.Chat t-shirts
 
-All team members receive three Rocket.Chat t-shirts when they join. You can use [this form](https://docs.google.com/spreadsheets/d/1zjOnlscEeHy5F1a40dQ04ct96S49q9PJ-Y4pTNpBzrQ/edit?usp=sharing) to request your t-shirt colours and sizes. The t-shirts will be shipped to you from Brazil if you work remotely.
+New team members should [indicate their t-shirt size and desired colors](https://docs.google.com/spreadsheets/d/1zjOnlscEeHy5F1a40dQ04ct96S49q9PJ-Y4pTNpBzrQ/edit?usp=sharing) when they join. The t-shirts will be shipped to you from Brazil if you work remotely.
 
 ## Meeting the team
 
-If you are working remotely, we recommend you arrange meetings with Gabriel and nine other team members using the [team page](https://rocket.chat/blog/). Ensure that you speak to team members from a range of departments. 
+If you are working remotely, we recommend you arrange meetings with Gabriel and nine other team members using the [team page](https://rocket.chat/blog/). Ensure that you speak to team members from a range of departments.
 
 Refer to the [Meetings](link) section of the handbook for advice on scheduling these meetings.
-
