@@ -1,2 +1,5 @@
 
-todo Louise: summarise marketing sub pages.
+  - [Social media](social-media/)
+  - [Website](website/)
+  - [Blog](blog/)
+    - [Creating a post](blog/posting/)
