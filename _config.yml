@@ -25,7 +25,12 @@ defaults:
     values:
       layout: post
       class: post
-      
+  - scope:
+      path: "handbook"
+    values:
+      layout: en/handbook
+      class: handbook
+
 sass:
   style: compressed
   sass_dir: _sass
@@ -34,7 +39,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
-  
+
 whitelist:
   - jekyll-feed
   - jekyll-paginate
