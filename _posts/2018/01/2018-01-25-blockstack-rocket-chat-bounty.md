@@ -19,7 +19,7 @@ Five apps have <a href="https://www.coindesk.com/building-blockstack-five-firms-
 
 Blockstack is open source and has more than 7,000 developer and contributors located around the world.
 
-With their current proprietary communication platform they aren't able to restrict who can join channels, making them vulnerable to security threats.
+With their current proprietary communication platform they aren't able to restrict who can join channels, making the community vulnerable to security threats.
 
 This is <a href="https://btcmanager.com/crypto-scammers-infiltrate-slack-communities-aragon-responds/" target="_blank">especially the case for phishing attacks</a> where users modify their profile to impersonate others.
 
