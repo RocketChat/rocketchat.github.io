@@ -9,11 +9,14 @@ keys:
   storage: Storage
   messages: Messages
 
-  other: Services
+  services: Services
   backup: Backups
   monitoring: Monitoring and alerts
   reporting: Statistics and reporting
+
   support: Support
+  email: Email support
+  sla: Monthly uptime guarantee
 
 small:
   name: Small
@@ -30,7 +33,8 @@ small:
   backup: Daily backup
   monitoring: 24x7
   reporting: Weekly
-  support: Rocket.Chat Cloud SLA
+  email: 1 business day
+  sla: 99.9%
 
 medium:
   name: Medium
@@ -47,7 +51,8 @@ medium:
   backup: Twice daily backup
   monitoring: 24x7
   reporting: Daily
-  support: Rocket.Chat Cloud SLA
+  email: 1 business day
+  sla: 99.9%
 
 large:
   name: Large
@@ -64,4 +69,5 @@ large:
   backup: Hourly backup
   monitoring: 24x7
   reporting: Hourly
-  support: Rocket.Chat Cloud SLA
+  email: 4 hours
+  sla: 99.9%
