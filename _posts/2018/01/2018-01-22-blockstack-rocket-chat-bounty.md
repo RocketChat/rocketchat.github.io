@@ -1,18 +1,18 @@
 ## Blockstack announces $25,000 (USD) bounty for Rocket.Chat integration
 
-Rocket.Chat is collaborating with blockchain startup [Blockstack](https://blockstack.org),to build the next-generation messaging platform for cryptocurrency communities. 
+Rocket.Chat is collaborating with blockchain startup [Blockstack](https://blockstack.org), to build the next-generation messaging platform for cryptocurrency communities. 
 
-Blockstack's vision is to build a new decentralized version of the internet where users can take back control of their data from corporations like Amazon, Google and Facebook. 
+Blockstack's vision is to build a new decentralized version of the internet where users can take back control of their data from proprietary closed source solutions. 
 
 Central to Blockstack's vision is the project's suite of decentralized apps that can be accessed through the [Blockstack browser](https://blockstack.org/install).
 
-According to Blockstack, decentralized apps can solve the problems associated with traditional digital services - namely the liability of storing large amounts of customer data vulnerable to hacks. 
+According to Blockstack, decentralized apps can solve the problems associated with traditional digital services - namely the liability of storing large amounts of customer data which can be vulnerable to hackers. 
 
-Five apps have [already been built on Blockstack](link) and the project is expected to release a full developer stack aimed at letting coders build apps in much the same way that Apple facilitates app development.  
+Five apps have [already been built on Blockstack](link) and the project is expected to release a full developer stack aimed at letting coders build apps in much the same way you can builds apps for your desktop or mobile.  
 
 ## Blockstack community
 
-Blockstack is open source and has more than 7,000 developer and contributors located around the world and 4,000 members using its Slack channel. 
+Blockstack is open source and has more than 7,000 developer and contributors located around the world. 
 
 There are aspects of an open source community that can [leave it vulnerable to attack](link).
 
