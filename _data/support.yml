@@ -23,7 +23,7 @@ basic:
   critical: 1 hour
   self-help: <span class="yes"></span>
   ticket: <span class="yes"></span>
-  chat: <span class="yes"></span>
+  chat:
   phone:
   on-boarding:
   migration:
