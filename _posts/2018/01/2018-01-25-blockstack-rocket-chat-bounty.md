@@ -2,7 +2,7 @@
 title: "Blockstack announces $25,000 USD bounty for Rocket.Chat integration"
 date: 2018-01-25 14:23:00
 author: Louise Message
-cover: /images/posts/2018/01/2018-01-25-blockstack-rocket-chat-bounty/blockstack-cover-image.png
+cover: /images/posts/2018/01/2018-01-25-blockstack-rocket-chat-bounty/2018-01-25-blockstack-cover-image-resized.png
 ---
 
 Rocket.Chat is collaborating with blockchain startup <a href="https://blockstack.org" target="_blank">Blockstack</a> to build the next-generation messaging platform for cryptocurrency communities.
