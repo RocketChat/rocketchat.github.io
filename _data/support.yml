@@ -57,8 +57,8 @@ premium:
     </div>
     <a class="button secondary" href="/contact/">Contact Us</a>
 
-  onpremise: <div class="pricing">From <span>$749</span>/month</div>
-  cloud: <div class="pricing">From <span>$1275</span>/month</div>
+  onpremise: <div class="pricing">From <span>$1275</span>/month</div>
+  cloud: <div class="pricing">From <span>$749</span>/month</div>
 
   critical: 30 min
   normal: 8 hour business day
