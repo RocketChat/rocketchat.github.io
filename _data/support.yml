@@ -11,11 +11,11 @@ keys:
   minimum: Minimal business impact
 
   contact: Contact
-  resources: Self help resources
+  resources: Self-help resources
   ticket: Online ticket creation
   email: Email support
-  chat: 24x7 chat support
-  phone: 24x7 phone support
+  chat: 24/7 chat support
+  phone: 24/7 phone support
 
   extras: Extras
   onboarding: Account onboarding
@@ -27,7 +27,7 @@ basic:
   name: Basic
   description: |
     <div class="description">
-      Get Basic support and have the Rocket.Chat experts on-hand in case of an emergency
+      For smaller teams who need basic support and help in case of emergencies
     </div>
     <a class="button secondary" href="/contact/">Contact Us</a>
 
@@ -35,7 +35,7 @@ basic:
   cloud: <div class="pricing">Included</div>
 
   critical: 1 hour
-  normal: 12 hour business day
+  normal: 12 hours
   minimum: 2 business days
 
   resources: <span class="yes"></span>
@@ -53,15 +53,15 @@ premium:
   name: Premium
   description: |
     <div class="description">
-      For larger teams who need quicker responses and 24x7 phone support
+      For larger teams who need a quicker response and 24/7 phone support
     </div>
     <a class="button secondary" href="/contact/">Contact Us</a>
 
   onpremise: <div class="pricing">From <span>$1275</span>/month</div>
   cloud: <div class="pricing">From <span>$749</span>/month</div>
 
-  critical: 30 min
-  normal: 8 hour business day
+  critical: 30 minutes
+  normal: 8 hours
   minimum: 1 business day
 
   resources: <span class="yes"></span>
