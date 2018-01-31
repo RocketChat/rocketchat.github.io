@@ -2,7 +2,7 @@
 title: "Rocket.Chat accelerates collaboration at Southeastern Louisiana University"
 date: 2016-06-13 14:04:15
 author: Marcelo Schmidt
-cover: /images/posts/2017/06/rocket-blasts-in-san-jose/Louisiana Univeristy.png
+cover: /images/posts/2016/06/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university/2018-31-01-southeastern-cover-image.jpg
 redirect_from: /blog/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university
 ---
 <img style="float: right; margin: 0px 0px 50px 50px;" src="/images/posts/2016/06/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university/image00.jpg" width="100" />
@@ -17,7 +17,7 @@ After that they tried Google Chat but most team members went back to ICQ pretty 
 
 Slack was next and the team used that for a few months before realizing that the free version wasn't going to achieve everything they needed. "We liked the features, but would never be able to afford it."
 
-They tried freeware, including ChatGrape and Glip, but the team found problems inherent to using PaaS; Glip's service wasn't as accessible as the team needed it to be and required more admin due to team members creating different accounts.
+They tried freeware, including ChatGrape and Glip, but found the services weren't as accessible as the team needed them to be and required more admin due to team members creating different accounts.
 
 "In the end I brought three standards to my supervisor. The communication platform to replace everything we were using up until then needed to be locally hosted, configurable (open source would be great) and able to use our Active Directory authentication (ldap)."
 
