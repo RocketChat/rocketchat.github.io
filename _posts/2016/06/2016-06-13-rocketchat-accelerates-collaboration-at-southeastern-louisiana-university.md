@@ -2,7 +2,7 @@
 title: "Rocket.Chat accelerates collaboration at Southeastern Louisiana University"
 date: 2016-06-13 14:04:15
 author: Marcelo Schmidt
-cover: /images/posts/2016/06/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university/2018-31-01-southeastern-cover-image.jpg
+cover: /images/posts/2016/06/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university/southeastern-cover-image.jpg
 redirect_from: /blog/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university
 ---
 <img style="float: right; margin: 0px 0px 50px 50px;" src="/images/posts/2016/06/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university/image00.jpg" width="100" />
