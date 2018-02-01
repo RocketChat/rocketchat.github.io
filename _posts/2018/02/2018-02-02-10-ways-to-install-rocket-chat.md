@@ -17,16 +17,16 @@ Since its release over a year ago, the Rocket.Chat snap has been installed more 
 <a target="_blank" href="https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/">Install the Rocket.Chat snap.</a>
 
 ## 2. Raspberry Pi
-
+<img src="/images/posts/2018/02/raspberry-pi-logo.png" height="120" width="99" alt="Raspberry Pi logo" style="float: right; margin: 10px;">
 Run your own private chat server from just $5 with Rocket.Chat and Raspberry Pi, the tiny computer that revolutionizsed affordable servers.
 
 Community members are running Rocket.Chat on every model of Pi ever manufactured, including the $5 Pi Zero, meaning you can affordably run your own private social network at home.
 
-<a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.RaspberryPi">running Rocket.Chat on the $30 Raspberry Pi 3.</a>
+<a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.RaspberryPi">Running Rocket.Chat on the $30 Raspberry Pi 3.</a>
 
 ## 3. Sandstorm
 
-Sandstorm makes it easy for non-techninal users to install open source software - without the need to administer their own server.
+Sandstorm makes it easy for non-techninal users to install open source software—without the need to administer their own server.
 
 Popular open source solutions like Rocket.Chat are available in Sandstorm's one-click install App Market.
 
@@ -39,7 +39,7 @@ openSUSE has a strong following thanks to its stability, active community and th
 <a target="_blank" href="https://rocket.chat/docs/installation/manual-installation/opensuse/">Install Rocket.Chat on openSUSE.</a>
 
 ## 5. Heroku
-
+<img src="/images/posts/2018/02/hosting_heroku.png" height="100" width="99" alt="Heroku logo" style="float: left; margin: 10px;">
 Heroku is a cloud platform that enables companies to quickly scale apps without the burden of hardware or servers.
 
 Rocket.Chat is <a target="_blank" href="https://elements.heroku.com/buttons/rocketchat/rocket.chat">available as a one-click install</a> from the Heroku Elements Marketplace.
@@ -69,14 +69,14 @@ You can <a target="_blank" href="https://console.cloud.google.com/freetrial">try
 Watch this tutorial for <a target="_blank" href="https://www.youtube.com/watch?v=BeWmFX6-a5w">more information on installing Rocket.Chat on Google Cloud Platform</a>.
 
 ## 9. Kubernetes
-
+<img src="/images/posts/2018/02/Kubernetes logo.png" height="100" width="99" alt="Heroku logo" style="float: right; margin: 10px;">
 This open source platform is designed to make deploying, scaling and operating application containers easy.
 
-Read the Xenonstack's post on <a target="_blank" href="https://www.xenonstack.com/blog/devops/how-to-deploy-rocket-chat-on-kubernetes">deploying Rocket.Chat on Kubernetes</a>.
+Read Xenonstack's post on <a target="_blank" href="https://www.xenonstack.com/blog/devops/how-to-deploy-rocket-chat-on-kubernetes">deploying Rocket.Chat on Kubernetes</a>.
 
 ## 10. Rocket.Chat Cloud
 
-Rocket.Chat Cloud, built on Docker and Kubernetes, gives users the benefits of an open source communication without having to setup and scale infrastructure.
+Rocket.Chat Cloud, built on Docker and Kubernetes, gives users the benefits of an open source communication platform without having to setup and scale infrastructure.
 
 Rocket.Chat Cloud plans start at $50/month and include weekly statistics, reporting and support.
 
