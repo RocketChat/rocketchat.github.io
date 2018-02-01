@@ -16,15 +16,9 @@ Since its release over a year ago, the Rocket.Chat snap has been installed more 
 
 <a target="_blank" href="https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/">Install the Rocket.Chat snap.</a>
 
-## 2. Raspberry Pi
-<img src="/images/posts/2018/02/raspberry-pi-logo.png" height="120" width="99" alt="Raspberry Pi logo" style="float: right; margin: 10px;">
-Run your own private chat server from just $5 with Rocket.Chat and Raspberry Pi, the tiny computer that revolutionizsed affordable servers.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sx1nqxThib8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Community members are running Rocket.Chat on every model of Pi ever manufactured, including the $5 Pi Zero, meaning you can affordably run your own private social network at home.
-
-<a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.RaspberryPi">Running Rocket.Chat on the $30 Raspberry Pi 3.</a>
-
-## 3. Sandstorm
+## 2. Sandstorm
 
 Sandstorm makes it easy for non-techninal users to install open source software—without the need to administer their own server.
 
@@ -32,14 +26,24 @@ Popular open source solutions like Rocket.Chat are available in Sandstorm's one-
 
 <a target="_blank" href="https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0">Download Rocket.Chat from Sandstorm.</a>
 
-## 4. openSUSE
+## 3. openSUSE
 
 openSUSE has a strong following thanks to its stability, active community and the popularity of YaST, openSUSE's installation and configuration tool.
 
 <a target="_blank" href="https://rocket.chat/docs/installation/manual-installation/opensuse/">Install Rocket.Chat on openSUSE.</a>
 
+## 4. Raspberry Pi
+
+Run your own private chat server from just $5 with Rocket.Chat and Raspberry Pi, the tiny computer that revolutionizsed affordable servers.
+
+Community members are running Rocket.Chat on every model of Pi ever manufactured, including the $5 Pi Zero, meaning you can affordably run your own private social network at home.
+
+<a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.RaspberryPi">Running Rocket.Chat on the $30 Raspberry Pi 3.</a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BevcvRLsa9Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## 5. Heroku
-<img src="/images/posts/2018/02/hosting_heroku.png" height="100" width="99" alt="Heroku logo" style="float: left; margin: 10px;">
+
 Heroku is a cloud platform that enables companies to quickly scale apps without the burden of hardware or servers.
 
 Rocket.Chat is <a target="_blank" href="https://elements.heroku.com/buttons/rocketchat/rocket.chat">available as a one-click install</a> from the Heroku Elements Marketplace.
@@ -52,15 +56,7 @@ Their $10 per month droplet plan meets the <a target="_blank" href="https://rock
 
 Read the documentation on <a target="_blank" href="https://rocket.chat/docs/installation/paas-deployments/digital-ocean/">deploying Rocket.Chat on DigitalOcean</a>.
 
-## 7. Ansible
-
-"Radically simple" Ansible believes in automation for everyone. Ansible automates cloud provisioning, configuration management and application deployments and many other IT needs.
-
-For those unfamiliar with Ansible, the Rocket.Chat documentation explains how to quickly setup an Ansible environment with the end goal of deploying Rocket.Chat to one or more servers.
-
-Read the documentation on <a target="_blank" href="https://rocket.chat/docs/installation/automation-tools/ansible/">deploying Rocket.Chat with Ansible</a>.
-
-## 8. Google Cloud Platform
+## 7. Google Cloud Platform
 
 Google Cloud Platform uses Google's core infrastructure and data analytics, making it easy for businesses and developers to scale their apps.
 
@@ -68,8 +64,18 @@ You can <a target="_blank" href="https://console.cloud.google.com/freetrial">try
 
 Watch this tutorial for <a target="_blank" href="https://www.youtube.com/watch?v=BeWmFX6-a5w">more information on installing Rocket.Chat on Google Cloud Platform</a>.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BeWmFX6-a5w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## 8. Ansible
+
+"Radically simple" Ansible believes in automation for everyone. Ansible automates cloud provisioning, configuration management and application deployments and many other IT needs.
+
+For those unfamiliar with Ansible, the Rocket.Chat documentation explains how to quickly setup an Ansible environment with the end goal of deploying Rocket.Chat to one or more servers.
+
+Read the documentation on <a target="_blank" href="https://rocket.chat/docs/installation/automation-tools/ansible/">deploying Rocket.Chat with Ansible</a>.
+
 ## 9. Kubernetes
-<img src="/images/posts/2018/02/Kubernetes logo.png" height="100" width="99" alt="Heroku logo" style="float: right; margin: 10px;">
+
 This open source platform is designed to make deploying, scaling and operating application containers easy.
 
 Read Xenonstack's post on <a target="_blank" href="https://www.xenonstack.com/blog/devops/how-to-deploy-rocket-chat-on-kubernetes">deploying Rocket.Chat on Kubernetes</a>.
