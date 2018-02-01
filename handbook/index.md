@@ -1,5 +1,6 @@
 
 - [Onboarding](onboarding/)
+  - [Team Page](onboarding/team-page/)
   - [Marketing](onboarding/marketing/)
 - [Meetings](meetings/)
 - [Marketing](marketing/)
