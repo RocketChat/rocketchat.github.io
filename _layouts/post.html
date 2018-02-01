@@ -5,7 +5,7 @@ class: post
 
 <section class="post">
   <div class="wrapper">
-    
+
     <div class="meta">
       <span class="author">{{ page.author }}</span> -
       <span class="read">
@@ -15,7 +15,7 @@ class: post
       <span class="date"> {{ page.date | date: "%b %-d, %Y" }}</span>
     </div>
     <h1>{{ page.title | escape }}</h1>
-    
+
     <div class="content">
       {% if page.ios_release %}
       <a href="https://itunes.apple.com/app/rocket-chat/id1148741252"><img class="itunes" src="/images/download/itunes-store.svg"></a>
@@ -23,11 +23,17 @@ class: post
 
       {{ content }}
     </div>
-    
-    <em>
-      To find out where the Rocket.Chat team will be next or to learn about why people choose Rocket.Chat over other solutions, follow us on social media and our blog.
-    </em>
+
+    <div>
+      <em>
+        To find out where the Rocket.Chat team will be next or to learn about why people choose Rocket.Chat over other solutions, follow us on social media and our blog.
+      </em>
+    </div>
+
+    {% include mailchimp.html %}
     {% include social.html %}
-    
+
+    <div class="clear"></div>
+
   </div>
 </section>

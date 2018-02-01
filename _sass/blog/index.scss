@@ -4,7 +4,7 @@ body.blog {
   .posts {
     background-color: #f9f9f9;
     padding: 6em 0;
-  
+
     ul {
       margin: 0;
       list-style: none;
@@ -12,37 +12,38 @@ body.blog {
       display: grid;
       grid-template-columns: repeat(2, 0.5fr);
       grid-gap: 28px;
-      
+
       li {
         border: 1px solid #ccc !important;
         border-radius: 4px;
         height: 500px;
         background-color: #fff;
         box-shadow: 0 3px 3px rgba(0,0,0,0.1);
-        
+
         .header {
           display: block;
           height: 240px;
           width: 100%;
           background-position: 50% 50%;
+          background-repeat: no-repeat;
         }
-        
+
         .content {
           padding: 15px;
-          
+
           h2 {
             margin-bottom: 5px;
           }
-          
+
           .meta {
             font-size: small;
             height: 1.8em;
           }
-          
+
           .date {
             float: right;
           }
-                  
+
           .top {
             height: 200px;
           }
@@ -50,44 +51,44 @@ body.blog {
       }
     }
   }
-  
+
   .pagination {
     margin-top: 2em;
     text-align: center;
-    
+
     .next, .previous {
       width: 100px;
     }
-    
+
     .previous {
       float: left;
       text-align: left;
     }
-    
+
     .next {
       float: right;
       text-align: right;
     }
   }
-  
+
   @media all and (max-width: 900px) {
     .posts ul {
       display: block;
       padding: 0;
-      
+
       li {
-        height: 420px;
+        height: auto;
         margin-bottom: 30px;
-        
+
         .header {
-          height: 120px;
+          height: 240px;
         }
-        
+
         .content .top {
-          height: 250px;
+          height: auto;
         }
       }
     }
   }
-  
+
 }

@@ -18,11 +18,13 @@ redirect_from:
   <div class="wrapper">
     <h1>Rocket.Chat Blog</h1>
     <em>Find out what the Rocket.Chat team and community have been up to</em>
+    {% include mailchimp.html %}
   </div>
 </section>
 
 <section class="posts">
   <div class="wrapper">
+
     <ul>
       {% for post in paginator.posts %}
       <li class="post">
@@ -60,7 +62,17 @@ redirect_from:
       {% else %}
         <span class="previous">Previous</span>
       {% endif %}
-      <span class="page ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <strong>{{ page }}</strong>
+        {% elsif page == 1 %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
       {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path }}" class="next">Next</a>
       {% else %}

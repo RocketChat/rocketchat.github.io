@@ -1,8 +1,6 @@
 # rocket.chat
 
-The Rocket.Chat website.
-
-In development, latest `master` viewable on [GitHub Pages](https://rocketchat.github.io/www.rocket.chat)
+Source for the [Rocket.Chat website](https://rocket.chat).
 
 ## Site structure
 

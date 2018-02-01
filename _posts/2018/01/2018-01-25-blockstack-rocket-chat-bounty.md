@@ -43,4 +43,4 @@ The deadline for the project is **16th February**.
 
 To help with your developmental efforts, architects and core team members will be available in the <a href="https://forums.rocket.chat/t/blockstack-announces-usd-25-000-bounty-for-authentication-integration-in-rocket-chat/115" target="_blank">Rocket.Chat forum</a> and <a href="https://forum.blockstack.org" target="_blank">Blockstack forum</a> to answer queries.
 
-In early Febraury, both Rocket.Chat and Blockstack will be holding out-of-office hours to provide consultation to registered teams.
+In early February, both Rocket.Chat and Blockstack will be holding out-of-office hours to provide consultation to registered teams.

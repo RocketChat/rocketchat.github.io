@@ -51,8 +51,25 @@ body.post {
     }
   }
 
+  .mailchimp, .social {
+    float: left;
+  }
+
+  .social {
+    width: 320px;
+    margin: 10px 0 0 1em;
+  }
+
   twitterwidget {
     margin: 2em auto !important;
+  }
+
+  @media all and (max-width: 700px) {
+    .mailchimp, .social {
+      clear: both;
+      margin-left: 0;
+    }
+
   }
 
 }
