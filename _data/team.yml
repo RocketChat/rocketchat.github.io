@@ -11,7 +11,7 @@
   department: Technology
   username: rodrigo.nascimento
   photo: yes
-  
+
 - name: Marcelo Schmidt
   title: COO
   github_username: marceloschmidt
@@ -53,7 +53,7 @@
   department: Technology
   username: martin.schoeler
   photo: yes
-      
+
 - name: Aaron Ogle
   title: Lead Cloud Architect
   github_username: geekgonecrazy
@@ -74,21 +74,21 @@
   department: Technology
   username: karl.prieb
   photo: yes
-    
+
 - name: Diego Dorgam
   title: Bots Engineer
   github_username: diegodorgam
   github_uid: 12052193
   department: Development
   username: diego.dorgam
-  
+
 - name: Guilherme Gazzo
   title: Full Stack Engineer
   github_username: ggazzo
   department:
   username: guilherme.gazzo
   photo: yes
-    
+
 - name: Gabriel Delavald
   title: Front End Engineer
   github_username: gdelavald
@@ -130,7 +130,7 @@
   department: Sales
   username: arthur.giustina
   photo: yes
-        
+
 - name: Júlia Grala
   title: Business Development
   github_username: juliagrala
@@ -157,4 +157,12 @@
   github_username: cardoso
   department: Mobile
   username: matheus.cardoso
+  photo: yes
+
+- name: Louise Message
+  title: Junior Marketing Assistant
+  github_username: louisemessage
+  github_uid: 34244014
+  department: Marketing
+  username: louise.message
   photo: yes
