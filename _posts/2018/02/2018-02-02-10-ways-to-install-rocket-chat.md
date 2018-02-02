@@ -34,7 +34,7 @@ openSUSE has a strong following thanks to its stability, active community and th
 
 ## 4. Raspberry Pi
 
-Run your own private chat server from just $5 with Rocket.Chat and Raspberry Pi, the tiny computer that revolutionizsed affordable servers.
+Run your own private chat server from just $5 with Rocket.Chat and Raspberry Pi, the tiny computer that revolutionized affordable servers.
 
 Community members are running Rocket.Chat on every model of Pi ever manufactured, including the $5 Pi Zero, meaning you can affordably run your own private social network at home.
 
