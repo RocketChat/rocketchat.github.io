@@ -1,10 +1,10 @@
 ---
-title: The 10 best integrations for Rocket.Chat
-date: 2018-06-02 09:00:00
+title: 10 of the best Rocket.Chat integrations
+date: 2018-02-12 10:00:00
 author: Louise Message
 ---
 
-Rocket.Chat might have plenty of out-of-the-box features, but you can make it even more useful, efficient—and fun!—with integrations.
+Rocket.Chat might have plenty of out-of-the-box features, but you can make it even more useful, efficient and fun with integrations.
 
 Integrations (based on webhooks) connect the tools you already use with Rocket.Chat for a simplified workflow and improved team communication.
 
@@ -14,7 +14,7 @@ This post covers ten of the best integrations created by the Rocket.Chat team an
 
 GitHub makes it easy to store Git projects, track changes and stay organized when working on individual or team projects.
 
- It's been used for projects as diverse as creating a repository for <a href="http://gregorio-project.github.io" target="_blank">Gregorian Chants</a> to storing the <a href="https://github.com/benbalter/congressional-districts" target="_blank">history of U.S. congressional districts</a> to a popular open source team chat solution(!).
+It's been used for projects as diverse as creating a repository for <a href="http://gregorio-project.github.io" target="_blank">Gregorian Chants</a> to storing the <a href="https://github.com/benbalter/congressional-districts" target="_blank">history of U.S. congressional districts</a> to a popular open source team chat solution.
 
 With the GitHub integration for Rocket.Chat you can receive alerts, commit events and make pull requests.
 
@@ -36,8 +36,6 @@ Guggy is slash-style command for Rocket.Chat that sends your regular text messag
 
 Learn how to <a href="https://github.com/thorstenspringhart/GuggyRocketChat" target="_blank">integrate Guggy.</a>
 
-Thank you to <a href="https://github.com/thorstenspringhart" target="_blank">**thorstenspringhart**</a> for your contribution.
-
 ## Jira
 
 The software development app favored by many product teams, Jira makes it easy to plan, track and ship software.
@@ -56,21 +54,15 @@ The integration for Rocket.Chat posts details about any events scheduled for tha
 
 Learn how to <a href="https://github.com/koyan/rocketchat-google-calendar" target="_blank">integrate Google Calendar</a>
 
-
 ## BitRocket
 
-Another contribution from our passionate community, BitRocket integrates Atlassian BitBucket Server or Cloud with Rocket.Chat to send notifications for push/ pull requests or comments on pull requests to any branch.
+Another contribution from our passionate community, BitRocket integrates Atlassian BitBucket Server or Cloud with Rocket.Chat to send notifications for code pushes and pull requests or comments on pull requests to any branch.
 
 Learn how to <a href="https://github.com/FinndropStudios/BitRocket" target="_blank">integrate BitRocket</a>.
 
-
-
-Thank you to <a href="https://github.com/manuelbachl" target="_blank">**manuelbachl**</a> for your contribution.
-
-
 ## Sentry
 
-An open source error tracking tool that helps developers track and fix crashes in real time.
+Sentry is an open source error tracking tool that helps developers track crashes in real time.
 
 This integration works both for Sentry's site and the self-hosted version.
 
@@ -84,7 +76,6 @@ The Moodle integration enables users to push students from Moodle into channels 
 
 Learn how to <a href="https://github.com/getsmarter/moodle-local_rocketchat" target="_blank">integrate Moodle</a>.
 
-
 ## Dead Simple Screen Sharing
 
 Share your screen for free with no install or signup. There's also an open source version <a href="https://github.com/mlakkadshaw/DeadSimpleScreeSharing" target="_blank">available on GitHub</a>.
@@ -95,11 +86,8 @@ Learn how to <a href="https://rocket.chat/docs/administrator-guides/integrations
 
 ## rocket-chat-lunch-club
 
-Spend less time arguing over where to order food on Fridays with rocket-chat-team-lunch, a community-built integration that picks a restaurant at random when you send a food emoji.
+Spend less time arguing over where to order team lunches with rocket-chat-team-lunch, a community-built integration that picks a restaurant at random when you send a food emoji.
 
-To make the integration even more efficient, consider adding a PDF menu to the attachments field to view the restaurant's offerings without leaving Rocket.Chat
+To make the integration even more efficient, you can add PDF food menus to the attachments field to view the restaurant's offerings without leaving Rocket.Chat
 
 Learn how to integrate <a href="https://github.com/Grayda/rocket-chat-lunch-club" target="_blank">rocket-chat-lunch-club</a>.
-
-
-Thank you to <a href="https://github.com/Grayda" target="_blank">**Grayda**</a> for your contribution.
