@@ -1,7 +1,7 @@
 ---
 title: "20 Things You Should Be Doing with Rocket.Chat"
 categories:
-- Features
+  - Features
 date: 2016-09-01 14:13:25
 author: Marcelo Schmidt
 cover: /images/posts/2016/09/20-things-you-should-be-doing-with-rocketchat/technology-791029_1280.jpg

@@ -1,8 +1,8 @@
 ---
 title: "Call to Community: Meet the Rocket.Chat Gang at Google Cloud Next 2017"
 categories:
-- Events
-- Community
+  - Events
+  - Community
 date: 2017-02-17 12:22:57
 author: Sing Li
 cover: /images/posts/2017/02/call-to-community-google-cloud-next-2017/Next17-1.jpg

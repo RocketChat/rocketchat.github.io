@@ -1,9 +1,9 @@
 ---
 title:  Electron 2.10.2 hotfix release
 categories:
-- Security
-- Releases
-- Apps
+  - Security
+  - Releases
+  - Apps
 date: 2018-01-25 10:00:00
 author: Louise Message
 ---

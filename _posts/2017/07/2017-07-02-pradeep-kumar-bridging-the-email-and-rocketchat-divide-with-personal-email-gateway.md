@@ -1,7 +1,7 @@
 ---
 title: "Pradeep Kumar: Bridging the email and chat divide with Personal Gateway"
 categories:
-- GSoC
+  - GSoC
 date: 2017-07-02 22:27:06
 author: Sing Li
 cover: /images/posts/2017/07/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation/gsoc.png

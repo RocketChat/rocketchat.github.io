@@ -1,8 +1,8 @@
 ---
 title: 10 ways to install Rocket.Chat
 categories:
-- Features
-- Community
+  - Features
+  - Community
 date: 2018-02-01 09:00:00
 author: Louise Message
 ---

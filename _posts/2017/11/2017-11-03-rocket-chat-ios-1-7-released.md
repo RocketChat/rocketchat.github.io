@@ -1,9 +1,9 @@
 ---
 title: "Rocket.Chat iOS 1.7 Released"
 categories:
-- Releases
-- Features
-- Apps
+  - Releases
+  - Features
+  - Apps
 date: 2017-11-03 10:00:00
 author: Sean Packham
 ios_release: true

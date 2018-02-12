@@ -1,8 +1,8 @@
 ---
 title: "New Desktop App Release Available for Windows, Linux and MacOS"
 categories:
-- Releases
-- Apps
+  - Releases
+  - Apps
 date: 2017-08-26 14:01:55
 author: Sing Li
 cover: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/Screen Shot 2017-08-26 at 10.13.30 AM.png

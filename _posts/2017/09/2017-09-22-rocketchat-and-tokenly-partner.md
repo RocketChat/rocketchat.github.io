@@ -1,8 +1,8 @@
 ---
 title: "Rocket.Chat and Tokenly Announce New Partnership"
 categories:
-- Partnerships
-- Community
+  - Partnerships
+  - Community
 date: 2017-09-22 21:26:41
 author: Sing Li
 cover: /images/posts/2017/09/rocketchat-and-tokenly-partner/rocktok.png

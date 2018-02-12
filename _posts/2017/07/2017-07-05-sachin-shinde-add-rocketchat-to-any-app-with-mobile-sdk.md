@@ -1,7 +1,7 @@
 ---
 title: "Sachin Shinde: Add Rocket.Chat to any app with mobile SDK"
 categories:
-- GSoC
+  - GSoC
 date: 2017-07-05 23:57:44
 author: Sing Li
 cover: /images/posts/2017/07/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation/gsoc.png

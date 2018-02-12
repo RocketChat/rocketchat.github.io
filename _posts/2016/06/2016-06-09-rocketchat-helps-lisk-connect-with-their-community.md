@@ -1,8 +1,8 @@
 ---
 title: "Rocket.Chat Helps Lisk Connect with Their Community"
 categories:
-- Customer Success
-- Community
+  - Customer Success
+  - Community
 date: 2016-06-09 19:58:37
 author: Marcelo Schmidt
 cover: /images/posts/2016/06/rocketchat-helps-lisk-connect-with-their-community/lisk-big.jpg

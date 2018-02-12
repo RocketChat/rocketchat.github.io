@@ -1,8 +1,8 @@
 ---
 title: "Arvato Systems:  Making Connections at Conferences and Trade Fairs"
 categories:
-- Partnership
-- Customer Success
+  - Partnership
+  - Customer Success
 date: 2017-01-25 06:01:00
 author: Sing Li
 cover: /images/posts/2017/01/making-connections-at-conferences-and-trade-fairs/avartologo.jpg

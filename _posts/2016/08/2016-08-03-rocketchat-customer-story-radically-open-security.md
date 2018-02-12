@@ -1,8 +1,8 @@
 ---
 title: How Radically Open Security uses Rocket.Chat
 categories:
-- Customer Success
-- Features
+  - Customer Success
+  - Features
 date: 2016-08-03 12:13:19
 author: Marcelo Schmidt
 cover: /images/posts/2016/08/rocketchat-customer-story-radically-open-security/ros-logo.jpg

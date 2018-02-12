@@ -1,9 +1,9 @@
 ---
 title: "TechMeetsTrader: Creating the Facebook of Stocks"
 categories:
-- Partnerships
-- Community
-- Features
+  - Partnerships
+  - Community
+  - Features
 date: 2017-01-04 16:35:43
 author: Sing Li
 cover: /images/posts/2017/01/creating-facebook-of-stocks/business-1730089_1920.jpg
