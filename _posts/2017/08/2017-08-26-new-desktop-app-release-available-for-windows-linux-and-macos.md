@@ -1,12 +1,15 @@
 ---
 title: "New Desktop App Release Available for Windows, Linux and MacOS"
+categories:
+- Releases
+- Apps
 date: 2017-08-26 14:01:55
 author: Sing Li
 cover: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/Screen Shot 2017-08-26 at 10.13.30 AM.png
 redirect_from: /blog/new-desktop-app-release-available-for-windows-linux-and-macos
 ---
 
-Today we are happy to announce the new release of the Rochet.Chat+ Desktop App, version 2.9.0 for Windows, Linux and MacOs; bringing our users new features and much anticipated fixes. All the new Desktop Apps are available for [download immediately](https://rocket.chat/download).  
+Today we are happy to announce the new release of the Rochet.Chat+ Desktop App, version 2.9.0 for Windows, Linux and MacOs; bringing our users new features and much anticipated fixes. All the new Desktop Apps are available for [download immediately](https://rocket.chat/download).
 
 This new version brings a large number of improvements, from easier deployment for companies to better notifications. We aimed to improve the apps incrementally by fixing bugs and implementing some widely requested usability features.
 
@@ -22,9 +25,9 @@ Ubuntu users, we will have our desktop client snap updated shortly.  For Fedora
 
 Contributed to this release:
 
-*   [alexbrazier](https://github.com/alexbrazier)     
-*   [gdelavald](https://github.com/gdelavald)       
+*   [alexbrazier](https://github.com/alexbrazier)   
+*   [gdelavald](https://github.com/gdelavald)     
 *   [engelgabriel](https://github.com/engelgabriel)   
-*   [localguru]( https://github.com/localguru)      
-*   [phidlipus](https://github.com/phidlipus)    
-*   [rodrigok](https://github.com/rodrigok)     
+*   [localguru]( https://github.com/localguru)    
+*   [phidlipus](https://github.com/phidlipus)  
+*   [rodrigok](https://github.com/rodrigok)   

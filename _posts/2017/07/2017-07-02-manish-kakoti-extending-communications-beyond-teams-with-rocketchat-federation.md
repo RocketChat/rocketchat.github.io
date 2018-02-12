@@ -1,5 +1,7 @@
 ---
 title: "Manish Kakoti:  Extending communications beyond teams with Federation"
+categories:
+- GSoC
 date: 2017-07-02 22:21:50
 author: Sing Li
 cover: /images/posts/2017/07/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation/gsoc.png

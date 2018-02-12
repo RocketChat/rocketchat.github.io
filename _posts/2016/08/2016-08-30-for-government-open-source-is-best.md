@@ -1,5 +1,7 @@
 ---
 title: "For Government, Open Source is Best."
+categories:
+- Open Source
 date: 2016-08-30 15:40:57
 author: Marcelo Schmidt
 cover: /images/posts/2016/08/for-government-open-source-is-best/bulgaria-open-source-e1468045782370-300x160.jpg

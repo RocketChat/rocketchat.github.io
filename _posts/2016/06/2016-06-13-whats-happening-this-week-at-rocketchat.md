@@ -1,5 +1,8 @@
 ---
 title: "What's Happening: This Week at Rocket.Chat"
+categories:
+- Features
+- Partnerships
 date: 2016-06-13 17:07:21
 author: Marcelo Schmidt
 cover: /images/posts/2016/06/whats-happening-this-week-at-rocketchat/sylvester-541440_1920.jpg

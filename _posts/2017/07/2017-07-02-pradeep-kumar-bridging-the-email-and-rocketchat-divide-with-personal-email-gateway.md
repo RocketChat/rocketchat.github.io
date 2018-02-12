@@ -1,11 +1,13 @@
 ---
 title: "Pradeep Kumar: Bridging the email and chat divide with Personal Gateway"
+categories:
+- GSoC
 date: 2017-07-02 22:27:06
 author: Sing Li
 cover: /images/posts/2017/07/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation/gsoc.png
 redirect_from: /blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation
 ---
-_This series of blogs brings you a little closer to our active student contributors for the [Google Summer of Code 2017](https://rocket.chat/docs/contributing/google-summer-of-code) summer season. You will see their ongoing work featured throughout our [GitHub repositories](https://github.com/RocketChat) . Feel free to drop by and say "hello", or start collaborating on any of the projects._  
+_This series of blogs brings you a little closer to our active student contributors for the [Google Summer of Code 2017](https://rocket.chat/docs/contributing/google-summer-of-code) summer season. You will see their ongoing work featured throughout our [GitHub repositories](https://github.com/RocketChat) . Feel free to drop by and say "hello", or start collaborating on any of the projects._
 
 As someone who has always been interested in computers and how they work, Pradeep Kumar was extremely keen to find experience outside of his Computer Science & Engineering course at the [Indian Institute of Technology Patna](https://iitp.ac.in/), Bihar (IIT Patna). 
 

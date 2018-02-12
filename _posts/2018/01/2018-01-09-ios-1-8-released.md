@@ -1,20 +1,23 @@
 ---
 title: "Rocket.Chat iOS 1.8 Released"
+categories:
+- Releases
+- Apps
 date: 2018-01-10 14:23:00
 author: Louise Message
 ios_release: true
 ---
 
-Rocket.Chat is excited to announce our new release for iOS (1.8.0) with the following highlighted features: 
+Rocket.Chat is excited to announce our new release for iOS (1.8.0) with the following highlighted features:
 
 - Message reactions
 - Auto-completion for server commands
-- Access to admin panel 
-- Various bug fixes and performance improvements. 
+- Access to admin panel
+- Various bug fixes and performance improvements.
 
 ## Contributor spotlight
 
-[Luca Zimmerman](https://github.com/soundstorm) is our featured contributor for this release. Thank you for your great work on testing the app and reporting issues. 
+[Luca Zimmerman](https://github.com/soundstorm) is our featured contributor for this release. Thank you for your great work on testing the app and reporting issues.
 
 ## Message reactions
 
@@ -26,7 +29,7 @@ Users can see, add, or remove emoji reactions to any message. Rocket.Chat iOS al
 
 <div class="left copy">
 <p>
-Slash commands are shown in auto-complete view. This feature will only work on Rocket.Chat servers above 0.60.0. 
+Slash commands are shown in auto-complete view. This feature will only work on Rocket.Chat servers above 0.60.0.
 </p>
 </div>
 <div class="right image">
@@ -36,11 +39,11 @@ Slash commands are shown in auto-complete view. This feature will only work on R
 </div>
 <div class="clear"></div>
 
-## In-app access to admin panel 
+## In-app access to admin panel
 
 <div class="left copy">
 <p>
-Users with an admin account will be able to access the admin panel from Rocket.Chat iOS. 
+Users with an admin account will be able to access the admin panel from Rocket.Chat iOS.
 </p>
 </div>
 <div class="right image">
@@ -60,11 +63,11 @@ When searching for another user, users who have most recently sent a message app
 
 ## More efficient channel creation
 
-Create a new channel and add users to it at the same time. 
+Create a new channel and add users to it at the same time.
 
 ## Release contributors
 
-This release was made possible thanks to the hard work of the following contributors: 
+This release was made possible thanks to the hard work of the following contributors:
 
 <ul>
   <li><a target="_blank" href="https://github.com/cardoso">cardoso</a></li>

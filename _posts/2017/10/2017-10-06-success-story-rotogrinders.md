@@ -1,5 +1,8 @@
 ---
 title: "Customer Success Story:  RotoGrinders"
+categories:
+- Customer Success
+- Features
 date: 2017-10-06 16:45:10
 author: Sing Li
 cover: /images/posts/2017/10/success-story-rotogrinders/rotogrinders.png

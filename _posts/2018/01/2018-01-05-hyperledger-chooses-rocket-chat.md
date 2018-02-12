@@ -1,5 +1,9 @@
 ---
 date: 2018-01-05 11:26:00
+categories:
+- Customer Success
+- Features
+- Community
 title: Hyperledger chooses Rocket.Chat
 date: 2018-01-05 11:26:00
 author: Louise Message

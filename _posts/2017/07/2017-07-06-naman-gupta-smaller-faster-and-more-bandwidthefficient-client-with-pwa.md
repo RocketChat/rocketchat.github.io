@@ -1,5 +1,7 @@
 ---
 title: "Naman Gupta :  Lightweight bandwidth-efficient client with PWA"
+categories:
+- GSoC
 date: 2017-07-06 00:01:31
 author: Sing Li
 cover: /images/posts/2017/07/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation/gsoc.png

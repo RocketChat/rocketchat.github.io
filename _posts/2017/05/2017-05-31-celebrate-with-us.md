@@ -1,5 +1,8 @@
 ---
 title: "Celebrate with us!"
+categories:
+- Events
+- Community
 date: 2017-05-31 22:03:40
 author: Sing Li
 cover: /images/posts/2017/05/celebrate-with-us/balloons.jpg

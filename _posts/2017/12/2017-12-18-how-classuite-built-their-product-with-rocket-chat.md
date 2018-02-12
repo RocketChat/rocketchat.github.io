@@ -1,6 +1,10 @@
 ---
 date: 2017-12-06 10:00:00
 title: How Classuite built their product with Rocket.Chat
+categories:
+- Customer Success
+- Features
+- Community
 date: 2017-12-18 08:00:00
 author: Louise Message
 cover: /images/posts/2017/12/how-classuite-built-their-product-with-rocket-chat/cover.png

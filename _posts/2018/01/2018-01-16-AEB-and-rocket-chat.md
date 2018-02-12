@@ -1,6 +1,10 @@
 ---
 date: 2018-01-16 14:11:00
 title: Changing the way government organizations work with Rocket.Chat
+categories:
+- Customer Success
+- Features
+- Community
 author: Louise Message
 cover: /images/posts/2018/01/2018-01-06-AEB-and-rocket-chat/2018-01-16-AEB-blog-cover.jpg
 ---

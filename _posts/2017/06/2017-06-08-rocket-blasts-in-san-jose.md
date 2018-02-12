@@ -1,5 +1,8 @@
 ---
 title: "Rocket Blasts in San Jose"
+categories:
+- Events
+- Community
 date: 2017-06-08 18:57:52
 author: Sing Li
 cover: /images/posts/2017/06/rocket-blasts-in-san-jose/meetupfront.jpg

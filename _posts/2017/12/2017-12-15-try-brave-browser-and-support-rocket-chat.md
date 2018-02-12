@@ -1,5 +1,7 @@
 ---
 title: "Try Brave Browser-Support Rocket.Chat"
+categories:
+- Partnerships
 date: 2017-12-15 00:00:00
 author: Sing Li
 cover: /images/posts/2017/12/try-brave-browser-and-support-rocket-chat/brave-rc.png
@@ -7,13 +9,13 @@ redirect_from: /blog/try-brave-browser-and-support-rocket-chat
 ---
 
 
-Rocket.Chat is proud to be an official Brave verified publisher. Now you can support Rocket.Chat by using the Brave browser. 
+Rocket.Chat is proud to be an official Brave verified publisher. Now you can support Rocket.Chat by using the Brave browser.
 
 ## Brave restores full web privacy
 
 The [Brave browser](https://brave.com/) is a revolutionary new browser, brought to you by the cofounder of Mozilla and inventor of JavaScript - Brendan Eich. Brave leverages blockchain technology to restore control over your web surfing privacy.
 
-Brave puts web privacy control back in your hands. It can completely block all trackers and eliminate annoying targeted ads from your daily web surfing. Instead, you can choose which website you trust and desire to support via Brave Payments. 
+Brave puts web privacy control back in your hands. It can completely block all trackers and eliminate annoying targeted ads from your daily web surfing. Instead, you can choose which website you trust and desire to support via Brave Payments.
 
 ## Blockchain powered reward system
 
@@ -33,5 +35,3 @@ Support Rocket.Chat and use Brave with Rocket.Chat today!
 
 1. [Brave Grants 300000 Crypto Tokens to Browser Users](https://basicattentiontoken.org/brave-grants-300000-crypto-tokens-to-browser-users/)
 1. [Google and Facebook too can be disrupted](https://www.bloomberg.com/view/articles/2017-12-08/google-and-facebook-too-can-be-disrupted)
-
-

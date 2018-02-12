@@ -1,5 +1,8 @@
 ---
 title: "Rocket.Chat in Barcelona"
+categories:
+- Customer Success
+- Features
 date: 2016-12-23 10:51:42
 author: Marcelo Schmidt
 cover: /images/posts/2016/12/rocketchat-in-barcelona/Action_Camera_Casa_Batllo.jpg

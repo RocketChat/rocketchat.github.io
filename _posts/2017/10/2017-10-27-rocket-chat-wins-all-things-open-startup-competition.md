@@ -1,5 +1,7 @@
 ---
 title: "Rocket.Chat wins the All Things Open Startup Competition"
+categories:
+- Events
 date: 2017-10-27 10:00:00
 author: Sean Packham
 cover: /images/posts/2017/10/rocket-chat-wins-all-things-open-startup-competition/cover.jpg

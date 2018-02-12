@@ -1,5 +1,9 @@
 ---
 title: "TechMeetsTrader: Creating the Facebook of Stocks"
+categories:
+- Partnerships
+- Community
+- Features
 date: 2017-01-04 16:35:43
 author: Sing Li
 cover: /images/posts/2017/01/creating-facebook-of-stocks/business-1730089_1920.jpg
@@ -18,8 +22,8 @@ Albert Frimpong, CTO of [https://techmeetstrader.com](https://techmeetstrader.co
 
 TechMeetsTrader is: 
 
-- A community where investors can fully discuss what they're trading, why, and how.    
-- A community where investors can maximize their success by collaborating with and learning from one another.      
+- A community where investors can fully discuss what they're trading, why, and how.  
+- A community where investors can maximize their success by collaborating with and learning from one another.    
 - A community where investors can participate in what matters most to them, whether its stocks or options investing, by creating and joining groups.    
 
 Ultimately, TechMeetsTrader will streamline the process of going from idea to profit - by facilitating and automating strategic trade workflows.  
