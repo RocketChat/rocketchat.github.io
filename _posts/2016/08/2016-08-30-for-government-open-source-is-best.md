@@ -1,5 +1,5 @@
 ---
-title: "For Government, Open Source is Best."
+title: "Why open source is best for government"
 categories:
   - Open Source
 date: 2016-08-30 15:40:57
@@ -8,34 +8,30 @@ cover: /images/posts/2016/08/for-government-open-source-is-best/bulgaria-open-so
 redirect_from: /blog/for-government-open-source-is-best
 ---
 
-If you've been paying attention to open source news this month, you already know that [Bulgaria recently passed a law requiring the government to use open-source software](https://thepolicy.us/bulgaria-got-a-law-requiring-open-source-98bf626cf70a#.f9angczfq). What you might not know is what the law actually means in practice, and how it might affect the open source community in other parts of the world.
+Last month, [Bulgaria passed a law](https://thepolicy.us/bulgaria-got-a-law-requiring-open-source-98bf626cf70a#.f9angczfq) that requires its government to use open source software.
 
-In short, the law requires all software written for the government to be open-source and to be developed as such in a public repository (one that will probably mirror GitHub).
+The law comes in the form of several amendments to the country's Electronic Governance Act and includes the creation of an [agency that will supervise the software](https://translate.googleusercontent.com/translate_c?act=url&depth=1&hl=en&ie=UTF8&prev=_t&rurl=translate.google.com&sl=bg&tl=en&u=http://lex.bg/laws/ldoc/2135555445&usg=ALkJrhj6bRM1QDcQhcjlNtkkx_ZnBwhhHA).
 
-The law comes in the form of several amendments to the country's Electronic Governance Act, and includes the creation of an agency that will supervise the software. [You can read the text here](https://translate.googleusercontent.com/translate_c?act=url&depth=1&hl=en&ie=UTF8&prev=_t&rurl=translate.google.com&sl=bg&tl=en&u=http://lex.bg/laws/ldoc/2135555445&usg=ALkJrhj6bRM1QDcQhcjlNtkkx_ZnBwhhHA).
+This post looks at what the law means in practice and how it might affect the open source community in other parts of the world.
 
-### Why Bulgaria is Going (Officially) Open-Source
+## Why Bulgaria is officially going open source
 
-The reported logic behind this new law is that since the public pays for any software developed for government, that software should also be visible and accessible to them.
+The law was passed on the basis that since the public funds all software developed for the government, this software should be visible and accessible to them.
 
-Also, the relative inaccessibility of government software to the public that is the norm doesn't protect very well against attack. Vulnerabilities in government software get exploited pretty frequently, partly because contracts with developers run out and then problems arise and nobody fixes them - leaving a hole that can be exploited by a hacker.
+A common issue with closed source solutions is that contracts with developers are left to expire and there is no-one on hand when problems arise. This can leave a system vulnerable to attacks from hackers.
 
-With open source, the public can help maintain security, security issues will be identified more readily, and bounties can be set for finding them so they can be fixed.
+With open source, the public can help maintain software, security issues will be identified more readily and bounties can be set for finding them so they can be fixed.
 
-### What the Law Will Mean for Bulgaria
+## What the law means for Bulgaria
 
 It's important to understand that this doesn't mean the government will be run entirely on open source software from now on.
 
-What it means is that specifically government-commissioned software will be open source from now on. So basically, any existing license agreements will stay intact, and the government can still use a turnkey solution if they decide that it makes sense. Also, security and intelligence agencies are not subject to the law.
+What it means is that government-commissioned software will be open source from now on; any existing license agreements will stay intact, and the government can still use a turnkey solution if it makes sense. Also, security and intelligence agencies are not subject to the law.
 
-But that isn't to downplay the importance of the move. The legislation is already having an impact, as it was reported earlier this month that three software projects at pre-tender stage have received open-source requirements for moving forward. It's also been said that there will be a bug-bounty program.
+But this doesn't downplay the importance of the move. The legislation is already having an impact; it was reported earlier this month that three software projects at pre-tender stage have received open source requirements for moving forward and that there will be a bug bounty program.
 
-### Will It Spread?
+## Formalizing transparency
 
-While the legislation seems radical, it's not really. There's plenty of government data already available or being made available for the public to see and use, for many of the same reasons, and governments are aware (and becoming ever more aware) of the security benefits of open source software.
+There is plenty of government data that is already available or being made available for the public to see and use. Bulgaria has simply formalized this movement towards a more transparent government and in so doing has helped raise the profile of open source.
 
-What Bulgaria has done is formalize this, and in so doing helping the raise the profile and understanding of open source - which we're all for.
-
-Hopefully this will mean that more governments take similar steps, and at the same time everyone can learn from Bulgaria's mistakes (and Bulgaria's wins) regarding open source. All good things.
-
-Want to comment? Go for it!
+This will hopefully mean that more governments will follow suit and learn from Bulgaria's experiences with open source—which can only be a good thing.
