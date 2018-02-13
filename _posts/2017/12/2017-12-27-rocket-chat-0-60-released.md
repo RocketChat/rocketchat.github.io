@@ -1,11 +1,9 @@
 ---
 title: "Rocket.Chat 0.60.0 Released"
-categories:
-	- Releases
-	- Apps
 date: 2017-12-27 10:00:00
+categories:
+  - Releases
 author: Sing Li
-server_release: true
 ---
 
 **WARNING:** BREAKING change when upgrading to 0.60.0. Any user running directly from source/compiled code and upgrading from older versions to 0.60.0 *must* first install [Node.js 8.x](https://nodejs.org/en/download/) in their environment. Rocket.Chat 0.60.0 requires Node 8 to run correctly. If you are using Docker or Snaps just ignore this warning.

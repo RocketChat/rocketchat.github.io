@@ -2,7 +2,6 @@
 title: "Rocket.Chat iOS 1.8 Released"
 categories:
   - Releases
-  - Apps
 date: 2018-01-10 14:23:00
 author: Louise Message
 ios_release: true
