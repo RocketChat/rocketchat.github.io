@@ -28,7 +28,7 @@ What it means is that government-commissioned software will be open source from 
 
 But this doesn't downplay the importance of the move. The legislation is already having an impact; it was reported earlier this month that three software projects at pre-tender stage have received open source requirements for moving forward and that there will be a bug bounty program.
 
-## Will open source spread?
+## Formalizing transparency
 
 There is plenty of government data that is already available or being made available for the public to see and use. Bulgaria has simply formalized this movement towards a more transparent government and in so doing has helped raise the profile of open source.
 
