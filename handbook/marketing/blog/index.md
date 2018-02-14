@@ -28,7 +28,7 @@ The following two sections outline the processes for both requesting blog posts 
 
 ### **Requesting blog posts from the marketing team**
 
-### Requirements for proposed blog posts
+### Proposing a blog post
 
 Any team member is free to suggest a topic for a blog post to the marketing team.
 
