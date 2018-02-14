@@ -67,6 +67,8 @@ Once you're sure your proposed topic meets the above guidelines, then please mak
 ---
 ### **Creating your own blog post**
 
+We welcome blog submissions from all members of the Rocket.Chat team and wider community:
+
 1. Choose a topic (refer to the above section for guidelines on how to do this).
 1. Define the target audience.
 1. Create a brief outline for your post that sums up the post's intent and the content you plan to include
