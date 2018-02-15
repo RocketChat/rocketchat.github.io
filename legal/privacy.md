@@ -7,11 +7,9 @@ redirect_from:
   - /privacy/
 ---
 
-Data Controller and Owner
--------------------------
+## Data Controller and Owner
 
-Types of Data collected
------------------------
+## Types of Data collected
 
 Among the types of Personal Data that this Application collects, by itself or through third parties, there are: Cookie, Usage data and Picture.
 
@@ -22,8 +20,7 @@ Failure to provide certain Personal Data may make it impossible for this Applica
 
 Users are responsible for any Personal Data of third parties obtained, published or shared through this Application and confirm that they have the third party's consent to provide the Data to the Owner.
 
-Mode and place of processing the Data
--------------------------------------
+## Mode and place of processing the Data
 
 ### Methods of processing
 
@@ -38,15 +35,13 @@ The Data is processed at the Data Controller's operating offices and in any othe
 
 The Data is kept for the time necessary to provide the service requested by the User, or stated by the purposes outlined in this document, and the User can always request that the Data Controller suspend or remove the data.
 
-The use of the collected Data
------------------------------
+## The use of the collected Data
 
 The Data concerning the User is collected to allow the Owner to provide its services, as well as for the following purposes: Analytics, Interaction with external social networks and platforms, Registration and authentication and Access to third party services' accounts.
 
 The Personal Data used for each purpose is outlined in the specific sections of this document.
 
-Facebook permissions asked by this Application
-----------------------------------------------
+## Facebook permissions asked by this Application
 
 This Application may ask for some Facebook permissions allowing it to perform actions with the User's Facebook account and to retrieve information, including Personal Data, from it.
 
@@ -62,66 +57,63 @@ By default, this includes certain User’s Data such as id, name, picture, gende
 
 Provides access to the User's primary email address
 
-Detailed information on the processing of Personal Data
--------------------------------------------------------
+## Detailed information on the processing of Personal Data
 
 Personal Data is collected for the following purposes and using the following services:
 
-*   ### Access to third party services' accounts
+### Access to third party services' accounts
 
-    These services allow this Application to access Data from your account on a third party service and perform actions with it.
-    These services are not activated automatically, but require explicit authorization by the User.
+These services allow this Application to access Data from your account on a third party service and perform actions with it.
+These services are not activated automatically, but require explicit authorization by the User.
 
-    #### Access to the Facebook account (This Application)
+#### Access to the Facebook account (This Application)
 
-    This service allows this Application to connect with the User's account on the Facebook social network, provided by Facebook, Inc.
+This service allows this Application to connect with the User's account on the Facebook social network, provided by Facebook, Inc.
 
-    Permissions asked: Email.
+Permissions asked: Email.
 
-    Place of processing : USA – [Privacy Policy](https://www.facebook.com/policy.php)
+Place of processing : USA – [Privacy Policy](https://www.facebook.com/policy.php)
 
-*   ### Analytics
+### Analytics
 
-    The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.
+The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.
 
-    #### Google Analytics (Google Inc.)
+#### Google Analytics (Google Inc.)
 
-    Google Analytics is a web analysis service provided by Google Inc. (“Google”). Google utilizes the Data collected to track and examine the use of this Application, to prepare reports on its activities and share them with other Google services.
-    Google may use the Data collected to contextualize and personalize the ads of its own advertising network.
+Google Analytics is a web analysis service provided by Google Inc. (“Google”). Google utilizes the Data collected to track and examine the use of this Application, to prepare reports on its activities and share them with other Google services.
+Google may use the Data collected to contextualize and personalize the ads of its own advertising network.
 
-    Personal Data collected: Cookie and Usage data.
+Personal Data collected: Cookie and Usage data.
 
-    Place of processing : USA – [Privacy Policy](http://www.google.com/intl/en/policies/privacy/) – [Opt Out](http://tools.google.com/dlpage/gaoptout?hl=en)
+Place of processing : USA – [Privacy Policy](http://www.google.com/intl/en/policies/privacy/) – [Opt Out](http://tools.google.com/dlpage/gaoptout?hl=en)
 
-*   ### Interaction with external social networks and platforms
+### Interaction with external social networks and platforms
 
-    These services allow interaction with social networks or other external platforms directly from the pages of this Application.
-    The interaction and information obtained by this Application are always subject to the User’s privacy settings for each social network.
-    If a service enabling interaction with social networks is installed it may still collect traffic data for the pages where the service is installed, even when Users do not use it.
+These services allow interaction with social networks or other external platforms directly from the pages of this Application.
+The interaction and information obtained by this Application are always subject to the User’s privacy settings for each social network.
+If a service enabling interaction with social networks is installed it may still collect traffic data for the pages where the service is installed, even when Users do not use it.
 
-    #### Google+ +1 button and social widgets (Google Inc.)
+#### Google+ +1 button and social widgets (Google Inc.)
 
-    The Google+ +1 button and social widgets are services allowing interaction with the Google+ social network provided by Google Inc.
+The Google+ +1 button and social widgets are services allowing interaction with the Google+ social network provided by Google Inc.
 
-    Personal Data collected: Cookie and Usage data.
+Personal Data collected: Cookie and Usage data.
 
-    Place of processing : USA – [Privacy Policy](http://www.google.com/intl/en/policies/privacy/)
+Place of processing : USA – [Privacy Policy](http://www.google.com/intl/en/policies/privacy/)
 
-*   ### Registration and authentication
+### Registration and authentication
 
-    By registering or authenticating, Users allow this Application to identify them and give them access to dedicated services.
-    Depending on what is described below, third parties may provide registration and authentication services.
-    In this case, this Application will be able to access some Data, stored by these third party services, for registration or identification purposes.
+By registering or authenticating, Users allow this Application to identify them and give them access to dedicated services.
+Depending on what is described below, third parties may provide registration and authentication services.
+In this case, this Application will be able to access some Data, stored by these third party services, for registration or identification purposes.
 
-    #### Direct registration (This Application)
+#### Direct registration (This Application)
 
-    The User registers by filling out the registration form and providing the Personal Data directly to this Application.
+The User registers by filling out the registration form and providing the Personal Data directly to this Application.
 
-    Personal Data collected: Picture.
+Personal Data collected: Picture.
 
-
-Additional information about Data collection and processing
------------------------------------------------------------
+## Additional information about Data collection and processing
 
 ### Legal action
 
