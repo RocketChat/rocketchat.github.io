@@ -7,6 +7,8 @@ redirect_from:
   - /privacy/
 ---
 
+_Effective date: December 18, 2017_
+
 ## Data Controller and Owner
 
 ## Types of Data collected
