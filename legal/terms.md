@@ -1,11 +1,10 @@
 ---
-layout: en/page
+layout: en/legal
 title: Rocket.Chat Terms of Service
+class: legal
 permalink: /terms
 redirect_from:
   - /terms/
-  - /privacy
-  - /privacy/
 ---
 
 _Effective: December 19, 2017_
