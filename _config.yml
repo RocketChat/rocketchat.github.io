@@ -26,9 +26,9 @@ defaults:
       layout: post
       class: post
   - scope:
-      path: "handbook"
+      path: handbook
     values:
-      layout: en/page
+      layout: en/handbook
       class: handbook
       title: Rocket.Chat Handbook
 
