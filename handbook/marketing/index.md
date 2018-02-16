@@ -48,7 +48,7 @@ Clone the projects using
 
 ### Run a project
 
-Open a terminal and change directory to the Website & Handbook or Documentation project and run:
+Open a terminal and [change directory](https://learn.co/lessons/bash-navigation-osx) to the Website & Handbook or Documentation project and run:
 
 ```
 rocketchat_web_server
