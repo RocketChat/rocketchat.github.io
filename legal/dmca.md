@@ -2,9 +2,9 @@
 layout: en/legal
 title: Digital Millennium Copyright Act (DMCA) Policy
 class: legal
-permalink: /dcma
+permalink: /dmca
 redirect_from:
-  - /dcma/
+  - /dmca/
 ---
 
 _Effective date: December 18, 2017_
