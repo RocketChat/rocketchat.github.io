@@ -2,7 +2,6 @@
 layout: en/legal
 title: Rocket.Chat Terms of Service
 class: legal
-disable_livechat: true
 permalink: /terms
 redirect_from:
   - /terms/
