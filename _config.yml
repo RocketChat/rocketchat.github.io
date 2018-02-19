@@ -20,22 +20,16 @@ forks: 3.2
 
 # set default template for posts
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      livechat: true
   - scope:
       type: posts
     values:
       layout: post
       class: post
   - scope:
-      path: "handbook"
+      path: handbook
     values:
       layout: en/page
       class: handbook
-      livechat: false
       title: Rocket.Chat Handbook
 
 sass:
