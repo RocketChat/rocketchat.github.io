@@ -1,19 +1,5 @@
 # Creating a blog post
 
-## Install GitHub desktop
-
-[Download and install](https://desktop.github.com/) the GitHub desktop client. This will allow you to login into your GitHub account and access your projects, orginizations and orginizations' projects.
-
-Once installed, open GitHub Desktop and select **Install Command Line Tool..** to be able to access Git from your command prompt or terminal.
-
-## Clone the website Git repository
-
-From GitHub Desktop clone the website repo `https://github.com/RocketChat/rocketchat.github.io`
-
-## Create a branch
-
-Git branches allows us to seperate our changes from the master published version of the website. Think of it as making a copy of a folder of files. When you are done making changes, you can ask someone to review them, pull them into and merge them with the master version to be published on the website.
-
 For every new blog post you need to create a new branch from the master branch. To create a branch:
  - Open GitHub Desktop
  - Click on `Current branch` in the menu
