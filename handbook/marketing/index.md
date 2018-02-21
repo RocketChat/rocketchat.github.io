@@ -20,6 +20,10 @@
 
 ---
 
+# Marketing
+
+The marketing team is responsible for publishing high quality content that showcases the best of Rocket.Chat to our various channels: website, blog, newsletter, social and through external agencies and publications.
+
 ## How we publish
 
 ### Technologies
@@ -40,23 +44,19 @@ Content can be directly editted and previewed on GitHub but to view it with the 
 
 ### Setup local environment
 
-The following sofware is required: Git, Ruby 2.4.2+, bundler gem.
-
-Run the following command in a terminal to setup our OSX publishing stack:
+The following sofware is required: Git, Ruby 2.4.2+, bundler gem. To install the plublihing stack on OSX run:
 
 ```
 curl -fsSL https://raw.githubusercontent.com/RocketChat/rocketchat.github.io/master/handbook/marketing/setup.sh | /bin/bash
 ```
 
-In addition to the required software, the setup script also creates various shortcuts for running and managing publishing.
-
 ### Install a code editor
 
-If you don't know which code editor to use, we recommend Visual Studio Code as it has a good markdown preview feature.
+We recommend [Visual Studio Code](https://code.visualstudio.com/) as it has a great markdown previewer and many other useful [features](https://code.visualstudio.com/docs).
 
 ### Clone the projects
 
-[Clone](https://services.github.com/on-demand/github-desktop/clone-repository-github-desktop)a project with GitHub Desktop.
+Clone our projects using [GitHub Desktop](https://services.github.com/on-demand/github-desktop/clone-repository-github-desktop):
 
 - Website & handbook: `https://github.com/RocketChat/rocketchat.github.io.git`
 - Documentation: `https://github.com/RocketChat/docs.git`
@@ -65,7 +65,7 @@ If you don't know which code editor to use, we recommend Visual Studio Code as i
 
 #### Start the web server
 
-Open a terminal and [change directory](https://learn.co/lessons/bash-navigation-osx) to the Website & Handbook or Documentation project and start the web server by running:
+Open a terminal and [change directory](https://learn.co/lessons/bash-navigation-osx) to one of the projects (if you are using Visual Studio Code you can use the integrated terminal) and run:
 
 ```
 rocketchat_web_server
@@ -92,19 +92,20 @@ rocketchat_web_clear
 - [Commit changes](https://services.github.com/on-demand/github-desktop/add-commits-github-desktop).
 - [Open a Pull Request (PR)](https://services.github.com/on-demand/github-desktop/pull-request-github-desktop).
 - Start your PR with "`WIP: `" if it is not ready to be merged.
-- Assing your Pull Request to someone to [review and merge](https://services.github.com/on-demand/github-desktop/merge-pull-request-showcase).
+- Someone will [review and merge](https://services.github.com/on-demand/github-desktop/merge-pull-request-showcase) your PR.
+- You may receive feedback requesting changes to your work.
 - Delete your merged branch.
 - [Update your local repository](https://services.github.com/on-demand/github-desktop/push-with-github-desktop).
 
 ## What we publish
 
-The marketing team is responsible for publishing high quality content that showcases the best of Rocket.Chat.
+The maketing team picks content to create and publish which they consider to be amongst the best uncreated content that will achieve the greatest impact to the orginizations short and mediuem term focus and long term objectives.
 
 ### Content from Rocket.Chat team
 
 Rocket.Chat team members can suggest content by creating an [Asana](https://app.asana.com) task on the relevant marketing team project.
 
-**NB**: Rocket.Chat team members must not commit to, or imply that, any marketing (press release, blog post, social update, newsletter), will be done, for an external party, to any of our channels without approval.
+Do not commit to any marketing or or imply that any marketing may be done for an external party to any of our channels without review and approval from the marketing team.
 
 ### Content from the community
 
