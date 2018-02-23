@@ -4,6 +4,7 @@ date: 2018-02-12 10:00:00
 categories:
   - Releases
 author: Louise Message
+cover: /images/posts/2018/02/2018-02-12-10-best-integrations/cover.jpg
 ---
 
 Rocket.Chat might have plenty of out-of-the-box features, but you can make it even more useful, efficient and fun with integrations.

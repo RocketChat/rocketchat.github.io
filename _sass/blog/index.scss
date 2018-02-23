@@ -22,10 +22,11 @@ body.blog {
 
         .header {
           display: block;
-          height: 240px;
+          height: 260px;
           width: 100%;
           background-position: 50% 50%;
           background-repeat: no-repeat;
+          background-size: cover;
         }
 
         .content {
@@ -45,7 +46,7 @@ body.blog {
           }
 
           .top {
-            height: 200px;
+            height: 180px;
           }
         }
       }

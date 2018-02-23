@@ -5,6 +5,7 @@ categories:
   - Releases
 date: 2018-01-25 10:00:00
 author: Louise Message
+cover: /images/posts/2018/01/2018-01-25-desktop-apps-hotfix/cover.jpg
 ---
 
 Today we released a hotfix for the Rocket.Chat desktop client.
