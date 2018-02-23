@@ -26,7 +26,7 @@ Rocket.Chat features unlimited message storage and is customizable, enabling Blo
 
 The open source community and Hyperledger staff use Rocket.Chat to troubleshoot and learn more about the Hyperledger project. The Rocket.Chat team has a strong presence on the server and a team member is usually available to answer Rocket.Chat-related queries from the community.
 
-![Rocket.Chat team member answering queries on the Hyperledger Rocket.Chat](/images/posts/2018/2018-01-05-hyperledger-chooses-rocket-chat-open-source-communication-rocket-chat-channel.png)
+![Rocket.Chat team member answering queries on the Hyperledger Rocket.Chat](/images/posts/2018/01/2018-01-05-hyperledger-chooses-rocket-chat/hyperledger-chat.png)
 
 <small>Rocket.Chat team member answering queries on a Hyperledger Rocket.Chat channel</small>
 
