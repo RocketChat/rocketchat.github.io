@@ -11,6 +11,8 @@
     - [Stop the web server](#stop-the-web-server)
     - [Clear the web server cache](#clear-the-web-server-cache)
   - [Editting content](#editting-content)
+  - [Blog posts](#blog-posts)
+  - [Social updates](#social-updates)
 - [What we publish](#what-we-publish)
   - [Content from Rocket.Chat team](#content-from rocket--chat-team)
   - [Content from the community](#content-from-the-community)
@@ -97,6 +99,25 @@ rocketchat_web_clear
 - Delete your merged branch.
 - [Update your local repository](https://services.github.com/on-demand/github-desktop/push-with-github-desktop).
 
+### Blog posts
+
+- Look at previous posts to see how to use:
+  - Meta data including categories and the cover image.
+  - Post structuting specifically for release posts.
+  - Reference images and open links in new tabs.
+- Publish posts under with the following naming structure `_posts/yyyy/mm/yyyy-mm-dd-slug.md`
+- Put your posts images under `images/posts/yyyy/mm/slug/`
+- Use [Image.Optim](https://imageoptim.com/mac) to reduce the size of your images.
+- Use cover images where width > 800px,  width < 100px, height > 600px.
+- Put the image accreditation at the bottom of each post.
+
+### Social updates
+
+- Put content update ideas in the [Social Media Schedule](https://docs.google.com/spreadsheets/d/1qIVBC0fUMCBfzRJK2TQA5K0m_gWZc5rNnPsGemZSUxE/edit?usp=sharing).
+- Once approved by the marketing team the update must be scheduled in Hootsuite.
+- Use a link shortner like [Google URL Shortener](https://goo.gl).
+- Try to use some of our commonly used hashtags.
+
 ## What we publish
 
 The maketing team picks content to create and publish which they consider to be amongst the best uncreated content that will achieve the greatest impact to the orginizations short and mediuem term focus and long term objectives.
@@ -130,11 +151,3 @@ The marketing team will decide whethere to approve the content and when and wher
 - Where does it fit in to the marketing team's existing commitments?
 
 The decision will be communicated in the original Asana task or GitHub issue.
-
-# Where we publish
-
-### Website
-
-### Blog
-
-### Social Media
