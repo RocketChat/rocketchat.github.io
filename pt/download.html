@@ -1,0 +1,138 @@
+---
+layout: pt/default
+class: download
+title: "Servidor Local, Download &amp; Instalação, Servidor &amp; Aplicativos para Mobile"
+description: |
+  Faça download &amp; instale a última versão estável ou release candidate do
+  Rocket.Chat no seu desktop, servidor, nuvem ou telefone celular.
+
+permalink: /pt/download
+
+redirect_from:
+  - /pt/download/
+---
+
+<section class="hero">
+  <div class="wrapper">
+    <h1>Faça o Download do Rocket.Chat</h1>
+    <em>
+      Faça o download do Rocket.Chat no seu desktop, celular ou servidor.
+    </em>
+    <img src="/images/download/clients.svg" alt="">
+  </div>
+</section>
+
+<section class="apps">
+  <div class="wrapper">
+    <div class="desktop">
+      <h2>Cliente Desktop</h2>
+      <ul>
+        <li>
+          <div>
+            <img src="/images/download/windows.svg">
+          </div>
+          <h4>Windows</h4>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-setup-{{ site.data.download.desktop.version }}.exe">Instalador</a>
+        </li>
+        <li>
+          <div>
+            <img src="/images/download/finder.svg">
+          </div>
+          <h4>MacOS</h4>
+          <a href="https://itunes.apple.com/app/rocket.chat/id1086818840"><img src="/images/download/mac-store.svg"></a>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.dmg">dmg</a>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.pkg">pkg</a>
+        </li>
+        <li>
+          <div>
+            <img src="/images/download/linux.svg">
+          </div>
+          <h4>Linux</h4>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_amd64.deb">deb(x64)</a>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_i386.deb">deb(x86)</a>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.x86_64.rpm">rpm(x64)</a>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.i686.rpm">rpm(x86)</a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+
+    <div class="mobile">
+      <h2>Cliente Mobile</h2>
+      <ul>
+        <li>
+          <div>
+            <img src="/images/download/android.svg">
+          </div>
+          <h4>Android</h4>
+          <a href="https://play.google.com/store/apps/details?id=chat.rocket.android"><img src="/images/download/google-play.svg"></a>
+        </li>
+        <li>
+          <div>
+            <img src="/images/download/apple.svg">
+          </div>
+          <h4>iOS</h4>
+          <a href="https://itunes.apple.com/app/rocket-chat/id1148741252"><img class="itunes" src="/images/download/itunes-store.svg"></a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</section>
+
+<section id="server">
+  <div class="wrapper">
+    <div class="left">
+      <h2>Server Snap</h2>
+      <p>
+        <a target="_blank" href="https://snapcraft.io/">Snaps</a> são uma forma fácil e segura de instalar e administrar aplicativos e suas dependências.
+      </p>
+      <p>
+        Em um sistema que suporte Snaps, rode:
+      </p>
+      <code>
+        $ snap install rocketchat-server
+      </code>
+    </div>
+    <div class="right">
+      <h2>Server Source</h2>
+      <ul>
+        <li>
+          <img src="/images/download/rocket.svg">
+          <a target="_blank" href="https://releases.rocket.chat/latest/download">Estável</a>
+        </li>
+        <li>
+          <img src="/images/download/ruler.svg">
+          <a href="https://releases.rocket.chat/release-candidate/download">Beta</a>
+        </li>
+        <li>
+          <img src="/images/download/ruler.svg">
+          <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/releases">Versões Passadas</a>
+        </li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="wrapper">
+    <div class="left">
+      <img src="/images/testimonials/sicoob.jpg" alt="">
+    </div>
+    <div class="right">
+      <h3>Sicoob Credipinho</h3>
+      <h4>Guilherme Corrêa - <span>Supervisor de Tecnologia</span></h4>
+      <p>
+        Eu encontrei o Rocket.Chat quando estava procurando por uma solução de chat para times alternativa.
+        Eu instalei em menos de 5 minutos e, desde então, nossos
+        problemas de comunicação foram resolvidos. A plataforma é excepcional!
+        Segura, rápida, fácil de usar e com um excelente suporte do time de desenvolvimento e da comunidade.
+      </p>
+    </div>
+    <div class="clear">
+  </div>
+</section>
+
+{% include adwords/download.html %}

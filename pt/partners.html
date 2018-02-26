@@ -1,0 +1,80 @@
+---
+layout: pt/default
+class: partners
+title: Parceiros
+permalink: /pt/partners
+redirect_from: /pt/partners/
+---
+
+<section class="hero">
+  <div class="wrapper">
+    <h1>Parceiros Rocket.Chat</h1>
+    <em>Junte-se à nossa crescente rede global de revendedores, parceiros de tecnologia e de hospedagem hoje</em>
+  </div>
+</section>
+
+<section class="category">
+  <div class="wrapper">
+    <h1>Revendedores Globais</h1>
+  </div>
+</section>
+
+<section>
+  <div class="wrapper">
+    <ul class="partners">
+
+      {% for partner in site.data.resellers %}
+      <li>
+        <div style="background-image: url('{{ partner.logo }}')"></div>
+        <h2>{{ partner.name }}</h2>
+        <p>{{ partner.description }}</p>
+        <a href="{{ partner.website }}">Website</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="category">
+  <div class="wrapper">
+    <h1>Parceiros de Tecnologia</h1>
+  </div>
+</section>
+
+<section>
+  <div class="wrapper">
+    <ul class="partners">
+
+      {% for partner in site.data.techpartners %}
+      <li>
+        <div style="background-image: url('{{ partner.logo }}')"></div>
+        <h2>{{ partner.name }}</h2>
+        <p>{{ partner.description }}</p>
+        <a href="{{ partner.website }}">Website</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="category">
+  <div class="wrapper">
+    <h1>Parceiros de Hospedagem</h1>
+  </div>
+</section>
+
+<section>
+  <div class="wrapper">
+    <ul class="partners">
+
+      {% for partner in site.data.partners %}
+      <li>
+        <div style="background-image: url('{{ partner.logo }}')"></div>
+        <h2>{{ partner.name }}</h2>
+        <p>{{ partner.description }}</p>
+        <a href="{{ partner.website }}">Website</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

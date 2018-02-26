@@ -1,0 +1,131 @@
+---
+layout: pt/default
+class: support
+title: "Servidor Local, Download &amp; Instalação, Servidor &amp; Aplicativos para Mobile"
+description: |
+  Faça download &amp; instale a última versão estável ou release candidate do
+  Rocket.Chat no seu desktop, servidor, nuvem ou telefone celular.
+
+permalink: /pt/support
+
+redirect_from:
+  - /pt/support/
+---
+
+<section class="hero">
+  <div class="wrapper">
+    <h1> Suporte Rocket.Chat</h1>
+    <em>
+      Suporte dos especialistas para manter o seu time conectado
+    </em>
+  </div>
+</section>
+
+{% assign support = site.data.pt.support %}
+
+<section id="support">
+  <div class="wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th><h2>{{ support.basic.name }}</h2></th>
+          <th><h2>{{ support.premium.name }}</h2></th>
+        </tr>
+      </thead>
+      <tbody>
+
+        {% for key in support.keys %}
+
+        {% assign k = key[0] %}
+
+        <tr>
+        {% unless support.premium[k] %}
+          <td class="seperator" colspan="3">
+            {{ key[1] }}
+          </td>
+        {% else %}
+          <td>{{ key[1] }}</td>
+          <td>{{ support.basic[k] }}</td>
+          <td>{{ support.premium[k] }}</td>
+        {% endunless %}
+        </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<section>
+  <div class="wrapper">
+    <h2>Definições de preços para o Suporte Rocket.Chat</h2>
+    <ul>
+      <div class="left">
+        <li>
+          <h3>Preços</h3>
+          <p>
+            Preços divulgados se aplicam a contratos anuais.
+          </p>
+        </li>
+        <li>
+          <h3>Ponto de contato</h3>
+          <p>
+              Planos de suporte não incluem usuários finais. Uma vez que o plano de suporte for comprado, é de responsabilidade da empresa informar à Rocket.Chat quem será seu ponto de contato interno para o plano de suporte. Até três contatos são permitidos por organização.
+          </p>
+        </li>
+        <li>
+          <h3>Recursos de Auto-ajuda</h3>
+          <p>
+              O Rocket.Chat disponibiliza informações de usuários para administradores,
+              usuários finais e desenvolvedores no
+              <a target="_"blank href="https://rocket.chat/docs/">https://rocket.chat/docs</a>.
+          </p>
+        </li>
+        <li>
+          <h3>Consultas com o time de produto</h3>
+          <p>
+            Assinantes do plano Premium têm direito a consultas de uma hora cada mês com um membro do time. Horas adicionais podem ser compradas  por uma taxa.
+          </p>
+        </li>
+      </div>
+      <div class="right">
+        <li>
+          <h3>Impacto administrativo crítico</h3>
+          <p>
+            Um problema que afeta o Rocket.Chat e impossibilita uma empresa de operar normalmente.
+            <br>
+            <br>
+            <b></b>Alguns exemplos são</b></b>: perda ou currupção de dados; quebras de sistema; perda de funcionalidade crítica; grande número de usuários impossibilitados de trabalhar.
+            <br>
+            <br>
+           O tempo para uma primeira resposta é de 1 hora para o plano Básico e de 30 minutos para o plano Premium.
+          </p>
+        </li>
+        <li>
+          <h3>Impacto administrativo normal</h3>
+          <p>
+            Um problema que afeta o Rocket.Chat e causa perda parcial ou não crítica de funcionalidade.
+            <br>
+            <br>
+            Alguns exemplos são: algumas funções do sistema estão indisponíveis; problemas de performance mínimos; número pequeno de usuários impossibilitados de trabalhar.
+            <br>
+            <br>
+            O tempo para uma primeira resposta é de 12 horas para o plano Básico e de 8 horas para o plano Premium.
+          </p>
+        </li>
+        <li>
+          <h3>Impacto administrativo mínimo</h3>
+          <p>
+            Uma pergunta, um pedido de funcionalidade ou um problema com documentação que não tem impacto na performance.
+            <br>
+            <br>
+            O tempo para uma primeira resposta é de 2 dias úteis para o plano Básico e de 1 dia útil para o plano Premium.
+          </p>
+        </li>
+      </div>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</section>

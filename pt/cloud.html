@@ -1,0 +1,181 @@
+---
+layout: pt/default
+class: cloud
+title: "Cloud - A maneira mais fácil de instalar &amp; hospedar o Rocket.Chat"
+description: |
+  Rocket.Chat Cloud é a maneira mais fácil de instalar &amp; administrar o Rocket.Chat.
+  Nenhum conhecimento técnico ou cartão de crédito necessários, feito em 2 minutos.
+
+permalink: /pt/cloud
+
+redirect_from:
+  - /pt/cloud/
+---
+
+<section class="hero">
+  <div class="wrapper">
+    <h1>Rode o Rocket.Chat na sua Nuvem</h1>
+    <em>A maneira sem preocupações e acessível para hospedar, administrar e escalar o Rocket.Chat</em>
+  </div>
+</section>
+
+<section class="message">
+  <div class="wrapper">
+    <div class="left">
+      <h3>Fácil</h3>
+      <p>
+        Rocket.Chat Cloud é a maneira mais fácil de instalar, configurar e administrar o Rocket.Chat.
+        Ter conhecimento técnico não é um requisito e você pode começar seu período de teste em poucos minutos, sem necessidade de cartão de crédito.
+      </p>
+      <h3>Acessível</h3>
+      <p>
+        Nós acreditamos em cobrar uma taxa justa por todos os recursos que você precisa ao invés de por cada membro do time ou convidado,
+        lhe proporcionando uma solução de chat para times acessível e escalável para milhares de usuários.
+      </p>
+    </div>
+    <div class="right">
+      <h3>Escalável</h3>
+      <p>
+        A nuvem robusta e escalável do Rocket.Chat, construída em cima do Docker e do Kubernetes,
+        lhe entrega os benefícios de uma plataforma open source de comunicação
+        sem precisar administrar e escalar sua própria infraestrutura e time de suporte.
+      </p>
+      <h3>Segura</h3>
+      <p>
+        Toda instância na nuvem tem seu funcionamento em seu próprio ambiente seguro e isolado, o qual monitoramos 24x7.
+        Um backup é feito em seus dados a cada hora, permitindo que você tenha sossego em caso de uma emergência.
+      </p>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+{% assign cloud = site.data.pt.cloud %}
+
+<section class="plans" id="pricing">
+  <div class="wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th><h2>{{ cloud.small.name }}</h2></th>
+          <th><h2>{{ cloud.medium.name }}</h2></th>
+          <th><h2>{{ cloud.large.name }}</h2></th>
+        </tr>
+      </thead>
+      <tbody>
+
+        {% for key in cloud.keys %}
+
+        {% assign k = key[0] %}
+
+        <tr>
+        {% unless cloud.large[k] %}
+          <td class="seperator" colspan="4">
+            {{ key[1] }}
+          </td>
+        {% else %}
+          <td>{{ key[1] }}</td>
+          <td>{{ cloud.small[k] }}</td>
+          <td>{{ cloud.medium[k] }}</td>
+          <td>{{ cloud.large[k] }}</td>
+        {% endunless %}
+        </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="wrapper">
+    <div class="left">
+      <img src="/images/testimonials/procempa.jpg" alt="">
+    </div>
+    <div class="right">
+      <h3>Procempa</h3>
+      <h4>César Bridi - <span>Gerente de Tecnologia</span></h4>
+      <p>
+        Nós estávamos procurando por uma ferramenta que facilitasse a comunicação entre 
+        times e departamentos. Foi uma surpresa agradável quando descobrimos o Rocket.Chat 
+        e tudo que ele oferece, com destaque para a facilidade em fazer integrações com 
+        outros produtos e ferramentas.
+      </p>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<section class="faq">
+    <div class="wrapper">
+      <h2>FAQ</h2>
+      <ol>
+        <div class="left">
+          <li>
+            <h3>Quanto tempo duram os períodos de teste do Rocket.Chat?</h3>
+            <p>
+              Todo plano tem um período de teste de 30 dias. Você pode escolher cancelar seu plano a qualquer momento. 
+            </p>
+          </li>
+
+          <li>
+            <h3>Quando serei cobrado depois que o meu período de teste acabar?</h3>
+            <p>
+              Nós lhe enviaremos um email lembrando-lhe que o período de teste está próximo de acabar.
+              Quando acabar, você será cobrado pelo seu plano atual
+              se já não tiver fechado sua conta e tiver corrigindo
+              sua informações de pagamento.
+            </p>
+          </li>
+
+          <li>
+            <h3>Qual é o período de cobrança?</h3>
+            <p>
+              Todos os planos são cobrados mensalmente.
+            </p>
+          </li>
+
+          <li>
+            <h3>Quando posso cancelar meu plano?</h3>
+            <p>
+              Você pode cancelar um plano a qualquer momento e continuar fazendo uso dele
+              pelo restante do mês já pago.
+            </p>
+          </li>
+        </div>
+        <div class="right">
+          <li>
+            <h3>Como posso reportar um problema e conseguir suporte para a Rocket.Chat Cloud?</h3>
+            <p>
+              Mande um email para <a href="mailto:cloud.support@rocket.chat">cloud.support@rocket.chat</a>
+            </p>
+          </li>
+
+          <li>
+            <h3>Qual é a disponibilidade no suporte SLA da Rocket.Chat Cloud?</h3>
+            <p>
+              Nós garantimos 99.9% de disponibilidade mensalmente. Se nos distanciarmos da nossa garantia de 99.9%,
+              clientes dos planos Médio e Grande podem nos contatar
+              para receber crédito na sua conta no valor de:
+              <em>100 x tempo ausente verificado / custo mensal do plano</em>.
+            </p>
+          </li>
+
+          <li>
+            <h3>Vocês oferencem descontos para ONGs e instituições educacionais?</h3>
+            <p>
+              Sim. Se você trabalha ou administra uma <a href="/concession"> ONG
+              ou instituição educacional</a>
+              você pode estar qualificado para receber taxas de descontos na hospedagem da Rocket.Chat
+              Cloud.
+            </p>
+          </li>
+
+        </div>
+        <div class="clear"></div>
+      </ol>
+    </div>
+  </section>
+
+{% include adwords/trial.html %}

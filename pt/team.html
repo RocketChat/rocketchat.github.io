@@ -1,0 +1,63 @@
+---
+layout: pt/default
+class: team
+permalink: /pt/team
+redirect_from:
+  - /pt/team/
+---
+
+<section class="hero">
+  <div class="wrapper">
+    <h1>Time do Rocket.Chat</h1>
+    <em>O time que mantém os foguetes sendo lançados</em>
+  </div>
+</section>
+
+<section class="message">
+  <div class="wrapper">
+    <div class="left">
+      <p>
+        O que começou como um código publicado no GitHub há quase dois anos atrás
+        para provar um simples conceito explodiu na plataforma open source em
+        constante evolução que é o Rocket.Chat atualmente.
+      </p>
+      <p>
+        Ao mesmo tempo que temos a nossa comunidade de desenvolvedores a
+        agradecer por isso, os membros do nosso time central têm trabalhado fielmente para manter
+        aumentando o crescimento e manter o Rocket.Chat sempre direcionado para o próximo nível.
+        Conheça cada um deles abaixo.
+      </p>
+    </div>
+    <div class="right">
+      <img src="/images/index/community.svg" alt="">
+    </div>
+    <div class="clear"></div>  </div>
+</section>
+
+<section>
+  <div class="wrapper">
+    <ul class="team">
+      {% for member in site.data.team %}
+      <li>
+        {% if member.github_username %}
+          <a href="https://github.com/{{ member.github_username }}">
+            {% if member.photo %}
+              <img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt="">
+            {% else %}
+              <img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt="">
+            {% endif %}
+          </a>
+        {% else %}
+          {% if member.photo %}
+            <img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt="">
+          {% else %}
+            <img src="https://github.com/identicons/RocketChat.png" alt="">
+          {% endif %}
+        {% endif %}
+        <h3>{{ member.name }}</h3>
+        <div class="title">{{ member.title }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

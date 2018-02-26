@@ -1,0 +1,75 @@
+keys:
+  description:
+
+  pricing: <span id="pricing">Preços</span>
+  onpremise: Local
+  cloud: Rocket.Chat Cloud
+
+  sla: Suporte SLA
+  critical: Impacto administrativo crítico
+  normal: Impacto administrativo normal
+  minimum: Impacto administrativo mínimo
+
+  contact: Contato
+  resources: Recursos de auto-ajuda
+  ticket: Geração de ticket online
+  email: Suporte por email
+  chat: Suporte por chat 24/7
+  phone: Suporte por telefone 24/7
+
+  extras: Extras
+  onboarding: Onboarding de contas
+  migration: Assitência em migrações
+  access: Acesso direto ao time de produto
+
+
+basic:
+  name: Básico
+  description: |
+    <div class="description">
+      Para times menores que precisam de suporte básico e ajuda em caso de emergências
+    </div>
+    <a class="button secondary" href="/contact/">Entre em Contato</a>
+
+  onpremise: <div class="pricing">A partir de <span>$525</span>/mês</div>
+  cloud: <div class="pricing">Incluso</div>
+
+  critical: 1 hora
+  normal: 12 horas
+  minimum: 2 dias úteis
+
+  resources: <span class="yes"></span>
+  ticket: <span class="yes"></span>
+  email:
+  chat:
+  phone:
+
+  onboarding:
+  migration:
+  access:
+
+
+premium:
+  name: Premium
+  description: |
+    <div class="description">
+      Para times maiores que precisam de respostas rápidas e suporte por telefone 24/7
+    </div>
+    <a class="button secondary" href="/contact/">Entre em Contato</a>
+
+  onpremise: <div class="pricing">A partir de <span>$1275</span>/mês</div>
+  cloud: <div class="pricing">A partir de <span>$749</span>/mês</div>
+
+  critical: 30 minutos
+  normal: 8 horas
+  minimum: 1 dia útil
+
+  resources: <span class="yes"></span>
+  ticket: <span class="yes"></span>
+  email: <span class="yes"></span>
+  chat: <span class="yes"></span>
+  phone: <span class="yes"></span>
+
+  onboarding: <span class="yes"></span>
+  migration: <span class="yes"></span>
+  access: <span class="yes"></span>

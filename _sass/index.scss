@@ -1,32 +1,32 @@
 
 body.index {
-  
+
   section {
     padding-bottom: 9em;
   }
-  
+
   .twinkle {
     background-color: $color-dark;
   }
-    
+
   .hero {
     background-color: $color-dark;
     text-align: center;
     color: #fff;
     padding: 0;
-    
+
     .left, .right {
       margin-bottom: 3em;
     }
-    
+
     .left {
       padding-left: 5em;
     }
-    
+
     .right {
       padding-right: 5em;
     }
-    
+
     .wrapper {
       padding-bottom: 285px;
       background-image: url('../images/index/devices.png');
@@ -35,13 +35,55 @@ body.index {
       background-size: contain;
       margin-bottom: -12px;
     }
-    
+
     h1 {
-      margin: 1.25em 0 1em;
+      margin: 1em 0;
       font-size: 2.75em;
     }
   }
-  
+
+  .mwc {
+    padding: 1.75em 0 1em;
+    text-align: center;
+    box-shadow:
+      inset 0px 11px 8px -10px #ccc,
+      inset 0px -11px 8px -10px #ccc;
+
+    .wrapper > div {
+      display: inline-block;
+    }
+
+    .wrapper > div div {
+      float: left;
+
+      img, a {
+        display: block;
+      }
+    }
+
+    img {
+      display: inline-block;
+    }
+
+    .logo {
+      float: left;
+      margin-right: 20px;
+
+      img {
+        max-height: 40px;
+      }
+    }
+
+    .date {
+      max-height: 13px;
+      margin-bottom: 8px;
+    }
+
+    .visit {
+      display: inline-block;
+    }
+  }
+
   .focus {
     em {
       color: $color-primary;
@@ -53,35 +95,35 @@ body.index {
       max-height: 400px;
     }
   }
-  
+
   .community {
     padding-bottom: 3em;
-    
+
     .left {
       margin-top: 4em;
     }
-    
+
     .github {
       margin-top: 2em;
-      
+
       .name, .stars, .forks {
         float: left;
       }
-      
+
       a, a:visited {
         color: $color-dark;
       }
-      
+
       a:hover {
         color: $color-secondary;
       }
-      
+
       svg {
         fill: $color-dark;
         margin-bottom: -8px;
         margin-right: 10px;
       }
-      
+
       .name {
         display: inline-block;
         margin: 4px 50px 0 0;
@@ -90,7 +132,7 @@ body.index {
         font-size: 20px;
         font-weight: 600;
       }
-      
+
       .stars, .forks {
         padding: 0 1.2em;
         border-left: 1px solid #fff;
@@ -98,7 +140,7 @@ body.index {
         font-weight: 800;
         text-align: center;
         font-size: 0.75em;
-        
+
         .top {
           padding-bottom: 0.75em;
           margin-bottom: 0.75em;
@@ -113,19 +155,19 @@ body.index {
       }
     }
   }
-  
+
   .features {
     ul {
       list-style: none;
       padding: 0;
       color: #000;
     }
-    
+
     li {
       width: 50%;
       float: left;
       height: 2em;
-      
+
       &:nth-child(4) {
         float: right;
       }
@@ -140,7 +182,7 @@ body.index {
         text-align: left;
       }
     }
-    
+
     .right {
       margin-top: 4em;
     }
@@ -153,7 +195,7 @@ body.index {
     .left {
       margin-top: 6em;
     }
-    
+
     img {
       max-height: none;
     }
@@ -173,7 +215,7 @@ body.index {
     background-position: right;
     background-repeat: no-repeat;
     padding-top: 12em;
-    
+
     .left {
       margin-top: 5em;
     }
@@ -189,30 +231,30 @@ body.index {
     text-align: center;
     padding: 0;
     line-height: 6em;
-        
+
     img {
       margin-top: -20px;
       display: inline-block;
       max-width: 140px;
       margin-right: 35px;
     }
-    
+
     .steadymd {
       margin-bottom: -7px;
     }
-    
+
     .classuite {
       margin-bottom: -10px;
     }
-    
+
     .lisk {
       margin-bottom: -19px;
     }
-    
+
     .selu {
       margin-bottom: -7px;
     }
-    
+
     .infoshift {
       margin-bottom: -10px;
     }
@@ -221,56 +263,65 @@ body.index {
   .cta {
     text-align: center;
     color: #fff;
-    
+
     .wrapper, .content {
       border-top-right-radius: 7px;
       border-bottom-right-radius: 7px;
     }
-    
+
     .wrapper {
       background-color: $color-primary;
       padding: 0 0 0 1.5em;
     }
-    
+
     .content {
       background-color: $color-dark;
       padding: 4em 0;
     }
-    
+
     h2 {
       font-size: 42px;
       font-weight: 400;
       margin: 0;
       color: #fff;
     }
-    
+
     .button {
       margin-top: 26px;
       font-size: 20px;
     }
   }
-  
+
   // tablet
 
   @media all and (max-width: 1000px) {
     .hero {
       padding: 0 1em;
-      
+
       .wrapper {
         padding-bottom: 220px;
       }
-      
+
       .left, .right {
         float: none;
         width: 100%;
         padding: 0 2em;
       }
-      
+
       h1 {
-        margin-top: 2em;
+        margin-top: 1.5em;
       }
     }
-    
+
+    .mwc {
+      margin-top: 5em;
+
+      a, div, .logo, .date {
+        float: none;
+        display: block;
+      }
+    }
+
     .focus {
       padding: 3em 0;
     }
@@ -288,15 +339,15 @@ body.index {
       img {
         display: none;
       }
-      
+
       li img {
         display: inline;
       }
     }
   }
-  
+
   // mobile
-  
+
   @media all and (max-width: 700px) {
     .hero {
       .wrapper {

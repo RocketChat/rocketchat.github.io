@@ -1,0 +1,116 @@
+---
+layout: pt/default
+class: press
+title: Press
+permalink: /pt/press
+redirect_from: /pt/press/
+---
+
+<section class="hero">
+  <div class="wrapper">
+    <h1>Rocket.Chat na Imprensa</h1>
+    <em>O que as pessoas estão dizendo sobre o Rocket.Chat</em>
+  </div>
+</section>
+
+<section class="company">
+  <div class="wrapper">
+    <div class="left">
+      <h2>Empresa</h2>
+      <p>
+        A Rocket.Chat é uma empresa construída em cima de valores open source e um amor por eficiência. A
+        empresa é movimentada pela nossa incrível comunidade de colaboradores, com a facilitação
+        de um time talentoso que trabalha incansavelmente para manter o código em um padrão alto
+        e para tornar a vida de nossos colaboradores mais fácil, liderada pelo fundador Gabriel Engel.
+      </p>
+      <p>
+        O Rocket.Chat foi indicado como o melhor projeto no
+        <a href="https://www2.blackducksoftware.com/news/releases/black-duck-announces-open-source-rookies-of-the-year"
+          target="_blank">
+          Black Duck’s Open Source Rookies of the Year
+        </a>
+        em 2016. Nós temos nossa base no Brasil, mas a maioria do nosso time
+        trabalha remotamente. Nossos competidores principais são produtos como Slack e HipChat.
+      </p>
+    </div>
+    <div class="right">
+      <img src="/images/press/logos/512x512.png" alt="Rocket.Chat Logo">
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<section class="gabriel">
+  <div class="wrapper">
+    <div class="left">
+      <img src="/images/team/member/gabriel-engel-01.jpg" alt="Gabriel Engel">
+    </div>
+    <div class="right">
+      <h2>Gabriel Engel</h2>
+      <p>
+        Ele é o fundador do Rocket.Chat. Apaixonado por ferramentas colaborativas, open source
+        e novas tecnologias. É também o fundador da Konecty e trabalhou como Gerente de Produto
+        para Inovações em Business e Aplicações Mobile na Vodafone.
+      </p>
+      <p>
+        Gabriel, o fundador do Rocket.Chat, está disposto a falar com membros da imprensa
+        sobre suas experiências e o sucesso da empresa até agora. Gabriel fundou
+        a empresa em 2015.
+      </p>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<section class="logos">
+  <div class="wrapper">
+    <h2>Logos</h2>
+    <ul>
+      {% for logo in site.data.logos %}
+      <li>
+        <div class="img-wrapper">
+          <img src="/images/press/logos/{{ logo.file }}.{{ logo.main }}" alt="{{ logo.name }}">
+        </div>
+        <h3>{{ logo.name }}</h3>
+        <div class="download">
+          {% if logo.png %}
+          <a target="_blank" href="/images/press/logos/{{ logo.file }}.png" target="_blank" title="{{ logo.name }} PNG">PNG</a>
+          {% endif %}
+          {% if logo.svg %}
+          <a target="_blank" href="/images/press/logos/{{ logo.file }}.svg" target="_blank" title="{{ logo.name }} SVG">SVG</a>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="clear"></div>
+    <p class="more">
+      Para mais artes, confira nosso
+      <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.Artwork" target="_blank">Repositório de Artes</a>
+    </p>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="wrapper">
+    <div class="left">
+      <h2>Na Imprensa</h2>
+      <ul>
+        {% for article in site.data.press %}
+        <li>
+          <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
+          <span>{{ article.publisher }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="right">
+      <h2>Contato da Imprensa</h2>
+      <p>
+        Para comentários, entrevistas, arquivos de vídeo e imagem ou para conversar com o nosso contato para mídia,
+        por favor nos procure em: <a href="mailto: press@rocket.chat">press@rocket.chat</a>
+      </p>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
