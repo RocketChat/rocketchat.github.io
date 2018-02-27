@@ -6,7 +6,7 @@
 - [Join open.rocket.chat](join-open.rocket.chat)
 - [Rocket.Chat t-shirts](rocket.chat-t-shirts)
 - [Meeting the team](meeting-the-team)
-- [Add youself to the team page](add-youself-to-the-team-page)
+- [Add yourself to the team page](add-youself-to-the-team-page)
   - [Prerequisites](prerequisites)
   - [Add your profile](add-your-profile)
   - [Add your photo](add-your-photo)
@@ -18,14 +18,14 @@
 
 ## Your first week at Rocket.Chat
 
-1. Get familiar with Rocket.Chat and the various applications and services we use.
+1. Familiarise yourself with Rocket.Chat and the various applications and services we use.
 1. Ask Marcelo to add you to our weekly Team Call and Roadmap Discussion meetings.
 1. Schedule 1:1 calls with various people in the team to get to know them.
-1. Add yourself to the [team page](/team) and map (todo: add link to Teleport Sundial).
+1. Add yourself to the [team page](/team) and [map](https://sundial.teleport.org/public/groups/ar5ZyCa6Sd875BFQbrRb)
 
 ## Applications and services
 
-We use the followin applications and services on a daily basis.
+We use the following applications and services on a daily basis.
 
 - [Google Account](http://mail.google.com) `firstname.surname@rocket.chat`.
 - [GitHub](https://github.com) to contribute to the orginization's repos, issues and projects.
@@ -47,7 +47,7 @@ Join [open.rocket.chat](https://open.rocket.chat) and ask your manager to add yo
 
 If you are working remotely, we recommend you arrange meetings with Gabriel and at least nine other team members using the [team page](https://rocket.chat/team). Ensure that you speak to team members from a range of departments.
 
-## Add youself to the team page
+## Add yourself to the team page
 
 The [Rocket.Chat team page](https://rocket.chat/team) shows the members of the core Rocket.Chat team. The list is ordered by start date with the most recent members at the bottom.
 
