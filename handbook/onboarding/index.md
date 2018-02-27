@@ -6,15 +6,15 @@ All new Rocket.Chat employees are sent invitation links through their [@rocket.c
 
 - [Google Account](http://mail.google.com) - all Rocket.Chat receive a Google account for work purposes. Rocket.Chat email addresses take the form of [firstname.surname@rocket.chat]().
 
-- [GitHub](https://github.com) - Git version control and project managemt tools for all Rocket.Chat project (server, apps, website and operations projects). For those completely new to GitHub, [this guide](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/) is useful.
+- [GitHub](https://github.com) - Git version control and project management tools for all Rocket.Chat projects (server, apps, website and operations projects). For those completely new to GitHub, [this guide](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/) is useful.
 
-- [Google Drive](https://www.google.com/drive/) - GitHub is used as the main respository for text based documents, source code and artwork, you can access a variety of Google Docs, Spreadsheets, textbooks and videos courses on Google Drive.
+- [Google Drive](https://www.google.com/drive/) - GitHub is used as the main repository for text-based documents, source code and artwork. You can access a variety of Google Docs, spreadsheets, textbooks and video courses on Google Drive.
 
-- [BambooHR](https://www.bamboohr.com) - HR software used to request time off, check who is off work and make asset requests. Once you join BambooHR, ensure that you verify your personal details, add your mobile phone number and include your t-shirt size to recieve your Rocket.Chat t-shirt.
+- [BambooHR](https://www.bamboohr.com) - HR software used to request time off, check who is off work and make asset requests. Once you join BambooHR, ensure that you verify your personal details, add your mobile phone number and include your t-shirt size to receive your Rocket.Chat t-shirt.
 
 ## Joining the team's Rocket.Chat
 
-The Rocket.Chat team uses Rocket.Chat to collaborate in real-time. You can access Rocket.Chat in several ways:
+The Rocket.Chat team uses Rocket.Chat to collaborate in real time. You can access Rocket.Chat in several ways:
 
 - [Browser client](https://open.rocket.chat/home)
 - [Desktop client](https://rocket.chat/download)
@@ -39,6 +39,6 @@ New team members should [indicate their t-shirt size and desired colors](https:/
 
 ## Meeting the team
 
-If you are working remotely, we recommend you arrange meetings with Gabriel and nine other team members using the [team page](https://rocket.chat/blog/). Ensure that you speak to team members from a range of departments.
+If you are working remotely, we recommend you arrange meetings with Gabriel and other team members using the [team page](https://rocket.chat/blog/). Ensure that you speak to team members from a range of departments.
 
 Refer to the [Meetings](link) section of the handbook for advice on scheduling these meetings.
