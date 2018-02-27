@@ -21,7 +21,7 @@
 1. Get familiar with Rocket.Chat and the various applications and services we use.
 1. Ask Marcelo to add you to our weekly Team Call and Roadmap Discussion meetings.
 1. Schedule 1:1 calls with various people in the team to get to know them.
-1. Add yourself to the [team page](/team) and [map](.
+1. Add yourself to the [team page](/team) and map (todo: add link to Teleport Sundial).
 
 ## Applications and services
 
@@ -30,10 +30,11 @@ We use the followin applications and services on a daily basis.
 - [Google Account](http://mail.google.com) `firstname.surname@rocket.chat`.
 - [GitHub](https://github.com) to contribute to the orginization's repos, issues and projects.
 - [BambooHR](https://www.bamboohr.com) for HR.
+- Speak to your manager to access team specific applications and services.
 
 ## Join open.rocket.chat
 
-Join [open.rocket.chat](https://open.rocket.chat) and ask your managed to add you to the following private channels and any other relevatn team channels:
+Join [open.rocket.chat](https://open.rocket.chat) and ask your manager to add you to the following private channels and any other relevant team channels:
 
 - [important](https://open.rocket.chat/group/important)
 - [random](https://open.rocket.chat/group/random)

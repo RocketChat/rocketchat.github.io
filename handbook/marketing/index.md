@@ -18,7 +18,6 @@
   - [Content from the community](#content-from-the-community)
   - [Assessment criteria](#assessment-criteria)
   - [Marketing team approval](#marketing-team-approval)
-- [Where we publish]()
 
 ---
 
@@ -85,12 +84,12 @@ If your saved changes are not being displayed, stop the server and clear the cac
 rocketchat_web_clear
 ```
 
-### Editting content
+### Editing content
 
 - Checkout an existing branch or [create a new branch](https://services.github.com/on-demand/github-desktop/create-branches-github-desktop).
 - Don't commit changes to the `master` branch.
 - Don't work on someone elses branch without their permission.
-- [Make changes]((https://services.github.com/on-demand/github-desktop/make-changes-github-desktop)).
+- [Make changes](https://services.github.com/on-demand/github-desktop/make-changes-github-desktop).
 - [Commit changes](https://services.github.com/on-demand/github-desktop/add-commits-github-desktop).
 - [Open a Pull Request (PR)](https://services.github.com/on-demand/github-desktop/pull-request-github-desktop).
 - Start your PR with "`WIP: `" if it is not ready to be merged.
