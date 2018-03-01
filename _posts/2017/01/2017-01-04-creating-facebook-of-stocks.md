@@ -1,5 +1,5 @@
 ---
-title: "TechMeetsTrader: Creating the Facebook of Stocks"
+title: TechMeetsTrader: creating the "Facebook of stocks"
 categories:
   - Partnerships
   - Community
@@ -10,32 +10,44 @@ cover: /images/posts/2017/01/creating-facebook-of-stocks/business-1730089_1920.j
 redirect_from: /blog/creating-facebook-of-stocks
 ---
 
-The wide availability of inexpensive electronic stock trading services democratized the investment field, and offers more people the opportunity to become investors than ever before.  Stocks and options trading are no longer the restricted domains of the wealthy and elite.  Modern traders no longer need to be physically on Wall Street or buy seats in elusive trading pits.  
+## Electronic trading and "Lone Wolf" syndrome
 
-### The Lone Wolf Investor syndrome
+The recent boom in inexpensive electronic stock trading services has offered more individuals the opportunity to become an investor than ever before.
 
-While this is fantastic news, it also brings upon its own unique problems.  One major problem is the Lone Wolf Investor syndrome.  Modern investors tend to operate independently, trading alone and in isolation in front of a computer.    When trading in isolation, with no unified consistent place to discuss strategies or risk management with others, investors often become influenced by emotion.  This can lead to a high probability of losing their hard earned money. 
+While this can be seen as fantastic news, it comes with its own problems. The most noteworthy is perhaps "Lone Wolf" syndrome.
 
-### Rocking the electronic trading world
+"Lone Wolf" syndrome is where an individual makes investments without input from others.
 
-Albert Frimpong, CTO of [https://techmeetstrader.com](https://techmeetstrader.com)  (San Diego), is committed to create the "Facebook of stocks" - bringing together and empowering all the lone wolf investors in this world - to build a unified and consistent investment community experience:   the TechMeetsTrader community. 
+It's perhaps a natural progression of events as trading moves from Wall Street to one's personal computer.
 
-TechMeetsTrader is: 
+Common symptoms include allowing emotion to influence financial decisions.
 
-- A community where investors can fully discuss what they're trading, why, and how.  
-- A community where investors can maximize their success by collaborating with and learning from one another.    
-- A community where investors can participate in what matters most to them, whether its stocks or options investing, by creating and joining groups.    
+## Curing "Lone Wolf" syndrome through community
 
-Ultimately, TechMeetsTrader will streamline the process of going from idea to profit - by facilitating and automating strategic trade workflows.  
+San Diego-based startup TechMeetsTrader is determined to unite lone wolves through its investment community experience, which it describes as the "Facebook of stocks."
 
-### Rocket.Chat in its heart and soul
+TechMeetsTrader is three things:
 
-The TechMeetsTrader team, Albert and five incredibly talented developers, have been working around the clock with the Rocket.Chat's core team during 2016 to create this unique investment community platform.  Albert says:  "We loved the interactions with the Rocket.Chat team and community. It seemed as if everything we needed was already in motion from the community. For example, at one point channels and direct messages were private to the point where the Giphy integration would only work in public channels. I looked through the Rocket.Chat issues for 10 minutes and BAM... there's a pull request to open the channels for bots to be able to post." Most core features of Rocket.Chat are important to the TechMeetsTrader platform,  Albert says, but the ability to create group chats is absolutely pivotal. 
+- A community where investors can fully discuss what they're trading, and the hows and whys
+- A community where investors can maximize their success by collaborating with and learning from one another
+- A community where investors can participate in what matters most to them - whether it's stocks or options investing - by creating and joining groups.    
 
- _"Groups is where true collaboration happens for everyone using TechMeetsTrader."_ 
+Ultimately, TechMeetsTrader aims to streamline the process of going from idea to profit.
 
-### Launching early 2017
+## Rocket.Chat in its heart and soul
 
-The journey has been super smooth thus far for TechMeetTraders.   Their platform was built on React, NodeJS, MongoDB, & Neo4J - highly compatible with Rocket.Chat's  NodeJS + MongoDB stack - technically, the integration was a breeze! 
+The TechMeetsTrader team has been working with Rocket.Chat during 2016 to create this unique investment community platform. As Albert Frimpong, TechMeetTrader's CTO explains:
 
-TechMeetsTrader will officially launch on January 17 of 2017.   And they have an immediate opening for a talented developer familiar with Rocket.Chat development and customization.  Interested candidates should send their list of recent Rocket.Chat PRs to [jobs@techmeetstrader.com](mailto:jobs@techmeetstrader.com) 
+>"We loved the interactions with the Rocket.Chat team and community. It seemed as if everything we needed was already in motion from the community. For example, at one point channels and direct messages were private to the point where the Giphy integration would only work in public channels.
+
+>I looked through the Rocket.Chat issues for 10 minutes and BAM... there's a pull request to open the channels for bots to be able to post." 
+
+Although most of Rocket.Chat's features are important to the team, groups are pivotal: "groups is where true collaboration happens for everyone using TechMeetsTrader."
+
+## Launching early 2017
+
+TechMeetsTrader is built on React, NodeJS, MongoDB, & Neo4J, which are highly compatible with Rocket.Chat's NodeJS + MongoDB stack, making integration easy.
+
+TechMeetsTrader launches on January 17 and they have an immediate opening for a developer familiar with Rocket.Chat.
+
+Interested candidates should send their list of recent Rocket.Chat PRs to [jobs@techmeetstrader.com](mailto:jobs@techmeetstrader.com).
