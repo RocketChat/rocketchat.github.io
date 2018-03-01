@@ -46,48 +46,6 @@ body.index {
     }
   }
 
-  .mwc {
-    padding: 1.75em 0 1em;
-    text-align: center;
-    box-shadow:
-      inset 0px 11px 8px -10px #ccc,
-      inset 0px -11px 8px -10px #ccc;
-
-    .wrapper > div {
-      display: inline-block;
-    }
-
-    .wrapper > div div {
-      float: left;
-
-      img, a {
-        display: block;
-      }
-    }
-
-    img {
-      display: inline-block;
-    }
-
-    .logo {
-      float: left;
-      margin-right: 20px;
-
-      img {
-        max-height: 40px;
-      }
-    }
-
-    .date {
-      max-height: 13px;
-      margin-bottom: 8px;
-    }
-
-    .visit {
-      display: inline-block;
-    }
-  }
-
   .focus {
     em {
       color: $color-primary;
