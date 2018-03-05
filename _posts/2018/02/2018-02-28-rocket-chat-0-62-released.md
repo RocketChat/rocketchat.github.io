@@ -4,25 +4,34 @@ date: 2018-02-28 10:00:00
 categories:
   - Releases
 author: Rodrigo Nascimento
+cover: /images/posts/2018/03/2018-02-2018-02-28-rocket-chat-0-62-released.jpg
 ---
 
-**WARNING:** BREAKING change when upgrading to 0.62.0 for who that customized Rocket.Chat and is using Graphics Magick or Image Magick (usually via RocketChatFile API). That APIs was removed in for of the new image library that will be always available not depending on Operational Sytem to have that packages installed. More information [here](https://github.com/RocketChat/Rocket.Chat/pull/9711).
+**WARNING:** Upgrade to 0.62.0 if you customize Rocket.Chat and are using Graphics Magick or Image Magick (usually via RocketChatFile API).
+That API was removed in the new image library and package installation is dependent on the Operational Sytem in use. More information is available [here](https://github.com/RocketChat/Rocket.Chat/pull/9711).
 
 ## Rocket.Chat Server Release 0.62.0 Available Immediately
 
-Today, the Rocket.Chat team is delighted to announce the immediate availability of Rocket.Chat server release 0.62.0.
+The team at Rocket.Chat is delighted to announce the immediate availability of Rocket.Chat server release 0.62.0.
 
 
-This release brings together over a month of features development and bug fixes, and significantly improves the stability and usability of the new UI introduced since 0.59.0.
+This release brings together a range of features development and bug fixes, and significantly improves the stability and usability of the new UI introduced in 0.59.0.
 
 
 ## New Features
 
-### [#7098](https://github.com/RocketChat/Rocket.Chat/pull/7098) Alert admins when user requires approval & alert users when the account is approved/activated/deactivated
-When registrations requires approval, Rocket.Chat will send email to all admins on a new user registration to inform them to go to the administration panel to approve.
-The user will be notified via email when their acoung is approved or when activated/deactivated by admins.
+### [#7098](https://github.com/RocketChat/Rocket.Chat/pull/7098) Alert admins when users require approval & alert users when the account is approved/activated/deactivated
+When a new user registration requires approval, Rocket.Chat will send an email to all admins to inform them and direct them to the administration panel to approve the registration.
+The user will then be notified via email when their account has been approved or when it has been activated/deactivated by the admins.
 
 TODO: Add email image (from PR)?
+
+<div class="right image">
+  <p>
+    <img src="images/posts/2018/03/2018-02-2018-02-28-rocket-chat-0-62-released/admin-email-alert.png" alt="Message Actions (Edit & Delete)"/>
+  </p>
+</div>
+
 ### [#9642](https://github.com/RocketChat/Rocket.Chat/pull/9642) Browse more channels / Directory
 Not it's possible to discover new channels and users using the new `Directory page acessible by the Globe icon, their it's possible to enter a text to filter and select between Channels and Users.
 
