@@ -14,7 +14,7 @@ Infoworld's Bossies (Best of Open Source Software) awards have been recognizing 
 
 Some are projects that have reinvented and endured - such as LibreOffice - and others are completely new.
 
-## "Think IRC plus Google Docs plus Skype - on steriods"
+> ### "Think IRC plus Google Docs plus Skype - on steriods"
 
 Rocket.Chat was one of twelve recipients of the presitgious award, which also included iDempiere, Alfresco and Talend Open Studio.
 
