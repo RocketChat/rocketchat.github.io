@@ -1,5 +1,5 @@
 ---
-title: TechMeetsTrader: creating the "Facebook of stocks"
+title: TechMeetsTrader: a social network for traders
 categories:
   - Partnerships
   - Community
