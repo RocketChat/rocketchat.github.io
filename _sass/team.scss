@@ -1,14 +1,39 @@
 
 body.team {
 
+  .no-map-scroll {
+    position:relative;
+  }
+
+  .click-map {
+    width: 100%;
+    min-height: 470px;
+    position: absolute;
+    top: 0;
+  }
+
+  iframe {
+    display: block;
+    overflow: hidden;
+    border: 0;
+  }
+
+  @media all and (min-width: 800px) {
+    section.hero {
+      background-color: #fff;
+      padding: 3em 0 1em;
+      color: $color-dark;
+    }
+  }
+
   .message {
     padding-bottom: 3em;
-    
+
     .left {
       padding-top: 5em;
     }
   }
-  
+
   ul.team {
     list-style: none;
     padding: 0;
@@ -22,13 +47,13 @@ body.team {
         text-align: center;
         margin: 3px 0;
       }
-      
+
       .title {
         font-size: 12px;
         height: 44px;
         text-align: center;
       }
-      
+
       img {
         // filter: grayscale(0.5);
         max-width: 120px;
@@ -37,9 +62,13 @@ body.team {
     }
   }
 
-  
+
   @media all and (max-width: 800px) {
-    
+
+    iframe {
+      display: none;
+    }
+
     .header {
       margin: 0;
     }
@@ -49,15 +78,15 @@ body.team {
         padding-top: 0;
       }
     }
-    
+
     .right img {
       display: none;
     }
-    
+
     ul.team {
       grid-template-columns: repeat(2, 0.5fr);
       grid-gap: 10px;
-      
+
     }
   }
 

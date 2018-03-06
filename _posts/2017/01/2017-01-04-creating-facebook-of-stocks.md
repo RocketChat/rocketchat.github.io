@@ -26,7 +26,7 @@ Common symptoms include allowing emotion to influence financial decisions.
 
 San Diego-based startup TechMeetsTrader is determined to unite lone wolves through its investment community experience, which it describes as the "Facebook of stocks."
 
-TechMeetsTrader is three things:
+TechMeetsTrader is:
 
 - A community where investors can fully discuss what they're trading, and the hows and whys
 - A community where investors can maximize their success by collaborating with and learning from one another

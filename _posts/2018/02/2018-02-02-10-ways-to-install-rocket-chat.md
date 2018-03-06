@@ -1,10 +1,11 @@
 ---
-title: 10 ways to install Rocket.Chat
+title: 11 ways to install Rocket.Chat
 categories:
   - Features
   - Community
 date: 2018-02-01 09:00:00
 author: Louise Message
+cover: /images/posts/2018/02/2018-02-01-10-ways-to-install-rocket-chat/cover.jpg
 ---
 From distributing just a tarball through to one-click deploys, Rocket.Chat
 <a target="_blank" href="https://rocket.chat/docs/installation/">supports more than thirty deployment methods</a>  across many on-premise and cloud solutions.
@@ -83,10 +84,20 @@ This open source platform is designed to make deploying, scaling and operating a
 
 Read Xenonstack's post on <a target="_blank" href="https://www.xenonstack.com/blog/devops/how-to-deploy-rocket-chat-on-kubernetes">deploying Rocket.Chat on Kubernetes</a>.
 
-## 10. Rocket.Chat Cloud
+## 10, Cloudron
+
+Cloudron is a platform to run apps on your server and keep them up-to-date and secure.
+
+There are already more than one-hundred instances of Rocket.Chat running on Cloudron.
+
+<a target="_blank" href="https://cloudron.io/store/chat.rocket.cloudronapp.html">Install Rocket.Chat on Cloudron</a>.
+
+## 11. Rocket.Chat Cloud
 
 Rocket.Chat Cloud, built on Docker and Kubernetes, gives users the benefits of an open source communication platform without having to setup and scale infrastructure.
 
 Rocket.Chat Cloud plans start at $50/month and include weekly statistics, reporting and support.
 
 <a target="_blank" href="https://rocket.chat/cloud">Start a free 30-day Rocket.Chat Cloud trial.</a>
+
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@kseny?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Ksenia Kudelkina"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Ksenia Kudelkina</span></a>

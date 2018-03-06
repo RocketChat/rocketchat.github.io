@@ -76,10 +76,10 @@
   photo: yes
 
 - name: Diego Dorgam
-  title: Bots Engineer
+  title: Sales & Bots Engineer
   github_username: diegodorgam
   github_uid: 12052193
-  department: Development
+  department: Sales
   username: diego.dorgam
 
 - name: Guilherme Gazzo
@@ -164,3 +164,16 @@
   department: Marketing
   username: louise.message
   photo: yes
+
+- name: Isabella Russell
+  title: Content Editor
+  department: Marketing
+  username: isabella.russell
+  photo: yes
+
+- name: Tom Tostanoski
+  title: Support Lead
+  github_username: tostanoski
+  github_uid: 6999314
+  department: Support
+  username: tom.tostanoski

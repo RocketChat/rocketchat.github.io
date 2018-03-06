@@ -1,0 +1,29 @@
+
+body.handbook {
+  section:not(.hero) .wrapper {
+    width: 760px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2em;
+  }
+
+  code, pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+  }
+
+  pre {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  pre code {
+    color: #fff;
+  }
+}

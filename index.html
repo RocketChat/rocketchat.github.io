@@ -3,12 +3,8 @@ layout: en/default
 class: index
 
 redirect_from:
-  - /home
-  - /home/
   - /services
   - /services/
-  - /login
-  - /login/
   - /deploy
   - /deploy/
   - /live-demo
@@ -21,20 +17,23 @@ redirect_from:
   <div class="wrapper">
     <h1>Open Source Communication</h1>
     <div class="left">
-      <h2>On-Premises</h2>
+      <h2>Join the Community</h2>
       <p>
-        Run Rocket.Chat on your infrastructure<br>
-        Complete control of your data and platform
+        With more than <strong>850 contributors</strong>, we are the largest and most active open source team chat solution
       </p>
-      <a class="button primary" href="/download">Install Rocket.Chat</a>
+      <p class="github">
+        <a class="github-button" href="https://github.com/RocketChat/Rocket.Chat" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star RocketChat/Rocket.Chat on GitHub">Star</a>
+        &nbsp;
+        <a class="github-button" href="https://github.com/RocketChat/Rocket.Chat/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork RocketChat/Rocket.Chat on GitHub">Fork</a>
+      </p>
     </div>
     <div class="right">
-      <h2>On Rocket.Chat Cloud</h2>
+      <h2>Rocket.Chat Cloud Hosting</h2>
       <p>
-        Run Rocket.Chat on our scalable &amp; secure cloud <br>
+        Host and run Rocket.Chat on our scalable &amp; secure cloud <br>
         Open source without the burden of infrastructure
       </p>
-      <a class="button secondary" href="/cloud#pricing">Start Your Free Trial</a>
+      <a class="button secondary" target="_blank" href="https://cloud.rocket.chat/trial/small">Start your free trial</a>
     </div>
     <div class="clear"></div>
   </div>
@@ -50,8 +49,8 @@ redirect_from:
         Rocket.Chat is the leading free open source team chat Slack alternative.
       </p>
       <p>
-        With <strong><span class="star_count">{{site.stars}}k</span> stars on GitHub</strong> and more than <strong>600 contributors</strong>
-        across our products, we are the largest and most active open source team chat community.
+        With <strong><span class="star_count">{{ site.stars }}k</span> stars on GitHub</strong> and more than <strong>850 contributors</strong>
+        across our products, we are the largest and most active open source team chat solution.
       </p>
       <p>
          Join our <a href="/community">community</a> and chat to us on
@@ -233,6 +232,7 @@ redirect_from:
     <div class="clear"></div>
   </div>
 </section>
+
 <script>
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -248,3 +248,5 @@ redirect_from:
   xhttp.open("GET", "https://api.github.com/repos/RocketChat/Rocket.Chat", true);
   xhttp.send();
 </script>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>

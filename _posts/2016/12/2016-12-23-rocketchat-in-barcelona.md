@@ -9,15 +9,20 @@ author: Marcelo Schmidt
 cover: /images/posts/2016/12/rocketchat-in-barcelona/Action_Camera_Casa_Batllo.jpg
 redirect_from: /blog/rocketchat-in-barcelona
 ---
+Governments around the world are turning to open source software to fulfil their communication, operational and administrative needs.
 
-Governments around the world are turning to open source software for its communication, operation and administration needs. In addition to the obvious cost benefits, popular open source systems such as Rocket.Chat provide transparency of source and design, freedom from lock-in of a single software vendor, and the growing availability of a global pool of development and consulting talents.
+Open source solutions such as Rocket.Chat offer economic savings, transparency of source code and design, a growing global pool of development and consulting talent and can help prevent vendor lock-in.
 
-Institut Municipal d'InformÃ tica (the group that manages all the technology of Barcelona City Council) was looking for a system that would allow the group to support the City Council in providing its services to the city of Barcelona. After evaluating Slackâ€™s features, they liked the team collaboration and productivity enhancing potential of a modern web / mobile chat platform; but find that it restricted them to mostly English based operations, forced them to relinquish privacy control in management of their own conversations and data, plus it was very costly for scaling out across all departments. After more evaluation trials with HipChat and Zulip, they decided on an implementation based on Rocket.Chat.
+The Institut Municipal d'Informàtica, a group that manages technology for Barcelona City Council, was looking for a system that would enable their team to collaborate and continue to support the city council.
 
-Rocket.Chat won the race right out of the box. According to Institut Municipal dâ€™InformÃ tica, their first experience with Rocket.Chat was setting it up for a single small project, for around only 8 people to use and collaborate. Installing Rocket.Chat on a VPS was a piece of cake. Overcoming some minor challenges when integrating their LDAP server, they had their team instant messaging one another, sharing files and links within a very short time. The universal accessibility of Rocket.Chat, whether it be on a web browser, a Windows or Mac OSX deskop app, or an Android or iPhone or tablet, also made it convenient for user adoption.
+They tried out Slack and liked its real-time chat feature but found they were limited to English-based operations (Slack is currently only available in English). Slack's paid version was also costly to scale across all departments.
 
-From the initial trial project success, they scaled their implementation to make it available for other working groups, and look how to integrate rocket.chat into the corporate application ecosystem.
+After trials with other team chats like HipChat and Zulip, the team implemented Rocket.Chat.
 
-Today, there are currently around 90 people in the City Council using it daily for their communications and collaboration needs.
+They chose Rocket.Chat because setting up eight users on a VPS was simple and the team were soon instant messaging and sharing files and links.
 
-Institut Municipal dâ€™InformÃ tica said they are currently studying the possibilities of deploying Rocket.Chat to all of Barcelona City Council's departments. They have been closely following Rocket.Chatâ€™s GitHub project ([https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)) to see which functionalities are being most requested and will be collaborating closely with the Rocket.Chat team via our 24 x 7 community server at [https://open.rocket.chat](https://open.rocket.chat)
+From the success of the trial, the team scaled their implementation to make it available to other working groups and are looking at how to continue to integrate Rocket.Chat into the corporate application ecosystem.
+
+They have 90 users from the City Council using Rocket.Chat daily for their communications and collaboration needs.
+
+The Institut Municipal d'Informàtica is collaborating with the Rocket.Chat team on our <a href="https://open.rocket.chat" target="_blank">open community server</a> to explore how Rocket.Chat could be deployed across all departments within Barcelona City Council.
