@@ -45,7 +45,6 @@ redirect_from:
           </div>
           <div class="bottom">
             <div class="meta">
-              <span class="author">{{ post.author }}</span> -
               <span class="read">
                 {% assign words = post.content | number_of_words %}
                 {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
