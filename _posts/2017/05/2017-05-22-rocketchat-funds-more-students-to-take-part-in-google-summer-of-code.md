@@ -16,7 +16,7 @@ In fact, we were so impressed by the proposals put forward that we decided to fu
 
 ## This year's GSoC projects
 
-We were delighted to receive proposals from 68 elite students worldwide. Nine were then shortlisted and interviewed by us, of which seven will be working with Rocket.Chat over the summer.
+We were delighted to receive proposals from 68 students worldwide. Nine were then shortlisted and interviewed by us, of which seven will be working with Rocket.Chat over the summer.
 
 This year's projects are:
 
@@ -27,9 +27,3 @@ This year's projects are:
 - **Automatic Channels**. Student: _Karan Batra_. Rocket.Chat mentors: _Mitar MilutinoviÄ‡, Rodrigo Nascimento_
 - **Rocket.Chat Android SDK**. Student: _Sachin Shinde_. Rocket.Chat mentor: _Rafael Kellermann Streit_
 - **Federation Server**. Student: _Manish Kakoti._ Rocket.Chat mentors: _Gabriel Engel, Sing Li, Matthew Hodgson_
-
-We're looking forward to sharing our expertise on open source projects, and we have no doubt that we'll be learning from our students, too!
-
-We'll be guiding all particpants through open source coding, community engagement and trending technical skills. Students are paid and they will be joining an active open source community.
-
-This is an unrivalled opportunity for particpants to experience life as an open source coder and an exciting chance for us to help the tech community of the future. We can't wait to get started!
