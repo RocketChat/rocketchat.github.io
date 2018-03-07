@@ -1,5 +1,5 @@
 ---
-title: "Call to Community: Meet the Rocket.Chat Gang at Google Cloud Next 2017"
+title: "Meet the Rocket.Chat gang at Google Cloud Next 2017"
 categories:
   - Events
   - Community
@@ -8,34 +8,31 @@ author: Sing Li
 cover: /images/posts/2017/02/call-to-community-google-cloud-next-2017/Next17-1.jpg
 redirect_from: /blog/call-to-community-google-cloud-next-2017
 ---
-Rocket.Chat has been invited by Google to showcase the open source project at [Google Cloud Next 2017](https://cloudnext.withgoogle.com/) on March 8 - 10 2017.
 
-This major annual Cloud technology event for Google is taking place in downtown San Francisco's Moscone Center. With a speakers lineup including the Executive Chairman of Alphabet, Eric Schmidt, as well as Google CEO, Sundar Pichai, thousands of cloud professionals, executives, developers, IT decision makers, and venture capitalists are expected to attend the show.
+Rocket.Chat has been invited to present at [Google Cloud Next 2017](https://cloudnext.withgoogle.com/), which takes place March 8th-10th.
 
-The Rocket.Chat team will be part of the hand-selected startups exhibiting at the "Startup Village" venue at Next 2017\. Key members of the Rocket.Chat team will be at the showcase.
+Google Cloud Next is one of the most important events of its kind, and this year the speaker line-up includes Eric Schmidt, Executive Chairman of Alphabet and Google CEO, Sundar Pichai.
 
-We would love to meet our community at-large - If you're attending Google Cloud Next 2017, please make it a point to drop by the Rocket.Chat table to say hello, shared the latest news, or join us for a drink at the on-site cafÃ©!
+Thousands of cloud professionals, executives, developers, IT decision makers and venture capitalists are expected to attend the event.
 
-### Special GitHub Project Milestone and Remote Hackathon
+Rocket.Chat will be one of the startups hand-picked by Google to exhibit at the Next 2017's "Startup Village" venue.
 
-In celebration of this true open source style event, Rocket.Chat has created a special milestone: _[Google Cloud Next 17](https://github.com/RocketChat/Rocket.Chat/milestone/64)_ and there are exciting new features to be completed and showcased at Next 17!
+We always love to meet members of the community, so, if you're attending Next 2017, make sure to drop by the Rocket.Chat table and say hello!
 
-The entire community, especially members with experience in any of the Google technologies, are invited to participate by submitting PR or comments.
+## Special GitHub Project Milestone and remote hackathon
 
-All contributors will be rewarded with a Rocket.Chat perk of their choice (to be shipped out while our team is in San Francisco).
+In celebration of the event, Rocket.Chat has also created a special repository milestone, _[Google Cloud Next 2017](https://github.com/RocketChat/Rocket.Chat/milestone/64)_. The whole community is encouraged to participate towards the repo by submitting a pull request or leaving a comment. All contributors will be rewarded with a Rocket.Chat perk of their choice!
 
-The [repository milestone](https://github.com/RocketChat/Rocket.Chat/milestone/64) is WIDE OPEN NOW for immediate PR and contribution.
+From March 3-5th we will also be airing segments of our remote Hackathon, where key Rocket.Chat developers and founder Gabriel Engel will be taking part.
 
-Between March 3 and March 5 - we will be airing a portion of our remote Hackathon with key Rocket.Chat developers participating, including Gabriel Engel at the helm, to kick this into high gear!
+You can join the hackathon through [#nexthackathon17](https://open.rocket.chat/channel/nexthackathon17) on our community server.
 
-Join us in our hackathon by joining [#nexthackathon17](https://open.rocket.chat/channel/nexthackathon17) on our community server; where we will be hanging out and live streaming!
+## After-event meetup
 
-### After Event Meetup
+If you're in the Bay area, come join us at the first-ever [Rocket.Chat-hosted meetup](https://www.meetup.com/Rocket-Chat-San-Francisco-Bay-Area/events/237858761/)  on March 10th at 7pm (location TBC).
 
-If you're in the Bay area, or within driving distance of the Bay area - come join us at the first ever [Rocket.Chat hosted Meetup](https://www.meetup.com/Rocket-Chat-San-Francisco-Bay-Area/events/237858761/) at a venue in San Francisco (Date will be March 10th, 7 PM location TBD).
+Gabriel Engel and Rodrigo will be talking about Rocket.Chat's architecture and scaling techniques while Aaron and Sing will be on-hand with advice on bots and new deployment options, like Snaps.
 
-Come meet the Rocket.Chat team in an informal after work environment. Gabriel Engel and Rodrigo Nascimento will be talking about Rocket.Chat architecture and scaling techniques. Aaron Ogle and Sing Li will have tips for Rocket.Chat bots and new deployment options like snaps.
+Beers, soft drinks and snacks will all be available alongside limited-edition Rocket.Chat collectables!
 
-Beer, soft drinks and snack will be available as well as collectable, limited-edition Rocket.Chat perks.
-
-Please [RSVP](https://www.meetup.com/Rocket-Chat-San-Francisco-Bay-Area/events/237858761/) for this fun event.
+Please [RSVP here](https://www.meetup.com/Rocket-Chat-San-Francisco-Bay-Area/events/237858761/).
