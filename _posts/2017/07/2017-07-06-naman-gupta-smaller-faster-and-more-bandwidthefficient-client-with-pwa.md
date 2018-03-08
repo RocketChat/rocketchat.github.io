@@ -4,7 +4,7 @@ categories:
   - GSoC
 date: 2017-07-06 00:01:31
 author: Sing Li
-cover: /images/posts/2017/07/naman-gupta-smaller-faster-and-more-bandwidthefficient-client-with-pwa/cover-naman-gupta.png
+cover: /images/posts/2017/07/gsoc-logo.png
 redirect_from: /blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation
 ---
 

@@ -4,7 +4,7 @@ categories:
   - GSoC
 date: 2017-05-22 17:20:01
 author: Sing Li
-cover: /images/posts/2017/05/rocketchat-funds-more-students-to-take-part-in-google-summer-of-code/cover-announcement.png
+cover: /images/posts/2017/07/gsoc-logo.png
 redirect_from: /blog/rocketchat-funds-more-students-to-take-part-in-google-summer-of-code
 ---
 
