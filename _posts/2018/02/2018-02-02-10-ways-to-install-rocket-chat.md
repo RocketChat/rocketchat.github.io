@@ -1,5 +1,5 @@
 ---
-title: 10 ways to install Rocket.Chat
+title: 11 ways to install Rocket.Chat
 categories:
   - Features
   - Community
@@ -84,7 +84,15 @@ This open source platform is designed to make deploying, scaling and operating a
 
 Read Xenonstack's post on <a target="_blank" href="https://www.xenonstack.com/blog/devops/how-to-deploy-rocket-chat-on-kubernetes">deploying Rocket.Chat on Kubernetes</a>.
 
-## 10. Rocket.Chat Cloud
+## 10, Cloudron
+
+Cloudron is a platform to run apps on your server and keep them up-to-date and secure.
+
+There are already more than one-hundred instances of Rocket.Chat running on Cloudron.
+
+<a target="_blank" href="https://cloudron.io/store/chat.rocket.cloudronapp.html">Install Rocket.Chat on Cloudron</a>.
+
+## 11. Rocket.Chat Cloud
 
 Rocket.Chat Cloud, built on Docker and Kubernetes, gives users the benefits of an open source communication platform without having to setup and scale infrastructure.
 

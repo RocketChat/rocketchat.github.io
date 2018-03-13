@@ -62,7 +62,7 @@ It is each team member's responsibility to add their own information and photo t
 
 ### Add your profile
 
-1. Open `_data/team.ym`.
+1. Open `_data/team.yml`.
 1. Add a new record at the bottom of the file with the following fields:
   - `name`: full name
   - `title`: from your contract
