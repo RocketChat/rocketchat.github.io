@@ -4,7 +4,7 @@ categories:
   - Community
 date: 2017-03-01 16:11
 author: Louise Message
-cover:
+cover: /images/posts/2018/03/03-13-18-open-source-higher-education-cover.jpg
 ---
 
 ## Open source and its origins in higher education
