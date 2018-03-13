@@ -4,7 +4,7 @@ categories:
   - GSoC
 date: 2017-05-22 17:20:01
 author: Sing Li
-cover: /images/posts/2017/05/rocketchat-funds-more-students-to-take-part-in-google-summer-of-code/gsoc17.png
+cover: /images/posts/2017/07/gsoc-logo.png
 redirect_from: /blog/rocketchat-funds-more-students-to-take-part-in-google-summer-of-code
 ---
 
@@ -31,5 +31,3 @@ This year's projects are:
 We're looking forward to sharing our expertise on open source projects, and we have no doubt that we'll be learning from our students, too!
 
 We'll be guiding all particpants through open source coding, community engagement and trending technical skills. Students are paid and they will be joining an active open source community.
-
-This is an unrivalled opportunity for particpants to experience life as an open source coder and an exciting chance for us to help the tech community of the future. We can't wait to get started!

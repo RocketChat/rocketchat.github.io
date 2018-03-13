@@ -40,12 +40,11 @@ redirect_from:
           <div class="top">
             <h2><a href="{{ post.url | remove: "index.html" }}">{{ post.title }}</a></h2>
             <p class="summary">
-              {{ post.excerpt | strip_html | truncatewords: 30 }}
+              {{ post.excerpt | strip_html | truncatewords: 20 }}
             </p>
           </div>
           <div class="bottom">
             <div class="meta">
-              <span class="author">{{ post.author }}</span> -
               <span class="read">
                 {% assign words = post.content | number_of_words %}
                 {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read

@@ -9,11 +9,11 @@ cover: /images/posts/2017/05/announcing-zapier-integration/zapier-logo-colored.p
 redirect_from: /blog/announcing-zapier-integration
 ---
 
-Do you want to connect all of your most valued resources and use Rocket.Chat as your hub of communication?
+Do you want to connect all of your most valued resources and use Rocket.Chat as your communication hub?
 
 ## Fantastic idea!
 
-The stumbling block: you have limited development expertise and you simply cannot get Rocket.Chat's Incoming and Outgoing Integrations to work for you.
+The stumbling block: you have limited development expertise and you simply cannot get Rocket.Chat's incoming and outgoing integrations to work for you.
 
 Our solution for you: Rocket.Chat's Zapier Integration.
 
@@ -25,38 +25,43 @@ A Zap is an automated workflow that connects two or more apps; when something ha
 
 Zapier provides an incredibly flexible and powerful infrastructure that makes connecting Rocket.Chat to other applications easy and intuitive.
 
-Our Zapier Application is in invite only status. However, once we reach at least 10 active users, we will then be able to apply for public beta. Public beta will allow anyone to see our application listed on Zapier's directory, which already contains more than 750 that you can connect to.
+Our Zapier application is in invite-only status. However, once we reach at least ten active users, we will then be able to apply for public beta. Public beta will allow anyone to see our application listed on Zapier's directory, which already contains more than 750 that you can connect to.
 
-## Getting Started
+## Getting started
 
 Before we get started, please ensure that your Rocket.Chat server's version is at least v0.49.3.
 
-Once this is verified, getting started is easy. You will need a Zapier account to start using it, so if you don't already have one then head on over and [create a free account now](https://zapier.com/sign-up/ "Zapier Sign Up"). Once your Zapier account is ready, log into your Zapier account and click this [invitation link](https://zapier.com/developer/invite/32270/7c3feadc825db6ae9023ea2983e88875/) ([http://bit.ly/2rLotv5](https://zapier.com/developer/invite/32270/7c3feadc825db6ae9023ea2983e88875/)). You will see an invitation screen which looks like the screenshot below:
+Once this is verified, getting started is easy. You will need a Zapier account to start using it, so if you don't already have one then head on over and [create a free account now](https://zapier.com/sign-up/ "Zapier Sign Up"). Once your Zapier account is ready, log into your Zapier account and click this [invitation link](https://zapier.com/developer/invite/32270/7c3feadc825db6ae9023ea2983e88875/). You will see an invitation screen which looks like the screenshot below:
 
 ![](https://cdn-my.konecty.com/rest/image/outer/1/750/rocketchat/BlogPost/28/images/invite.png?)
 
-Press the orange "Accept Invite & Build a Zap" button to add the invite only application to your Zapier account.
-Note: You will not be able to see Rocket.Chat in the Application Directory until you accept this invite -- or until our Zapier application goes into public beta.
+Press the orange "Accept Invite & Build a Zap" button to add the invite-only application to your Zapier account.
+
+Note: You will not be able to see Rocket.Chat in the application directory until you accept this invite—or until our Zapier application goes into public beta.
+
 After you click to accept, you will be taken to the following screen:
 
 ![](https://cdn-my.konecty.com/rest/image/outer/1/750/rocketchat/BlogPost/28/images/first-zap-blank.png?)
 
-## Creating Your First Zap
+## Creating your first Zap
 
 Now that you have accepted our invitation, let's create your first Zap with Rocket.Chat. We will connect Google Calendar and create an event whenever you say a phrase like "!calendar Zapier Review tomorrow at 4pm" in a private channel.
 
-Until further notice, please do the steps listed on our [Zapier Documentation](https://rocket.chat/docs/administrator-guides/integrations/zapier/#zapier) to ensure your Zapier settings inside Rocket.Chat are up to date. [https://rocket.chat/docs/administrator-guides/integrations/zapier/#zapier](https://rocket.chat/docs/administrator-guides/integrations/zapier/#zapier)
+Until further notice, please follow the steps listed on our [Zapier Documentation](https://rocket.chat/docs/administrator-guides/integrations/zapier/#zapier) to ensure your Zapier settings inside Rocket.Chat are up to date.
 
 First up, select the Rocket.Chat application and then select the "New Message Posted to Private Group" trigger as seen in the following screenshot:
 
 ![](https://cdn-my.konecty.com/rest/image/outer/1/750/rocketchat/BlogPost/28/images/zapier-select-trigger.png?)
 
-Click "Save + Continue" and the next screen will have you connect your Rocket.Chat account to Zapier.
-Click on "Connect a New Account" then, in the window which pops up, enter the domain where your Rocket.Chat is accessed publically from and include the last slash.
+Click "Save + Continue" and you will then be asked connect your Rocket.Chat account to Zapier.
+
+Click on "Connect a New Account" then enter the domain where your Rocket.Chat is accessed publically from and include the last slash.
 
 In this example, I will use "https://zapier-test-1.rocket.chat/" as my domain.
 
-If you click continue, and are not currently logged into your Rocket.Chat, you will be brought to a login screen. After you login, or if you were already logged in, you will be presented with the following screen:
+If you click continue and are not currently logged into your Rocket.Chat you will be brought to a login screen.
+
+After you login, or if you were already logged in, you will be presented with the following screen:
 
 ![](https://cdn-my.konecty.com/rest/image/outer/1/750/rocketchat/BlogPost/28/images/oauth-screen.png?)
 
@@ -95,11 +100,11 @@ Click on the blue "Save + Continue" button. Go to the "Transform" drop down and 
 
 The input field should be the message from Rocket.Chat's event and the find should be the value "!calendar[:space:]".
 
-Click the blue "Continue" button and, on the next screen, click the blue "Create & Continue" to verify it correctly removes the "!calendar" text.
+Click the blue "Continue" button. On the next screen, click the blue "Create & Continue" to verify it correctly removes the "!calendar" text.
 
 Once that is successful, then click the gray "Add a step" button.
 
-Since we are going to connect Google Calendar, search for calendar and then select Google Calendar.
+Since we are going to connect Google Calendar, search for and select Google Calendar.
 
 ![](https://cdn-my.konecty.com/rest/image/outer/1/750/rocketchat/BlogPost/28/images/google-calendar.png?)
 Since we are wanting to create a new event via a message, select the "Quick Add Event" action and then click the blue "Save + Continue" button.
@@ -108,7 +113,7 @@ Since we are wanting to create a new event via a message, select the "Quick Add 
 
 Connect your Google Calendar account if you don't have one already.
 
-Once your account is connected, click the blue "Continue" button. The Google Calendar "Quick Add Event" details screen should now be visible; select the calendar you want the events to be created on.
+Once your account is connected, click the blue "Continue" button. The Google Calendar "Quick Add Event" details screen should now be visible. Select the calendar you want the events to be created on.
 
 Then, on the "Describe Event", click the input field's right icon and from the drop down select Step 3's "Text" option:
 
@@ -122,4 +127,4 @@ Now you can turn your Zap on and use it to schedule meetings on your calendar. A
 
 ![](https://cdn-my.konecty.com/rest/image/outer/1/750/rocketchat/BlogPost/28/images/zap-done.png?)
 
-We look forward to hearing all the different applications you connect together to bring your data in and out of Rocket.Chat! You can let us know via our [Facebook](https://www.facebook.com/RocketChatApp/) or Tweet us [@Rocketchat](https://twitter.com/RocketChat)
+We look forward to hearing all the different applications you connect together to bring your data in and out of Rocket.Chat! You can let us know via [Facebook](https://www.facebook.com/RocketChatApp/) or Tweet us [@Rocket.Chat](https://twitter.com/RocketChat).
