@@ -4,6 +4,7 @@ categories:
   - Community
 date: 2017-03-01 16:11
 author: Louise Message
+cover:
 ---
 
 ## Open source and its origins in higher education
@@ -32,7 +33,7 @@ The founding of the Open Source Initiative (OSI) in 1998 did much to formalize t
 
 Given the deep historical and philosophical connection between open source software and academia, it is unsurprising that projects such as Linux are popular amongst students and universities alike.
 
-Countless Linux repositories for educational use already exist and many schools and universities around the world use Linux; there are more than 500,000 computer stations in Brazilian schools that run on Linux. In 2007, Russia announced that all of its school computers would run on Linux and in 2015, 33 German universities announced they would adopt Linux.
+Countless Linux repositories for educational use already exist and <a href="https://en.wikipedia.org/wiki/List_of_Linux_adopters" target="_blank">many schools and universities around the world use Linux</a>; there are more than 500,000 computer stations in Brazilian schools that run on Linux. In 2007, Russia announced that all of its school computers would run on Linux and in 2015, 33 German universities announced they would adopt Linux.
 
 The uptake of open source solutions within academic institutions looks set to continue—and is not limited to Linux.
 
@@ -44,7 +45,7 @@ Meanwhile MIT pioneered an open source approach to higher education when it bega
 
 This shift towards open source solutions is driven in unequal measures by the ideologies outlined above (least important) and by financial pressures (most important).
 
-In the US, the costs associated with higher education have <a href="https://www.theatlas.com/charts/H13g02mCl" target="_blank">steadily increased over the past decade or so</a>. As housing costs increased by 50% between 2006 and 2016, tuition fees increased by 63% and the cost of textbooks rose by 88%. To travel back a little further in time, it is estimated that colleges in the US spent more than $5 billion on enterprise resource planning software in the 1990s and 2000s.
+In the US, the costs associated with higher education have <a href="https://www.theatlas.com/charts/H13g02mCl" target="_blank">steadily increased over the past decade or so</a>. As housing costs increased by 50% between 2006 and 2016, tuition fees increased by 63% and the cost of textbooks rose by 88%. To travel back a little further in time, it is estimated that colleges in the US <a href="https://www.axelerant.com/resources/articles/open-source-in-higher-education" target="_blank">spent more than $5 billion</a> on enterprise resource planning software in the 1990s and 2000s.
 
 An open source approach to higher education could alleviate some of the financial strain placed on colleges and students. It is estimated that college students <a href="https://www.nytimes.com/2015/02/26/your-money/putting-a-dent-in-college-costs-with-open-source-textbooks.html" target="_blank">could save $128 on average per course</a> if they had access to open source textbooks.
 
