@@ -9,10 +9,6 @@ cover: /images/posts/2017/01/making-connections-at-conferences-and-trade-fairs/c
 redirect_from: /blog/making-connections-at-conferences-and-trade-fairs
 ---
 
-With an active community of more than 100,000 members, Rocket.Chat regularly receives global success stories of incredibly innovative use-cases of our open source platform. Topping the list is Germany-based <a href="https://it.arvato.com" target="_blank">Arvato System's</a> Virtual Event Platform.
-
-## A new events communication platform
-
 A problem faced by conference and trade event attendees is how difficult it can be to follow up with those they met at the event. Time restrictions and a wide variety of distractions both contribute to the issue, but it is ultimately the lack of a centralized communication platform that is to blame.
 
 Arvato System's Virtual Events Platform—which embeds Rocket.Chat—aims to solve the problem by facilitating open collaboration between guests, exhibitors, keynote lecturers and event personnel.
