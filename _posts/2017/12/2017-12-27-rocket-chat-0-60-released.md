@@ -4,6 +4,7 @@ date: 2017-12-27 10:00:00
 categories:
   - Releases
 author: Sing Li
+cover: /images/posts/2017/12/rocket-chat-0-60-released/cover-release-12-17.jpg
 ---
 
 **WARNING:** BREAKING change when upgrading to 0.60.0. Any user running directly from source/compiled code and upgrading from older versions to 0.60.0 *must* first install [Node.js 8.x](https://nodejs.org/en/download/) in their environment. Rocket.Chat 0.60.0 requires Node 8 to run correctly. If you are using Docker or Snaps just ignore this warning.
@@ -69,3 +70,5 @@ Numerous notification improvements are available in this release, including the 
 ### More Information on Release 0.60.0
 
 For details of what is included in this exciting 0.60.0 release, please see our [release notes](https://github.com/RocketChat/Rocket.Chat/releases/tag/0.60.0).
+
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@graeme_nicholl?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Graeme Nicholl"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Graeme Nicholl</span></a>

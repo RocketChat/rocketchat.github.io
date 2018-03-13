@@ -164,3 +164,16 @@
   department: Marketing
   username: louise.message
   photo: yes
+
+- name: Isabella Russell
+  title: Content Editor
+  department: Marketing
+  username: isabella.russell
+  photo: yes
+
+- name: Tom Tostanoski
+  title: Support Lead
+  github_username: tostanoski
+  github_uid: 6999314
+  department: Support
+  username: tom.tostanoski

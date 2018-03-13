@@ -9,14 +9,14 @@ paginate_path: /blog/page/:num/
 paginate: 8
 
 # bump if alterting styles
-version: 32
+version: 34
 
 # read speed
 wpm: 160
 
 # on GitHub project
-stars: 15.3
-forks: 3.2
+stars: 16.4
+forks: 3.5
 
 # set default template for posts
 defaults:
@@ -28,7 +28,7 @@ defaults:
   - scope:
       path: handbook
     values:
-      layout: en/page
+      layout: en/handbook
       class: handbook
       title: Rocket.Chat Handbook
 

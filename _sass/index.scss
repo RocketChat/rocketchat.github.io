@@ -36,51 +36,13 @@ body.index {
       margin-bottom: -12px;
     }
 
+    .github {
+      padding: 10px 0;
+    }
+
     h1 {
       margin: 1em 0;
       font-size: 2.75em;
-    }
-  }
-
-  .mwc {
-    padding: 1.75em 0 1em;
-    text-align: center;
-    box-shadow:
-      inset 0px 11px 8px -10px #ccc,
-      inset 0px -11px 8px -10px #ccc;
-
-    .wrapper > div {
-      display: inline-block;
-    }
-
-    .wrapper > div div {
-      float: left;
-
-      img, a {
-        display: block;
-      }
-    }
-
-    img {
-      display: inline-block;
-    }
-
-    .logo {
-      float: left;
-      margin-right: 20px;
-
-      img {
-        max-height: 40px;
-      }
-    }
-
-    .date {
-      max-height: 13px;
-      margin-bottom: 8px;
-    }
-
-    .visit {
-      display: inline-block;
     }
   }
 
