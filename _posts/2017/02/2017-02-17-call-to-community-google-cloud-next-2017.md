@@ -27,7 +27,7 @@ From March 3-5th we will also be airing segments of our remote Hackathon, where 
 
 You can join the hackathon through [#nexthackathon17](https://open.rocket.chat/channel/nexthackathon17) on our community server.
 
-## After-event meetup
+## Post-event meetup
 
 If you're in the Bay area, come join us at the first-ever [Rocket.Chat-hosted meetup](https://www.meetup.com/Rocket-Chat-San-Francisco-Bay-Area/events/237858761/)  on March 10th at 7pm (location TBC).
 

@@ -15,7 +15,7 @@ Karan tells us he has a love for Javascript and a fascination with open source d
 
 Karan loves the sense of satisfaction that contributing to the open source community brings him - something we hear a lot and of course agree with! Working with those of similar interests and motivations is what Karan says gets the best out of him. 
 
-With the project Automatic Channels, Karan confides it 'seemed really interesting to me. The scope of enhancing my skills in this area made me realise that, this is the best thing I can do this summer.'
+With the project Automatic Channels, Karan confides it "seemed really interesting to me. The scope of enhancing my skills in this area made me realise that, this is the best thing I can do this summer."
 
 Karan worked very hard perfecting his proposal for the Automatic Channels project. He took the opportunity to work closely with a mentor and his determination and skills really shone through. He believes this project is key. 
 

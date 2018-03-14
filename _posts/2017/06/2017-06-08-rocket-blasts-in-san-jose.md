@@ -10,7 +10,7 @@ redirect_from: /blog/rocket-blasts-in-san-jose
 ---
 
 Hi everyone,
-here is a very quick follow-up on our 'A round of drinks with Rocket.Chat' meet-up in San Jose  yesterday evening which was a resounding success!
+here is a very quick follow-up on our "A round of drinks with Rocket.Chat" meet-up in San Jose  yesterday evening which was a resounding success!
 
 Approximately 30 people turned up and we can happily report that we made quite a few new friends, had a chance to meet some long-time supporters, introduced a few of you to Rocket.Chat, and, more importantly, we all had a blast (sorry, bad pun... ;) ) amidst all the conference activities.
 

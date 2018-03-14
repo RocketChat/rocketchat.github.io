@@ -7,7 +7,7 @@ author: Sing Li
 cover: /images/posts/2017/06/bots-or-not-looking-at-the-potential-for-bot-integration/cover-bot.jpg
 redirect_from: /blog/bots-or-not-looking-at-the-potential-for-bot-integration
 ---
-Bots have been around forever, and they continue to be somewhat imperfect. For those who aren't clued up on bots, here is what you need to know. They are programs that let you carry out 'conversations' (ie. type a question or command) and get an answer or accomplish your goal from within the app.
+Bots have been around forever, and they continue to be somewhat imperfect. For those who aren't clued up on bots, here is what you need to know. They are programs that let you carry out "conversations" (ie. type a question or command) and get an answer or accomplish your goal from within the app.
 
 
 Generally speaking, bots that are currently being developed are nowhere near the Westworld-level of AI that we may have hoped we'd have by now, but many platforms are creating bot integrations that are useful and help streamline processes in one way or another.

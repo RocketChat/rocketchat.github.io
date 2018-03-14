@@ -15,7 +15,7 @@ Sachin is studying for a degree in Information Technology at the [Pune Institute
 
 Sachin knows this is an important moment in his career and he is determined to make the most of the Rocket.Chat team's expertise. During the summer, he will be working on the Android SDK project with our team. He has already worked with most of the technologies required for the project, so it was a natural fit.  
 
-He explains: 'This project is about developing chat client and LiveChat client which can be embedded into any Android app. It can be used by large community of developers as communication with users and among themselves is required in most of the applications. I'm currently using Android Studio as an IDE. My objective is not just to create a project, but to create a _MASTERPIECE_.'
+He explains: "This project is about developing chat client and LiveChat client which can be embedded into any Android app. It can be used by large community of developers as communication with users and among themselves is required in most of the applications. I'm currently using Android Studio as an IDE. My objective is not just to create a project, but to create a _MASTERPIECE_."
 
 We are looking forward to watching the masterpiece develop - it sounds like Sachin has some exciting plans!
 
