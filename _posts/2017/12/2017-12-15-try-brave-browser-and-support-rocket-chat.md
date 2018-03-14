@@ -1,5 +1,5 @@
 ---
-title: "Try Brave Browser-Support Rocket.Chat"
+title: "Try Brave Browser, support Rocket.Chat
 categories:
   - Partnerships
 date: 2017-12-15 00:00:00
@@ -8,30 +8,27 @@ cover: /images/posts/2017/12/try-brave-browser-and-support-rocket-chat/brave-rc.
 redirect_from: /blog/try-brave-browser-and-support-rocket-chat
 ---
 
+<a href="https://brave.com" target="_blank">Brave</a> is a free and open source web browser from Brendan Eich, Mozilla cofounder and the inventor of Javascript.
 
-Rocket.Chat is proud to be an official Brave verified publisher. Now you can support Rocket.Chat by using the Brave browser.
+Brave leverages blockchain technology to restore control over web privacy to users. It completely blocks all trackers and elimates annoying targeted ads.
 
-## Brave restores full web privacy
-
-The [Brave browser](https://brave.com/) is a revolutionary new browser, brought to you by the cofounder of Mozilla and inventor of JavaScript - Brendan Eich. Brave leverages blockchain technology to restore control over your web surfing privacy.
-
-Brave puts web privacy control back in your hands. It can completely block all trackers and eliminate annoying targeted ads from your daily web surfing. Instead, you can choose which website you trust and desire to support via Brave Payments.
+Instead, you can reward the websites you trust and want to support, via Brave Payments.
 
 ## Blockchain powered reward system
 
-Through the use of a crypto token named BasicAttentionToken ([BAT](https://basicattentiontoken.org/)), you can reward the websites and information providers you visit most frequently, including YouTubers. Rocket.Chat is an official Brave verified publisher and can receive BAT when you visit our servers using the Brave browser and if you choose to support us.
+You can use the specially-created crytocurrency <a href="https://basicattentiontoken.org/" target="_blank">BasicAttentionToken</a> (BAT) to reward the websites and information providers you visit most frequently.
+
+Rocket.Chat is an official Brave-verified publisher and you can receive BAT when you visit our servers via Brave.
 
 ## Tested with Rocket.Chat
 
-Brave has been extensively tested and works extremely well with Rocket.Chat. Brave team members are valuable contributing members within the Rocket.Chat community.
+Brave has been tested extensively and works extremely well with Rocket.Chat. Brave team members are valuable contributing members within the Rocket.Chat community.
 
 ## Crypto Token Grants
 
-Brave recently gave users BAT grants so they could reward their favorite sites (the promotion is now over), but will do so again in the near future so stay tuned for more!
+Brave recently gave users BAT grants so they could reward their favorite sites (the promotion is now over), but will do so again in the near future—so stay tuned for more!
 
-Support Rocket.Chat and use Brave with Rocket.Chat today!
+## Further reading
 
-### Background
-
-1. [Brave Grants 300000 Crypto Tokens to Browser Users](https://basicattentiontoken.org/brave-grants-300000-crypto-tokens-to-browser-users/)
-1. [Google and Facebook too can be disrupted](https://www.bloomberg.com/view/articles/2017-12-08/google-and-facebook-too-can-be-disrupted)
+1. <a href="https://basicattentiontoken.org/brave-grants-300000-crypto-tokens-to-browser-users/" target="_blank">Brave grants 300,000 crypto tokens to browser users</a>
+2. <a href="https://www.bloomberg.com/view/articles/2017-12-08/google-and-facebook-too-can-be-disrupted" target="_blank">Google and Facebook too can be disrupted</a>
