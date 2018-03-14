@@ -13,12 +13,12 @@ Karan Batra fell in love with coding after his first college project and knew th
 
 Karan tells us he has a love for Javascript and a fascination with open source development and so, after hearing about Google Summer of Code, explored the organizations involved and decided he wanted to be mentored by Rocket.Chat. 
 
-Karan loves the sense of satisfaction that contributing the the open source community brings him - something we hear a lot and of course agree with! Working with those of similar interests and motivations, as at college, Karan says gets the best out of him. 
+Karan loves the sense of satisfaction that contributing to the open source community brings him - something we hear a lot and of course agree with! Working with those of similar interests and motivations is what Karan says gets the best out of him. 
 
-With the project Automatic Channels, Karan shares with us "This interested me and seemed really interesting to me. The scope of enhancing my skills in this idea made me realised that, this is the best thing I can do this summer."
+With the project Automatic Channels, Karan confides it 'seemed really interesting to me. The scope of enhancing my skills in this area made me realise that, this is the best thing I can do this summer.'
 
 Karan worked very hard perfecting his proposal for the Automatic Channels project. He took the opportunity to work closely with a mentor and his determination and skills really shone through. He believes this project is key. 
 
-Between coding, cricket and volleyball, Karan has started a blog of his experiences here -- we look forward to seeing what he has to say about his Summer of Code!
+Between coding, cricket and volleyball, Karan has started a blog of his experiences here - we look forward to seeing what he has to say about his Summer of Code at Rocket.Chat!
 
 We will also be documenting our students' progress over the summer: Check the Rocket.Chat blog, Facebook and Twitter. Or, see the Google Summer of Code documents section on the Rocket.Chat website.
