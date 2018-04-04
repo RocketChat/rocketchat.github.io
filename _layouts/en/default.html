@@ -3,28 +3,33 @@ layout: default
 class: index
 ---
 
-<header>
-  <div class="wrapper">
-    <a class="logo" href="/">
-      <img src="/images/default/logo.svg" alt="Rocket.Chat">
+<header class="app-header {% if page.menu == 'light' %}app-header--light{% else %}app-header--black{% endif %}">
+  <div class="container">
+    <a class="app-header_logo" href="/">
+      {% if page.menu == 'light' %}
+        <img src="/images/default/logo--dark.svg" alt="Rocket.Chat">
+      {% else %}
+        <img src="/images/default/logo.svg" alt="Rocket.Chat">
+      {% endif %}
     </a>
-    <ul>
-      <li><a {% if page.class == 'download' %}class="active"{%endif%} href="/download">Download</a></li>
-      <li><a {% if page.class == 'suppport' %}class="active"{%endif%} href="/support">Support</a></li>
-      <li><a {% if page.class == 'cloud' %}class="active"{%endif%} href="/cloud">Cloud</a></li>
-      <li><a {% if page.class == 'community' %}class="active"{%endif%} href="/community">Community</a></li>
-      <li><a href="https://rocket.chat/docs/">Docs</a></li>
-      <li><a {% if page.class == 'blog' %}class="active"{%endif%} href="/blog/">Blog</a></li>
-      <li><a {% if page.class == 'contact' %}class="active"{%endif%} href="/contact">Contact</a></li>
-    </ul>
-    <div class="clear"></div>
+    <nav class="app-header_menu">
+      <ul>
+        <li><a {% if page.class == 'support' %}class="current-page"{%endif%} href="/support">Support</a></li>
+        <li><a {% if page.class == 'cloud' %}class="current-page"{%endif%} href="/cloud">Cloud</a></li>
+        <li><a {% if page.class == 'community' %}class="current-page"{%endif%} href="/community">Community</a></li>
+        <li><a href="https://rocket.chat/docs/">Docs</a></li>
+        <li><a {% if page.class == 'blog' %}class="current-page"{%endif%} href="/blog/">Blog</a></li>
+        <li><a {% if page.class == 'contact' %}class="current-page"{%endif%} href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="app-header_download" href="/download"><img src="/images/default/download.svg" alt="Download"> Download</>
   </div>
 </header>
 
 {{ content }}
 
 <footer>
-  <div class="wrapper">
+  <div class="container">
     <ul>
       <li><a href="/download">Download</a></li>
       <li><a href="/support">Support</a></li>
