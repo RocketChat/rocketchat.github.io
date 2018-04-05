@@ -3,11 +3,11 @@ layout: default
 class: index
 ---
 
-<header class="app-header {% if page.menu == 'light' %}app-header--light{% else %}app-header--black{% endif %}">
+<header class="app-header {% if page.theme == 'light' %}app-header--light{% else %}app-header--black{% endif %}">
   <div class="container">
     <h1 class="app-header_logo">
       <a href="/">
-        {% if page.menu == 'light' %}
+        {% if page.theme == 'light' %}
           <img src="/images/default/logo--dark.svg" alt="Rocket.Chat">
         {% else %}
           <img src="/images/default/logo.svg" alt="Rocket.Chat">
@@ -27,7 +27,7 @@ class: index
         <li><a {% if page.class == 'blog' %}class="current-page"{%endif%} href="/blog/">Blog</a></li>
         <li><a {% if page.class == 'contact' %}class="current-page"{%endif%} href="/contact">Contact</a></li>
       </ul>
-      <a class="app-header_download" href="/download"><img src="/images/default/download.svg" alt="Download"> Download</a>
+      <a class="app-header_download" href="/download"><span><img src="/images/default/download.svg" alt="Download"></span> Download</a>
     </nav>
   </div>
 </header>
