@@ -14,35 +14,114 @@
 }
 
 .app-header_logo {
-  width: 7.5em;
+  display: flex;
   padding: 1.5em 0;
+  flex: 1;
+
+  img {
+    width: 7.5em;
+  }
 }
 
 .app-header_menu {
+  position: absolute;
+  top: 4.5em;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 3em 0;
+  transition: all 0.3s ease;
+
+  @media screen and (min-width: $tablet) {
+    padding: 0;
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+    position: static;
+  }
+
   li {
-    display: inline-block;
     color: #fff;
-    margin-left: 2em;
+    margin-bottom: 1em;
+    display: block;
+
+    @media screen and (min-width: $tablet) {
+      margin-left: 2em;
+      margin-bottom: 0;
+      display: inline-block;
+    }
   }
 
   a {
+    display: inline-flex;
+    transition: color 0.3s ease;
+  }
+
+  .app-header_download {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
     display: flex;
     transition: color 0.3s ease;
+
+    @media screen and (min-width: $tablet) {
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      margin-right: 0.5em;
+    }
   }
 }
 
-.app-header_download {
-  display: flex;
-  transition: color 0.3s ease;
+.app-header_handle-menu {
+  display: block;
+  margin-top: 5px;
 
-  img {
-    margin-right: 0.5em;
+  &:before,
+  &:after,
+  span {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 1.3em;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+}
+
+input:checked ~ .app-header_menu {
+  max-height: 50vh;
+  padding: 1em 3em 0;
+}
+
+input:checked ~ .app-header_handle-menu {
+  &:before {
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  span {
+    transform: rotate(45deg);
+    transform: transform-origin(50%);
+  }
+  &:after {
+    transform: rotate(-45deg);
+    transform: transform-origin(50%);
+    top: -7px;
   }
 }
 
 // Dark version
 .app-header--black {
   background: $space;
+
+  .app-header_menu {
+    background: $space;
+  }
 
   &:after {
     background-image: linear-gradient(
@@ -63,13 +142,37 @@
     }
   }
 
+  .app-header_download {
+    border-top: 1px solid #121f33;
+
+    @media screen and (min-width: $tablet) {
+      border: 0;
+    }
+  }
+
   .current-page {
     color: $grey;
   }
+
+  .app-header_handle-menu {
+    &:before,
+    &:after,
+    span {
+      background: #fff;
+    }
+  }
+}
+
+.app-header_handle-menu {
+  color: white;
 }
 
 // Light version
 .app-header--light {
+  .app-header_menu {
+    background: #fff;
+  }
+
   &:after {
     background-image: linear-gradient(
       -90deg,
@@ -89,7 +192,23 @@
     }
   }
 
+  .app-header_download {
+    border-top: 1px solid #e7ebf2;
+
+    @media screen and (min-width: $tablet) {
+      border: 0;
+    }
+  }
+
   .current-page {
     color: $grey;
+  }
+
+  .app-header_handle-menu {
+    &:before,
+    &:after,
+    span {
+      background: $space;
+    }
   }
 }

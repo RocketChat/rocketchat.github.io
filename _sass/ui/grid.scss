@@ -4,6 +4,11 @@
   margin-right: auto;
   padding-left: $gutter;
   padding-right: $gutter;
+
+  @media screen and (min-width: $tablet) {
+    padding-left: $gutter-larger;
+    padding-right: $gutter-larger;
+  }
 }
 
 .flex-grid {
