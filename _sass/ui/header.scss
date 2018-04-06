@@ -16,7 +16,10 @@
 .app-header_logo {
   display: flex;
   padding: 1.5em 0;
-  flex: 1;
+
+  @media screen and (min-width: 60em) {
+    flex: 1;
+  }
 
   img {
     width: 7.5em;
