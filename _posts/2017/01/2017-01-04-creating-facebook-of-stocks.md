@@ -1,5 +1,5 @@
 ---
-title: TechMeetsTrader: a social network for traders
+title: "TechMeetsTrader: a social network for traders"
 categories:
   - Partnerships
   - Community
