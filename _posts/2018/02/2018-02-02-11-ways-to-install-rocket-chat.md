@@ -84,7 +84,7 @@ This open source platform is designed to make deploying, scaling and operating a
 
 Read Xenonstack's post on <a target="_blank" href="https://www.xenonstack.com/blog/devops/how-to-deploy-rocket-chat-on-kubernetes">deploying Rocket.Chat on Kubernetes</a>.
 
-## 10, Cloudron
+## 10. Cloudron
 
 Cloudron is a platform to run apps on your server and keep them up-to-date and secure.
 

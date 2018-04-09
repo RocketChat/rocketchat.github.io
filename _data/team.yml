@@ -159,12 +159,6 @@
   username: matheus.cardoso
   photo: yes
 
-- name: Louise Message
-  title: Junior Marketing Assistant
-  department: Marketing
-  username: louise.message
-  photo: yes
-
 - name: Isabella Russell
   title: Content Editor
   department: Marketing
@@ -177,3 +171,17 @@
   github_uid: 6999314
   department: Support
   username: tom.tostanoski
+
+- name: Jonas Friedmann
+  title: Support
+  github_username: frdmn
+  github_uid: 944459
+  department: Support
+  username: jonas.friedmann
+
+- name: Mrinal Dhar
+  title: Software Engineer
+  github_username: mrinaldhar
+  github_uid: 5917608
+  department: Development
+  username: mrinal.dhar

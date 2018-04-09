@@ -1,7 +1,7 @@
 keys:
   description:
 
-  pricing: <span id="pricing">Pricing</span>
+  pricing: <span id="pricing">Pricing <small>(per one thousand monthly active users)</small></span>
   onpremise: On-premise
   cloud: Rocket.Chat Cloud
 
