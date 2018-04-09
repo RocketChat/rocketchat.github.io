@@ -1,0 +1,198 @@
+.app-footer {
+  .container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5px;
+  }
+}
+
+.app-footer_wrap-logo {
+  max-width: 13em;
+}
+
+.app-footer_logo {
+  display: flex;
+  margin-bottom: 3em;
+
+  @media screen and (min-width: 60em) {
+    flex: 1;
+  }
+
+  img {
+    width: 7.5em;
+  }
+}
+
+.app-footer_github {
+  display: inline-block;
+  border-radius: 2px;
+  width: 48%;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 3.4;
+  transition: all 0.3s ease;
+
+  img {
+    display: inline-block;
+    position: relative;
+    top: 0.2em;
+    margin-right: 0.5em;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    img {
+      opacity: 0.7;
+    }
+  }
+}
+
+.app-footer_github-link {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 1em;
+  transition: all 0.3s ease;
+
+  img {
+    display: inline-block;
+    position: relative;
+    top: 0.1em;
+    margin-right: 0.5em;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    img {
+      opacity: 0.7;
+    }
+  }
+}
+
+.app-footer_pre-menu {
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 1.3em;
+}
+
+.app-footer_nav {
+  a {
+    margin-bottom: 0.5em;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+  }
+
+  + .app-footer_nav {
+    margin-top: 2em;
+  }
+}
+
+.app-footer_download {
+  display: flex;
+  transition: color 0.3s ease;
+
+  span {
+    display: inline-block;
+    width: 2em;
+  }
+
+  img {
+    margin-top: 0.2em;
+    margin-right: 0.5em;
+  }
+}
+
+// Dark version
+.app-footer--black {
+  background: $space;
+
+  &:before {
+    background-image: linear-gradient(
+      -90deg,
+      #030c1a 0%,
+      #121f33 28%,
+      #121f33 74%,
+      #030c1a 100%
+    );
+  }
+
+  .app-footer_github-link {
+    color: #fff;
+
+    &:hover {
+      color: $grey-light;
+    }
+  }
+
+  .app-footer_github {
+    color: #fff;
+    background: $space-grey;
+
+    &:hover {
+      color: $grey-light;
+    }
+  }
+
+  .app-footer_pre-menu {
+    color: $grey-light;
+  }
+
+  .app-footer_nav a {
+    color: #fff;
+
+    &:hover {
+      color: $grey-light;
+    }
+  }
+}
+
+// Light version
+.app-footer--light {
+  &:before {
+    background-image: linear-gradient(
+      -90deg,
+      #ffffff 0%,
+      #e7ebf2 26%,
+      #e7ebf2 74%,
+      #ffffff 100%
+    );
+  }
+
+  .app-footer_github-link {
+    color: $space;
+
+    &:hover {
+      color: $grey-dark;
+    }
+  }
+
+  .app-footer_github {
+    color: $space;
+    background: $grey-smoke;
+
+    &:hover {
+      color: $grey-dark;
+    }
+  }
+
+  .app-footer_pre-menu {
+    color: $grey;
+  }
+
+  .app-footer_nav a {
+    color: $space;
+
+    &:hover {
+      color: $grey-dark;
+    }
+  }
+}

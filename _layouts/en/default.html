@@ -34,47 +34,90 @@ class: index
 
 {{ content }}
 
-<footer>
+<footer class="app-footer {% if page.theme == 'light' %}app-footer--light{% else %}app-footer--black{% endif %}">
   <div class="container">
-    <ul>
-      <li><a href="/download">Download</a></li>
-      <li><a href="/support">Support</a></li>
-      <li><a href="/cloud">Cloud</a></li>
-      <li><a target="_blank" href="/dmca">DMCA Policy</a></li>
-      <li><a target="_blank" href="/privacy">Privacy Policy</a></li>
-      <li><a target="_blank" href="/terms">Cloud Terms of Service</a></li>
-    </ul>
-    <ul>
-      <li><a href="/community">Community</a></li>
-      <li><a href="https://forums.rocket.chat">Forums</a></li>
-      <li><a href="https://rocket.chat/docs/">Docs</a></li>
-      <li><a href="/blog/">Blog</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-    <ul>
-      <li><a href="/team">Team</a></li>
-      <li><a href="https://rocketchat.recruitee.com/">Jobs</a></li>
-      <li><a href="/partners">Partners</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://shop.spreadshirt.com/rocketchat" target="_blank">Swag Store</a></li>
-      <li><a href="/press">Press</a></li>
-      <li>
-        <div class="social">
-          <a target="_blank" href="https://github.com/RocketChat"><img src="/images/social/github_light.svg" alt="GitHub"></a>
-          <a target="_blank" href="https://www.facebook.com/RocketChat"><img src="/images/social/facebook.svg" alt="Facebook"></a>
-          <a target="_blank" href="https://twitter.com/RocketChat"><img src="/images/social/twitter.svg" alt="Twitter"></a>
-          <a target="_blank" href="/feed.xml"><img src="/images/social/rss.svg" alt="Blog Posts RSS"></a>
-        </div>
-      </li>
-    </ul>
-    <div class="clear"></div>
 
-    <div class="partners">
-      <a class="keycdn" target="_blank" href="https://www.keycdn.com/">
-        <img src='{{ site.url }}/images/default/keycdn.svg' alt="KeyCDN" />
+    <div class="app-footer_wrap-logo">
+      <h1 class="app-footer_logo">
+        <a href="/">
+          {% if page.theme == 'light' %}
+            <img src="/images/default/logo--dark.svg" alt="Rocket.Chat">
+          {% else %}
+            <img src="/images/default/logo.svg" alt="Rocket.Chat">
+          {% endif %}
+        </a>
+      </h1>
+
+      <a class="app-footer_github" target="_blank" href="https://github.com/RocketChat/Rocket.Chat">
+        {% if page.theme == 'light' %}
+          <span><img src="/images/default/star--dark.svg" alt="GitHub Stars" /></span>
+        {% else %}
+          <span><img src="/images/default/star.svg" alt="GitHub Stars"></span>
+        {% endif %}
+        {{site.stars}}K
+      </a>
+      <a class="app-footer_github" target="_blank" href="https://github.com/RocketChat/Rocket.Chat/fork">
+        {% if page.theme == 'light' %}
+          <span><img src="/images/default/fork--dark.svg" alt="GitHub forks" /></span>
+        {% else %}
+          <span><img src="/images/default/fork.svg" alt="GitHub forks"></span>
+        {% endif %}
+        {{site.forks}}K
+      </a>
+      <a class="app-footer_github-link" target="_blank" href="https://github.com/RocketChat/Rocket.Chat">
+        {% if page.theme == 'light' %}
+          <span><img src="/images/default/github--dark.svg" alt="GitHub" /></span>
+        {% else %}
+          <span><img src="/images/default/github.svg" alt="GitHub"></span>
+        {% endif %}
+        Open on GitHub
       </a>
     </div>
+
+    <div class="app-footer_col">
+      <p class="app-footer_pre-menu">Product</p>
+      <ul class="app-footer_nav">
+        <li><a href="/">Rocket.Chat</a></li>
+        <li><a href="/support">Support</a></li>
+        <li><a href="/cloud">Cloud</a></li>
+        <li><a href="/community">Community</a></li>
+        <li><a target="_blank" href="https://rocket.chat/docs/">Documents</a></li>
+      </ul>
+    </div>
+
+    <div class="app-footer_col">
+      <p class="app-footer_pre-menu">Company</p>
+      <ul class="app-footer_nav">
+        <li><a href="/team">Team</a></li>
+        <li><a target="_blank" href="https://rocketchat.recruitee.com/">Jobs</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/press">Press</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="app-footer_col">
+      <p class="app-footer_pre-menu">Legal</p>
+      <ul class="app-footer_nav">
+        <li><a href="/terms">Terms of Service</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/dmca">DMCA Policy</a></li>
+      </ul>
+
+      <ul class="app-footer_nav">
+        <li><a href="//github.com/RocketChat/Rocket.Chat.Artwork/tree/master/Stickers" target="_blank">Stickers</a></li>
+        <li><a href="//shop.spreadshirt.com/rocketchat" target="_blank">Gift shop</a></li>
+      </ul>
+    </div>
+
+    <div class="app-footer_col">
+      <p class="app-footer_pre-menu">Get started</p>
+      <ul class="app-footer_nav">
+        <li><a class="app-footer_download" href="//cloud.rocket.chat/trial/small"><span><img src="/images/default/free-trial.svg" alt="Free trial"></span> Free trial</a></li>
+        <li><a class="app-footer_download" href="/download"><span><img src="/images/default/download.svg" alt="Download"></span> Download</a></li>
+      </ul>
+    </div>
+
   </div>
 </footer>
 
