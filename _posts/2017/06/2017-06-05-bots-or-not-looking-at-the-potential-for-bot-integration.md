@@ -38,7 +38,7 @@ Some bot functions we think could be beneficial to RC users, to use in-chat are:
 
 **Conversation search.** Users could potentially search by phrase for a conversation in your team's log if you're not sure where it is or can't remember who said it or in what context. The benefit over regular log search is being able to do it from within an ongoing chat. 
 
-**Natural Language processing (NLP).** This kind of comes with the territory, but NLP helps bots figure out what you mean whether or not you recall the exact syntax of the command you need. Projects like [IBM Watson](https://www.ibm.com/watson/developercloud/nl-classifier.html) and [Google API](https://cloud.google.com/natural-language/) are improving this tech all the time (and Rocket.Chat has already begun to make use of it via integrating with the APIs).  
+**Natural Language Processing (NLP).** This kind of comes with the territory, but NLP helps bots figure out what you mean whether or not you recall the exact syntax of the command you need. Projects like [IBM Watson](https://www.ibm.com/watson/developercloud/nl-classifier.html) and [Google API](https://cloud.google.com/natural-language/) are improving this tech all the time (and Rocket.Chat has already begun to make use of it via integrating with the APIs).  
 
 But your opinions and thoughts matter more than ours. Do you think your team would benefit from being able to carry out these tasks more quickly? Which tasks are most needed?
 
