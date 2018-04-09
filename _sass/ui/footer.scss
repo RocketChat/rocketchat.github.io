@@ -1,9 +1,13 @@
 .app-footer {
   .container {
-    padding-top: 5em;
-    padding-bottom: 5em;
-    display: flex;
-    justify-content: space-between;
+    padding-bottom: 4em;
+
+    @media screen and (min-width: $tablet) {
+      padding-top: 5em;
+      padding-bottom: 5em;
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   &:before {
@@ -15,14 +19,22 @@
 }
 
 .app-footer_wrap-logo {
-  max-width: 13em;
+  width: 50%;
+  margin-top: 2em;
+
+  @media screen and (min-width: $tablet) {
+    margin-top: 0;
+    max-width: 13em;
+    order: -1;
+  }
 }
 
 .app-footer_logo {
-  display: flex;
-  margin-bottom: 3em;
+  display: none;
 
-  @media screen and (min-width: 60em) {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    margin-bottom: 3em;
     flex: 1;
   }
 
@@ -76,24 +88,66 @@
   }
 }
 
+.app-footer_col {
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5px;
+
+    @media screen and (min-width: $tablet) {
+      display: none;
+    }
+  }
+}
+
 .app-footer_pre-menu {
   font-size: 0.8em;
   font-weight: bold;
   letter-spacing: 0.8px;
   text-transform: uppercase;
-  margin-bottom: 1.3em;
+  display: block;
+  padding: 1.5em 0;
+
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 1.3em;
+    padding: 0;
+  }
 }
 
 .app-footer_nav {
+  max-height: 0;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  padding-left: 1em;
+
+  @media screen and (min-width: $tablet) {
+    padding-left: 0;
+    max-height: 100%;
+  }
+
   a {
     margin-bottom: 0.5em;
     line-height: 1.5;
     transition: all 0.3s ease;
   }
 
-  + .app-footer_nav {
-    margin-top: 2em;
+  @media screen and (min-width: $tablet) {
+    + .app-footer_nav {
+      margin-top: 2em;
+    }
   }
+}
+
+.app-footer_pre-menu + input {
+  display: none;
+}
+
+.app-footer_pre-menu + input:checked + .app-footer_nav,
+.app-footer_pre-menu + input:checked + .app-footer_nav + .app-footer_nav {
+  max-height: 50vh;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .app-footer_download {
@@ -115,6 +169,7 @@
 .app-footer--black {
   background: $space;
 
+  .app-footer_col:after,
   &:before {
     background-image: linear-gradient(
       -90deg,
@@ -157,6 +212,7 @@
 
 // Light version
 .app-footer--light {
+  .app-footer_col:after,
   &:before {
     background-image: linear-gradient(
       -90deg,
@@ -185,7 +241,7 @@
   }
 
   .app-footer_pre-menu {
-    color: $grey;
+    color: $grey-light;
   }
 
   .app-footer_nav a {

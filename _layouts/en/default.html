@@ -37,7 +37,55 @@ class: index
 <footer class="app-footer {% if page.theme == 'light' %}app-footer--light{% else %}app-footer--black{% endif %}">
   <div class="container">
 
-    <div class="app-footer_wrap-logo">
+    <div class="app-footer_col">
+      <label for="menu1" class="app-footer_pre-menu">Product</label>
+      <input id="menu1" type="checkbox" />
+      <ul class="app-footer_nav">
+        <li><a href="/">Rocket.Chat</a></li>
+        <li><a href="/support">Support</a></li>
+        <li><a href="/cloud">Cloud</a></li>
+        <li><a href="/community">Community</a></li>
+        <li><a target="_blank" href="https://rocket.chat/docs/">Documents</a></li>
+      </ul>
+    </div>
+
+    <div class="app-footer_col">
+      <label for="menu2" class="app-footer_pre-menu">Company</label>
+      <input id="menu2" type="checkbox" />
+      <ul class="app-footer_nav">
+        <li><a href="/team">Team</a></li>
+        <li><a target="_blank" href="https://rocketchat.recruitee.com/">Jobs</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/press">Press</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="app-footer_col">
+      <label for="menu3" class="app-footer_pre-menu">Legal</label>
+      <input id="menu3" type="checkbox" />
+      <ul class="app-footer_nav">
+        <li><a href="/terms">Terms of Service</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/dmca">DMCA Policy</a></li>
+      </ul>
+
+      <ul class="app-footer_nav">
+        <li><a href="//github.com/RocketChat/Rocket.Chat.Artwork/tree/master/Stickers" target="_blank">Stickers</a></li>
+        <li><a href="//shop.spreadshirt.com/rocketchat" target="_blank">Gift shop</a></li>
+      </ul>
+    </div>
+
+    <div class="app-footer_col">
+      <label for="menu4" class="app-footer_pre-menu">Get started</label>
+      <input id="menu4" type="checkbox" />
+      <ul class="app-footer_nav">
+        <li><a class="app-footer_download" href="//cloud.rocket.chat/trial/small"><span><img src="/images/default/free-trial.svg" alt="Free trial"></span> Free trial</a></li>
+        <li><a class="app-footer_download" href="/download"><span><img src="/images/default/download.svg" alt="Download"></span> Download</a></li>
+      </ul>
+    </div>
+
+     <div class="app-footer_wrap-logo">
       <h1 class="app-footer_logo">
         <a href="/">
           {% if page.theme == 'light' %}
@@ -72,50 +120,6 @@ class: index
         {% endif %}
         Open on GitHub
       </a>
-    </div>
-
-    <div class="app-footer_col">
-      <p class="app-footer_pre-menu">Product</p>
-      <ul class="app-footer_nav">
-        <li><a href="/">Rocket.Chat</a></li>
-        <li><a href="/support">Support</a></li>
-        <li><a href="/cloud">Cloud</a></li>
-        <li><a href="/community">Community</a></li>
-        <li><a target="_blank" href="https://rocket.chat/docs/">Documents</a></li>
-      </ul>
-    </div>
-
-    <div class="app-footer_col">
-      <p class="app-footer_pre-menu">Company</p>
-      <ul class="app-footer_nav">
-        <li><a href="/team">Team</a></li>
-        <li><a target="_blank" href="https://rocketchat.recruitee.com/">Jobs</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/press">Press</a></li>
-        <li><a href="/blog/">Blog</a></li>
-      </ul>
-    </div>
-
-    <div class="app-footer_col">
-      <p class="app-footer_pre-menu">Legal</p>
-      <ul class="app-footer_nav">
-        <li><a href="/terms">Terms of Service</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-        <li><a href="/dmca">DMCA Policy</a></li>
-      </ul>
-
-      <ul class="app-footer_nav">
-        <li><a href="//github.com/RocketChat/Rocket.Chat.Artwork/tree/master/Stickers" target="_blank">Stickers</a></li>
-        <li><a href="//shop.spreadshirt.com/rocketchat" target="_blank">Gift shop</a></li>
-      </ul>
-    </div>
-
-    <div class="app-footer_col">
-      <p class="app-footer_pre-menu">Get started</p>
-      <ul class="app-footer_nav">
-        <li><a class="app-footer_download" href="//cloud.rocket.chat/trial/small"><span><img src="/images/default/free-trial.svg" alt="Free trial"></span> Free trial</a></li>
-        <li><a class="app-footer_download" href="/download"><span><img src="/images/default/download.svg" alt="Download"></span> Download</a></li>
-      </ul>
     </div>
 
   </div>
