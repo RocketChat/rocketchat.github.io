@@ -104,14 +104,37 @@
 .app-footer_pre-menu {
   font-size: 0.8em;
   font-weight: bold;
+  line-height: 1;
   letter-spacing: 0.8px;
   text-transform: uppercase;
   display: block;
-  padding: 1.5em 0;
+  padding: 1.7em 0;
+  position: relative;
+
+  &:after {
+    content: "+";
+    display: block;
+    color: $brand;
+    font-size: 1.7em;
+    font-weight: 300;
+    line-height: 0.4;
+    position: absolute;
+    right: 1em;
+    top: 0.95em;
+    height: 0.6em;
+    width: 0.6em;
+    transition: all 0.3s ease;
+    transform-origin: 50%;
+  }
 
   @media screen and (min-width: $tablet) {
     margin-bottom: 1.3em;
     padding: 0;
+    line-height: 1.6;
+
+    &:after {
+      display: none;
+    }
   }
 }
 
@@ -119,7 +142,7 @@
   max-height: 0;
   transition: all 0.3s ease;
   overflow: hidden;
-  padding-left: 1em;
+  padding-left: 1.5em;
 
   @media screen and (min-width: $tablet) {
     padding-left: 0;
@@ -128,8 +151,11 @@
 
   a {
     margin-bottom: 0.5em;
-    line-height: 1.5;
+    line-height: 2;
     transition: all 0.3s ease;
+    @media screen and (min-width: $tablet) {
+      line-height: 1.7;
+    }
   }
 
   @media screen and (min-width: $tablet) {
@@ -139,15 +165,20 @@
   }
 }
 
-.app-footer_pre-menu + input {
+.app-footer_col input {
   display: none;
 }
 
-.app-footer_pre-menu + input:checked + .app-footer_nav,
-.app-footer_pre-menu + input:checked + .app-footer_nav + .app-footer_nav {
+input:checked + .app-footer_pre-menu + .app-footer_nav,
+input:checked + .app-footer_pre-menu + .app-footer_nav + .app-footer_nav {
   max-height: 50vh;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 1.5em;
+}
+
+input:checked + .app-footer_pre-menu:after {
+  transform: rotate(135deg);
+  top: 0.9em;
 }
 
 .app-footer_download {
