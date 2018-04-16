@@ -20,6 +20,10 @@ body.light {
   color: $grey-light;
 }
 
+.theme_type--light {
+  color: $grey;
+}
+
 // Box
 .theme_box--space {
   background-color: $space;
@@ -100,10 +104,11 @@ body.light {
 }
 
 .table--light {
-  color: $grey;
-
   td {
     border: 1px solid $grey-smoke;
+    p {
+      color: $space;
+    }
   }
 
   table {

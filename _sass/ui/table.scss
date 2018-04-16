@@ -12,6 +12,7 @@
 
   table {
     width: 100%;
+    table-layout: fixed;
   }
 
   th {
@@ -25,7 +26,6 @@
 
   td {
     padding: 2em;
-    width: 50%;
     vertical-align: top;
     min-width: 14em;
   }
