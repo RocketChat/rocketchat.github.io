@@ -13,6 +13,8 @@
 
 .flex-grid {
   display: block;
+  margin-left: -$gutter / 2;
+  margin-right: -$gutter / 2;
 
   @media (min-width: $tablet) {
     display: flex;
@@ -96,8 +98,8 @@
 
   @mixin column {
     flex: 1;
-    padding-left: $gutter-larger / 2;
-    padding-right: $gutter-larger / 2;
+    padding-left: $gutter / 2;
+    padding-right: $gutter / 2;
     margin-bottom: $gutter;
 
     @media (min-width: $tablet) {

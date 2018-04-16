@@ -50,21 +50,32 @@
 
   &:after {
     content: "";
-    width: 0.5em;
-    height: 0.5em;
+    width: 0.4em;
+    height: 0.4em;
     display: block;
     transform: rotate(135deg);
     position: absolute;
-    top: 1em;
-    right: 1em;
+    top: 0.8em;
+    right: 0.8em;
   }
 
   select {
     width: calc(100% - 0.7em);
-    padding: 0.65em 1em;
+    padding: 0.4em 1em;
   }
 
   @media (min-width: $tablet) {
     font-size: 0.8em;
+
+    select {
+      padding: 0.65em 1em;
+    }
+
+    &:after {
+      width: 0.5em;
+      height: 0.5em;
+      top: 1em;
+      right: 1em;
+    }
   }
 }

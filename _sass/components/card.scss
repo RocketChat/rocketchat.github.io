@@ -11,3 +11,13 @@
   margin-bottom: -1.5em;
   margin-top: 1em;
 }
+
+.card_icon {
+  display: inline-block;
+  width: 6em;
+  margin-bottom: 1em;
+
+  @media screen and (min-width: $tablet) {
+    width: auto;
+  }
+}
