@@ -98,6 +98,17 @@
   }
 }
 
+.button--link {
+  padding: 0;
+  font-weight: 600;
+  transition: all $tranitions;
+  color: $brand;
+
+  &:hover {
+    color: $brand-dark;
+  }
+}
+
 .button--with-arrow {
   position: relative;
   padding-right: 2em;
@@ -106,10 +117,10 @@
     content: "";
     display: block;
     border-top: 1px solid $brand;
-    width: 1em;
+    width: 1.1em;
     position: absolute;
-    top: 0.6em;
-    right: 0.1em;
+    top: 0.75em;
+    right: 0;
   }
 
   &:after {
@@ -121,7 +132,7 @@
     border-bottom: 1px solid $brand;
     transform: rotate(-45deg);
     position: absolute;
-    top: 0.4em;
+    top: 0.5em;
     right: 0;
   }
 

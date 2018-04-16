@@ -21,7 +21,7 @@
 
       ~ table {
         margin-left: -1px;
-        display: block;
+        position: relative;
 
         th span {
           opacity: 0;
@@ -43,6 +43,7 @@
     padding: 2em;
     vertical-align: top;
     min-width: 14em;
+    line-height: 1.2;
   }
 
   img {

@@ -85,6 +85,8 @@ body.light {
 
 // Table
 .table--dark {
+  background: $space;
+
   td {
     border: 1px solid $space-grey;
   }
@@ -99,13 +101,17 @@ body.light {
   }
 
   strong {
-    color: #fff;
+    color: #fff !important;
   }
 }
 
 .table--light {
+  background: #fff;
+
   td {
     border: 1px solid $grey-smoke;
+    color: $grey;
+
     p {
       color: $space;
     }
@@ -121,6 +127,6 @@ body.light {
   }
 
   strong {
-    color: $space;
+    color: $space !important;
   }
 }

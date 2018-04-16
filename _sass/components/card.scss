@@ -1,6 +1,13 @@
 .card {
   border-radius: 2px;
   padding: 1.5em;
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card--full-height {
   min-height: 100%;
 }
 
@@ -8,7 +15,7 @@
   padding: 1em 1.5em;
   margin-left: -1.5em;
   margin-right: -1.5em;
-  margin-bottom: -1.5em;
+  margin-bottom: -1.5em !important;
   margin-top: 1em;
 }
 
@@ -20,4 +27,10 @@
   @media screen and (min-width: $tablet) {
     width: auto;
   }
+}
+
+.card_icon--mini {
+  padding-left: $gutter;
+  padding-right: $gutter;
+  align-self: flex-start;
 }
