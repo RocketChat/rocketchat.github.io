@@ -27,6 +27,8 @@
   }
 
   @mixin column {
+    padding-left: $gutter / 2;
+    padding-right: $gutter / 2;
     margin-bottom: $gutter;
 
     @media (min-width: $tablet) {
