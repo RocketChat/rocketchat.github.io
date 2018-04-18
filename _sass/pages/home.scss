@@ -252,6 +252,16 @@
   }
 }
 
+.home-customization__scroll-view {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  @media screen and (min-width: $tablet) {
+    overflow: visible;
+  }
+}
+
 //
 //  Home download
 //
@@ -315,6 +325,7 @@
     padding: 1em 1.2em;
 
     @media (min-width: $tablet) {
+      padding: 1em 2.2em;
       max-width: none;
     }
   }
