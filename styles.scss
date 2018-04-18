@@ -10,12 +10,13 @@
 @import "ui/form";
 @import "ui/table";
 
-@import "ui/header";
-@import "ui/footer";
-
-// Components
+// Component
+@import "components/header";
+@import "components/footer";
 @import "components/hero";
 @import "components/card";
+@import "components/divider";
+@import "components/spaces";
 
 // Pages
 @import "pages/home";

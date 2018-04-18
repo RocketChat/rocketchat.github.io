@@ -42,10 +42,13 @@
 //  Generic box
 //
 .home_box {
-  display: flex;
-  background-position: left top;
   border-radius: 2px;
   position: relative;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    background-position: left top;
+  }
 }
 
 .home_box-wrap {
@@ -186,7 +189,10 @@
   position: relative;
 
   + section {
-    padding-top: 20em;
+    padding-top: 16em;
+    @media screen and (min-width: $tablet) {
+      padding-top: 23em;
+    }
   }
 
   .list {
@@ -206,6 +212,110 @@
 
     p:not(:last-child) {
       margin-bottom: 1em;
+    }
+  }
+}
+
+//
+//  Home customization
+//
+.home-customization {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+
+  img {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3.3em;
+    max-width: 290%;
+
+    @media screen and (min-width: $tablet) {
+      max-width: 100%;
+    }
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -7%;
+    height: 14%;
+    background-image: radial-gradient(
+      closest-side,
+      rgba(0, 0, 0, 0.2) 0%,
+      transparent 100%
+    );
+  }
+}
+
+//
+//  Home download
+//
+.home-download {
+  background-repeat: no-repeat;
+  background-image: url("/images/download/mobile-haft.png");
+  background-position: center bottom;
+  background-size: auto 20em;
+  padding-bottom: 20em;
+
+  @media (min-width: $tablet) {
+    display: flex;
+    padding-bottom: 0;
+    background-image: url("/images/download/mobile.png");
+    background-size: auto 90%;
+    background-position: right -40% bottom;
+
+    .wrap {
+      padding: 2em;
+      flex: 0.3;
+    }
+  }
+
+  @media (min-width: 62em) {
+    background-position: right bottom;
+
+    .wrap {
+      padding: 3em 4em;
+      flex: 0.4;
+    }
+  }
+}
+
+.home-download__icons {
+  max-width: 75%;
+
+  img {
+    margin-right: 1em;
+    width: 1.8em;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+//
+//  Home clients
+//
+.home-clients {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  @media (min-width: $tablet) {
+    flex-wrap: nowrap;
+  }
+
+  span {
+    max-width: 10em;
+    padding: 1em 1.2em;
+
+    @media (min-width: $tablet) {
+      max-width: none;
     }
   }
 }

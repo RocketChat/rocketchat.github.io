@@ -13,9 +13,10 @@
 @mixin defaultStyle {
   font-weight: 500;
   font-size: 0.8em;
-  line-height: 1.4;
+  line-height: 1.5;
   text-align: center;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: space-around;
   vertical-align: top;
   padding: 0.9em 1.14em;
   border-radius: 2px;
@@ -165,6 +166,10 @@
   &:active {
     box-shadow: inset 0 1px 0 0 $grey-dark;
   }
+}
+
+.button--icon {
+  margin-right: 1em;
 }
 
 // Button sizes

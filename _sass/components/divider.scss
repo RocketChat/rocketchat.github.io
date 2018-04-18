@@ -1,0 +1,26 @@
+.divider {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1.5px;
+}
+
+.divider--dark {
+  background-image: linear-gradient(
+    -90deg,
+    #030c1a 0%,
+    #121f33 28%,
+    #121f33 74%,
+    #030c1a 100%
+  );
+}
+
+.divider--light {
+  background-image: linear-gradient(
+    -90deg,
+    #ffffff 0%,
+    #e7ebf2 26%,
+    #e7ebf2 74%,
+    #ffffff 100%
+  );
+}

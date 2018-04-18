@@ -22,8 +22,18 @@
     margin-right: -$gutter-larger / 2;
   }
 
+  &.grid--center {
+    align-items: center;
+  }
+
   &.grid--justify-around {
     justify-content: space-around;
+  }
+
+  &.grid--reverse {
+    @media screen and (min-width: $tablet) {
+      flex-direction: row-reverse;
+    }
   }
 
   @mixin column {

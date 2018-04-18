@@ -1,0 +1,9 @@
+@for $i from 1 through 10 {
+  .space--#{$i} {
+    margin-bottom: $i/2 + em;
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: $i + em;
+    }
+  }
+}
