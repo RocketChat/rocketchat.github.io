@@ -9,53 +9,36 @@ cover: /images/posts/2017/11/rocket-chat-ios-1-7-released/cover-ios1.7.jpg
 
 Rocket.Chat is proud to announce Rocket.Chat Android 2.0 release with the following features and changes:
 
-*add mention that we are proud of our new easier to use UI*
+- New networking layer
+- Offline message composer
+- Improved easier to use UI
+  - New authentication layout
+  - New chat list layout
+  - Reactions and emojis keyboard
 
-- Increased speead and connection reliability
-- Offline support
-- Improved layouts
-- OAuth, LDAP, CAS authentication
-- Reactions and emojis
-- Full screen images and videos
+## New networking layer
 
-## The reliability of the connection
+When we started the development of the new Rocket.Chat Androind app we wanted to make sure the networking layer was robust and stable. With 2.0 we have completely rewritten the network layer in a separated Kotlin SDK which handles all the WebSocket and HTTP communicaton. We are very happy with thre results, if you are coming from our legacy Cordova app you notice a dramatic improvement in connection reliability and speed.
 
-*Rafael's copy*
+## Offline message composer
 
-We started the development of this app with one main goal: the networking layer needs to be perfect! We know that many of you had problems with the previous version of the app related to network connection, the app reconnecting many times and many network calls not working. Well, turns out that part of this problem was the code of the previous app, and this problem is gone now. The network layer of the application was complete rewritten, in a separated SDK (written in Kotlin, link here 1) that handles all the WebSocket and HTTP calls to the app, with a much more reliable solution than before.
+If you send a message while you’re offline, the app will queue the message and send when you have an internet connection. In the next version of the app we will support more offline functionailty.
 
-## Speed
+## Improved easier to use UI
 
-*Rafael's copy*
-
-The speed of this app is glorious. You’ll notice when you scroll throught the messages. It feels good, it never freezes the scrolling and everything that doesn’t depend on networking is as fast as it can be with the hardware available.
-
-## Offline support
-
-*Rafael's copy*
-
-This version doesn’t have offline support yet for all data. We do have offline support to one thing right now that we consider very important: sending messages. If you send a message and you’re offline, the app will handle the offline part for you and send it immediatly as you have internet connection. A more advanced offline support will be available soon in the next versions of the app.
-
-## Layout
-
-*Rafael's copy*
-
-We changed the layout. A lot. And for the better. :slight_smile:
-
-As you open the app, you’ll notice that the layout is very straighforward. You’ll see your conversations sorted by activity, you can read the last message of the conversation without opening it and you can change the sorting of the list to be by activity or alphabetically (we’re adding more options in future releases). We really hope you like this layout and get to use even more the app.
-
-The layout is evolving on every release and we’re sure that in the next releases you’ll be convinced that this layout is for the better, if you’re not convinced yet.
+We've reworked and improved many layouts of the app to bring you the fastest and most straightforward
+Rocket.Chat mobile experience yet.
 
 ### Authentication
 
 <div class="left copy">
 <p>
-
+  We've added new authentication methods to the signin screen.
 </p>
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/04/2018-04-18-rocket-chat-android-2-releaed/authentication.png"/>
+    <img src="/images/posts/2018/04/2018-04-18-rocket-chat-android-2-released/authentication.png"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -64,12 +47,12 @@ The layout is evolving on every release and we’re sure that in the next releas
 
 <div class="left copy">
 <p>
-
+  Conversations are now sorted by activity by default, you can read the last message of the conversation without opening it and the sort order can be toggled between activity or alphabetically.
 </p>
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/04/2018-04-18-rocket-chat-android-2-releaed/chats.png"/>
+    <img src="/images/posts/2018/04/2018-04-18-rocket-chat-android-2-released/chats.png"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -78,23 +61,20 @@ The layout is evolving on every release and we’re sure that in the next releas
 
 <div class="left copy">
 <p>
-
+  You can now react and add emojis with the new emoji keyboard which works just like Rocket.Chat web or desktop.
 </p>
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/04/2018-04-18-rocket-chat-android-2-releaed/emojis.png"/>
+    <img src="/images/posts/2018/04/2018-04-18-rocket-chat-android-2-released/emojis.png"/>
   </p>
 </div>
 <div class="clear"></div>
 
-## Features
-
-We focuseed on the most requested fand important features the community has been asking for:
+## Other features
 
 - OAuth Authentication for Google, GitHub, GitLab and LinkedIn
 - LDAP and CAS Authentication
-- Reactions and Emoji keyboard
 - Edit your profile
 - Full screen images and videos
 
@@ -107,7 +87,7 @@ Rocket.Chat Android 2.0 requires:
 
 ## Open source
 
-Just like Rocket.Chat Server all the code from the [SDK](https://github.com/RocketChat/Rocket.Chat.Kotlin.SDK) and [App](https://github.com/RocketChat/Rocket.Chat.Android) are open source under MIT license.
+Just like Rocket.Chat Server, all the code from the [SDK](https://github.com/RocketChat/Rocket.Chat.Kotlin.SDK) and [App](https://github.com/RocketChat/Rocket.Chat.Android) are open source under the MIT license.
 Fork it, create new feautures, squash bugs and submit a pull request to share your work with the community.
 
 ## Contributors
