@@ -5,6 +5,7 @@ categories:
 date: 2018-04-18 14:00:00
 author: Isabella Russell
 cover: /images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/cover.jpg
+---
 
 # Thank you and adeus! Rocket.Chat Summit 2018, Bonito, Brazil
 
