@@ -82,7 +82,7 @@ Rocket.Chat mobile experience yet.
 
 Rocket.Chat Android 2.0 requires:
 
-- Rocket.Chat Server minimum version0.63.1
+- Rocket.Chat Server minimum version 0.63.1
 - SSL enabled server ([check](https://www.ssllabs.com/ssltest/) your server)
 
 ## Open source
@@ -112,7 +112,6 @@ You can download or update the app from the [Google Play Store](https://play.goo
 from the GitHub repo.
 
 We'd also really appreciate your reviews on the Google Play Store.
-
 
 ## Release changelog
 
