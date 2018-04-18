@@ -2,47 +2,61 @@
 title: "Rocket.Chat Summit 2018"
 categories:
   - Summits
-date: 2018-04-18 14:00:00
+date: 2018-04-18 10:00:00
 author: Isabella Russell
-cover: /images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/cover.jpg
+cover: /images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/rocket-chat-team-summit-2018.jpg
 ---
 
-# Thank you and adeus! Rocket.Chat Summit 2018, Bonito, Brazil
+## Obrigado! (Thank you!) Rocket.Chat Summit 2018, Bonito, Brazil
 
-![]
-(/Users/isabella/GitHub/rocketchat.github.io/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/rocket-chat-team-summit-2018.jpg)
+![Rocket.Chat Team, March 2018](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Summit-2018-Team-Photo-1.jpg)
 
-In March this year, Rocket.Chat’s 40-strong team and significant others
-travelled to Bonito in Brazil’s Mato Grosso do Sul for its 2018 Summit for
-a week-long adventure that was filled with incredible activities, company-wide
+In March this year, Rocket.Chat’s 41-strong team and significant others
+travelled to Bonito in Brazil’s Mato Grosso do Sul for its 2018 Summit,
+a week-long adventure  filled with incredible activities, company-wide
 meetings and, most importantly, the chance to spend time together.
 
 ## Meaningful Encounters
 
+
 As a company with remote teams located worldwide, our Summit was a crucial opportunity
-for us all to meet face to face, often for the first time, and get to know what makes each other tick.
+for us all to meet and get to know each other in person.
 
-Team members were able to hang out while trekking through lush forest and swimming in the scenic Estância
-Mimosa waterfalls, discovering caves, and exploring the Pantanal on a wildlife safari and piranha-fishing trip!
+Team members were able to hang out while discovering ancient caves, trekking through lush forest, swimming in the scenic Estância Mimosa waterfalls, and exploring the Pantanal on a wildlife safari and piranha-fishing trip!
 
-![](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Rafting.JPG)
+*Some healthy competition was also encouraged at times, such as during our raft water fight!*
+![Water fight!](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Water fight 1.jpg)
 
-Those who raft and snorkel together, stay together!
+*Those who snorkel together, stay together!*
+![RC Snorkelling](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Snorkelling.JPG)
 
-![](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Snorkelling.JPG)
+*The Pantanal: home to a dazzling array of wildlife- and millions of thirsty mosquitoes*
+![Pantanal: home to a dazzling array of wildlife- and millions of thirsty mosquitoes](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Pantanal.jpg)
+
+The moments we spent together between activities and meetings, at breakfast, over caipirinhas or with a beer in hand at dinner time (and in the swimming pool!) were also invaluable. We discovered that Rafael is very, very good at ping pong, that Bradley is a gifted horn-player, and that Gabriel loves his gadgets ('GoPro: take a photo' will stay with us forever). These are things we could never have discovered by only speaking on a conference call.
 
 ## Meetings and team challenges
 
 During the Summit, we also made time for meetings, presentations, brainstorming sessions and team challenges
-that helped us to begin shaping our company values, vision and goals.
+that helped us to develop our company values, goals and vision.
 
-We talked, debated, and thought about where we want to be in 2 as well as in 5 years’ time,
-and what we have to act upon now in order to enable that roadmap.
-Gabriel gave a presentation on how Rocket.Chat came to be, which was very insightful for staff new and old.
-
-Rocket.Chat also tackled the Marshmallow Challenge, which tests how various teams of four face the tough task
-of having 18 minutes to build the tallest free-standing structure out of 20 sticks of spaghetti, one yard of tape,
-one yard of string, and one marshmallow. We mixed participants from different Rocket.Chat departments to ensure that skills
-and talents were evenly balanced before getting stuck into the challenge with enthusiasm and lots of concentration! As well as being fun,
-the challenge gave us insight into how we work collectively when faced with a problem and reminded us of the importance of testing as we work
+First up was the Marshmallow Challenge, which tests how various teams of four face the tough task
+of having 18 minutes to build the tallest free-standing structure out of 20 sticks of spaghetti, one yard of tape, one yard of string, and one marshmallow.
+<br/> We mixed participants from different Rocket.Chat departments to ensure that skills
+and talents were evenly balanced before getting stuck into the challenge with enthusiasm, lots of concentration, and a healthy dose of competitive spirit!
+<br/> As well as being fun, the challenge gave us insight into how we work collectively when faced with a problem and reminded us of the importance of testing as we work
 rather than over-plan and end up with issues.
+
+We talked, debated, and thought about where we want to be in the coming years,
+and what we have to act upon now in order to enable that roadmap.
+During our discussions on company values, it became clear that we all wish to encourage experimentation, pro-activity and open-mindedness in order to empower our team members to own and champion their projects.
+
+Gabriel's presentation on Rocket.Chat's history reminded us all of how far Rocket.Chat has come and also  motivated us to carry on making Rocket.Chat the leading FOSS chat platform.
+
+All in all, the Rocket.Chat Summit was an incredible way for everyone to meet, get to know each other and openly discuss how the team collectively wants Rocket.Chat to grow.
+
+*Last but not least, a huge thank you goes to Marcelo Schmidt, our COO, for organising and championing our 2018 Summit!*
+![Marcelo COO](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Marcelo!.jpg)
+
+
+
