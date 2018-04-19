@@ -7,7 +7,7 @@ author: Rocket.Chat Team
 cover: /images/posts/2017/11/rocket-chat-ios-1-7-released/cover-ios1.7.jpg
 ---
 
-Rocket.Chat is proud to announce Rocket.Chat Android 2.0 release with the following features and changes:
+Rocket.Chat is proud to announce its Rocket.Chat Android 2.0 release with the following features and changes:
 
 - New networking layer
 - Offline message composer
@@ -18,11 +18,11 @@ Rocket.Chat is proud to announce Rocket.Chat Android 2.0 release with the follow
 
 ## New networking layer
 
-When we started the development of the new Rocket.Chat Androind app we wanted to make sure the networking layer was robust and stable. With 2.0 we have completely rewritten the network layer in a separated Kotlin SDK which handles all the WebSocket and HTTP communicaton. We are very happy with thre results, if you are coming from our legacy Cordova app you notice a dramatic improvement in connection reliability and speed.
+When we started the development of the new Rocket.Chat Android app we wanted to make sure the networking layer was robust and stable. With 2.0 we have completely rewritten the network layer in a separate Kotlin SDK which handles all the WebSocket and HTTP communicaton. We are very happy with the results, and if you are coming from our legacy Cordova app you will notice a dramatic improvement in connection reliability and speed.
 
 ## Offline message composer
 
-If you send a message while you’re offline, the app will queue the message and send when you have an internet connection. In the next version of the app we will support more offline functionailty.
+If you send a message while you’re offline, the app will queue the message and send when you have an internet connection. In the next version of the app we will support more offline functionality.
 
 ## Improved easier to use UI
 
@@ -33,7 +33,7 @@ Rocket.Chat mobile experience yet.
 
 <div class="left copy">
 <p>
-  We've added new authentication methods to the signin screen.
+  We've added new authentication methods to the sign in screen.
 </p>
 </div>
 <div class="right image">
@@ -88,7 +88,7 @@ Rocket.Chat Android 2.0 requires:
 ## Open source
 
 Just like Rocket.Chat Server, all the code from the [SDK](https://github.com/RocketChat/Rocket.Chat.Kotlin.SDK) and [App](https://github.com/RocketChat/Rocket.Chat.Android) are open source under the MIT license.
-Fork it, create new feautures, squash bugs and submit a pull request to share your work with the community.
+Fork them, create new features, squash bugs and submit a pull request to share your work with the community.
 
 ## Contributors
 
