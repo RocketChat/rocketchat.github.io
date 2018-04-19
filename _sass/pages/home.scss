@@ -10,6 +10,16 @@
   @media screen and (min-width: 75em) {
     min-height: 90vh;
   }
+
+  .download {
+    text-align: center;
+    margin: 2em 0;
+
+    @media (min-width: $tablet) {
+      margin: 0;
+      text-align: left;
+    }
+  }
 }
 
 .home-hero_wrap {
@@ -184,7 +194,7 @@
 //
 //  Home enterprise
 //
-.home-entreprise {
+.home-enterprise {
   margin-bottom: -15em;
   position: relative;
 
@@ -196,6 +206,12 @@
   }
 
   .list {
+    margin-bottom: -1em;
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: -2.5em;
+    }
+
     .list-img {
       text-align: center;
       min-width: 3.5em;
@@ -208,6 +224,7 @@
 
     p {
       margin-bottom: 0;
+      line-height: 1.4;
     }
 
     p:not(:last-child) {
@@ -296,7 +313,9 @@
 }
 
 .home-download__icons {
-  max-width: 75%;
+  @media (min-width: $tablet) {
+    max-width: 75%;
+  }
 
   img {
     margin-right: 1em;
@@ -304,6 +323,16 @@
     height: auto;
     display: inline-block;
     vertical-align: middle;
+  }
+}
+
+.home-download__button {
+  text-align: center;
+  margin: 2em 0;
+
+  @media (min-width: $tablet) {
+    margin: 0;
+    text-align: left;
   }
 }
 
