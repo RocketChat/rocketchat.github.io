@@ -10,8 +10,6 @@ cover: /images/posts/2017/01/creating-facebook-of-stocks/business-1730089_1920.j
 redirect_from: /blog/creating-facebook-of-stocks
 ---
 
-## Electronic trading and "Lone Wolf" syndrome
-
 The recent boom in inexpensive electronic stock trading services has offered more individuals the opportunity to become an investor than ever before.
 
 While this can be seen as fantastic news, it comes with its own problems. The most noteworthy is perhaps "Lone Wolf" syndrome.
