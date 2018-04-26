@@ -9,6 +9,18 @@ body.index {
     background-color: $color-dark;
   }
 
+  .banner {
+    padding: 1.75em 0;
+    text-align: center;
+    box-shadow:
+    inset 0px 11px 8px -10px #ccc,
+    inset 0px -11px 8px -10px #ccc;
+
+    .wrapper > div {
+      display: inline-block;
+    }
+  }
+
   .hero {
     background-color: $color-dark;
     text-align: center;
