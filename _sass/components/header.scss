@@ -1,4 +1,19 @@
 .app-header {
+  height: 4.3em;
+}
+
+.app-header_wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.4s ease;
+  z-index: 9999;
+
+  &.headroom--unpinned {
+    transform: translateY(-100%);
+  }
+
   .container {
     display: flex;
     justify-content: space-between;
@@ -132,11 +147,12 @@
 .app-header--black {
   background: $space;
 
+  .app-header_wrap,
   .app-header_menu {
     background: $space;
   }
 
-  &:after {
+  .app-header_wrap:after {
     background-image: linear-gradient(
       -90deg,
       #030c1a 0%,
@@ -178,11 +194,14 @@
 
 // Light version
 .app-header--light {
+  background: #fff;
+
+  .app-header_wrap,
   .app-header_menu {
     background: #fff;
   }
 
-  &:after {
+  .app-header_wrap:after {
     background-image: linear-gradient(
       -90deg,
       #ffffff 0%,
