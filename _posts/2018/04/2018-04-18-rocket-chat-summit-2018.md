@@ -60,4 +60,4 @@ All in all, the Rocket.Chat Summit was an incredible way for everyone to meet, g
 
 *Last but not least, a huge thank you goes to Marcelo Schmidt, our COO, for organising and championing our 2018 Summit!*
 
-<img src="/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Marcelo.jpg" style="border-radius: 50%; border: 1px solid #fff; max-width: 200px;"/>
+<img src="/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Marcelo.jpg" style="margin: 0 auto;border-radius: 50%; border: 1px solid #fff; max-width: 200px;"/>
