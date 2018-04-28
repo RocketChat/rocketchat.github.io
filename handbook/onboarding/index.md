@@ -1,10 +1,10 @@
 
 ## Table of contents
 
-- [Your first week at Rocket.Chat](#your-first-week-at-rocket.chat)
+- [Your first week at Rocket.Chat](#your-first-week-at-rocketchat)
 - [Applications and services](#applications-and-services)
-- [Join open.rocket.chat](#join-open.rocket.chat)
-- [Rocket.Chat t-shirts](#rocket.chat-t-shirts)
+- [Join open.rocket.chat](#join-openrocketchat)
+- [Rocket.Chat t-shirts](#rocketchat-t-shirts)
 - [Meeting the team](#meeting-the-team)
 - [Add yourself to the team page](#add-youself-to-the-team-page)
   - [Prerequisites](#prerequisites)
