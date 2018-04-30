@@ -1,24 +1,25 @@
 ---
-layout: default
+layout: en/default
 ---
 
-<header>
-  <div class="wrapper">
-    <a class="logo" href="/">
-      <img src="/images/default/logo.svg" alt="Rocket.Chat">
-    </a>
-    <div class="clear"></div>
-  </div>
-</header>
+<div class="double-column container">
+  <div class="flex-grid">
+    <div class="double-column__sidebar col--fourth no-gutter">
+      <div class="double-column__links">
+        <ul>
+          <li class="{% if page.type == 'terms' %}double-column__links-current{% endif %}"><a href="/terms">Terms of Service</a></li>
+          <li class="{% if page.type == 'privacy' %}double-column__links-current{% endif %}"><a href="/privacy">Privacy</a></li>
+          <li class="{% if page.type == 'dmca' %}double-column__links-current{% endif %}"><a href="/dmca">DMCA Policy</a></li>
+        </ul>
+      </div>
+    </div>
 
-<section>
-  <div class="wrapper">
-    <h1>{{ page.title }}</h1>
+    <div class="double-column__content col">
+      <div class="free-content">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </div>
+    </div>
   </div>
-</section>
+</div>
 
-<section>
-  <div class="wrapper">
-    {{ content }}
-  </div>
-</section>

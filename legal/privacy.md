@@ -3,6 +3,7 @@ layout: en/legal
 class: legal
 title: Rocket.Chat Privacy Policy
 permalink: /privacy
+type: privacy
 redirect_from:
   - /privacy/
 ---
@@ -183,7 +184,7 @@ The hardware or software tool by which the Personal Data of the User is collecte
 
 Small piece of data stored in the User's device.
 
-* * *
+---
 
 #### Legal information
 

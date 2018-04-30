@@ -3,6 +3,7 @@ layout: en/legal
 title: Rocket.Chat Terms of Service
 class: legal
 permalink: /terms
+type: terms
 redirect_from:
   - /terms/
 ---
@@ -11,15 +12,15 @@ _Effective: December 19, 2017_
 
 ## Terms
 
-- Rocket.Chat Cloud
-- Service
-- Instance
-- Contract
-- Customer
-- Authorized User
-- Customer Data
-- Third Party Application
-- User Terms
+* Rocket.Chat Cloud
+* Service
+* Instance
+* Contract
+* Customer
+* Authorized User
+* Customer Data
+* Third Party Application
+* User Terms
 
 These Hosting Terms of Service (the "Hosting Terms") describe your rights and responsibilities when using our "Services" on our online platform ("Rocket.Chat Cloud") to host an "Instance" (a unique URL where a group of users may access the platform). Please read them carefully.
 
@@ -91,7 +92,7 @@ As further described below, a free subscription continues until terminated, whil
 
 Auto-Renewal
 
-All subscriptions automatically renew (without the need to go through the Rocket.Chat Cloud Administration "check-out" for additional periods equal to one (1) year or the preceding term, whichever is shorter; and the per-unit pricing during any	automatic renewal term will remain the same as it was during the immediately prior term. Either party can give the other notice of non-renewal at least thirty (30) days before the end of a subscription term to stop the subscriptions from automatically renewing.
+All subscriptions automatically renew (without the need to go through the Rocket.Chat Cloud Administration "check-out" for additional periods equal to one (1) year or the preceding term, whichever is shorter; and the per-unit pricing during any automatic renewal term will remain the same as it was during the immediately prior term. Either party can give the other notice of non-renewal at least thirty (30) days before the end of a subscription term to stop the subscriptions from automatically renewing.
 
 Termination for Cause
 
