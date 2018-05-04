@@ -7,6 +7,15 @@
   }
 }
 
+.card__media {
+  height: 9em;
+  display: flex;
+
+  img {
+    margin: auto;
+  }
+}
+
 .card--full-height {
   min-height: 100%;
 }

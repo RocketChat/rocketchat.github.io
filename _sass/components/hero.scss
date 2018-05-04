@@ -12,4 +12,9 @@
     max-width: 27em;
     display: inline-block;
   }
+
+  a {
+    margin-left: $gutter;
+    margin-right: $gutter;
+  }
 }

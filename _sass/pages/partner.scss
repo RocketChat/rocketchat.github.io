@@ -1,0 +1,36 @@
+.partner-box {
+  margin-bottom: 5em;
+  background-repeat: no-repeat;
+  // background-image: url("/images/download/mobile-haft.png");
+  background-position: center bottom;
+  background-size: auto 20em;
+  padding-bottom: 20em;
+
+  @media (min-width: $tablet) {
+    @include flexbox();
+    padding-bottom: 0;
+    // background-image: url("/images/download/mobile.png");
+    background-size: auto 90%;
+    background-position: right -40% bottom;
+    margin-bottom: 10em;
+
+    .wrap {
+      padding: 2em;
+      max-width: 30%;
+    }
+  }
+
+  @media (min-width: 62em) {
+    background-position: right bottom;
+
+    .wrap {
+      padding: 3em 4em;
+      max-width: 50%;
+    }
+  }
+
+  img {
+    width: 9em;
+    margin-right: 1em;
+  }
+}
