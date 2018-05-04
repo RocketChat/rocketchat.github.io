@@ -1,0 +1,104 @@
+.community__hero {
+  background-color: $space-b;
+  position: relative;
+  @include justify-content(flex-end);
+
+  @media screen and (min-width: $tablet) {
+    .container {
+      @include flexbox();
+      @include justify-content(flex-end);
+
+      background-size: 60% auto;
+      background-image: url("../images/index/join-community.jpg");
+      background-repeat: repeat-y;
+      animation: positionX 30s linear infinite;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 50%;
+      bottom: 0;
+      background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0) 0%,
+        $space-b 100%
+      );
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: linear-gradient(
+        180deg,
+        $space 0%,
+        rgba(0, 0, 0, 0) 30%,
+        rgba(0, 0, 0, 0) 70%,
+        $space 100%
+      );
+    }
+  }
+}
+
+@keyframes positionX {
+  0% {
+    background-position: left -150%;
+  }
+  100% {
+    background-position: left -100%;
+  }
+}
+
+.community__hero--wrap {
+  padding: 10vw $gutter;
+  position: relative;
+  z-index: 2;
+
+  @media screen and (min-width: $tablet) {
+    max-width: 48.5%;
+  }
+}
+
+.community__hero_github-link {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  width: 100%;
+  margin-top: 0.6em;
+  transition: all 0.3s ease;
+  color: #fff;
+
+  img {
+    display: inline-block;
+    position: relative;
+    top: 0.1em;
+    margin-right: 0.5em;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    color: $grey-light;
+
+    img {
+      opacity: 0.7;
+    }
+  }
+}
+
+
+.community__hero-download-btn {
+  @include flexbox();
+  @include align-items(center);
+
+  img {
+    margin-right: .5em;
+  }
+}

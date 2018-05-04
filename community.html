@@ -3,99 +3,91 @@ layout: en/default
 class: community
 title: "Join the Rocket.Chat Community"
 permalink: /community
+theme: dark
 redirect_from:
   - /community/
   - /livechat-demo.html
 ---
 
-<section class="hero">
-  <div class="wrapper">
-    <h1>Join the Rocket.Chat Community</h1>
-    <em>Be part of a passionate, global and active open source community</em>
-    <p>
-      <a class="button primary" target="_blank" href="https://open.rocket.chat/">open.rocket.chat</a>
-    </p>
+
+<section class="community__hero">
+  <div class="container">
+    <div class="community__hero--wrap">
+      <p class="label theme_type--grey">Community</p>
+      <h2 class="display--big theme_type--dark">Join the Rocket.Chat community </h2>
+      <p class="theme_type--grey">Hundreds of people contribute to Rocket.Chat projects by coding JavaScript, TypeScript, Java, Swift, HTML, CSS and writing documentation.</p>
+      <p class="theme_type--grey">Join our open community server to chat with the Rocket.Chat team and community.</p>
+
+      <div class="flex-grid--nobreak">
+        <div class="col--free">
+          <a class="button" target="_blank" href="//open.rocket.chat/">open.rocket.chat</a>
+        </div>
+        <div class="col">
+          <a class="community__hero_github-link" target="_blank" href="//github.com/RocketChat/Rocket.Chat">
+            <span><img src="/images/default/github.svg" alt="GitHub"></span>
+            Open on GitHub
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="connect">
-  <div class="wrapper">
-    <div class="left">
-      <p>
-        Rocket.Chat exists today because of the incredible support from the Meteor,
-        JavaScript and wider open source communities.
-      </p>
-      <p>
-        Hundreds of people contribute to Rocket.Chat projects by coding JavaScript,
-        TypeScript, Java, Swift, HTML, CSS and writing documentation.
-      </p>
-      <p>
-        Join our open community server to chat with the Rocket.Chat team and community.
-      </p>
-    </div>
-    <div class="right">
-      <img src="/images/index/community.svg" alt="">
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
+<div class="space--8"></div>
 
-<section class="involved">
-  <div class="wrapper">
-    <ul>
-      <li>
-        <img src="/images/community/star.svg" alt="">
-        <h3>Star and fork</h3>
-        <p>
-          Rocket.Chat is the leading open source team chat application.
-          We have over 600 contributors across our projects.
-          <a href="https://github.com/RocketChat/Rocket.Chat">Star and fork Rocket.Chat on GitHub</a> and help others discover the platform.
-        </p>
-      </li>
-      <li>
-        <img src="/images/community/share.svg" alt="">
-        <h3>Use and share</h3>
-        <p>
-          <a href="/download">Download and install</a> your own server and share Rocket.Chat with your friends
-          and colleagues who haven't experienced the power of an open source team chat platform.
-        </p>
-      </li>
-      <li>
-        <img src="/images/community/bug.svg" alt="">
-        <h3>Squash bugs</h3>
-        <p>
-          Join Rocket.Chat's passionate community to help us manage issues and squash bugs for
-          <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/issues?q=is%3Aissue+is%3Aopen+label%3A%22type%3A+bug%22">Rocket.Chat Server</a>,
-          <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.Electron/issues?q=is%3Aissue+is%3Aopen+label%3A%22type%3A+bug%22">Electron</a>,
-          <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.iOS/issues?q=is%3Aopen+is%3Aissue+label%3Abug">iOS</a> and
-          <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.Android/issues?q=is%3Aopen+is%3Aissue+label%3Abug">Android</a> clients.
-        </p>
-      </li>
-      <li>
-        <img src="/images/community/doc.svg" alt="">
-        <h3>Document</h3>
-        <p>
-          You don't have to be a developer to contribute to Rocket.Chat.
-          You can create new or update old <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.Docs/issues">Rocket.Chat.Docs</a>
-          articles or tutorials.
-        </p>
-      </li>
-      <li>
-        <img src="/images/community/write.svg" alt="">
-        <h3>Write a blog post</h3>
-        <p>
-          Write a blog post on your Rocket.Chat story, tell us about it and we'll share it with the community.
-        </p>
-      </li>
-      <li>
-        <img src="/images/community/talk.svg" alt="">
-        <h3>Give a talk</h3>
-        <p>
-          Give a talk at a local meetup or conference sharing how you use
-          Rocket.Chat or how you customized it to suit your needs.
-        </p>
-      </li>
-    </ul>
-    <div class="clear"></div>
+<section class="container">
+  <div class="flex-grid grid--justify-around">
+    <div class="col--third">
+      <h3 class="display--small theme_type--dark">Star and Fork</h3>
+      <p class="theme_type--grey">The open source team chat application with over 600 contributors across our projects. Star and fork Rocket.Chat on GitHub and help others discover the platform. </p>
+      <a href="//github.com/RocketChat/" target="_blank" class="button--link button--with-arrow">View Github</a>
+      <div class="space--4"></div>
+    </div>
+
+    <div class="col--third">
+      <h3 class="display--small theme_type--dark">Use and Share</h3>
+      <p class="theme_type--grey">Download and install your own server and share Rocket.Chat with your friends and colleagues who haven't experienced the power of an open source team chat platform.</p>
+      <a href="/download/" target="_blank" class="button--link community__hero-download-btn">
+        <span><img src="/images/default/download.svg" alt="Download"></span> 
+        Download
+      </a>
+    </div>
   </div>
-</section>
+
+  <div class="space--4"></div>
+
+  <div class="flex-grid grid--justify-around">
+    <div class="col--third">
+      <h3 class="display--small theme_type--dark">Squash Bugs</h3>
+      <p class="theme_type--grey">Join Rocket.Chat's passionate community to help us manage issues and squash bugs for Rocket.Chat Server, Electron, iOS and Android clients.</p>
+      <a href="//github.com/RocketChat/Rocket.Chat/issues" target="_blank" class="button--link button--with-arrow">View Github</a>
+      <div class="space--4"></div>
+    </div>
+
+    <div class="col--third">
+      <h3 class="display--small theme_type--dark">Document</h3>
+      <p class="theme_type--grey">You don't have to be a developer to contribute to Rocket.Chat. You can create new or update old Rocket.Chat.Docs articles or tutorials directly through GitHub.</p>
+      <a href="/docs/" class="button--link button--with-arrow">View Documents</a>
+    </div>
+  </div>
+
+  <div class="space--4"></div>
+
+  <div class="flex-grid grid--justify-around">
+    <div class="col--third">
+      <h3 class="display--small theme_type--dark">Write a blog post</h3>
+      <p class="theme_type--grey">Write a blog post on your Rocket.Chat story, tell us about how it improved your team’s communication and we'll share it with the community.</p>
+      <a href="/blog/index.html" class="button--link button--with-arrow">Visit Blog</a>
+      <div class="space--4"></div>
+    </div>
+
+    <div class="col--third">
+      <h3 class="display--small theme_type--dark">Give a Talk</h3>
+      <p class="theme_type--grey">Give a talk at a local meetup or conference sharing how you use Rocket.Chat, how you customized it to suit your needs and improved your team’s communication.</p>
+      <a href="/category/events/" class="button--link button--with-arrow">View Events</a>
+    </div>
+  </div>
+
+</seciton>
+
+<div class="space--6"></div>
