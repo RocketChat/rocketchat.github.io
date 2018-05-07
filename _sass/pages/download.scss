@@ -10,6 +10,24 @@
   }
 }
 
+.select-download {
+  border: 1px solid $grey-dark;
+  background: $space-b;
+
+  @media (min-width: $tablet) {
+    font-size: 0.8em;
+  }
+
+  &:after {
+    border-top: 1.5px solid #fff;
+    border-right: 1.5px solid #fff;
+  }
+
+  select {
+    color: #fff;
+  }
+}
+
 .download-mobile {
   margin-bottom: 5em;
   background-repeat: no-repeat;

@@ -254,7 +254,10 @@
 });
 
 var headroom = new Headroom(document.querySelector(".app-header_wrap"));
-headroom.init();
+
+if(headroom.length > 0) {
+  headroom.init();
+}
 
 if (document.querySelector("body.download")) {
   var selects = document.querySelectorAll(".js-select-download");

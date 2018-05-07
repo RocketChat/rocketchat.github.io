@@ -1,0 +1,129 @@
+---
+layout: default
+title: Become Partner
+theme: dark
+---
+
+<div class="container--full become-partner">
+  <div class="flex-grid">
+    <div class="col--fourth become-partner__info no-gutter">
+      <div class="space--3"></div>
+
+      <a href="//rocket.chat"><img width="120" src="/images/default/logo.svg" alt="RocketChat" /></a>
+      <p class="tag theme_type--dark theme_box--dark-medium">Partner program</p>
+      
+      <div class="space--2"></div>
+
+      <h1 class="display theme_type--dark">Become a Partner</h1>
+      <p class="theme_type--grey">Authorized partners can take advantage of a direct contact with the Rocket.Chat team in order to boost their sales. From tech support to sales and marketing support, the Official Partner Program has five types of partnerships:</p>
+
+      <h2 class="text theme_type--dark type--nomargin">Installation Partner</h2>
+      <p class="theme_type--grey">Help Rocket.Chat clients to install and configure their servers to fit their company needs. This service includes brand theming of web, desktop and mobile apps; admin panel configuration; and cloud architecture set-up for scalability of on premise.</p>
+
+      <h2 class="text theme_type--dark type--nomargin">Hands-on Partner</h2>
+      <p class="theme_type--grey">This involves everything that requires coding Rocket.Chat. Its requires advanced knowledge on how to customize RC’s code. This means: the development of new features; integrations; bots; new applications for the marketplace; enterprise versions of Rocket.Chat’s code</p>
+
+      <h2 class="text theme_type--dark type--nomargin">Referral Partner</h2>
+      <p class="theme_type--grey">Partners with sales knowledge to sell Rocket.Chat’s Cloud or Support services, as well as enterprise features. </p>
+
+      <h2 class="text theme_type--dark type--nomargin">Self-Service Partner</h2>
+      <p class="theme_type--grey">Partners that offer their own hosting environment to deploy Rocket.Chat or personal support services. </p>
+
+      <h2 class="text theme_type--dark type--nomargin">Consultation Partner</h2>
+      <p class="theme_type--grey">Experts on Rocket.Chat’s code that are able to teach other companies to successfully design, build, and deploy the Rocket.Chat platform. This type of partner is certified by Rocket.Chat to provide education courses to end users.</p>
+
+      <div class="card theme_box--dark">
+        <p class="label theme_type--grey">Want to know more?</p>
+        <p class="theme_type--dark">Download our program brochure or contact us directly!</p>
+        <a href="" target="_blank" class="button">Download Brochure</a>
+        <a href="/contact" target="_blank" class="button button--ghost">Contact us</a>
+      </div>
+
+      <div class="space--3"></div>
+    </div>
+
+    <div class="col no-gutter become-partner__info no-gutter">
+      <div class="space--3"></div>
+
+      <div class="card theme_box--dark-strong">
+        <div class="flex-grid grid--justify-around">
+          <div class="col--third">
+            <div class="space--2"></div>
+            <p class="label theme_type--grey">Become a partner</p>
+            <h2 class="display--small theme_type--dark">Join Rocket.Chat’s ecosystem</h2>      
+            <div class="space--2"></div>
+
+            <form data-validate>
+              <fieldset>
+                <label class="label--small theme_type--grey" for="company">Company</label>
+                <input required minlength="3" class="input input--dark" type="text" id="company" name="company" placeholder="Type company name" />
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="country">Country</label>
+                <div class="select select--theme-dark">
+                  <select required id="country" name="country">
+                    <option value="">Select Country</option>
+                    {% include select-countries.html %}
+                  </select>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="industry">Industry</label>
+                <input required minlength="3" class="input input--dark" type="text" id="industry" name="industry" placeholder="Type industry" />
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="website">Website</label>
+                <div data-prefix="https://" class="input-child input-child--dark">
+                  <input required minlength="3" type="text" id="website" name="website" pattern="[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)" placeholder="Type website" />
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="name">Name</label>
+                <input required minlength="3" class="input input--dark" type="text" id="name" name="name" placeholder="Type name" />
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="job-title">Job title</label>
+                <input required minlength="3" class="input input--dark" type="text" id="job-title" name="job-title" placeholder="Type job title" />
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="email">Email address</label>
+                <input required minlength="3" class="input input--dark" type="email" id="email" name="email" placeholder="Type Email address" />
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="interest">Partnership interest</label>
+                <div class="select select--theme-dark">
+                  <select required for="interest" id="interest" name="interest">
+                    <option value="">Select partnership type</option>
+                    <option value="Installation Partner">Installation Partner</option>
+                    <option value="Hands-on Partner">Hands-on Partner</option>
+                    <option value="Referral Partner">Referral Partner</option>
+                    <option value="Self-Service Partner">Self-Service Partner</option>
+                    <option value="Consultation Partner">Consultation Partner</option>
+                  </select>
+                </div>
+              </fieldset>
+
+              <div class="space--2"></div>
+
+              <div class="flex-grid grid--justify-end">
+                <div class="col--free no-gutter">
+                  <button class="button button--nobreak" type="submit">Become Partner</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="space--3"></div>
+    </div>
+  </div>
+</div>
+
+<script src="/become-partner.js"></script>

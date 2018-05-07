@@ -5,11 +5,11 @@
 @import "ui/variables";
 @import "ui/reset";
 @import "ui/typography";
-@import "ui/theme";
 @import "ui/grid";
 @import "ui/buttons";
 @import "ui/form";
 @import "ui/table";
+@import "ui/theme";
 
 // Component
 @import "components/header";
@@ -28,3 +28,4 @@
 @import "pages/free-page";
 @import "pages/community";
 @import "pages/partner";
+@import "pages/become-partner"
