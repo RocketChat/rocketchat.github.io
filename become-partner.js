@@ -256,6 +256,25 @@
   );
 });
 
+var toggleModal = function (hide) {
+  var element = document.querySelector('.modal')
+
+  if (hide) {
+    element.classList.remove('modal--show')
+    cleanForm();
+  } else {
+    element.classList.add('modal--show')
+  }
+}
+
+var cleanForm = function (params) {
+  var allField = document.querySelector('.form-become-partner').querySelectorAll('input, select')
+
+  for (var index = 0; index < allField.length; index++) {
+    var field = allField[index];
+    field.value = ''
+  }
+}
 
 validate.init({
   disableSubmit: true,
@@ -279,11 +298,19 @@ validate.init({
   beforeRemoveError: function (field) {
     if (field.nodeName === "SELECT" || field.id === "website") {
       field.parentNode.classList.remove('error');
+
       var parent = field.parentNode.parentNode;
-      parent.removeChild(parent.querySelector('.error-message--fake'))
+      if (parent.querySelector('.error-message--fake')) { 
+        parent.removeChild(parent.querySelector('.error-message--fake'))
+      }
     }
   },
   onSubmit: function () {
     console.info('Form submitted successfully!');
+    toggleModal();
   },
 });
+
+document.querySelector('.js-become-partner-close').addEventListener('click', function () {
+  toggleModal(true);
+})
