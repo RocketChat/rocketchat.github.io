@@ -16,6 +16,7 @@
 .modal__wrap {
   margin: auto;
   animation: scaleIn .5s ease;
+  max-width: 90vw;
 }
 
 @keyframes appearsModal {
