@@ -4,44 +4,18 @@ class: contact
 title: "Contact Us for Sales, Features, Bugs &amp; Feedback"
 permalink: /contact
 redirect_from: /contact/
+theme: dark
 ---
 
-<section class="hero">
-  <h1>Contact the Rocket.Chat Team</h1>
-  <em>Feature requests, bugs, sales enquiries or just share your Rocket.Chat story with us</em>
-</section>
+<div class="container">
+  <div class="flex-grid">
+    <div class="col--third contant-form">
+      <div class="space--4"></div>
 
-<section id="contact">
-  
-  <div class="wrapper">
-    <div class="left">
-      <div class="section">
-        <h2>Email us</h2>
-        <p>
-          At <a href="mailto: contact@rocket.chat" title="contact@rocket.chat" target="_blank">contact@rocket.chat</a>
-          or <a href="mailto: sales@rocket.chat" title="sales@rocket.chat" target="_blank">sales@rocket.chat</a>
-        </p>
-      </div>
-      <div class="section">
-        <h2>Chat to us on Rocket.Chat</h2>
-        <p>
-          Chat to the Rocket.Chat team on
-          <a target="_blank" href="https://open.rocket.chat">open.rocket.chat</a>
-        </p>
-        <ul>
-          <li><a href="https://open.rocket.chat/channel/general" target="_blank">#general</a> General discussion channel</li>
-          <li><a href="https://open.rocket.chat/channel/support" target="_blank">#support</a> Rocket.Chat support channel</li>
-        </ul>
-      </div>
-    </div>
-    <div class="right">
-      <h2>Contact us</h2>
+      <h1 class="display theme_type--dark">Contact Rocket.Chat</h1>
+      <p class="theme_type--grey display--small">Request a feature, report bugs or share your Rocket.Chat story with us</p>
+
       <!-- Contact Form -->
-      <script type="text/javascript">
-        var onloadCallback = function() {
-          grecaptcha.render('html_element', {sitekey: '6Lf9sjcUAAAAAA1cesiL_k6tKYp5Bu_ttWaybR9r'});
-        };
-      </script>
       <form class="webform" method="POST" name="contact" action="https://rocket-chat.appspot.com/mail" enctype="multipart/form-data" accept-charset="utf-8">
         <div>
           <label for="name">Name</label>
@@ -63,33 +37,60 @@ redirect_from: /contact/
         <div>
           <input type="submit" value="Send">
         </div>
-        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
       </form>
       <!-- Contact Form -->
     </div>
-    <div class="clear"></div>
-  </div>
-</section>
 
-<section id="chat">
-  <div class="wrapper">
-    <div class="left">
-      <h2>Features or Bugs</h2>
-      <p>
-        Feature requests and bugs are discussed on
-        <a href="https://github.com/RocketChat/Rocket.Chat/issues" target="_blank">GitHub Issues</a>
-      </p>
-      <ul>
-        <li>For Rocket.Chat coding questions visit <a href="http://stackoverflow.com/questions/tagged/rocket.chat" target="_blank">StackOverflow</a></li>
-        <li>For Rocket.Chat infrastructure questions visit <a href="http://serverfault.com/search?q=Rocket.Chat" target="_blank">ServerFault</a></li>
-      </ul>
+    <div class="contact-map">
+
+      <div class="contact-map__tooltip">
+        <div class="contact-map__tooltip-wrap">
+          <p class="label--small theme_type--grey">HQ Address</p>
+          <p class="theme_type--dark type--nomargin">2711 Centerville Rd, Suite 400 Wilmington, DE 19808, USA</p>
+        </div>
+      </div>
+
+      <img class="contact-map__map" src="/images/team/world-map.svg" alt="World map" />
     </div>
-    <div class="right">
-      <h2>Headquarters Address</h2> 2711 Centerville Road, Suite 400 Wilmington, DE 19808, USA
-      <p>
-        <h2>R&amp;D Address</h2> Rua Carvalho Monteiro, 234, Porto Alegre / RS, Brazil
-      </p>
-    </div>
-    <div class="clear"></div>
   </div>
-</section>
+
+  <div class="flex-grid">
+    <div class="col">
+      <div class="card theme_box--dark card--full-height">
+        <h2 class="display--small theme_type--dark">Chat to us on Rocket.Chat</h2>
+        <p class="theme_type--grey ">Chat to the Rocket.Chat team on open.rocket.chat</p>
+
+        <a href="//open.rocket.chat" target="_blank" class="button">open.rocket.chat</a>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card theme_box--dark card--full-height">
+        <h2 class="display--small theme_type--dark">Send us an Email</h2>
+        <p class="theme_type--grey">Try our general email or contact our sales team directly.</p>
+
+        <p class="label--small theme_type--grey type--nomargin">Email address</p>
+        <a href="mailto:contact@rocket.chat" target="_blank" class="button--link">contact@rocket.chat</a>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card theme_box--dark card--full-height">
+        <h2 class="display--small theme_type--dark">Features or Bugs</h2>
+        <p class="theme_type--grey">Features & bugs are discussed on GitHub Issues</p>
+
+        <a href="//github.com/RocketChat/Rocket.Chat/issues" target="_blank" class="button--blank">
+          <span class="button--icon"><img src="/images/default/github--dark.svg" alt="View GitHub Issues" /></span>
+          View GitHub Issues
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+      

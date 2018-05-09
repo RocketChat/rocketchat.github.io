@@ -152,25 +152,23 @@
   }
 }
 
-.button--tags {
+.button--blank {
   @include reset;
   @include defaultStyle;
   @include disabledStyle;
 
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 0.6em;
-  padding: 0.4em 0.8em;
-  background: $grey-dark;
+  background: #fff;
+  color: #030C1A;
 
   &:hover {
-    background-color: $grey;
+    background-color: #eee;
   }
 
   &:active {
     box-shadow: inset 0 1px 0 0 $grey-dark;
   }
 }
+
 
 .button--icon {
   margin-right: 1em;
