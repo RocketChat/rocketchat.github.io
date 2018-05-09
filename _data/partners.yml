@@ -1,77 +1,67 @@
+- name: Source Forte
+  description: Certified implementers & experts in several of the most popular and well respected open source platforms.
+  website: //sourceforte.com/our-global-collaborations/
+  logo: /images/partners/sourceforte.png
+  type: global
+  
+- name: Curve Stone
+  description: Hand-on partner with expertise on configuration, customization and development of Rocket.Chat’s code.
+  website: //www.curvestone.io/rocket-chat
+  logo: /images/partners/curvestone.png
+  type: global
+
 - name: Chef
-  description:
-  website: https://www.chef.io
+  website: //www.chef.io
   logo: /images/partners/cheflogo.png
   type: technology
 
 - name: Tokenly
   description:
-  website: https://tokenly.com
+  website: //tokenly.com
   logo: /images/partners/tokenlylogo.png
   type: technology
 
 - name: Brave
-  description:
-  website: https://brave.com
+  website: //brave.com
   logo: /images/partners/bravelogo.png
   type: technology
 
 - name: KeyCDN
-  description:
-  website: https://keycdn.com
+  website: //keycdn.com
   logo: /images/partners/keycdnlogo.png
   type: technology
 
 - name: Google Cloud Platform
-  description:
-  website: https://cloud.google.com
+  website: //cloud.google.com
   logo: /images/partners/gcplogo.png
   type: technology
 
-- name: Source Forte
-  description: Done right the first time. ASEAN open source specialists.
-  website: http://www.sourceforte.com/
-  logo: /images/partners/sourceforte.png
-  type: global
-  
-- name: Curvestone
-  description: London based Rocket.Chat Hosting. GDPR specialists.
-  website: https://www.curvestone.io/managed-rocketchat-hosting
-  logo: /images/partners/curvestone.png
-  type: global
+- name: Mconf
+  website: //mconf.com
+  logo: /images/partners/mconf.png
+  type: technology
 
-- name: Spinups by Whogloo
-  description: Spinup Rocket.Chat - The Business Chat Platform
-  website: https://spinups.io/rocket-chat/
-  logo: /images/partners/spinups.png
-  type: hosting
-
-- name: Curvestone
-  description: London based Rocket.Chat configuration and customization.
-  website: http://www.curvestone.io/rocket-chat
+- name: Curve Stone
+  website: //www.curvestone.io/managed-rocketchat-hosting
   logo: /images/partners/curvestone.png
   type: hosting
 
 - name: Layershift PaaS
-  description: Instantly deploy your Rocket.Chat on next generation auto-scaling PaaS.
-  website: http://jps.layershift.com/rocketchat/deploy.html
+  website: //jps.layershift.com/rocketchat/deploy.html
   logo: /images/partners/layershift.png
   type: hosting
 
-- name: RocketChatLauncher
-  description: The best team chat app in the galaxy, with no servers or code.
-  website: https://rocketchatlauncher.com/
+- name: Rocket.Chat Launcher
+  website: //rocketchatlauncher.com/
   logo: /images/partners/rocketchatlaucher.png
   type: hosting
 
-- name: NETWAYS Web Services
-  description: Launch your own Rocket.Chat. Hosted in Germany.
-  website: https://nws.netways.de/contracts/new?product_id=14-rocketchat
+- name: Netways Web Services
+  website: //nws.netways.de/products/rocket-chat?locale=en
   logo: /images/partners/netways.png
   type: hosting
 
-- name: Containership
-  description: The Hyperprovider for Multi-Cloud Containers.
-  website: https://containership.io/app/rocket.chat?cs_campaign_source=partner&cs_campaign_id=rocket.chat
-  logo: /images/partners/containership.png
+- name: Open Envy
+  website: //www.openenvy.com
+  logo: /images/partners/openenvy.png
   type: hosting
