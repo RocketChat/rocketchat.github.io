@@ -81,6 +81,7 @@ body.light {
 
 .select--theme-dark {
   border: 1.5px solid $grey-dark;
+  background-color: $space-b;
 
   &:hover {
     border-color: $grey;
@@ -101,6 +102,7 @@ body.light {
 .input-child--dark input {
   color: #fff;
   border: 1.5px solid $grey-dark;
+  background-color: $space-b;
   @include placeholder($grey-light);
 
   input {

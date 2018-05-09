@@ -15,31 +15,38 @@ theme: dark
       <h1 class="display theme_type--dark">Contact Rocket.Chat</h1>
       <p class="theme_type--grey display--small">Request a feature, report bugs or share your Rocket.Chat story with us</p>
 
-      <!-- Contact Form -->
-      <form class="webform" method="POST" name="contact" action="https://rocket-chat.appspot.com/mail" enctype="multipart/form-data" accept-charset="utf-8">
-        <div>
-          <label for="name">Name</label>
-          <input class="large" type="text" name="name">
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input class="large" type="email" name="email">
-        </div>
-        <div>
-          <label for="subject">Subject</label>
-          <input class="large" type="text" name="subject">
-        </div>
-        <div>
-          <label for="Message">Message</label>
-          <textarea class="large" name="Message"></textarea>
-        </div>
-        <div id="html_element"></div>
-        <div>
-          <input type="submit" value="Send">
-        </div>
+      <div class="space--4"></div>
 
+      <form class="form-validate" data-validate>
+        <fieldset>
+          <label class="label--small theme_type--grey" for="Name">Name</label>
+          <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="Name" name="Name" placeholder="Type your name" />
+        </fieldset>
+
+        <fieldset>
+          <label class="label--small theme_type--grey" for="email">Email Address</label>
+          <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email" id="email" email="email" placeholder="Type email address" />
+        </fieldset>
+
+        <fieldset>
+          <label class="label--small theme_type--grey" for="Subject">Subject</label>
+          <div class="select select--theme-dark">
+            <select required id="Subject" name="Subject">
+              <option value="">Select subject</option>
+              <option value="1">1</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <label class="label--small theme_type--grey" for="message">message</label>
+          <textarea required rows="7" class="input input--dark" name="message" id="message" placeholder="Type your message"></textarea>
+        </fieldset>
+
+        <div class="space--2"></div>
+        <button type="submit" class="button">Send message</button>
+        <div class="space--4"></div>
       </form>
-      <!-- Contact Form -->
     </div>
 
     <div class="contact-map">
@@ -89,7 +96,24 @@ theme: dark
   </div>
 </div>
 
+<div class="modal">
+  <div class="modal__wrap">
+    <div class="flex-grid card theme_box--dark">
+      <div class="col--haft">
+        <div class="space--2"></div>
+        <p class="label theme_type--grey">Contact us</p>
+        <h2 class="display--small theme_type--dark">Message sent successfully!</h2>   
+        <p class="theme_type--dark">Thanks for contacting us! We will be in touch with you shortly.</p>
+        <button class="button js-become-partner-close">Got it</button>
+        <div class="space--1"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="space--4"></div>
+
+<script src="/forms.js"></script>
 
   
 

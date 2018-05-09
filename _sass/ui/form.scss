@@ -68,6 +68,22 @@ fieldset {
   }
 }
 
+// icons
+.input--icon-user {
+  background-image: url(../images/contact/user.svg);
+  background-position: 1em center;
+  background-repeat: no-repeat;
+  padding-left: 3em;
+}
+
+.input--icon-email {
+  background-image: url(../images/contact/email.svg);
+  background-position: 1em center;
+  background-repeat: no-repeat;
+  padding-left: 3em;
+}
+
+// error
 .error-message {
   color: $warning;
   text-transform: uppercase;
