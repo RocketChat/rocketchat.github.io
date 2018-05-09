@@ -26,10 +26,10 @@ theme: dark
           <p class="theme_type--grey">This involves everything that requires coding Rocket.Chat. Its requires advanced knowledge on how to customize RC’s code. This means: the development of new features; integrations; bots; new applications for the marketplace; enterprise versions of Rocket.Chat’s code</p>
 
           <h2 class="text theme_type--dark type--nomargin">Referral Partner</h2>
-          <p class="theme_type--grey">Partners with sales knowledge to sell Rocket.Chat’s Cloud or Support services, as well as enterprise features. </p>
+          <p class="theme_type--grey">Partners with sales knowledge to sell Rocket.Chat’s Cloud or Support services, as well as enterprise features.</p>
 
           <h2 class="text theme_type--dark type--nomargin">Self-Service Partner</h2>
-          <p class="theme_type--grey">Partners that offer their own hosting environment to deploy Rocket.Chat or personal support services. </p>
+          <p class="theme_type--grey">Partners that offer their own hosting environment to deploy Rocket.Chat or personal support services.</p>
 
           <h2 class="text theme_type--dark type--nomargin">Consultation Partner</h2>
           <p class="theme_type--grey">Experts on Rocket.Chat’s code that are able to teach other companies to successfully design, build, and deploy the Rocket.Chat platform. This type of partner is certified by Rocket.Chat to provide education courses to end users.</p>
@@ -57,16 +57,30 @@ theme: dark
             <h2 class="display--small theme_type--dark">Join Rocket.Chat’s ecosystem</h2>      
             <div class="space--2"></div>
 
-            <form class="form-become-partner" data-validate>
+            <form 
+              class="form-become-partner" 
+              data-validate 
+              action="https://crm.zoho.com/crm/WebToLeadForm" 
+              name=WebToLeads2982481000001728001 
+              method="POST" 
+              accept-charset="UTF-8"
+            >
+
+              <input type="text" style="display:none;" name="xnQsjsdp" value="96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03b"/>
+              <input type="hidden" name="zc_gad" id="zc_gad" value=""/>
+              <input type="text" style="display:none;" name="xmIwtLD" value="8ea917c61ae7f2f107ac548ac534375cad699d5a18031bffd383bf0f2502f949"/>
+              <input type="text" style="display:none;"  name="actionType" value="TGVhZHM="/>
+              <input type="text" style="display:none;" name="returnURL" id="js-return-url" value="" /> 
+
               <fieldset>
-                <label class="label--small theme_type--grey" for="company">Company</label>
-                <input required minlength="3" class="input input--dark" type="text" id="company" name="company" placeholder="Type company name" />
+                <label class="label--small theme_type--grey" for="Company">Company</label>
+                <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="Company" name="Company" placeholder="Type company name" />
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="country">Country</label>
+                <label class="label--small theme_type--grey" for="Country">Country</label>
                 <div class="select select--theme-dark">
-                  <select required id="country" name="country">
+                  <select required id="Country" name="Country">
                     <option value="">Select Country</option>
                     {% include select-countries.html %}
                   </select>
@@ -74,42 +88,92 @@ theme: dark
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="industry">Industry</label>
-                <input required minlength="3" class="input input--dark" type="text" id="industry" name="industry" placeholder="Type industry" />
-              </fieldset>
-
-              <fieldset>
-                <label class="label--small theme_type--grey" for="website">Website</label>
-                <div data-prefix="https://" class="input-child input-child--dark">
-                  <input required minlength="3" type="text" id="website" name="website" pattern="[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)" placeholder="Type website" />
+                <label class="label--small theme_type--grey" for="Industry">Industry</label>
+                <div class="select select--theme-dark">
+                  <select required name="Industry">
+                    <option value="">Select industry type</option>
+                    <option value="Blockchain">Blockchain</option>
+                    <option value="Consulting">Consulting</option>
+                    <option value="Consumer&#x20;Goods">Consumer Goods</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Education">Education</option>
+                    <option value="Financial&#x20;Services">Financial Services</option>
+                    <option value="Government">Government</option>
+                    <option value="Games">Games</option>
+                    <option value="Help&#x20;Center">Help Center</option>
+                    <option value="Healthcare&#x2f;Pharmaceutical">Healthcare&#x2f;Pharmaceutical</option>
+                    <option value="Insurance">Insurance</option>
+                    <option value="Logistics">Logistics</option>
+                    <option value="Manufacturing">Manufacturing</option>
+                    <option value="Public&#x20;Relations">Public Relations</option>
+                    <option value="Religious">Religious</option>
+                    <option value="Real&#x20;State">Real State</option>
+                    <option value="Retail">Retail</option>
+                    <option value="Non-profit">Non-profit</option>
+                    <option value="Community">Community</option>
+                    <option value="Social&#x20;network">Social network</option>
+                    <option value="Technology&#x20;Provider">Technology Provider</option>
+                    <option value="Technology&#x20;Services">Technology Services</option>
+                    <option value="Telecom">Telecom</option>
+                    <option value="Tourism">Tourism</option>
+                    <option value="Other">Other</option>
+                  </select>
                 </div>
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="name">Name</label>
-                <input required minlength="3" class="input input--dark" type="text" id="name" name="name" placeholder="Type name" />
+                <label class="label--small theme_type--grey" for="Website">Website</label>
+                <div data-prefix="https://" class="input-child input-child--dark">
+                  <input type="text" id="Website" name="Website" pattern="[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)" placeholder="Type website" />
+                </div>
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="job-title">Job title</label>
-                <input required minlength="3" class="input input--dark" type="text" id="job-title" name="job-title" placeholder="Type job title" />
+                <label class="label--small theme_type--grey" for="No of Employees">No. of Employees</label>
+                <input class="input input--dark" type="text" id="No of Employees" name="No of Employees" placeholder="Type no. of employees" />
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="email">Email address</label>
-                <input required minlength="3" class="input input--dark" type="email" id="email" name="email" placeholder="Type Email address" />
+                <label class="label--small theme_type--grey" for="name">First Name</label>
+                <input class="input input--dark" type="text" id="First Name" name="First Name" placeholder="Type first name" />
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="interest">Partnership interest</label>
+                <label class="label--small theme_type--grey" for="name">Last Name</label>
+                <input required minlength="3" class="input input--dark" type="text" id="Last Name" name="Last Name" placeholder="Type Last name" />
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="Designation">Job title</label>
+                <input required minlength="3" class="input input--dark" type="text" id="Designation" name="Designation" placeholder="Type job title" />
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="Email">Email address</label>
+                <input required minlength="3" class="input input--dark" type="email" id="Email" name="Email" placeholder="Type email address" />
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="LEADCF6">Partnership interest</label>
                 <div class="select select--theme-dark">
-                  <select required for="interest" id="interest" name="interest">
+                  <select required id="LEADCF6" name="LEADCF6">
                     <option value="">Select partnership type</option>
-                    <option value="Installation Partner">Installation Partner</option>
-                    <option value="Hands-on Partner">Hands-on Partner</option>
-                    <option value="Referral Partner">Referral Partner</option>
-                    <option value="Self-Service Partner">Self-Service Partner</option>
-                    <option value="Consultation Partner">Consultation Partner</option>
+                    <option value="Consultation">Consultation</option>
+                    <option value="Installation">Installation</option>
+                    <option value="Hands-on">Hands-on</option>
+                    <option value="Referral">Referral</option>
+                    <option value="Self-Services">Self-Services</option>
+                  </select>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <label class="label--small theme_type--grey" for="LEADCF7">Have you done a project using Rocket.Chat&#x3f;</label>
+                <div class="select select--theme-dark">
+                  <select required id="LEADCF7" name="LEADCF7">
+                    <option value="">Select an option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                   </select>
                 </div>
               </fieldset>

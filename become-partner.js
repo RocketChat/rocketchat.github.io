@@ -256,28 +256,7 @@
   );
 });
 
-var toggleModal = function (hide) {
-  var element = document.querySelector('.modal')
-
-  if (hide) {
-    element.classList.remove('modal--show')
-    cleanForm();
-  } else {
-    element.classList.add('modal--show')
-  }
-}
-
-var cleanForm = function (params) {
-  var allField = document.querySelector('.form-become-partner').querySelectorAll('input, select')
-
-  for (var index = 0; index < allField.length; index++) {
-    var field = allField[index];
-    field.value = ''
-  }
-}
-
 validate.init({
-  disableSubmit: true,
   afterShowError: function (field, error) {
     if (field.nodeName === "SELECT" || field.id === "website") {
       var parent = field.parentNode.parentNode
@@ -304,13 +283,41 @@ validate.init({
         parent.removeChild(parent.querySelector('.error-message--fake'))
       }
     }
-  },
-  onSubmit: function () {
-    console.info('Form submitted successfully!');
-    toggleModal();
-  },
+  }
 });
 
-document.querySelector('.js-become-partner-close').addEventListener('click', function () {
-  toggleModal(true);
-})
+
+(function initForm() {
+  function toggleModal(hide) {
+    var element = document.querySelector('.modal');
+
+    if (hide) {
+      element.classList.remove('modal--show')
+      window.location.search = "";
+    } else {
+      element.classList.add('modal--show')
+    }
+  }
+
+  // Show modal on form success
+  if (
+      window.location && 
+      window.location.search && 
+      window.location.search === "?form-success"
+    ) {
+    toggleModal();
+  }
+
+  // Update returnUrl
+  (function updateUrl() {
+    var fieldReturnUrl = document.querySelector('#js-return-url');
+    var currentUrl = window.location.href
+
+    fieldReturnUrl.value = String(currentUrl + '?form-success')
+  }());
+
+  var modalButton = document.querySelector('.js-become-partner-close');
+  modalButton.addEventListener('click', function () {
+    toggleModal(true);
+  })
+}());
