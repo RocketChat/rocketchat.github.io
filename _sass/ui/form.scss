@@ -1,19 +1,12 @@
-@mixin placeholder($color) {
-  &::-webkit-input-placeholder {
-    color: $color;
-  }
-  &::-moz-placeholder {
-    color: $color;
-  }
-  &:-ms-input-placeholder {
-    color: $color;
-  }
-  &:-moz-placeholder {
-    color: $color;
-  }
+fieldset {
+  position: relative;
 }
 
-.input {
+//
+// inputs
+//
+.input,
+.input-child input {
   font-weight: 500;
   font-size: 0.8em;
   line-height: 1.4;
@@ -28,6 +21,7 @@
   border: 1.5px solid $grey-smoke;
 
   transition: border $tranitions;
+  @include placeholder($grey);
 
   &[disabled],
   &.disabled {
@@ -40,13 +34,70 @@
     border-color: $grey-light;
   }
 
-  @include placeholder($grey);
+  &.error {
+    border-color: $warning !important;
+  }
 }
 
+.input-child {
+  margin-bottom: 0 !important;
+}
+
+// prefix
+[data-prefix] {
+  position: relative;
+  &:before {
+    content: attr(data-prefix);
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    bottom: 1.2em;
+    line-height: 3.1;
+    font-size: 0.8em;
+  }
+
+  .error-message {
+    display: none;
+  }
+
+  input {
+    padding-left: 7em;
+  }
+}
+
+.error-message {
+  color: $warning;
+  text-transform: uppercase;
+  font-size: .6em;
+  position: absolute;
+  right: 0;
+  top: .7em;
+  animation: slide .3s ease; 
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(1.3em);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+//
+// selects
+//
 .select {
   font-size: 1em;
   border-radius: 2px;
   position: relative;
+  transition: border $tranitions;
 
   &:after {
     content: "";
@@ -64,11 +115,19 @@
     padding: 0.4em 1em;
   }
 
+  &.error {
+    border-color: $warning !important;
+  }
+
+  .error-message {
+    display: none;
+  }
+
   @media (min-width: $tablet) {
     font-size: 0.8em;
 
     select {
-      padding: 0.72em 1em;
+      padding: 0.82em 1em;
     }
 
     &:after {
@@ -77,5 +136,15 @@
       top: 1em;
       right: 1em;
     }
+  }
+}
+
+// space rules
+.label--small {
+  + .select,
+  + .input-child,
+  + .input {
+    margin-top: 0.3em;
+    margin-bottom: 1em;
   }
 }

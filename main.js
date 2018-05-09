@@ -253,8 +253,11 @@
   );
 });
 
-var headroom = new Headroom(document.querySelector(".app-header_wrap"));
-headroom.init();
+var header = document.querySelector(".app-header_wrap");
+if (header) {
+  var headroom = new Headroom(header);
+  headroom.init();
+}
 
 if (document.querySelector("body.download")) {
   var selects = document.querySelectorAll(".js-select-download");

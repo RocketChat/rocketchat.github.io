@@ -1,0 +1,40 @@
+.become-partner__info {
+
+  .card {
+    margin-bottom: -4em;
+  }
+
+  @media (min-width: $tablet) {
+    overflow: auto;
+    max-height: 100vh;
+    -webkit-overflow-scrolling: touch;
+
+    .card {
+      background: none;
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.become-partner__interest {
+  display: none;
+
+  @media (min-width: $tablet) {
+    display:block;
+  }
+}
+
+.become-partner__form {
+   @media (min-width: $tablet) {
+    overflow: auto;
+    max-height: 100vh;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .col--third {
+    @media (min-width: $tablet) and (max-width: 76em)  {
+      max-width: 50%;
+    }
+  }
+}

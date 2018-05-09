@@ -68,6 +68,8 @@ body.light {
 }
 
 // Forms
+
+// Selects
 .select--theme-light {
   border: 1px solid $grey-smoke;
 
@@ -78,11 +80,10 @@ body.light {
 }
 
 .select--theme-dark {
-  border: 1px solid $grey-dark;
-  background: $space-b;
+  border: 1.5px solid $grey-dark;
 
-  @media (min-width: $tablet) {
-    font-size: 0.8em;
+  &:hover {
+    border-color: $grey;
   }
 
   &:after {
@@ -92,6 +93,38 @@ body.light {
 
   select {
     color: #fff;
+  }
+}
+
+// Inputs
+.input--dark,
+.input-child--dark input {
+  color: #fff;
+  border: 1.5px solid $grey-dark;
+  @include placeholder($grey-light);
+
+  input {
+    @include placeholder($grey-light);
+  }
+
+  &[disabled],
+  &.disabled {
+    background: $grey-bg;
+    color: $grey-smoke-dark;
+    @include placeholder($grey-smoke-dark);
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $grey;
+  }
+}
+
+.input-child--dark[data-prefix] {
+  &:before {
+    background: $space-grey;
+    color: #fff;
+    border-right: 1.5px solid $grey-dark;
   }
 }
 
