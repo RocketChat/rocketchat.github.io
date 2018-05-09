@@ -253,9 +253,9 @@
   );
 });
 
-var headroom = new Headroom(document.querySelector(".app-header_wrap"));
-
-if(headroom.length > 0) {
+var header = document.querySelector(".app-header_wrap");
+if (header) {
+  var headroom = new Headroom(header);
   headroom.init();
 }
 
