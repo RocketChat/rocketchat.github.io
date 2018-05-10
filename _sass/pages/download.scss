@@ -38,7 +38,7 @@
 
   @media (min-width: $tablet) {
     @include flexbox();
-    padding-bottom: 0;
+    padding-bottom: 1.5em;
     background-image: url("/images/download/mobile.png");
     background-size: auto 90%;
     background-position: right -40% bottom;
