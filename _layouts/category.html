@@ -39,7 +39,7 @@ permalink: /categories/
 
     {% assign UpcomingSorted = Upcoming | sort: "dateEvent"  %}
 
-    <h3 class="display--small theme_type--dark blog__section">Upcoming</h3>
+    <h3 class="display--small theme_type--dark blog__section"><strong>Upcoming</strong></h3>
     <div class="{% if Upcoming.size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
       {% for post in UpcomingSorted %}
         <a 
@@ -69,7 +69,7 @@ permalink: /categories/
 
     <div class="space--4"></div>
 
-    <h3 class="display--small theme_type--dark blog__section">Past</h3>
+    <h3 class="display--small theme_type--dark blog__section"><strong>Past</strong></h3>
     <div class="blog__category">
       {% for post in Past %}
         {% if post.categories contains "Events" and post.type and post.location %}
