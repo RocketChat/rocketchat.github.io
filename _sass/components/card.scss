@@ -49,8 +49,14 @@
 }
 
 // Blog
+
+.card--blog__meta {
+  font-weight: 700;
+  margin-bottom: .3em;
+}
+
 .card--blog {
-  min-height: 18em;
+  min-height: 15em;
   width: 100%;
   position: relative;
   margin-bottom: 1em;
@@ -68,7 +74,7 @@
     }
 
     .card--blog__meta {
-      margin-bottom: 13em;
+      margin-bottom: 8.5em;
     }
   }
 

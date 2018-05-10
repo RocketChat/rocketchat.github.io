@@ -14,6 +14,8 @@ redirect_from:
   - /2015/06/10/rocketchat-host-your-own-open-source-chat-server/
   - /2016/06/14/rocketchat-enabling-privately-hosted-chat-services/
   - /2017/10/06/success-story-rotogrinders/
+  
+category: home
 ---
 
 {% assign FeaturedList = "" | split: "" %}
@@ -68,7 +70,7 @@ redirect_from:
     {% endfor %}
   </div>
 
-  <div class="space--6"></div>
+  <div class="space--7"></div>
 
   <div class="flex-grid">
     <div class="col--fourth no-gutter">
@@ -78,13 +80,13 @@ redirect_from:
       <p class="theme_type--grey type--nomargin">Workshops, Demos &amp; Conferences</p>
       <div class="space--1"></div>
       <a href="/category/events/" class="button--link">View all</a>
-      <div class="space--2"></div>
+      <div class="space--1"></div>
     </div>
 
     <div class="flex-grid theme_box--brand blog__event">
       {% for post in EventListSorted limit:3 %}
         <a href="{{ post.url }}" class="col blog__event-item no-gutter">
-          <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
+          <p class="blog__event-dayweek label--small theme_type--kinda-white type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
           <h4 class="display theme_type--dark">
             {{ post.dateEvent | date: "%m.%d" }}
             {% if post.dateEventEnd %} 
@@ -92,20 +94,24 @@ redirect_from:
             {% endif %}
           </h4>
           <h3 class="text theme_type--dark type--nomargin"><strong>{{ post.type }}:</strong> {{ post.title }}</h3>
-          <div class="space--1"></div>
-          <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ post.location }}</p>
+          <div class="space--075"></div>
+          <p class="blog__event-location text--small theme_type--kinda-white type--nomargin">{{ post.location }}</p>
         </a>
       {% endfor %}
     </div>
   </div>
 
-  <div class="space--5"></div>
+  <div class="space--7"></div>
 
   <div class="flex-grid blog__col-recents">
     <div class="col">
-      <h3 class="display--small theme_type--dark blog__section"><st</strong>rong>
-        <span>Recents </span>
-        <small><a href="/blog/page/2" class="button--link">View all</a></small>
+      <h3 class="display--small theme_type--dark blog__section">
+        <strong>
+          <span>Recents </span>
+        </strong>
+        <small>
+          <a href="/blog/page/2" class="button--link text type--nomargin">View all</a>
+        </small>
       </h3>
 
       <div class="blog__recents">
@@ -155,7 +161,7 @@ redirect_from:
               {% endif %}
             ></div>
           </a>
-          <a class="no-gutter col" href="{{ post.url | remove: "index.html" }}">
+          <a class="no-gutter col mini-gutter" href="{{ post.url | remove: "index.html" }}">
             <p class="card--blog__meta label--small theme_type--grey">
               {{ post.date | date: "%b %-d, %Y" }}
               — 
@@ -165,13 +171,15 @@ redirect_from:
             <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
             <div class="card--blog__data">
               <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ post.categories[0] }}</p>
-              <p class="card--blog__author text--small theme_type--grey">by {{ post.author }}</p>
+              <p class="card--blog__author text--small theme_type--grey">by {{ post.author | truncate: 20 }}</p>
             </div>
           </a>
         </div>
         <div class="card--blog__separator"></div>
         {% endif %}
       {% endfor %}
+
+      <div class="space--3"></div>
 
       <div class="card theme_box--dark">
         <p class="label theme_type--grey">RSS feed</p>
