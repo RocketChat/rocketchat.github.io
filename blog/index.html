@@ -38,7 +38,7 @@ redirect_from:
   
   {% if paginator.page == 1 %}
 
-  <h3 class="display--small theme_type--dark blog__section">Featured</h3>
+  <h3 class="display--small theme_type--dark blog__section"><strong>Featured</strong></h3>
 
   <div class="blog__featured">
     {% for post in FeaturedList limit:5 %}
@@ -103,7 +103,7 @@ redirect_from:
 
   <div class="flex-grid blog__col-recents">
     <div class="col">
-      <h3 class="display--small theme_type--dark blog__section">
+      <h3 class="display--small theme_type--dark blog__section"><st</strong>rong>
         <span>Recents </span>
         <small><a href="/blog/page/2" class="button--link">View all</a></small>
       </h3>
@@ -138,7 +138,7 @@ redirect_from:
     </div>
 
     <div class="col--third">
-      <h3 class="display--small theme_type--dark blog__section">More Featured</h3>
+      <h3 class="display--small theme_type--dark blog__section"><strong>More Featured</strong></h3>
       {% for post in FeaturedList %}
         {% if forloop.index > 5 %}
         <div class="flex-grid--nobreak">
