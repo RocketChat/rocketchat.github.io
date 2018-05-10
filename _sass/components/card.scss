@@ -1,6 +1,6 @@
 .card {
   border-radius: 2px;
-  padding: 1.5em;
+  padding: 1.7em;
 
   > *:last-child {
     margin-bottom: 0;
@@ -40,7 +40,7 @@
 
 .card_icon--mini {
   padding-left: $gutter;
-  padding-right: $gutter;
+  margin-top: .3em;
   @include align-self(flex-start);
 }
 
@@ -49,8 +49,14 @@
 }
 
 // Blog
+
+.card--blog__meta {
+  font-weight: 700;
+  margin-bottom: .3em;
+}
+
 .card--blog {
-  min-height: 18em;
+  min-height: 15em;
   width: 100%;
   position: relative;
   margin-bottom: 1em;
@@ -68,7 +74,7 @@
     }
 
     .card--blog__meta {
-      margin-bottom: 13em;
+      margin-bottom: 8.5em;
     }
   }
 

@@ -63,13 +63,12 @@
 
 .home_box-wrap {
   padding: 2em $gutter;
-  font-size: 14px;
   position: relative;
   z-index: 2;
 
   @media screen and (min-width: $tablet) {
-    max-width: 48.5%;
-    padding: 4em 6.5em 4em 7em;
+    max-width: 50%;
+    padding: 5em 6.5em 5em 7em;
   }
 }
 
@@ -199,7 +198,7 @@
 //  Home enterprise
 //
 .home-enterprise {
-  margin-bottom: -15em;
+  margin-bottom: -17em;
   position: relative;
 
   + section {
@@ -244,6 +243,7 @@
   position: relative;
   text-align: center;
   overflow: hidden;
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 63.36%, #F3F5F8 100%);
 
   img {
     display: inline-block;

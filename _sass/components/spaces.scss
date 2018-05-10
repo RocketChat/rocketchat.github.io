@@ -1,3 +1,7 @@
+.space--075 {
+  padding-bottom: .75em;
+}
+
 @for $i from 1 through 10 {
   .space--#{$i} {
     padding-bottom: $i/2 + em;

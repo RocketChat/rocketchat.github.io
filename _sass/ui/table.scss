@@ -27,14 +27,14 @@
   table {
     table-layout: fixed;
     margin-bottom: 2em;
-    width: 100%;
+    width: calc(100% + 3px);
 
     @media screen and (min-width: $tablet) {
       @include flex(1);
       margin-bottom: 0;
 
       ~ table {
-        margin-left: -0.1em;
+        margin-left: -2px;
         position: relative;
 
         th span {
@@ -73,9 +73,57 @@
     margin-bottom: 0;
   }
 
+  span {
+    font-weight: 500;
+  }
+
   .table_hide-mobile {
     @media screen and (max-width: $tablet) {
       display: none;
     }
   }
+
+  // Border-radius rules
+	table {
+		tr {
+			&:first-child td {
+				border-top-left-radius: 3px;
+				border-top-right-radius: 3px;
+
+				@media screen and (min-width: $tablet) {
+					border-radius: 0;
+				}
+			}
+			&:last-child td {
+				border-bottom-left-radius: 3px;
+				border-bottom-right-radius: 3px;
+
+				@media screen and (min-width: $tablet) {
+					border-radius: 0;
+				}
+			}
+		}
+
+		&:first-child {
+			tr {
+				&:first-child td {
+					border-top-left-radius: 3px;
+				}
+				&:last-child td {
+					border-bottom-left-radius: 3px;
+				}
+			}
+		}
+
+		&:last-child {
+			tr {
+				&:first-child td {
+					border-top-right-radius: 3px;
+				}
+				&:last-child td {
+					border-bottom-right-radius: 3px;
+				}
+			}
+		}
+	}
 }

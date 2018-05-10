@@ -72,6 +72,15 @@
     &.no-gutter {
       margin-bottom: 0;
     }
+
+    &.mini-gutter {
+      @media (min-width: $tablet) {
+        @include flex(1);
+        margin-bottom: $gutter;
+        padding-left: $gutter / 2;
+        padding-right: $gutter / 2;
+      }
+    }
   }
 
   > .col--free {
@@ -153,6 +162,15 @@
       margin-bottom: $gutter-larger;
       padding-left: $gutter-larger / 2;
       padding-right: $gutter-larger / 2;
+    }
+
+    &.mini-gutter {
+      @media (min-width: $tablet) {
+        @include flex(1);
+        margin-bottom: $gutter;
+        padding-left: $gutter / 2;
+        padding-right: $gutter / 2;
+      }
     }
 
     &.no-gutter {
