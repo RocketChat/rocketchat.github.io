@@ -23,7 +23,7 @@ layout: default
           <li><a {% if page.class == 'support' %}class="current-page"{%endif%} href="/support">Support</a></li>
           <li><a {% if page.class == 'cloud' %}class="current-page"{%endif%} href="/cloud">Cloud</a></li>
           <li><a {% if page.class == 'community' %}class="current-page"{%endif%} href="/community">Community</a></li>
-          <li><a href="https://rocket.chat/docs/">Docs</a></li>
+          <li><a href="//rocket.chat/docs/">Docs</a></li>
           <li><a {% if page.class == 'blog' %}class="current-page"{%endif%} href="/blog/">Blog</a></li>
           <li><a {% if page.class == 'contact' %}class="current-page"{%endif%} href="/contact">Contact</a></li>
         </ul>
@@ -46,7 +46,7 @@ layout: default
         <li><a href="/support">Support</a></li>
         <li><a href="/cloud">Cloud</a></li>
         <li><a href="/community">Community</a></li>
-        <li><a target="_blank" href="https://rocket.chat/docs/">Documents</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="//rocket.chat/docs/">Documents</a></li rel='noopener noreferrer'>
       </ul>
     </div>
 
@@ -55,12 +55,12 @@ layout: default
       <label for="menu2" class="app-footer_pre-menu">Company</label>
       <ul class="app-footer_nav">
         <li><a href="/team">Team</a></li>
-        <li><a target="_blank" href="https://rocketchat.recruitee.com/">Jobs</a></li>
+        <li><a target="_blank" rel="noopener noreferrer"href="//rocketchat.recruitee.com/">Jobs</a></li rel='noopener noreferrer'>
         <li><a href="/contact">Contact</a></li>
         <li><a href="/partners">Partners</a></li>
         <li><a href="/press">Press</a></li>
         <li><a href="/blog/">Blog</a></li>
-        <li><a href="//shop.spreadshirt.com/rocketchat" target="_blank">Gift shop</a></li>
+        <li><a href="//shop.spreadshirt.com/rocketchat" target="_blank" rel="noopener noreferrer">Gift shop</a></li>
       </ul>
     </div>
 
@@ -78,7 +78,7 @@ layout: default
       <input id="menu4" type="checkbox" />
       <label for="menu4" class="app-footer_pre-menu">Get started</label>
       <ul class="app-footer_nav">
-        <li><a class="app-footer_download" target="_blank" href="//cloud.rocket.chat/trial/small"><span><img src="/images/default/free-trial.svg" alt="Free trial"></span> Free trial</a></li>
+        <li><a class="app-footer_download" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/small"><span><img src="/images/default/free-trial.svg" alt="Free trial"></span> Free trial</a></li>
         <li><a class="app-footer_download" href="/download"><span><img src="/images/default/download.svg" alt="Download"></span> Download</a></li>
       </ul>
     </div>
@@ -94,7 +94,7 @@ layout: default
         </a>
       </h1>
 
-      <a class="app-footer_github" target="_blank" href="https://github.com/RocketChat/Rocket.Chat">
+      <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat" rel="noopener noreferrer">
         {% if page.theme == 'light' %}
           <span><img src="/images/default/star--dark.svg" alt="GitHub Stars" /></span>
         {% else %}
@@ -102,7 +102,7 @@ layout: default
         {% endif %}
         {{site.stars}}K
       </a>
-      <a class="app-footer_github" target="_blank" href="https://github.com/RocketChat/Rocket.Chat/fork">
+      <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat/fork" rel="noopener noreferrer">
         {% if page.theme == 'light' %}
           <span><img src="/images/default/fork--dark.svg" alt="GitHub forks" /></span>
         {% else %}
@@ -110,7 +110,7 @@ layout: default
         {% endif %}
         {{site.forks}}K
       </a>
-      <a class="app-footer_github-link" target="_blank" href="https://github.com/RocketChat/Rocket.Chat">
+      <a class="app-footer_github-link" target="_blank" href="//github.com/RocketChat/Rocket.Chat" rel="noopener noreferrer">
         {% if page.theme == 'light' %}
           <span><img src="/images/default/github--dark.svg" alt="GitHub" /></span>
         {% else %}

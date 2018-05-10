@@ -52,7 +52,7 @@ theme: dark
           <div class="card_footer theme_box--dark">
             <h3 class="display--small theme_type--dark">{{ partner.name }}</h3>
             <p class="theme_type--grey">{{ partner.description }}</p>
-            <a href="{{ partner.website }}" target="_blank" class="button--link button--with-arrow">Visit Website</a>
+            <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow">Visit Website</a>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ theme: dark
 
   <div class="flex-grid grid--wrap">
     {% for partner in TechnoPartners %}
-      <a href="{{ partner.website }}" target="_blank" class="col--third">
+      <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
         <div class="card theme_box--dark-strong">
           <div class="card__media">
             <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
@@ -92,7 +92,7 @@ theme: dark
 
   <div class="flex-grid grid--wrap">
     {% for partner in HostingPartners %}
-      <a href="{{ partner.website }}" target="_blank" class="col--third">
+      <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
         <div class="card theme_box--dark-strong">
           <div class="card__media">
             <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
