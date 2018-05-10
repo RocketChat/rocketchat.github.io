@@ -40,7 +40,7 @@
 
 .card_icon--mini {
   padding-left: $gutter;
-  padding-right: $gutter;
+  margin-top: .3em;
   @include align-self(flex-start);
 }
 

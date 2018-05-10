@@ -27,14 +27,14 @@
   table {
     table-layout: fixed;
     margin-bottom: 2em;
-    width: 100%;
+    width: calc(100% + 3px);
 
     @media screen and (min-width: $tablet) {
       @include flex(1);
       margin-bottom: 0;
 
       ~ table {
-        margin-left: -0.1em;
+        margin-left: -2px;
         position: relative;
 
         th span {
@@ -71,6 +71,10 @@
 
   p:last-child {
     margin-bottom: 0;
+  }
+
+  span {
+    font-weight: 500;
   }
 
   .table_hide-mobile {
