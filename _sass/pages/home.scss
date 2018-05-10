@@ -198,8 +198,12 @@
 //  Home enterprise
 //
 .home-enterprise {
-  margin-bottom: -17em;
   position: relative;
+  margin-bottom: -12em;
+  
+  @media screen and (min-width: $tablet) {
+    margin-bottom: -17em;
+  }
 
   + section {
     padding-top: 16em;

@@ -2,6 +2,7 @@
   text-align: center;
   padding: 2em;
   height: 50vh;
+  min-height: 20em;
 
   @media screen and (min-width: $tablet) {
     padding-top: 5em;
@@ -14,7 +15,7 @@
   }
 
   a {
-    margin-left: $gutter;
-    margin-right: $gutter;
+    margin-left: .5em;
+    margin-right: .5em;
   }
 }

@@ -8,12 +8,12 @@ fieldset {
 .input,
 .input-child input {
   font-weight: 500;
-  font-size: 0.8em;
   line-height: 1.4;
   color: $space;
+  font-size: 1em;
 
   display: inline-block;
-  padding: 0.9em 1.14em 1em;
+  padding: 0.6em 1em;
   width: 100%;
   margin-bottom: 1em;
 
@@ -22,6 +22,11 @@ fieldset {
 
   transition: border $tranitions;
   @include placeholder($grey);
+
+  @media screen and (min-width: $tablet) {
+    padding: 0.9em 1.14em 1em;
+    font-size: 0.8em;
+  }
 
   &[disabled],
   &.disabled {
@@ -54,9 +59,13 @@ fieldset {
     position: absolute;
     left: 2px;
     top: 2px;
-    bottom: 1.2em;
+    bottom: 1.4em;
     line-height: 3.1;
     font-size: 0.8em;
+
+    @media screen and (min-width: $tablet) {
+      bottom: 1.2em;
+    }
   }
 
   .error-message {
