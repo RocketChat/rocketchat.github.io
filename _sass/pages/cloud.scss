@@ -1,0 +1,66 @@
+body.cloud {
+  background-image: url('../images/cloud/hero.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto 32em;
+
+  @media screen and (min-width: $tablet) {
+    background-image: url('../images/cloud/hero@2x.jpg');
+    background-size: 100% auto;
+  }
+
+  .headroom--top {
+    &.app-header_wrap {
+      background: none !important;
+      
+      &:after {
+        opacity: .2;
+      }
+    }
+
+    .app-header_download,
+    .app-header_menu li {
+      color: #fff;
+
+      &:hover {
+        color: $grey-light;
+      }
+    }
+
+    .current-page {
+      color: rgba(255,255,255,0.6);
+    }
+
+    .app-header_logo .dark {
+      opacity: 0;
+    }
+
+    #handle-menu:checked ~ .app-header_menu {
+      background: #327dd8;
+    }
+  }
+  
+
+  // scroll
+  .app-header--light {
+    background: none;
+
+    .app-header_wrap,
+    .app-header_menu {
+      background: none;
+    }
+
+    .headroom--not-top {
+      background: #fff;
+
+      .app-header_menu {
+        @media screen and (max-width: $tablet) {
+          background: #fff;
+        }
+      }
+      .app-header_wrap {
+        background: #fff;
+      }
+    }
+  }
+}

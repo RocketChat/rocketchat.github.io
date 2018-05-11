@@ -3,15 +3,12 @@ layout: default
 ---
 
 <div class="app-header {% if page.theme == 'light' %}app-header--light{% else %}app-header--black{% endif %}">
-  <header class="app-header_wrap">
+  <header class="app-header_wrap headroom--top">
     <div class="container">
       <h1 class="app-header_logo">
         <a href="/">
-          {% if page.theme == 'light' %}
-            <img src="/images/default/logo--dark.svg" alt="Rocket.Chat">
-          {% else %}
-            <img src="/images/default/logo.svg" alt="Rocket.Chat">
-          {% endif %}
+          <img class="dark" src="/images/default/logo--dark.svg" alt="Rocket.Chat">
+          <img class="normal" src="/images/default/logo.svg" alt="Rocket.Chat">
         </a>
       </h1>
 
