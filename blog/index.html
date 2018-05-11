@@ -25,7 +25,9 @@ category: home
   {% if post.featured == true %}
     {% assign FeaturedList = FeaturedList | push: post %}
   {% endif %}
-  {% if post.categories contains "Events" and post.type and post.location %}
+
+  {% if post.categories contains "Events" and post.location and post.dateEvent %}
+  {{post}}
     {% if post.dateEvent > site.time %}
       {% assign EventList = EventList | push: post %}
     {% endif %}
@@ -33,7 +35,6 @@ category: home
 {% endfor %}
 
 {% assign EventListSorted = EventList | sort: "dateEvent"  %}
-
 
 <div class="container">
   {% include blog/header.html %}
@@ -86,7 +87,7 @@ category: home
 
     <div class="flex-grid theme_box--brand blog__event">
       {% for post in EventListSorted limit:3 %}
-        <a href="{{ post.url }}" class="col blog__event-item no-gutter">
+        <a href="{{ post.link }}" class="col blog__event-item no-gutter">
           <p class="blog__event-dayweek label--small theme_type--kinda-white type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
           <h4 class="display theme_type--dark">
             {{ post.dateEvent | date: "%m.%d" }}
@@ -94,7 +95,9 @@ category: home
               — {{ post.dateEventEnd | date: "%m.%d" }}
             {% endif %}
           </h4>
-          <h3 class="text theme_type--dark type--nomargin"><strong>{{ post.type }}:</strong> {{ post.title }}</h3>
+          <h3 class="text theme_type--dark type--nomargin">
+            {% if post.type %}<strong>{{ post.type }}:</strong> {% endif %}
+            {{ post.title }}</h3>
           <div class="space--075"></div>
           <p class="blog__event-location text--small theme_type--kinda-white type--nomargin">{{ post.location }}</p>
         </a>
@@ -118,29 +121,57 @@ category: home
 
       <div class="blog__recents">
         {% for post in paginator.posts %}
-        <a 
-          class="card--blog card--blog__image card--horizontal"
-          href="{{ post.url | remove: "index.html" }}"
-          {% if post.cover %}
-            style="background-image: url('{{ post.cover }}')"
-          {% else %}
-            style="background-image: url('/images/blog/post.jpg')"
-          {% endif %}
-        >
-          <div class="card--blog__wrap">
-            <p class="card--blog__meta label--small theme_type--grey">
-              {{ post.date | date: "%b %-d, %Y" }}
-              — 
-              {% assign words = post.content | number_of_words %}
-              {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
-            </p>
-            <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
-            <div class="card--blog__data">
-              <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ post.categories[0] }}</p>
-              <p class="card--blog__author text--small theme_type--grey">by {{ post.author }}</p>
-            </div>
-          </div>
-        </a>
+          {% if post.categories contains "Events" and post.location and post.dateEvent %}
+              <a 
+                class="card--blog card--blog__image card--horizontal"
+                href="{{ post.url | remove: "index.html" }}"
+                {% if post.cover %}
+                  style="background-image: url('{{ post.cover }}')"
+                {% else %}
+                  style="background-image: url('/images/blog/post.jpg')"
+                {% endif %}
+              >
+                <div class="card--blog__wrap">
+                  <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
+                  <h4 class="display theme_type--dark">
+                    {{ post.dateEvent | date: "%m.%d" }}
+                    {% if post.dateEventEnd %} 
+                      — {{ post.dateEventEnd | date: "%m.%d" }}
+                    {% endif %}
+                  </h4>
+                  <h3 class="text theme_type--dark type--nomargin">
+                    {% if post.type %}<strong>{{ post.type }}:</strong> {% endif %}
+                    {{ post.title }}
+                  </h3>
+                  <div class="space--1"></div>
+                  <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ post.location }}</p>
+                </div>
+              </a>
+            {% else %}
+              <a 
+                class="card--blog card--blog__image card--horizontal"
+                href="{{ post.url | remove: "index.html" }}"
+                {% if post.cover %}
+                  style="background-image: url('{{ post.cover }}')"
+                {% else %}
+                  style="background-image: url('/images/blog/post.jpg')"
+                {% endif %}
+              >
+                <div class="card--blog__wrap">
+                  <p class="card--blog__meta label--small theme_type--grey">
+                    {{ post.date | date: "%b %-d, %Y" }}
+                    — 
+                    {% assign words = post.content | number_of_words %}
+                    {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
+                  </p>
+                  <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
+                  <div class="card--blog__data">
+                    <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ post.categories[0] }}</p>
+                    <p class="card--blog__author text--small theme_type--grey">by {{ post.author }}</p>
+                  </div>
+                </div>
+              </a>
+            {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -203,7 +234,7 @@ category: home
   <div class="blog__category">
     {% for post in paginator.posts %}
 
-      {% if post.categories contains "Events" and post.type and post.location %}
+      {% if post.categories contains "Events" and post.location and post.dateEvent %}
         <a 
           class="card--blog card--blog__image"
           href="{{ post.url | remove: "index.html" }}"
@@ -221,7 +252,10 @@ category: home
                 — {{ post.dateEventEnd | date: "%m.%d" }}
               {% endif %}
             </h4>
-            <h3 class="text theme_type--dark type--nomargin"><strong>{{ post.type }}:</strong> {{ post.title }}</h3>
+            <h3 class="text theme_type--dark type--nomargin">
+              {% if post.type %}<strong>{{ post.type }}:</strong> {% endif %}
+              {{ post.title }}
+            </h3>
             <div class="space--1"></div>
             <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ post.location }}</p>
           </div>

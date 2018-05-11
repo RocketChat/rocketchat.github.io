@@ -8,6 +8,7 @@ permalink: /:year/:month/:day/:title/
 paginate_path: /blog/page/:num/
 paginate: 8
 
+
 # bump if alterting styles
 version: 34
 

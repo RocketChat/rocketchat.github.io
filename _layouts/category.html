@@ -30,7 +30,7 @@ permalink: /categories/
     {% assign Past = "" | split: "" %}
 
     {% for post in site.categories[page.category] %}
-      {% if post.dateEvent > site.time and post.type and post.location %}
+      {% if post.dateEvent > site.time and post.location and post.dateEvent %}
         {% assign Upcoming = Upcoming | push: post %}
       {% else if post.type and post.location %}
         {% assign Past = Past | push: post %}
@@ -59,7 +59,9 @@ permalink: /categories/
                 — {{ post.dateEventEnd | date: "%m.%d" }}
               {% endif %}
             </h4>
-            <h3 class="text theme_type--dark type--nomargin"><strong>{{ post.type }}:</strong> {{ post.title }}</h3>
+            <h3 class="text theme_type--dark type--nomargin">
+            {% if post.type %}<strong>{{ post.type }}:</strong> {% endif %}
+            {{ post.title }}</h3>
             <div class="space--1"></div>
             <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ post.location }}</p>
           </div>
@@ -72,7 +74,7 @@ permalink: /categories/
     <h3 class="display--small theme_type--dark blog__section"><strong>Past</strong></h3>
     <div class="blog__category">
       {% for post in Past %}
-        {% if post.categories contains "Events" and post.type and post.location %}
+        {% if post.categories contains "Events" and post.location and post.dateEvent %}
           <a 
             class="card--blog card--blog__image"
             href="{{ post.url | remove: "index.html" }}"
