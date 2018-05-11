@@ -1,0 +1,20 @@
+body.support {
+  background-image: url('../images/support/hero.jpg');
+  background-position: center 8em;
+  background-repeat: no-repeat;
+  background-size: 150% auto;
+
+  @media screen and (min-width: 31em) {
+    background-position: center 0;
+  }
+
+  @media screen and (min-width: 48em) {
+    background-size: 100% auto;
+    background-position: center 6em;
+    background-image: url('../images/support/hero@2x.jpg');
+  }
+
+  @media screen and (min-width: 70em) {
+    background-position: center -3em;
+  }
+}

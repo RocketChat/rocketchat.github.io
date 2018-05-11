@@ -1,11 +1,12 @@
 body.download {
   background-image: url('../images/download/hero.jpg');
-  background-position: center top;
+  background-position: center 8em;
   background-repeat: no-repeat;
   background-size: auto 32em;
 
   @media screen and (min-width: $tablet) {
     background-image: url('../images/download/hero@2x.jpg');
+    background-position: center top;
     background-size: 100% auto;
   }
 }

@@ -178,6 +178,12 @@
     }
   }
 
+  .app-header_menu {
+    @media screen and (max-width: $tablet) {
+      background: $space;
+    }
+  }
+
   .app-header_wrap:after {
     background-image: linear-gradient(
       -90deg,
