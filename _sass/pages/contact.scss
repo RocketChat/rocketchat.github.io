@@ -59,8 +59,8 @@
 	top: 52%;
 
 	@media screen and (min-width: $tablet) {
-		top: 26vw;
-		left: 16vw;
+		top: 31vw;
+    left: 14vw;
 		width: auto;
 	}
 
@@ -72,11 +72,11 @@
 		border-radius: 100%;
 		background: $brand;
 		position: absolute;
-		top: -25%;
+		bottom: -20%;
 		left: calc(15% + 0.25em);
 
 		@media screen and (min-width: $tablet) {
-			left: calc(10% + 0.25em);
+			left: calc(50% - 0.3em);
 		}
 	}
 
@@ -94,13 +94,13 @@
 			content: '';
 			display: block;
 			border: 0.5em solid transparent;
-			border-bottom: 0.5em solid rgba($grey-dark, 0.55);
+			border-top: 0.5em solid rgba($grey-dark, 0.55);
 			position: absolute;
-			top: -1em;
-			left: 15%;
+			bottom: -1em;
+			left: 40%;
 
 			@media screen and (min-width: $tablet) {
-				left: 10%;
+				left: calc(50% - .5em);
 			}
 		}
 	}

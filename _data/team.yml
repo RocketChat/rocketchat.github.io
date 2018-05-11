@@ -49,6 +49,7 @@
   github_uid: 122633
   department: Sales
   username: sing.li
+  photo: yes
 
 - name: Rafael Kellermann Streit
   role: Lead Mobile Engineer
@@ -72,6 +73,7 @@
   github_uid: 51996
   department: Cloud
   username: aaron.ogle
+  photo: yes
   country: USA
 
 - name: Bradley Hilton
@@ -95,6 +97,7 @@
   department: Sales
   username: diego.dorgam
   country: Brazil
+  photo: yes
 
 - name: Guilherme Gazzo
   role: Full Stack Engineer
@@ -131,6 +134,7 @@
   github_uid: 11776825
   department: Development
   username: filipe.brito
+  photo: yes
 
 - name: Lucio Maciel
   role: Android Engineer
@@ -186,6 +190,7 @@
   github_uid: 6999314
   department: Support
   username: tom.tostanoski
+  photo: yes
 
 - name: Jonas Friedmann
   role: Support
@@ -193,6 +198,7 @@
   github_uid: 944459
   department: Support
   username: jonas.friedmann
+  photo: yes
 
 - name: Mrinal Dhar
   role: Software Engineer
