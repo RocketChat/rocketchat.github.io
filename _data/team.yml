@@ -179,13 +179,6 @@
   department: Support
   username: jonas.friedmann
 
-- name: Mrinal Dhar
-  title: Software Engineer
-  github_username: mrinaldhar
-  github_uid: 5917608
-  department: Development
-  username: mrinal.dhar
-
 - name: Manish Kakoti
   title: Federation Engineer
   github_username: madguy02
