@@ -4,6 +4,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 9999;
   background: rgba($space, .9);
   display: none;
 }
@@ -17,6 +18,23 @@
   margin: auto;
   animation: scaleIn .5s ease;
   max-width: 90vw;
+  position: relative;
+
+  @media screen and (min-width: $tablet) {
+    width: 40vw;
+  }
+
+  .col--haft {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.modal__success {
+  position: absolute;
+  right: -1em;
+  bottom: 0em;
+  border-bottom-right-radius: 2px;
 }
 
 @keyframes appearsModal {
