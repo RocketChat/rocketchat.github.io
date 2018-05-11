@@ -1,15 +1,20 @@
 - publisher: WIRED Magazine
   title: Open Sourcers Race to Build Better Versions of Slack
   url: http://www.wired.com/2016/03/open-source-devs-racing-build-better-versions-slack/
-
-- publisher: Black Duck Software
-  title: Black Duck Announces Open Source “Rookies of the Year”
-  url: https://www2.blackducksoftware.com/news/releases/black-duck-announces-open-source-rookies-of-the-year
+  date: 2016-03-16 10:00:00
+  cover: wired.jpg
 
 - publisher: The Register
   title: "Slack smackback: There is no IRC in team (software), say open-sourcers"
   url: http://www.theregister.co.uk/2016/03/17/no_slack_for_open_sourcers/
+  date: 2016-03-17 10:00:00
+
+- publisher: Black Duck Software
+  title: Black Duck Announces Open Source “Rookies of the Year”
+  url: https://www2.blackducksoftware.com/news/releases/black-duck-announces-open-source-rookies-of-the-year
+  date: 2016-03-14 10:00:00
 
 - publisher: Venture Beat
   title: 5 open-source alternatives to Slack
   url: http://venturebeat.com/2015/11/27/5-open-source-alternatives-to-slack/
+  date: 2015-11-27 10:00:00

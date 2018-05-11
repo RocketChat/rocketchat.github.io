@@ -95,6 +95,16 @@
   }
 }
 
+.card-blog-simple {
+  min-height: auto;
+  margin-bottom: 0;
+
+  .card--blog__wrap {
+    margin: .5em;
+    position: static;
+  }
+}
+
 .card--blog__separator {
   border-bottom: 1px solid $space-grey;
   padding-bottom: 1.5em;

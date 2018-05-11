@@ -433,6 +433,11 @@ body.category {
 
 	.blog__section {
 		margin-top: 0;
+
+		small {
+			top: 0.2em;
+    	position: relative;
+		}
 	}
 }
 

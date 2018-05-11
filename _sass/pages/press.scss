@@ -1,0 +1,65 @@
+.press-download {
+  .logo-dark {
+    background: #fff;
+  }
+  
+  img {
+    padding: 0.5em;
+    height: 3.2em;
+    border: 1.5px dashed $grey-dark;
+    border-radius: 2px;
+  }
+}
+
+.press-founder {
+  margin-bottom: 5em;
+  background-repeat: no-repeat;
+  background-image: url("/images/press/ceo.jpg");
+  background-position: center bottom;
+  background-size: auto 20em;
+  padding-bottom: 20em;
+
+  @media (min-width: $tablet) {
+    @include flexbox();
+    padding-bottom: 1.5em;
+    background-size: auto 100%;
+    background-position: right -40% bottom;
+    margin-bottom: 7em;
+
+    .wrap {
+      padding: 2em;
+      max-width: 30%;
+    }
+  }
+
+  @media (min-width: 62em) {
+    background-position: right bottom;
+
+    .wrap {
+      padding: 3em 4em;
+      max-width: 50%;
+    }
+  }
+}
+
+.press-email {
+  display: inline-flex;
+  border-radius: 2px;
+  overflow: hidden;
+  @media (min-width: $tablet) {
+    margin-top: 4em;
+    margin-left: 6em;
+    float: right;
+  }
+
+  p {
+    margin: 0;
+    padding: 2em;
+  }
+
+  a {
+    font-size: 1.2em;
+    padding: 0 1em;
+    line-height: 2.6;
+  }
+}

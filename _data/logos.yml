@@ -1,9 +1,3 @@
-- name: Logo
-  file: 512x512
-  main: svg
-  svg: true
-  png: true
-
 - name: Wordmark Light
   file: logo
   main: svg
@@ -15,6 +9,12 @@
   main: svg
   svg: true
   png: false
+
+- name: Logo
+  file: 512x512
+  main: svg
+  svg: true
+  png: true
 
 - name: Rocket.Cat
   file: rocketcat
