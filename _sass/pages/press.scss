@@ -46,10 +46,10 @@
   display: inline-flex;
   border-radius: 2px;
   overflow: hidden;
+
   @media (min-width: $tablet) {
     margin-top: 4em;
     margin-left: 6em;
-    float: right;
   }
 
   p {
