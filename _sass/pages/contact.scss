@@ -1,6 +1,5 @@
-.contact-map {
+.contact-map__container {
 	padding-bottom: 4em;
-	position: relative;
 	overflow: hidden;
 
 	@media screen and (min-width: $tablet) {
@@ -9,6 +8,10 @@
 		max-width: 66%;
 		overflow: visible;
 	}
+}
+
+.contact-map {
+	position: relative;
 
 	&:before {
 		content: '';
@@ -42,12 +45,17 @@
 	margin-right: -20vw;
 	max-width: none;
 	width: 140vw;
+	
 
 	@media screen and (min-width: $tablet) {
-		width: 75vw;
+		width: 90vw;
 		max-width: none;
 		margin-left: -3vw;
 		margin-right: 0;
+	}
+
+	@media screen and (min-width: 82em) {
+		width: 75vw;
 	}
 }
 
@@ -56,13 +64,16 @@
 	z-index: 2;
 	position: absolute;
 	left: 0.5em;
-	top: 52%;
+	top: 32%;
 
 	@media screen and (min-width: $tablet) {
-		top: 31vw;
-    left: 14vw;
-		width: auto;
+		top: auto;
+    left: 15vw;
+    bottom: 11vw;
+    width: auto;
 	}
+
+
 
 	&:before {
 		content: '';
@@ -73,7 +84,7 @@
 		background: $brand;
 		position: absolute;
 		bottom: -20%;
-		left: calc(15% + 0.25em);
+		left: calc(30% + 0.25em);
 
 		@media screen and (min-width: $tablet) {
 			left: calc(50% - 0.3em);
@@ -97,7 +108,7 @@
 			border-top: 0.5em solid rgba($grey-dark, 0.55);
 			position: absolute;
 			bottom: -1em;
-			left: 40%;
+			left: 30%;
 
 			@media screen and (min-width: $tablet) {
 				left: calc(50% - .5em);
