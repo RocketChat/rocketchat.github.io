@@ -4,113 +4,131 @@ class: press
 title: Press
 permalink: /press
 redirect_from: /press/
+theme: dark
 ---
 
-<section class="hero">
-  <div class="wrapper">
-    <h1>Rocket.Chat in the Press</h1>
-    <em>What people are saying about Rocket.Chat</em>
+<section class="container hero">
+  <h1 class="display--big theme_type--dark">Rocket.Chat Press</h1>
+  <p class="display--small theme_type--grey">Rocket.Chat is the leading free and open source team communication platform. </p>
+</section>
+
+
+<section class="container">
+  <div class="flex-grid grid--justify-around">
+    <div class="col--haft">
+      <p class="theme_type--dark">Founded in 2015 by Gabriel Engel, Rocket.Chat began life as a Live Chat support tool built on Meteor. It has come a long way since then, received funding from US-based New Enterprise Associates in 2016 worth $5,000,000 USD and won multiple prizes such as a 2016 Bossie Award for Best Open Source Application and first prize in the 2017 edition of All Things Open’s Startup Competition. <br />
+      Today, Rocket.Chat is an open source team collaboration platform that enables banks, NGOs, startups, and governmental organizations to have their own chat tool, customize its look and feel, choose their users, and securely manage data.
+      </p>
+      <p class="theme_type--dark">Users can set up Rocket.Chat on cloud or by hosting their own servers on-premises.  Rocket.Chat can be forked on Github and become a new platform altogether, thanks to its code being open source and thus openly available to the community. 
+      Key features include free audio and video conferencing, guest access, screen and file sharing, LiveChat, LDAP Group Sync, two-factor authentication (2FA), E2E encryption, SSO, dozens of OAuth providers and unlimited users, guests, channels, messages, searches and files. 
+      Customization is enabled with the option of adding or removing features and selecting your own integrations, plugins, themes, mobile and desktop apps.
+      </p>
+      <p class="theme_type--dark">Rocket.Chat is a fast-growing platform that is now installed on over 180k servers and counts over 10m users worldwide as well as having an active, passionate community of over 700 developer-contributors who help Rocket.Chat’s core team of developers to constantly improve the product. Rocket.Chat’s long-term vision is to replace email with a real-time federated communications platform and to establish a marketplace that will nurture app-building and offer services to enable businesses to be built using Rocket.Chat. </p>
+    </div>
   </div>
 </section>
 
-<section class="company">
-  <div class="wrapper">
-    <div class="left">
-      <h2>Company</h2>
-      <p>
-        Rocket.Chat is a company built on open source values and a love of efficiency. The
-        company is driven by our amazing community of contributors, with the facilitation
-        of a talented team, who work tirelessly to keep the code to a high standard
-        and make contributors’ lives easier, led by founder Gabriel Engel.
-      </p>
-      <p>
-        Rocket.Chat was named the top project at
-        <a href="https://www2.blackducksoftware.com/news/releases/black-duck-announces-open-source-rookies-of-the-year"
-          target="_blank">
-          Black Duck’s Open Source Rookies of the Year
+<div class="container">
+  <div class="card theme_box--dark-strong press-founder">
+    <div class="wrap">
+      <p class="label theme_type--grey">Our Founder</p>
+      <h2 class="display theme_type--dark">Gabriel Engel</h2>
+      <p class="theme_type--grey">Gabriel founded Rocket.Chat in 2015 and is passionate about collaboration tools, open source and new tech. Prior to Rocket.Chat, Gabriel co-founded Konecty, and worked as Product Manager for Business Innovation and Mobile Applications at Vodafone Global Enterprise.</p>
+      <p class="theme_type--grey">Gabriel is always keen to speak with members of the press about his experiences and success with the company thus far.</p>
+    </div>
+  </div>
+</div>
+
+<section class="press-download js-download container">
+  <h2 class="display theme_type--dark">In the press</h2>
+
+  <div class="space--2"></div>
+
+  <div class="flex-grid grid--wrap">
+    {% for article in site.data.press %}
+      <div class="col--third">
+        <a 
+          class="card--blog card-blog-simple card--blog__image"
+          href="{{ article.url }}"
+          target="_blank"
+          {% if article.cover %}
+            style="background-image: url('/images/press/news/{{ article.cover }}')"
+          {% else %}
+            style="background-image: url('/images/blog/post.jpg')"
+          {% endif %}
+        >
+          <div class="card--blog__wrap">
+            <p class="card--blog__meta label--small theme_type--grey">
+              {{ article.date | date: "%b %-d, %Y" }}
+            </p>
+            <h3 class="text theme_type--dark type--nomargin">{{ article.title }}</h3>
+            <div class="space--1"></div>
+            <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ article.publisher }}</p>
+          </div>
         </a>
-        in 2016. We are based in Brazil, but the vast majority of our team
-        work remotely. Our main competitors are products like Slack and HipChat.
-      </p>
-    </div>
-    <div class="right">
-      <img src="/images/press/logos/512x512.png" alt="Rocket.Chat Logo">
-    </div>
-    <div class="clear"></div>
+      </div>
+    {% endfor %}
   </div>
 </section>
 
-<section class="gabriel">
-  <div class="wrapper">
-    <div class="left">
-      <img src="/images/team/member/gabriel-engel-01.jpg" alt="Gabriel Engel">
-    </div>
-    <div class="right">
-      <h2>Gabriel Engel</h2>
-      <p>
-        He is the founder of Rocket.Chat. Passionate about collaborations tools, open source
-        and new tech. He is also a co-founder of Konecty, and worked as Product Manager
-        for Business Innovation and Mobile Applications at Vodafone Global Enterprise.
-      </p>
-      <p>
-        Gabriel, the founder of Rocket.Chat, is keen to speak with members of the press
-        about his experiences and success with the company so far. Gabriel founded
-        Rocket.Chat in 2015.
-      </p>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
+<div class="container">
+  <div class="space--2"></div>
+  <div class="divider divider--dark"></div>
+  <div class="space--6"></div>
+</div>
 
-<section class="logos">
-  <div class="wrapper">
-    <h2>Logos</h2>
-    <ul>
-      {% for logo in site.data.logos %}
-      <li>
-        <div class="img-wrapper">
-          <img src="/images/press/logos/{{ logo.file }}.{{ logo.main }}" alt="{{ logo.name }}">
+<section class="press-download js-download container">
+  <h2 class="display theme_type--dark">Logos & Assets</h2>
+
+  <div class="space--2"></div>
+
+  <div class="flex-grid">
+    {% for logo in site.data.logos %}
+      <div class="col">
+        <div class="card theme_box--dark">
+
+          <h2 class="label--small theme_type--grey">{{ logo.name }}</h2>
+          <img class="{{ logo.file }}"src="/images/press/logos/{{ logo.file }}.{{ logo.main }}" alt="{{ logo.name }}">
+
+          <div class="card_footer theme_box--dark-strong">
+            <div class="flex-grid--nobreak">
+              <div class="col no-gutter">
+                <div class="select select-download">
+                  <select class="js-select-download" data-target="{{ logo.file }}">
+                    {% if logo.png %}<option value="/images/press/logos/{{ logo.file }}.png" >PNG</option>{% endif %}
+                    {% if logo.svg %}<option value="/images/press/logos/{{ logo.file }}.svg" title="{{ logo.name }} SVG">SVG</option>{% endif %}
+                  </select>
+                </div>
+              </div>
+              <div class="col no-gutter"><a href="" download="" data-download="{{ logo.file }}" class="button button--full">Download</a></div>
+            </div>
+          </div>
         </div>
-        <h3>{{ logo.name }}</h3>
-        <div class="download">
-          {% if logo.png %}
-          <a target="_blank" href="/images/press/logos/{{ logo.file }}.png" target="_blank" title="{{ logo.name }} PNG">PNG</a>
-          {% endif %}
-          {% if logo.svg %}
-          <a target="_blank" href="/images/press/logos/{{ logo.file }}.svg" target="_blank" title="{{ logo.name }} SVG">SVG</a>
-          {% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-    <div class="clear"></div>
-    <p class="more">
-      For more artwork, check out our
-      <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.Artwork" target="_blank">Artwork Repository</a>
-    </p>
+      </div>
+    {% endfor %}
   </div>
+
+  <p class="align--center theme_type--dark">
+    For more artwork, check out our <a class="button--link" target="_blank" href="//github.com/RocketChat/Rocket.Chat.Artwork">Artwork Repository</a>
+  </p>
 </section>
 
-<section class="contact">
-  <div class="wrapper">
-    <div class="left">
-      <h2>In the Press</h2>
-      <ul>
-        {% for article in site.data.press %}
-        <li>
-          <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
-          <span>{{ article.publisher }}</span>
-        </li>
-        {% endfor %}
-      </ul>
+<div class="space--6"></div>
+
+<section class="container">
+  <div class="flex-grid">
+    <div class="col">
+      <h2 class="display theme_type--dark">Press Contact</h2>
+      <p class="display--small theme_type--grey">For comments, interviews, image and video files, or to speak with our media liaison.</p>
     </div>
-    <div class="right">
-      <h2>Press Contact</h2>
-      <p>
-        For comments, interviews, image and video files, or to speak with our media liaison,
-        please contact us at: <a href="mailto: press@rocket.chat">press@rocket.chat</a>
-      </p>
+
+    <div class="col">
+      <div class="press-email theme_box--dark">
+        <p class="label--small theme_type--grey theme_box--dark-strong">Email</p>
+        <a class="theme_type--dark" href="mailto:press@rocket.chat">press@rocket.chat</a>
+      </div>
     </div>
-    <div class="clear"></div>
   </div>
-</section>
+</section> 
+
+<div class="space--4"></div>

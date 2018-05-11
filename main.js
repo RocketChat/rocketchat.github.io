@@ -259,14 +259,14 @@ if (header) {
   headroom.init();
 }
 
-if (document.querySelector("body.download")) {
+if (document.querySelector(".js-download")) {
   var selects = document.querySelectorAll(".js-select-download");
 
   var setDownload = function(element) {
     element = element || {};
     var target = element.dataset && element.dataset.target;
     var value = element.value;
-    var selector = document.querySelector("[data-download=" + target + "]");
+    var selector = document.querySelector("[data-download='" + target + "']");
 
     if (selector) {
       selector.href = value;

@@ -72,6 +72,7 @@ category: home
 
   <div class="space--7"></div>
 
+  {% if EventListSorted.size > 0 %}
   <div class="flex-grid">
     <div class="col--fourth no-gutter">
       <div class="space--3"></div>
@@ -100,8 +101,9 @@ category: home
       {% endfor %}
     </div>
   </div>
-
   <div class="space--7"></div>
+  {% endif %}
+
 
   <div class="flex-grid blog__col-recents">
     <div class="col">
