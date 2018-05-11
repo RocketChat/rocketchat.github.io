@@ -1,9 +1,7 @@
 ---
 title: "Rocket.Chat accelerates collaboration at Southeastern Louisiana University"
 categories:
-  - Customer Success
-  - Community
-  - Features
+  - Case Studies
 date: 2016-06-13 14:04:15
 author: Marcelo Schmidt
 cover: /images/posts/2016/06/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university/cover-accelerates-collab.jpg

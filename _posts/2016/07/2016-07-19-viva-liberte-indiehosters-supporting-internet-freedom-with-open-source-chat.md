@@ -1,9 +1,7 @@
 ---
 title: IndieHosters - supporting internet freedom
 categories:
-  - Customer Success
-  - Partnerships
-  - Community
+  - Case Studies
 date: 2016-07-19 12:31:59
 author: Marcelo Schmidt
 cover: /images/posts/2016/07/viva-liberte-indiehosters-supporting-internet-freedom-with-open-source-chat/indiehosters-4.jpg
