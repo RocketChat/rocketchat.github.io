@@ -281,3 +281,24 @@ if (document.querySelector(".js-download")) {
     });
   }
 }
+
+if (document.querySelector("body.index")) {
+  var changeBackgroundY = function (element, scrollY, value) {
+    element.style.backgroundPositionY = 'calc(50% - ' + scrollY / value + 'px)';
+  }
+
+  window.addEventListener('scroll', function() {
+
+    // body
+    changeBackgroundY(
+      document.querySelector('body.index'), 
+      window.scrollY,
+      -10
+    )
+
+    // planets
+    document.querySelector('.home-backgrounds')
+      .style.backgroundPosition ='left 4% bottom ' + window.scrollY / 270 + '%,'+
+                                 'right -14% bottom ' + (window.scrollY + 4000) / 230   + '%';
+  })
+}

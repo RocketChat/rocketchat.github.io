@@ -1,34 +1,35 @@
+body.index {
+  background-image: url('../images/index/landingpage-stars.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
 .home-backgrounds {
   background-image: 
-    url('../images/index/landingpage-stars.png'),
     url('../images/index/landingpage-whiteplanet.png'),
     url('../images/index/landingpage-orangeplanet.png')
   ;
   background-repeat: 
-    repeat,
     no-repeat,
     no-repeat
   ;
 
   background-position: 
-    center,
     left 4% bottom -1%,
     right -14% bottom 30%
   ;
   background-size: 
-    100% auto,
     5em auto,
     10em auto
   ;
 
   @media screen and (min-width: $tablet) {
     background-position: 
-      center,
       left 4% bottom 1%,
       right -14% bottom 30%
     ;
     background-size: 
-      100% auto,
       10em auto,
       30em auto
     ;
