@@ -13,17 +13,32 @@ theme: dark
 {% assign teamList = site.data.team %}
 
 {% assign BrazilTeam = "" | split: "" %}
+{% assign CanadaTeam = "" | split: "" %}
+{% assign PeruTeam = "" | split: "" %}
 {% assign UnitedkingdomTeam = "" | split: "" %}
 {% assign USATeam = "" | split: "" %}
 {% assign IndiaTeam = "" | split: "" %}
+{% assign GermanyTeam = "" | split: "" %}
 
 {% for member in teamList %}
   {% if member.country == "Brazil" %}
     {% assign BrazilTeam = BrazilTeam | push: member %}
-  {% elsif member.country == "Unitedkingdom" %}
+
+  {% elsif member.country == "Canada" %}
+    {% assign CanadaTeam = CanadaTeam | push: member %}
+
+  {% elsif member.country == "Peru" %}
+    {% assign PeruTeam = PeruTeam | push: member %}
+
+  {% elsif member.country == "United Kingdom" %}
     {% assign UnitedkingdomTeam = UnitedkingdomTeam | push: member %}
+
   {% elsif member.country == "USA" %}
     {% assign USATeam = USATeam | push: member %}
+
+  {% elsif member.country == "Germany" %}
+    {% assign GermanyTeam = GermanyTeam | push: member %}
+
   {% elsif member.country == "India" %}
     {% assign IndiaTeam = IndiaTeam | push: member %}
   {% endif %}
@@ -38,10 +53,10 @@ theme: dark
   <img class="team-map__map" src="/images/team/world-map.svg" alt="World map" />
 
   <div>
-    <div class="team-map__pin brazil">
+    <div class="team-map__pin canada">
       <div class="team-map__profile">
         <div class="flags">
-          {% for member in BrazilTeam %}
+          {% for member in CanadaTeam %}
             {% if forloop.index <= 5 %}
               {% if member.photo %}
                 <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
@@ -56,8 +71,56 @@ theme: dark
           {% endfor %}
         </div>
         <p>
+          <strong>Canada</strong>
+          <span><img src="/images/flags/Canada.png" alt="Canada" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin brazil">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in BrazilTeam %}
+            {% if forloop.index <= 3 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 3 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:3 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
           <strong>Brazil</strong>
           <span><img src="/images/flags/Brazil.png" alt="Brazil" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin peru">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in PeruTeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>Peru</strong>
+          <span><img src="/images/flags/Peru.png" alt="Peru" /></span>
         </p>
       </div>
     </div>
@@ -81,7 +144,31 @@ theme: dark
         </div>
         <p>
           <strong>United kingdom</strong>
-          <span><img src="/images/flags/Unitedkingdom.png" alt="Unitedkingdom" /></span>
+          <span><img src="/images/flags/United-Kingdom.png" alt="Unitedkingdom" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin germany">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in GermanyTeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>Germany</strong>
+          <span><img src="/images/flags/Germany.png" alt="Germany" /></span>
         </p>
       </div>
     </div>
@@ -154,7 +241,7 @@ theme: dark
       <div class="team-item__wrap">
         <h3 class="team-item__name theme_type--dark">
           <strong>{{ member.name }}</strong>
-          <span><img src="/images/flags/{{ member.country }}.png" alt="{{ member.country }}" /></span>
+          <span><img src="/images/flags/{{ member.country | replace: ' ', '-'  }}.png" alt="{{ member.country }}" /></span>
         </h3>
 
         <p class="team-item__role label--small theme_type--grey">{{ member.role }}</p>

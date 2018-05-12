@@ -1,4 +1,4 @@
-- name: Gabriel Engel 
+- name: Gabriel Engel
   role: Founder &amp; CEO
   github_username: engelgabriel
   twitter: engelgabriel
@@ -7,9 +7,6 @@
   username: gabriel.engel
   photo: yes
   country: Brazil
-  description:
-    - Here will say something about the team member and the information will be relevant to those reading it. Then it can say something else like where he/she worked and the experience he or she is bringing to Rocket.Chat.
-    - Then it can say something else like where he/she worked and the experience he or she is bringing to Rocket.Chat and then another line here.
 
 - name: Rodrigo Nascimento
   role: CTO
@@ -50,6 +47,7 @@
   department: Sales
   username: sing.li
   photo: yes
+  country: Canada
 
 - name: Rafael Kellermann Streit
   role: Lead Mobile Engineer
@@ -60,9 +58,9 @@
   country: Brazil
 
 - name: Martin Schoeler
-  role: Full Stack Engineer
+  role: Full Stack Engineer &amp; Writer
   github_username: MartinSchoeler
-  department: Technology
+  department: Technology &amp; Marketing
   username: martin.schoeler
   photo: yes
   country: Brazil
@@ -77,11 +75,12 @@
   country: USA
 
 - name: Bradley Hilton
-  role: Interconnectivity Specialist
+  role: Lead Apps Engineer
   github_username: graywolf336
   department: Technology
   username: bradley.hilton
   photo: yes
+  country: USA
 
 - name: Karl Prieb
   role: Lead Front End Engineer
@@ -89,9 +88,10 @@
   department: Technology
   username: karl.prieb
   photo: yes
+  country: Brazil
 
 - name: Diego Dorgam
-  role: Sales & Bots Engineer
+  role: Senior Sales & Bots Engineer
   github_username: diegodorgam
   github_uid: 12052193
   department: Sales
@@ -100,33 +100,28 @@
   photo: yes
 
 - name: Guilherme Gazzo
-  role: Full Stack Engineer
+  role: Senior Full Stack Engineer
   github_username: ggazzo
-  department:
+  department: Technology
   username: guilherme.gazzo
   photo: yes
+  country: Brazil
 
 - name: Gabriel Delavald
-  role: Front End Engineer
+  role: Senior Front End Engineer
   github_username: gdelavald
   department: Technology
   username: gabriel.delavald
   photo: yes
+  country: Brazil
 
-- name: Ramon Nobre
-  role: Sales Intern
-  github_username: RamonNobre
+- name: Carolina Freitas
+  role: Business Development
+  github_username: carolinacfreitas
   department: Sales
-  username: ramon.nobre
+  username: carolina.freitas
   photo: yes
-
-- name: Sean Packham
-  role: VP of Marketing
-  github_username: SeanPackham
-  github_uid: 3830791
-  department: Marketing
-  username: sean.packham
-  country: Unitedkingdom
+  country: Brazil
 
 - name: Filipe Brito
   role: Android Engineer
@@ -135,6 +130,7 @@
   department: Development
   username: filipe.brito
   photo: yes
+  country: Brazil
 
 - name: Lucio Maciel
   role: Android Engineer
@@ -142,6 +138,7 @@
   github_uid: 224255
   department: Mobile
   username: lucio.maciel
+  country: Brazil
 
 - name: Arthur Della Giustina
   role: Creative Director
@@ -149,20 +146,23 @@
   department: Sales
   username: arthur.giustina
   photo: yes
+  country: Brazil
 
 - name: Júlia Grala
-  role: Business Development
+  role: Senior Business Developer
   github_username: juliagrala
   department: Sales
   username: julia.grala
   photo: yes
+  country: Brazil
 
-- name: Bernardo Trevisan
-  role: Marketing Intern
-  github_username: bernardoetrevisan
-  department: Operations
-  username: bernardo.trevisan
+- name: Claudia Chiroque
+  role: Intern, Business Development
+  github_username: claudia-chiroque
+  department: Sales
+  username: claudia.chiroque
   photo: yes
+  country: Peru
 
 - name: Leonardo Aramaki
   role: Android Engineer
@@ -170,6 +170,7 @@
   github_uid: 625702
   department: Mobile
   username: leonardo.aramaki
+  country: Brazil
 
 - name: Matheus Cardoso
   role: iOS Engineer
@@ -177,12 +178,23 @@
   department: Mobile
   username: matheus.cardoso
   photo: yes
+  country: Brazil
+
+- name: Filipe Alvarenga
+  role: iOS Engineer
+  github_username: filipealva
+  department: Mobile
+  username: filipe.alvarenga
+  photo: yes
+  country: Brazil
 
 - name: Isabella Russell
-  role: Content Editor
+  role: Marketing Lead
   department: Marketing
   username: isabella.russell
+  github_username: isabellarussell
   photo: yes
+  country: United Kingdom
 
 - name: Tom Tostanoski
   role: Support Lead
@@ -191,22 +203,16 @@
   department: Support
   username: tom.tostanoski
   photo: yes
+  country: USA
 
 - name: Jonas Friedmann
-  role: Support
+  role: Support Analyst
   github_username: frdmn
   github_uid: 944459
   department: Support
   username: jonas.friedmann
   photo: yes
-
-- name: Mrinal Dhar
-  role: Software Engineer
-  github_username: mrinaldhar
-  github_uid: 5917608
-  department: Development
-  username: mrinal.dhar
-  country: India
+  country: Germany
 
 - name: Manish Kakoti
   role: Federation Engineer
@@ -214,6 +220,7 @@
   github_uid: 8217234
   department: Development
   username: madguy02
+  country: India
 
 - name: Renato Becker
   title: Senior Developer
@@ -221,3 +228,45 @@
   department: Back-end
   username: renato.becker
   photo: yes
+  country: Brazil
+
+- name: Marcos Defendi
+  title: Software Engineer
+  github_username: MarcosSpessatto
+  department: Back-end
+  username: marcos.defendi
+  photo: yes
+  country: Brazil
+
+- name: Pierre Lehnen
+  title: Software Engineer
+  github_username: Hudell
+  department: Back-end
+  username: pierre.lehnen
+  photo: yes
+  country: Brazil
+
+- name: Leandro Coletti
+  title: VP of Sales
+  github_username: coletti
+  department: Sales
+  username: leandro.coletti
+  photo: yes
+  country: Brazil
+
+- name: Diego Mello
+  title: Mobile Engineer
+  github_username: diegolmello
+  department: Mobile
+  username: diego.mello
+  photo: yes
+  country: Brazil
+
+- name: Theo Renck
+  title: Project Manager
+  github_username: dtheorenck
+  department: Operations
+  username: theo.renck
+  photo: yes
+  country: Brazil
+

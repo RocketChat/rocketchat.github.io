@@ -56,8 +56,8 @@
   }
 
   &.brazil {
-    top: 84%;
-    left: 37%;
+    top: 81%;
+    left: 38%;
     animation: 1s 0.4s appears forwards;
 
     .team-map__profile {
@@ -65,9 +65,38 @@
     }
   }
 
-  &.unitedkingdom {
-    top: 51.3%;
-    left: 49.2%;
+  &.peru {
+    top: 78%;
+    left: 29%;
+    animation: 1s 0.5s appears forwards;
+
+    .team-map__profile {
+      animation: 1s 1.1s appearsBox forwards;
+    }
+  }
+
+   &.germany {
+    top: 53.3%;
+    left: 52.2%;
+    animation: 1s 0.6s appears forwards;
+
+    .team-map__profile {
+      animation: 1s 1.2s appearsBox forwards;
+      transform: translate(calc(-50% + 0.25em), 1.5em);
+
+      &:after {
+        border-top: 0.3em solid transparent;
+        border-bottom: 0.3em solid rgba(56,74,102,0.55);
+        bottom: auto;
+        top: -0.6em;
+        left: calc(50% - 0.3em);
+      }
+    }
+  }
+
+  &.india {
+    top: 68%;
+    left: 70%;
     animation: 1s 0.7s appears forwards;
 
     .team-map__profile {
@@ -78,20 +107,30 @@
   &.usa {
     top: 60%;
     left: 19%;
-    animation: 1s 0.6s appears forwards;
+    animation: 1s 0.8s appears forwards;
 
     .team-map__profile {
-      animation: 1s 1.2s appearsBox forwards;
+      animation: 1s 1.4s appearsBox forwards;
     }
   }
 
-  &.india {
-    top: 68%;
-    left: 70%;
-    animation: 1s 0.5s appears forwards;
+  &.canada {
+    top: 52%;
+    left: 29%;
+    animation: 1s 0.9s appears forwards;
 
     .team-map__profile {
-      animation: 1s 1.1s appearsBox forwards;
+      animation: 1s 1.5s appearsBox forwards;
+    }
+  }
+
+  &.unitedkingdom {
+    top: 51.3%;
+    left: 49.2%;
+    animation: 1s 1s appears forwards;
+
+    .team-map__profile {
+      animation: 1s 1.6s appearsBox forwards;
     }
   }
 }
