@@ -1,11 +1,16 @@
-body.index {
-  background-image: url('../images/index/landingpage-stars.png');
-  background-repeat: repeat;
-  background-position: center;
-  background-size: 100% auto;
+.home-backgrounds {
+  @include transform(translate3d(0,0,0));
+  position: relative;
+  overflow: hidden;
 }
 
-.home-backgrounds {
+.home-landingpage__planets {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
   background-image: 
     url('../images/index/landingpage-whiteplanet.png'),
     url('../images/index/landingpage-orangeplanet.png')
@@ -36,8 +41,24 @@ body.index {
   }
 }
 
+.home-landingpage__stars {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../images/index/landingpage-stars.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 100% auto;
+  @include transform(translate3d(0,0,0));
+}
+
+
 .home-landingpage__mail {
-  margin-left: -1em;
+  margin-left: -5em;
+  will-change: transform;
 
   @media screen and (min-width: $tablet) {
     width: 55vw;
@@ -50,6 +71,7 @@ body.index {
 .home-landingpage__chat {
   right: -1em;
   position: relative;
+  will-change: transform;
 
   @media screen and (min-width: $tablet) {
     right: 0;
