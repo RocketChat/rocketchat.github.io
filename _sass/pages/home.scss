@@ -1,10 +1,15 @@
 .home-backgrounds {
-  @include transform(translate3d(0,0,0));
+  @include transform(translateZ(0));
   position: relative;
   overflow: hidden;
 }
 
+.home-landingpage {
+  @include transform(translateZ(0));
+}
+
 .home-landingpage__planets {
+  @include transform(translateZ(0));
   position: absolute;
   top: 0;
   left: 0;
@@ -42,6 +47,7 @@
 }
 
 .home-landingpage__stars {
+  @include transform(translateZ(0));
   position: absolute;
   z-index: -1;
   top: 0;
@@ -58,7 +64,6 @@
 
 .home-landingpage__mail {
   margin-left: -5em;
-  will-change: transform;
 
   @media screen and (min-width: $tablet) {
     width: 55vw;
@@ -71,7 +76,6 @@
 .home-landingpage__chat {
   right: -1em;
   position: relative;
-  will-change: transform;
 
   @media screen and (min-width: $tablet) {
     right: 0;

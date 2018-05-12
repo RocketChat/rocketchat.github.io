@@ -288,16 +288,11 @@ if (document.querySelector("body.index")) {
 
     // stars
     document.querySelector('.home-landingpage__stars')
-      .style.transform = 'translateY(' + scrollY / -20 + 'px)';
-
-    // // planets
-    // document.querySelector('.home-backgrounds')
-    //   .style.backgroundPosition ='left 4% bottom ' + scrollY / 270 + '%,'+
-    //                              'right -14% bottom ' + (scrollY + 2500) / 240   + '%';
-
+      .style.transform = 'translateY(' + scrollY / 15 + 'px)';
+      
     // mail
     document.querySelector('.home-landingpage__mail')
-      .style.transform = 'translateX(' + scrollY / 30 + 'px)';
+      .style.transform = 'translateX(' + scrollY / 40 + 'px)';
 
     // chat
     document.querySelector('.home-landingpage__chat')
