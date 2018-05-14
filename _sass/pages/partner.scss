@@ -1,29 +1,29 @@
 body.partners {
   background-image: url('/images/partners/hero-planet.png');
-  background-position: center 49vh;
+  background-position: center 8.1%;
   background-repeat: no-repeat;
   background-size: 22vw;
 
-  @media (min-width: $tablet) {
-    background-position: center 47vh;
+  @media (min-width: 38em) {
+    background-position: center 6.9%;
+  }
+
+  .hero {
+    position: relative;
   }
 }
 
 .partners-hero__image {
   position: absolute;
-  top: 12vw;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: -1;
   background-image: url('../images/partners/hero.png');
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 100% auto;
-
-  @media (min-width: $tablet) {
-    top: 10vw;
-  }
 }
 
 .partner-box {

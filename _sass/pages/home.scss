@@ -42,8 +42,8 @@
   @include transform(translate3d(0,0,0));
 }
 
-
 .home-landingpage__mail {
+  margin-top: -5em;
   margin-left: -5em;
 
   @media screen and (min-width: $tablet) {
@@ -71,6 +71,9 @@
 //  Hero section
 //
 .home-hero {
+  position: relative;
+  z-index: 3;
+
   @media screen and (min-width: $tablet) {
     @include flexbox();
     min-height: 70vh;

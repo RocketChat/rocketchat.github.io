@@ -2,6 +2,7 @@
   position: relative;
   height: 65vw;
   max-height: 48em;
+  min-height: 0;
 
   &:after {
     content: "";
@@ -10,7 +11,7 @@
     left: 0;
     top: 0;
     height: 40%;
-    background-image: linear-gradient(0deg, transparent 0%, #030c1a 40%);
+    background-image: linear-gradient(0deg, rgba(#030c1a, 0) 0%, #030c1a 40%);
     opacity: 0.8;
 
     @media screen and (min-width: $tablet) {
@@ -30,11 +31,16 @@
 }
 
 .team-map__map {
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  left: 0;
-  right: 0;
+  display: none;
+
+  @media screen and (min-width: $tablet) {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: block;
+  }
 }
 
 .team-map__pin {

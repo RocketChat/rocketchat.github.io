@@ -286,7 +286,7 @@ if (document.querySelector(".js-download")) {
 
 (function () {
   var Animations = function () {
-    var onlyDesktop = window.outerWidth >= 768
+    var onlyDesktop = window.outerWidth >= 769
     var scrollY = window.scrollY;
     var homeStars = document.querySelector('.home-landingpage__stars');
     var homeMail =  document.querySelector('.home-landingpage__mail');

@@ -1,9 +1,18 @@
 body.press {
   .hero {
+    overflow: hidden;
+
     img {
-      width: 100%;
+      width: 140vw;
+      position: relative;
+      left: -26vw;
       max-width: 50em;
       margin: auto;
+
+      @media (min-width: $tablet) {
+        left: auto;
+        width: 100%;
+      }
     }
   }
 }
