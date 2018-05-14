@@ -1,7 +1,8 @@
 ---
 title: "Why open source is best for government"
 categories:
-  - Open Source
+  - Case Studies
+  - Product
 date: 2016-08-30 15:40:57
 author: Marcelo Schmidt
 cover: /images/posts/2016/08/for-government-open-source-is-best/cover-gov-open-source.jpg

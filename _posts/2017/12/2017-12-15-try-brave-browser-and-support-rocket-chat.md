@@ -1,7 +1,8 @@
 ---
 title: "Try Brave Browser-Support Rocket.Chat"
 categories:
-  - Partnerships
+  - Product
+  - News
 date: 2017-12-15 00:00:00
 author: Sing Li
 cover: /images/posts/2017/12/try-brave-browser-and-support-rocket-chat/brave-rc.png

@@ -1,9 +1,8 @@
 ---
 title: "Blockstack announces $25,000 USD bounty for Rocket.Chat integration"
 categories:
+  - News
   - Events
-  - Partnerships
-  - Community
 date: 2018-01-25 14:23:00
 author: Louise Message
 cover: /images/posts/2018/01/2018-01-25-blockstack-rc-bounty/cover.jpg

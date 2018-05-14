@@ -1,7 +1,7 @@
 ---
 title: "Rocket.Chat Android 2.0 Released"
 categories:
-  - Releases
+  - News
 date: 2018-04-11 08:00:00
 author: Rocket.Chat Team
 cover: /images/posts/2017/11/rocket-chat-ios-1-7-released/cover-ios1.7.jpg

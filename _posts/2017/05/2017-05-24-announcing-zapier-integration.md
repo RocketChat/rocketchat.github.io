@@ -1,8 +1,8 @@
 ---
 title: "Announcing the Rocket.Chat Zapier Integration"
 categories:
-  - Releases
-  - Features
+  - News
+  - Product
 date: 2017-05-24 10:30:05
 author: Bradley Hilton
 cover: /images/posts/2017/05/announcing-zapier-integration/zapier-logo-colored.png

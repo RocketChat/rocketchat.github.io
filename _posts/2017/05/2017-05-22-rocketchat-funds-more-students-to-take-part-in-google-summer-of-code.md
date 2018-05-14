@@ -1,7 +1,8 @@
 ---
 title: "Rocket.Chat sponsors students to take part in Google Summer of Code"
 categories:
-  - GSoC
+  - Events
+  - News
 date: 2017-05-22 17:20:01
 author: Sing Li
 cover: /images/posts/2017/07/gsoc-logo.png

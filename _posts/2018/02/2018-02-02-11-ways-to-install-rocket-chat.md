@@ -1,8 +1,8 @@
 ---
 title: 11 ways to install Rocket.Chat
 categories:
-  - Features
-  - Community
+  - Case Studies
+  - Product
 date: 2018-02-01 09:00:00
 author: Louise Message
 cover: /images/posts/2018/02/2018-02-01-10-ways-to-install-rocket-chat/cover.jpg

@@ -1,7 +1,7 @@
 ---
 title: "Rocket.Chat 0.63 Released"
 categories:
-  - Releases
+  - News
 date: 2018-04-11 08:00:00
 author: Rocket.Chat Team
 cover: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/cover-desktop-release.jpg

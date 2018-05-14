@@ -2,7 +2,7 @@
 title: "Rocket.Chat 0.62.0 Released"
 date: 2018-03-06 10:00:00
 category:
-  - Releases
+  - News
 author: Rodrigo Nascimento
 cover: /images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/cover.jpg
 featured: true

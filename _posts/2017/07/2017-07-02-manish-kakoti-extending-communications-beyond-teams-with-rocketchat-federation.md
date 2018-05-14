@@ -1,7 +1,8 @@
 ---
 title: "Manish Kakoti:  Extending communications beyond teams with Federation"
 categories:
-  - GSoC
+  - Events
+  - News
 date: 2017-07-02 22:21:50
 author: Sing Li
 cover: /images/posts/2017/07/gsoc-logo.png
@@ -12,7 +13,7 @@ _This series of blogs brings you a little closer to our active student contribut
 
 Manish Kakoti wants to be involved in something that makes a large impact. He believes that open source has given us so much that he is keen to return the sentiment to the community. With the Federation of Rocket.Chat Servers project through Google Summer of Code, Manish is ready to boost his skills for a positive impact on his career for years to come. 
 
-Manish, from Assam, India, tells us how much he is enjoying his experience at [SRM University](http://www.srmuniv.ac.in/)  for the programming culture, good project facilities and freedom to pursue his interests. It was during his second year studying a B.Tech in Computer Science and Engineering that Manish discovered coding was the career choice for him - he is now about to graduate! 
+Manish, from Assam, India, tells us how much he is enjoying his experience at [SRM University](http://www.srmuniv.ac.in/)for the programming culture, good project facilities and freedom to pursue his interests. It was during his second year studying a B.Tech in Computer Science and Engineering that Manish discovered coding was the career choice for him - he is now about to graduate! 
 
 Manish has a clear passion for the open source community, the problem solving aspect and learning about how open source works on such a huge scale.  He feels the Federation of Rocket.Chat Servers project is for him because it is unique, very challenging and is an exciting "once in a lifetime opportunity for a student like me".
 

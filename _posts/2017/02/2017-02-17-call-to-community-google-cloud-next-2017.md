@@ -2,7 +2,7 @@
 title: "Meet the Rocket.Chat gang at Google Cloud Next 2017"
 categories:
   - Events
-  - Community
+  - News
 date: 2017-02-17 12:22:57
 author: Sing Li
 cover: /images/posts/2017/02/call-to-community-google-cloud-next-2017/cover-san-fran-cloud.jpg

@@ -1,7 +1,8 @@
 ---
 title: "Naman Gupta :  Lightweight bandwidth-efficient client with PWA"
 categories:
-  - GSoC
+  - Events
+  - News
 date: 2017-07-06 00:01:31
 author: Sing Li
 cover: /images/posts/2017/07/gsoc-logo.png

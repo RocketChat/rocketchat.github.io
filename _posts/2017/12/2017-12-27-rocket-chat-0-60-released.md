@@ -2,7 +2,7 @@
 title: "Rocket.Chat 0.60.0 Released"
 date: 2017-12-27 10:00:00
 categories:
-  - Releases
+  - News
 author: Sing Li
 cover: /images/posts/2017/12/rocket-chat-0-60-released/cover-release-12-17.jpg
 ---

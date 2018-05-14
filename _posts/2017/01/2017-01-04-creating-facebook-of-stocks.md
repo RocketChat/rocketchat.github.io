@@ -1,9 +1,8 @@
 ---
 title: "TechMeetsTrader: a social network for traders"
 categories:
-  - Partnerships
-  - Community
-  - Features
+  - Case Studies
+  - Product
 date: 2017-01-04 16:35:43
 author: Sing Li
 cover: /images/posts/2017/01/creating-facebook-of-stocks/business-1730089_1920.jpg
@@ -36,7 +35,7 @@ Ultimately, TechMeetsTrader aims to streamline the process of going from idea to
 
 ## Rocket.Chat in its heart and soul
 
-The TechMeetsTrader team has been working with Rocket.Chat during 2016 to create this unique investment community platform. As Albert Frimpong, TechMeetTrader's CTO explains:
+The TechMeetsTrader team has been working with Rocket.Chat since 2016 to create this unique investment community platform. As Albert Frimpong, TechMeetTrader's CTO explains:
 
 > "We loved the interactions with the Rocket.Chat team and community. It seemed as if everything we needed was already in motion from the community. For example, at one point channels and direct messages were private to the point where the Giphy integration would only work in public channels.
 

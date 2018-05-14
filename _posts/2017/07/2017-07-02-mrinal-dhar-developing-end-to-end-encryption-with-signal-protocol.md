@@ -1,7 +1,8 @@
 ---
 title: "Mrinal Dhar :  Developing End to End Encryption with Signal Protocol"
 categories:
-  - GSoC
+  - Events
+  - News
 date: 2017-07-02 22:07:50
 author: Sing Li
 cover: /images/posts/2017/07/gsoc-logo.png

@@ -1,9 +1,9 @@
 ---
 title: "Rocket.Chat in Barcelona"
 categories:
-  - Customer Success
-  - Features
-  - Community
+  - Case Studies
+  - Product
+  - News
 date: 2016-12-23 10:51:42
 author: Marcelo Schmidt
 cover: /images/posts/2016/12/rocketchat-in-barcelona/cover-barcelona.jpg

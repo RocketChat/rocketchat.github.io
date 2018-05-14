@@ -1,7 +1,8 @@
 ---
-title: "Bossie Awards 2016: the best open source applications"
+title: "Bossie Awards 2016: Rocket.Chat among the best open source applications"
 categories:
   - Events
+  - News
 date: 2016-09-21 12:08:07
 author: Marcelo Schmidt
 cover: /images/posts/2016/09/bossie-awards-2016-the-best-open-source-applications/cover-bossie-awards.jpg
@@ -12,11 +13,11 @@ Rocket.Chat is pleased to announce that it has been selected as one the best ope
 
 Infoworld's Bossies (Best of Open Source Software) awards have been recognizing the most innovative open source software for businesses and professional users since 2010.
 
-Some are projects that have reinvented and endured - such as LibreOffice - and others are completely new.
+Some are projects that have reinvented themselves and endured - such as LibreOffice - and others are completely new.
 
-> "Think IRC plus Google Docs plus Skype - on steriods"
+> "Think IRC plus Google Docs plus Skype - on steroids"
 
-Rocket.Chat was one of twelve recipients of the presitgious award, which also included iDempiere, Alfresco and Talend Open Studio.
+Rocket.Chat was one of twelve recipients of the prestigious award, which also included iDempiere, Alfresco and Talend Open Studio.
 
 Rocket.Chat was selected thanks to its wide range of features - including screen sharing, voice messaging and video conferencing - deployment options, easy Slack import and its large and active open source community.
 

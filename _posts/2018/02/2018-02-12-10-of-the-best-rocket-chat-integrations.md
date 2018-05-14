@@ -2,7 +2,8 @@
 title: 10 of the best Rocket.Chat integrations
 date: 2018-02-12 10:00:00
 categories:
-  - Releases
+  - Case Studies
+  - Product
 author: Louise Message
 cover: /images/posts/2018/02/2018-02-12-10-best-integrations/cover.jpg
 featured: true
