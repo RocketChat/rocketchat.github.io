@@ -116,3 +116,16 @@ strong {
 .type--nomargin {
   margin-bottom: 0 !important;
 }
+
+.list {
+  padding-left: 1em;
+
+  ul {
+    padding-left: 1.2em;
+  }
+
+  li {
+    list-style: disc;
+    margin-bottom: .5em;
+  }
+}
