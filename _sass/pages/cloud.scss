@@ -47,10 +47,8 @@ body.cloud {
       background: #327dd8;
     }
   }
-  
 
-  // scroll
-  .app-header--light {
+  @mixin headerStyle() {
     background: none;
 
     .app-header_wrap,
@@ -70,5 +68,15 @@ body.cloud {
         background: #fff;
       }
     }
+  }
+  
+  // only IE
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    @include headerStyle();
+  }
+  
+  // scroll
+  .app-header--light {
+    @include headerStyle();
   }
 }

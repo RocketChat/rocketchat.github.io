@@ -62,7 +62,7 @@ body.press {
 }
 
 .press-email {
-  display: inline-flex;
+  @include inlineflexbox();
   border-radius: 2px;
   overflow: hidden;
 

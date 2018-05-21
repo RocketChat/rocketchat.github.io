@@ -15,7 +15,7 @@
   font-size: 0.8em;
   line-height: 1.5;
   text-align: center;
-  display: inline-flex;
+  @include inlineflexbox();
   @include justify-content(space-around);
   vertical-align: top;
   padding: 0.9em 1.14em;

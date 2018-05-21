@@ -178,6 +178,16 @@
     }
   }
 
+  // only IE
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    background: $space;
+
+    .app-header_wrap,
+    .app-header_menu {
+      background: $space;
+    }
+  }
+
   .app-header_menu {
     @media screen and (max-width: $tablet) {
       background: $space;

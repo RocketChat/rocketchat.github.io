@@ -1,5 +1,5 @@
 fieldset {
-  position: relative;
+	position: relative;
 }
 
 //
@@ -7,169 +7,164 @@ fieldset {
 //
 .input,
 .input-child input {
-  font-weight: 500;
-  line-height: 1.4;
-  color: $space;
-  font-size: 1em;
+	font-weight: 500;
+	line-height: 1.4;
+	color: $space;
+	font-size: 1em;
 
-  display: inline-block;
-  padding: 0.6em 1em;
-  width: 100%;
-  margin-bottom: 1em;
+	display: inline-block;
+	padding: 0.6em 1em;
+	width: 100%;
+	margin-bottom: 1em;
 
-  border-radius: 2px;
-  border: 1.5px solid $grey-smoke;
+	border-radius: 2px;
+	border: 1.5px solid $grey-smoke;
 
-  transition: border $tranitions;
-  @include placeholder($grey);
+	transition: border $tranitions;
+	@include placeholder($grey);
 
-  @media screen and (min-width: $tablet) {
-    padding: 0.9em 1.14em 1em;
-    font-size: 0.8em;
-  }
+	@media screen and (min-width: $tablet) {
+		padding: 0.9em 1.14em 1em;
+		font-size: 0.8em;
+	}
 
-  &[disabled],
-  &.disabled {
-    background: $grey-bg;
-    color: $grey-smoke-dark;
-    @include placeholder($grey-smoke-dark);
-  }
+	&[disabled],
+	&.disabled {
+		background: $grey-bg;
+		color: $grey-smoke-dark;
+		@include placeholder($grey-smoke-dark);
+	}
 
-  &:focus {
-    border-color: $grey-light;
-  }
-
-  &.error {
-    border-color: $warning !important;
-  }
+	&:focus {
+		border-color: $grey-light;
+	}
 }
 
 .input-child {
-  margin-bottom: 0 !important;
+	margin-bottom: 0 !important;
 }
 
 // prefix
 [data-prefix] {
-  position: relative;
-  &:before {
-    content: attr(data-prefix);
-    display: inline-block;
-    padding-left: 1em;
-    padding-right: 1em;
-    position: absolute;
-    left: 2px;
-    top: 2px;
-    bottom: 1.4em;
-    line-height: 3.1;
-    font-size: 0.8em;
+	position: relative;
+	&:before {
+		content: attr(data-prefix);
+		display: inline-block;
+		padding-left: 1em;
+		padding-right: 1em;
+		position: absolute;
+		left: 2px;
+		top: 2px;
+		bottom: 1.4em;
+		line-height: 3.1;
+		font-size: 0.8em;
 
-    @media screen and (min-width: $tablet) {
-      bottom: 1.2em;
-    }
-  }
+		@media screen and (min-width: $tablet) {
+			bottom: 1.2em;
+		}
+	}
 
-  .error-message {
-    display: none;
-  }
+	.error-message {
+		display: none;
+	}
 
-  input {
-    padding-left: 7em;
-  }
+	input {
+		padding-left: 7em;
+	}
 }
 
 // icons
 .input--icon-user {
-  background-image: url(../images/contact/user.svg);
-  background-position: 1em center;
-  background-repeat: no-repeat;
-  padding-left: 3em;
+	background-image: url(../images/contact/user.svg);
+	background-position: 1em center;
+	background-repeat: no-repeat;
+	padding-left: 3em;
 }
 
 .input--icon-email {
-  background-image: url(../images/contact/email.svg);
-  background-position: 1em center;
-  background-repeat: no-repeat;
-  padding-left: 3em;
+	background-image: url(../images/contact/email.svg);
+	background-position: 1em center;
+	background-repeat: no-repeat;
+	padding-left: 3em;
 }
 
 // error
 .error-message {
-  color: $warning;
-  text-transform: uppercase;
-  font-size: .6em;
-  position: absolute;
-  right: 0;
-  top: .7em;
-  animation: slide .3s ease; 
+	color: $warning;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	position: absolute;
+	right: 0;
+	top: 0.7em;
+	animation: slide 0.3s ease;
 }
 
 @keyframes slide {
-  0% {
-    transform: translateY(1.3em);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+	0% {
+		transform: translateY(1.3em);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
-
 
 //
 // selects
 //
 .select {
-  font-size: 1em;
-  border-radius: 2px;
-  position: relative;
-  transition: border $tranitions;
+	font-size: 1em;
+	border-radius: 2px;
+	position: relative;
+	transition: border $tranitions;
 
-  &:after {
-    content: "";
-    width: 0.4em;
-    height: 0.4em;
-    display: block;
-    transform: rotate(135deg);
-    position: absolute;
-    top: 0.8em;
-    right: 0.8em;
-  }
+	&:after {
+		content: '';
+		width: 0.4em;
+		height: 0.4em;
+		display: block;
+		transform: rotate(135deg);
+		position: absolute;
+		top: 0.8em;
+		right: 0.8em;
+	}
 
-  select {
-    width: calc(100% - 0.7em);
-    padding: 0.4em 1em;
-  }
+	select {
+		width: calc(100% - 0.7em);
+		padding: 0.4em 1em;
+	}
 
-  &.error {
-    border-color: $warning !important;
-  }
+	&.error {
+		border-color: $warning !important;
+	}
 
-  .error-message {
-    display: none;
-  }
+	.error-message {
+		display: none;
+	}
 
-  @media (min-width: $tablet) {
-    font-size: 0.8em;
+	@media (min-width: $tablet) {
+		font-size: 0.8em;
 
-    select {
-      padding: 0.82em 1em;
-    }
+		select {
+			padding: 0.82em 1em;
+		}
 
-    &:after {
-      width: 0.5em;
-      height: 0.5em;
-      top: 1em;
-      right: 1em;
-    }
-  }
+		&:after {
+			width: 0.5em;
+			height: 0.5em;
+			top: 1em;
+			right: 1em;
+		}
+	}
 }
 
 // space rules
 .label--small {
-  + .select,
-  + .input-child,
-  + .input {
-    margin-top: 0.3em;
-    margin-bottom: 1em;
-  }
+	+ .select,
+	+ .input-child,
+	+ .input {
+		margin-top: 0.3em;
+		margin-bottom: 1em;
+	}
 }

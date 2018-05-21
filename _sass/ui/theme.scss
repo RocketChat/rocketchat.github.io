@@ -104,10 +104,10 @@ body.light {
 // Inputs
 .input--dark,
 .input-child--dark input {
+	@include placeholder($grey-light);
 	color: #fff;
 	border: 1.5px solid $grey-dark;
 	background-color: $space-b;
-	@include placeholder($grey-light);
 
 	input {
 		@include placeholder($grey-light);
@@ -123,6 +123,10 @@ body.light {
 	&:hover,
 	&:focus {
 		border-color: $grey;
+	}
+
+	&.error {
+		border-color: $warning;
 	}
 }
 
