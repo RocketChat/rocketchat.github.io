@@ -25,9 +25,12 @@
   {% endif %}
 
   {% include gtm/head.html %}
-  {% include webrules.html %}
 </head>
 <body class="{{ page.class }} {{ page.theme }} {{ page.layout }}">
+{% include webrules.html %}
+{% comment %}
+{% include livechat.html %}
+{% endcomment %}
 {% include gtm/body.html %}
 {{ content }}
 <script src="/main.js"></script>

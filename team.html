@@ -245,9 +245,18 @@ theme: dark
               <img src="/images/team/email.svg" alt="{{ member.email }}" />
             </a>
           {% endif %}
+          {% if member.username %}
+            <a target="_blank" href="https://open.rocket.chat/direct/{{member.username}}">
+              <img src="/images/team/rocketchat.svg" alt="{{ member.username }}" />
+            </a>
+          {% endif %}
         </div>
       </div>
     </li>
     {% endfor %}
+    {% capture modulo %}{{ teamList.size | modulo:3 }}{% endcapture %}
+    {% if modulo != '0' %}
+       <li class="team-item empty"></li>
+    {% endif %}
   </ul>
 <section>

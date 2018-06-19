@@ -2,7 +2,7 @@
   role: Founder &amp; CEO
   github_username: engelgabriel
   twitter: gabriel_engel
-  email: email@email.com
+  # email: email@email.com
   department:
   username: gabriel.engel
   photo: yes
@@ -49,6 +49,23 @@
   photo: yes
   country: Canada
 
+- name: Bradley Hilton
+  role: Lead Apps Engineer
+  github_username: graywolf336
+  department: Technology
+  username: bradley.hilton
+  photo: yes
+  country: USA
+
+- name: Aaron Ogle
+  role: Lead Cloud Architect
+  github_username: geekgonecrazy
+  github_uid: 51996
+  department: Cloud
+  username: aaron.ogle
+  photo: yes
+  country: USA
+
 - name: Rafael Kellermann Streit
   role: Lead Mobile Engineer
   github_username: rafaelks
@@ -64,23 +81,6 @@
   username: martin.schoeler
   photo: yes
   country: Brazil
-
-- name: Aaron Ogle
-  role: Lead Cloud Architect
-  github_username: geekgonecrazy
-  github_uid: 51996
-  department: Cloud
-  username: aaron.ogle
-  photo: yes
-  country: USA
-
-- name: Bradley Hilton
-  role: Lead Apps Engineer
-  github_username: graywolf336
-  department: Technology
-  username: bradley.hilton
-  photo: yes
-  country: USA
 
 - name: Karl Prieb
   role: Front End Engineer
@@ -115,13 +115,13 @@
   photo: yes
   country: Brazil
 
-- name: Carolina Freitas
-  role: Business Development
-  github_username: carolinacfreitas
-  department: Sales
-  username: carolina.freitas
-  photo: yes
-  country: Brazil
+- name: Manish Kakoti
+  role: Federation Engineer
+  github_username: madguy02
+  github_uid: 8217234
+  department: Development
+  username: madguy02
+  country: India
 
 - name: Filipe Brito
   role: Android Engineer
@@ -139,6 +139,15 @@
   department: Mobile
   username: lucio.maciel
   country: Brazil
+
+- name: Jonas Friedmann
+  role: Support Analyst
+  github_username: frdmn
+  github_uid: 944459
+  department: Support
+  username: jonas.friedmann
+  photo: yes
+  country: Germany
 
 - name: Arthur Della Giustina
   role: Creative Director
@@ -172,20 +181,37 @@
   photo: yes
   country: Brazil
 
-- name: Filipe Alvarenga
-  role: iOS Engineer
-  github_username: filipealva
-  department: Mobile
-  username: filipe.alvarenga
+- name: Theo Renck
+  role: Project Manager
+  github_username: dtheorenck
+  department: Operations
+  username: theo.renck
+  photo: yes
   country: Brazil
 
-- name: Isabella Russell
-  role: Marketing Lead
-  department: Marketing
-  username: isabella.russell
-  github_username: isabellarussell
+- name: Diego Mello
+  role: Mobile Engineer
+  github_username: diegolmello
+  department: Mobile
+  username: diego.mello
   photo: yes
-  country: United Kingdom
+  country: Brazil
+
+- name: Carolina Freitas
+  role: Business Development
+  github_username: carolinacfreitas
+  department: Sales
+  username: carolina.freitas
+  photo: yes
+  country: Brazil
+
+- name: Renato Becker
+  role: Senior Developer
+  github_username: renatobecker
+  department: Back-end
+  username: renato.becker
+  photo: yes
+  country: Brazil
 
 - name: Tom Tostanoski
   role: Support Lead
@@ -196,31 +222,6 @@
   photo: yes
   country: USA
 
-- name: Jonas Friedmann
-  role: Support Analyst
-  github_username: frdmn
-  github_uid: 944459
-  department: Support
-  username: jonas.friedmann
-  photo: yes
-  country: Germany
-
-- name: Manish Kakoti
-  role: Federation Engineer
-  github_username: madguy02
-  github_uid: 8217234
-  department: Development
-  username: madguy02
-  country: India
-
-- name: Renato Becker
-  role: Senior Developer
-  github_username: renatobecker
-  department: Back-end
-  username: renato.becker
-  photo: yes
-  country: Brazil
-
 - name: Marcos Defendi
   role: Software Engineer
   github_username: MarcosSpessatto
@@ -228,6 +229,14 @@
   username: marcos.defendi
   photo: yes
   country: Brazil
+
+- name: Isabella Russell
+  role: Marketing Lead
+  department: Marketing
+  username: isabella.russell
+  github_username: isabellarussell
+  photo: yes
+  country: United Kingdom
 
 - name: Pierre Lehnen
   role: Software Engineer
@@ -245,19 +254,33 @@
   photo: yes
   country: Brazil
 
-- name: Diego Mello
-  role: Mobile Engineer
-  github_username: diegolmello
+- name: Filipe Alvarenga
+  role: iOS Engineer
+  github_username: filipealva
   department: Mobile
-  username: diego.mello
+  username: filipe.alvarenga
+  country: Brazil
+  
+- name: Thiago Sanchez
+  role: Head of Product Design
+  github_username: thiagosanchz
+  department: Design
+  username: thiago.sanchez
   photo: yes
   country: Brazil
 
-- name: Theo Renck
-  role: Project Manager
-  github_username: dtheorenck
-  department: Operations
-  username: theo.renck
-  photo: yes
+- name: Bruno Quadros
+  role: Product Design
+  github_username: brunosquadros
+  department: Design
+  username: bruno.quadros
+  photo: no
   country: Brazil
 
+- name: Tasso Evangelista
+  role: Front End Engineer
+  github_username: tassoevan
+  department: Technology
+  username: tasso.evangelista
+  photo: no
+  country: Brazil

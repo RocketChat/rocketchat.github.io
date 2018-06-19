@@ -89,9 +89,7 @@ TRANSP:OPAQUE
 DTEND;TZID=America/Sao_Paulo:20180607T130000
 UID:7A931805-797C-4142-887D-EEA2DE73C949
 DTSTAMP:20180605T133156Z
-DESCRIPTION:In this webinar\, our Support Lead Tom will take you through
-  on-boarding and show you some tips and tricks to get you started with R
- ocket.Chat
+DESCRIPTION:In this webinar, you will be shown how to use LiveChat for Rocket.Chat and how to integrate it with Facebook and your website
 URL;VALUE=URI:https://open.rocket.chat/channel/webinars
 STATUS:CONFIRMED
 SEQUENCE:0
