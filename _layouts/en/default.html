@@ -1,8 +1,9 @@
 ---
 layout: default
+theme: light
 ---
 
-<div class="app-header {% if page.theme == 'light' %}app-header--light{% else %}app-header--black{% endif %}">
+<div class="app-header {% if page.theme == 'light' %}app-header--light{% elsif page.theme == 'dark' %}app-header--black{% endif %}">
   <header class="app-header_wrap headroom--top">
     <div class="container">
       <h1 class="app-header_logo">
@@ -34,7 +35,7 @@ layout: default
 
 {{ content }}
 
-<footer class="app-footer {% if page.theme == 'light' %}app-footer--light{% else %}app-footer--black{% endif %}">
+<footer class="app-footer {% if page.theme == 'light' %}app-footer--light{% elsif page.theme == 'dark' %}app-footer--black{% endif %}">
   <div class="container">
 
     <div class="app-footer_col">
