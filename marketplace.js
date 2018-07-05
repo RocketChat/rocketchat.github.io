@@ -2,6 +2,9 @@
 
 ;(function () {
   var APP_CARD_TEMPLATE = $('#app-card-template')
+  var APPS_LIST_EL = $('.apps-list')
+  var SEARCH_RESULTS_EL = $('.search-results-list')
+  var SEARCH_FIELD = $('.hero .search')
   var APPS = []
 
   var getAppsData = function () {
@@ -11,7 +14,7 @@
       })
       .then(function (data) {
         APPS = data
-        createList(APPS)
+        createAppList(APPS)
       })
   }
 
@@ -28,13 +31,14 @@
 
     for (var i = 0; i < tags.length; i++) {
       var template = '<li class="tags-list-item"><span class="app-tag">' + tags[i] + '</span></li>'
+
       newCardEl.find('.tags-list').append(template)
     }
 
     return newCardEl
   }
 
-  var createListRow = function (apps) {
+  var createAppListRow = function (apps) {
     var listEl = $('<li class="flex-grid"></li>')
 
     for (var i = 0; i < apps.length; i++) {
@@ -50,14 +54,46 @@
     return listEl
   }
 
-  var createList = function (appsData) {
-    var appsListEl = $('.apps-list')
+  var createSearchResult = function (result) {
+    var searchResultTemplate = $('#search-result-template').text()
+    var searchResultEl = $(searchResultTemplate)
+
+    searchResultEl.find('.name').text(result.name || '')
+    searchResultEl.find('.description').text(result.description || '')
+    searchResultEl.find('.icon-wrapper').find('img').attr('src', result.iconFile || '')
+
+    return searchResultEl
+  }
+
+  var createAppList = function (appsData) {
+    var appsListEl = APPS_LIST_EL
     appsListEl.empty()
 
     for (var i = 0; i < appsData.length; i += 2) {
-      var row = createListRow([appsData[i], appsData[i + 1]])
+      var row = createAppListRow([appsData[i], appsData[i + 1]])
 
       appsListEl.append(row)
+    }
+  }
+
+  var setSearchListPosition = function () {
+    var searchFieldLeft = SEARCH_FIELD.offset().left
+
+    SEARCH_RESULTS_EL[0].style.left = searchFieldLeft + 'px'
+  }
+
+  var createSearchList = function (appsData) {
+    var searchListEl = SEARCH_RESULTS_EL
+    searchListEl.empty()
+
+    setSearchListPosition()
+
+    for (var i = 0; i < appsData.length; i++) {
+      var listEl = $('<li class="search-result-item"></li>')
+      var row = createSearchResult(appsData[i])
+      listEl.append(row)
+
+      searchListEl.append(listEl)
     }
   }
 
@@ -74,14 +110,14 @@
       }
     }
 
-    createList(filtered)
+    createSearchList(filtered)
   }
 
   var filterByTag = function (tag, apps) {
     var filtered = []
 
     if (!tag) {
-      createList(APPS)
+      createAppList(APPS)
       return
     }
 
@@ -95,11 +131,11 @@
       }
     }
 
-    createList(filtered)
+    createAppList(filtered)
   }
 
   var bindEvents = function () {
-    var searchEl = $('.hero .search')
+    var searchEl = SEARCH_FIELD
     var appTagButons = $('.app-tag-button')
 
     searchEl.on('keyup', function (ev) {
@@ -114,13 +150,17 @@
 
       filterByTag(target.data().tagname, APPS)
     })
+
+    $(window).on('resize', function () {
+      setSearchListPosition()
+    })
   }
 
   var onSearch = function (term) {
     if (term) {
       filterBySearch(term, APPS)
     } else {
-      createList(APPS)
+      createSearchList([])
     }
   }
 

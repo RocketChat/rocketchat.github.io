@@ -6,7 +6,10 @@ class: landing
 <section class="hero">
   <h1>Connect your favorite Apps</h1>
   <h2>Short description about the value proposition of apps</h2>
-  <input class="search input" type="text" name="" placeholder="Search apps" />
+  <div class="">
+    <input class="search input" type="text" name="" placeholder="Search apps" />
+    <ul class="search-results-list"></ul>
+  </div>
 </section>
 
 <div class="container apps-list-container">
@@ -58,6 +61,18 @@ class: landing
       <span class="name"></span>
       <span class="description"></span>
       <ul class="tags-list"></ul>
+    </div>
+  </div>
+</script>
+
+<script id="search-result-template" type="html/template">
+  <div class="search-result">
+    <div class="icon-wrapper">
+      <img src="" alt="">
+    </div>
+    <div class="content-wrapper">
+      <span class="name"></span>
+      <span class="description"></span>
     </div>
   </div>
 </script>

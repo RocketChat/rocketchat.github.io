@@ -24,10 +24,41 @@
   }
 
   .search {
-    width: 352px;
+    max-width: 352px;
+    margin-bottom: 8px;
     border-radius: 2px;
     border: 0;
     background: #FFF;
+  }
+
+  .search-results-list {
+    position: absolute;
+    max-width: 352px;
+    margin: 0 auto;
+    background: #FFF;
+    z-index: 2;
+  }
+
+  .search-result-item {
+    border-bottom: 1px solid $grey-smoke;
+  }
+
+  .search-result {
+    display: flex;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    color: $grey;
+  }
+
+  .search-result .icon-wrapper {
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+  }
+
+  .search-result .content-wrapper {
+    max-width: 216px;
+    text-align: left;
   }
 
   .apps-list-container {
@@ -53,13 +84,16 @@
     }
   }
 
-  .app-card .name {
+  .app-card .name, .search-result .name {
     display: block;
+    font-weight: 500;
+    font-size: 20px;
+    color: #030c1a;
+  }
+
+  .app-card .name {
     margin-bottom: 10px;
     line-height: 1;
-    font-size: 20px;
-    font-weight: 500;
-    color: #030c1a;
   }
 
   .app-card .icon-wrapper {
@@ -109,6 +143,6 @@
     border-radius: 2px;
     font-size: 10px;
     text-transform: uppercase;
-    background-color: #e7ebf2;
+    background-color: $grey-smoke;
   }
 }
