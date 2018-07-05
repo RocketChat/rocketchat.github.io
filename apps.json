@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Zeplin",
+    "description": "Connected space for product teams.",
+    "iconFile": "https://zeplin.io/img/favicon/256x256.png",
+    "tags": ["file magement", "productivity"]
+  },
+  {
+    "name": "Dropbox",
+    "description": "Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter.",
+    "iconFile": "https://vignette.wikia.nocookie.net/logopedia/images/b/b1/Dropbox_Icon_2017.svg/revision/latest/scale-to-width-down/566?cb=20171004044201",
+    "tags": ["file management", "productivity"]
+  },
+  {
+    "name": "Skype",
+    "description": "You can make video and audio calls, exchange chat messages and do much more using Skype application.",
+    "iconFile": "https://logodownload.org/wp-content/uploads/2017/05/skype-logo-1.png",
+    "tags": ["communication"]
+  },
+  {
+    "name": "Hangouts",
+    "description": "Hangouts bring conversations to life with photos, emoji, and even group video calls for free.",
+    "iconFile": "https://seeklogo.com/images/G/google-hangouts-logo-2D25FE54F9-seeklogo.com.png",
+    "tags": ["communication"]
+  },
+  {
+    "name": "Asana",
+    "description": "Track your team's work & manage projects.",
+    "iconFile": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-04/341591994389_f9b34fbf501c8b52203d_512.png",
+    "tags": ["productivity"]
+  },
+  {
+    "name": "Marvel",
+    "description": "The collaborative design platform. Wireframe, prototype, design online and create design specs in one place.",
+    "iconFile": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-07-05/56859042692_62dbf19af38da2f766fe_512.png",
+    "tags": ["file management", "productivity"]
+  },
+  {
+    "name": "IFTTT",
+    "description": "Get your apps and devices working together.",
+    "iconFile": "https://s3.amazonaws.com/features.ifttt.com/marketing/landing+pages/500x500.png",
+    "tags": ["social & fun", "productivity"]
+  },
+  {
+    "name": "Github",
+    "description": "GitHub brings together the world's largest community of developers to discover, share, and build better software.",
+    "iconFile": "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png",
+    "tags": ["productivity", "file management", "developer tools"]
+  }
+]

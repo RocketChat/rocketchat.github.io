@@ -39,8 +39,9 @@
   }
 
   .app-card {
+    display: flex;
     max-width: 326px;
-    height: 176px;
+    min-height: 176px;
     margin-bottom: 30px;
     padding: 22px 30px;
     box-sizing: border-box;
@@ -54,12 +55,60 @@
 
   .app-card .name {
     display: block;
-    line-height: 1;
     margin-bottom: 10px;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 500;
+    color: #030c1a;
   }
 
   .app-card .icon-wrapper {
     width: 52px;
     height: 52px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .app-card .description {
+    display: block;
+    margin-bottom: 12px;
+    line-height: 1.25;
+    font-size: 16px;
+  }
+
+  .app-card .content-wrapper {
+    max-width: 216px;
+  }
+
+  .links-list {
+    font-size: 16px;
+    line-height: 1;
+    color: #030c1a;
+  }
+
+  .links-list-item {
+    margin-bottom: 16px;
+  }
+
+  .links-list-item.highlight {
+    color: $brand;
+  }
+
+  .tags-list-item {
+    margin-bottom: 8px;
+    min-height: 20px;
+    box-sizing: border-box;
+    line-height: 1;
+  }
+
+  .app-tag {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 8px;
+    border-radius: 2px;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #e7ebf2;
   }
 }

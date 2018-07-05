@@ -6,91 +6,41 @@ class: landing
 <section class="hero">
   <h1>Connect your favorite Apps</h1>
   <h2>Short description about the value proposition of apps</h2>
-  <input class="search input" type="text" name="firstName" placeholder="Search apps" />
+  <input class="search input" type="text" name="" placeholder="Search apps" />
 </section>
 
 <div class="container apps-list-container">
   <div class="flex-grid">
     <ul class="links-list col col--fourth">
-      <li>All Apps</li>
-      <li>Productivity</li>
-      <li>Developer Tools</li>
+      <li class="links-list-item highlight">All Apps</li>
+      <li class="links-list-item">Productivity</li>
+      <li class="links-list-item">Developer Tools</li>
+      <li class="links-list-item">Product Management</li>
+      <li class="links-list-item">File Management</li>
+      <li class="links-list-item">Marketing</li>
+      <li class="links-list-item">Communication</li>
+      <li class="links-list-item">Social & Fun</li>
+      <li class="links-list-item">Customer Support</li>
+      <li class="links-list-item">Other</li>
     </ul>
     <section class="col">
-      <ul class="apps-list">
-        <li class="flex-grid">
-          <div class="app-card col--haft">
-            <div class="flex-grid">
-              <div class="col">
-                <div class="icon-wrapper">
-                  <img src="" alt="">
-                </div>
-              </div>
-              <div class="col col--three-quarter">
-                <span class="name">Dropbox</span>
-                <span class="description">short description about this app and some instructions.</span>
-                <ul class="tags-list">
-                  <li>tag</li>
-                  <li>other tag</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="app-card col--haft">
-            <div class="flex-grid">
-              <div class="col">
-                <div class="icon-wrapper">
-                  <img src="" alt="">
-                </div>
-              </div>
-              <div class="col col--three-quarter">
-                <span class="name">Dropbox</span>
-                <span class="description">short description about this app and some instructions.</span>
-                <ul class="tags-list">
-                  <li>tag</li>
-                  <li>other tag</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="flex-grid">
-          <div class="app-card col--haft">
-            <div class="flex-grid">
-              <div class="col">
-                <div class="icon-wrapper">
-                  <img src="" alt="">
-                </div>
-              </div>
-              <div class="col col--three-quarter">
-                <span class="name">Dropbox</span>
-                <span class="description">short description about this app and some instructions.</span>
-                <ul class="tags-list">
-                  <li>tag</li>
-                  <li>other tag</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="app-card col--haft">
-            <div class="flex-grid">
-              <div class="col">
-                <div class="icon-wrapper">
-                  <img src="" alt="">
-                </div>
-              </div>
-              <div class="col col--three-quarter">
-                <span class="name">Dropbox</span>
-                <span class="description">short description about this app and some instructions.</span>
-                <ul class="tags-list">
-                  <li>tag</li>
-                  <li>other tag</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
+      <ul class="apps-list"></ul>
     </section>
   </div>
 </div>
+
+<script id="app-card-template" type="html/template">
+  <div class="app-card col--haft">
+    <div class="icon-wrapper">
+      <img src="" alt="">
+    </div>
+    <div class="content-wrapper">
+      <span class="name"></span>
+      <span class="description"></span>
+      <ul class="tags-list"></ul>
+    </div>
+  </div>
+</script>
+
+<script src="/jquery.js"></script>
+<script src="/marketplace.js"></script>
