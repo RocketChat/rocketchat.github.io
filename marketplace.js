@@ -134,6 +134,14 @@
     createAppList(filtered)
   }
 
+  var onSearch = function (term) {
+    if (term) {
+      filterBySearch(term, APPS)
+    } else {
+      createSearchList([])
+    }
+  }
+
   var bindEvents = function () {
     var searchEl = SEARCH_FIELD
     var appTagButons = $('.app-tag-button')
@@ -154,14 +162,6 @@
     $(window).on('resize', function () {
       setSearchListPosition()
     })
-  }
-
-  var onSearch = function (term) {
-    if (term) {
-      filterBySearch(term, APPS)
-    } else {
-      createSearchList([])
-    }
   }
 
   bindEvents()
