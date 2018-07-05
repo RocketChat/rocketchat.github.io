@@ -61,20 +61,6 @@
     }
   }
 
-  var bindEvents = function () {
-    var searchEl = $('.hero .search')
-
-    searchEl.on('keyup', function (ev) {
-      var term = searchEl.val()
-
-      if (term) {
-        filterBySearch(term, APPS)
-      } else {
-        createList(APPS)
-      }
-    })
-  }
-
   var filterBySearch = function (term, apps) {
     var filtered = []
     var regex = new RegExp('^' + term, 'i')
@@ -89,6 +75,53 @@
     }
 
     createList(filtered)
+  }
+
+  var filterByTag = function (tag, apps) {
+    var filtered = []
+
+    if (!tag) {
+      createList(APPS)
+      return
+    }
+
+    for (var i = 0; i < apps.length; i++) {
+      var current = apps[i]
+      var tagsList = current.tags || []
+      var isMatch = tagsList.indexOf(tag) !== -1
+
+      if (isMatch) {
+        filtered.push(current)
+      }
+    }
+
+    createList(filtered)
+  }
+
+  var bindEvents = function () {
+    var searchEl = $('.hero .search')
+    var appTagButons = $('.app-tag-button')
+
+    searchEl.on('keyup', function (ev) {
+      onSearch(searchEl.val())
+    })
+
+    appTagButons.on('click', function (ev) {
+      var target = $(ev.target)
+
+      appTagButons.removeClass('highlight')
+      target.addClass('highlight')
+
+      filterByTag(target.data().tagname, APPS)
+    })
+  }
+
+  var onSearch = function (term) {
+    if (term) {
+      filterBySearch(term, APPS)
+    } else {
+      createList(APPS)
+    }
   }
 
   bindEvents()

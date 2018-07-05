@@ -12,16 +12,36 @@ class: landing
 <div class="container apps-list-container">
   <div class="flex-grid">
     <ul class="links-list col col--fourth">
-      <li class="links-list-item highlight">All Apps</li>
-      <li class="links-list-item">Productivity</li>
-      <li class="links-list-item">Developer Tools</li>
-      <li class="links-list-item">Product Management</li>
-      <li class="links-list-item">File Management</li>
-      <li class="links-list-item">Marketing</li>
-      <li class="links-list-item">Communication</li>
-      <li class="links-list-item">Social & Fun</li>
-      <li class="links-list-item">Customer Support</li>
-      <li class="links-list-item">Other</li>
+      <li class="links-list-item">
+        <button data-tagname="" class="app-tag-button highlight">All Apps</button>
+      </li>
+      <li class="links-list-item">
+        <button data-tagname="productivity" class="app-tag-button">Productivity</button>
+      </li>
+      <li class="links-list-item">
+        <button data-tagname="developer-tools" class="app-tag-button">Developer Tools</button>
+      </li>
+      <li class="links-list-item">
+        <button data-tagname="product-management" class="app-tag-button">Product Management</button>
+      </li>
+      <li data-tagname="file-management" class="links-list-item">
+        <button data-tagname="product-management" class="app-tag-button">File Management</button>
+      </li>
+      <li data-tagname="marketing" class="links-list-item">
+        <button data-tagname="product-management" class="app-tag-button">Marketing</button>
+      </li>
+      <li data-tagname="communication" class="links-list-item">
+        <button data-tagname="product-management" class="app-tag-button">Communication</button>
+      </li>
+      <li data-tagname="social-fun" class="links-list-item">
+        <button data-tagname="product-management" class="app-tag-button">Social & Fun</button>
+      </li>
+      <li data-tagname="customer-support" class="links-list-item">
+        <button data-tagname="product-management" class="app-tag-button">Customer Support</button>
+      </li>
+      <li data-tagname="other" class="links-list-item">
+        <button data-tagname="product-management" class="app-tag-button">Other</button>
+      </li>
     </ul>
     <section class="col">
       <ul class="apps-list"></ul>
