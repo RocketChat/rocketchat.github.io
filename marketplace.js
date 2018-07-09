@@ -5,6 +5,8 @@
   var APPS_LIST_EL = $('.apps-list')
   var SEARCH_RESULTS_EL = $('.search-results-list')
   var SEARCH_FIELD = $('.hero .search')
+  var MODAL_WRAPPER_EL = $('.add-app-modal-wrapper')
+  var MODAL_TEMPLATE = $('#add-app-modal-template')
   var APPS = []
 
   var getAppsData = function () {
@@ -18,6 +20,16 @@
       })
   }
 
+  var createTagsList = function (tags) {
+    var list = ''
+
+    for (var i = 0; i < tags.length; i++) {
+      list += '<li class="tags-list-item"><span class="app-tag">' + tags[i] + '</span></li>'
+    }
+
+    return list
+  }
+
   var createAppCard = function (app) {
     var templateToStr = APP_CARD_TEMPLATE.text()
     var newCardEl = $(templateToStr)
@@ -29,11 +41,11 @@
 
     var tags = app.tags || []
 
-    for (var i = 0; i < tags.length; i++) {
-      var template = '<li class="tags-list-item"><span class="app-tag">' + tags[i] + '</span></li>'
+    var tagsList = createTagsList(tags)
 
-      newCardEl.find('.tags-list').append(template)
-    }
+    newCardEl.find('.tags-list').html(tagsList)
+
+    bindAppCardEvents(newCardEl, app)
 
     return newCardEl
   }
@@ -84,6 +96,7 @@
 
   var createSearchList = function (appsData) {
     var searchListEl = SEARCH_RESULTS_EL
+    searchListEl.find('.app-card').off('click')
     searchListEl.empty()
 
     setSearchListPosition()
@@ -134,12 +147,65 @@
     createAppList(filtered)
   }
 
+  var createModalContent = function (app) {
+    var template = MODAL_TEMPLATE.text()
+    var newModalContent = $(template)
+
+    return newModalContent
+  }
+
+  var createModalButtons = function () {
+    var downloadButton = '<button class="button js-become-partner-close">Got it</button>'
+
+    return downloadButton
+  }
+
+  var openModal = function (app) {
+    MODAL_WRAPPER_EL.removeClass('display-none')
+    MODAL_WRAPPER_EL.empty()
+
+    var content = createModalContent(app)
+    var card = createAppCard(app)
+
+    content.find('.app-card-wrapper').html(card)
+
+    var buttons = createModalButtons()
+
+    content.find('.content-wrapper').append(buttons)
+
+    MODAL_WRAPPER_EL.html(content)
+
+    bindModalEvents()
+  }
+
+  var closeModal = function () {
+    MODAL_WRAPPER_EL.addClass('display-none')
+
+    unbindModalEvents()
+  }
+
   var onSearch = function (term) {
     if (term) {
       filterBySearch(term, APPS)
     } else {
       createSearchList([])
     }
+  }
+
+  var bindAppCardEvents = function (appCardEl, app) {
+    appCardEl.on('click', function () {
+      openModal(app)
+    })
+  }
+
+  var bindModalEvents = function () {
+    MODAL_WRAPPER_EL.find('.close-button').on('click', function () {
+      closeModal()
+    })
+  }
+
+  var unbindModalEvents = function () {
+    MODAL_WRAPPER_EL.find('.close-button').off('click')
   }
 
   var bindEvents = function () {
