@@ -20,6 +20,18 @@
       })
   }
 
+  var findAppByName = function (name, apps) {
+    var app = {}
+
+    for (var i = 0; i < apps.length; i++) {
+      if (apps[i].name === name) {
+        app = apps[i]
+      }
+    }
+
+    return app
+  }
+
   var createTagsList = function (tags) {
     var list = ''
 
@@ -73,6 +85,7 @@
     searchResultEl.find('.name').text(result.name || '')
     searchResultEl.find('.description').text(result.description || '')
     searchResultEl.find('.icon-wrapper').find('img').attr('src', result.iconFile || '')
+    searchResultEl.data('name', result.name)
 
     return searchResultEl
   }
@@ -223,6 +236,16 @@
       target.addClass('highlight')
 
       filterByTag(target.data().tagname, APPS)
+    })
+
+    SEARCH_RESULTS_EL.on('click', function (ev) {
+      var name = $(ev.target).parents('.search-result').data().name
+      var app = findAppByName(name, APPS)
+
+      if (app.name) {
+        createSearchList([])
+        openModal(app)
+      }
     })
 
     $(window).on('resize', function () {

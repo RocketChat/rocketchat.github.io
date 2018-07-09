@@ -1,3 +1,25 @@
+.landing .app-header--light {
+  background: transparent;
+
+  .app-header_logo .dark {
+    opacity: 0;
+  }
+
+  .app-header_wrap,
+  .app-header_menu {
+    background: transparent;
+
+    .app-header_install,
+    li {
+      color: #FFF;
+    }
+
+    &:after {
+      background: transparent;
+    }
+  }
+}
+
 .landing-container {
     position: relative;
     margin-top: -4.3em;
@@ -45,6 +67,7 @@
 
   .search-result-item {
     border-bottom: 1px solid $grey-smoke;
+    cursor: pointer;
   }
 
   .search-result {
@@ -177,12 +200,13 @@
     top: 50%;
     left: 50%;
     width: 416px;
-    height: 232px;
+    min-height: 232px;
     margin: -116px 0 0 -208px;
     padding: 24px 32px;
     box-sizing: border-box;
     border-radius: 2px;
     background: #FFF;
+    animation: scaleIn .5s ease;
   }
 
   .modal-content .close-button {
@@ -193,5 +217,9 @@
     height: 13px;
     border: 1px solid $brand;
     cursor: pointer;
+  }
+
+  .modal-content .content-wrapper {
+    max-width: 280px;
   }
 }
