@@ -63,6 +63,7 @@
     margin: 0 auto;
     background: #FFF;
     z-index: 2;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
   }
 
   .search-result-item {
@@ -148,11 +149,14 @@
   .links-list {
     font-size: 16px;
     line-height: 1;
-    color: #030c1a;
   }
 
   .links-list-item {
     margin-bottom: 16px;
+  }
+
+  .links-list button {
+    color: $space;
   }
 
   .app-tag-button.highlight {
@@ -174,6 +178,7 @@
     border-radius: 2px;
     font-size: 10px;
     text-transform: uppercase;
+    letter-spacing: 0.5px;
     background-color: $grey-smoke;
   }
 
