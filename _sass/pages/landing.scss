@@ -222,4 +222,21 @@
   .modal-content .content-wrapper {
     max-width: 280px;
   }
+
+  .modal-content .tags-list {
+    margin-bottom: 24px;
+
+    &:last-child {
+      margin-bottom: 0
+    }
+  }
+
+  .modal-content .button--ghost {
+    color: #FFF;
+  }
+
+  .modal-content .buttons-list-item {
+    display: inline-block;
+    margin-right: 16px;
+  }
 }

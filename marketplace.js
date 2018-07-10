@@ -168,9 +168,14 @@
   }
 
   var createModalButtons = function () {
-    var downloadButton = '<button class="button js-become-partner-close">Got it</button>'
+    var downloadButton = '<button class="button">Download</button>'
+    var copyUrlButton = '<button class="button--ghost">Copy URL</button>'
+    var list = $('<ul class="buttons-list"></ul>')
 
-    return downloadButton
+    list.append('<li class="buttons-list-item">' + downloadButton + '</li>')
+    list.append('<li class="buttons-list-item">' + copyUrlButton + '</li>')
+
+    return list
   }
 
   var openModal = function (app) {
