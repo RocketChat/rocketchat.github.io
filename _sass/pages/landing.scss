@@ -54,7 +54,7 @@
     margin-bottom: 8px;
     border-radius: 2px;
     border: 0;
-    background: #FFF;
+    background-color: #FFF;
   }
 
   .search-results-list {
@@ -216,12 +216,12 @@
 
   .modal-content .close-button {
     position: absolute;
-    right: 32px;
-    top: 32px;
-    width: 13px;
-    height: 13px;
-    border: 1px solid $brand;
+    right: 30px;
+    top: 30px;
+    width: 17px;
+    height: 17px;
     cursor: pointer;
+    background-image: url(../images/marketplace/close.svg);
   }
 
   .modal-content .content-wrapper {

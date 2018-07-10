@@ -88,6 +88,13 @@ fieldset {
   padding-left: 3em;
 }
 
+.input--icon-search {
+  background-image: url(../images/marketplace/search.svg);
+  background-position: 1em center;
+  background-repeat: no-repeat;
+  padding-left: 3em;
+}
+
 // error
 .error-message {
   color: $warning;
