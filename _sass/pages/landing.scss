@@ -31,9 +31,8 @@
   .hero {
     min-height: 532px;
     padding-top: 4.3em;
-    // TODO: update this placeholder test image
-    background-image: url("../images/cloud/hero@2x.jpg");
-    background-position: center -1350px;
+    background-image: url("../images/marketplace/hero@3x.jpg");
+    background-position: center;
     color: #FFFFFF;
   }
 
@@ -113,6 +112,16 @@
 
     &:first-child {
       margin-right: 30px;
+    }
+
+    @media screen and (max-width: $tablet) {
+      margin-left: auto;
+      margin-right: auto;
+
+      &:first-child {
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
   }
 
