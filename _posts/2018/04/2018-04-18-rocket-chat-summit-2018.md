@@ -1,7 +1,6 @@
 ---
 title: "Rocket.Chat Summit 2018"
 categories:
-  - Events
   - News
 date: 2018-04-18 10:00:00
 author: Isabella Russell

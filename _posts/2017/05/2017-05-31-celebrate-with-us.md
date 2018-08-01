@@ -1,8 +1,8 @@
 ---
 title: "Rocket.Chat turns two!"
 categories:
-  - Events
   - News
+  - Events
 date: 2017-05-31 22:03:40
 author: Sing Li
 cover: /images/posts/2017/05/celebrate-with-us/cover-2nd-birthday.jpg

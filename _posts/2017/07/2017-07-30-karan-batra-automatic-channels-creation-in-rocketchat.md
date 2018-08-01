@@ -1,8 +1,8 @@
 ---
 title: "Karan Batra:  Automatic Channels creation in Rocket.Chat"
 categories:
-  - Events
   - News
+  - Events
 date: 2017-07-30 11:27:23
 author: Sing Li
 cover: /images/posts/2017/07/gsoc-logo.png

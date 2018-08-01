@@ -1,8 +1,8 @@
 ---
 title: "Lucas Woo: Instant iPhone Chat Integration with Live Chat SDK"
 categories:
-  - Events
   - News
+  - Events
 date: 2017-07-30 11:18:29
 author: Sing Li
 cover: /images/posts/2017/07/gsoc-logo.png

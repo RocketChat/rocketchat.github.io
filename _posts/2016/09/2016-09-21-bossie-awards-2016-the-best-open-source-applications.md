@@ -1,8 +1,8 @@
 ---
 title: "Bossie Awards 2016: Rocket.Chat among the best open source applications"
 categories:
-  - Events
   - News
+  - Events
 date: 2016-09-21 12:08:07
 author: Marcelo Schmidt
 cover: /images/posts/2016/09/bossie-awards-2016-the-best-open-source-applications/cover-bossie-awards.jpg
