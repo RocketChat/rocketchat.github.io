@@ -18,8 +18,17 @@
         var parsed = parseData(data)
         APPS = parsed
 
-        createCategoriesMenu(parsed)
         createAppList(APPS)
+      })
+  }
+
+  var getCategoriesData = function () {
+    fetch('https://marketplace.rocket.chat/v1/categories')
+      .then(function (res) {
+        return res.json()
+      })
+      .then(function (data) {
+        createCategoriesMenu(data)
       })
   }
 
@@ -55,27 +64,20 @@
     return list
   }
 
-  var createCategoriesMenu = function (apps) {
+  var createCategoriesMenu = function (categories) {
     var list = $('.apps-list-container').find('.links-list')
     var virtualList = ''
-    var categories = []
-
-    for (var i = 0; i < apps.length; i++) {
-      categories = categories.concat(apps[i].categories || [])
-    }
+    categories = categories || []
 
     for (var i = 0; i < categories.length; i++) {
-      var li = '<li data-category="file-management" class="links-list-item">{{button}}</li>'
+      var title = categories[i].title
+      var li = '<li data-category="' + title + '" class="links-list-item">{{button}}</li>'
 
-      var button = '<button data-category="' + categories[i] + '" class="app-category-button">' + categories[i] + '</button>'
+      var button = '<button data-category="' + title + '" class="app-category-button">' + title + '</button>'
 
       li = li.replace(/{{button}}/, button)
 
       virtualList += li
-
-      // li.append(button)
-
-      // list.append(li)
     }
 
     list.append(virtualList)
@@ -221,7 +223,7 @@
     var downloadButton = '<a class="button" target="_blank" href="https://marketplace.rocket.chat/v1/apps/' + app.id + '/download">Download</a>'
     var copyUrlButton = '<button class="button--ghost">Copy URL</button>'
     var list = $('<ul class="buttons-list"></ul>')
-    console.log(app)
+
     list.append('<li class="buttons-list-item">' + downloadButton + '</li>')
     list.append('<li class="buttons-list-item">' + copyUrlButton + '</li>')
 
@@ -313,4 +315,5 @@
 
   bindEvents()
   getAppsData()
+  getCategoriesData()
 })()
