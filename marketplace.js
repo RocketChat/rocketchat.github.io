@@ -10,14 +10,27 @@
   var APPS = []
 
   var getAppsData = function () {
-    fetch('/apps.json')
+    fetch('https://marketplace.rocket.chat/v1/apps')
       .then(function (res) {
         return res.json()
       })
       .then(function (data) {
-        APPS = data
+        var parsed = parseData(data)
+        APPS = parsed
+
+        createCategoriesMenu(parsed)
         createAppList(APPS)
       })
+  }
+
+  var parseData = function (data) {
+    var parsed = []
+
+    for (var i = 0; i < data.length; i++) {
+      parsed.push(data[i].latest)
+    }
+
+    return parsed
   }
 
   var findAppByName = function (name, apps) {
@@ -32,12 +45,42 @@
     return app
   }
 
-  var createTagsList = function (tags) {
+  var createCategoriesList = function (categories) {
     var list = ''
 
-    for (var i = 0; i < tags.length; i++) {
-      list += '<li class="tags-list-item"><span class="app-tag">' + tags[i] + '</span></li>'
+    for (var i = 0; i < categories.length; i++) {
+      list += '<li class="categories-list-item"><span class="app-category">' + categories[i] + '</span></li>'
     }
+
+    return list
+  }
+
+  var createCategoriesMenu = function (apps) {
+    var list = $('.apps-list-container').find('.links-list')
+    var virtualList = ''
+    var categories = []
+
+    for (var i = 0; i < apps.length; i++) {
+      categories = categories.concat(apps[i].categories || [])
+    }
+
+    for (var i = 0; i < categories.length; i++) {
+      var li = '<li data-category="file-management" class="links-list-item">{{button}}</li>'
+
+      var button = '<button data-category="' + categories[i] + '" class="app-category-button">' + categories[i] + '</button>'
+
+      li = li.replace(/{{button}}/, button)
+
+      virtualList += li
+
+      // li.append(button)
+
+      // list.append(li)
+    }
+
+    list.append(virtualList)
+
+    bindCategoriesMenuEvents()
 
     return list
   }
@@ -48,14 +91,15 @@
 
     newCardEl.find('.name').text(app.name || '')
     newCardEl.find('.description').text(app.description || '')
-    // TODO: change to background maybe?
-    newCardEl.find('.icon-wrapper').find('img').attr('src', app.iconFile || '')
 
-    var tags = app.tags || []
+    var icon = newCardEl.find('.icon-wrapper').find('.icon')
+    setBase64BackgroundImage(icon, app.iconFileData)
 
-    var tagsList = createTagsList(tags)
+    var categories = app.categories || []
 
-    newCardEl.find('.tags-list').html(tagsList)
+    var categoriesList = createCategoriesList(categories)
+
+    newCardEl.find('.categories-list').html(categoriesList)
 
     bindAppCardEvents(newCardEl, app)
 
@@ -84,10 +128,16 @@
 
     searchResultEl.find('.name').text(result.name || '')
     searchResultEl.find('.description').text(result.description || '')
-    searchResultEl.find('.icon-wrapper').find('img').attr('src', result.iconFile || '')
+    var icon = searchResultEl.find('.icon-wrapper').find('.icon');
+    setBase64BackgroundImage(icon, result.iconFileData)
+
     searchResultEl.data('name', result.name)
 
     return searchResultEl
+  }
+
+  var setBase64BackgroundImage = function (el, iconFileData) {
+    el[0].style.backgroundImage = 'url(data:image/png;base64,' + iconFileData + ')'
   }
 
   var createAppList = function (appsData) {
@@ -139,18 +189,18 @@
     createSearchList(filtered)
   }
 
-  var filterByTag = function (tag, apps) {
+  var filterByCategory = function (category, apps) {
     var filtered = []
 
-    if (!tag) {
+    if (!category) {
       createAppList(APPS)
       return
     }
 
     for (var i = 0; i < apps.length; i++) {
       var current = apps[i]
-      var tagsList = current.tags || []
-      var isMatch = tagsList.indexOf(tag) !== -1
+      var categoriesList = current.categories || []
+      var isMatch = categoriesList.indexOf(category) !== -1
 
       if (isMatch) {
         filtered.push(current)
@@ -210,6 +260,19 @@
     }
   }
 
+  var bindCategoriesMenuEvents = function () {
+    var appCategoryButons = $('.app-category-button')
+
+    appCategoryButons.on('click', function (ev) {
+      var target = $(ev.target)
+
+      appCategoryButons.removeClass('highlight')
+      target.addClass('highlight')
+
+      filterByCategory(target.data().category, APPS)
+    })
+  }
+
   var bindAppCardEvents = function (appCardEl, app) {
     appCardEl.on('click', function () {
       openModal(app)
@@ -228,19 +291,9 @@
 
   var bindEvents = function () {
     var searchEl = SEARCH_FIELD
-    var appTagButons = $('.app-tag-button')
 
     searchEl.on('keyup', function (ev) {
       onSearch(searchEl.val())
-    })
-
-    appTagButons.on('click', function (ev) {
-      var target = $(ev.target)
-
-      appTagButons.removeClass('highlight')
-      target.addClass('highlight')
-
-      filterByTag(target.data().tagname, APPS)
     })
 
     SEARCH_RESULTS_EL.on('click', function (ev) {

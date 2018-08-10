@@ -17,34 +17,7 @@ theme: light
   <div class="flex-grid">
     <ul class="links-list col col--fourth">
       <li class="links-list-item">
-        <button data-tagname="" class="app-tag-button highlight">All Apps</button>
-      </li>
-      <li class="links-list-item">
-        <button data-tagname="productivity" class="app-tag-button">Productivity</button>
-      </li>
-      <li class="links-list-item">
-        <button data-tagname="developer-tools" class="app-tag-button">Developer Tools</button>
-      </li>
-      <li class="links-list-item">
-        <button data-tagname="product-management" class="app-tag-button">Product Management</button>
-      </li>
-      <li data-tagname="file-management" class="links-list-item">
-        <button data-tagname="product-management" class="app-tag-button">File Management</button>
-      </li>
-      <li data-tagname="marketing" class="links-list-item">
-        <button data-tagname="product-management" class="app-tag-button">Marketing</button>
-      </li>
-      <li data-tagname="communication" class="links-list-item">
-        <button data-tagname="product-management" class="app-tag-button">Communication</button>
-      </li>
-      <li data-tagname="social-fun" class="links-list-item">
-        <button data-tagname="product-management" class="app-tag-button">Social & Fun</button>
-      </li>
-      <li data-tagname="customer-support" class="links-list-item">
-        <button data-tagname="product-management" class="app-tag-button">Customer Support</button>
-      </li>
-      <li data-tagname="other" class="links-list-item">
-        <button data-tagname="product-management" class="app-tag-button">Other</button>
+        <button data-category="" class="app-category-button highlight">All Apps</button>
       </li>
     </ul>
     <section class="col">
@@ -58,12 +31,12 @@ theme: light
 <script id="app-card-template" type="html/template">
   <div class="app-card col--haft">
     <div class="icon-wrapper">
-      <img src="" alt="">
+      <div class="icon"></div>
     </div>
     <div class="content-wrapper">
       <span class="name"></span>
       <span class="description"></span>
-      <ul class="tags-list"></ul>
+      <ul class="categories-list"></ul>
     </div>
   </div>
 </script>
@@ -71,7 +44,7 @@ theme: light
 <script id="search-result-template" type="html/template">
   <div class="search-result">
     <div class="icon-wrapper">
-      <img src="" alt="">
+      <div class="icon"></div>
     </div>
     <div class="content-wrapper">
       <span class="name"></span>

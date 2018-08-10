@@ -83,6 +83,12 @@
     margin-right: 16px;
   }
 
+  .search-result .icon-wrapper .icon {
+    height: 56px;
+    background-size: 100%;
+    background-position: center;
+  }
+
   .search-result .content-wrapper {
     max-width: 216px;
     text-align: left;
@@ -142,10 +148,16 @@
   }
 
   .app-card .icon-wrapper {
-    width: 52px;
-    height: 52px;
+    width: 62px;
+    height: 62px;
     margin-right: 16px;
     box-sizing: border-box;
+  }
+
+  .app-card .icon-wrapper .icon {
+    height: 62px;
+    background-size: 100%;
+    background-position: center;
   }
 
   .app-card .description {
@@ -168,18 +180,18 @@
     color: $space;
   }
 
-  .app-tag-button.highlight {
+  .app-category-button.highlight {
     color: $brand;
   }
 
-  .tags-list-item {
+  .categories-list-item {
     margin-bottom: 8px;
     min-height: 20px;
     box-sizing: border-box;
     line-height: 1;
   }
 
-  .app-tag {
+  .app-category {
     display: inline-block;
     height: 20px;
     line-height: 20px;
@@ -237,7 +249,7 @@
     max-width: 280px;
   }
 
-  .modal-content .tags-list {
+  .modal-content .categories-list {
     margin-bottom: 24px;
 
     &:last-child {
