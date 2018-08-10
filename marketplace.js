@@ -217,11 +217,11 @@
     return newModalContent
   }
 
-  var createModalButtons = function () {
-    var downloadButton = '<button class="button">Download</button>'
+  var createModalButtons = function (app) {
+    var downloadButton = '<a class="button" target="_blank" href="https://marketplace.rocket.chat/v1/apps/' + app.id + '/download">Download</a>'
     var copyUrlButton = '<button class="button--ghost">Copy URL</button>'
     var list = $('<ul class="buttons-list"></ul>')
-
+    console.log(app)
     list.append('<li class="buttons-list-item">' + downloadButton + '</li>')
     list.append('<li class="buttons-list-item">' + copyUrlButton + '</li>')
 
@@ -237,7 +237,7 @@
 
     content.find('.app-card-wrapper').html(card)
 
-    var buttons = createModalButtons()
+    var buttons = createModalButtons(app)
 
     content.find('.content-wrapper').append(buttons)
 
