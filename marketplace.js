@@ -9,6 +9,8 @@
   var MODAL_TEMPLATE = $('#add-app-modal-template')
   var APPS = []
 
+  var clipboard
+
   var getAppsData = function () {
     fetch('https://marketplace.rocket.chat/v1/apps')
       .then(function (res) {
@@ -103,8 +105,6 @@
 
     newCardEl.find('.categories-list').html(categoriesList)
 
-    bindAppCardEvents(newCardEl, app)
-
     return newCardEl
   }
 
@@ -116,6 +116,7 @@
 
       if (current) {
         var card = createAppCard(current)
+        bindAppCardEvents(card, apps[i])
 
         listEl.append(card)
       }
@@ -220,8 +221,9 @@
   }
 
   var createModalButtons = function (app) {
-    var downloadButton = '<a class="button" target="_blank" href="https://marketplace.rocket.chat/v1/apps/' + app.id + '/download">Download</a>'
-    var copyUrlButton = '<button class="button--ghost">Copy URL</button>'
+    var url = 'https://marketplace.rocket.chat/v1/apps/' + app.id + '/download'
+    var downloadButton = '<a class="button" target="_blank" href="' + url + '">Download</a>'
+    var copyUrlButton = '<button class="button--ghost copy-url-button" data-clipboard-action="copy" data-clipboard-text="' + url + '">Copy URL</button>'
     var list = $('<ul class="buttons-list"></ul>')
 
     list.append('<li class="buttons-list-item">' + downloadButton + '</li>')
@@ -245,11 +247,14 @@
 
     MODAL_WRAPPER_EL.html(content)
 
-    bindModalEvents()
+    clipboard = new ClipboardJS(MODAL_WRAPPER_EL.find('.copy-url-button')[0])
+
+    bindModalEvents(app)
   }
 
   var closeModal = function () {
     MODAL_WRAPPER_EL.addClass('display-none')
+    clipboard.destroy()
 
     unbindModalEvents()
   }
