@@ -22,6 +22,9 @@
 
         createAppList(APPS)
       })
+      .catch((err) => {
+        showFetchError()
+      })
   }
 
   var getCategoriesData = function () {
@@ -153,6 +156,15 @@
 
       appsListEl.append(row)
     }
+  }
+
+  var showFetchError = function () {
+    var appsListEl = APPS_LIST_EL
+    appsListEl.empty()
+
+    var errorEl = $('<li class="flex-grid error-message-wrapper"><div class="error-message">sorry, an error occurred and we couldn\'t load the data</div></li>')
+
+    appsListEl.append(errorEl)
   }
 
   var setSearchListPosition = function () {
