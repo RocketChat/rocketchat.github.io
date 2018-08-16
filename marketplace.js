@@ -50,6 +50,7 @@
     for (var i = 0; i < apps.length; i++) {
       if (apps[i].name === name) {
         app = apps[i]
+        return
       }
     }
 
