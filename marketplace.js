@@ -50,7 +50,7 @@
     for (var i = 0; i < apps.length; i++) {
       if (apps[i].name === name) {
         app = apps[i]
-        return
+        return app
       }
     }
 
@@ -307,7 +307,7 @@
     SEARCH_RESULTS_EL.on('click', function (ev) {
       var name = $(ev.target).parents('.search-result').data().name
       var app = findAppByName(name, APPS)
-
+      console.log(app)
       if (app.name) {
         createSearchList([])
         openModal(app)
