@@ -1,4 +1,4 @@
-.cloud-hero__image {
+.pricing-hero__image {
   position: absolute;
   top: -50%;
   left: 0;
@@ -16,7 +16,7 @@
   }
 }
 
-body.cloud {
+body.pricing {
   .headroom--top {
     &.app-header_wrap {
       background: none !important;
@@ -68,6 +68,40 @@ body.cloud {
         background: #fff;
       }
     }
+  }
+
+  .switch-container {
+    display: flex;
+    width: 369px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .col.title {
+    margin-bottom: 102px;
+  }
+
+  .switch{
+    border-radius: 2px;
+    height: 43px;
+    width: 184px;
+    background: #A3B4CC;
+    &.active {
+      background: #030c1a;
+    }
+
+    p {
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+      letter-spacing: 0.25px;
+      line-height: 42px;
+    }
+  }
+
+  .self-managed__container {
+    display: none;
   }
 
   // only IE

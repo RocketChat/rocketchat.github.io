@@ -382,3 +382,16 @@ if (document.querySelector(".js-download")) {
   );
   xhttp.send();
 })();
+
+$('.switch').on('click', function () {
+  $('.switch').removeClass('active');
+  $(this).addClass(' active');
+
+  if ($(this).hasClass('cloud')){
+    $('.cloud__container').css("display","block");
+    $('.self-managed__container').css("display","none");
+  } else if ($(this).hasClass('self-managed')){
+    $('.cloud__container').css("display","none");
+    $('.self-managed__container').css("display","block");
+  }
+})
