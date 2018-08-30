@@ -42,6 +42,7 @@
   padding-left: $gutter;
   margin-top: .3em;
   @include align-self(flex-start);
+  height: 1.5em;
 }
 
 .card--shadow {
