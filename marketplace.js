@@ -159,12 +159,17 @@
   }
 
   var showFetchError = function () {
+    showAppsListMessage('sorry, an error occurred and we couldn\'t load the data', true)
+  }
+
+  var showAppsListMessage = function (message, isError) {
     var appsListEl = APPS_LIST_EL
+    var errorClass = isError ? 'error-message' : ''
     appsListEl.empty()
 
-    var errorEl = $('<li class="flex-grid error-message-wrapper"><div class="error-message">sorry, an error occurred and we couldn\'t load the data</div></li>')
+    var messageEl = $('<li class="flex-grid message-wrapper"><div class="' + errorClass + '">' + message + '</div></li>')
 
-    appsListEl.append(errorEl)
+    appsListEl.append(messageEl)
   }
 
   var setSearchListPosition = function () {
@@ -223,7 +228,11 @@
       }
     }
 
-    createAppList(filtered)
+    if (filtered.length) {
+      createAppList(filtered)
+    } else {
+      showAppsListMessage('no apps in this category yet')
+    }
   }
 
   var createModalContent = function (app) {
