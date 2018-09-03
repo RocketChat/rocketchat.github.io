@@ -12,7 +12,7 @@
   var clipboard
 
   var getAppsData = function () {
-    fetch('https://marketplace.rocket.chat/v1/apps')
+    return fetch('https://marketplace.rocket.chat/v1/apps')
       .then(function (res) {
         return res.json()
       })
@@ -73,10 +73,13 @@
   var createCategoriesMenu = function (categories) {
     var list = $('.apps-list-container').find('.links-list')
     var virtualList = ''
+    var categoriesListWithApps = []
     categories = categories || []
 
-    for (var i = 0; i < categories.length; i++) {
-      var title = categories[i].title
+    categoriesListWithApps = filterCategoriesWithApps(APPS)
+
+    for (var i = 0; i < categoriesListWithApps.length; i++) {
+      var title = categoriesListWithApps[i]
       var li = '<li data-category="' + title + '" class="links-list-item">{{button}}</li>'
 
       var button = '<button data-category="' + title + '" class="app-category-button">' + title + '</button>'
@@ -91,6 +94,25 @@
     bindCategoriesMenuEvents()
 
     return list
+  }
+
+  var filterCategoriesWithApps = function (apps) {
+    var categoriesListWithApps = []
+    var currentApp
+
+    for (var i = 0; i < apps.length; i++) {
+      currentApp = apps[i]
+
+      var currentAppCategories = currentApp.categories
+      for (var k = 0; k < currentAppCategories.length; k++) {
+        if (categoriesListWithApps.indexOf(currentAppCategories[k]) == -1) {
+          categoriesListWithApps.push(currentAppCategories[k])
+        }
+      }
+
+    }
+
+    return categoriesListWithApps
   }
 
   var createAppCard = function (app) {
@@ -341,6 +363,7 @@
   }
 
   bindEvents()
-  getAppsData()
-  getCategoriesData()
+  getAppsData().then(function () {
+    getCategoriesData()
+  })
 })()
