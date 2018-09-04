@@ -72,6 +72,7 @@
 
   var createCategoriesMenuList = function (categories, selected) {
     var virtualList = ''
+    var highlightedIndex = 0
 
     for (var i = 0; i < categories.length; i++) {
       var title = categories[i]
