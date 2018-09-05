@@ -70,40 +70,62 @@
     return list
   }
 
-  var createCategoriesMenu = function (categories) {
-    var list = $('.apps-list-container').find('.links-list')
+  var createCategoriesMenuList = function (categories, selected) {
     var virtualList = ''
-    var categoriesListWithApps = []
-    categories = categories || []
+    var highlightedIndex = 0
 
-    categoriesListWithApps = filterCategoriesWithApps(APPS)
-
-    for (var i = 0; i < categoriesListWithApps.length; i++) {
-      var title = categoriesListWithApps[i]
+    for (var i = 0; i < categories.length; i++) {
+      var title = categories[i]
       var li = '<li data-category="' + title + '" class="links-list-item">{{button}}</li>'
 
-      var button = '<button data-category="' + title + '" class="app-category-button">' + title + '</button>'
+      if (selected == title) {
+        highlightedIndex = i + 1
+      }
+
+      var button = '<button data-category="' + title + '" class="app-category-button ">' + title + '</button>'
 
       li = li.replace(/{{button}}/, button)
 
       virtualList += li
     }
 
-    list.append(virtualList)
+    return {
+      virtualList: virtualList,
+      highlightedIndex: highlightedIndex
+    }
+  }
+
+  var createCategoriesMenu = function () {
+    var list = $('.apps-list-container').find('.links-list')
+    var categories = filterEmptyCategories(APPS)
+    var selectedCategory = getCategoryFromUrl()
+    var menuListObj = {}
+
+    if (categories.indexOf(selectedCategory) == -1) {
+      selectedCategory = ''
+    }
+
+    menuListObj = createCategoriesMenuList(categories, selectedCategory)
+
+    list.append(menuListObj.virtualList)
+
+    list.find('button').eq(menuListObj.highlightedIndex).addClass('highlight')
+
+    if (selectedCategory) {
+      filterByCategory(selectedCategory, APPS)
+    }
 
     bindCategoriesMenuEvents()
 
     return list
   }
 
-  var filterCategoriesWithApps = function (apps) {
+  var filterEmptyCategories = function (apps) {
     var categoriesListWithApps = []
-    var currentApp
 
     for (var i = 0; i < apps.length; i++) {
-      currentApp = apps[i]
+      var currentAppCategories = apps[i].categories
 
-      var currentAppCategories = currentApp.categories
       for (var k = 0; k < currentAppCategories.length; k++) {
         if (categoriesListWithApps.indexOf(currentAppCategories[k]) == -1) {
           categoriesListWithApps.push(currentAppCategories[k])
@@ -237,6 +259,7 @@
 
     if (!category) {
       createAppList(APPS)
+      setCategoryOnUrl('')
       return
     }
 
@@ -252,9 +275,33 @@
 
     if (filtered.length) {
       createAppList(filtered)
+      setCategoryOnUrl(category)
     } else {
       showAppsListMessage('no apps in this category yet')
     }
+  }
+
+  var setCategoryOnUrl = function (category) {
+    var url = window.location.href.replace(/\?category=.*/g, '')
+    var queryParameters = '?category=' + encodeURIComponent(category)
+
+    if (!category) {
+      queryParameters = ''
+    }
+
+    window.history.pushState({}, '', url + queryParameters)
+  }
+
+  var getCategoryFromUrl = function () {
+    var match = window.location.href.match(/\?category=.*/)
+    var category = ''
+
+    if (match) {
+      category = match[0].replace(/\?category=/, '').trim()
+      category = decodeURIComponent(category)
+    }
+
+    return category
   }
 
   var createModalContent = function (app) {
@@ -320,7 +367,9 @@
       appCategoryButons.removeClass('highlight')
       target.addClass('highlight')
 
-      filterByCategory(target.data().category, APPS)
+      var category = target.data().category
+
+      filterByCategory(category, APPS)
     })
   }
 
@@ -350,7 +399,7 @@
     SEARCH_RESULTS_EL.on('click', function (ev) {
       var name = $(ev.target).parents('.search-result').data().name
       var app = findAppByName(name, APPS)
-      console.log(app)
+
       if (app.name) {
         createSearchList([])
         openModal(app)
