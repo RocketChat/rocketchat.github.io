@@ -97,16 +97,25 @@
     }
   }
 
-  var createCategoriesMenu = function (categories) {
-    var list = $('.apps-list-container').find('.links-list')
-    // var categories = filterEmptyCategories(APPS)
-    var selectedCategory = getCategoryFromUrl()
-    var menuListObj = {}
+  var getCategoriesTitles = function (categories) {
+    var titles = []
 
-    if (categories.indexOf(selectedCategory) == -1) {
-      selectedCategory = ''
+    for (var i = 0; i < categories.length; i++) {
+      titles.push(categories[i].title)
     }
 
+    return titles
+  }
+
+  var createCategoriesMenu = function (categories) {
+    var list = $('.apps-list-container').find('.links-list')
+    var selectedCategory = getCategoryFromUrl()
+    var menuListObj = {}
+    var categoriesTitles = getCategoriesTitles(categories)
+
+    if (categoriesTitles.indexOf(selectedCategory) == -1) {
+      selectedCategory = ''
+    }
     menuListObj = createCategoriesMenuList(categories, selectedCategory)
 
     list.append(menuListObj.virtualList)
