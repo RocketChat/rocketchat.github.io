@@ -73,9 +73,10 @@
   var createCategoriesMenuList = function (categories, selected) {
     var virtualList = ''
     var highlightedIndex = 0
+    categories = categories || []
 
     for (var i = 0; i < categories.length; i++) {
-      var title = categories[i]
+      var title = categories[i].title
       var li = '<li data-category="' + title + '" class="links-list-item">{{button}}</li>'
 
       if (selected == title) {
@@ -95,9 +96,9 @@
     }
   }
 
-  var createCategoriesMenu = function () {
+  var createCategoriesMenu = function (categories) {
     var list = $('.apps-list-container').find('.links-list')
-    var categories = filterEmptyCategories(APPS)
+    // var categories = filterEmptyCategories(APPS)
     var selectedCategory = getCategoryFromUrl()
     var menuListObj = {}
 
@@ -118,23 +119,6 @@
     bindCategoriesMenuEvents()
 
     return list
-  }
-
-  var filterEmptyCategories = function (apps) {
-    var categoriesListWithApps = []
-
-    for (var i = 0; i < apps.length; i++) {
-      var currentAppCategories = apps[i].categories
-
-      for (var k = 0; k < currentAppCategories.length; k++) {
-        if (categoriesListWithApps.indexOf(currentAppCategories[k]) == -1) {
-          categoriesListWithApps.push(currentAppCategories[k])
-        }
-      }
-
-    }
-
-    return categoriesListWithApps
   }
 
   var createAppCard = function (app) {
