@@ -7,6 +7,7 @@
   var SEARCH_FIELD = $('.hero .search')
   var MODAL_WRAPPER_EL = $('.add-app-modal-wrapper')
   var MODAL_TEMPLATE = $('#add-app-modal-template')
+  var APPS_MESSAGE_CONTAINER = $('.apps-message-container')
   var APPS = []
 
   var clipboard
@@ -200,6 +201,18 @@
     appsListEl.append(messageEl)
   }
 
+  var showEmptyCategoryMessage = function (category) {
+    APPS_MESSAGE_CONTAINER
+      .find('.message')
+      .text('No results found for "' + category + '"')
+
+    APPS_MESSAGE_CONTAINER.removeClass('display-none')
+  }
+
+  var hideEmptyCategoryMessage = function () {
+    APPS_MESSAGE_CONTAINER.addClass('display-none')
+  }
+
   var setSearchListPosition = function () {
     var searchFieldLeft = SEARCH_FIELD.offset().left
 
@@ -244,6 +257,7 @@
     if (!category) {
       createAppList(APPS)
       setCategoryOnUrl('')
+      hideEmptyCategoryMessage()
       return
     }
 
@@ -257,11 +271,14 @@
       }
     }
 
+    createAppList(filtered)
+
     if (filtered.length) {
       createAppList(filtered)
       setCategoryOnUrl(category)
+      hideEmptyCategoryMessage()
     } else {
-      showAppsListMessage('no apps in this category yet')
+      showEmptyCategoryMessage(category)
     }
   }
 
