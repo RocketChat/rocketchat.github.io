@@ -235,6 +235,37 @@
   @include flex-wrap(wrap);
 }
 
+.team-description {
+  margin-bottom: 5em;
+  background-repeat: no-repeat;
+  background-image: url("/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/rocket-chat-team-summit-2018.jpg");
+  background-position: center bottom;
+  background-size: auto 20em;
+  padding-bottom: 20em;
+
+  @media (min-width: $tablet) {
+    @include flexbox();
+    padding-bottom: 1.5em;
+    background-size: auto 75%;
+    background-position: right -40% bottom;
+    margin-bottom: 7em;
+
+    .wrap {
+      padding: 2em;
+      max-width: 30%;
+    }
+  }
+
+  @media (min-width: 62em) {
+    background-position: right bottom;
+
+    .wrap {
+      padding: 3em 4em;
+      max-width: 50%;
+    }
+  }
+}
+
 .team-item {
   position: relative;
   border-radius: 2px;
