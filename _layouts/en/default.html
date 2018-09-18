@@ -95,22 +95,35 @@ theme: light
         </a>
       </h1>
 
-      <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat/stargazers" rel="noopener noreferrer">
-        {% if page.theme == 'light' %}
-          <span><img src="/images/default/star--dark.svg" alt="GitHub Stars" /></span>
-        {% else %}
-          <span><img src="/images/default/star.svg" alt="GitHub Stars"></span>
-        {% endif %}
-        <span class="star-count">{{site.stars}}K</span>
-      </a>
-      <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat/fork" rel="noopener noreferrer">
-        {% if page.theme == 'light' %}
-          <span><img src="/images/default/fork--dark.svg" alt="GitHub forks" /></span>
-        {% else %}
-          <span><img src="/images/default/fork.svg" alt="GitHub forks"></span>
-        {% endif %}
-        <span class="fork-count">{{site.forks}}K</span>
-      </a>
+      <div class="app-footer_social">
+        <h2>Connect with us</h2>
+        <div class="social_icons {{page.theme}}">
+          <a href="https://www.facebook.com/RocketChatApp/" target="_blank" rel="noopener noreferrer"><img src="/images/social/facebook.svg" alt="facebook" /></a>
+          <a href="https://www.linkedin.com/company/rocket-chat" target="_blank" rel="noopener noreferrer"><img src="/images/social/linkedin.svg" alt="linkedin" /></a>
+          <a href="https://github.com/RocketChat/Rocket.Chat" target="_blank" rel="noopener noreferrer"><img src="/images/social/github.svg" alt="github" /></a>
+          <a href="https://twitter.com/rocketchat" target="_blank" rel="noopener noreferrer"><img src="/images/social/twitter.svg" alt="twitter" /></a>
+          <a href="https://plus.google.com/+RocketChatApp" target="_blank" rel="noopener noreferrer"><img src="/images/social/google-plus.svg" alt="google-plus" /></a>
+        </div>
+      </div>
+      <div class="github-buttons-wrapper">
+        <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat/stargazers" rel="noopener noreferrer">
+          {% if page.theme == 'light' %}
+            <span><img src="/images/default/star--dark.svg" alt="GitHub Stars" /></span>
+          {% else %}
+            <span><img src="/images/default/star.svg" alt="GitHub Stars"></span>
+          {% endif %}
+          <span class="star-count">{{site.stars}}K</span>
+        </a>
+        <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat/fork" rel="noopener noreferrer">
+          {% if page.theme == 'light' %}
+            <span><img src="/images/default/fork--dark.svg" alt="GitHub forks" /></span>
+          {% else %}
+            <span><img src="/images/default/fork.svg" alt="GitHub forks"></span>
+          {% endif %}
+          <span class="fork-count">{{site.forks}}K</span>
+        </a>
+      </div>
+
       <a class="app-footer_github-link" target="_blank" href="//github.com/RocketChat/Rocket.Chat" rel="noopener noreferrer">
         {% if page.theme == 'light' %}
           <span><img src="/images/default/github--dark.svg" alt="GitHub" /></span>

@@ -24,7 +24,7 @@
 
   @media screen and (min-width: $tablet) {
     margin-top: 0;
-    max-width: 13em;
+    max-width: 100%;
     @include order(-1);
   }
 
@@ -46,6 +46,55 @@
   img {
     width: 7.5em;
   }
+}
+
+.app-footer_social {
+  h2 {
+    color: $grey-light;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    line-height: 18px;
+  }
+  .social_icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+    a {
+      display: flex;
+      height: 36px;
+      width: 36px;
+      border-radius: 2px;
+      align-content: center;
+
+      img {
+        height: 19px;
+        margin: auto;
+      }
+
+    }
+
+    &.dark a {
+      background-color: $space-grey;
+
+      img {
+        filter: invert(1);
+      }
+    }
+
+    &.light a {
+      background-color: $grey-smoke;
+    }
+  }
+}
+
+
+.github-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .app-footer_github {
