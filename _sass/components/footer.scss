@@ -24,8 +24,15 @@
 
   @media screen and (min-width: $tablet) {
     margin-top: 0;
-    max-width: 100%;
+    max-width: 13em;
     @include order(-1);
+  }
+
+  @media screen and (max-width: $tablet) {
+    width: 100%;
+    .social_icons, .github-buttons-wrapper {
+      max-width: 230px;
+    }
   }
 
   // only IE
