@@ -96,16 +96,18 @@ theme: light
       </h1>
 
       <div class="app-footer_social">
-        <h2>Connect with us</h2>
+        <h2 class="app-footer_title">Connect with us</h2>
         <div class="social_icons {{page.theme}}">
+          <a href="https://twitter.com/rocketchat" target="_blank" rel="noopener noreferrer"><img src="/images/social/twitter.svg" alt="twitter" /></a>
+          <a href="https://github.com/RocketChat/Rocket.Chat" target="_blank" rel="noopener noreferrer"><img src="/images/social/github.svg" alt="github" /></a>
           <a href="https://www.facebook.com/RocketChatApp/" target="_blank" rel="noopener noreferrer"><img src="/images/social/facebook.svg" alt="facebook" /></a>
           <a href="https://www.linkedin.com/company/rocket-chat" target="_blank" rel="noopener noreferrer"><img src="/images/social/linkedin.svg" alt="linkedin" /></a>
-          <a href="https://github.com/RocketChat/Rocket.Chat" target="_blank" rel="noopener noreferrer"><img src="/images/social/github.svg" alt="github" /></a>
-          <a href="https://twitter.com/rocketchat" target="_blank" rel="noopener noreferrer"><img src="/images/social/twitter.svg" alt="twitter" /></a>
+          <a href="https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ" target="_blank" rel="noopener noreferrer"><img src="/images/social/youtube.svg" alt="youtube" /></a>
           <a href="https://plus.google.com/+RocketChatApp" target="_blank" rel="noopener noreferrer"><img src="/images/social/google-plus.svg" alt="google-plus" /></a>
         </div>
       </div>
       <div class="github-buttons-wrapper">
+        <h2 class="app-footer_title">Star or fork on GitHub</h2>
         <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat/stargazers" rel="noopener noreferrer">
           {% if page.theme == 'light' %}
             <span><img src="/images/default/star--dark.svg" alt="GitHub Stars" /></span>
@@ -123,15 +125,6 @@ theme: light
           <span class="fork-count">{{site.forks}}K</span>
         </a>
       </div>
-
-      <a class="app-footer_github-link" target="_blank" href="//github.com/RocketChat/Rocket.Chat" rel="noopener noreferrer">
-        {% if page.theme == 'light' %}
-          <span><img src="/images/default/github--dark.svg" alt="GitHub" /></span>
-        {% else %}
-          <span><img src="/images/default/github.svg" alt="GitHub"></span>
-        {% endif %}
-        Open on GitHub
-      </a>
 
       <a href="//keycdn.com" target="_blank" rel="noopener noreferrer" class="app-footer_partner">
         {% if page.theme == 'light' %}
