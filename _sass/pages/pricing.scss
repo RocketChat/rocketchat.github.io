@@ -132,5 +132,12 @@ body.pricing {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    &.footer {
+      height: unset;
+      border-top: 0;
+      @media screen and (max-width: $tablet) {
+        display: none;
+      }
+    }
   }
 }

@@ -38,5 +38,22 @@
         </tbody>
     </table>
 </div>
+<div class="pricing_four-column">
+
+    <div class="plan_wrapper footer">
+        {% if include.name == "pricing" %}
+            <a class="button trial" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial">Start trial</a>
+        {% elsif include.name == "selfHosted" %}
+            <a class="button trial" target="_blank" rel="noopener noreferrer" href="https://rocket.chat/install">Install</a>
+        {% endif %}
+
+    </div>
+    <div class="plan_wrapper footer">
+        <a class="button trial" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial">Start trial</a>
+    </div>
+    <div class="plan_wrapper footer">
+        <a class="button trial" target="_blank" rel="noopener noreferrer" href="https://rocket.chat/contact">Contact Us</a>
+    </div>
+</div>
 
 
