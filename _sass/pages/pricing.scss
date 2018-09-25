@@ -72,7 +72,7 @@ body.pricing {
 
   .switch-container {
     display: flex;
-    width: 369px;
+    width: 434px;
     margin: 0 auto;
     justify-content: space-between;
   }
@@ -84,10 +84,10 @@ body.pricing {
   .switch{
     border-radius: 2px;
     height: 43px;
-    width: 184px;
+    width: 216px;
     background: #A3B4CC;
     &.active {
-      background: #030c1a;
+      background: $brand;
     }
 
     p {
@@ -112,5 +112,25 @@ body.pricing {
   // scroll
   .app-header--light {
     @include headerStyle();
+  }
+}
+
+.pricing_four-column {
+  display: flex;
+  align-content: center;
+  justify-content: end;
+
+  .plan_wrapper {
+    height: 420px;
+    width: 25%;
+    border: 1px solid #e7ebf2;
+    color: #6b7d99;
+    padding: 1em;
+    vertical-align: top;
+    min-width: 14em;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }

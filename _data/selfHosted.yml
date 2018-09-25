@@ -1,0 +1,224 @@
+- title: "Highly Available Application Servers"
+  first: ""
+  second: true
+  third: true
+
+- title: "Features"
+  isHeader: true
+
+- title: "Unlimited Users"
+  first: true
+  second: true
+  third: true
+
+- title: "Unlimited Messages"
+  first: true
+  second: true
+  third: true
+
+- title: "Unlimited Search History"
+  first: true
+  second: true
+  third: true
+
+- title: "Unlimited Public Channels"
+  first: true
+  second: true
+  third: true
+
+- title: "Unlimited Private Groups"
+  first: true
+  second: true
+  third: true
+
+- title: "Audio/Video Conferencing"
+  first: "Standard Definition"
+  second: "High Definition"
+  third: "High Definition"
+
+- title: "Integrations"
+  first: "Unlimited"
+  second: "100"
+  third: "1000"
+
+- title: "Multi Language Interface"
+  first: true
+  second: true
+  third: true
+
+- title: "Apps iOS, Android, Win, Mac and Linux"
+  first: true
+  second: true
+  third: true
+
+- title: "Custom Domain"
+  first: true
+  second: true
+  third: true
+
+- title: "White pricing-table_label (Branding)"
+  first: true
+  second: true
+  third: true
+
+- title: "Live Chat"
+  first: true
+  second: true
+  third: true
+
+- title: "Live Streaming"
+  first: true
+  second: true
+  third: true
+
+- title: "Read Receipt"
+  first: true
+  second: true
+  third: true
+
+- title: "Realtime Translation"
+  first: true
+  second: true
+  third: true
+
+- title: "Social Network Login"
+  first: ""
+  second: true
+  third: true
+
+- title: "OmniChannel Integrations"
+  first: ""
+  second: true
+  third: true
+
+- title: "Audio to Text Conversion"
+  first: ""
+  second: ""
+  third: true
+
+- title: "Message Auditing Panel"
+  first: ""
+  second: ""
+  third: true
+
+- title: "Broadcast Channel"
+  first: ""
+  second: ""
+  third: true
+
+- title: "Administration"
+  isHeader: true
+
+- title: "Analytics Reporting"
+  first: ""
+  second: "Hourly"
+  third: "Hourly"
+
+- title: "Customize User Permission"
+  first: ""
+  second: true
+  third: true
+
+- title: "Multi Factor Authentication"
+  first: ""
+  second: true
+  third: true
+
+- title: "Real Time Active Directory Sync LDAP"
+  first: ""
+  second: true
+  third: true
+
+- title: "Encrypted Push Notifications"
+  first: ""
+  second: true
+  third: true
+
+- title: "Engagement Analytics Dashboard"
+  first: ""
+  second: ""
+  third: true
+
+- title: Basics
+  isHeader: true
+
+- title: "Documentation & Tutorials"
+  first: true
+  second: true
+  third: true
+
+- title: "Documentation & Tutorials"
+  first: true
+  second: true
+  third: true
+
+- title: "Rocket.Chat Forums"
+  first: true
+  second: true
+  third: true
+
+- title: "GitHub Issues"
+  first: true
+  second: true
+  third: true
+
+- title: "Support"
+  isHeader: true
+
+- title: "Monitoring and Alerts"
+  first: true
+  second: true
+  third: true
+
+- title: "Updates"
+  first: "Regular Releases"
+  second: "Priority Patches"
+  third: "Priority Patches"
+
+- title: "Issue Acknowledgement Response Time SLA"
+  first: ""
+  second: "Critical: 1 hour<br>Normal: 12 hours<br>Minimal: 2 business days"
+  third: "Critical: 30 minutes<br>Normal: 8 hours<br>Minimal: 1 business day"
+
+- title: "Online Ticket Creation"
+  first: ""
+  second: true
+  third: true
+
+- title: "Email Support"
+  first: ""
+  second: true
+  third: true
+
+- title: "24/7 Chat"
+  first: ""
+  second: true
+  third: true
+
+- title: "24/7 Phone"
+  first: ""
+  second: ""
+  third: true
+
+- title: "Account Onboarding"
+  first: ""
+  second: ""
+  third: true
+
+- title: "Extras"
+  isHeader: true
+
+- title: "Onboarding Assistance"
+  first: ""
+  second: true
+  third: true
+
+- title: "Migration Assistance"
+  first: ""
+  second: ""
+  third: true
+
+- title: "Direct Access to Product Team"
+  first: ""
+  second: ""
+  third: true

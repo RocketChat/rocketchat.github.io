@@ -18,37 +18,89 @@ redirect_from:
 
 
 <section class="hero">
-  <div class="pricing__switch">
-    <h1 class="display--big theme_type--dark">Rocket.Chat Pricing</h1>
-    <p class="display--small theme_type--dark">Pricing and Plans</p>
-    <br>
-    <br>
-    <div class="switch-container">
-      <div class="switch cloud active">
-        <p>Cloud</p>
-        <input type="radio" id="cloud" name="pricing-switch" />
-      </div>
-      <div class="switch self-managed">
-          <p>Support</p>
-          <input type="radio" id="self-managed" name="pricing-switch" />
-      </div>
-    </div>
-  </div>
+  <h1 class="display--big theme_type--dark">Rocket.Chat Pricing</h1>
   <div class="pricing-hero__image"></div>
 </section>
 
-<div class="cloud__container">
-  <section class="container">
-    <div class="flex-grid grid--justify-around align--center">
-      <div class="col title">
-        <h1 class="display theme_type--light">Rocket.Chat Cloud</h1>
-        <p class="label theme_type--grey">The worry-free way to host, manage &amp; scale Rocket.Chat</p>
-        <br />
-        <br />
-        <a href="#pricing" class="button--ghost">See plans</a>
-        <a href="//cloud.rocket.chat/trial" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer" class="button">Start trial</a>
+<div class="flex-grid grid--justify-around align--center">
+  <div class="col--haft">
+    <p class="label theme_type--light">Pricings &amp; plans</p>
+    <h2 class="display">Choose the right plan for your team</h2>
+    <div class="switch-container">
+        <a class="switch cloud active">
+          <p>Cloud</p>
+        </a>
+        <a class="switch self-managed">
+          <p>Support</p>
+        </a>
       </div>
     </div>
+  </div>
+</div>
+<div class="space--8"></div>
+
+<div class="cloud__container">
+
+  <section class="container" id="pricing">
+
+    <div class="pricing_four-column">
+      <div class="plan_wrapper">
+        <div class="plan_content">
+          <h2 class="display">Bronze</h2>
+          <br />
+          <p class="theme_type--light">For teams that are ready to control and centralize their communication on Rocket.Chat.</p>
+          <p class="display">$2
+            <small class="label--small"><span class="label--small theme_type--light">/ Monthly Price USD per User</span></small>
+          </p>
+          <p class="display">$20
+            <small class="label--small"><span class="label--small theme_type--light">/ Annual Price USD per USER</span></small>
+          </p>
+        </div>
+        <footer>
+          <a class="button trial" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial">Start trial</a>
+        </footer>
+      </div>
+
+
+      <div class="plan_wrapper">
+        <div class="plan_content">
+          <h2 class="display">Silver</h2>
+          <br />
+          <p class="theme_type--light">For businesses ready to step up their team communication and access more features.</p>
+          <p class="display">$4
+            <small class="label--small"><span class="label--small theme_type--light">/ Monthly Price USD per User</span></small>
+          </p>
+          <p class="display">$40
+            <small class="label--small"><span class="label--small theme_type--light">/ Annual Price USD per USER</span></small>
+          </p>
+          <br />
+        </div>
+        <footer>
+          <a class="button trial" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/medium">Start trial</a>
+        </footer>
+      </div>
+
+      <div class="plan_wrapper">
+        <div class="plan_content">
+          <h2 class="display">Gold</h2>
+          <br />
+          <p class="theme_type--light">For businesses needing high-level scalability, management and unlimited features.</p>
+          <p class="display--medium">Tiered Pricing and Volume Discount</p>
+          <br />
+        </div>
+        <footer>
+          <a class="button trial" target="_blank" rel="noopener noreferrer" href="https://rocket.chat/contact">Contact Us</a>
+        </footer>
+      </div>
+
+    </div>
+
+    {% include pricing-table.html name="pricing" %}
+  </section>
+
+  <section class="container">
+
+    <div class="space--8"></div>
 
     <div class="flex-grid">
       <div class="col">
@@ -112,79 +164,6 @@ redirect_from:
         </div>
       </div>
     </div>
-  </section>
-
-  <div class="space--8"></div>
-
-  <section class="container" id="pricing">
-    <div class="flex-grid grid--justify-around align--center">
-      <div class="col--haft">
-        <p class="label theme_type--light">Pricings &amp; plans</p>
-        <h2 class="display">Choose the right plan for your team</h2>
-      </div>
-    </div>
-
-    <div class="space--2"></div>
-
-    <div class="col--three-quarter table table--light table--four-column">
-      <table></table>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <h2 class="display">Bronze</h2>
-              <br />
-              <p class="theme_type--light">For teams that are ready to control and centralize their communication on Rocket.Chat.</p>
-              <p class="display">$2
-                <small class="label--small"><span class="label--small theme_type--light">/ Monthly Price USD per User</span></small>
-              </p>
-              <p class="display">$20
-                <small class="label--small"><span class="label--small theme_type--light">/ Annual Price USD per USER</span></small>
-              </p>
-              <br />
-              <a class="button trial" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial">Start trial</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <h2 class="display">Silver</h2>
-              <br />
-              <p class="theme_type--light">For businesses ready to step up their team communication and access more features.</p>
-              <p class="display">$4
-                <small class="label--small"><span class="label--small theme_type--light">/ Monthly Price USD per User</span></small>
-              </p>
-              <p class="display">$40
-                <small class="label--small"><span class="label--small theme_type--light">/ Annual Price USD per USER</span></small>
-              </p>
-              <br />
-              <a class="button trial" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/medium">Start trial</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <h2 class="display">Gold</h2>
-              <br />
-              <p class="theme_type--light">For businesses needing high-level scalability, management and unlimited features.</p>
-              <p class="display--medium">Tiered Pricing and Volume Discount</p>
-              <br />
-              <a class="button trial" target="_blank" rel="noopener noreferrer" href="https://rocket.chat/contact">Contact Us</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    {% include pricing-table.html %}
   </section>
 
   <div class="space--8"></div>
@@ -340,193 +319,206 @@ redirect_from:
 </div>
 
 <div class="self-managed__container">
-
-  <div class="flex-grid grid--justify-around align--center">
-    <div class="col title">
-      <h1 class="display theme_type--light">Rocket.Chat Support</h1>
-      <p class="label theme_type--grey">Support and resources from our experts and our community to keep your team connected</p>
-      <br />
-      <br />
-      <a href="/contact#free-resources" class="button--ghost">Free Resources</a>
-      <a href="#expert-support" class="button">Expert Support</a>
-    </div>
-  </div>
-
-    <div class="flex-grid grid--justify-around align--center">
-      <div class="col--haft">
-        <p class="label">Expert Support</p>
-        <h2 class="display theme_type--light">24/7 Support for your team</h2>
-        <p class="display--small theme_type--grey">Choose a plan to suit your support needs and keep your team connected, delivered by our team of experts</p>
+  <section class="container">
+    <div class="pricing_four-column">
+      <div class="plan_wrapper">
+        <div class="plan_content">
+          <h2 class="display">Community</h2>
+          <br />
+          <p class="theme_type--light">For teams that are ready to control and centralize their communication on Rocket.Chat.</p>
+          <p class="display">Free</p>
+          <br />
+        </div>
+        <footer>
+          <a class="button trial" target="_blank" rel="noopener noreferrer" href="https://rocket.chat/install">Install</a>
+        </footer>
       </div>
-    </div>
 
-    <div class="space--2"></div>
+        <div class="plan_wrapper">
+          <div class="plan_content">
+              <h2 class="display">Pro</h2>
+              <br />
+              <p class="theme_type--light">For businesses ready to step up their team communication and access more features.</p>
+              <p class="display">$3
+                <small class="label--small"><span class="label--small theme_type--light">/ Monthly Price USD per User</span></small>
+              </p>
+              <p class="display">$30
+                <small class="label--small"><span class="label--small theme_type--light">/ Annual Price USD per USER</span></small>
+              </p>
+              <br />
+          </div>
+          <footer>
+            <a class="button trial" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/medium">Start trial</a>
+          </footer>
+        </div>
 
-    <div class="flex-grid grid--justify-around">
-      <div class="col--three-quarter table table--two-column table--light">
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <h2 class="display theme_type--light">Basic</h2>
-                <br />
-                <p class="label theme_type--grey type--nomargin">*from</p>
-                <p class="display theme_type--light">$525
-                  <small class="label--small"><span class="label--small theme_type--grey">/mo</span></small>
-                </p>
-                <p class="theme_type--grey">For smaller teams who need basic support and help in case of emergencies</p>
-                <br />
-                <a class="button" href="/contact/">Contact Us</a>
-              </td>
-            </tr>
-            <tr>
-              <th><span>For Rocket.Chat Cloud customers</span></th>
-            </tr>
-            <tr>
-              <td><p><img src="/images/default/check.svg" />The basic support plan is already included for Rocket.Chat Cloud customers</p></td>
-            </tr>
-            <tr>
-              <th><span>Support First Response SLA</span></th>
-            </tr>
-            <tr>
-              <td>
-                <p>Critical business impact <strong>1 hour</strong></p>
-                <p>Normal business impact <strong>12 hours</strong></p>
-                <p>Min. business impact <strong>2 business days</strong></p>
-              </td>
-            </tr>
-            <tr>
-              <th><span>Contact</span></th>
-            </tr>
-            <tr>
-              <td>
-                <p><strong><img src="/images/default/check.svg" /> Self-help resources</strong></p>
-                <p><strong><img src="/images/default/check.svg" /> Online ticket creation</strong></p>
-                <div class="table--layout">
-                  <p><br /></p>
-                  <p><br /></p>
-                  <p><br /></p>
-                </div>
-              </td>
-            </tr>
-            <tr class="table_hide-mobile">
-              <th><span>Extra</span></th>
-            </tr>
-            <tr class="table_hide-mobile">
-              <td>
-                <div class="table--layout">
-                  <p><br /></p>
-                  <p><br /></p>
-                  <p><br /></p>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
 
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <h2 class="display theme_type--light">Premium</h2>
-                <br />
-                <p class="label theme_type--grey type--nomargin">*from</p>
-                <p class="display theme_type--light">$1,275
-                  <small class="label--small"><span class="label--small theme_type--grey">/mo</span></small>
-                </p>
-                <p class="theme_type--grey">For larger teams who need a quicker response and 24/7 phone support</p>
-                <br />
-                <a class="button" href="/contact/">Contact Us</a>
-              </td>
-            </tr>
-            <tr>
-              <th><span>For Rocket.Chat Cloud customers</span></th>
-            </tr>
-            <tr>
-              <td><p>You can upgrade the support plan included on Rocket.Chat Cloud to Premium for <strong>$750</strong>/mo</p></td>
-            </tr>
-            <tr>
-              <th><span>Support First Response SLA</span></th>
-            </tr>
-            <tr>
-              <td>
-                <p>Critical business impact <strong>30 min</strong></p>
-                <p>Normal business impact <strong>8 hours</strong></p>
-                <p>Min. business impact <strong>1 business day</strong></p>
-              </td>
-            </tr>
-            <tr>
-              <th><span>Contact</span></th>
-            </tr>
-            <tr>
-              <td>
-                <p><strong><img src="/images/default/check.svg" /> Self-help resources</strong></p>
-                <p><strong><img src="/images/default/check.svg" /> Online ticket creation</strong></p>
-                <p><strong><img src="/images/default/check.svg" /> Email support</strong></p>
-                <p><strong><img src="/images/default/check.svg" /> 24/7 chat support</strong></p>
-                <p><strong><img src="/images/default/check.svg" /> 24/7 phone support</strong></p>
-              </td>
-            </tr>
-            <tr>
-              <th><span>Extra</span></th>
-            </tr>
-            <tr>
-              <td>
-                <p><strong><img src="/images/default/check.svg" /> Account onboarding</strong></p>
-                <p><strong><img src="/images/default/check.svg" /> Migration assistance</strong></p>
-                <p><strong><img src="/images/default/check.svg" /> Direct access to product team</strong></p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+          <div class="plan_wrapper">
+            <div class="plan_content">
+              <h2 class="display">Enterprise</h2>
+              <br />
+              <p class="theme_type--light">For businesses needing high-level scalability, management and unlimited features.</p>
+              <p class="display--medium">Tiered Pricing and Volume Discount</p>
+              <br />
+            </div>
+            <footer>
+              <a class="button trial" target="_blank" rel="noopener noreferrer" href="https://rocket.chat/contact">Contact Us</a>
+            </footer>
+          </div>
       </div>
-    </div>
+      {% include pricing-table.html name="selfHosted" %}
   </section>
 
   <div class="space--8"></div>
 
   <section class="container">
-    <div class="flex-grid grid--justify-around">
-      <div class="col--three-quarter">
-        <h2 class="display--small theme_type--light"><strong>Premium Support Explained</strong></h2>
-        <p class="display--small theme_type--grey">All your questions answered</p>
+      <div class="flex-grid grid--justify-around align--center">
+        <div class="col--haft">
+          <p class="label theme_type--light">Still have questions?</p>
+          <h2 class="display">Frequently Asked Questions</h2>
+        </div>
+      </div>
 
-        <br />
+      <div class="space--2"></div>
 
-        <div class="flex-grid">
-          <div class="col">
-            <h3 class="theme_type--light"><strong>*Pricing &amp; Billing</strong></h3>
-            <p class="theme_type--grey">Displayed prices represent the monthly breakdown for an annual contract; advanced annual payment is required.</p>
-
-            <h3 class="theme_type--light"><strong>Cloud Support</strong></h3>
-            <p class="theme_type--grey">The Basic support plan is included for paying Cloud customers. Cloud not included with basic support plan.</p>
-
-            <h3 class="theme_type--light"><strong>Point of contact</strong></h3>
-            <p class="theme_type--grey">Support plans do not include end users. Once a support plan has been purchased it is the business's responsiblity to inform Rocket.Chat who will be their internal point of contact for the support plan. Up to three contacts are permitted per organization. </p>
-
-            <h3 class="theme_type--light"><strong>Critical business impact</strong></h3>
-            <p class="theme_type--grey">An issue affecting Rocket.Chat that prevents a business from operating as normal. Examples include: data loss or corruption; system crashes; loss of critical functionality; large numbers of users unable to work. </p>
-
+      <div class="flex-grid">
+        <div class="col no-gutter mini-gutter">
+          <div class="card theme_box--light">
+            <div class="flex-grid--nobreak">
+              <img class="card_icon--mini" src="/images/default/question.svg" />
+              <div class="col no-gutter">
+                <h3 class="theme_type--space"><strong>How long do trials last?</strong></h3>
+                <p class="type--nomargin">
+                  Every plan has a 30-day free trial. <br> We will notify users in advance of when the trial is coming to an end.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div class="col">
+          <div class="space--1"></div>
 
-            <h3 class="theme_type--light"><strong>Minimal business impact</strong></h3>
-            <p class="theme_type--grey">A question, feature request or documentation issue that does not have an impact on performance.</p>
+          <div class="card theme_box--light">
+            <div class="flex-grid--nobreak">
+              <img class="card_icon--mini" src="/images/default/question.svg" />
+              <div class="col no-gutter">
+                <h3 class="theme_type--space"><strong> How do I pay for Cloud?</strong></h3>
+                <p class="type--nomargin">
+                  Cloud admins can add payment details and manage their account in the <a class="button--link" href="https://cloud.rocket.chat/">Rocket.Chat Cloud Console.</a> <br/> To continue with Cloud once the trial ends, users must add their payment details in
+                  the Console. <br/> Accepted payment methods: Visa/Mastercard/American Express/Discover/Diner's Club credit & debit cards.
+                </p>
+              </div>
+            </div>
+          </div>
 
-            <h3 class="theme_type--light"><strong>Self-help resources</strong></h3>
-            <p class="theme_type--grey">Rocket.Chat provides user information for adminstrators, end users and developers at <a href="/docs" class="button--link">https://rocket.chat/docs.</a></p>
+          <div class="space--1"></div>
 
-            <h3 class="theme_type--light"><strong>Consultations with the product team</strong></h3>
-            <p class="theme_type--grey">Premium plan subscribers are entitled to a 1-hour consultation/month with a core team member. Additional hours can be purchased for a fee. </p>
+          <div class="card theme_box--light">
+            <div class="flex-grid--nobreak">
+              <img class="card_icon--mini" src="/images/default/question.svg" />
+              <div class="col no-gutter">
+                <h3 class="theme_type--space"><strong>What is the billing period?</strong></h3>
+                <p class="type--nomargin">
+                  All plans are billed on a monthly basis. Users on a trial will be billed once their trial is over if they have added their payment details.
+                </p>
+              </div>
+            </div>
+          </div>
 
-            <h3 class="theme_type--light"><strong>Normal business impact</strong></h3>
-            <p class="theme_type--grey">An issue affecting Rocket.Chat that causes a partial or non-critical loss of functionality. Examples include: some system functions are unavailable; minor performance problems; small numbers of users unable to work. </p>
+          <div class="space--1"></div>
+
+          <div class="card theme_box--light">
+            <div class="flex-grid--nobreak">
+              <img class="card_icon--mini" src="/images/default/question.svg" />
+              <div class="col no-gutter">
+                <h3 class="theme_type--space"><strong>When will my billing period begin?</strong></h3>
+                <p class="type--nomargin">
+                  If your account has correct billing information and has not been closed,
+                  your first billing period will begin the day after your trial ends.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="space--1"></div>
+        </div>
+
+        <div class="col no-gutter mini-gutter">
+            <div class="card theme_box--light">
+                <div class="flex-grid--nobreak">
+                  <img class="card_icon--mini" src="/images/default/question.svg" />
+                  <div class="col no-gutter">
+                    <h3 class="theme_type--space"><strong>When can I cancel my plan?</strong></h3>
+                    <p class="type--nomargin">
+                      You can cancel your plan at any time and continue to access
+                      your workspace for the remainder of your billing month, by emailing <a class="button--link" href="mailto:cloud.support@rocket.chat">cloud.support@rocket.chat</a><br/> If you choose not to stay with us you can request an export of your data.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+          <div class="space--1"></div>
+
+          <div class="card theme_box--light">
+            <div class="flex-grid--nobreak">
+              <img class="card_icon--mini" src="/images/default/question.svg" />
+              <div class="col no-gutter">
+                <h3 class="theme_type--space"><strong>How do I report issues and get support?</strong></h3>
+                <p class="type--nomargin">
+                  Email <a class="button--link" href="mailto:cloud.support@rocket.chat">cloud.support@rocket.chat</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="space--1"></div>
+
+          <div class="card theme_box--light">
+            <div class="flex-grid--nobreak">
+              <img class="card_icon--mini" src="/images/default/question.svg" />
+              <div class="col no-gutter">
+                <h3 class="theme_type--space"><strong>What reporting do you provide?</strong></h3>
+                <p class="type--nomargin">
+                  You can view a workspace's total registed users, active users,
+                  channels and file storage used.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="space--1"></div>
+
+          <div class="card theme_box--light">
+            <div class="flex-grid--nobreak">
+              <img class="card_icon--mini" src="/images/default/question.svg" />
+              <div class="col no-gutter">
+                <h3 class="theme_type--space"><strong>What is the monthly uptime guarantee?</strong></h3>
+                <p class="type--nomargin">
+                  We guarantee 99.9% monthly uptime and offer Medium and Large plan customers
+                  who contact us account credit to the value of:
+                  <em>100 x verified down time / plan monthly cost</em>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="space--1"></div>
+
+          <div class="card theme_box--light">
+            <div class="flex-grid--nobreak">
+              <img class="card_icon--mini" src="/images/default/question.svg" />
+              <div class="col no-gutter">
+                <h3 class="theme_type--space"><strong>Are there discounts for NGOs and educational institutes?</strong></h3>
+                <p class="type--nomargin">
+                  Yes eligible <a class="button--link" href="/concession">non-profit or educational institute</a>
+                  may receive discounted rates for Rocket.Chat Cloud.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 </div>
 
 <div class="space--8"></div>
