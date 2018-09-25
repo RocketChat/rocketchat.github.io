@@ -239,29 +239,34 @@
   margin-bottom: 5em;
   background-repeat: no-repeat;
   background-image: url("/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/rocket-chat-team-summit-2018.jpg");
-  background-position: center bottom;
-  background-size: auto 20em;
-  padding-bottom: 20em;
+  background-position: center;
+  background-size: cover;
 
-  @media (min-width: $tablet) {
+  .wrap {
+    background-color: rgba(18,31,51,0.8);
+    padding: 3em 4em;
+    max-width: 50%;
+  }
+
+  @media (max-width: $tablet) {
     @include flexbox();
     padding-bottom: 1.5em;
-    background-size: auto 75%;
-    background-position: right -40% bottom;
     margin-bottom: 7em;
 
     .wrap {
       padding: 2em;
-      max-width: 30%;
+      max-width: 80%;
     }
   }
 
-  @media (min-width: 62em) {
-    background-position: right bottom;
+  @media (max-width: $mobile) {
+    background-color: $space-grey;
+    background-image: unset;
+    padding-bottom: 2em;
 
     .wrap {
-      padding: 3em 4em;
-      max-width: 50%;
+      max-width: 100%;
+      padding: 0;
     }
   }
 }
