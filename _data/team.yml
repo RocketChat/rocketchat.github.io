@@ -284,3 +284,11 @@
   username: lucia.guevgeozian
   photo: no
   country: Uruguay
+
+- name: Alan Sikora
+  role: Sofware Developer
+  github_username: alansikora
+  department: Technology
+  username: alan.sikora
+  photo: no
+  country: Brazil
