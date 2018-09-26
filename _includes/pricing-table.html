@@ -29,9 +29,9 @@
                 {% else %}
                     <tr>
                         <th scope="row" class="pricing-table_label">{{member.title}}</th>
-                        <td class="bronze">{% if member.first == true %}<img src="/images/default/check.svg" /> {% else %}{{member.first}}{% endif %}</td>
-                        <td class="silver">{% if member.second == true %}<img src="/images/default/check.svg" /> {% else %}{{member.second}}{% endif %}</td>
-                        <td class="gold">{% if member.third == true %}<img src="/images/default/check.svg" /> {% else %}{{member.third}}{% endif %}</td>
+                        <td class="bronze">{% if member.first == true %}<img src="/images/default/check.svg" alt="check"/> {% else %}{{member.first}}{% endif %}</td>
+                        <td class="silver">{% if member.second == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{member.second}}{% endif %}</td>
+                        <td class="gold">{% if member.third == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{member.third}}{% endif %}</td>
                     </tr>
                 {% endif %}
             {% endfor %}

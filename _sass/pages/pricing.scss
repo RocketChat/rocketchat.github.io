@@ -121,9 +121,6 @@ body.pricing {
   align-content: center;
   justify-content: flex-end;
 
-  margin-bottom: -1px;
-  margin-left: -4px;
-  margin-right: 1px;
   @media screen and (max-width: $tablet) {
     flex-direction: column;
   }
@@ -132,24 +129,32 @@ body.pricing {
     min-height: 420px;
     width: 25%;
     border: 1px solid #e7ebf2;
+    border-bottom: 0;
     color: #6b7d99;
     padding: 1em;
     vertical-align: top;
-    min-width: 14em;
     line-height: 1.2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    margin-right: -1px;
-
+    &:nth-child(2){
+      border: 0;
+      border-top: 1px solid #e7ebf2;
+    }
     @media screen and (max-width: $tablet) {
       width: 100%;
     }
 
     &.footer {
+      border: 1px solid #e7ebf2;
       min-height: 0;
       border-top: 0;
+
+      &:nth-child(2){
+        border: 0;
+        border-bottom: 1px solid #e7ebf2;
+      }
       @media screen and (max-width: $tablet) {
         display: none;
       }

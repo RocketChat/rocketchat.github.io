@@ -36,9 +36,8 @@
         text-align: left;
         letter-spacing: 0;
         line-height: 24px;
-        padding-left: 24px;
-        padding-right: 24px;
-        word-wrap: wrap;
+        padding: 5px 24px;
+        word-wrap: break-word;
     }
     .bronze, .silver, .gold {
         color: #030C1A;
