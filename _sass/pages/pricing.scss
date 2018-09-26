@@ -148,7 +148,7 @@ body.pricing {
     }
 
     &.footer {
-      height: unset;
+      min-height: 0;
       border-top: 0;
       @media screen and (max-width: $tablet) {
         display: none;
