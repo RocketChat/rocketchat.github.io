@@ -24,17 +24,17 @@
       </tr>
     </thead>
         <tbody>
-            {% for member in pricingTable %}
-                {% if member.isHeader == true %}
+            {% for item in pricingTable %}
+                {% if item.isHeader == true %}
                     <tr>
-                        <th class="pricing-table_header" colspan="4">{{member.title}}</th>
+                        <th class="pricing-table_header" colspan="4">{{item.title}}</th>
                     </tr>
                 {% else %}
                     <tr>
-                        <th scope="row" class="pricing-table_label">{{member.title}}</th>
-                        <td class="bronze">{% if member.first == true %}<img src="/images/default/check.svg" alt="check"/> {% else %}{{member.first}}{% endif %}</td>
-                        <td class="silver">{% if member.second == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{member.second}}{% endif %}</td>
-                        <td class="gold">{% if member.third == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{member.third}}{% endif %}</td>
+                        <th scope="row" class="pricing-table_label {% if item.link %}link {% endif %}">{% if item.link %} <a href="{{item.link}}">{{item.title}}</a> {% else %} {{item.title}} {% endif %}</th>
+                        <td class="bronze">{% if item.first == true %}<img src="/images/default/check.svg" alt="check"/> {% else %}{{item.first}}{% endif %}</td>
+                        <td class="silver">{% if item.second == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{item.second}}{% endif %}</td>
+                        <td class="gold">{% if item.third == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{item.third}}{% endif %}</td>
                     </tr>
                 {% endif %}
             {% endfor %}
