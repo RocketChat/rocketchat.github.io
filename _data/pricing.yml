@@ -1,3 +1,19 @@
+# Pricing page table data file.
+#
+# To add, remove or edit the data on the pricing page table, you should edit this file;
+# There are 2 types of items, a normal row or a header;
+#
+# Headers have 2 properties, "title" and "isHeader":
+# title sets the text on the header, accepts strings;
+# isHeader defines if the row is a header or not, accepts true or false;
+#
+# Normal rows can have up to 5 properties:
+# title: defines the first collumn of the row, accepts strings;
+# first, second and third: defines that will be shown in the collumns after the title. Here you have three options, a string for text, a true to add a check icon, and an empty string for an empty space.
+# link: this transforms the row's title into a link that will go to the url specified in this property
+
+# When updating this file locally you might need to restart the jekyll server or delete the "_site" folder to see the changes on your local site.
+
 - title: "Features"
   isHeader: true
 
