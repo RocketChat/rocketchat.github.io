@@ -15,8 +15,12 @@
     background-image: url("../images/cloud/hero@2x.jpg");
   }
 }
+.pricing {
 
-body.pricing {
+  section.container {
+    margin: 2em auto;
+  }
+
   .headroom--top {
     &.app-header_wrap {
       background: none !important;
@@ -75,21 +79,30 @@ body.pricing {
     width: 434px;
     margin: 0 auto;
     justify-content: space-between;
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+    }
   }
 
   .col.title {
     margin-bottom: 102px;
   }
 
-  .switch{
+  .switch {
     border-radius: 2px;
     height: 43px;
-    width: 216px;
+    line-height: 43px;
+    width: 50%;
     background: #A3B4CC;
+    color: #fff;
+    margin: 0 .5em;
     cursor: pointer;
+
     &.active {
       background: $brand;
     }
+
+
 
     p {
       color: #FFFFFF;
@@ -119,17 +132,16 @@ body.pricing {
 .pricing_four-column {
   display: flex;
   align-content: center;
-  justify-content: flex-end;
+  justify-content: center;
 
   @media screen and (max-width: $tablet) {
     flex-direction: column;
   }
 
   .plan_wrapper {
-    min-height: 420px;
     width: 25%;
     border: 1px solid #e7ebf2;
-    border-bottom: 0;
+    border-right-width: 0;
     color: #6b7d99;
     padding: 1em;
     vertical-align: top;
@@ -138,12 +150,17 @@ body.pricing {
     flex-direction: column;
     justify-content: space-between;
 
-    &:nth-child(2){
-      border: 0;
-      border-top: 1px solid #e7ebf2;
+    &:last-child{
+      border-right-width: 1px;
     }
     @media screen and (max-width: $tablet) {
+      border: 1px solid #e7ebf2;
+      margin: 1em auto;
       width: 100%;
+
+      .button {
+        font-size: 1em;
+      }
     }
 
     &.footer {

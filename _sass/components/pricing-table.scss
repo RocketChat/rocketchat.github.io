@@ -1,8 +1,11 @@
 
 .pricing-table {
-    border-collapse: collapse;
+  border-collapse: collapse;
+  table-layout: fixed;
+
     &_wrapper {
-        margin: 0 auto;
+    margin: 0 auto;
+    overflow-x: auto;
     }
     &_header {
         height: 32px;
@@ -16,7 +19,20 @@
         letter-spacing: 0.67px;
         line-height: 16px;
         padding-left:24px;
+  }
+
+  &__header {
+    font-size: 1em;
+    padding: 10px;
+    color: #000;
+
+    &--hidden {
+      color: transparent;
+      user-select: none;
     }
+  }
+
+
     tr {
         border: 1px solid #E7EBF2;
     }

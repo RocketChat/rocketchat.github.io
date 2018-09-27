@@ -27,12 +27,8 @@ redirect_from:
     <p class="label theme_type--light">Pricings &amp; plans</p>
     <h2 class="display">Choose the right plan for your team</h2>
     <div class="switch-container">
-      <a class="switch self-managed active">
-        <p>Self Managed</p>
-      </a>
-      <a class="switch cloud">
-        <p>Cloud</p>
-      </a>
+      <a class="switch self-managed active" href="#self">Self Managed</a>
+      <a class="switch cloud" href="#cloud">Cloud</a>
       </div>
     </div>
   </div>
@@ -94,8 +90,18 @@ redirect_from:
       </div>
 
     </div>
-
-    {% include pricing-table.html name="pricing" %}
+  </section>
+  <section class="container">
+    {% capture header %}
+      <thead>
+        <tr>
+          <th>Community</th>
+          <th>Pro</th>
+          <th>Enterprise</th>
+        </tr>
+      </thead>
+    {% endcapture %}
+    {% include pricing-table.html name="pricing" header=header %}
   </section>
 
   <section class="container">
@@ -366,7 +372,18 @@ redirect_from:
             </footer>
           </div>
       </div>
-      {% include pricing-table.html name="selfHosted" %}
+  </section>
+  <section class="container">
+      {% capture header %}
+        <thead>
+          <tr>
+            <th>Community</th>
+            <th>Pro</th>
+            <th>Enterprise</th>
+          </tr>
+        </thead>
+      {% endcapture %}
+      {% include pricing-table.html name="selfHosted" header=header%}
   </section>
 
   <div class="space--8"></div>

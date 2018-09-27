@@ -6,20 +6,23 @@
 
 
 <div class="pricing-table_wrapper">
+
     <table class="pricing-table">
-        <tr style="display: none">
-            {% if include.name == "pricing" %}
-                <th scope="col" class="pricing-table_header_hidden"></th>
-                <th scope="col" class="pricing-table_header_hidden">Bronze</th>
-                <th scope="col" class="pricing-table_header_hidden">Silver</th>
-                <th scope="col" class="pricing-table_header_hidden">Gold</th>
-            {% elsif include.name == "selfHosted" %}
-                <th scope="col" class="pricing-table_header_hidden"></th>
-                <th scope="col" class="pricing-table_header_hidden">Community</th>
-                <th scope="col" class="pricing-table_header_hidden">Pro</th>
-                <th scope="col" class="pricing-table_header_hidden">Enterprise</th>
-            {% endif %}
-        </tr>
+    <thead>
+      <tr>
+        {% if include.name == "pricing" %}
+          <th scope="col" class="pricing-table__header pricing-table__header--hidden">Features</th>
+          <th scope="col" class="pricing-table__header">Bronze</th>
+          <th scope="col" class="pricing-table__header">Silver</th>
+          <th scope="col" class="pricing-table__header">Gold</th>
+        {% elsif include.name == "selfHosted" %}
+          <th scope="col" class="pricing-table__header pricing-table__header--hidden">Features</th>
+          <th scope="col" class="pricing-table__header">Community</th>
+          <th scope="col" class="pricing-table__header">Pro</th>
+          <th scope="col" class="pricing-table__header">Enterprise</th>
+        {% endif %}
+      </tr>
+    </thead>
         <tbody>
             {% for member in pricingTable %}
                 {% if member.isHeader == true %}
@@ -38,22 +41,3 @@
         </tbody>
     </table>
 </div>
-<div class="pricing_four-column">
-
-    <div class="plan_wrapper footer">
-        {% if include.name == "pricing" %}
-            <a class="button trial" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial">Start trial</a>
-        {% elsif include.name == "selfHosted" %}
-            <a class="button trial" target="_blank" rel="noopener noreferrer" href="https://rocket.chat/install">Install</a>
-        {% endif %}
-
-    </div>
-    <div class="plan_wrapper footer">
-        <a class="button trial" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial">Start trial</a>
-    </div>
-    <div class="plan_wrapper footer">
-        <a class="button trial" target="_blank" rel="noopener noreferrer" href="https://rocket.chat/contact">Contact Us</a>
-    </div>
-</div>
-
-

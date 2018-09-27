@@ -42,6 +42,9 @@
   @include defaultStyle;
   @include disabledStyle;
 
+  &:focus {
+    box-shadow: 0 0 7px 1px #fff, 0 0 7px 2px $brand;
+  }
   color: #fff;
   background-color: $brand;
 
