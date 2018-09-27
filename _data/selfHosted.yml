@@ -139,25 +139,29 @@
   second: ""
   third: true
 
-- title: Basics
+- title: "Resources"
   isHeader: true
 
 - title: "Documentation & Tutorials"
+  link: "https://rocket.chat/docs"
   first: true
   second: true
   third: true
 
-- title: "Documentation & Tutorials"
+- title: "Tutorial Videos"
+  link: "https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ"
   first: true
   second: true
   third: true
 
-- title: "Rocket.Chat Forums"
+- title: "Forums"
+  link: "https://forums.rocket.chat/"
   first: true
   second: true
   third: true
 
-- title: "GitHub Issues"
+- title: "Features or Bugs"
+  link: "https://github.com/RocketChat/Rocket.Chat/issues"
   first: true
   second: true
   third: true
