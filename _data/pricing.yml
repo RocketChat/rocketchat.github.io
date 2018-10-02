@@ -1,0 +1,403 @@
+# Pricing page table data file.
+#
+# To add, remove or edit the data on the pricing page table, you should edit this file;
+# There are 2 types of items, a normal row or a header;
+#
+# Headers have 2 properties, "title" and "isHeader":
+# title sets the text on the header, accepts strings;
+# isHeader defines if the row is a header or not, accepts true or false;
+#
+# Normal rows can have up to 5 properties:
+# title: defines the bronze collumn of the row, accepts strings;
+# community, pro and enterprise: defines that will be shown in the collumns on the cloud table after the title. Here you have three options, a string for text, a true to add a check icon, and an empty string for an empty space.
+# bronze, silver and gold: defines that will be shown in the collumns on the cloud table after the title. Here you have three options, a string for text, a true to add a check icon, and an empty string for an empty space.
+# link: this transforms the row's title into a link that will go to the url specified in this property
+
+
+# When updating this file locally you might need to restart the jekyll server or delete the "_site" folder to see the changes on your local site.
+
+- title: "High Scalability Cluster"
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Features"
+  isHeader: true
+
+- title: "Unlimited Users"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Unlimited Messages"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Unlimited Search History"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Unlimited Public Channels"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Unlimited Private Groups"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Conferencing Server"
+  bronze: "Shared"
+  silver: "Dedicated"
+  gold: "Dedicated"
+  community: "Shared"
+  pro: "Dedicated"
+  enterprise: "Dedicated"
+
+- title: "Storage"
+  bronze: "1TB"
+  silver: "5TB"
+  gold: "20TB"
+
+- title: "Integrations"
+  bronze: "5"
+  silver: "100"
+  gold: "1000"
+  community: "Unlimited"
+  pro: "Unlimited"
+  enterprise: "Unlimited"
+
+- title: "Multi Language Interface"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Apps iOS, Android, Win, Mac and Linux"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Custom Domain"
+  bronze: ""
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "White Label (Branding)"
+  bronze: ""
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Live Chat"
+  bronze: ""
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Live Streaming"
+  bronze: ""
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Read Receipt"
+  bronze: ""
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Realtime Translation"
+  bronze: ""
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Social Network Login"
+  bronze: ""
+  silver: true
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true
+
+- title: "OmniChannel Integrations"
+  bronze: ""
+  silver: true
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true
+
+- title: "Audio to Text Conversion"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Message Auditing Panel"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Broadcast Channel"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Administration"
+  isHeader: true
+
+- title: "Analytics Reporting"
+  bronze: "Daily"
+  silver: "Hourly"
+  gold: "Hourly"
+  community: ""
+  pro: "Hourly"
+  enterprise: "Hourly"
+
+- title: "Multi Factor Authentication"
+  bronze: ""
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Customize User Permission"
+  bronze: ""
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Real Time Active Directory Sync LDAP"
+  bronze: ""
+  silver: true
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true
+
+- title: "Encrypted Push Notifications"
+  bronze: ""
+  silver: true
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true
+
+
+- title: "Engagement Dashboard"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Resources"
+  isHeader: true
+
+- title: "Documentation & Tutorials"
+  link: "https://rocket.chat/docs"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Tutorial Videos"
+  link: "https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Forums"
+  link: "https://forums.rocket.chat/"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Features or Bugs"
+  link: "https://github.com/RocketChat/Rocket.Chat/issues"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Support"
+  isHeader: true
+
+- title: "Monitoring and Alerts"
+  bronze: "24/7"
+  silver: "24/7"
+  gold: "24/7"
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Updates"
+  community: "Regular Releases"
+  pro: "Priority Patches"
+  enterprise: "Priority Patches"
+
+- title: "Reporting"
+  bronze: "Weekly"
+  silver: "Daily"
+  gold: Hourly
+
+- title: "Monthly Uptime SLA"
+  bronze:
+  silver: "99.99%"
+  gold: "99.99%"
+
+- title: "Backups"
+  bronze: "Daily"
+  silver: "Twice Daily"
+  gold: "Hourly"
+
+- title: "Updates"
+  bronze: "Automatic"
+  silver: "Automatic"
+  gold: "Automatic"
+
+- title: "Online Ticket Creation"
+  bronze: true
+  silver: true
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true
+
+- title: "Email Support"
+  bronze: true
+  silver: true
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true
+
+- title: "24/7 Chat"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true
+
+- title: "24/7 Phone"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "SLA - Issue Response Time"
+  isHeader: true
+
+- title: "Minimal"
+  bronze: "4 business days"
+  silver: "2 business days"
+  gold: "1 business day"
+  community: ""
+  pro: "4 business days"
+  enterprise: "1 business day"
+
+- title: "Normal"
+  bronze: "24 hours"
+  silver: "12 hours"
+  gold: "6 hours"
+  community: ""
+  pro: "24 hours"
+  enterprise: "6 hours"
+
+- title: "Critical"
+  bronze: "2 hours"
+  silver: "1 hour"
+  gold: "30 minutes"
+  community: ""
+  pro: "2 hours"
+  enterprise: "30 minutes"
+
+- title: "Extras"
+  isHeader: true
+
+- title: "Onboarding Assistance"
+  bronze: ""
+  silver: true
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true
+
+- title: "Migration Assistance"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Access to Product Team"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true

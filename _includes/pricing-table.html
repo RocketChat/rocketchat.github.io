@@ -1,0 +1,45 @@
+{% assign pricingTable = site.data.pricing %}
+
+<div class="pricing-table_wrapper">
+
+    <table class="pricing-table">
+    <thead>
+      <tr>
+        {% if include.name == "pricing" %}
+          <th scope="col" class="pricing-table__header pricing-table__header--hidden">Features</th>
+          <th scope="col" class="pricing-table__header">Bronze</th>
+          <th scope="col" class="pricing-table__header">Silver</th>
+          <th scope="col" class="pricing-table__header">Gold</th>
+        {% elsif include.name == "selfHosted" %}
+          <th scope="col" class="pricing-table__header pricing-table__header--hidden">Features</th>
+          <th scope="col" class="pricing-table__header">Community</th>
+          <th scope="col" class="pricing-table__header">Pro</th>
+          <th scope="col" class="pricing-table__header">Enterprise</th>
+        {% endif %}
+      </tr>
+    </thead>
+        <tbody>
+            {% for item in pricingTable %}
+                {% if item.isHeader == true %}
+                    <tr>
+                        <th class="pricing-table_header" colspan="4">{{item.title}}</th>
+                    </tr>
+                {% else %}
+                    <tr>
+                      {% if include.name == "pricing" and item.bronze %}
+                          <th scope="row" class="pricing-table_label {% if item.link %}link {% endif %}">{% if item.link %} <a href="{{item.link}}">{{item.title}}</a> {% else %} {{item.title}} {% endif %}</th>
+                          <td class="table-cell bronze">{% if item.bronze == true %}<img src="/images/default/check.svg" alt="check"/> {% else %}{{item.bronze}}{% endif %}</td>
+                          <td class="table-cell silver">{% if item.silver == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{item.silver}}{% endif %}</td>
+                          <td class="table-cell gold">{% if item.gold == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{item.gold}}{% endif %}</td>
+                        {% elsif include.name == "selfHosted" and item.community %}
+                          <th scope="row" class="pricing-table_label {% if item.link %}link {% endif %}">{% if item.link %} <a href="{{item.link}}">{{item.title}}</a> {% else %} {{item.title}} {% endif %}</th>
+                          <td class="table-cell community">{% if item.community == true %}<img src="/images/default/check.svg" alt="check"/> {% else %}{{item.community}}{% endif %}</td>
+                          <td class="table-cell pro">{% if item.pro == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{item.pro}}{% endif %}</td>
+                          <td class="table-cell enterprise">{% if item.enterprise == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{item.enterprise}}{% endif %}</td>
+                        {% endif %}
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

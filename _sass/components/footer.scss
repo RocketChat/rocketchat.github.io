@@ -24,8 +24,15 @@
 
   @media screen and (min-width: $tablet) {
     margin-top: 0;
-    max-width: 13em;
+    max-width: 15.5em;
     @include order(-1);
+  }
+
+  @media screen and (max-width: $tablet) {
+    width: 100%;
+    .social_icons, .github-buttons-wrapper {
+      max-width: 230px;
+    }
   }
 
   // only IE
@@ -48,13 +55,67 @@
   }
 }
 
+.app-footer_social {
+  .social_icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+
+    a {
+      display: flex;
+      height: 36px;
+      width: 36px;
+      border-radius: 2px;
+      align-content: center;
+
+      img {
+        height: 19px;
+        margin: auto;
+      }
+
+    }
+
+    &.dark a {
+      background-color: $space-grey;
+
+      img {
+        filter: invert(1);
+      }
+    }
+
+    &.light a {
+      background-color: $grey-smoke;
+    }
+  }
+}
+
+
+.github-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.app-footer_title {
+  width: 100%;
+  color: $grey-light;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
 .app-footer_github {
   display: inline-block;
   border-radius: 2px;
   width: 48%;
+  height: 36px;
   text-align: center;
   font-size: 0.8em;
-  line-height: 3.4;
+  line-height: 2.5;
   transition: all 0.3s ease;
 
   img {

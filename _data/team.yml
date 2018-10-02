@@ -99,14 +99,6 @@
   photo: yes
   country: Brazil
 
-- name: Manish Kakoti
-  role: Federation Engineer
-  github_username: madguy02
-  github_uid: 8217234
-  department: Development
-  username: madguy02
-  country: India
-
 - name: Filipe Brito
   role: Android Engineer
   github_username: filipedelimabrito
@@ -284,3 +276,11 @@
   username: lucia.guevgeozian
   photo: no
   country: Uruguay
+
+- name: Alan Sikora
+  role: Sofware Developer
+  github_username: alansikora
+  department: Technology
+  username: alan.sikora
+  photo: no
+  country: Brazil

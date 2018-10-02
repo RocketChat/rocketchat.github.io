@@ -11,7 +11,7 @@ Today we released a hotfix for the Rocket.Chat desktop client.
 
 This fixes some vulnerabilities found on Chrome (CVE-2017-5124) and Electron (CVE-2018-1000006).
 
-We urge users to update their Rocket.Chat desktop client to the [latest version](https://rocket.chat/download) as these bugs can be exploited for remote code execution which can result in stolen data and system compromise.
+We urge users to update their Rocket.Chat desktop client to the [latest version](https://rocket.chat/install) as these bugs can be exploited for remote code execution which can result in stolen data and system compromise.
 
 If you are a developer and maintain a forked version of Rocket.Chat please ensure to update your dependencies.
 

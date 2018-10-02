@@ -7,7 +7,7 @@ author: Sing Li
 cover: /images/posts/2017/12/rocket-chat-0-60-released/cover-release-12-17.jpg
 ---
 
-**WARNING:** BREAKING change when upgrading to 0.60.0. Any user running directly from source/compiled code and upgrading from older versions to 0.60.0 *must* first install [Node.js 8.x](https://nodejs.org/en/download/) in their environment. Rocket.Chat 0.60.0 requires Node 8 to run correctly. If you are using Docker or Snaps just ignore this warning.
+**WARNING:** BREAKING change when upgrading to 0.60.0. Any user running directly from source/compiled code and upgrading from older versions to 0.60.0 *must* first install [Node.js 8.x](https://nodejs.org/en/install) in their environment. Rocket.Chat 0.60.0 requires Node 8 to run correctly. If you are using Docker or Snaps just ignore this warning.
 
 ## Rocket.Chat Server Release 0.60.0 Available Immediately
 

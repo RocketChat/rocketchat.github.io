@@ -36,6 +36,12 @@ By creating apps on Marketplace, the main code will be less susceptible to chang
 Over time, Marketplace will become a fully-fledged shopfront-style platform where devs will create an account and upload apps to the Marketplace with a degree of app review before new apps can go live. This review process will eventually become automated.
 Rocket.Chat will gradually adopt a hands-off approach, although some apps will be given a type of ‘Verified’ status. Once the Marketplace has enough apps and contributors charts with categories such as ‘Most Popular’ will be added.
 
+Here's a preview of how a couple of apps will look in the admin panel:
+
+<img alt="example app Jitsi Slash Command" src="/images/posts/2018/08/marketplace-post/app-example-jitsi.png" />
+
+<img alt="example app Dropbox Paper" src="/images/posts/2018/08/marketplace-post/app-example-dropbox.png" />
+
 **What were the key goals you wanted to achieve with the UX and UI of Marketplace? What makes it stand out?**
 
 The focal element of the design process has been for apps to be easy to find and to have a robust and thorough search function. Search by category will be available, and there will be a Featured section on the homepage. Product shots and feature lists will help with clarity for each app.
@@ -52,7 +58,9 @@ The day to day running of Marketplace will be done by its dedicated in-house tea
 
 Access to apps will be enabled by becoming an admin on a Rocket.Chat server or by creating a developer account directly on Marketplace.
 Upload of apps to the store will be done by distribution from a central Marketplace server.
-Marketplace will be available at rocket.chat/marketplace and we plan to eventually have a dedicated apps.rocket.chat url.
+Marketplace will be available at [rocket.chat/marketplace](//rocket.chat/marketplace) and we plan to eventually have a dedicated apps.rocket.chat URL.
+
+<img alt="Rocket.Chat Marketplace Admin Panel" src="/images/posts/2018/08/marketplace-post/Marketplace-Admin.png" />
 
 **How will the RC marketplace compare to competitors’ similar iterations?**
 

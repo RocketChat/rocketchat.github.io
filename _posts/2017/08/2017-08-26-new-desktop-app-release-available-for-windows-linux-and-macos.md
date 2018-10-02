@@ -8,7 +8,7 @@ cover: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux
 redirect_from: /blog/new-desktop-app-release-available-for-windows-linux-and-macos
 ---
 
-Today we are happy to announce the new release of the Rochet.Chat+ Desktop App, version 2.9.0 for Windows, Linux and MacOs; bringing our users new features and much anticipated fixes. All the new Desktop Apps are available for [download immediately](https://rocket.chat/download).
+Today we are happy to announce the new release of the Rochet.Chat+ Desktop App, version 2.9.0 for Windows, Linux and MacOs; bringing our users new features and much anticipated fixes. All the new Desktop Apps are available for [download immediately](https://rocket.chat/install).
 
 This new version brings a large number of improvements, from easier deployment for companies to better notifications. We aimed to improve the apps incrementally by fixing bugs and implementing some widely-requested usability features.
 

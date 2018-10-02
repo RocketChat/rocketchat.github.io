@@ -213,6 +213,27 @@
     z-index: 2;
   }
 
+  .apps-message-container {
+    padding: 80px 10px;
+    text-align: center;
+  }
+
+  .apps-message-container .icon {
+    display: inline-block;
+    width: 103px;
+    height: 77px;
+    margin: 70px 0;
+    // background-image:
+  }
+
+  .apps-message-container .suggest {
+    margin-bottom: 20px;
+  }
+
+  .apps-message-container p {
+    margin-bottom: 10px;
+  }
+
   .modal-wrapper-background {
     position: fixed;
     top: 0;
@@ -268,13 +289,13 @@
     margin-right: 16px;
   }
 
-  .error-message-wrapper {
+  .message-wrapper {
     position: relative;
     margin: 20px 20px;
     justify-content: center;
   }
 
-  .error-message-wrapper .error-message {
+  .message-wrapper .error-message {
     position: static;
     font-size: 1rem;
     text-transform: none;

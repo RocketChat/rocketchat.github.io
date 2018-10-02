@@ -58,7 +58,7 @@ message they are replying to.
 
 ## Release changelog
 
-[Download](/download) Rocket.Chat 0.63 and install it via a
+[Download](/install) Rocket.Chat 0.63 and install it via a
 [Snap](https://rocket.chat/docs/installation/manual-installation/ubuntu/),
 [Docker](https://rocket.chat/docs/installation/docker-containers/) or
 [from scratch on your server](https://rocket.chat/docs/installation/manual-installation/).
