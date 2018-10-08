@@ -1,89 +1,89 @@
 - name: Zibtek
   description: Zibtek LLC is a US-based full service software development firm that specializes in high performance engineering, design and advisory services.
   website: //www.zibtek.com/
-  logo: /images/partners/Zibtek-Logo-white-text.png
+  logo: /images/partners/logos/zibtek.png
   type: technology
 
 - name: Source Forte
   description: Certified implementers & experts in several of the most popular and well respected open source platforms.
   website: //sourceforte.com/our-global-collaborations/
-  logo: /images/partners/sourceforte.png
+  logo: /images/partners/logos/sourceforte.png
   type: technology
 
 - name: Vortigo
   description: Vortigo is a software factory support companies with digital transformation initiatives through software development, consultancy, professional services and products in the SAAS model.
   website: //vortigo.com.br/en/
-  logo: /images/partners/Vortigologo.png
+  logo: /images/partners/logos/vortigo.png
   type: technology
 
 - name: Curve Stone
   description: Hands-on partner with expertise on the configuration, customization and development of Rocket.Chat.
   website: //www.curvestone.io/rocket-chat
-  logo: /images/partners/curvestone.png
+  logo: /images/partners/logos/curvestone.png
   type: technology
 
 - name: Chef
   website: //www.chef.io
-  logo: /images/partners/cheflogo.png
+  logo: /images/partners/logos/chef.png
   type: institutional
 
 - name: Tokenly
   description:
   website: //tokenly.com
-  logo: /images/partners/tokenlylogo.png
+  logo: /images/partners/logos/tokenly.png
   type: institutional
 
 - name: Brave
   website: //brave.com
-  logo: /images/partners/bravelogo.png
+  logo: /images/partners/logos/brave.png
   type: institutional
 
 - name: KeyCDN
   website: //keycdn.com
-  logo: /images/partners/keycdnlogo.png
+  logo: /images/partners/logos/keycdn.png
   type: institutional
 
 - name: Google Cloud Platform
   website: //cloud.google.com
-  logo: /images/partners/gcplogo.png
+  logo: /images/partners/logos/gcp.png
   type: institutional
 
 - name: Mconf
   website: //mconf.com
-  logo: /images/partners/new-mconf-logo.png
+  logo: /images/partners/logos/logos/mconf.png
   type: institutional
 
 - name: Curve Stone
   website: //www.curvestone.io/managed-rocketchat-hosting
-  logo: /images/partners/curvestone.png
+  logo: /images/partners/logos/curvestone.png
   type: hosting
 
 - name: Layershift PaaS
   website: //jps.layershift.com/rocketchat/deploy.html
-  logo: /images/partners/layershift.png
+  logo: /images/partners/logos/layershift.png
   type:
 
 - name: Rocket.Chat Launcher
   website: //rocketchatlauncher.com/
-  logo: /images/partners/rocketchatlaucher.png
+  logo: /images/partners/logos/rocketchatlaucher.png
   type:
 
 - name: Netways Web Services
   website: //nws.netways.de/products/rocket-chat?locale=en
-  logo: /images/partners/netways.png
+  logo: /images/partners/logos/netways.png
   type:
 
 - name: Open Envy
   website: //www.openenvy.com
-  logo: /images/partners/openenvy.png
+  logo: /images/partners/logos/openenvy.png
   type:
 
 - name: Zenvia
   website: //www.zenvia.com/produtos/chatbots/chatbot-cobranca
-  logo: /images/partners/Zenvialogo-white.png
+  logo: /images/partners/logos/zenvia.png
   type: value added
 
 - name: rtm
   website: //www.rtm.net.br/solucoes/rtm-rocketchat.asp?gclid=Cj0KCQjwv-DaBRCcARIsAI9sba8Pu8YJdWb8eYqfp3ftGGutOWjsQjL9gEsSQD24jcZn0p3Q5fqXIREaAp4oEALw_wcB
-  logo: /images/partners/rtmlogo-white.png
+  logo: /images/partners/logos/rtm.png
   type: hosting
