@@ -232,8 +232,9 @@
 .team-grid {
   display: grid;
   grid-gap: 2em;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
+  grid-auto-rows: 300px;
 }
 
 .team-description {
@@ -277,21 +278,27 @@
   overflow: hidden;
   width: 100%;
   margin-bottom: 1em;
+  height: 300px;
+  width: 100%;
+  max-width: 250px;
 }
 
 .team-item__image {
-  padding-top: 120%;
   background-size: cover;
   background-position: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
 }
 
 .team-item__wrap {
   background: rgba($space, 0.9);
   border-radius: 2px;
   padding: 1em;
-  height: 7.8em;
-  max-height: 7.8em;
   transition: all 0.5s ease;
+  margin: 8px;
 }
 
 .team-button__toggle {
@@ -326,9 +333,7 @@
 }
 
 .team-item__social {
-  height: 4em;
   margin-top: 1em;
-  padding: 1em;
   border-top: 1px solid transparent;
   transition: all 0.7s ease;
 
