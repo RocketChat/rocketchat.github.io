@@ -235,6 +235,19 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-auto-rows: 300px;
+
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 650px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 420px) {
+    grid-template-columns: repeat(1, 100%);
+    grid-auto-rows: 400px;
+  }
 }
 
 .team-description {
@@ -276,11 +289,6 @@
 .team-item {
   border-radius: 2px;
   overflow: hidden;
-  width: 100%;
-  margin-bottom: 1em;
-  height: 300px;
-  width: 100%;
-  max-width: 250px;
 }
 
 .team-item__image {
