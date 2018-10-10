@@ -1,0 +1,60 @@
+.content-page {
+    .hero {
+        background-color: $brand
+    }
+
+    &--box {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -250px;
+        margin: auto;
+        margin-bottom: 5em;
+        background-repeat: no-repeat;
+        background-image: url("/images/partners/become.png");
+        background-position: right bottom;
+        background-size: auto 20em;
+        padding-bottom: 20em;
+        max-width: 70em;
+
+        .wrap {
+          padding: 3em 4em 6em;
+          max-width: 50%;
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+        }
+
+        @media (min-width: $tablet) {
+          @include flexbox();
+          padding-bottom: 0;
+          background-size: auto 90%;
+          background-position: right bottom;
+
+          .wrap {
+            padding: 2em;
+            max-width: 30%;
+          }
+        }
+
+        @media (min-width: 62em) {
+          background-position: right bottom;
+
+          .wrap {
+            padding: 3em 4em;
+            max-width: 50%;
+          }
+        }
+
+        img {
+          width: 9em;
+          margin-right: 1em;
+        }
+      }
+
+      body.partner .partner-box {
+        @media (min-width: $tablet) {
+          margin-bottom: 10em;
+        }
+    }
+}
