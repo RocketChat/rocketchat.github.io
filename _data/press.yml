@@ -4,11 +4,11 @@
   date: 2018-10-09 10:00:00
   cover: softex-logo.jpg
 
-- publisher: BlockchainNews
-  title: Slack Out, Rocket.Chat In – Blockchain Community Leaders Aragon Lead Industry Exodus Amid Marked Increase In Phishing Scams
-  url: https://www.the-blockchain.com/2017/09/22/slack-rocket-chat-blockchain-community-leaders-aragon-lead-industry-exodus-amid-marked-increase-phishing-scams/
-  date: 2017-09-22 10:00:00
-  cover: blockchain-news-logo.jpg
+- publisher: Pro-Linux.de
+  title: Rocket.Chat and Nextcloud cooperate
+  url: https://www.pro-linux.de/news/1/26309/rocketchat-und-nextcloud-kooperieren.html
+  date: 2018-09-18 10:00:00
+  cover: pl-logo.jpg
 
 - publisher: University of Cape Town News
   title: Connecting the Ocean View Community
@@ -21,6 +21,18 @@
   url: https://www.timecamp.com/blog/2018/08/top-10-chat-software-for-teams/
   date: 2018-08-24 10:00:00
   cover: timecamp-logo.jpg
+
+- publisher: Business2Community
+  title: The Top 10 Slack Alternatives for Small Businesses
+  url: https://www.business2community.com/small-business/the-top-10-slack-alternatives-for-small-businesses-02087348
+  date: 2018-07-10 10:00:00
+  cover: B2C-logo.jpg
+
+- publisher: BlockchainNews
+  title: Slack Out, Rocket.Chat In – Blockchain Community Leaders Aragon Lead Industry Exodus Amid Marked Increase In Phishing Scams
+  url: https://www.the-blockchain.com/2017/09/22/slack-rocket-chat-blockchain-community-leaders-aragon-lead-industry-exodus-amid-marked-increase-phishing-scams/
+  date: 2017-09-22 10:00:00
+  cover: blockchain-news-logo.jpg
 
 - publisher: WIRED Magazine
   title: Open Sourcers Race to Build Better Versions of Slack
