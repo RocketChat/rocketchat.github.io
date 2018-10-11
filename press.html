@@ -53,12 +53,17 @@ theme: dark
       href="{{ post.url | remove: "index.html" }}"
       >
       <div
-          class="card--blog__cover"
-          {% if post.cover %}
-          style="background-image: url('/images/press/{{ post.cover }}')"
-          {% else %}
-          style="background-image: url('/images/blog/post.jpg')"
+        class="card--blog__cover"
+        {% if post.isLogo == true %}
+          {% if post.bgColor %}
+              style="background-image: url('/images/press/{{ post.cover }}'); background-size: contain; background-color: #{{post.bgColor}};"
           {% endif %}
+            style="background-image: url('/images/press/{{ post.cover }}'); background-size: contain"
+        {% elsif post.cover %}
+            style="background-image: url('/images/press/{{ post.cover }}');"
+        {% else %}
+            style="background-image: url('/images/blog/post.jpg')"
+        {% endif %}
       ></div>
       <div class="card--blog__wrap">
         <p class="card--blog__meta label--small theme_type--grey">
