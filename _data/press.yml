@@ -1,8 +1,26 @@
+- publisher: Softex
+  title: Softex predicts 10 million USD's worth of business for Brazilian delegation at Gartner Symposium/ITxpo
+  url: https://www.softex.br/softex-projeta-us-10-milhoes-em-negocios-para-a-delegacao-brasileira-no-gartner-symposium-itxpo/
+  date: 2018-10-09 10:00:00
+  cover: softex-logo.jpg
+
 - publisher: BlockchainNews
   title: Slack Out, Rocket.Chat In – Blockchain Community Leaders Aragon Lead Industry Exodus Amid Marked Increase In Phishing Scams
   url: https://www.the-blockchain.com/2017/09/22/slack-rocket-chat-blockchain-community-leaders-aragon-lead-industry-exodus-amid-marked-increase-phishing-scams/
   date: 2017-09-22 10:00:00
   cover: blockchain-news-logo.jpg
+
+- publisher: University of Cape Town News
+  title: Connecting the Ocean View Community
+  url: https://www.news.uct.ac.za/article/-2018-09-04-connecting-the-ocean-view-community
+  date: 2018-09-04 10:00:00
+  cover: cape-town-uni-logo.jpg
+
+- publisher: Timecamp
+  title: Top 10 Chat Software for Teams
+  url: https://www.timecamp.com/blog/2018/08/top-10-chat-software-for-teams/
+  date: 2018-08-24 10:00:00
+  cover: timecamp-logo.jpg
 
 - publisher: WIRED Magazine
   title: Open Sourcers Race to Build Better Versions of Slack
