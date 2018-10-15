@@ -4,6 +4,11 @@
         height: 770px;
     }
 
+    &__column {
+      display: flex;
+      flex-direction: column;
+    }
+
     &--box {
         position: absolute;
         left: 0;
