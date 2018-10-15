@@ -47,29 +47,31 @@ theme: dark
 
   <div class="space--2"></div>
 
-  <div class="flex-grid grid--wrap">
-    {% for article in site.data.press %}
-      <div class="col--third">
-        <a
-          class="card--blog card-blog-simple card--blog__image"
-          href="{{ article.url }}"
-          target="_blank"
-          {% if article.cover %}
-            style="background-image: url('/images/press/{{ article.cover }}')"
-          {% else %}
-            style="background-image: url('/images/blog/post.jpg')"
+  <div class="blog__related">
+    {% for post in site.data.press %}
+      <a class="card--blog card--blog__image"
+      href="{{ post.url | remove: "index.html" }}"
+      >
+      <div
+        class="card--blog__cover"
+        {% if post.isLogo == true %}
+          {% if post.bgColor %}
+              style="background-image: url('/images/press/{{ post.cover }}'); background-size: contain; background-color: #{{post.bgColor}};"
           {% endif %}
-        >
-          <div class="card--blog__wrap">
-            <p class="card--blog__meta label--small theme_type--grey">
-              {{ article.date | date: "%b %-d, %Y" }}
-            </p>
-            <h3 class="text theme_type--dark type--nomargin">{{ article.title }}</h3>
-            <div class="space--1"></div>
-            <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ article.publisher }}</p>
-          </div>
-        </a>
+            style="background-image: url('/images/press/{{ post.cover }}'); background-size: contain"
+        {% elsif post.cover %}
+            style="background-image: url('/images/press/{{ post.cover }}');"
+        {% else %}
+            style="background-image: url('/images/blog/post.jpg')"
+        {% endif %}
+      ></div>
+      <div class="card--blog__wrap">
+        <p class="card--blog__meta label--small theme_type--grey">
+            {{ post.date | date: "%b %-d, %Y" }}
+        </p>
+        <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
       </div>
+      </a>
     {% endfor %}
   </div>
 </section>
