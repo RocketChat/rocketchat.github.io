@@ -9,6 +9,10 @@
       flex-direction: column;
     }
 
+    &__features {
+      margin-bottom: 0 !important;
+    }
+
     &--box {
         position: absolute;
         left: 0;
