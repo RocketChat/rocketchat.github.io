@@ -7,10 +7,44 @@
     &__column {
       display: flex;
       flex-direction: column;
+
     }
 
     &__features {
       margin-bottom: 0 !important;
+      overflow: hidden;
+
+      .home-box__image {
+        bottom: -4em;
+      }
+    }
+
+    &__column-image{
+      margin-bottom: 32px;
+      height: 20%;
+
+      @media (max-width: $tablet) {
+        width: 50%;
+        margin: 32px auto;
+      }
+
+      img {
+        height: 100%;
+        width: auto;
+        margin: auto;
+      }
+    }
+
+    &__logo {
+      width: 100%;
+      img {
+        margin: auto;
+      }
+    }
+
+    &__column-wrapper {
+      width: 95%;
+      margin: auto;
     }
 
     &--box {
@@ -25,14 +59,34 @@
         background-position: right bottom;
         background-size: auto 20em;
         padding-bottom: 20em;
-        max-width: 70em;
+        width: 75%;
+        max-width: 67em;
+        height: 420px;
+
+        @media (max-width: $tablet) {
+          background-size: contain;
+          width: 90%;
+        }
 
         .wrap {
-          padding: 3em 4em 6em;
+          padding: 5em 4em 6em;
           max-width: 50%;
           display: flex;
           flex-direction: column;
           text-align: left;
+          @media (max-width: $tablet) {
+            width: 100%;
+            max-width: 100%;
+            padding: 0;
+          }
+
+          .button {
+            width: 40%;
+            flex-shrink: 0;
+            @media (max-width: $tablet) {
+              width: 100%;
+            }
+          }
         }
 
         @media (min-width: $tablet) {
