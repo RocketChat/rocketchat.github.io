@@ -396,9 +396,12 @@ $('.switch').on('click', function () {
   }
 })
 
-$('.youtube-image-link').on('click touch', function (e) {
+$('.youtube-image-link, .youtube-text-link').on('click touch', function (e) {
   var checkExist = setInterval(function() {
     if ($('.featherlight').length) {
+      if ($(e.target).hasClass('pt')){
+        $(".featherlight .youtube-video")[0].src = "https://www.youtube.com/embed/nkzfriX8IlE?autoplay=1";
+      }
       $(".featherlight .youtube-video")[0].src += "?autoplay=1";
       clearInterval(checkExist);
     }

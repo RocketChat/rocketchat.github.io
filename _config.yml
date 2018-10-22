@@ -6,7 +6,7 @@ paginate_path: /blog/page/:num/
 paginate: 8
 
 # bump if alterting styles
-version: 60
+version: 65
 # read speed
 wpm: 160
 
