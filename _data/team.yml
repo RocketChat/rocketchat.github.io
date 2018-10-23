@@ -268,19 +268,19 @@
   photo: no
   country: Brazil
 
+- name: Daniel Townsend
+  role: Head of LATAM accounts
+  github_username:
+  department: Sales
+  username: daniel.townsend
+  photo: yes
+  country: Brazil
+
 - name: Douglas Gubert
   role: Software Engineer
   department: Back-end
   github_username: d-gubert
   username: douglas.gubert
   twitter: d_gubert
-  photo: yes
-  country: Brazil
-
-- name: Daniel Townsend
-  role: Head of LATAM accounts
-  github_username:
-  department: Sales
-  username: daniel.townsend
   photo: yes
   country: Brazil
