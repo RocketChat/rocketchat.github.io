@@ -189,15 +189,6 @@
   photo: yes
   country: Brazil
 
-- name: Tom Tostanoski
-  role: Support Lead
-  github_username: tostanoski
-  github_uid: 6999314
-  department: Support
-  username: tom.tostanoski
-  photo: yes
-  country: USA
-
 - name: Marcos Defendi
   role: Software Engineer
   github_username: MarcosSpessatto
@@ -236,7 +227,7 @@
   department: Mobile
   username: filipe.alvarenga
   country: Brazil
-  
+
 - name: Thiago Sanchez
   role: Head of Product Design
   github_username: thiagosanchz
@@ -264,7 +255,7 @@
 - name: Lucía Guevgeozian
   role: Cloud Engineer
   github_username: LuluGO
-  department: Cloud 
+  department: Cloud
   username: lucia.guevgeozian
   photo: yes
   country: Uruguay
@@ -275,4 +266,12 @@
   department: Technology
   username: alan.sikora
   photo: no
+  country: Brazil
+
+- name: Daniel Townsend
+  role: Head of LATAM accounts
+  github_username:
+  department: Sales
+  username: daniel.townsend
+  photo: yes
   country: Brazil
