@@ -51,35 +51,18 @@ category: home
   <div class="space--7"></div>
 
   {% if EventListSorted.size > 0 %}
-  <div class="flex-grid">
-    <div class="col--fourth no-gutter">
-      <div class="space--3"></div>
-      <h3 class="display theme_type--dark type--nomargin">Events</h3>
-      <div class="space--1"></div>
-      <p class="theme_type--grey type--nomargin">Workshops, Demos &amp; Conferences</p>
-      <div class="space--1"></div>
-      <a href="/category/events/" class="button--link">View all</a>
-      <div class="space--1"></div>
-    </div>
-
-    <div class="flex-grid theme_box--brand blog__event">
-      {% for post in EventListSorted limit:3 %}
-        <a href="{{ post.link }}" class="col blog__event-item no-gutter">
-          <p class="blog__event-dayweek label--small theme_type--kinda-white type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
-          <h4 class="display theme_type--dark">
-            {{ post.dateEvent | date: "%m.%d" }}
-            {% if post.dateEventEnd %}
-              — {{ post.dateEventEnd | date: "%m.%d" }}
-            {% endif %}
-          </h4>
-          <h3 class="text theme_type--dark type--nomargin">
-            {% if post.type %}<strong>{{ post.type }}:</strong> {% endif %}
-            {{ post.title }}</h3>
-          <div class="space--075"></div>
-          <p class="blog__event-location text--small theme_type--kinda-white type--nomargin">{{ post.location }}</p>
-        </a>
-      {% endfor %}
-    </div>
+  <h3 class="display--small theme_type--dark blog__section">
+    <strong>
+      <span>Upcoming Events </span>
+    </strong>
+    <small>
+      <a href="/category/events/" class="button--link text type--nomargin">View all</a>
+    </small>
+  </h3>
+  <div class="blog__recents">
+    {% for post in EventListSorted limit:3 %}
+      {% include blog/article-link.html post=post %}
+    {% endfor %}
   </div>
   <div class="space--7"></div>
   {% endif %}
