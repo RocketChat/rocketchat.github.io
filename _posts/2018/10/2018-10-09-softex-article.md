@@ -6,6 +6,8 @@ hidden: true
 author: Softex
 cover: /images/posts/2018/10/2018-10-09-softex-article/softex-logo.jpg
 extUrl: https://www.softex.br/softex-projeta-us-10-milhoes-em-negocios-para-a-delegacao-brasileira-no-gartner-symposium-itxpo/
+isLogo: true
+bgColor: "ffffff"
 categories:
 - Press
 ---
