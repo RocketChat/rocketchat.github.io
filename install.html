@@ -24,10 +24,9 @@ redirect_from:
 <section class="hero">
   <h1 class="display--big theme_type--dark">Install Rocket.Chat</h1>
   <p class="display--small theme_type--grey">On your desktop, mobile or server</p>
-  <div class="install-hero__image"></div>
 </section>
 
-<section class="install-apps container js-download">
+<!-- <section class="install-apps container js-download">
   <div class="flex-grid grid--justify-around align--center">
     <div class="col">
       <p class="label theme_type--grey">MacOS, Linux &amp; Windows</p>
@@ -36,7 +35,7 @@ redirect_from:
   </div>
 
   <div class="flex-grid">
-    
+
     {% comment %} Windows {% endcomment %}
     <div class="col">
       <div class="card theme_box--dark">
@@ -96,7 +95,7 @@ redirect_from:
         <div class="flex-grid--nobreak">
           <div class="col--fifth no-gutter"><img src="/images/install/linux.png" alt="Rocket.Chat for Linux" /></div>
           <div>
-            <h2 class="theme_type--dark"><strong>Rocket.Chat for Linux</strong></h2> 
+            <h2 class="theme_type--dark"><strong>Rocket.Chat for Linux</strong></h2>
             <p class="label--small theme_type--grey"><strong>Version {{site.data.install.desktop.version}} — {{site.data.install.desktop.linuxSize}}</strong></p>
           </div>
         </div>
@@ -119,10 +118,33 @@ redirect_from:
       </div>
     </div>
   </div>
+</section> -->
+
+<section class="container">
+  <div class="card theme_box--dark-strong install-box desktop">
+    <div class="wrap">
+      <h2 class="display theme_type--dark">Desktop Apps</h2>
+      <a href="" download="" data-download="server" class="button no-gutter col">Mac</a>
+      <a href="" download="" data-download="server" class="button no-gutter col">Windows</a>
+      <a href="" download="" data-download="server" class="button no-gutter col">Linux</a>
+      <div class="install_mac-download">
+        <a target="_blank" rel="noopener noreferrer" href="//itunes.apple.com/app/rocket-chat/id1148741252">
+          <img class="itunes" src="/images/install/mac-store.svg">
+        </a>
+      </div>
+      <div class="install_windows-download">
+
+      </div>
+      <div class="install_linux-download">
+
+      </div>
+
+    </div>
+  </div>
 </section>
 
 <section class="container">
-  <div class="card theme_box--dark-strong install-mobile">
+  <div class="card theme_box--dark-strong install-box">
     <div class="wrap">
       <p class="label theme_type--grey">iOS &amp; Android</p>
       <h2 class="display theme_type--dark">Mobile Apps</h2>
@@ -152,7 +174,7 @@ redirect_from:
     <div class="col--third">
       <h3 class="display--small theme_type--dark">Snap</h3>
       <p class="theme_type--grey">Snaps are an easy and secure way to install and manage apps and their dependencies.</p>
-      
+
       <p class="label--small theme_type--dark">On a Snaps enabled system run</p>
       <pre class="code code--dark">$ snap install rocketchat-server</pre>
     </div>
@@ -160,7 +182,7 @@ redirect_from:
     <div class="col--third">
       <h3 class="display--small theme_type--dark">Bundle</h3>
       <p class="theme_type--grey">Download the bundle to install on your own server, using one of our installation methods found <a href="https://rocket.chat/docs/installation/manual-installation/">here</a></p>
-      
+
       <p class="label--small theme_type--dark">Select version</p>
       <div class="flex-grid--nobreak">
         <div class="col no-gutter">

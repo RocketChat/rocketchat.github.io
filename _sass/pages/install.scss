@@ -42,20 +42,25 @@
 
   select {
     color: #fff;
-    
+
     option {
-      background-color: $space-b; 
+      background-color: $space-b;
     }
   }
 }
 
-.install-mobile {
+.install-box {
   margin-bottom: 5em;
   background-repeat: no-repeat;
   background-image: url("/images/install/mobile-haft.png");
   background-position: center bottom;
   background-size: auto 20em;
   padding-bottom: 20em;
+  background-color: $space-void;
+
+  &.desktop {
+    background-image: url("/images/install/desktop.png");
+  }
 
   @media (min-width: $tablet) {
     @include flexbox();
@@ -91,5 +96,12 @@
 
   @media (min-width: $tablet) {
     margin-bottom: 10em;
+  }
+}
+
+.install {
+  .hero {
+    min-height: 0;
+    margin-bottom: 107px;
   }
 }
