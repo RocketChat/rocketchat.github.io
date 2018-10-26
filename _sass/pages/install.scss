@@ -94,11 +94,7 @@
 }
 
 .install-server {
-  margin-bottom: 5em;
 
-  @media (min-width: $tablet) {
-    margin-bottom: 10em;
-  }
 }
 
 .install {
@@ -128,4 +124,46 @@
       display: none;
     }
   }
+
+  .try-cloud {
+    margin-bottom: 5em;
+    background-repeat: no-repeat;
+    background-image: url("/images/install/try-cloud.svg");
+    background-position: right bottom;
+    background-size: auto 20em;
+    padding-bottom: 20em;
+    height: 486px;
+
+    @media (min-width: $tablet) {
+      @include flexbox();
+      padding-bottom: 0;
+      background-size: contain;
+      background-position: right bottom;
+
+      .wrap {
+        padding: 2em;
+        max-width: 30%;
+      }
+    }
+
+    @media (min-width: 62em) {
+      background-position: right bottom;
+
+      .wrap {
+        padding: 3em 4em;
+        max-width: 50%;
+      }
+    }
+
+    .button {
+      background-color: #fff;
+      color: $brand;
+    }
+
+    img {
+      width: 9em;
+      margin-right: 1em;
+    }
+  }
+
 }
