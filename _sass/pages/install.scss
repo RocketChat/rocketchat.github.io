@@ -27,45 +27,17 @@
   }
 }
 
-.select-download {
-  border: 1px solid $grey-dark;
-  background: $space-b;
-
-  @media (min-width: $tablet) {
-    font-size: 0.8em;
-  }
-
-  &:after {
-    border-top: 1.5px solid #fff;
-    border-right: 1.5px solid #fff;
-  }
-
-  select {
-    color: #fff;
-
-    option {
-      background-color: $space-b;
-    }
-  }
-}
-
 .install-box {
   margin-bottom: 5em;
   background-repeat: no-repeat;
-  background-image: url("/images/install/mobile-haft.png");
   background-position: center bottom;
   background-size: auto 20em;
   padding-bottom: 20em;
   background-color: $space-void;
 
-  &.desktop {
-    background-image: url("/images/install/desktop.png");
-  }
-
   @media (min-width: $tablet) {
     @include flexbox();
     padding-bottom: 1.5em;
-    background-image: url("/images/install/mobile.png");
     background-size: auto 90%;
     background-position: right -40% bottom;
     margin-bottom: 10em;
@@ -86,15 +58,6 @@
       max-width: 50%;
     }
   }
-
-  img {
-    width: 9em;
-    margin-right: 1em;
-  }
-}
-
-.install-server {
-
 }
 
 .install {
@@ -105,14 +68,72 @@
 
   &_desktop-buttons {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 32px;
-
+    width: 90%;
     .button {
       padding: 5px 10px;
+      margin-right: 16px;
       &:not(.active){
         background-color: unset;
       }
+    }
+  }
+
+  &__desktop-image {
+    flex: 1;
+    flex: 1;
+    margin-top: -66px;
+    margin-bottom: 50px !important;
+
+  }
+
+  &__tags-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+
+  &__tag-wrapper {
+    width: 100%;
+  }
+
+  &__tag {
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    background-color: $space-grey;
+    padding: 23px 25px;
+
+    img {
+      height: 40px;
+      width: 40px;
+      margin-right: 17px;
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__tag-link-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .link {
+      border-radius: 2px;
+      background-color: #31415b;
+      padding: 0 8px;
+      color:$grey;
+      font-size: 10px;
+      letter-spacing: 0.7px;
+      line-height: 1.6;
+      margin-right: 8px;
+      text-transform: uppercase;
+      font-weight: 700;
     }
   }
 
@@ -123,6 +144,25 @@
     &:not(.active){
       display: none;
     }
+
+    .store-download {
+      margin-bottom: 17px;
+
+      img {
+        width: 180px;
+      }
+    }
+  }
+
+  .manual-download {
+    width: 180px;
+    height: 44px;
+    border-radius: 2px;
+    background-color: $grey-dark;
+  }
+
+  .more-options {
+    margin-top: 30px;
   }
 
   .try-cloud {

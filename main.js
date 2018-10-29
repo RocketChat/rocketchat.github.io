@@ -407,3 +407,32 @@ $('.youtube-image-link, .youtube-text-link').on('click touch', function (e) {
     }
  }, 500);
 })
+
+$('.install_desktop-buttons .button').on('click', function (e) {
+  e.preventDefault();
+  var os =  e.target.dataset.os;
+  console.log(os);
+  $('.install_desktop-buttons .button.active').removeClass('active');
+  $('.install_download.active').removeClass('active');
+
+  $(this).addClass(' active');
+  $('.install_download.'+os).addClass(' active');
+})
+
+if(location.pathname == "/install/") {
+  var os="Unknown OS";
+  if (navigator.appVersion.indexOf("Win")!=-1) {
+    os="windows"
+  } else if (navigator.appVersion.indexOf("Mac")!=-1) {
+    os="mac";
+  } else if (navigator.appVersion.indexOf("Linux")!=-1) {
+    os="linux";
+  }
+
+  $('.install_desktop-buttons .button.active').removeClass('active');
+  $('.install_download.active').removeClass('active');
+
+  $(`.install_desktop-buttons .button.${os}`).addClass(' active');
+  $('.install_download.'+os).addClass(' active');
+}
+

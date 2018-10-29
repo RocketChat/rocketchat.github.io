@@ -1,0 +1,15 @@
+
+<div class="install__tag">
+    <img src="{{include.tag.image}}">
+    <div class="install__tag-wrapper">
+        <h3 class="title">{{include.tag.title}}</h3>
+        <div class="install__tag-link-wrapper">
+            {% if include.tag.official %}
+                <a href="{{include.tag.official}}" class="link">Official</a>
+            {% endif %}
+            {% if include.tag.autoUpdate %}
+                <a href="{{include.tag.autoUpdate}}" class="link">Auto Update</a>
+            {% endif %}
+        </div>
+    </div>
+</div>

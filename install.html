@@ -120,29 +120,40 @@ redirect_from:
   </div>
 </section> -->
 
-<section class="container">
+<section class="container js-download">
   <div class="card theme_box--dark-strong install-box desktop">
     <div class="wrap">
       <h2 class="display theme_type--dark">Desktop Apps</h2>
       <div class="install_desktop-buttons">
-        <a href="" class="button mac active">Mac</a>
-        <a href="" class="button windows">Windows</a>
-        <a href="" class="button linux">Linux</a>
+        <a data-os="mac" href="" class="button mac active">Mac</a>
+        <a data-os="windows" href="" class="button windows">Windows</a>
+        <a data-os="linux" href="" class="button linux">Linux</a>
       </div>
-      <div class="install_download active">
-        <a target="_blank" rel="noopener noreferrer" href="//itunes.apple.com/app/rocket-chat/id1148741252">
+      <div class="install_download mac active">
+        <a class="store-download" target="_blank" rel="noopener noreferrer" href="//itunes.apple.com/app/rocket-chat/id1148741252">
           <img class="itunes" src="/images/install/mac-store.svg">
-          <a href="" class="button">Direct Download</a>
         </a>
+        <div class="select--theme-dark select-download">
+          <select class="js-select-download" data-target="macos">
+            <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.dmg">dmg</option>
+            <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.pkg">pkg</option>
+          </select>
+        </div>
+        <a href="" download="" data-download="macos" class="button manual-download">Direct Download</a>
+        <a class="button--link more-options" href="" target="_blank" rel="noopener noreferrer">More Options</a>
+
       </div>
-      <div class="install_download">
-        <a href="" class="button">Direct Download</a>
+      <div class="install_download windows">
+        <a href="" class="button manual-download">Direct Download</a>
+        <a class="button--link more-options" href="" target="_blank" rel="noopener noreferrer">More Options</a>
       </div>
-      <div class="install_download">
-          <a href="" class="button">Direct Download</a>
+      <div class="install_download linux">
+          <a href="" class="button manual-download">Direct Download</a>
+          <a class="button--link more-options" href="" target="_blank" rel="noopener noreferrer">More Options</a>
       </div>
 
     </div>
+    <img class="install__desktop-image" src="/images/install/desktop.png" alt="desktop">
   </div>
 </section>
 
@@ -152,13 +163,16 @@ redirect_from:
       <p class="label theme_type--grey">iOS &amp; Android</p>
       <h2 class="display theme_type--dark">Mobile Apps</h2>
       <p class="theme_type--grey">Take your conversations with you and never miss the action with our mobile apps for iOS and Android.</p>
-      <a target="_blank" rel="noopener noreferrer" href="//play.google.com/store/apps/details?id=chat.rocket.android">
-        <img src="/images/install/google-play.svg">
-      </a>
-      <a target="_blank" rel="noopener noreferrer" href="//itunes.apple.com/app/rocket-chat/id1148741252">
-        <img class="itunes" src="/images/install/itunes-store.svg">
-      </a>
+      <div class="mobile-download">
+        <a target="_blank" rel="noopener noreferrer" href="//play.google.com/store/apps/details?id=chat.rocket.android">
+          <img src="/images/install/google-play.svg">
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="//itunes.apple.com/app/rocket-chat/id1148741252">
+          <img class="itunes" src="/images/install/itunes-store.svg">
+        </a>
+      </div>
     </div>
+    <img class="install__mobile-image" src="/images/install/mobile.png" alt="mobile">
   </div>
 </section>
 
@@ -179,4 +193,15 @@ redirect_from:
   </div>
 </section>
 
+
+<section class="container">
+  <div class="install__tags-container">
+      {% for tag in site.data.install-tags %}
+        {% include install-tags.html tag=tag %}
+      {% endfor %}
+  </div>
+
+</section>
+
+<div class="space--6"></div>
 {% include adwords/install.html %}
