@@ -133,13 +133,7 @@ redirect_from:
         <a class="store-download" target="_blank" rel="noopener noreferrer" href="//itunes.apple.com/app/rocket-chat/id1148741252">
           <img class="itunes" src="/images/install/mac-store.svg">
         </a>
-        <div class="select--theme-dark select-download">
-          <select class="js-select-download" data-target="macos">
-            <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.dmg">dmg</option>
-            <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.pkg">pkg</option>
-          </select>
-        </div>
-        <a href="" download="" data-download="macos" class="button manual-download">Direct Download</a>
+        <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.dmg" download="" data-download="macos" class="button manual-download">Direct Download</a>
         <a class="button--link more-options" href="" target="_blank" rel="noopener noreferrer">More Options</a>
 
       </div>
@@ -148,7 +142,16 @@ redirect_from:
         <a class="button--link more-options" href="" target="_blank" rel="noopener noreferrer">More Options</a>
       </div>
       <div class="install_download linux">
-          <a href="" class="button manual-download">Direct Download</a>
+          <p class="label theme_type--grey">Select your Version</p>
+          <div class="select--theme-dark select-download">
+            <select class="js-select-download" data-target="linux">
+              <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat_{{ site.data.install.desktop.version }}_amd64.deb">deb(x64)</option>
+              <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat_{{ site.data.install.desktop.version }}_i386.deb">deb(x86)</option>
+              <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.x86_64.rpm">rpm(x64)</option>
+              <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.i686.rpm">rpm(x86)</option>
+            </select>
+          </div>
+          <a href="" download="" data-download="linux" class="button manual-download">Direct Download</a>
           <a class="button--link more-options" href="" target="_blank" rel="noopener noreferrer">More Options</a>
       </div>
 
@@ -158,7 +161,7 @@ redirect_from:
 </section>
 
 <section class="container">
-  <div class="card theme_box--dark-strong install-box">
+  <div class="card theme_box--dark-strong install-box mobile">
     <div class="wrap">
       <p class="label theme_type--grey">iOS &amp; Android</p>
       <h2 class="display theme_type--dark">Mobile Apps</h2>
@@ -172,17 +175,19 @@ redirect_from:
         </a>
       </div>
     </div>
-    <img class="install__mobile-image" src="/images/install/mobile.png" alt="mobile">
+    <img class="install__mobile-image" src="/images/install/iphoneFull.png" alt="mobile">
+    <img class="install__mobile-image" src="/images/install/androidFull.png" alt="mobile">
+
   </div>
 </section>
 
 <section class="container install-server">
   <div class="flex-grid grid--justify-around align--center">
-      <div class="col--haft">
-        <h2 class="display theme_type--dark">Server Installation</h2>
-        <p class="display--small theme_type--grey">Rocket.Chat offers affordable, scalable and secure Cloud</p>
-      </div>
+    <div class="col--haft">
+      <h2 class="display theme_type--dark">Server Installation</h2>
+      <p class="display--small theme_type--grey">Rocket.Chat offers affordable, scalable and secure Cloud</p>
     </div>
+  </div>
 
   <div class="card theme_box--dark-strong try-cloud">
     <div class="wrap">
@@ -193,14 +198,21 @@ redirect_from:
   </div>
 </section>
 
+<div class="space--6"></div>
 
 <section class="container">
-  <div class="install__tags-container">
-      {% for tag in site.data.install-tags %}
-        {% include install-tags.html tag=tag %}
-      {% endfor %}
+  <div class="flex-grid grid--justify-around align--center">
+    <div class="col--haft">
+      <h2 class="display theme_type--dark">Self-Hosting</h2>
+      <p class="display--small theme_type--grey">Give you more freedom of choice</p>
+    </div>
   </div>
-
+  <div class="space--3"></div>
+  <div class="install__tags-container">
+    {% for tag in site.data.install-tags %}
+      {% include install-tags.html tag=tag %}
+    {% endfor %}
+  </div>
 </section>
 
 <div class="space--6"></div>
