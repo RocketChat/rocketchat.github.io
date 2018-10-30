@@ -130,6 +130,7 @@
   font-weight: 600;
   transition: all $tranitions;
   color: $brand;
+  cursor: pointer;
 
   &:hover {
     color: $brand-dark;
