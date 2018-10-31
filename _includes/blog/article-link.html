@@ -5,7 +5,7 @@ href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include
         class="card--blog__cover"
         {% if include.post.cover and include.post.isLogo%}
             {% if include.post.bgColor %}
-                style="background-image: url('{{ include.post.cover }}'); background-size: cover; background-color: #{{include.post.bgColor}};"
+                style="background-image: url('{{ include.post.cover }}'); background-size: contain; background-color: #{{include.post.bgColor}};"
             {% endif %}
             style="background-image: url('{{ include.post.cover }}'); background-size: cover;"
         {% elsif include.post.cover %}
