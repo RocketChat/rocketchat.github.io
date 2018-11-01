@@ -1,0 +1,47 @@
+<a class="card--blog card--blog__image{% if include.post.dateEvent %} event{% endif %}"
+href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include.post.url | remove: "index.html" }} {% endif %}'
+>
+    <div
+        class="card--blog__cover"
+        {% if include.post.cover and include.post.isLogo%}
+            {% if include.post.bgColor %}
+                style="background-image: url('{{ include.post.cover }}'); background-size: contain; background-color: #{{include.post.bgColor}};"
+            {% endif %}
+            style="background-image: url('{{ include.post.cover }}'); background-size: cover;"
+        {% elsif include.post.cover %}
+            style="background-image: url('{{ include.post.cover }}');"
+        {% else %}
+            style="background-image: url('/images/blog/post.jpg')"
+        {% endif %}
+    ></div>
+    <div class="card--blog__wrap">
+        <!-- If post has a dateEvent attribute, it is a event post -->
+        {% if include.post.dateEvent %}
+            <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ include.post.dateEvent | date: "%a" }}</p>
+            <h4 class="display theme_type--dark">
+              {{ include.post.dateEvent | date: "%m.%d" }}
+              {% if include.post.dateEventEnd %}
+                — {{ include.post.dateEventEnd | date: "%m.%d" }}
+              {% endif %}
+            </h4>
+            <h3 class="text theme_type--dark type--nomargin">
+            {% if include.post.type %}<strong>{{ include.post.type }}:</strong> {% endif %}
+            {{ include.post.title }}</h3>
+            <div class="space--1"></div>
+            <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ include.post.location }}</p>
+        {% else %}
+            <!-- If not, is a normal blog post -->
+            <p class="card--blog__meta label--small theme_type--grey">
+                {{ include.post.date | date: "%b %-d, %Y" }}
+                —
+                {% assign words = include.post.content | number_of_words %}
+                {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
+            </p>
+            <h3 class="card--blog__title theme_type--dark">{{ include.post.title }}</h3>
+            <div class="card--blog__data">
+                <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ include.post.categories[0] }}</p>
+                <p class="card--blog__author text--small theme_type--grey">by {{ include.post.author }}</p>
+            </div>
+        {% endif %}
+    </div>
+</a>

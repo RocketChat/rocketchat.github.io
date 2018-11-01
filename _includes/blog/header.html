@@ -1,11 +1,11 @@
-<div class="blog__header flex-grid">  
+<div class="blog__header flex-grid">
   <p class="blog__list-cat col no-gutter">
     <span>
       <a class="label theme_type--dark {% if page.category == 'home' %}blog__list-current{% endif %}" href="/blog/index.html">Home</a>
-      {% assign categories_list = site.categories %}
+      {% assign categories_list = site.data.categoryOrder %}
         {% if categories_list.first[0] == null %}
           {% for category in categories_list %}
-            <a 
+            <a
               class="label theme_type--dark {% if category == page.category %}blog__list-current{% endif %}"
               href="/category/{{ category | slugify }}/"
             >
@@ -14,7 +14,7 @@
           {% endfor %}
         {% else %}
           {% for category in categories_list %}
-            <a 
+            <a
               class="label theme_type--dark {% if category[0] == page.category %}blog__list-current{% endif %}"
               href="/category/{{ category[0] | slugify }}/"
             >

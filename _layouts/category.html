@@ -5,7 +5,6 @@ title: Categories
 theme: dark
 permalink: /categories/
 ---
-
 <div class="container">
   {% include blog/header.html %}
 
@@ -39,33 +38,11 @@ permalink: /categories/
 
     {% assign UpcomingSorted = Upcoming | sort: "dateEvent"  %}
 
+
     <h3 class="display--small theme_type--dark blog__section"><strong>Upcoming</strong></h3>
-    <div class="{% if Upcoming.size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
+    <div class="{% if noHighlight == true %}blog__category--no-highlight{% elsif Upcoming.size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
       {% for post in UpcomingSorted %}
-        <a 
-          class="card--blog card--blog__image"
-          href="{{ post.url | remove: "index.html" }}"
-          {% if post.cover %}
-            style="background-image: url('{{ post.cover }}')"
-          {% else %}
-            style="background-image: url('/images/blog/post.jpg')"
-          {% endif %}
-        >
-          <div class="card--blog__wrap">
-            <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
-            <h4 class="display theme_type--dark">
-              {{ post.dateEvent | date: "%m.%d" }}
-              {% if post.dateEventEnd %} 
-                — {{ post.dateEventEnd | date: "%m.%d" }}
-              {% endif %}
-            </h4>
-            <h3 class="text theme_type--dark type--nomargin">
-            {% if post.type %}<strong>{{ post.type }}:</strong> {% endif %}
-            {{ post.title }}</h3>
-            <div class="space--1"></div>
-            <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ post.location }}</p>
-          </div>
-        </a>
+        {% include blog/article-link.html post=post %}
       {% endfor %}
     </div>
 
@@ -74,58 +51,15 @@ permalink: /categories/
     <h3 class="display--small theme_type--dark blog__section"><strong>Past</strong></h3>
     <div class="blog__category">
       {% for post in Past %}
-        <a 
-          class="card--blog card--blog__image"
-          href="{{ post.url | remove: "index.html" }}"
-          {% if post.cover %}
-            style="background-image: url('{{ post.cover }}')"
-          {% else %}
-            style="background-image: url('/images/blog/post.jpg')"
-          {% endif %}
-        >
-          <div class="card--blog__wrap">
-            <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
-            <h4 class="display theme_type--dark">
-              {{ post.dateEvent | date: "%m.%d" }}
-              {% if post.dateEventEnd %} 
-                — {{ post.dateEventEnd | date: "%m.%d" }}
-              {% endif %}
-            </h4>
-            <h3 class="text theme_type--dark type--nomargin"><strong>{{ post.type }}:</strong> {{ post.title }}</h3>
-            <div class="space--1"></div>
-            <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ post.location }}</p>
-          </div>
-        </a>
+        {% include blog/article-link.html post=post %}
       {% endfor %}
     </div>
 
   <!-- Else posts -->
   {% else %}
-    <div class="{% if site.categories[page.category].size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
+    <div class="{% if page.noHighlight %}blog__category--no-highlight{% elsif site.categories[page.category].size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
       {% for post in site.categories[page.category] %}
-        <a 
-          class="card--blog card--blog__image"
-          href="{{ post.url | remove: "index.html" }}"
-          {% if post.cover %}
-            style="background-image: url('{{ post.cover }}')"
-          {% else %}
-            style="background-image: url('/images/blog/post.jpg')"
-          {% endif %}
-        >
-          <div class="card--blog__wrap">
-            <p class="card--blog__meta label--small theme_type--grey">
-              {{ post.date | date: "%b %-d, %Y" }}
-              — 
-              {% assign words = post.content | number_of_words %}
-              {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
-            </p>
-            <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
-            <div class="card--blog__data">
-              <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ post.categories[0] }}</p>
-              <p class="card--blog__author text--small theme_type--grey">by {{ post.author }}</p>
-            </div>
-          </div>
-        </a>
+        {% include blog/article-link.html post=post %}
       {% endfor %}
     </div>
   {% endif %}

@@ -146,7 +146,7 @@
 
   @media screen and (min-width: $tablet) {
     max-width: 50%;
-    padding: 5em 6.5em 5em 7em;
+    padding: 5%;
   }
 }
 
@@ -475,5 +475,77 @@
       padding: 1em 2.2em;
       max-width: none;
     }
+  }
+}
+
+body.index .featherlight .featherlight-content {
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    max-height: 100%;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+}
+
+.youtube-video {
+  width: 100%;
+  height: 100%;
+}
+
+#youtube-link{
+  display: none;
+}
+
+.youtube-image-link {
+  width: 576px;
+  height: 360px;
+  margin: auto;
+  background: url("/images/default/video-placeholder.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: $tablet) {
+   width: 426px;
+   height: 310px;
+  }
+
+  @media (max-width: $mobile) {
+    width: 100%;
+    height: 40vh;
+   }
+}
+
+.youtube-play {
+  width: 104px;
+  height: 104px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 100px;
+  transition: filter 1s;
+  cursor: pointer;
+
+  &:hover {
+    filter: invert(1);
+  }
+
+  @media (max-width: $mobile) {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.featherlight-content > #youtube-link {
+  display: block;
+  width: 70vw;
+  height: 90vh;
+  overflow: hidden;
+
+  @media (max-width: $tablet) {
+    width: 97vw;
+    height: 90vh;
   }
 }

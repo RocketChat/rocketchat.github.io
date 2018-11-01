@@ -9,6 +9,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
   <link rel="stylesheet" href="/styles.css?v={{ site.version }}">
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@RocketChat">
@@ -24,8 +25,6 @@
   <meta property="og:image" content="{{ site.url }}/images/blog/post.jpg" />
   {% endif %}
 
-  {% include alexa.html %}
-
   {% include gtm/head.html %}
 </head>
 <body class="{{ page.class }} {{ page.theme }} {{ page.layout }}">
@@ -35,9 +34,10 @@
 {% endcomment %}
 {% include gtm/body.html %}
 {{ content }}
-<script src="/jquery.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="/main.js"></script>
 <script src="/redirect.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <!--[if IE]>
   <script src="/polyfill/modernizr.js"></script>
   <script src="/polyfill/respond.min.js"></script>

@@ -7,12 +7,13 @@
   var SEARCH_FIELD = $('.hero .search')
   var MODAL_WRAPPER_EL = $('.add-app-modal-wrapper')
   var MODAL_TEMPLATE = $('#add-app-modal-template')
+  var APPS_MESSAGE_CONTAINER = $('.apps-message-container')
   var APPS = []
 
   var clipboard
 
   var getAppsData = function () {
-    fetch('https://marketplace.rocket.chat/v1/apps')
+    return fetch('https://marketplace.rocket.chat/v1/apps')
       .then(function (res) {
         return res.json()
       })
@@ -70,23 +71,60 @@
     return list
   }
 
-  var createCategoriesMenu = function (categories) {
-    var list = $('.apps-list-container').find('.links-list')
+  var createCategoriesMenuList = function (categories, selected) {
     var virtualList = ''
+    var highlightedIndex = 0
     categories = categories || []
 
     for (var i = 0; i < categories.length; i++) {
       var title = categories[i].title
       var li = '<li data-category="' + title + '" class="links-list-item">{{button}}</li>'
 
-      var button = '<button data-category="' + title + '" class="app-category-button">' + title + '</button>'
+      if (selected == title) {
+        highlightedIndex = i + 1
+      }
+
+      var button = '<button data-category="' + title + '" class="app-category-button ">' + title + '</button>'
 
       li = li.replace(/{{button}}/, button)
 
       virtualList += li
     }
 
-    list.append(virtualList)
+    return {
+      virtualList: virtualList,
+      highlightedIndex: highlightedIndex
+    }
+  }
+
+  var getCategoriesTitles = function (categories) {
+    var titles = []
+
+    for (var i = 0; i < categories.length; i++) {
+      titles.push(categories[i].title)
+    }
+
+    return titles
+  }
+
+  var createCategoriesMenu = function (categories) {
+    var list = $('.apps-list-container').find('.links-list')
+    var selectedCategory = getCategoryFromUrl()
+    var menuListObj = {}
+    var categoriesTitles = getCategoriesTitles(categories)
+
+    if (categoriesTitles.indexOf(selectedCategory) == -1) {
+      selectedCategory = ''
+    }
+    menuListObj = createCategoriesMenuList(categories, selectedCategory)
+
+    list.append(menuListObj.virtualList)
+
+    list.find('button').eq(menuListObj.highlightedIndex).addClass('highlight')
+
+    if (selectedCategory) {
+      filterByCategory(selectedCategory, APPS)
+    }
 
     bindCategoriesMenuEvents()
 
@@ -159,12 +197,29 @@
   }
 
   var showFetchError = function () {
+    showAppsListMessage('sorry, an error occurred and we couldn\'t load the data', true)
+  }
+
+  var showAppsListMessage = function (message, isError) {
     var appsListEl = APPS_LIST_EL
+    var errorClass = isError ? 'error-message' : ''
     appsListEl.empty()
 
-    var errorEl = $('<li class="flex-grid error-message-wrapper"><div class="error-message">sorry, an error occurred and we couldn\'t load the data</div></li>')
+    var messageEl = $('<li class="flex-grid message-wrapper"><div class="' + errorClass + '">' + message + '</div></li>')
 
-    appsListEl.append(errorEl)
+    appsListEl.append(messageEl)
+  }
+
+  var showEmptyCategoryMessage = function (category) {
+    APPS_MESSAGE_CONTAINER
+      .find('.message')
+      .text('No results found for "' + category + '"')
+
+    APPS_MESSAGE_CONTAINER.removeClass('display-none')
+  }
+
+  var hideEmptyCategoryMessage = function () {
+    APPS_MESSAGE_CONTAINER.addClass('display-none')
   }
 
   var setSearchListPosition = function () {
@@ -210,6 +265,8 @@
 
     if (!category) {
       createAppList(APPS)
+      setCategoryOnUrl('')
+      hideEmptyCategoryMessage()
       return
     }
 
@@ -224,6 +281,37 @@
     }
 
     createAppList(filtered)
+
+    if (filtered.length) {
+      createAppList(filtered)
+      setCategoryOnUrl(category)
+      hideEmptyCategoryMessage()
+    } else {
+      showEmptyCategoryMessage(category)
+    }
+  }
+
+  var setCategoryOnUrl = function (category) {
+    var url = window.location.href.replace(/\?category=.*/g, '')
+    var queryParameters = '?category=' + encodeURIComponent(category)
+
+    if (!category) {
+      queryParameters = ''
+    }
+
+    window.history.pushState({}, '', url + queryParameters)
+  }
+
+  var getCategoryFromUrl = function () {
+    var match = window.location.href.match(/\?category=.*/)
+    var category = ''
+
+    if (match) {
+      category = match[0].replace(/\?category=/, '').trim()
+      category = decodeURIComponent(category)
+    }
+
+    return category
   }
 
   var createModalContent = function (app) {
@@ -289,7 +377,9 @@
       appCategoryButons.removeClass('highlight')
       target.addClass('highlight')
 
-      filterByCategory(target.data().category, APPS)
+      var category = target.data().category
+
+      filterByCategory(category, APPS)
     })
   }
 
@@ -319,7 +409,7 @@
     SEARCH_RESULTS_EL.on('click', function (ev) {
       var name = $(ev.target).parents('.search-result').data().name
       var app = findAppByName(name, APPS)
-      console.log(app)
+
       if (app.name) {
         createSearchList([])
         openModal(app)
@@ -332,6 +422,7 @@
   }
 
   bindEvents()
-  getAppsData()
-  getCategoriesData()
+  getAppsData().then(function () {
+    getCategoriesData()
+  })
 })()

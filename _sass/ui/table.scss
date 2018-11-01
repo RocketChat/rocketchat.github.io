@@ -22,6 +22,15 @@
         max-width: calc(100% / 3);
       }
     }
+    &.table--four-column {
+      table {
+        max-width: calc(100% / 4);
+        tr {
+          height: 420px;
+        }
+
+      }
+    }
   }
 
   table {
@@ -34,7 +43,6 @@
       margin-bottom: 0;
 
       ~ table {
-        margin-left: -2px;
         position: relative;
 
         th span {
@@ -54,7 +62,7 @@
   }
 
   td {
-    padding: 2em;
+    padding: 1em;
     vertical-align: top;
     min-width: 14em;
     line-height: 1.2;

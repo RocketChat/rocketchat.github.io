@@ -9,14 +9,47 @@
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-color: #1d74f5;
+  background-color: #fff;
 
   @media screen and (min-width: $tablet) {
     background-image: url("../images/cloud/hero@2x.jpg");
   }
-}
 
-body.pricing {
+  @media screen and (max-width: $tablet) {
+    background-color: $brand;
+    background-position: 50% 101%; // Workaround for a bug in chrome, that creates a 1px gap under the background image, creating a blue line in this case.
+  }
+}
+.pricing {
+
+  &-concession{
+    background-image: url("/images/press/hero@2x.jpg");
+    background-size: auto 100%;
+    background-color: #040b1b;
+    .wrap {
+      padding: 3em 5em;
+
+      @media screen and (max-width: $tablet) {
+        padding: 48px 32px;
+        width: 100%;
+        max-width: 100%;
+
+        .button {
+          width: 100%;
+        }
+      }
+    }
+
+    @media screen and (max-width: $tablet) {
+      background-image: none;
+      padding: 16px;
+    }
+  }
+
+  section.container {
+    margin: 2em auto;
+  }
+
   .headroom--top {
     &.app-header_wrap {
       background: none !important;
@@ -72,23 +105,33 @@ body.pricing {
 
   .switch-container {
     display: flex;
-    width: 369px;
+    width: 434px;
     margin: 0 auto;
     justify-content: space-between;
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+    }
   }
 
   .col.title {
     margin-bottom: 102px;
   }
 
-  .switch{
+  .switch {
     border-radius: 2px;
     height: 43px;
-    width: 184px;
+    line-height: 43px;
+    width: 50%;
     background: #A3B4CC;
+    color: #fff;
+    margin: 0 .5em;
+    cursor: pointer;
+
     &.active {
-      background: #030c1a;
+      background: $brand;
     }
+
+
 
     p {
       color: #FFFFFF;
@@ -100,7 +143,7 @@ body.pricing {
     }
   }
 
-  .self-managed__container {
+  .cloud__container {
     display: none;
   }
 
@@ -112,5 +155,60 @@ body.pricing {
   // scroll
   .app-header--light {
     @include headerStyle();
+  }
+}
+
+.pricing_four-column {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+  }
+
+  .plan_wrapper {
+    width: 25%;
+    border: 1px solid #e7ebf2;
+    border-right-width: 0;
+    color: #6b7d99;
+    padding: 1em;
+    vertical-align: top;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+		@media screen and (max-width: $container) {
+			width: 33.333%;
+		}
+
+    &:last-child{
+      border-right-width: 1px;
+    }
+    @media screen and (max-width: $tablet) {
+      border: 1px solid #e7ebf2;
+      margin: 1em auto;
+      width: 100%;
+
+      .button {
+        font-size: 1em;
+      }
+    }
+
+    &.footer {
+      border: 1px solid #e7ebf2;
+      min-height: 0;
+      border-top: 0;
+
+      &:nth-child(2){
+        border: 0;
+        border-bottom: 1px solid #e7ebf2;
+      }
+      @media screen and (max-width: $tablet) {
+        display: none;
+      }
+    }
   }
 }

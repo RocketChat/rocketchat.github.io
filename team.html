@@ -13,6 +13,7 @@ theme: dark
 {% assign teamList = site.data.team %}
 
 {% assign BrazilTeam = "" | split: "" %}
+{% assign UruguayTeam = "" | split: "" %}
 {% assign CanadaTeam = "" | split: "" %}
 {% assign UnitedkingdomTeam = "" | split: "" %}
 {% assign USATeam = "" | split: "" %}
@@ -22,6 +23,9 @@ theme: dark
 {% for member in teamList %}
   {% if member.country == "Brazil" %}
     {% assign BrazilTeam = BrazilTeam | push: member %}
+  
+  {% elsif member.country == "Uruguay" %}
+    {% assign UruguayTeam = UruguayTeam | push: member %}
 
   {% elsif member.country == "Canada" %}
     {% assign CanadaTeam = CanadaTeam | push: member %}
@@ -97,6 +101,30 @@ theme: dark
       </div>
     </div>
 
+    <div class="team-map__pin uruguay">
+      <div class="team-map__profile left">
+        <div class="flags">
+          {% for member in UruguayTeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="/images/team/placeholder.png" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>Uruguay</strong>
+          <span><img src="/images/flags/Uruguay.png" alt="Uruguay" /></span>
+        </p>
+      </div>
+    </div>
+
     <div class="team-map__pin unitedkingdom">
       <div class="team-map__profile">
         <div class="flags">
@@ -168,8 +196,8 @@ theme: dark
         </p>
       </div>
     </div>
-
-    <div class="team-map__pin india">
+    <!-- Please uncomment here if we have a new team member from india -->
+    <!-- <div class="team-map__pin india">
       <div class="team-map__profile">
         <div class="flags">
           {% for member in IndiaTeam %}
@@ -191,6 +219,17 @@ theme: dark
           <span><img src="/images/flags/India.png" alt="India" /></span>
         </p>
       </div>
+    </div> -->
+  </div>
+</section>
+
+<section class="container">
+  <div class="card theme_box--dark-strong team-description">
+    <div class="wrap">
+      <p class="label theme_type--grey"></p>
+      <h2 class="display theme_type--dark">About Us</h2>
+      <p class="theme_type--grey">Rocket.Chat is more than your average company, we are the leading open source team chat community. When you choose Rocket.Chat, you become part of a global community comprised of a core team, hundreds of open source developers, testers and writers, and millions of users.</p>
+      <p class="theme_type--grey">We are building the future of communication and would love to build it with you. We are often looking for more team members, so check out our <a href="https://rocketchat.recruitee.com"><b>Jobs page</b></a> for opportunities!</p>
     </div>
   </div>
 </section>

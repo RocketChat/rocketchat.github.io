@@ -295,7 +295,7 @@ if (document.querySelector(".js-download")) {
     var homeMail = document.querySelector(".home-landingpage__mail");
     var homeChat = document.querySelector(".home-landingpage__chat");
     var support = document.querySelector(".support-hero__image");
-    var cloud = document.querySelector(".cloud-hero__image");
+    var cloud = document.querySelector(".pricing-hero__image");
     var install = document.querySelector(".install-hero__image");
     var partners = document.querySelector(".partners-hero__image");
     var partnersBody = document.querySelector("body.partners");
@@ -394,4 +394,16 @@ $('.switch').on('click', function () {
     $('.cloud__container').css("display","none");
     $('.self-managed__container').css("display","block");
   }
+})
+
+$('.youtube-image-link, .youtube-text-link').on('click touch', function (e) {
+  var checkExist = setInterval(function() {
+    if ($('.featherlight').length) {
+      if ($(e.target).hasClass('pt')){
+        $(".featherlight .youtube-video")[0].src = "https://www.youtube.com/embed/nkzfriX8IlE?autoplay=1";
+      }
+      $(".featherlight .youtube-video")[0].src += "?autoplay=1";
+      clearInterval(checkExist);
+    }
+ }, 500);
 })

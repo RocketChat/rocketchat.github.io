@@ -71,6 +71,17 @@
     }
   }
 
+  &.uruguay {
+    top: 90%;
+    left: 34.5%;
+    animation: 1s 0.6s appears forwards;
+
+    .team-map__profile {
+      animation: 1s 1.2s appearsBox forwards;
+      transform: translate(1.5em, -2em);
+    }
+  }
+
   &.peru {
     top: 78%;
     left: 29%;
@@ -186,6 +197,18 @@
     left: calc(50% - 0.3em);
   }
 
+  &.left:after {
+    content: "";
+    display: block;
+    border: 0.3em solid transparent;
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid rgba(56,74,102,0.55);
+    position: absolute;
+    bottom: auto;
+    top: 2em;
+    left: calc(50% - 3.5em);
+  }
+
   .flags {
     margin-bottom: 0.3em;
 
@@ -233,6 +256,42 @@
   @include flexbox();
   @include justify-content(space-between);
   @include flex-wrap(wrap);
+}
+
+.team-description {
+  margin-bottom: 5em;
+  background-repeat: no-repeat;
+  background-image: url("/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/rocket-chat-team-summit-2018.jpg");
+  background-position: center;
+  background-size: cover;
+
+  .wrap {
+    background-color: rgba(18,31,51,0.8);
+    padding: 3em 4em;
+    max-width: 50%;
+  }
+
+  @media (max-width: $tablet) {
+    @include flexbox();
+    padding-bottom: 1.5em;
+    margin-bottom: 7em;
+
+    .wrap {
+      padding: 2em;
+      max-width: 80%;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    background-color: $space-grey;
+    background-image: unset;
+    padding-bottom: 2em;
+
+    .wrap {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
 }
 
 .team-item {
