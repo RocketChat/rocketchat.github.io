@@ -71,6 +71,17 @@
     }
   }
 
+  &.uruguay {
+    top: 90%;
+    left: 34.5%;
+    animation: 1s 0.6s appears forwards;
+
+    .team-map__profile {
+      animation: 1s 1.2s appearsBox forwards;
+      transform: translate(1.5em, -2em);
+    }
+  }
+
   &.peru {
     top: 78%;
     left: 29%;
@@ -184,6 +195,18 @@
     position: absolute;
     bottom: -0.6em;
     left: calc(50% - 0.3em);
+  }
+
+  &.left:after {
+    content: "";
+    display: block;
+    border: 0.3em solid transparent;
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid rgba(56,74,102,0.55);
+    position: absolute;
+    bottom: auto;
+    top: 2em;
+    left: calc(50% - 3.5em);
   }
 
   .flags {

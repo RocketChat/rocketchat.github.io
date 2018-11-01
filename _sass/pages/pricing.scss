@@ -22,6 +22,30 @@
 }
 .pricing {
 
+  &-concession{
+    background-image: url("/images/press/hero@2x.jpg");
+    background-size: auto 100%;
+    background-color: #040b1b;
+    .wrap {
+      padding: 3em 5em;
+
+      @media screen and (max-width: $tablet) {
+        padding: 48px 32px;
+        width: 100%;
+        max-width: 100%;
+
+        .button {
+          width: 100%;
+        }
+      }
+    }
+
+    @media screen and (max-width: $tablet) {
+      background-image: none;
+      padding: 16px;
+    }
+  }
+
   section.container {
     margin: 2em auto;
   }

@@ -136,3 +136,33 @@ strong {
     margin-bottom: .5em;
   }
 }
+
+.number-ordered-list-half {
+  list-style: decimal;
+  padding: 0 16px;
+  margin: 16px 0;
+  width: 60%;
+  margin: auto;
+  @media (max-width: $tablet) {
+    width: 90%;
+  }
+}
+
+.unordered-list-half {
+  list-style: initial;
+  padding: 0 16px;
+  margin: 16px 0;
+  width: 60%;
+  margin: auto;
+  @media (max-width: $tablet) {
+    width: 90%;
+  }
+}
+
+.half-paragraph {
+  width: 65%;
+  margin: auto;
+  @media (max-width: $tablet) {
+    width: 100%;
+  }
+}

@@ -1,20 +1,79 @@
+- publisher: Softex
+  title: Softex predicts 10 million USD's worth of business for Brazilian delegation at Gartner Symposium/ITxpo
+  url: https://www.softex.br/softex-projeta-us-10-milhoes-em-negocios-para-a-delegacao-brasileira-no-gartner-symposium-itxpo/
+  date: 2018-10-09 10:00:00
+  cover: softex-logo.jpg
+  isLogo: true
+  bgColor: "ffffff"
+
+- publisher: Pro-Linux.de
+  title: Rocket.Chat and Nextcloud cooperate
+  url: https://www.pro-linux.de/news/1/26309/rocketchat-und-nextcloud-kooperieren.html
+  date: 2018-09-18 10:00:00
+  cover: pl-logo.jpg
+  isLogo: true
+  bgColor: "ffffff"
+
+- publisher: University of Cape Town News
+  title: Connecting the Ocean View Community
+  url: https://www.news.uct.ac.za/article/-2018-09-04-connecting-the-ocean-view-community
+  date: 2018-09-04 10:00:00
+  cover: cape-town-uni-logo.jpg
+  isLogo: true
+  bgColor: "ffffff"
+
+- publisher: Timecamp
+  title: Top 10 Chat Software for Teams
+  url: https://www.timecamp.com/blog/2018/08/top-10-chat-software-for-teams/
+  date: 2018-08-24 10:00:00
+  cover: timecamp-logo.jpg
+  isLogo: true
+  bgColor: "ffffff"
+
+- publisher: Business2Community
+  title: The Top 10 Slack Alternatives for Small Businesses
+  url: https://www.business2community.com/small-business/the-top-10-slack-alternatives-for-small-businesses-02087348
+  date: 2018-07-10 10:00:00
+  cover: B2C-logo.jpg
+  isLogo: true
+  bgColor: "f0f0f0"
+
+- publisher: BlockchainNews
+  title: Slack Out, Rocket.Chat In – Blockchain Community Leaders Aragon Lead Industry Exodus Amid Marked Increase In Phishing Scams
+  url: https://www.the-blockchain.com/2017/09/22/slack-rocket-chat-blockchain-community-leaders-aragon-lead-industry-exodus-amid-marked-increase-phishing-scams/
+  date: 2017-09-22 10:00:00
+  cover: blockchain-news-logo.jpg
+  isLogo: true
+  bgColor: "ffffff"
+
 - publisher: WIRED Magazine
   title: Open Sourcers Race to Build Better Versions of Slack
   url: http://www.wired.com/2016/03/open-source-devs-racing-build-better-versions-slack/
   date: 2016-03-16 10:00:00
   cover: wiredlogo.jpg
+  isLogo: true
+  bgColor: "ffffff"
 
 - publisher: The Register
   title: "Slack smackback: There is no IRC in team (software), say open-sourcers"
   url: http://www.theregister.co.uk/2016/03/17/no_slack_for_open_sourcers/
   date: 2016-03-17 10:00:00
+  cover: theregisterlogo.jpg
+  isLogo: true
+  bgColor: "fe0000"
 
 - publisher: Black Duck Software
-  title: Black Duck Announces Open Source “Rookies of the Year”
+  title: Black Duck Announces Open Source “Rookies of the Year
   url: https://www2.blackducksoftware.com/news/releases/black-duck-announces-open-source-rookies-of-the-year
   date: 2016-03-14 10:00:00
+  cover: Black-Duck-Logo.jpg
+  isLogo: true
+  bgColor: "ffffff"
 
 - publisher: Venture Beat
-  title: 5 open-source alternatives to Slack
+  title: 5 open source alternatives to Slack
   url: http://venturebeat.com/2015/11/27/5-open-source-alternatives-to-slack/
   date: 2015-11-27 10:00:00
+  cover: VentureBeat-Logo.jpg
+  isLogo: true
+  bgColor: "ffffff"
