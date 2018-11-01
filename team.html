@@ -23,7 +23,7 @@ theme: dark
 {% for member in teamList %}
   {% if member.country == "Brazil" %}
     {% assign BrazilTeam = BrazilTeam | push: member %}
-  
+
   {% elsif member.country == "Uruguay" %}
     {% assign UruguayTeam = UruguayTeam | push: member %}
 
@@ -223,6 +223,8 @@ theme: dark
   </div>
 </section>
 
+<div class="space--4"></div>
+
 <section class="container">
   <div class="card theme_box--dark-strong team-description">
     <div class="wrap">
@@ -301,3 +303,5 @@ theme: dark
     {% endif %}
   </ul>
 <section>
+
+<div class="space--4"></div>
