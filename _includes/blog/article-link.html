@@ -1,4 +1,4 @@
-<a class="card--blog card--blog__image"
+<a class="card--blog card--blog__image{% if include.post.dateEvent %} event{% endif %}"
 href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include.post.url | remove: "index.html" }} {% endif %}'
 >
     <div
