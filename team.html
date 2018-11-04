@@ -23,7 +23,7 @@ theme: dark
 {% for member in teamList %}
   {% if member.country == "Brazil" %}
     {% assign BrazilTeam = BrazilTeam | push: member %}
-  
+
   {% elsif member.country == "Uruguay" %}
     {% assign UruguayTeam = UruguayTeam | push: member %}
 
@@ -223,6 +223,8 @@ theme: dark
   </div>
 </section>
 
+<div class="space--4"></div>
+
 <section class="container">
   <div class="card theme_box--dark-strong team-description">
     <div class="wrap">
@@ -246,56 +248,60 @@ theme: dark
         {% else %}
           style="background-image: url(/images/team/placeholder.png"
         {% endif %}
-      ></div>
+      >
+      <div class="team-item__wrap">
+          <h3 class="team-item__name theme_type--dark">
+            <strong>{{ member.name }}</strong>
+            <span><img src="/images/flags/{{ member.country | replace: ' ', '-'  }}.png" alt="{{ member.country }}" /></span>
+          </h3>
+
+          <p class="team-item__role label--small theme_type--grey">{{ member.role }}</p>
+
+          {% if member.description %}
+            <label class="team-item__button" for="team-button__{{ forloop.index }}"></label>
+            <div class="team-item__bio">
+              {% for desc in member.description %}
+                <p>{{ desc }}</p>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          <div class="team-item__social">
+            {% if member.github_username %}
+              <a target="_blank" href="//github.com/{{ member.github_username }}" rel="noopener noreferrer">
+                <img src="/images/team/github.svg" alt="Github link" />
+              </a>
+            {% endif %}
+
+            {% if member.twitter %}
+              <a target="_blank" href="//twitter.com/{{ member.twitter }}" rel="noopener noreferrer">
+                <img src="/images/team/twitter.svg" alt="Twitter link" />
+              </a>
+            {% endif %}
+
+            {% if member.email %}
+              <a href="mailto:{{ member.email }}">
+                <img src="/images/team/email.svg" alt="{{ member.email }}" />
+              </a>
+            {% endif %}
+            {% if member.username %}
+              <a target="_blank" href="https://open.rocket.chat/direct/{{member.username}}">
+                <img src="/images/team/rocketchat.svg" alt="{{ member.username }}" />
+              </a>
+            {% endif %}
+          </div>
+        </div>
+    </div>
 
       <input class="team-button__toggle" id="team-button__{{ forloop.index }}" type="checkbox" />
-      <div class="team-item__wrap">
-        <h3 class="team-item__name theme_type--dark">
-          <strong>{{ member.name }}</strong>
-          <span><img src="/images/flags/{{ member.country | replace: ' ', '-'  }}.png" alt="{{ member.country }}" /></span>
-        </h3>
 
-        <p class="team-item__role label--small theme_type--grey">{{ member.role }}</p>
-
-        {% if member.description %}
-          <label class="team-item__button" for="team-button__{{ forloop.index }}"></label>
-          <div class="team-item__bio">
-            {% for desc in member.description %}
-              <p>{{ desc }}</p>
-            {% endfor %}
-          </div>
-        {% endif %}
-
-        <div class="team-item__social">
-          {% if member.github_username %}
-            <a target="_blank" href="//github.com/{{ member.github_username }}" rel="noopener noreferrer">
-              <img src="/images/team/github.svg" alt="Github link" />
-            </a>
-          {% endif %}
-
-          {% if member.twitter %}
-            <a target="_blank" href="//twitter.com/{{ member.twitter }}" rel="noopener noreferrer">
-              <img src="/images/team/twitter.svg" alt="Twitter link" />
-            </a>
-          {% endif %}
-
-          {% if member.email %}
-            <a href="mailto:{{ member.email }}">
-              <img src="/images/team/email.svg" alt="{{ member.email }}" />
-            </a>
-          {% endif %}
-          {% if member.username %}
-            <a target="_blank" href="https://open.rocket.chat/direct/{{member.username}}">
-              <img src="/images/team/rocketchat.svg" alt="{{ member.username }}" />
-            </a>
-          {% endif %}
-        </div>
-      </div>
     </li>
     {% endfor %}
-    {% capture modulo %}{{ teamList.size | modulo:3 }}{% endcapture %}
+    {% capture modulo %}{{ teamList.size | modulo:4 }}{% endcapture %}
     {% if modulo != '0' %}
        <li class="team-item empty"></li>
     {% endif %}
   </ul>
 <section>
+
+<div class="space--4"></div>

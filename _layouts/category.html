@@ -5,7 +5,6 @@ title: Categories
 theme: dark
 permalink: /categories/
 ---
-
 <div class="container">
   {% include blog/header.html %}
 
@@ -39,8 +38,9 @@ permalink: /categories/
 
     {% assign UpcomingSorted = Upcoming | sort: "dateEvent"  %}
 
+
     <h3 class="display--small theme_type--dark blog__section"><strong>Upcoming</strong></h3>
-    <div class="{% if Upcoming.size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
+    <div class="{% if noHighlight == true %}blog__category--no-highlight{% elsif Upcoming.size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
       {% for post in UpcomingSorted %}
         {% include blog/article-link.html post=post %}
       {% endfor %}
@@ -57,7 +57,7 @@ permalink: /categories/
 
   <!-- Else posts -->
   {% else %}
-    <div class="{% if site.categories[page.category].size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
+    <div class="{% if page.noHighlight %}blog__category--no-highlight{% elsif site.categories[page.category].size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
       {% for post in site.categories[page.category] %}
         {% include blog/article-link.html post=post %}
       {% endfor %}

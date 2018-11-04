@@ -253,9 +253,23 @@
 }
 
 .team-grid {
-  @include flexbox();
-  @include justify-content(space-between);
-  @include flex-wrap(wrap);
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 650px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 420px) {
+    grid-template-columns: repeat(1, 100%);
+    grid-auto-rows: 400px;
+  }
 }
 
 .team-description {
@@ -295,39 +309,26 @@
 }
 
 .team-item {
-  position: relative;
   border-radius: 2px;
   overflow: hidden;
-  width: 100%;
-  margin-bottom: 1em;
-
-  @media screen and (min-width: 33em) {
-    width: calc(100% / 2 - 0.5em);
-  }
-
-  @media screen and (min-width: 60em) {
-    margin-bottom: 3em;
-    width: calc(100% / 3 - 1.5em);
-  }
 }
 
 .team-item__image {
-  padding-top: 120%;
   background-size: cover;
   background-position: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
 }
 
 .team-item__wrap {
-  position: absolute;
-  left: 0.5em;
-  bottom: 0.5em;
-  right: 0.5em;
   background: rgba($space, 0.9);
   border-radius: 2px;
   padding: 1em;
-  height: 7.8em;
-  max-height: 7.8em;
   transition: all 0.5s ease;
+  margin: 8px;
 }
 
 .team-button__toggle {
@@ -362,13 +363,7 @@
 }
 
 .team-item__social {
-  height: 4em;
   margin-top: 1em;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 1em;
   border-top: 1px solid transparent;
   transition: all 0.7s ease;
 
@@ -397,9 +392,6 @@
     height: 0.5em;
     display: block;
     transform: rotate(-45deg);
-    position: absolute;
-    top: 0.8em;
-    right: 0.5em;
     border-top: 1px solid #fff;
     border-right: 1px solid #fff;
     transition: all 0.3s ease;

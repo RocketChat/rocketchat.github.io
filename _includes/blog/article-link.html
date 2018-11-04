@@ -1,11 +1,11 @@
-<a class="card--blog card--blog__image"
-    href="{{ include.post.url | remove: "index.html" }}"
-    >
+<a class="card--blog card--blog__image{% if include.post.dateEvent %} event{% endif %}"
+href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include.post.url | remove: "index.html" }} {% endif %}'
+>
     <div
         class="card--blog__cover"
         {% if include.post.cover and include.post.isLogo%}
             {% if include.post.bgColor %}
-                style="background-image: url('{{ include.post.cover }}'); background-size: cover; background-color: #{{include.post.bgColor}};"
+                style="background-image: url('{{ include.post.cover }}'); background-size: contain; background-color: #{{include.post.bgColor}};"
             {% endif %}
             style="background-image: url('{{ include.post.cover }}'); background-size: cover;"
         {% elsif include.post.cover %}
