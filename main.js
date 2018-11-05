@@ -383,6 +383,18 @@ if (document.querySelector(".js-download")) {
   xhttp.send();
 })();
 
+
+$(document).ready(function() {
+  console.log(window.location.pathname);
+
+  if (window.location.pathname == '/pricing/') {
+    if (window.location.hash.substr(1) == "cloud") {
+      $('.switch').removeClass('active');
+      $(".cloud").addClass(' active');
+    }
+  }
+})
+
 $('.switch').on('click', function () {
   $('.switch').removeClass('active');
   $(this).addClass(' active');
