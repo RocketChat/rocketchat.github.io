@@ -120,6 +120,14 @@ strong {
   text-align: center;
 }
 
+.subtitle {
+  width: 45%;
+  margin: auto;
+  @media (max-width: $tablet) {
+    width: 75%;
+  }
+}
+
 .type--nomargin {
   margin-bottom: 0 !important;
 }

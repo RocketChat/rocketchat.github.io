@@ -1,110 +1,189 @@
 .content-page {
-    .hero {
-        background-color: $brand;
-        height: 770px;
-    }
+  .headroom--top {
+    &.app-header_wrap {
+      background: none !important;
 
-    &__column {
-      display: flex;
-      flex-direction: column;
-
-    }
-
-    &__features {
-      margin-bottom: 0 !important;
-      overflow: hidden;
-
-      .home-box__image {
-        bottom: -4em;
+      &:after {
+        opacity: 0.2;
       }
     }
 
-    &__column-image{
-      margin-bottom: 32px;
-      height: 20%;
+    .app-header_install,
+    .app-header_menu li {
+      color: #fff;
 
-      @media (max-width: $tablet) {
-        width: 50%;
-        margin: 32px auto;
-      }
-
-      img {
-        height: 100%;
-        width: auto;
-        margin: auto;
+      &:hover {
+        color: $grey-light;
       }
     }
 
-    &__logo {
-      width: 100%;
-      img {
-        margin: auto;
-      }
+    .app-header_menu {
+      background: none !important;
     }
 
-    &__column-wrapper {
-      width: 95%;
+    .current-page {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .app-header_logo .dark {
+      opacity: 0;
+    }
+
+    #handle-menu:checked ~ .app-header_menu {
+      background: #327dd8;
+    }
+  }
+
+  .hero {
+    background-color: $brand;
+    height: 540px;
+    min-height: unset;
+    max-height: unset;
+    top: -70px;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  &__features {
+    margin-bottom: 0 !important;
+    overflow: hidden;
+
+    .home-box__image {
+      bottom: -4em;
+    }
+  }
+
+  &__column-image{
+    margin-bottom: 32px;
+    height: 20%;
+
+    @media (max-width: $tablet) {
+      width: 50%;
+      margin: 32px auto;
+    }
+
+    img {
+      height: 100%;
+      width: auto;
       margin: auto;
     }
+  }
 
-    &--box {
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: -250px;
-        margin: auto;
-        margin-bottom: 5em;
-        background-repeat: no-repeat;
-        background-image: url("/images/partners/become.png");
-        background-position: right bottom;
-        background-size: auto 20em;
-        padding-bottom: 20em;
-        width: 75%;
-        max-width: 67em;
-        height: 420px;
+  &__logo {
+    width: 100%;
+    img {
+      margin: auto;
+      width: 25%;
+    }
+  }
 
-        @media (max-width: $tablet) {
-          background-size: contain;
-          width: 90%;
-        }
+  &__column-wrapper {
+    width: 95%;
+    margin: auto;
+  }
 
-        .wrap {
-          padding: 5em 4em 6em;
-          max-width: 50%;
-          display: flex;
-          flex-direction: column;
-          text-align: left;
-          @media (max-width: $tablet) {
-            width: 100%;
-            max-width: 100%;
-            padding: 0;
-          }
+  &__box-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
 
-          .button {
-            width: 40%;
-            flex-shrink: 0;
-            @media (max-width: $tablet) {
-              width: 100%;
-            }
-          }
-        }
+    @media (max-width: $tablet) {
+      width: 80%;
+    }
+  }
 
-        @media (min-width: $tablet) {
-          @include flexbox();
-          padding-bottom: 0;
-          background-size: auto 90%;
-          background-position: right bottom;
-        }
+  &--box {
+    margin: auto;
+    margin-bottom: 5em;
+    background-repeat: no-repeat;
+    background-image: url("/images/partners/become.png");
+    background-position: right bottom;
+    background-size: auto 20em;
+    padding-bottom: 20em;
+    width: 75%;
+    max-width: 67em;
+    height: 420px;
 
-        img {
-          width: 9em;
-          margin-right: 1em;
-        }
+    @media (max-width: $tablet) {
+      background-size: contain;
+      width: 90%;
+    }
+
+    .wrap {
+      padding: 5em 4em 6em;
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      @media (max-width: $tablet) {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
       }
 
-      body.partner .partner-box {
-        @media (min-width: $tablet) {
-          margin-bottom: 10em;
+      .button {
+        width: 40%;
+        flex-shrink: 0;
+        @media (max-width: $tablet) {
+          width: 35%;
+          margin-right: 20px;
         }
+      }
     }
+  }
+
+  &__box--small {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -200px;
+    margin: auto;
+    margin-bottom: 5em;
+    background-color: $space-b;
+    width: 75%;
+    max-width: 67em;
+    justify-content: center;
+    padding: 16px;
+
+    @media (max-width: $tablet) {
+      background-size: contain;
+      width: 90%;
+    }
+
+    .wrap {
+      padding: 32px 68px;
+      display: flex;
+      text-align: center;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      height: 240px;
+
+      @media (max-width: $tablet) {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      h2 {
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 2.4em;
+      }
+
+      .button {
+        width: 45%;
+        white-space: nowrap;
+        @media (max-width: $tablet) {
+          width: 47%;
+        }
+      }
+    }
+  }
 }

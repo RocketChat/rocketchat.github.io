@@ -44,6 +44,15 @@ class: post
       </a>
     </div>
   {% endif %}
+  
+  {% if page.android_release %}
+    <div class="card theme_box--light blog-post__social flex-grid grid--center">
+      <p class="display--small type--nomargin col">Install the latest release:</p>
+      <a href="https://play.google.com/store/apps/details?id=chat.rocket.android">
+        <img class="googleplay" src="/images/install/google-play.svg">
+      </a>
+    </div>
+  {% endif %}
 
   <div class="space--2"></div>
 
