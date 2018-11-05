@@ -36,7 +36,7 @@
   background-color: $space-void;
 
   &.mobile {
-    height: 360px;
+    height: 390px;
 
     @media (max-width: $tablet) {
       height: unset;
@@ -149,7 +149,8 @@
     align-items: center;
     border-radius: 2px;
     background-color: $space-grey;
-    padding: 23px 25px;
+    padding: 0 25px;
+    height: 94px;
 
     img {
       height: 40px;
@@ -165,11 +166,12 @@
     }
   }
 
-  &__tag-link-wrapper {
+  &__tags-wrapper {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
-    .link {
+    .small-tag {
       border-radius: 2px;
       background-color: #31415b;
       padding: 0 8px;
@@ -180,6 +182,8 @@
       margin-right: 8px;
       text-transform: uppercase;
       font-weight: 700;
+      white-space: nowrap;
+      margin-bottom: 5px;
     }
   }
 

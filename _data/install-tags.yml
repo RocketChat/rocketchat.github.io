@@ -1,34 +1,28 @@
-- title: Testing
-  image: /images/default/keycdn.svg
-  official: https://www.google.com/
-  autoUpdate: https://www.facebook.com/
+- title: Ubuntu
+  image: /images/install/ubuntu.png
+  link: https://rocket.chat/docs/installation/manual-installation/ubuntu/
+  tags:
+    - Official
+    - Auto-Update
+    - Manual Install
 
-- title: Testing
-  image: /images/default/keycdn.svg
-  official: https://www.google.com/
-  autoUpdate: https://www.facebook.com/
+- title: Docker
+  image: /images/install/digital-ocean.png
+  link: https://rocket.chat/docs/installation/docker-containers/
+  tags:
+    - Official
+    - Docker Container
 
-- title: Testing
-  image: /images/default/keycdn.svg
-  official: https://www.google.com/
-  autoUpdate: https://www.facebook.com/
+- title: AWS
+  image: /images/install/aws.png
+  link: https://rocket.chat/docs/installation/paas-deployments/aws/
+  tags:
+    - Official
+    - PaaS
 
-- title: Testing
-  image: /images/default/keycdn.svg
-  official: https://www.google.com/
-  autoUpdate: https://www.facebook.com/
-
-- title: Testing
-  image: /images/default/keycdn.svg
-  official: https://www.google.com/
-  autoUpdate: https://www.facebook.com/
-
-- title: Testing
-  image: /images/default/keycdn.svg
-  official: https://www.google.com/
-  autoUpdate: https://www.facebook.com/
-
-- title: Testing
-  image: /images/default/keycdn.svg
-  official: https://www.google.com/
-  autoUpdate: https://www.facebook.com/
+- title: RedHat
+  image: /images/install/redhat.png
+  link:  https://rocket.chat/docs/installation/manual-installation/redhat/
+  tags:
+    - Official
+    - Manual Install
