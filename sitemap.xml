@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://rocket.chat/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/install</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/pricing</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/community</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/blog/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/contact</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/atlassian</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/import/slack/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/import/slack/slackbridge/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/import/hipchat/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/import/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/become-partner</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/bots</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/webinars</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/team</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/partners</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/press</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/terms</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/privacy</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/dmca</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/gdpr</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/concession</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/category/events/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/user-guides/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/user-guides/connecting-to-a-server/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/user-guides/registration/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/user-guides/channels/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/user-guides/messaging/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/user-guides/managing-your-account/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/rocket-chat-cloud/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/docker-containers/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/updating/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/community-supported-installation/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/account-settings/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/email/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/permissions/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/livechat/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/file-upload/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/quick-start/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/branches-and-releases/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/testing/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/livechat-api/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/bots/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/bots/bots-architecture/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/bots/bots-faq/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/bots/configure-bot-environment/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/bots/creating-bot-users/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/developing/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/reporting-issues/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/documentation/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/security/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/translating/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/getting-support/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/blog/index.html</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/category/news/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/category/press/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/category/case-studies/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/category/product/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/11/05/android-release-3-1/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/10/23/rc-gluu-partnership/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/10/22/rc-joins-OSI/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/10/19/stefanini-rc-partnership/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/09/17/RC-Nextcloud-partnership-post/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/09/12/android_release_2_6_0/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/09/07/0-69-release/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/05/11/the-developer-s-conference-tdc-poa/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/09/05/ios_release-3-1/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/08/31/introducing-rocket-chat-marketplace/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/08/16/public-launch/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/08/07/welcome-to-rocketchat/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/08/01/GSoC-Post-3/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/documentation/contribution-guidelines/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/documentation/markdown-styleguide/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/documentation/documentation-map/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/documentation/drafts/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/documentation/drafts/new-feature-draft/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/documentation/drafts/feature-change-draft/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/documentation/missing-and-outdated-list/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/documentation/community-maintainers/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/google-summer-of-code-2017/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/google-summer-of-code-2018/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/promoting/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/contributing/security/responsible-disclosure-policy/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/aliyun/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/aws/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/cloudron-io/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/digital-ocean/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/dplatform/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/galaxy/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/google-computer-engine/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/heroku/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/hyper-sh/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/ibm-bluemix/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/indiehosters/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/koozali/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/layershift/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/openshift/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/readyspace/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/sandstorm-io/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/scalingo/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/sloppy-io/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/wedeploy/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/paas-deployments/d2c-io/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/docker-containers/generic-linux/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/docker-containers/systemd/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/docker-containers/high-availability-install/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/docker-containers/available-images/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/docker-containers/docker-compose/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/centos/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/debian/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/multiple-instances-to-improve-performance/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/migrating-meteor-mongo/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/redhat/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/ubuntu/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/autossl/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/mongo-options/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/mongo-versions/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/mongo-replicas/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/pm2-systemd-upstart/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/manual-installation/running-in-a-sub-folder/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/automation-tools/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/automation-tools/ansible/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/automation-tools/openshift/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/automation-tools/vagrant/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/mobile-and-desktop-apps/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/updating/from-0-x-x-to-0-40-0/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/minimum-requirements/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/community-supported-installation/freebsd/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/community-supported-installation/freebsd/universal/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/community-supported-installation/windows-10-pro/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/community-supported-installation/windows-server/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/community-supported-installation/opensuse/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/user-guides/login/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/user-guides/channel-actions/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/user-guides/end-to-end-encryption/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/user-guides/voice-and-video-conferencing/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/authentication/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/authentication/cas/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/authentication/ldap/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/authentication/oauth/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/authentication/saml/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/authentication/saml/oracle-cloud/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/authentication/wordpress/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/database-migration/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/email/setup/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/email/editing-emails-content/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/email/mailer/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/email/direct-reply/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/file-upload/amazon-s3/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/file-upload/google-cloud-storage/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/file-upload/minio/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/file-upload/webdav/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/import/csv/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/import/hipchat/cloud/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/import/hipchat/enterprise/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/zapier/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/zapier/using-zaps/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/appveyor/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/azure-alerts/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/bitbucket/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/deadsimplescreensharing/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/giphy/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/github/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/gitlab/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/google-calendar/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/guggy/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/jenkins/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/jira/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/newrelic/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/nixstats/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/osticket/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/pagerduty/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/prometheus/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/reviewboard/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/rundeck/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/sentry/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/telegram/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/travis-ci/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/trello/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/integrations/uptime-robot/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/google-cloud/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/google-cloud/auto-translate/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/google-drive/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/setting-up-video-conferencing/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/livechat/livechat-queues/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/livechat/omnichannel-integration/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/notifications/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/notifications/push-notifications/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/custom-fields/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/plug-ins/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/plug-ins/drupal/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/plug-ins/pidgin/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/create-the-first-admin/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/restoring-an-admin/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/retention-policies/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/settings-via-env-vars/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/administrator-guides/youtube-broadcasting/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/code-styleguide/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/code-styleguide/less/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/deeplink/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/deprecation/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/iframe-integration/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/iframe-integration/authentication/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/iframe-integration/commands/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/iframe-integration/events/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/embedded-layout/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/internationalization/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/mobile-apps/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/mobile-apps/supporting-ssl/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/mobile-apps/supported-servers-versions/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/login/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/logout/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/register-user/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/get-user-roles/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/list-custom-emoji/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/load-history/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/get-room-roles/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/get-subscriptions/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/get-rooms/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/get-public-settings/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/get-permissions/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/user-presence/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/notify-room-stream/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/create-direct-message/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/send-message/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/delete-message/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/update-message/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/pin-message/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/unpin-message/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/set-reaction/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/create-channels/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/create-private-groups/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/delete-rooms/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/archive-rooms/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/unarchive-rooms/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/joining-channels/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/leaving-rooms/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/hiding-rooms/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/opening-rooms/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/favoriting-rooms/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/method-calls/save-room-settings/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/subscriptions/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/subscriptions/stream-notify-all/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/subscriptions/stream-notify-logged/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/subscriptions/stream-notify-user/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/subscriptions/stream-notify-room/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/subscriptions/stream-notify-room-users/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/subscriptions/stream-room-messages/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/the-message-object/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/the-room-object/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/livechat-api/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/livechat-api/getinitialdata/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/livechat-api/registerguest/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/livechat-api/sendmessagelivechat/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/realtime-api/livechat-api/sendofflinemessage/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/assets/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/assets/setasset/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/assets/unsetasset/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/authentication/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/authentication/facebook/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/authentication/google/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/authentication/login/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/authentication/logout/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/authentication/me/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/authentication/twitter/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/addall/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/addmoderator/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/addowner/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/archive/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/close/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/counters/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/create/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/delete/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/files/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/getallusermentionsbychannel/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/getintegrations/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/history/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/info/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/invite/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/kick/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/leave/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/list-joined/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/list/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/members/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/messages/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/moderators/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/open/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/removemoderator/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/removeowner/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/rename/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/roles/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/setannouncement/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/setcustomfields/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/setdefault/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/setdescription/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/setjoincode/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/setpurpose/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/setreadonly/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/settopic/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/settype/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/channels/unarchive/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/delete/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/getmessage/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/getmessagereadreceipts/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/pinmessage/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/postmessage/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/react/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/reportmessage/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/search/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/starmessage/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/sendmessage/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/unpinmessage/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/unstarmessage/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/chat/update/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/commands/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/commands/get/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/commands/list/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/commands/run/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/addall/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/addmoderator/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/addowner/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/archive/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/close/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/counters/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/create/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/delete/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/files/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/getintegrations/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/history/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/info/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/invite/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/kick/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/leave/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/list/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/listall/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/members/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/messages/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/moderators/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/open/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/removemoderator/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/removeowner/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/rename/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/roles/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/setannouncement/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/setcustomfields/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/setdescription/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/setpurpose/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/setreadonly/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/settopic/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/settype/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/groups/unarchive/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/close/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/counters/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/create/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/files/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/history/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/list-everyone/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/list/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/members/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/messages/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/messages-others/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/open/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/im/settopic/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/integration/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/integration/create/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/integration/history/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/integration/list/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/integration/remove/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/agent/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/config/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/custom-fields/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/department/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/message/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/room/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/users/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/video-call/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/livechat/visitor/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/directory/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/info/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/shield-svg/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/spotlight/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/statistics/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/statistics-list/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/permissions/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/permissions/list/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/permissions/update/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/roles/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/roles/create/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/roles/list/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/push/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/push/push-token/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/rooms/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/rooms/cleanhistory/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/rooms/favorite/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/rooms/get/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/rooms/savenotification/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/rooms/upload/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/settings/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/settings/get/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/settings/get-by-id/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/settings/oauth/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/settings/public/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/settings/service-configuration/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/settings/update/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/subscriptions/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/subscriptions/get/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/subscriptions/getone/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/subscriptions/read/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/subscriptions/unread/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/create/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/createtoken/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/delete/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/deleteownaccount/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/forgotpassword/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/generatepersonalaccesstoken/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/getavatar/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/getpersonalaccesstokens/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/getpresence/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/get-preferences/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/getusernamesuggestion/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/info/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/list/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/regeneratepersonalaccesstoken/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/register/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/removepersonalaccesstoken/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/resetavatar/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/setavatar/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/set-preferences/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/update/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/users/updateownbasicinfo/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/offset-and-count-and-sort-info/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/query-and-fields-info/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/personal-access-tokens/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/schema-definition/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/troubleshooting/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/ui-and-theming/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/ui-and-theming/colors/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/ui-and-theming/components/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/ui-and-theming/themes/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/bots/running-a-bbot-bot/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/bots/running-a-hubot-bot/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/bots/running-a-botkit-bot/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/bots/running-a-rasa-bot/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/bots/running-a-botpress-bot/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/community-cookbook/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/community-cookbook/remote-video-monitoring/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/Rocket-Chat-Partnership-Program.pdf</loc>
+  <lastmod>2018-11-06T16:43:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/10/23/oracle-open-world/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/10/19/all-things-open/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/10/12/gartner-symposium-itxpo/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/09/10/drupal-europe/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/06/14/oracle/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/05/24/altconf/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/05/11/the-developer-s-conference/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/05/11/latinoware/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/05/11/fisl-international-open-source-software-forum/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/05/11/cube-tech-fair/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/installation/docker-containers/index.html</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/roles/addUserToRole/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/push/deletePushToken/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/docs/developer-guides/rest-api/emoji-custom/get/</loc>
+  <lastmod>2018-11-02T12:56:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/07/17/v66-release-post/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/07/17/ios_3_0_0_released/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/07/17/gsoc-project-2/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/07/16/rocketchat-x-project-insaka/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/06/07/android-2-4-release/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/06/05/gsoc-post-1/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/05/30/0-65-0-release/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/05/20/gdpr/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/05/04/rocket-chat-android-2-1-released/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/04/18/rocket-chat-summit-2018/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/04/11/rocket-chat-android-2-released/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/04/11/rocket-chat-0-63-released/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/03/06/rocket-chat-0-62-released/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/02/19/ios-release-2-0-0/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/01/25/blockstack-rocket-chat-bounty/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/01/25/desktop-apps-hotfix/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/01/17/security-vulnerability-disclosure/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rocket.chat/2018/01/10/ios-1-8-released/</loc>
+  <lastmod>2018-11-06T16:44:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
