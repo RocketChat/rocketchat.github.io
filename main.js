@@ -422,7 +422,6 @@ $('.youtube-image-link, .youtube-text-link').on('click touch', function (e) {
 $('.install_desktop-buttons .button').on('click', function (e) {
   e.preventDefault();
   var os =  e.target.dataset.os;
-  console.log(os);
   $('.install_desktop-buttons .button.active').removeClass('active');
   $('.install_download.active').removeClass('active');
 
