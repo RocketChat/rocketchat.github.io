@@ -532,7 +532,7 @@ validate.init({
 });
 
 var formHelpers = {
-	url: '//rocket-chat.appspot.com',
+	url: '//contactmailer.rocket.chat/',
 	form: document.querySelector('.form-validate'),
 	allField: function() {
 		return this.form.querySelectorAll('input, select, textarea');
