@@ -188,11 +188,28 @@
     }
   }
 
+  .download-icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+  }
+
   .select-download {
     width: 180px;
     height: 44px;
     border-radius: 2px;
     margin-bottom: 17px;
+
+    &:after{
+      position: relative;
+      content: "";
+      bottom: 17px;
+      left: 150px;
+      width: 0;
+      height: 0;
+      border: 6px solid transparent;
+      border-color: #fff transparent transparent transparent;
+    }
 
     select {
       width: 100%;
@@ -223,6 +240,8 @@
     height: 44px;
     border-radius: 2px;
     background-color: $grey-dark;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .more-options {

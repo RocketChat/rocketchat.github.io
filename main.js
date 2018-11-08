@@ -429,7 +429,7 @@ $('.install_desktop-buttons .button').on('click', function (e) {
   $('.install_download.'+os).addClass(' active');
 })
 
-if(location.pathname == "/install/") {
+if(location.pathname == "/install") {
   var os="Unknown OS";
   if (navigator.appVersion.indexOf("Win")!=-1) {
     os="windows"
