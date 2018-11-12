@@ -152,6 +152,14 @@
     background-color: $space-grey;
     padding: 0 25px;
     height: 94px;
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: $grey-dark;
+      .small-tag {
+        background-color: $space-grey;
+      }
+    }
 
     img {
       height: 40px;
@@ -185,6 +193,7 @@
       font-weight: 700;
       white-space: nowrap;
       margin-bottom: 5px;
+      transition: background-color 0.5s;
     }
   }
 
