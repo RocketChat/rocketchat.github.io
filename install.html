@@ -84,14 +84,23 @@ redirect_from:
 </section>
 
 <section class="container install-server">
+
   <div class="flex-grid grid--justify-around align--center">
     <div class="col--haft">
-      <h2 class="display theme_type--dark">Cloud Installation</h2>
-      <p class="display--small theme_type--grey">Rocket.Chat offers affordable, scalable and secure Cloud</p>
+      <h2 class="display theme_type--dark">Server Installation</h2>
+      <p class="display--small theme_type--grey">Deploys to cloud servers under your control or on-prem</p>
     </div>
   </div>
-
+  
   <div class="space--3"></div>
+
+  <div class="install__tags-container">
+    {% for tag in site.data.install-tags %}
+      {% include install-tags.html tag=tag %}
+    {% endfor %}
+  </div>
+  
+  <div class="space--6"></div>
 
   <div class="card theme_box--dark-strong try-cloud">
     <div class="wrap">
@@ -100,23 +109,7 @@ redirect_from:
       <a class="button" href="/pricing">Try Cloud Now</a>
     </div>
   </div>
-</section>
 
-<div class="space--6"></div>
-
-<section class="container">
-  <div class="flex-grid grid--justify-around align--center">
-    <div class="col--haft">
-      <h2 class="display theme_type--dark">Self-Hosting</h2>
-      <p class="display--small theme_type--grey">Gives you more freedom of choice</p>
-    </div>
-  </div>
-  <div class="space--3"></div>
-  <div class="install__tags-container">
-    {% for tag in site.data.install-tags %}
-      {% include install-tags.html tag=tag %}
-    {% endfor %}
-  </div>
 </section>
 
 <div class="space--6"></div>
