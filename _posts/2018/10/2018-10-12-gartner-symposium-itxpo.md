@@ -4,6 +4,7 @@ location: Orlando, Florida
 dateEvent: 2018-10-14 10:00:00
 dateEventEnd: 2018-10-18 10:00:00
 extUrl: //www.gartner.com/en/conferences/na/symposium-us/why-attend
+backgroundCover: true
 author: Isabella Russell
 hidden: true
 categories:

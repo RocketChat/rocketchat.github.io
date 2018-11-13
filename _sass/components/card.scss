@@ -131,6 +131,14 @@
   background-position: center center;
   transition: background-size 1s;
   border-radius: 2px;
+  display: flex;
+
+  img {
+    max-height: 100%;
+    max-width: 90%;
+    width: auto;
+    margin: auto;
+  }
 }
 
 .card--blog__wrap {

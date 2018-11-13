@@ -3,17 +3,23 @@ href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include
 >
     <div
         class="card--blog__cover"
-        {% if include.post.cover and include.post.isLogo%}
-            {% if include.post.bgColor %}
-                style="background-image: url('{{ include.post.cover }}'); background-size: contain; background-color: #{{include.post.bgColor}};"
-            {% endif %}
-            style="background-image: url('{{ include.post.cover }}'); background-size: cover;"
-        {% elsif include.post.cover %}
-            style="background-image: url('{{ include.post.cover }}');"
-        {% else %}
-            style="background-image: url('/images/blog/post.jpg')"
+        {% if include.post.bgColor %}
+            style="background-color: #{{include.post.bgColor}}"
         {% endif %}
-    ></div>
+        {% unless include.post.isLogo %}
+            {% if include.post.cover and include.post.backgroundCover%}
+                style="background-image: url('{{ include.post.cover }}'); background-size: cover;"
+            {% else if include.post.cover%}
+                style="background-image: url('{{ include.post.cover }}');"
+            {% else %}
+                style="background-image: url('/images/blog/post.jpg') "
+            {% endif %}
+        {% endunless %}
+    >
+        {% if include.post.cover and include.post.isLogo%}
+        <img class="card--blog__img-cover" src="{{include.post.cover}}" alt="go to post">
+        {% endif %}
+    </div>
     <div class="card--blog__wrap">
         <!-- If post has a dateEvent attribute, it is a event post -->
         {% if include.post.dateEvent %}
