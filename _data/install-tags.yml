@@ -41,18 +41,9 @@
     - Official
     - Manual Install
 
-- title: Aliyun
-  image: /images/install/aliyun.png
-  link: https://rocket.chat/docs/installation/paas-deployments/aliyun/
-
-  tags:
-    - Official
-    - PaaS
-
 - title: Cloudron.io
   image: /images/install/cloudron.png
   link: https://rocket.chat/docs/installation/paas-deployments/cloudron-io/
-
   tags:
     - Official
     - PaaS
@@ -60,7 +51,13 @@
 - title: Heroku
   image: /images/install/heroku.png
   link: https://rocket.chat/docs/installation/paas-deployments/heroku/
+  tags:
+    - Official
+    - PaaS
 
+- title: Aliyun
+  image: /images/install/aliyun.png
+  link: https://rocket.chat/docs/installation/paas-deployments/aliyun/
   tags:
     - Official
     - PaaS
@@ -68,7 +65,6 @@
 - title: Hyper.sh
   image: /images/install/hyper.png
   link: https://rocket.chat/docs/installation/paas-deployments/hyper-sh/
-
   tags:
     - Official
     - PaaS
@@ -76,7 +72,6 @@
 - title: WeDeploy
   image: /images/install/wedeploy.png
   link: https://rocket.chat/docs/installation/paas-deployments/wedeploy/
-
   tags:
     - Official
     - PaaS
@@ -84,7 +79,6 @@
 - title: DPlatform
   image: /images/install/dplatform.png
   link: https://rocket.chat/docs/installation/paas-deployments/dplatform/
-
   tags:
     - Official
     - PaaS
@@ -92,7 +86,6 @@
 - title: IndieHosters
   image: /images/install/indiehosters.png
   link: https://rocket.chat/docs/installation/paas-deployments/indiehosters/
-
   tags:
     - Official
     - PaaS
@@ -100,7 +93,6 @@
 - title: IBM Bluemix
   image: /images/install/bluemix.png
   link: https://rocket.chat/docs/installation/paas-deployments/ibm-bluemix/
-
   tags:
     - Official
     - PaaS
@@ -108,7 +100,6 @@
 - title: OpenShift
   image: /images/install/openshift.png
   link: https://rocket.chat/docs/installation/paas-deployments/openshift/
-
   tags:
     - Official
     - PaaS
@@ -116,7 +107,6 @@
 - title: Sandstorm.io
   image: /images/install/sandstorm.png
   link: https://rocket.chat/docs/installation/paas-deployments/sandstorm-io/
-
   tags:
     - Official
     - PaaS
