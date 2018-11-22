@@ -192,16 +192,6 @@
       margin-right: 15px;
     }
 
-    .price {
-      text-align: left;
-      margin-left: 10px;
-
-      @media screen and (max-width: $tablet){
-        text-align: center;
-        margin-left: unset;
-      }
-    }
-
 		@media screen and (max-width: $container) {
 			width: 33.333%;
 		}
