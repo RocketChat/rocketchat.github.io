@@ -125,22 +125,6 @@
   photo: yes
   country: Germany
 
-- name: Arthur Della Giustina
-  role: Creative Director
-  github_username: arthurgiustina
-  department: Sales
-  username: arthur.giustina
-  photo: yes
-  country: Brazil
-
-- name: Júlia Grala
-  role: Senior Business Developer
-  github_username: juliagrala
-  department: Sales
-  username: julia.grala
-  photo: yes
-  country: Brazil
-
 - name: Leonardo Aramaki
   role: Android Engineer
   github_username: leonardoaramaki
@@ -275,7 +259,7 @@
   username: daniel.townsend
   photo: yes
   country: Brazil
-  
+
 - name: Daniel Carboni
   role: Head of International Revenue
   github_username:
