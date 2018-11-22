@@ -3,18 +3,19 @@ href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include
 >
     <div
         class="card--blog__cover"
-        {% if include.post.bgColor %}
-            style="background-color: #{{include.post.bgColor}}"
-        {% endif %}
-        {% unless include.post.isLogo %}
-            {% if include.post.cover and include.post.backgroundCover%}
-                style="background-image: url('{{ include.post.cover }}'); background-size: cover;"
-            {% else if include.post.cover%}
-                style="background-image: url('{{ include.post.cover }}');"
-            {% else %}
-                style="background-image: url('/images/blog/post.jpg') "
+        style="
+            {% if include.post.bgColor %}
+                background-color: #{{include.post.bgColor}}
             {% endif %}
-        {% endunless %}
+            {% unless include.post.isLogo %}
+                {% if include.post.cover and include.post.backgroundCover%}
+                    background-image: url('{{ include.post.cover }}'); background-size: cover;
+                {% else if include.post.cover%}
+                    background-image: url('{{ include.post.cover }}');
+                {% else %}
+                    background-image: url('/images/blog/post.jpg');
+                {% endif %}
+            {% endunless %}"
     >
         {% if include.post.cover and include.post.isLogo%}
         <img class="card--blog__img-cover" src="{{include.post.cover}}" alt="go to post">

@@ -118,6 +118,7 @@
   height: 100%;
   min-width: 6em;
   height: 313px;
+
   &.event {
     height: 355px;
   }
@@ -125,7 +126,7 @@
 
 .card--blog__cover {
   width: 100%;
-  min-height: 193px;
+  height: 193px;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
