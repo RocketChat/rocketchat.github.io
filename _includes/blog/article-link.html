@@ -7,8 +7,8 @@ href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include
             {% if include.post.bgColor %}
                 background-color: #{{include.post.bgColor}}
             {% endif %}
-            {% unless include.post.isLogo %}
-                {% if include.post.cover and include.post.backgroundCover%}
+            {% unless include.post.bgSize == 'logo' %}
+                {% if include.post.cover and include.post.bgSize == 'cover'%}
                     background-image: url('{{ include.post.cover }}'); background-size: cover;
                 {% else if include.post.cover%}
                     background-image: url('{{ include.post.cover }}');
@@ -17,7 +17,7 @@ href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include
                 {% endif %}
             {% endunless %}"
     >
-        {% if include.post.cover and include.post.isLogo%}
+        {% if include.post.cover and include.post.bgSize == 'logo'%}
         <img class="card--blog__img-cover" src="{{include.post.cover}}" alt="go to post">
         {% endif %}
     </div>

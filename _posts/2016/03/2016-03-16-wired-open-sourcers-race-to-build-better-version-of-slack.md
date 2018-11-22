@@ -6,7 +6,7 @@ hidden: true
 author: WIRED Magazine
 cover: /images/posts/2016/03/2016-03-16-wired-open-sourcers-race-to-build-better-version-of-slack/wiredlogo.jpg
 extUrl: http://www.wired.com/2016/03/open-source-devs-racing-build-better-versions-slack/
-isLogo: true
+bgSize: logo
 bgColor: "ffffff"
 categories:
 - Press

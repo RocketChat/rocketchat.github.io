@@ -3,7 +3,7 @@
   url: https://opensourceunderdogs.com/episode-9-rocket-chat-open-source-enterprise-team-chat-with-gabriel-engel/
   date: 2018-11-05 10:00:00
   cover: OS-podcast-logo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "fe0000"
 
 - publisher: SiliconIndia Magazine
@@ -11,7 +11,7 @@
   url: https://www.siliconindiamagazine.com/magazine/live-chat-special-october-2018/#page=31
   date: 2018-11-16 10:00:00
   cover: SI-logo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "ffffff"
 
 - publisher: SiliconIndia Magazine
@@ -19,7 +19,7 @@
   url: https://enterprise-services.siliconindiamagazine.com/ranking/10-most-promising-live-chat-support-service-provider-%E2%80%93-2018-rid-482.html
   date: 2018-11-16 10:00:00
   cover: SI-LiveChat-logo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "ffffff"
 
 - publisher: Softex
@@ -27,7 +27,7 @@
   url: https://www.softex.br/softex-projeta-us-10-milhoes-em-negocios-para-a-delegacao-brasileira-no-gartner-symposium-itxpo/
   date: 2018-10-09 10:00:00
   cover: softex-logo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "ffffff"
 
 - publisher: Pro-Linux.de
@@ -35,7 +35,7 @@
   url: https://www.pro-linux.de/news/1/26309/rocketchat-und-nextcloud-kooperieren.html
   date: 2018-09-18 10:00:00
   cover: pl-logo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "ffffff"
 
 - publisher: University of Cape Town News
@@ -43,7 +43,7 @@
   url: https://www.news.uct.ac.za/article/-2018-09-04-connecting-the-ocean-view-community
   date: 2018-09-04 10:00:00
   cover: cape-town-uni-logo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "ffffff"
 
 - publisher: Timecamp
@@ -51,7 +51,7 @@
   url: https://www.timecamp.com/blog/2018/08/top-10-chat-software-for-teams/
   date: 2018-08-24 10:00:00
   cover: timecamp-logo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "ffffff"
 
 - publisher: Business2Community
@@ -59,7 +59,7 @@
   url: https://www.business2community.com/small-business/the-top-10-slack-alternatives-for-small-businesses-02087348
   date: 2018-07-10 10:00:00
   cover: B2C-logo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "f0f0f0"
 
 - publisher: BlockchainNews
@@ -67,7 +67,7 @@
   url: https://www.the-blockchain.com/2017/09/22/slack-rocket-chat-blockchain-community-leaders-aragon-lead-industry-exodus-amid-marked-increase-phishing-scams/
   date: 2017-09-22 10:00:00
   cover: blockchain-news-logo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "ffffff"
 
 - publisher: WIRED Magazine
@@ -75,7 +75,7 @@
   url: http://www.wired.com/2016/03/open-source-devs-racing-build-better-versions-slack/
   date: 2016-03-16 10:00:00
   cover: wiredlogo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "ffffff"
 
 - publisher: The Register
@@ -83,7 +83,7 @@
   url: http://www.theregister.co.uk/2016/03/17/no_slack_for_open_sourcers/
   date: 2016-03-17 10:00:00
   cover: theregisterlogo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "fe0000"
 
 - publisher: Black Duck Software
@@ -91,7 +91,7 @@
   url: https://www2.blackducksoftware.com/news/releases/black-duck-announces-open-source-rookies-of-the-year
   date: 2016-03-14 10:00:00
   cover: Black-Duck-Logo.png
-  isLogo: true
+  bgSize: logo
   bgColor: "ffffff"
 
 - publisher: Venture Beat
@@ -99,5 +99,5 @@
   url: http://venturebeat.com/2015/11/27/5-open-source-alternatives-to-slack/
   date: 2015-11-27 10:00:00
   cover: VentureBeat-Logo.jpg
-  isLogo: true
+  bgSize: logo
   bgColor: "ffffff"

@@ -6,7 +6,7 @@ hidden: true
 author: Open Source Underdogs
 cover: /images/posts/2018/11/2018-11-05-gabriel-engel-guest-OS-underdogs-podcast/rocket-chat-gabe-engel-OSU-podcast.jpg
 extUrl: https://opensourceunderdogs.com/episode-9-rocket-chat-open-source-enterprise-team-chat-with-gabriel-engel/
-isLogo: true
+bgSize: logo
 bgColor: "ffffff"
 categories:
 - Press

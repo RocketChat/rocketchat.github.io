@@ -6,7 +6,7 @@ hidden: true
 author: SiliconIndia Magazine
 cover: /images/posts/2018/11/2018-11-16-silicon-india-magazine-livechat/SI-LiveChat.jpg
 extUrl: https://enterprise-services.siliconindiamagazine.com/ranking/10-most-promising-live-chat-support-service-provider-%E2%80%93-2018-rid-482.html
-isLogo: true
+bgSize: logo
 bgColor: "ffffff"
 categories:
 - Press

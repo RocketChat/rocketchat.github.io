@@ -54,16 +54,20 @@ theme: dark
       >
       <div
         class="card--blog__cover"
-        {% if post.isLogo == true %}
-          {% if post.bgColor %}
-              style="background-image: url('/images/press/{{ post.cover }}'); background-size: contain; background-color: #{{post.bgColor}};"
-          {% endif %}
-            style="background-image: url('/images/press/{{ post.cover }}'); background-size: contain"
-        {% elsif post.cover %}
-            style="background-image: url('/images/press/{{ post.cover }}');"
-        {% else %}
-            style="background-image: url('/images/blog/post.jpg')"
-        {% endif %}
+        style="
+            {% if include.post.bgColor %}
+                background-color: #{{include.post.bgColor}}
+            {% endif %}
+            {% unless include.post.isLogo %}
+                {% if include.post.cover and include.post.bgSize == 'cover'%}
+                    background-image: url('{{ include.post.cover }}'); background-size: cover;
+                {% else if include.post.cover%}
+                    background-image: url('{{ include.post.cover }}');
+                {% else %}
+                    background-image: url('/images/blog/post.jpg');
+                {% endif %}
+            {% endunless %}"
+    >
       ></div>
       <div class="card--blog__wrap">
         <p class="card--blog__meta label--small theme_type--grey">

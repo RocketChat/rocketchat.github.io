@@ -6,7 +6,7 @@ hidden: true
 author: Venture Beat
 cover: /images/posts/2015/11/2015-11-27-5-open-source-alternatives-to-slack/VentureBeat-Logo.jpg
 extUrl: http://venturebeat.com/2015/11/27/5-open-source-alternatives-to-slack/
-isLogo: true
+bgSize: logo
 bgColor: "ffffff"
 categories:
 - Press

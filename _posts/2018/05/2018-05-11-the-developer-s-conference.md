@@ -5,7 +5,7 @@ location: São Paulo, Brazil
 dateEvent: 2018-07-17 10:00:00
 dateEventEnd: 2018-07-21 10:00:00
 extUrl: //www.thedevelopersconference.com.br/tdc/2018/index.html
-isLogo: true
+bgSize: logo
 bgColor: ffffff
 author: Isabella Russell
 hidden: true
