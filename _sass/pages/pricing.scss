@@ -167,6 +167,7 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  margin-top: -360px;
 
   @media screen and (max-width: $tablet) {
     flex-direction: column;
@@ -184,6 +185,12 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    background-color: #fff;
+    border-radius: 2px;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
 
 		@media screen and (max-width: $container) {
 			width: 33.333%;
