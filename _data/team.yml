@@ -165,6 +165,14 @@
   photo: yes
   country: Brazil
 
+- name: Júlia Grala
+  role: Senior Business Developer
+  github_username: juliagrala
+  department: Sales
+  username: julia.grala
+  photo: yes
+  country: Brazil
+
 - name: Renato Becker
   role: Senior Developer
   github_username: renatobecker
