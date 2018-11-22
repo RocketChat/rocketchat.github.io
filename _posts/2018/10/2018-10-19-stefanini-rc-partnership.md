@@ -35,7 +35,7 @@ explains Engel.
 
 Rocket.Chat currently has over 250,000 installed servers and more than 10 million users in 150 countries. Meanwhile Sophie 3.0 is present in more than 50 large corporations across Brazil, the United States, Latin America and Europe.
 
-> "The pool of joint opportunities is immense. Rocket.Chat and Sophie are two internationalized Brazilian platforms, designed and developed for the global market. This combination of skills and joint experience has the potential to take our two companies, which grow three by digits annually, to a new level, in addition to indicating an exemplary path to be followed by several other companies,"
+> "The pool of joint opportunities is immense. Rocket.Chat and Sophie are two internationalized Brazilian platforms, designed and developed for the global market. This combination of skills and joint experience has the potential to take our two companies, which grow by three digits annually, to a new level, as well as indicating an exemplary path to be followed by several other companies,"
 
 said Stefanini's R&D director.
 
@@ -50,6 +50,6 @@ Stefanini is a global company with 30 years of experience in the market, offerin
 
 Rocket.Chat is the leading open source team chat collaboration platform that allows users to communicate securely in real-time on web, desktop or mobile and to customize their interface with a range of plugins, themes and integrations with other key software. With the launch of [Rocket.Chat Marketplace](https://rocket.chat/2018/08/31/introducing-rocket-chat-marketplace/) in September 2018, users can now build, browse and download apps on Rocket.Chat's newest app ecosystem.
 <br/>By opting for Rocket.Chat, users also benefit from a range of features including audio and video conferencing, guest access, screen and file sharing, LiveChat, LDAP Group Sync, two-factor authentication (2FA), E2E encryption, SSO, dozens of OAuth providers and unlimited users guests, channels, messages, searches and files. Users can set up Rocket.Chat on cloud or by hosting their own servers on-premises.
-<br/>With more than 800 developer-contributors and over 20k stars on Github, Rocket.Chat has the largest and most active community of chat developers in the open source communication sector and has won multiple awards since being founded in 2015, such as a 2016 Bossie Award for Best Open Source Application and first prize in the 2017 edition of All Things Open’s Startup Competition.
+<br/>With more than 800 developer-contributors on Github, Rocket.Chat has the largest and most active community of chat developers in the open source communication sector and has won multiple awards since being founded in 2015, such as a 2016 Bossie Award for Best Open Source Application and first prize in the 2017 edition of All Things Open’s Startup Competition.
 To learn more, visit [the website](https://rocket.chat.com), check out the [GitHub repo](https://github.com/RocketChat/Rocket.Chat) or follow [@RocketChat](https://twitter.com/RocketChat) on Twitter.
 

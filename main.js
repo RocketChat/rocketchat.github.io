@@ -390,6 +390,8 @@ $(document).ready(function() {
     if (window.location.hash.substr(1) == "cloud") {
       $('.switch').removeClass('active');
       $(".cloud").addClass(' active');
+      $('.cloud__container').css("display","block");
+      $('.self-managed__container').css("display","none");
     }
   }
 })

@@ -1,3 +1,27 @@
+- publisher: Open Source Underdogs
+  title: Episode 9 of Open Source Underdogs Podcast, hosted by Gluu CEO Mike Schwartz with Rocket.Chat – Open Source Enterprise Team Chat with Gabriel Engel
+  url: https://opensourceunderdogs.com/episode-9-rocket-chat-open-source-enterprise-team-chat-with-gabriel-engel/
+  date: 2018-11-05 10:00:00
+  cover: OS-podcast-logo.jpg
+  isLogo: true
+  bgColor: "fe0000"
+
+- publisher: SiliconIndia Magazine
+  title: Rocket.Chat - Open Source Modular Omnichannel Livechat with Seamless Team Chat Collaboration
+  url: https://www.siliconindiamagazine.com/magazine/live-chat-special-october-2018/#page=31
+  date: 2018-11-16 10:00:00
+  cover: SI-logo.jpg
+  isLogo: true
+  bgColor: "ffffff"
+
+- publisher: SiliconIndia Magazine
+  title: 10 Most Promising Live Chat Support Service Provider - 201810 Most Promising Live Chat Support Service Provider - 2018
+  url: https://enterprise-services.siliconindiamagazine.com/ranking/10-most-promising-live-chat-support-service-provider-%E2%80%93-2018-rid-482.html
+  date: 2018-11-16 10:00:00
+  cover: SI-LiveChat-logo.jpg
+  isLogo: true
+  bgColor: "ffffff"
+
 - publisher: Softex
   title: Softex predicts 10 million USD's worth of business for Brazilian delegation at Gartner Symposium/ITxpo
   url: https://www.softex.br/softex-projeta-us-10-milhoes-em-negocios-para-a-delegacao-brasileira-no-gartner-symposium-itxpo/
