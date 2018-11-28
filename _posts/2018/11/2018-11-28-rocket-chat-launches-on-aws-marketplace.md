@@ -10,7 +10,7 @@ cover: /images/posts/2018/11/2018-11-28-rocket-chat-launches-on-aws-marketplace/
 featured: true
 ---
 
-Rocket.Chat is now available for instant deployment on the newly launched [AWS Marketplace for Containers](https://aws.amazon.com/marketplace/features/containers)!
+LAS VEGAS - Rocket.Chat is now available for instant deployment on the newly launched [AWS Marketplace for Containers](https://aws.amazon.com/marketplace/features/containers)!
 
 <br/>Customers can henceforth access the AWS Marketplace for Containers to discover, produce, and deploy container solutions such as Rocket.Chat in just a few clicks.  Rocket.Chat containers leverage Amazon Elastic Container Service for Kubernetes (Amazon EKS) to facilitate easy provisioning and management of scaled server clusters.<br/>
 
