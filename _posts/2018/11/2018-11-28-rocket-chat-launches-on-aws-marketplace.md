@@ -1,5 +1,5 @@
 ---
-title: "Rocket.Chat joins newly-launched AWS Marketplace for Containers"
+title: "Rocket.Chat partners with Amazon's AWS Marketplace for Container Launch"
 categories:
 - News
 - Product
@@ -11,9 +11,9 @@ featured: true
 ---
 
 Rocket.Chat is now available on the newly launched [AWS Marketplace for Containers](https://aws.amazon.com/marketplace/features/containers)!
-<br/>AWS customers can henceforth use the Amazon Elastic Container Service (Amazon ECS) console and AWS Marketplace for Containers to discover, produce, and deploy container solutions such as Rocket.Chat in just a few clicks.
+<br/>AWS customers can henceforth use the Amazon Elastic Container Service for Kubernetes (Amazon EKS) and AWS Marketplace for Containers to discover, produce, and deploy container solutions such as Rocket.Chat in just a few clicks.
 
-Containers are becoming an increasingly important way for developers to package and deploy their applications, and Rocket.Chat is thrilled to be able to offer this straightforward method of deployment to its customers from today.
+Container-based deployments can offer customers substantial cost reduction while gaining enhanced flexibility in cluster configuration when compared to conventional VPS or VM-based deployments. <br/>Containers are becoming an increasingly important way for developers to package and deploy their applications, and Rocket.Chat is thrilled to be able to offer this straightforward method of deployment to its customers.
 
 >"Launching with AWS at re:Invent is really exciting for us. We loved the opportunity to work with the AWS team to create these containers. They will provide our enterprise customers with a cost effective open source collaboration solution that will help them unchain from Slack and Microsoft Teams and take control of their data,"
 
