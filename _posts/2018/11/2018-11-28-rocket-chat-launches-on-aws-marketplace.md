@@ -20,7 +20,7 @@ Container-based deployments can offer customers substantial cost reduction while
 affirms Rocket.Chat CEO Gabriel Engel.
 
 Rocket.Chat is among 180 new container products in AWS Marketplace's curated catalog of trusted software.
-Two versions of the platform are available on the new platform: the [Community Edition](https://aws.amazon.com/marketplace/pp/B07K9BKJHP?qid=1543425232425&sr=0-1&ref_=srh_res_product_title) and the [Enterprise Edition](https://aws.amazon.com/marketplace/pp/B07K98179S?qid=1543425232425&sr=0-2&ref_=srh_res_product_title).
+Two versions of the platform are available on the new platform: the [Community Edition](https://aws.amazon.com/marketplace/pp/B07K9BKJHP) and the [Enterprise Edition](https://aws.amazon.com/marketplace/pp/B07K98179S).
 
 ## Community Edition
 
@@ -68,7 +68,7 @@ The Enterprise edition includes all the above features of our Community Edition 
 - High Scalability Cluster
 
 <br/>
-Our Enterprise edition requires a purchased license before deployment. Please contact <strong>[aws_enterprise@rocket.chat](mailto:aws_enterprise@rocket.chat) for licensing information.
+Our Enterprise edition requires a purchased license before deployment in order to have all features enabled. Please contact <strong>[aws_enterprise@rocket.chat](mailto:aws_enterprise@rocket.chat) for licensing information.
 
 ## Additional Resources:
 
