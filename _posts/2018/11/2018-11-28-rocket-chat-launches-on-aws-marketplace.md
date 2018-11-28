@@ -16,7 +16,7 @@ LAS VEGAS - Rocket.Chat is now available for instant deployment on the newly lau
 
 Container-based deployments are becoming an increasingly important way for software vendors to package and deploy their applications. They can offer customers substantial cost reduction while gaining enhanced flexibility in cluster configuration when compared to conventional VPS or VM-based deployments. Rocket.Chat is thrilled to be able to offer the latest server deployment and provisioning solution, in conjunction with Amazon, to its customers.
 
->"Launching with AWS at re:Invent is really exciting for us. We loved the opportunity to work with the AWS team to create these containers. They will provide our enterprise customers with a cost effective open source collaboration solution that will help them unchain from Slack and Microsoft Teams and take control of their data,"
+>"Launching with AWS at re:Invent is really exciting for us. We loved the opportunity to work with the AWS team to create these containers. They will provide our enterprise customers with a cost effective open source collaboration solution that will help them unchain from Slack and Microsoft Teams and take back control of their data,"
 
 affirms Rocket.Chat CEO Gabriel Engel.
 
