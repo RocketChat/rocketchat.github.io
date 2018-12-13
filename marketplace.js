@@ -74,10 +74,10 @@
   }
 
   var createCategoriesSelect = function (categories) {
-    var list = '<option class="categories--item"><button data-category="All Apss" class="app-category-button ">All Apps</button></option>'
+    var list = '<option value="" class="categories--item"><button data-category="" class="app-category-button ">All Apps</button></option>'
 
     for (var i = 0; i < categories.length; i++) {
-      list += '<option class="categories--item"><button data-category=' + categories[i].title + 'class="app-category-button ">' + categories[i].title + '</button></option>'
+      list += '<option value="' + categories[i].title + '" class="categories--item"><button data-category=' + categories[i].title + 'class="app-category-button ">' + categories[i].title + '</button></option>'
     }
 
     return list
