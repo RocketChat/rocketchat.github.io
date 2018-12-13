@@ -224,9 +224,17 @@
   grid-gap: 2em;
   grid-auto-rows: 230px;
 
+  @media screen and (max-width: $tablet) {
+    grid-auto-rows: 300px;
+  }
+
+  @media screen and (max-width: $tablet) {
+    grid-auto-rows: 350px;
+  }
+
   &.two-rows{
     grid-template-columns: repeat(2, 1fr);
-    @media screen and (max-width: $tablet) {
+    @media screen and (max-width: 700px) {
       grid-template-columns: repeat(1, 1fr);
     }
   }
@@ -238,4 +246,8 @@
   &.four-rows{
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.flex-container {
+  display: flex;
 }

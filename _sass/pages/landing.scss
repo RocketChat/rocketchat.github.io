@@ -105,6 +105,13 @@
   .apps-list-container {
     min-height: 300px;
     margin-top: 17px;
+    display: none;
+
+    .flex-container {
+      @media screen and (max-width: $tablet) {
+        flex-direction: column-reverse;
+      }
+    }
   }
 
   .app-card {
@@ -112,6 +119,12 @@
     min-height: 176px;
     box-sizing: border-box;
     font-size: 14px;
+    width: 100%;
+    @media screen and (max-width: 700px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   .apps-list .app-card {
@@ -154,6 +167,9 @@
     height: 62px;
     margin-right: 16px;
     box-sizing: border-box;
+    @media screen and (max-width: $tablet) {
+      margin-bottom: 22px;
+    }
   }
 
   .app-card .icon-wrapper .icon {
@@ -168,19 +184,35 @@
     line-height: 1.25;
     font-size: 16px;
     max-height: 100px;
-    overflow: scroll;
+    overflow: hidden;
   }
 
-  .modal-content{
+  .add-app-modal-wrapper .modal-content {
+    @media screen and (max-width: $tablet) {
+      width: 100% !important;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      top: unset;
+      left: unset;
+      margin: 0;
+    }
     .app-card .description {
       max-height: 300px;
       overflow: scroll;
+
     }
   }
 
   .links-list {
     font-size: 16px;
     line-height: 1;
+    min-width: 220px;
+    @media screen and (max-width: $tablet) {
+      display: none;
+    }
+
   }
 
   .links-list-item {
@@ -198,6 +230,15 @@
   .categories-list {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .categories-select {
+    width: 100%;
+    margin-bottom: 16px;
+    @media screen and (min-width: $tablet) {
+      display: none;
+    }
+
   }
 
   .categories-list-item {
@@ -226,7 +267,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 2;
+    z-index: 10000;
   }
 
   .apps-message-container {
@@ -272,6 +313,17 @@
     border-radius: 2px;
     background: #FFF;
     animation: scaleIn .5s ease;
+
+    .app-card {
+      @media screen and (max-width: $tablet) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .name {
+      text-align: center;
+    }
   }
 
   .modal-content .close-button {
@@ -315,5 +367,24 @@
     position: static;
     font-size: 1rem;
     text-transform: none;
+  }
+}
+
+.apps-loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 100px 0;
+
+  .loading-spinner {
+    width: 50px;
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
 }

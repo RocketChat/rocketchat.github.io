@@ -22,6 +22,8 @@
         APPS = parsed
 
         createAppList(APPS)
+        $(".apps-loading").css('display','none')
+        $(".apps-list-container").css('display','block')
       })
       .catch((err) => {
         showFetchError()
@@ -71,6 +73,16 @@
     return list
   }
 
+  var createCategoriesSelect = function (categories) {
+    var list = '<option class="categories--item"><button data-category="All Apss" class="app-category-button ">All Apps</button></option>'
+
+    for (var i = 0; i < categories.length; i++) {
+      list += '<option class="categories--item"><button data-category=' + categories[i].title + 'class="app-category-button ">' + categories[i].title + '</button></option>'
+    }
+
+    return list
+  }
+
   var createCategoriesMenuList = function (categories, selected) {
     var virtualList = ''
     var highlightedIndex = 0
@@ -113,9 +125,14 @@
     var menuListObj = {}
     var categoriesTitles = getCategoriesTitles(categories)
 
+    var categoriesSelect = createCategoriesSelect(categories)
+
+    $('.categories-select select').html(categoriesSelect)
+
     if (categoriesTitles.indexOf(selectedCategory) == -1) {
       selectedCategory = ''
     }
+
     menuListObj = createCategoriesMenuList(categories, selectedCategory)
 
     list.append(menuListObj.virtualList)
@@ -373,6 +390,13 @@
 
   var bindCategoriesMenuEvents = function () {
     var appCategoryButons = $('.app-category-button')
+    var appCategorySelect = $('.categories-select select')
+
+    appCategorySelect.on('change', function (ev) {
+      var category = ev.target.value
+
+      filterByCategory(category, APPS)
+    })
 
     appCategoryButons.on('click', function (ev) {
       var target = $(ev.target)
