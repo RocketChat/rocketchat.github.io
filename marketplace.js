@@ -354,6 +354,9 @@
   }
 
   var openModal = function (app) {
+    $("html").css({
+      'overflow' : 'hidden'
+   });
     MODAL_WRAPPER_EL.removeClass('display-none')
     MODAL_WRAPPER_EL.empty()
 
@@ -378,6 +381,10 @@
     clipboard.destroy()
 
     unbindModalEvents()
+    $("html").css({
+      'overflow' : 'auto'
+   });
+
   }
 
   var onSearch = function (term) {
