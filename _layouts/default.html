@@ -11,7 +11,10 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
   <link rel="stylesheet" href="/styles.css?v={{ site.version }}">
+
+  {% if page.class == index %}
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  {% endif %}
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@RocketChat">
@@ -38,10 +41,13 @@
 {% endcomment %}
 {% include gtm/body.html %}
 {{ content }}
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" async integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="/main.js"></script>
 <script src="/redirect.js"></script>
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+{% if page.class == index %}
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" async type="text/javascript" charset="utf-8"></script>
+{% endif %}
+
 <!--[if IE]>
   <script src="/polyfill/modernizr.js"></script>
   <script src="/polyfill/respond.min.js"></script>
