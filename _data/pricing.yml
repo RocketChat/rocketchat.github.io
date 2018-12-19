@@ -16,11 +16,6 @@
 
 # When updating this file locally you might need to restart the jekyll server or delete the "_site" folder to see the changes on your local site.
 
-- title: "High Scalability Cluster"
-  community: ""
-  pro: ""
-  enterprise: true
-
 - title: "Features"
   isHeader: true
 
@@ -48,7 +43,7 @@
   pro: true
   enterprise: true
 
-- title: "Unlimited Public Channels"
+- title: "Public Channels"
   bronze: true
   silver: true
   gold: true
@@ -56,7 +51,7 @@
   pro: true
   enterprise: true
 
-- title: "Unlimited Private Groups"
+- title: "Private Channels"
   bronze: true
   silver: true
   gold: true
@@ -93,7 +88,7 @@
   pro: "Unlimited"
   enterprise: "Unlimited"
 
-- title: "Multi Language Interface"
+- title: "Multilanguage Interface"
   bronze: true
   silver: true
   gold: true
@@ -101,13 +96,21 @@
   pro: true
   enterprise: true
 
-- title: "Apps iOS, Android, Win, Mac and Linux"
-  bronze: true
-  silver: true
-  gold: true
-  community: true
-  pro: true
-  enterprise: true
+- title: "Desktop Apps"
+  bronze: "Windows, macOS, Linux"
+  silver: "Windows, macOS, Linux"
+  gold: "Windows, macOS, Linux"
+  community: "Windows, macOS, Linux"
+  pro: "Windows, macOS, Linux"
+  enterprise: "Windows, macOS, Linux"
+
+- title: "Mobile Apps"
+  bronze: "Android, iOS"
+  silver: "Android, iOS"
+  gold: "Android, iOS"
+  community: "Android, iOS"
+  pro: "Android, iOS"
+  enterprise: "Android, iOS"
 
 - title: "Custom Domain"
   bronze: ""
@@ -192,6 +195,11 @@
   pro: ""
   enterprise: true
 
+- title: "High Scalability Cluster"
+  community: ""
+  pro: ""
+  enterprise: true
+
 - title: "Administration"
   isHeader: true
 
@@ -203,7 +211,7 @@
   pro: "Hourly"
   enterprise: "Hourly"
 
-- title: "Multi Factor Authentication"
+- title: "Multifactor Authentication"
   bronze: ""
   silver: true
   gold: true
@@ -211,7 +219,7 @@
   pro: true
   enterprise: true
 
-- title: "Customize User Permission"
+- title: "Customizable User Permission"
   bronze: ""
   silver: true
   gold: true
@@ -219,7 +227,7 @@
   pro: true
   enterprise: true
 
-- title: "Real Time Active Directory Sync LDAP"
+- title: "LDAP / Active Directory Real Time Sync"
   bronze: ""
   silver: true
   gold: true
@@ -286,26 +294,16 @@
 - title: "Support"
   isHeader: true
 
-- title: "Monitoring and Alerts"
-  bronze: "24/7"
-  silver: "24/7"
-  gold: "24/7"
-  community: true
-  pro: true
-  enterprise: true
-
 - title: "Updates"
   community: "Regular Releases"
   pro: "Priority Patches"
   enterprise: "Priority Patches"
+  bronze: "Automatic"
+  silver: "Automatic"
+  gold: "Automatic"
 
-- title: "Reporting"
-  bronze: "Weekly"
-  silver: "Daily"
-  gold: Hourly
-
-- title: "Monthly Uptime SLA"
-  bronze:
+- title: "SLA - Monthly Uptime"
+  bronze: ""
   silver: "99.99%"
   gold: "99.99%"
 
@@ -313,11 +311,6 @@
   bronze: "Daily"
   silver: "Twice Daily"
   gold: "Hourly"
-
-- title: "Updates"
-  bronze: "Automatic"
-  silver: "Automatic"
-  gold: "Automatic"
 
 - title: "Online Ticket Creation"
   bronze: true
@@ -327,7 +320,7 @@
   pro: true
   enterprise: true
 
-- title: "Email Support"
+- title: "24/7 Email"
   bronze: true
   silver: true
   gold: true
@@ -345,13 +338,26 @@
 
 - title: "24/7 Phone"
   bronze: ""
-  silver: ""
-  gold: true
+  silver: "Critical Only"
+  gold: "All tickets"
+  community: ""
+  pro: "Critical Only"
+  enterprise: "All tickets"
+
+- title: "Support Entitlement"
+  bronze: "Admins"
+  silver: "Admins"
+  gold: "Admins"
+  community: ""
+  pro: "1 Named Contact"
+  enterprise: "3 Named Contacts"
+
+- title: "Post-incident Reports"
   community: ""
   pro: ""
   enterprise: true
 
-- title: "SLA - Issue Response Time"
+- title: "SLA - Initial Response Time"
   isHeader: true
 
 - title: "Minimal"
@@ -381,15 +387,7 @@
 - title: "Extras"
   isHeader: true
 
-- title: "Onboarding Assistance"
-  bronze: ""
-  silver: true
-  gold: true
-  community: ""
-  pro: true
-  enterprise: true
-
-- title: "Migration Assistance"
+- title: "Onboarding Call"
   bronze: ""
   silver: ""
   gold: true
@@ -397,10 +395,23 @@
   pro: ""
   enterprise: true
 
+- title: "Migration Assistance"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true
+
 - title: "Access to Product Team"
   bronze: ""
   silver: ""
   gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "On-Call Upgrade Assistance"
   community: ""
   pro: ""
   enterprise: true
