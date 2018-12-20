@@ -8,5 +8,5 @@ author: Diego Dorgam
 language: USA
 cover: https://img.youtube.com/vi/aeMgkHpSWr0/0.jpg
 categories:
-  - Webnars
+  - Webinars
 ---

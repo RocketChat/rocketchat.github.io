@@ -8,5 +8,5 @@ author: Carolina Freitas
 language: Brazil
 cover: https://img.youtube.com/vi/-syyThQAFuM/0.jpg
 categories:
-  - Webnars
+  - Webinars
 ---

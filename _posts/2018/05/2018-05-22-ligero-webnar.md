@@ -8,5 +8,5 @@ author: Diego Dorgam
 language: Brazil
 cover: https://img.youtube.com/vi/_LDVryNlWuw/0.jpg
 categories:
-  - Webnars
+  - Webinars
 ---
