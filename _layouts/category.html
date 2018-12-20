@@ -23,15 +23,15 @@ permalink: /categories/
 
 
   <!-- Only events -->
-  {% if page.category == "Events" %}
+  {% if page.category == "Events" or page.category == "Webnars" %}
 
     {% assign Upcoming = "" | split: "" %}
     {% assign Past = "" | split: "" %}
 
     {% for post in site.categories[page.category] %}
-      {% if post.dateEvent > site.time and post.location and post.dateEvent %}
+      {% if post.dateEvent > site.time and post.dateEvent %}
         {% assign Upcoming = Upcoming | push: post %}
-      {% elsif post.dateEvent < site.time and post.location and post.dateEvent %}
+      {% elsif post.dateEvent < site.time and post.dateEvent %}
         {% assign Past = Past | push: post %}
       {% endif %}
     {% endfor %}
@@ -49,7 +49,7 @@ permalink: /categories/
     <div class="space--4"></div>
 
     <h3 class="display--small theme_type--dark blog__section"><strong>Past</strong></h3>
-    <div class="blog__category">
+    <div class="{% if noHighlight == true %}blog__category--no-highlight{% elsif Upcoming.size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
       {% for post in Past %}
         {% include blog/article-link.html post=post %}
       {% endfor %}

@@ -1,4 +1,4 @@
-<a class="card--blog card--blog__image{% if include.post.dateEvent %} event{% endif %}" href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include.post.url | remove: "index.html" }} {% endif %}' >
+<a class="card--blog card--blog__image {% if include.post.inactive %}inactiveLink{% endif %} {% if include.post.dateEvent %} event{% endif %}" href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include.post.url | remove: "index.html" }} {% endif %}' >
     <div class="card--blog__cover" style="{% if include.post.bgColor %}background-color: #{{include.post.bgColor}};{% endif %}{% unless include.post.bgSize == 'logo' %}{% if include.post.cover %}background-image: url('{{ include.post.cover }}');{% if include.post.bgSize %}background-size: {{ include.post.bgSize }};{% endif %}{% else %}background-image: url('/images/blog/post.jpg');{% endif %}{% endunless %}">
         {% if include.post.cover and include.post.bgSize == 'logo'%}
         <img class="card--blog__img-cover" src="{{include.post.cover}}" alt="go to post">
@@ -7,7 +7,7 @@
     <div class="card--blog__wrap">
         <!-- If post has a dateEvent attribute, it is a event post -->
         {% if include.post.dateEvent %}
-            <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ include.post.dateEvent | date: "%a" }}</p>
+            <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ include.post.dateEvent | date: "%a" }}{% if include.post.language %}<img class="post-flag" src="/images/flags/{{post.language}}.png" alt="language"> {% endif %}</p>
             <h4 class="display theme_type--dark">
               {{ include.post.dateEvent | date: "%m.%d" }}
               {% if include.post.dateEventEnd %}
