@@ -275,6 +275,11 @@ body.post {
   }
 }
 
+.blog__subtitle {
+  height: 48px;
+  overflow: hidden;
+}
+
 .blog__event-location,
 .blog__event-dayweek {
   color: rgba(255, 255, 255, 0.7);
@@ -286,6 +291,68 @@ body.post {
   width: auto;
   height: 14px;
   margin-left: 6px;
+}
+
+//Webinar
+
+.blog__webinar-host {
+  display: flex;
+
+  &.multiple {
+    .host {
+
+      &__image, {
+        margin-right: -16px;
+        z-index: 20;
+        transition: opacity 0.5s;
+
+        &:hover + .host__text {
+          opacity: 1;
+          height: 44px;
+          width: 60%;
+          margin-left: 32px;
+          transition-delay: 0s;
+        }
+
+        &:hover ~ .host__image {
+          opacity: 0;
+          transition: opacity 0s;
+        }
+      }
+
+      &__text {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+
+        transition: opacity 0.5s;
+      }
+    }
+  }
+  .host {
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+
+    &__image {
+      height: 44px;
+      width: 44px;
+      object-fit: cover;
+      border-radius: 50px;
+      margin-right: 16px;
+    }
+
+
+    &__name {
+      font-weight: 600;
+    }
+
+    &__role {
+      font-weight: 500;
+      margin: 0;
+    }
+  }
 }
 
 //

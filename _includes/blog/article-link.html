@@ -1,4 +1,4 @@
-<a class="card--blog card--blog__image {% if include.post.inactive %}inactiveLink{% endif %} {% if include.post.dateEvent %} event{% endif %}" href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include.post.url | remove: "index.html" }} {% endif %}' >
+<a class="card--blog card--blog__image {% if include.post.inactive %}inactiveLink{% endif %} {% if include.post.dateEvent %} event{% endif %} {% if post.categories contains 'Webinars' %} webinar {% endif %}" href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include.post.url | remove: "index.html" }} {% endif %}' >
     <div class="card--blog__cover" style="{% if include.post.bgColor %}background-color: #{{include.post.bgColor}};{% endif %}{% unless include.post.bgSize == 'logo' %}{% if include.post.cover %}background-image: url('{{ include.post.cover }}');{% if include.post.bgSize %}background-size: {{ include.post.bgSize }};{% endif %}{% else %}background-image: url('/images/blog/post.jpg');{% endif %}{% endunless %}">
         {% if include.post.cover and include.post.bgSize == 'logo'%}
         <img class="card--blog__img-cover" src="{{include.post.cover}}" alt="go to post">
@@ -7,18 +7,48 @@
     <div class="card--blog__wrap">
         <!-- If post has a dateEvent attribute, it is a event post -->
         {% if include.post.dateEvent %}
-            <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ include.post.dateEvent | date: "%a" }}{% if include.post.language %}<img class="post-flag" src="/images/flags/{{post.language}}.png" alt="language"> {% endif %}</p>
+            <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ include.post.dateEvent | date: "%a" }} {% if include.post.gmt %} (GMT {{include.post.gmt}}) {% endif %} {% if include.post.language %}<img class="post-flag" src="/images/flags/{{post.language}}.png" alt="language">{% endif %}</p>
             <h4 class="display theme_type--dark">
-              {{ include.post.dateEvent | date: "%m.%d" }}
+              {% if post.categories contains "Webinars" %}
+                {{ include.post.dateEvent | date: "%m %b - %I:%M %P" }}
+              {% else %}
+                {{ include.post.dateEvent | date: "%m.%d" }}
+              {% endif %}
               {% if include.post.dateEventEnd %}
                 — {{ include.post.dateEventEnd | date: "%m.%d" }}
               {% endif %}
             </h4>
-            <h3 class="text theme_type--dark type--nomargin">
+            <h3 class="blog__subtitle text theme_type--dark type--nomargin">
             {% if include.post.type %}<strong>{{ include.post.type }}:</strong> {% endif %}
             {{ include.post.title }}</h3>
             <div class="space--1"></div>
-            <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ include.post.location }}</p>
+
+            {% if include.post.categories contains "Webinars" and include.post.hosts %}
+            <div class="blog__webinar-host {% if include.post.hosts.size > 2 %}multiple{% endif %}">
+              {% for host in include.post.hosts %}
+                {% for member in site.data.team %}
+                  {% if member.name == host %}
+                  <img class="host__image" src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg">
+                    <div class="host__text">
+                      <h4 class="host__name theme_type--dark">{{member.name}}</h4>
+                      <p class="host__role">{{member.role}}</p>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            </div>
+            {% elsif include.post.categories contains "Webinars" and include.post.off-team-host %}
+              <div class="blog__webinar-host">
+                <img class="host__image" src="{{include.post.off-team-host-image}}">
+                <div class="host__text">
+                  <h4 class="host__name theme_type--dark">{{include.post.off-team-host}}</h4>
+                  <p class="host__role">{{include.post.off-team-host-role}}</p>
+                </div>
+              </div>
+            {% else %}
+              <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ include.post.location }}</p>
+            {% endif %}
+
         {% else %}
             <!-- If not, is a normal blog post -->
             <p class="card--blog__meta label--small theme_type--grey">
