@@ -3,125 +3,130 @@ layout: en/default
 class: post
 ---
 
-<article class="blog-post">
 
-  <header class="blog-post__header">
-    <div class="container">
-      <div class="flex-grid grid--justify-around">
-        <div class="blog-post__header-wrap">
-          <p class="label--small theme_type--grey">
-            {% assign words = page.content | number_of_words %}
-            {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
-            — {{ page.date | date: "%b %-d, %Y" }}
-          </p>
-          <h3 class="display--big theme_type--dark">{{ page.title }}</h3>
-          <div class="card--blog__data">
-            <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">
-              <a href="/category/{{ page.categories[0] | slugify}}">
-                {{ page.categories[0] }}
-              </a>
+{% if page.categories contains "Webinars" %}
+  {% include blog/webinar-detail.html page=post %}
+{% else %}
+  <article class="blog-post">
+
+    <header class="blog-post__header">
+      <div class="container">
+        <div class="flex-grid grid--justify-around">
+          <div class="blog-post__header-wrap">
+            <p class="label--small theme_type--grey">
+              {% assign words = page.content | number_of_words %}
+              {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
+              — {{ page.date | date: "%b %-d, %Y" }}
             </p>
-            <p class="card--blog__author text--small theme_type--grey">by {{ page.author }}</p>
+            <h3 class="display--big theme_type--dark">{{ page.title }}</h3>
+            <div class="card--blog__data">
+              <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">
+                <a href="/category/{{ page.categories[0] | slugify}}">
+                  {{ page.categories[0] }}
+                </a>
+              </p>
+              <p class="card--blog__author text--small theme_type--grey">by {{ page.author }}</p>
+            </div>
           </div>
         </div>
       </div>
+    </header>
+
+    {% if page.cover %}
+      <img class="blog-post__cover" src="{{ page.cover }}" alt="{{ page.title }}" />
+    {% endif %}
+
+    <div class="blog-post__wrap">
+      {{ content }}
     </div>
-  </header>
 
-  {% if page.cover %}
-    <img class="blog-post__cover" src="{{ page.cover }}" alt="{{ page.title }}" />
-  {% endif %}
+    {% if page.ios_release %}
+      <div class="card theme_box--light blog-post__social flex-grid grid--center">
+        <p class="display--small type--nomargin col">Install the latest release:</p>
+        <a href="https://itunes.apple.com/app/rocket-chat/id1148741252">
+          <img class="itunes" src="/images/install/itunes-store.svg">
+        </a>
+      </div>
+    {% endif %}
 
-  <div class="blog-post__wrap">
-    {{ content }}
-  </div>
+    {% if page.android_release %}
+      <div class="card theme_box--light blog-post__social flex-grid grid--center">
+        <p class="display--small type--nomargin col">Install the latest release:</p>
+        <a href="https://play.google.com/store/apps/details?id=chat.rocket.android">
+          <img class="googleplay" src="/images/install/google-play.svg">
+        </a>
+      </div>
+    {% endif %}
 
-  {% if page.ios_release %}
-    <div class="card theme_box--light blog-post__social flex-grid grid--center">
-      <p class="display--small type--nomargin col">Install the latest release:</p>
-      <a href="https://itunes.apple.com/app/rocket-chat/id1148741252">
-        <img class="itunes" src="/images/install/itunes-store.svg">
-      </a>
-    </div>
-  {% endif %}
-  
-  {% if page.android_release %}
-    <div class="card theme_box--light blog-post__social flex-grid grid--center">
-      <p class="display--small type--nomargin col">Install the latest release:</p>
-      <a href="https://play.google.com/store/apps/details?id=chat.rocket.android">
-        <img class="googleplay" src="/images/install/google-play.svg">
-      </a>
-    </div>
-  {% endif %}
+    <div class="space--2"></div>
 
-  <div class="space--2"></div>
+    <div class="card theme_box--light blog-post__social" id="social">
+      <p class="label--small theme_type--light">Share article</p>
 
-  <div class="card theme_box--light blog-post__social" id="social">
-    <p class="label--small theme_type--light">Share article</p>
+      <div class="share">
+        <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
-    <div class="share">
-      <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+        <a
+          class="twitter-share-button"
+          href="#social"
+          onclick="window.open('https://twitter.com/intent/tweet?text={{ page.title }}&url=https://rocket.chat{{ page.url }}&hashtags=Rocket.Chat','Facebook Share','width=800,height=600');"
+          data-size="large"
+          target="_blank"
+        >
+          <img src="/images/blog/twitter.svg" alt="Share on Tweet" />
+        </a>
 
-      <a
-        class="twitter-share-button"
-        href="#social"
-        onclick="window.open('https://twitter.com/intent/tweet?text={{ page.title }}&url=https://rocket.chat{{ page.url }}&hashtags=Rocket.Chat','Facebook Share','width=800,height=600');"
-        data-size="large"
-        target="_blank"
-      >
-        <img src="/images/blog/twitter.svg" alt="Share on Tweet" />
-      </a>
+        <a
+          class="facebook-share-button"
+          href="#social"
+          onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://rocket.chat{{ page.url }}','Facebook Share','width=800,height=600');">
+          <img src="/images/blog/facebook.svg" alt="Share on Facebook" />
+        </a>
 
-      <a
-        class="facebook-share-button"
-        href="#social"
-        onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://rocket.chat{{ page.url }}','Facebook Share','width=800,height=600');">
-        <img src="/images/blog/facebook.svg" alt="Share on Facebook" />
-      </a>
+        <a
+          href="#social"
+          target="_blank"
+          onclick="window.open('//www.reddit.com/submit?url=https://rocket.chat{{ page.url }}','Reddit Share','width=800,height=600');">
+          <img src="/images/blog/reddit.svg" alt="Share on Reddit" />
+        </a>
 
-      <a
-        href="#social"
-        target="_blank"
-        onclick="window.open('//www.reddit.com/submit?url=https://rocket.chat{{ page.url }}','Reddit Share','width=800,height=600');">
-        <img src="/images/blog/reddit.svg" alt="Share on Reddit" />
-      </a>
-
-      <a
-        href="mailto:?subject=I%20just%20read%20{{ page.title }}&body=Hey%2C%20I%20just%20read%20{{ page.title }}%20https://rocket.chat{{ page.url }}"
-      >
-        <img src="/images/blog/email.svg" alt="Share by Email" />
-      </a>
-    </div>
-  </div>
-
-  <div class="space--4"></div>
-</article>
-
-<div class="space--4"></div>
-
-{% assign RelatedList = "" | split: "" %}
-
-{% for post in site.posts %}
-  {% if post.url != page.url and post.categories contains page.categories[0] %}
-    {% assign RelatedList = RelatedList | push: post %}
-  {% endif %}
-{% endfor %}
-
-{% if RelatedList.size > 0 %}
-  <div class="blog-post__related theme_box--space">
-    <div class="container">
-      <h3 class="display--small theme_type--dark blog__section">
-        <span><strong>Related Articles</strong></span>
-        <small><a href="/category/{{ page.categories[0] | slugify}}" class="button--link">View all</a></small>
-      </h3>
-
-      <div class="blog__related">
-        {% for post in RelatedList limit:3 %}
-          {% include blog/article-link.html post=post %}
-        {% endfor %}
+        <a
+          href="mailto:?subject=I%20just%20read%20{{ page.title }}&body=Hey%2C%20I%20just%20read%20{{ page.title }}%20https://rocket.chat{{ page.url }}"
+        >
+          <img src="/images/blog/email.svg" alt="Share by Email" />
+        </a>
       </div>
     </div>
-  </div>
-{% endif %}
 
-{% include webrules.html %}
+    <div class="space--4"></div>
+  </article>
+
+  <div class="space--4"></div>
+
+  {% assign RelatedList = "" | split: "" %}
+
+  {% for post in site.posts %}
+    {% if post.url != page.url and post.categories contains page.categories[0] %}
+      {% assign RelatedList = RelatedList | push: post %}
+    {% endif %}
+  {% endfor %}
+
+  {% if RelatedList.size > 0 %}
+    <div class="blog-post__related theme_box--space">
+      <div class="container">
+        <h3 class="display--small theme_type--dark blog__section">
+          <span><strong>Related Articles</strong></span>
+          <small><a href="/category/{{ page.categories[0] | slugify}}" class="button--link">View all</a></small>
+        </h3>
+
+        <div class="blog__related">
+          {% for post in RelatedList limit:3 %}
+            {% include blog/article-link.html post=post %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  {% include webrules.html %}
+{% endif %}

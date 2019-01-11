@@ -1,0 +1,53 @@
+ <article class="blog-post webinar">
+  <div class="container webinar">
+    <h3 class="display--big theme_type--dark">{{ page.title }}</h3>
+    <div class="webinar-content">
+      <div class="webinar-info">
+        <div class="webinar-box">
+            <a class="youtube-image-link webinar" style="background-image: url({{ page.cover }})" data-featherlight="#youtube-link"><img class="youtube-play" src="/images/default/play-circle.svg" alt="play"></a>
+            <div id="youtube-link"><iframe class="youtube-video"src="{{ page.webinarURL }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        </div>
+        <div class="webinar-description">
+          <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ page.dateEvent | date: "%A" }} (GMT {{page.gmt}}) <img class="post-flag" src="/images/flags/{{page.language}}.png" alt="language"></p>
+          <h4 class="display theme_type--dark">
+            {{ page.dateEvent | date: "%m %b - %I:%M %P" }}
+          </h4>
+          <p class="desc">{{ page.description }}</p>
+            {% if page.hosts %}
+              {% for host in page.hosts %}
+                {% for member in site.data.team %}
+                  {% if member.name == host %}
+                    <div class="blog__webinar-host">
+                    <img class="host__image" src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg">
+                      <div class="host__text">
+                        <h4 class="host__name theme_type--light">{{member.name}}</h4>
+                        <p class="host__role">{{member.role}}</p>
+                      </div>
+                    </div>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+            {% elsif page.off-team-host %}
+              <div class="blog__webinar-host">
+                <img class="host__image" src="{{page.off-team-host-image}}">
+                <div class="host__text">
+                  <h4 class="host__name theme_type--dark">{{page.off-team-host}}</h4>
+                  <p class="host__role">{{page.off-team-host-role}}</p>
+                </div>
+              </div>
+            {% endif %}
+        </div>
+      </div>
+      <div class="webinar-form">
+        {% capture posttime %} {{page.dateEvent | date: '%s'}} {% endcapture %}
+        {% capture nowunix %} {{'now' | date: '%s'}} {% endcapture %}
+
+        {% if posttime > nowunix %}
+          {% include blog/webinar-form.html post=post %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</article>
+
+{% include webrules.html %}

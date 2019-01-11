@@ -1,7 +1,9 @@
 ---
 title: Webinar Zenvia + Rocket.chat Como ter um atendimento de excelência
+description:
+webinarID: 004
 dateEvent: 2018-12-13 10:00:00
-extUrl: https://youtu.be/-syyThQAFuM
+webinarURL: https://youtu.be/-syyThQAFuM
 bgSize: cover
 bgColor: 030c1a
 hosts:

@@ -1,7 +1,7 @@
 ---
 title: Rocket.Chat on AWS Marketplace
+webinarID: 007
 dateEvent: 2019-02-06 10:00:00
-extUrl:
 bgSize: cover
 bgColor: 030c1a
 hosts:

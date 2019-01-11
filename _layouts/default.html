@@ -12,7 +12,7 @@
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
   <link rel="stylesheet" href="/styles.css?v={{ site.version }}">
 
-  {% if page.class == "index" %}
+  {% if page.class == "index" or page.categories contains "Webinars" %}
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
   {% endif %}
 
@@ -45,7 +45,7 @@
 
 <script src="/main.js"></script>
 <script src="/redirect.js"></script>
-{% if page.class == "index" %}
+{% if page.class == "index" or page.categories contains "Webinars" %}
   <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" async type="text/javascript" charset="utf-8"></script>
 {% endif %}
 

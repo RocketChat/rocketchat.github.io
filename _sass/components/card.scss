@@ -92,6 +92,10 @@
     1em -1em 0 1px $space-grey;
 
     background: $space-grey;
+
+    .blog__webinar-host.multiple .host__image {
+      border-color: $space-grey;
+    }
   }
 }
 

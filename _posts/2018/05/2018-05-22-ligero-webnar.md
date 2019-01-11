@@ -1,7 +1,9 @@
 ---
 title: Integração Rocket.chat e Ligero
+description: Webinar com guias de como integrar Rocket.Chat e Ligero
+webinarID: 001
 dateEvent: 2018-05-22 10:00:00
-extUrl: https://youtu.be/_LDVryNlWuw
+webinarURL: https://youtu.be/_LDVryNlWuw
 bgSize: cover
 bgColor: 030c1a
 off-team-host: Diego Dorgam

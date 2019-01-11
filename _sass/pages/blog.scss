@@ -295,16 +295,68 @@ body.post {
 
 //Webinar
 
+.blog-post.webinar {
+  background-color: $space;
+  padding-top: 90px;
+}
+
+.webinar-content {
+  display: flex;
+}
+
+.container.webinar h3 {
+  margin-bottom: 90px;
+}
+
+.webinar-box {
+  margin-bottom: 40px;
+}
+
+.webinar-info {
+  flex-grow: 1;
+}
+
+.webinar-form {
+  margin-left: 128px;
+  flex-shrink: 0;
+}
+
+.webinar-description {
+
+  .desc {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+
+  .blog__webinar-host {
+    margin-bottom: 28px;
+  }
+}
+
+.webinar__post-info {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-gap: 16px;
+}
+
 .blog__webinar-host {
   display: flex;
 
   &.multiple {
+    width: 30%;
+    &:hover > *:not(:hover) {
+      opacity: 0.2;
+      z-index: 0;
+    }
     .host {
 
-      &__image, {
+      &__image {
         margin-right: -16px;
         z-index: 20;
         transition: opacity 0.5s;
+        border: 2px solid #030c1a;
 
         &:hover + .host__text {
           opacity: 1;
@@ -313,11 +365,6 @@ body.post {
           margin-left: 32px;
           transition-delay: 0s;
         }
-
-        &:hover ~ .host__image {
-          opacity: 0;
-          transition: opacity 0s;
-        }
       }
 
       &__text {
@@ -325,6 +372,8 @@ body.post {
         height: 0;
         overflow: hidden;
         opacity: 0;
+        position: absolute;
+        left: 80px;
 
         transition: opacity 0.5s;
       }
@@ -345,10 +394,12 @@ body.post {
 
 
     &__name {
+      color: #fff;
       font-weight: 600;
     }
 
     &__role {
+      color: $grey;
       font-weight: 500;
       margin: 0;
     }
@@ -642,3 +693,76 @@ body.category {
   pointer-events: none;
   cursor: default;
 }
+
+// Webinars popup
+
+body.post .featherlight .featherlight-content {
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  max-height: 100%;
+  border: 0;
+  background: rgba(0, 0, 0, 0);
+}
+
+
+
+.youtube-image-link.webinar {
+  width: 100%;
+  height: 342px;
+  padding: 28% 0;
+}
+
+
+// Override for css that comes from agile CRM
+body.post form.agile-form-transparent fieldset {
+
+  .agile-group {
+    margin-left: 0;
+
+    .agile-field {
+      width: 100%;
+
+      input, select {
+        border-radius: 2px !important;
+        height: 44px;
+        background: #0B182B !important;
+        border: 1.5px solid #384A66 !important;
+
+        &::placeholder {
+          color: #A3B4CC !important;
+          font-weight: 500;
+        }
+      }
+
+      &.agile-button-field {
+        text-align: left;
+      }
+
+
+      button {
+        width: 108px;
+        height: 44px;
+        background: #1D74F5;
+        border-radius: 2px 2px 2px 2px;
+        border: none;
+      }
+    }
+  }
+
+
+  .agile-label {
+    padding: 7px 0 4px 0;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+  }
+
+  .agile-group label, .agile-form-transparent label.i-checks {
+    color: #A3B4CC !important;
+  }
+}
+
+
