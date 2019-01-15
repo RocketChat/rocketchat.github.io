@@ -1,12 +1,20 @@
- <article class="blog-post webinar">
+{% capture posttime %} {{page.dateEvent | date: '%s'}} {% endcapture %}
+{% capture nowunix %} {{'now' | date: '%s'}} {% endcapture %}
+
+<article class="blog-post webinar">
   <div class="container webinar">
     <h3 class="display--big theme_type--dark">{{ page.title }}</h3>
     <div class="webinar-content">
       <div class="webinar-info">
         <div class="webinar-box">
+          {% if posttime > nowunix %}
+            <img src="{{page.cover}}">
+          {% else %}
             <a class="youtube-image-link webinar" style="background-image: url({{ page.cover }})" data-featherlight="#youtube-link"><img class="youtube-play" src="/images/default/play-circle.svg" alt="play"></a>
             <div id="youtube-link"><iframe class="youtube-video"src="{{ page.webinarURL }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          {% endif %}
         </div>
+
         <div class="webinar-description">
           <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ page.dateEvent | date: "%A" }} (GMT {{page.gmt}}) <img class="post-flag" src="/images/flags/{{page.language}}.png" alt="language"></p>
           <h4 class="display theme_type--dark">
@@ -38,14 +46,14 @@
             {% endif %}
         </div>
       </div>
-      <div class="webinar-form">
-        {% capture posttime %} {{page.dateEvent | date: '%s'}} {% endcapture %}
-        {% capture nowunix %} {{'now' | date: '%s'}} {% endcapture %}
+      {% capture posttime %} {{page.dateEvent | date: '%s'}} {% endcapture %}
+      {% capture nowunix %} {{'now' | date: '%s'}} {% endcapture %}
 
-        {% if posttime > nowunix %}
+      {% if posttime > nowunix %}
+        <div class="webinar-form">
           {% include blog/webinar-form.html post=post %}
-        {% endif %}
-      </div>
+        </div>
+      {% endif %}
     </div>
   </div>
 </article>

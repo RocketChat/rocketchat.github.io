@@ -302,6 +302,10 @@ body.post {
 
 .webinar-content {
   display: flex;
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+  }
+
 }
 
 .container.webinar h3 {
@@ -314,11 +318,15 @@ body.post {
 
 .webinar-info {
   flex-grow: 1;
+  width: 100%;
 }
 
 .webinar-form {
   margin-left: 128px;
   flex-shrink: 0;
+  @media screen and (max-width: $tablet) {
+    margin-left: 0;
+  }
 }
 
 .webinar-description {
@@ -710,7 +718,7 @@ body.post .featherlight .featherlight-content {
 .youtube-image-link.webinar {
   width: 100%;
   height: 342px;
-  padding: 28% 0;
+  padding: 33% 0;
 }
 
 
