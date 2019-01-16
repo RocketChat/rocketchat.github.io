@@ -10,7 +10,7 @@ hosts:
   - Carolina Freitas
 language: Brazil
 gmt: -3
-cover: https://img.youtube.com/vi/-syyThQAFuM/0.jpg
+cover: https://img.youtube.com/vi/-syyThQAFuM/maxresdefault.jpg
 categories:
   - Webinars
 ---

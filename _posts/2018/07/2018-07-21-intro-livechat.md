@@ -11,7 +11,7 @@ off-team-host-image: "/images/team/member/diego-dorgam-01.jpg"
 off-team-host-role: Bot Engineer
 gmt: -3
 language: Brazil
-cover: https://img.youtube.com/vi/PxtQp8N3Pww/0.jpg
+cover: https://img.youtube.com/vi/PxtQp8N3Pww/maxresdefault.jpg
 categories:
   - Webinars
 ---
