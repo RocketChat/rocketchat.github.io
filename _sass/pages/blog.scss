@@ -197,8 +197,6 @@ body.post {
         }
       }
     }
-
-
     @media screen and (min-width: $tablet) {
       @supports (display: grid) {
         display: grid;
@@ -332,33 +330,6 @@ body.post {
   }
 }
 
-@media screen and (max-width: $tablet) {
-  .card--blog .card--blog__wrap .blog__webinar-host {
-    display: grid;
-    grid-template-columns: 44px 1fr;
-    width: 100%;
-    grid-gap: 16px;
-
-    &:hover > *:not(:hover) {
-      opacity: 1;
-    }
-
-    .host__text {
-      opacity: 1;
-      width: unset;
-      height: unset;
-      position: relative;
-      left: 0;
-    }
-
-    .host__image:hover + .host__text {
-      height: unset;
-      width: unset;
-      margin-left: 0;
-    }
-  }
-  }
-
 .container.webinar h3 {
   margin-bottom: 90px;
 }
@@ -391,13 +362,6 @@ body.post {
   .blog__webinar-host {
     margin-bottom: 28px;
   }
-}
-
-.webinar__post-info {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-gap: 16px;
 }
 
 .blog__webinar-host {
@@ -458,8 +422,6 @@ body.post {
       border-radius: 50px;
       margin-right: 16px;
     }
-
-
     &__name {
       color: #fff;
       font-weight: 600;
@@ -772,15 +734,11 @@ body.post .featherlight .featherlight-content {
   background: rgba(0, 0, 0, 0);
 }
 
-
-
-
 .youtube-image-link.webinar {
   width: 100%;
   height: 342px;
   padding: 29% 0;
 }
-
 
 // Override for css that comes from agile CRM
 body.post form.agile-form-transparent fieldset {
@@ -806,8 +764,6 @@ body.post form.agile-form-transparent fieldset {
       &.agile-button-field {
         text-align: left;
       }
-
-
       button {
         width: 108px;
         height: 44px;
@@ -817,7 +773,6 @@ body.post form.agile-form-transparent fieldset {
       }
     }
   }
-
 
   .agile-label {
     padding: 7px 0 4px 0;
@@ -832,5 +787,3 @@ body.post form.agile-form-transparent fieldset {
     color: #A3B4CC !important;
   }
 }
-
-
