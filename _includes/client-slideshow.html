@@ -1,0 +1,31 @@
+<div class="slider fade">
+  <div class="slider__logo-container">
+    {% for logo in site.data.client-logos limit: 4 %}
+      <img src="/images/client-logos/{{logo}}" alt="logo" />
+    {% endfor %}
+  </div>
+</div>
+
+<div class="slider fade">
+  <div class="slider__logo-container">
+    {% for logo in site.data.client-logos limit: 4 offset: 4 %}
+      <img src="/images/client-logos/{{logo}}" alt="logo" />
+    {% endfor %}
+    </div>
+</div>
+
+<div class="slider fade">
+  <div class="slider__logo-container">
+    {% for logo in site.data.client-logos limit: 4 offset: 8 %}
+      <img src="/images/client-logos/{{logo}}" alt="logo" />
+    {% endfor %}
+  </div>
+</div>
+
+<div class="slider fade">
+  <div class="slider__logo-container">
+    {% for logo in site.data.client-logos limit: 4 offset: 12 %}
+      <img src="/images/client-logos/{{logo}}" alt="logo" />
+    {% endfor %}
+  </div>
+</div>

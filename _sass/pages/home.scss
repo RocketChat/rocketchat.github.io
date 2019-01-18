@@ -549,3 +549,56 @@ body.index .featherlight .featherlight-content {
     height: 90vh;
   }
 }
+
+// Home Clients Slideshow
+
+/* Slideshow container */
+
+
+.clients {
+
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .slider {
+    position: absolute;
+    width: 68em;
+
+    @media (max-width: $tablet) {
+      width: calc(100% + 1em);
+      left: -1em;
+    }
+  }
+
+  .slider__logo-container {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    align-content: center;
+    margin-top: 16px;
+
+    img {
+      width: 13%;
+      max-height: 100px;
+
+
+      @media (max-width: $tablet) {
+        width: 15%;
+      }
+
+      @media (max-width: $mobile) {
+        width: 20%;
+
+        &:last-child {
+          display: none;
+        }
+      }
+    }
+  }
+  .fade {
+    transition: opacity 2s;
+  }
+}
