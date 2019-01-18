@@ -14,34 +14,36 @@
         <!-- If post has a dateEvent attribute, it is a event post -->
         {% if include.post.dateEvent %}
             <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">
+              {% if include.post.categories contains "Webinars" %}
               {{ include.post.dateEvent | date: "%a" }}
               {% if include.post.gmt %} (GMT {{include.post.gmt}}) {% endif %}
               {% if include.post.language %}
-                <img class="post-flag" src="/images/flags/{{post.language}}.png" alt="language">
+              <img class="post-flag" src="/images/flags/{{post.language}}.png" alt="language">
               {% endif %}
               {% if include.post.language == "USA" %}In English{% elsif include.post.language == "Brazil" %} In Portuguese {% endif %}
-            </p>
-            <h4 class="display theme_type--dark">
-              {% if include.post.categories contains "Webinars" %}
-                {% if posttime > nowunix %}
-                  {{ include.post.dateEvent | date: "%m %b - %I:%M %P" }}
-                {% else %}
-                  {{ include.post.dateEvent | date: "%m %b - %Y" }}
-                {% endif %}
               {% else %}
-                {{ include.post.dateEvent | date: "%m.%d" }}
+                {{ include.post.dateEvent | date: "%b %-d, %Y" }}
+                {% if include.post.dateEventEnd %}
+                  - {{ include.post.dateEventEnd | date: "%b %-d, %Y" }}
+                {% endif %}
               {% endif %}
-              {% if include.post.dateEventEnd %}
-                — {{ include.post.dateEventEnd | date: "%m.%d" }}
-              {% endif %}
-            </h4>
-            <h3 class="blog__subtitle text theme_type--dark type--nomargin">
+            </p>
+            {% if include.post.categories contains "Webinars" %}
+              <h4 class="display theme_type--dark">
+                {% if posttime > nowunix %}
+                  {{ include.post.dateEvent | date: "%b %m - %I:%M %P" }}
+                {% else %}
+                  {{ include.post.dateEvent | date: "%b %m - %Y" }}
+                {% endif %}
+              </h4>
+            {% endif %}
+            <h3 class=" {% if include.post.categories contains 'Webinars' %} blog__subtitle text theme_type--dark type--nomargin {% else %} card--blog__title theme_type--dark {% endif %}">
             {% if include.post.type %}<strong>{{ include.post.type }}:</strong> {% endif %}
             {{ include.post.title }}</h3>
             <div class="space--1"></div>
 
             {% if include.post.categories contains "Webinars" and include.post.hosts %}
-            <div class="blog__webinar-host {% if include.post.hosts.size > 2 %}multiple{% endif %}">
+            <div class="blog__webinar-host {% if include.post.hosts.size > 1 %}multiple{% endif %}">
               {% for host in include.post.hosts %}
                 {% for member in site.data.team %}
                   {% if member.name == host %}
@@ -77,7 +79,7 @@
             <h3 class="card--blog__title theme_type--dark">{{ include.post.title }}</h3>
             <div class="card--blog__data">
                 <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ include.post.categories[0] }}</p>
-                <p class="card--blog__author text--small theme_type--grey">by {{ include.post.author }}</p>
+                <p class="card--blog__author text--small theme_type--grey">by {% if include.post.hosts %}{{ include.post.hosts }}{% else %}{{ include.post.author }}{% endif %}</p>
             </div>
         {% endif %}
     </div>

@@ -250,7 +250,6 @@
           opacity: 1;
           height: 44px;
           width: 60%;
-          margin-left: 32px;
           transition-delay: 0s;
         }
       }
@@ -264,6 +263,18 @@
         left: 80px;
 
         transition: opacity 0.5s;
+
+        &:nth-child(6):last-child {
+          margin-left: 32px;
+        }
+
+        &:nth-child(4):not(:last-child) {
+          margin-left: 32px;
+        }
+
+        &:nth-child(2):not(:last-child) {
+          margin-left: 32px;
+        }
 
         &:nth-child(n+7) {
           display: none;

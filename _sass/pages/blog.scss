@@ -321,6 +321,7 @@ body.post {
     height: unset;
     position: relative;
     left: 0;
+    margin-left: 0 !important;
   }
 
   .host__image:hover + .host__text {
@@ -361,77 +362,6 @@ body.post {
 
   .blog__webinar-host {
     margin-bottom: 28px;
-  }
-}
-
-.blog__webinar-host {
-  display: flex;
-
-  &.multiple {
-    width: 30%;
-    &:hover > *:not(:hover) {
-      opacity: 0.2;
-      z-index: 0;
-    }
-    .host {
-
-      &__image {
-        margin-right: -16px;
-        z-index: 20;
-        transition: opacity 0.5s;
-        border: 2px solid #030c1a;
-
-        &:nth-child(n+7) {
-          display: none;
-        }
-
-        &:hover + .host__text {
-          opacity: 1;
-          height: 44px;
-          width: 60%;
-          margin-left: 32px;
-          transition-delay: 0s;
-        }
-      }
-
-      &__text {
-        width: 0;
-        height: 0;
-        overflow: hidden;
-        opacity: 0;
-        position: absolute;
-        left: 80px;
-
-        transition: opacity 0.5s;
-
-        &:nth-child(n+7) {
-          display: none;
-        }
-      }
-    }
-  }
-  .host {
-    height: 46px;
-    display: flex;
-    flex-direction: column;
-
-    &__image {
-      height: 44px;
-      width: 44px;
-      object-fit: cover;
-      border-radius: 50px;
-      margin-right: 16px;
-    }
-    &__name {
-      color: #fff;
-      font-weight: 600;
-    }
-
-    &__role {
-      color: $grey;
-      font-weight: 500;
-      margin: 0;
-    }
   }
 }
 
@@ -736,7 +666,6 @@ body.post .featherlight .featherlight-content {
 
 .youtube-image-link.webinar {
   width: 100%;
-  height: 342px;
   padding: 29% 0;
 }
 

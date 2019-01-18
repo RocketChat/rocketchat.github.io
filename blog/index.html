@@ -101,14 +101,16 @@ category: home
               <div class="card--blog__wrap">
                 <p class="card--blog__meta label--small theme_type--grey">
                   {{ post.date | date: "%b %-d, %Y" }}
-                  —
+                  {% unless post.categories contains "Webinars" %}
                   {% assign words = post.content | number_of_words %}
-                  {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
+                  —
+                    {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
+                  {% endunless %}
                 </p>
                 <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
                 <div class="card--blog__data">
                   <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ post.categories[0] }}</p>
-                  <p class="card--blog__author text--small theme_type--grey">by {{ post.author }}</p>
+                  <p class="card--blog__author text--small theme_type--grey">by {% if post.hosts %}{{ post.hosts[0] }}{% else %}{{ post.author }}{% endif %}</p>
                 </div>
               </div>
             </a>
