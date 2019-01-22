@@ -173,8 +173,8 @@
   bronze: "Unlimited"
   silver: "Unlimited"
   gold: "Unlimited"
-  community: "1000/month"
-  pro: "10000/month"
+  community: "1000 monthly"
+  pro: "10000 monthly"
   enterprise: "Unlimited"
 
 - title: "Social Network Login"
