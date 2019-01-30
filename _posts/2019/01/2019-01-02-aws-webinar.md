@@ -1,6 +1,6 @@
 ---
 title: Rocket.Chat on AWS Marketplace
-description: In this webinar, Rocket.Chat's lead cloud architect, Aaron Ogle, will be teaching how to use Rocket.Chat in Amazon's AWS Marketplace.
+description: In this webinar, Rocket.Chat's lead cloud architect, Aaron Ogle, will be teaching attendees how to set up Rocket.Chat using Amazon's AWS Marketplace.
 webinarID: 007
 dateEvent: 2019-02-06 10:00:00
 bgSize: cover
