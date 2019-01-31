@@ -338,10 +338,10 @@
 
 - title: "24/7 Phone"
   bronze: ""
-  silver: "Critical Only"
+  silver: "High Only"
   gold: "All tickets"
   community: ""
-  pro: "Critical Only"
+  pro: "High Only"
   enterprise: "All tickets"
 
 - title: "Support Entitlement"
@@ -360,7 +360,7 @@
 - title: "SLA - Initial Response Time"
   isHeader: true
 
-- title: "Minimal"
+- title: "Low"
   bronze: "4 business days"
   silver: "2 business days"
   gold: "1 business day"
@@ -368,7 +368,7 @@
   pro: "4 business days"
   enterprise: "1 business day"
 
-- title: "Normal"
+- title: "Medium"
   bronze: "24 hours"
   silver: "12 hours"
   gold: "6 hours"
@@ -376,7 +376,7 @@
   pro: "24 hours"
   enterprise: "6 hours"
 
-- title: "Critical"
+- title: "High"
   bronze: "2 hours"
   silver: "1 hour"
   gold: "30 minutes"
