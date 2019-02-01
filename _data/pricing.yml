@@ -376,7 +376,7 @@
   pro: "24 hours"
   enterprise: "6 hours"
 
-- title: "High"
+- title: "High (Critical)"
   bronze: "2 hours"
   silver: "1 hour"
   gold: "30 minutes"
