@@ -6,7 +6,8 @@ body.solutions-page {
         height: 607px;
 
         &__image {
-            height: 70%;
+            width: 431px;
+            height: 367px;
             flex-shrink: 0;
             margin-left: 48px;
         }
@@ -17,14 +18,34 @@ body.solutions-page {
             max-width: 635px;
 
             .button {
+                font-size: 18px;
+                margin: 0;
+                margin-top: 32px;
                 width: 159px;
+                height: 60px;
+                align-items: center;
+            }
+        }
+
+        @media screen and (max-width: $tablet) {
+            flex-direction: column-reverse;
+            margin-top: 78px;
+
+            &__image {
+                margin-bottom: 46px;
+                margin-left: 0;
+            }
+
+            &__text {
+                text-align: center;
+                align-items: center;
             }
         }
     }
 
     .features {
         background-color: #fff;
-        padding: 80px 0 172px;
+        padding: 160px 0 172px;
         margin-bottom: 80px;
 
         &__title {
@@ -48,8 +69,8 @@ body.solutions-page {
                 justify-self: center;
 
                 &__image {
-                    width: 64px;
-                    height: 64px;
+                    width: 84px;
+                    height: 84px;
                     margin: 0 auto;
                     margin-bottom: 14px;
                 }
@@ -120,6 +141,17 @@ body.solutions-page {
                 }
             }
         }
+
+        @media screen and (max-width: $tablet) {
+            &__title {
+                width:100%;
+            }
+
+            &__icons {
+                grid-template-columns: repeat(1, auto);
+                grid-template-rows: repeat(6, auto);
+            }
+        }
     }
 
     .testimonials {
@@ -167,6 +199,13 @@ body.solutions-page {
                 }
             }
         }
+
+        @media screen and (max-width: $tablet) {
+            &__title {
+                width: 736px;
+                margin: auto;
+            }
+        }
     }
 
     .solutions-box {
@@ -189,7 +228,14 @@ body.solutions-page {
             .button--ghost {
                 background: #fff;
                 color: $brand;
-                padding: 18px 24px;
+                padding: 20px 32px;
+                font-size: 18px;
+                margin: 0;
+                margin-top: 32px;
+                width: 159px;
+                height: 60px;
+                align-items: center;
+
             }
         }
 
@@ -212,10 +258,16 @@ body.solutions-page {
     }
     .featherlight-content {
         background-color: $space;
+        width: 544px;
+        padding: 0;
 
         #solution-form {
             display: block;
             margin: 64px 96px;
+        }
+
+        h3 {
+            font-weight: bold;
         }
 
         #solution-form__after-box {
@@ -232,13 +284,14 @@ body.solutions-page {
 
         .featherlight-close-icon {
             background: none;
-            color: #fff;
-            font-size: 36px;
-            height: 40px;
-            width: 40px;
+            color: $grey;
+            font-size: 24px;
+            height: 14px;
+            width: 14px;
+            margin-right: 32px;
+            margin-top: 32px;
         }
     }
-
     #solution-form__after-box {
         display: none;
     }
@@ -266,4 +319,3 @@ body.solutions-page {
         }
     }
 }
-
