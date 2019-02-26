@@ -11,7 +11,7 @@ hosts:
   - Bruno Raymundo
 language: USA
 gmt: -3
-cover: INSERT_HERE
+cover: /images/webinars/apps-development.png
 categories:
   - Webinars
 ---
