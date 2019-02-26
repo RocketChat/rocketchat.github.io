@@ -4,6 +4,7 @@ url: https://rocket.chat
 permalink: /:year/:month/:day/:title/
 paginate_path: /blog/page/:num/
 paginate: 8
+future: true
 
 # bump if alterting styles
 version: 115
