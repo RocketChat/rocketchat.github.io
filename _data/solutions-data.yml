@@ -1,7 +1,7 @@
 devops:
   hero-title: "Collaboration and integration for continuous delivery."
   hero-image: devops-hero.svg
-  hero-desc: "Increase the productivity of your DevOps Team with the ideal tool for the integration of processes and tools, ensuring continuous delivery and collaboration through all development steps."
+  hero-desc: "Increase the productivity of your DevOps Team with the ideal tool for integration of processes and tools, ensuring continuous delivery and collaboration through all development steps."
   logos-category: devops
   tools:
     - title: "Collaboration"
