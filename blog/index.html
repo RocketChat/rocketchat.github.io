@@ -119,48 +119,44 @@ category: home
       </div>
       <div class="space--3"></div>
     </div>
+    <div class="row">
+      <h3 class="display--small theme_type--dark blog__section">
+        <strong>
+          <span>In the Press </span>
+        </strong>
+        <small>
+          <a href="/category/press/" class="button--link text type--nomargin">View all</a>
+        </small>
+      </h3>
 
-    <div class="flex-grid blog__col-recents">
-      <div class="row">
-        <h3 class="display--small theme_type--dark blog__section">
-          <strong>
-            <span>In the Press </span>
-          </strong>
-          <small>
-            <a href="/category/press/" class="button--link text type--nomargin">View all</a>
-          </small>
-        </h3>
-
-        <div class="blog__recents">
-          {% assign press = site.posts | where: "categories", "Press" %}
-          {% for post in press limit:3 %}
-            {% if post.categories contains "Press" %}
-              {% include blog/article-link.html post=post %}
-            {% endif %}
-          {% endfor %}
-        </div>
-        <div class="space--3"></div>
-      </div>
-
-    <div class="blog__more-featured">
-      <h3 class="display--small theme_type--dark blog__section"><strong>More Featured</strong></h3>
-      <div class="blog__more-featured-grid">
-        {% for post in FeaturedList limit:12 %}
-          {% if forloop.index > 7 %}
+      <div class="blog__recents">
+        {% assign press = site.posts | where: "categories", "Press" %}
+        {% for post in press limit:3 %}
+          {% if post.categories contains "Press" %}
             {% include blog/article-link.html post=post %}
           {% endif %}
         {% endfor %}
+      </div>
+      <div class="space--3"></div>
+    </div>
+    <div class="row">
+      <div class="blog__more-featured">
+        <h3 class="display--small theme_type--dark blog__section"><strong>More Featured</strong></h3>
+        <div class="blog__more-featured-grid">
+          {% for post in FeaturedList limit:12 %}
+            {% if forloop.index > 7 %}
+              {% include blog/article-link.html post=post %}
+            {% endif %}
+          {% endfor %}
 
-        <div class="card theme_box--dark">
-          <p class="label theme_type--grey">RSS feed</p>
-          <p class="theme_type--dark">Stay up to date with all things open source communication!</p>
-          <a href="/feed.xml" target="_blank" class="button--link button--with-arrow">Subscribe to updates</a>
+          <div class="card theme_box--dark">
+            <p class="label theme_type--grey">RSS feed</p>
+            <p class="theme_type--dark">Stay up to date with all things open source communication!</p>
+            <a href="/feed.xml" target="_blank" class="button--link button--with-arrow">Subscribe to updates</a>
+          </div>
         </div>
       </div>
-
       <div class="space--3"></div>
-
-
     </div>
   </div>
 
