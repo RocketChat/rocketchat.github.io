@@ -113,6 +113,10 @@
   position: relative;
   right: -$gutter;
   margin-bottom: 2em;
+  display: block;
+  max-height:700px;
+  width: auto;
+  height: auto;
 
   @media screen and (min-width: $tablet) {
     position: absolute;
