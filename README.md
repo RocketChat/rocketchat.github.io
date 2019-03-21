@@ -25,3 +25,15 @@ When changing styles, bump the `version` number in `config.yml` to force browser
 Define Template or Page styles in their own file with the same name as the Template or Page (e.g `_templates/default.html`) and then include the style in `styles.scss`.
 
 Only define variables for values that are used in multiple places and need to vary. Use contextually relevant names instead of calling it by the current value it holds e.g use `$body-color` instead of `$color-light-blue`. If you change the value of the variable in the second case, you have to update the name and everywhere it is referenced.
+
+## Running rocketchat.github.io locally
+
+- install ruby (version 2.5 or higher recommended, if using any version prior to 2.5 you will need to install bundler with `gem install bundler`).
+- This step is for only macOS users:
+  - You will need to have either `xcode` or the `xcode command line tools` installed. To install the command tools use `xcode-select --install`. Don't forget to accept the `sudo xcodebuild -license` command.
+  - Depending on your setup you might need to install [nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html) and its dependencies manually.
+- Fork the appropriate repository to your account.
+- Clone your fork.
+- `cd` into your project folder. 
+- Run `bundle install` inside of the cloned folder.
+- Start the server with `bundle exec "jekyll serve --incremental --safe"`

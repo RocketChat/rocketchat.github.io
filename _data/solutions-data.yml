@@ -1,7 +1,7 @@
 devops:
   hero-title: "Collaboration and integration for continuous delivery."
   hero-image: devops-hero.svg
-  hero-desc: "Increase your productivity of your DevOps Team has the ideal tool for the integration of processes and tools, ensuring continuous delivery and collaboration through all development steps."
+  hero-desc: "Increase the productivity of your DevOps Team with the ideal tool for integration of processes and tools, ensuring continuous delivery and collaboration through all development steps."
   logos-category: devops
   tools:
     - title: "Collaboration"
@@ -21,7 +21,7 @@ devops:
       text: Store your information with security and privacy
     - title: "Scalability"
       image: "scalability.svg"
-      text: A scale according to your needs
+      text: Scale according to your needs
   testimonials:
     - name: "Testimonial 1"
       role: "Developer at Rocket.Chat"

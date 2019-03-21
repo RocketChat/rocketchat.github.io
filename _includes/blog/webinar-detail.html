@@ -7,12 +7,8 @@
     <div class="webinar-content">
       <div class="webinar-info">
         <div class="webinar-box">
-          {% if posttime > nowunix %}
-            <img src="{{page.cover}}">
-          {% else %}
             <a class="youtube-image-link webinar" style="background-image: url({{ page.cover }})" data-featherlight="#youtube-link"><img class="youtube-play" src="/images/default/play-circle.svg" alt="play"></a>
             <div id="youtube-link"><iframe class="youtube-video"src="{{ page.webinarURL }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-          {% endif %}
         </div>
 
         <div class="webinar-description">

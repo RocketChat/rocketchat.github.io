@@ -5,7 +5,7 @@
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url("../images/support/hero.jpg");
+  background-image: url("../images/404.svg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -18,5 +18,24 @@
     top: -10%;
     bottom: -40%;
     background-position: center top;
+  }
+}
+
+.notfound {
+  .hero {
+    min-height: unset;
+    max-height: unset;
+    height: 735px;
+    @media screen and (min-width: 1500px) {
+      height: 900px;
+    }
+
+    @media screen and (min-width: 1800px) {
+      height: 1000px;
+    }
+
+    @media screen and (min-width: 2000px) {
+      height: 1200px;
+    }
   }
 }
