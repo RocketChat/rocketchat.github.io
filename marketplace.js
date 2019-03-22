@@ -13,8 +13,11 @@
   var clipboard
 
   var getAppsData = function () {
-    return fetch('https://marketplace.rocket.chat/v1/apps')
-      .then(function (res) {
+    return fetch('https://marketplace.rocket.chat/v1/apps', {
+      headers: {
+        'X-Requested-With': 'Rocketeers Website'
+      }
+    }).then(function (res) {
         return res.json()
       })
       .then(function (data) {
@@ -341,18 +344,6 @@
     return newModalContent
   }
 
-  var createModalButtons = function (app) {
-    var url = 'https://marketplace.rocket.chat/v1/apps/' + app.id + '/download'
-    var downloadButton = '<a class="button" target="_blank" href="' + url + '">Download</a>'
-    var copyUrlButton = '<button class="button--ghost copy-url-button" data-clipboard-action="copy" data-clipboard-text="' + url + '">Copy URL</button>'
-    var list = $('<ul class="buttons-list"></ul>')
-
-    list.append('<li class="buttons-list-item">' + downloadButton + '</li>')
-    list.append('<li class="buttons-list-item">' + copyUrlButton + '</li>')
-
-    return list
-  }
-
   var openModal = function (app) {
     $("html").css({
       'overflow' : 'hidden'
@@ -364,10 +355,6 @@
     var card = createAppCard(app)
 
     content.find('.app-card-wrapper').html(card)
-
-    var buttons = createModalButtons(app)
-
-    content.find('.content-wrapper').append(buttons)
 
     MODAL_WRAPPER_EL.html(content)
 
