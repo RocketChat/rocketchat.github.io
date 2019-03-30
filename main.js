@@ -454,6 +454,9 @@ showSlides();
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("fade");
+
+  if(slides.length === 0) return; // the following code will not be run if not on the home page.
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.opacity = "0";
     // slides[i].style.display = "none";
