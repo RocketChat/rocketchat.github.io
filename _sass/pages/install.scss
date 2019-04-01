@@ -81,7 +81,9 @@
 }
 
 .install {
-  background-color: $space;
+  :first-child {
+    margin-right: 20px;
+  }
   .hero {
     min-height: 0;
     margin-bottom: 107px;
