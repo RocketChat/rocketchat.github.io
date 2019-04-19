@@ -82,7 +82,7 @@ category: home
       </h3>
 
       <div class="blog__recents">
-        {% for post in paginator.posts limit:3 %}
+        {% for post in paginator.posts limit:4 %}
           {% if post.categories contains "Events" and post.location and post.dateEvent %}
             {% include blog/article-link.html post=post %}
           {% else %}
@@ -133,7 +133,7 @@ category: home
 
         <div class="blog__recents">
           {% assign press = site.posts | where: "categories", "Press" %}
-          {% for post in press limit:3 %}
+          {% for post in press limit:4 %}
             {% if post.categories contains "Press" %}
               {% include blog/article-link.html post=post %}
             {% endif %}

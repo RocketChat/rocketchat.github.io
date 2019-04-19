@@ -150,8 +150,8 @@ body.post {
 
 .blog__recents, .blog__related {
   display: grid;
-  grid-gap: 2em;
-  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 350px);
 
   @media screen and (max-width: $tablet) {
