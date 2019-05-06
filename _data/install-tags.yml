@@ -34,6 +34,12 @@
     - Official
     - Manual Install
 
+- title: Univention Corporate Server (UCS)
+  image: /images/install/univention_corporate_server.png
+  link: https://rocket.chat/docs/installation/manual-installation/univention-corporate-server-ucs/
+  tags:
+    - Official
+
 - title: CentOS
   image: /images/install/centos.png
   link: https://rocket.chat/docs/installation/manual-installation/centos/
