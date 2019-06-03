@@ -228,3 +228,11 @@
   username: bruno.raymundo
   photo: yes
   country: Brazil
+  
+- name: Otávio Torres
+  role: Head of People
+  department: Operations
+  github_username: otaviotorres
+  username: otavio.torres
+  photo: yes
+  country: Brazil
