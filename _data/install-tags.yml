@@ -7,7 +7,7 @@
     - Manual Install
 
 - title: Docker
-  image: /images/install/digital-ocean.png
+  image: /images/install/docker.png
   link: https://rocket.chat/docs/installation/docker-containers/
   tags:
     - Official
