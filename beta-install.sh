@@ -1,21 +1,28 @@
 #!/bin/bash
 
-readonly ROCKETCTL_DOWNLOAD_URL="https://raw.githubusercontent.com/RocketChat/install.sh/master/rocketctl"
-readonly ROCKETCTL_DIRECTORY="/usr/local/bin"
+readonly ROCKETCHATCTL_DOWNLOAD_URL="https://raw.githubusercontent.com/RocketChat/install.sh/master/rocketchatctl"
+readonly ROCKETCHATCTL_DIRECTORY="/usr/local/bin"
 
-[ ${EUID} -ne 0 ] && (echo "This script must be run as root. Cancelling" >&2; exit 1;)
-if [ ! -f "$ROCKETCTL_DIRECTORY/rocketctl" ]; then
-    curl -L $ROCKETCTL_DOWNLOAD_URL -o /tmp/rocketctl
+if [ ${EUID} -ne 0 ]; then
+    echo "This script must be run as root. Cancelling" >&2
+    exit 1
+fi
+if ! [[ -t 0 ]]; then
+    echo "This script is interactive, please run: bash -c \"\$(curl https://rocketchat.github.io/beta-install.sh)\"" >&2
+    exit 1
+fi
+if [ ! -f "$ROCKETCHATCTL_DIRECTORY/rocketchatctl" ]; then
+    curl -L $ROCKETCHATCTL_DOWNLOAD_URL -o /tmp/rocketchatctl
     if  [ $? != 0 ]; then
-        echo "Error downloading rocketctl."
+        echo "Error downloading rocketchatctl."
         exit 1
     else
-        mv /tmp/rocketctl $ROCKETCTL_DIRECTORY/
-        chmod 755 $ROCKETCTL_DIRECTORY/rocketctl
+        mv /tmp/rocketchatctl $ROCKETCHATCTL_DIRECTORY/
+        chmod 755 $ROCKETCHATCTL_DIRECTORY/rocketchatctl
     fi
-    $ROCKETCTL_DIRECTORY/rocketctl install $@
+    $ROCKETCHATCTL_DIRECTORY/rocketchatctl install $@
 else
-    echo "You already have rocketctl installed, use rocketctl to manage your RocketChat installation."
-    echo "Run rocketctl help for more info."
+    echo "You already have rocketchatctl installed, use rocketchatctl to manage your RocketChat installation."
+    echo "Run rocketchatctl help for more info."
     exit 1
 fi
