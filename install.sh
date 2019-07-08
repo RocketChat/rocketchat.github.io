@@ -8,7 +8,7 @@ if [ ${EUID} -ne 0 ]; then
     exit 1
 fi
 if ! [[ -t 0 ]]; then
-    echo "This script is interactive, please run: bash -c \"\$(curl https://rocketchat.github.io/beta-install.sh)\"" >&2
+    echo "This script is interactive, please run: bash -c \"\$(curl https://rocket.chat/install.sh)\"" >&2
     exit 1
 fi
 if [ ! -f "$ROCKETCHATCTL_DIRECTORY/rocketchatctl" ]; then
