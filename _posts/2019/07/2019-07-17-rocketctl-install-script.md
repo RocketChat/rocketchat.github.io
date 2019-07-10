@@ -10,7 +10,7 @@ hosts:
     - Aaron Ogle
 language: USA
 gmt: -3
-cover: /images/posts/2019/05/webinar/?.png
+cover: /images/posts/2019/05/webinar/cloudctl.png
 categories:
 - Webinars
 ---
