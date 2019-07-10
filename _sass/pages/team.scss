@@ -150,6 +150,16 @@
       animation: 1s 1.6s appearsBox forwards;
     }
   }
+
+  &.ukraine {
+    top: 53.3%;
+    left: 58.2%;
+    animation: 1s 1s appears forwards;
+
+    .team-map__profile {
+      animation: 1s 1.6s appearsBox forwards;
+    }
+  }
 }
 
 @include keyframes(appears) {
