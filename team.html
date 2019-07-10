@@ -42,7 +42,6 @@ theme: dark
 
   {% elsif member.country == "India" %}
     {% assign IndiaTeam = IndiaTeam | push: member %}
-  {% endif %}
 
   {% elsif member.country == "Ukraine" %}
     {% assign UkraineTeam = UkraineTeam | push: member %}
@@ -230,7 +229,7 @@ theme: dark
     </div> -->
 
     <div class="team-map__pin ukraine">
-      <div class="team-map__profile">
+      <div class="team-map__profile left">
         <div class="flags">
           {% for member in UkraineTeam %}
             {% if forloop.index <= 5 %}
