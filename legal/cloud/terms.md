@@ -74,7 +74,7 @@ IN NO EVENT WILL YOU OR WE HAVE ANY LIABILITY TO THE OTHER FOR ANY LOST PROFITS 
 
 **Email and Rocket.Chat Messages**
 
-Except as otherwise set forth herein, all notices under the Customer Terms will be by email, although we may instead choose to provide notice to Users through the Services (e.g., a bot notification). Notices to Rocket.Chat should be sent to contact@rocket.chat. A notice will be deemed to have been duly given (a) the day after it is sent, in the case of a notice sent through email; and (b) the same day, in the case of a notice sent through the Services.
+Except as otherwise set forth herein, all notices under the Customer Terms will be by email, although we may instead choose to provide notice to Customers through the Services (e.g., a bot notification). Notices to Rocket.Chat should be sent to contact@rocket.chat. A notice will be deemed to have been duly given (a) the day after it is sent, in the case of a notice sent through email; and (b) the same day, in the case of a notice sent through the Services.
 
 **Privacy Policy**
 
