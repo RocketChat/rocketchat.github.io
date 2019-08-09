@@ -15,7 +15,7 @@
 
 - title: Digital Ocean
   image: /images/install/digital-ocean.svg
-  link: https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy
+  link: https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy&refcode=1940fe28bd31
   tags:
     - digital-ocean-button
 
