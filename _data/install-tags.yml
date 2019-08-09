@@ -13,6 +13,12 @@
     - Official
     - Docker Container
 
+- title: Digital Ocean
+  image: /images/install/digital-ocean.svg
+  link: https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy
+  tags:
+    - digital-ocean-button
+
 - title: AWS
   image: /images/install/aws.png
   link: https://rocket.chat/docs/installation/paas-deployments/aws/
