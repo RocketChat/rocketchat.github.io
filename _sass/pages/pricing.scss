@@ -47,6 +47,12 @@
     }
   }
 
+  .app-header_menu {
+    @media screen and (max-width: $tablet) {
+      background-color: $brand;
+    }
+  }
+
   section.container {
     margin: 2em auto;
   }
