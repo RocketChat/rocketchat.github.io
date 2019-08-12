@@ -368,63 +368,6 @@ body.solutions-page {
         }
     }
 
-    .testimonials {
-        padding: 160px 0 172px;
-
-        &__title {
-            text-align: center;
-            width: 736px;
-            margin: auto;
-        }
-
-        &__cards {
-            // Hiding while we wait for the testimonials
-            display: none !important;
-            margin-top: 61px;
-            display: grid;
-            grid-template-columns: repeat(3, auto);
-            grid-gap: 32px;
-
-            .testimonial {
-                i {
-                    color: #fff;
-                }
-            }
-
-            .writer {
-                display: flex;
-                margin-top: 32px;
-
-                &__image {
-                    flex-shrink: 0;
-                    margin-right: 16px;
-                    height: 44px;
-                    width: 44px;
-                }
-
-                &__info {
-                    .name {
-                        font-weight: 500;
-                    }
-
-                    .name,.role {
-                        margin: 0;
-                    }
-                }
-            }
-        }
-
-        @media screen and (max-width: $tablet) {
-            padding: 64px 0 64px;
-
-            &__title {
-                width: 100%;
-                margin: auto;
-                text-align: left;
-            }
-        }
-    }
-
     .solutions-box {
         display: flex;
         overflow: hidden;

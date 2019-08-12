@@ -6,6 +6,12 @@ body.partners {
   @media (min-width: 38em) {
     background-position: center 6.9%;
   }
+
+  .hero {
+    height: 810px;
+    max-width: $container;
+    margin: 16px auto;
+  }
 }
 
 .partners-hero__image {

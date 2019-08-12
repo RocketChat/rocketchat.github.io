@@ -1,27 +1,27 @@
 - name: Zibtek
   website: //www.zibtek.com/
   logo: /images/partners/logos/zibtek.png
-  type: technology
+  type: resellers
 
 - name: Source Forte
   website: //sourceforte.com/our-global-collaborations/
   logo: /images/partners/logos/sourceforte.png
-  type: technology
+  type: resellers
 
 - name: Vortigo
   website: //vortigo.com.br/en/
   logo: /images/partners/logos/vortigo.png
-  type: technology
+  type: resellers
 
 - name: Curve Stone
   website: //www.curvestone.io/rocket-chat
   logo: /images/partners/logos/curvestone.png
-  type: technology
+  type: resellers
 
 - name: Amazebot
   website: //amazebot.chat
   logo: /images/partners/logos/amazebot.png
-  type: technology
+  type: isv
 
 - name: Chef
   website: //www.chef.io
@@ -81,37 +81,37 @@
 - name: Zenvia
   website: //www.zenvia.com/produtos/chatbots/chatbot-cobranca
   logo: /images/partners/logos/zenvia.png
-  type: value added
+  type: isv
 
 - name: Artificial.Chat
   website: http://artificial.chat/
   logo: /images/partners/logos/artificial-chat.png
-  type: value added
+  type: isv
 
 - name: Stefanini
   website: https://rocket.chat/2018/10/19/stefanini-rc-partnership/
   logo: /images/partners/logos/stefanini.svg
-  type: value added
+  type: isv
 
 - name: E-Core
   website: https://www.e-core.com/en/
   logo: /images/atlassian/ecore-logo.png
-  type: technology
+  type: resellers
 
 - name: 4Linux
   website: https://www.4linux.com.br/
   logo: /images/partners/logos/4linux.svg
-  type: technology
+  type: resellers
 
 - name: rtm
   website: //www.rtm.net.br/solucoes/rtm-rocketchat.asp?gclid=Cj0KCQjwv-DaBRCcARIsAI9sba8Pu8YJdWb8eYqfp3ftGGutOWjsQjL9gEsSQD24jcZn0p3Q5fqXIREaAp4oEALw_wcB
   logo: /images/partners/logos/rtm.png
-  type: hosting
+  type: resellers
 
 - name: unicomm
   website: http://unicomm.pro/
   logo: /images/partners/logos/unicomm.png
-  type: technology
+  type: resellers
 
 - name: bugsnag
   website: https://www.bugsnag.com/
@@ -122,3 +122,13 @@
   website: https://www.fairkom.eu/en/rocketchat
   logo: /images/partners/logos/fairkom.png
   type: value added
+
+- name: FreightWaves
+  website: https://www.freightwaves.com/
+  logo: /images/partners/logos/freightwaves.png
+  type: isv
+
+- name: Comlink
+  website: https://www.comlink.com.br/
+  logo: /images/partners/logos/comlink.png
+  type: isv

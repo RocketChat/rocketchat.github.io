@@ -1,0 +1,27 @@
+- name: "Luzia Mendes"
+  role: "InterOP"
+  image: "interop.png"
+  page: partners
+  order: 1
+  text: “Before we tried Rocket.Chat we were using phones and messages. It was right for some time, but soon it felt deprecated. We tried out many chat tools, but none of them seemed to please the team. Until Rocket.Chat! Rocket was quickly deployed and embraced. We didn't find any major complications. It is easy to use, and it feels like we're all in the same room. It enabled us to allow home office, which made the team so happy. Because its mobile app, we can also be productive from anywhere.”
+
+- name: "Максим Солярик"
+  role: "UniComm"
+  image: "logos/unicomm.png"
+  page: partners
+  order: 2
+  text: “Working together with Rocket.Chat, Unicomm has opened new directions for business development and has made major changes in its business development strategy. Through the efforts of two teams, we help our customers become more technological. The speed and safety of interaction between employees of our clients' companies became the main areas of Unicomm work. The API capabilities of the system are striking and in our opinion have no analogues in similar systems. Thanks to Rocket.Chat team!”
+
+- name: "Thiago Bertoletti"
+  role: "Vortigo"
+  image: "vortigo-small.png"
+  page: partners
+  order: 3
+  text: “We began to work with Rocket.Chat in 2018 to complement our digital solutions offering with a collaborative and omni-channel communication platform. The breadth of functionality, product quality and, above all, ease and flexibility to integrate with other applications were decisive factors for us to develop a strategic partnership with Rocket.Chat.”
+
+- name: "Thiago Bertoletti"
+  role: "Vortigo"
+  image: "vortigo-small.png"
+  page: partners
+  order: 3
+  text: “We began to work with Rocket.Chat in 2018 to complement our digital solutions offering with a collaborative and omni-channel communication platform. The breadth of functionality, product quality and, above all, ease and flexibility to integrate with other applications were decisive factors for us to develop a strategic partnership with Rocket.Chat.”
