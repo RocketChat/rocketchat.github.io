@@ -5,11 +5,7 @@
         <h3 class="title">{{include.tag.title}}</h3>
         <div class="install__tags-wrapper">
             {% for tag in include.tag.tags %}
-                {% if tag == "digital-ocean-button" %}
-                    <img class="tag-button" src="/images/install/{{tag}}.svg">
-                {% else %}
-                    <p class="small-tag">{{tag}}</p>
-                {% endif %}
+                <p class="small-tag">{{tag}}</p>
             {% endfor %}
         </div>
     </div>

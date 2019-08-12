@@ -17,7 +17,9 @@
   image: /images/install/digital-ocean.svg
   link: https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy&refcode=1940fe28bd31
   tags:
-    - digital-ocean-button
+    - Official
+    - PaaS
+    - One Click Install
 
 - title: AWS
   image: /images/install/aws.png
