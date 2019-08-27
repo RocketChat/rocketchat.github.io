@@ -561,7 +561,7 @@ var formHelpers = {
 				case 'Email':
 					jsonData['email'] = input.value;
 					break;
-				case 'CONTACTCF30':
+				case 'Company':
 					jsonData['company'] = input.value;
 				case 'Description':
 					jsonData['message'] = input.value;
@@ -570,12 +570,10 @@ var formHelpers = {
 					break;
 			}
 		}
-		console.log(jsonData);
 
 		if (jsonData.recipient === 'support') {
 			finalEndpoint = this.url + '/support';
 		}
-
 		http.open('POST', finalEndpoint, true);
 		http.setRequestHeader('Content-type', 'application/json');
 		http.onload = function() {
