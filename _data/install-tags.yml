@@ -13,6 +13,14 @@
     - Official
     - Docker Container
 
+- title: Digital Ocean
+  image: /images/install/digital-ocean.svg
+  link: https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy&refcode=1940fe28bd31
+  tags:
+    - Official
+    - PaaS
+    - One Click Install
+
 - title: AWS
   image: /images/install/aws.png
   link: https://rocket.chat/docs/installation/paas-deployments/aws/
@@ -112,13 +120,6 @@
 - title: OpenShift
   image: /images/install/openshift.png
   link: https://rocket.chat/docs/installation/paas-deployments/openshift/
-  tags:
-    - Official
-    - PaaS
-
-- title: Sandstorm.io
-  image: /images/install/sandstorm.png
-  link: https://rocket.chat/docs/installation/paas-deployments/sandstorm-io/
   tags:
     - Official
     - PaaS

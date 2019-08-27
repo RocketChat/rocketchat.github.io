@@ -58,6 +58,7 @@
 
   @media screen and (max-width: $tablet) {
     overflow: hidden;
+    background-color: $space;
   }
 
   @media screen and (min-width: $tablet) {
@@ -259,6 +260,12 @@
     }
   }
 
+  .app-header_menu {
+    @media screen and (max-width: $tablet) {
+      background-color: #fff;
+    }
+  }
+
   .app-header_install {
     border-top: 1px solid #e7ebf2;
 
@@ -322,4 +329,20 @@
       color: $brand;
     }
    }
+}
+
+.pricing {
+  .app-header_handle-menu {
+    &:before,
+    &:after,
+    span {
+      background: $space !important;
+    }
+  }
+}
+
+.app-header--light {
+  .dropdown {
+    background-color: #fff;
+  }
 }

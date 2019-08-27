@@ -6,13 +6,12 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link rel="preconnect" href="https://www.googletagmanager.com">
-  <link rel="preconnect" href="https://code.jquery.com/">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
   <link rel="stylesheet" href="/styles.css?v={{ site.version }}">
 
-  {% if page.class == "index" or page.categories contains "Webinars" or page.class == "solutions-page" or page.class == "pricing" %}
+  {% if page.class == "index" or page.categories contains "Webinars" or page.class contains "solutions-page" or page.class == "pricing" %}
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
   {% endif %}
 
@@ -38,12 +37,12 @@
   {% include webrules.html %}
   {% include livechat.html %}
   {% include gtm/body.html %}
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/jquery.js"></script>
   {{ content }}
 
 <script src="/main.js"></script>
 <script src="/redirect.js"></script>
-{% if page.class == "index" or page.categories contains "Webinars" or page.class == "solutions-page" or page.class == "pricing" %}
+{% if page.class == "index" or page.categories contains "Webinars" or page.class contains "solutions-page" or page.class == "pricing" %}
   <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" async type="text/javascript" charset="utf-8"></script>
 {% endif %}
 

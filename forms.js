@@ -498,7 +498,7 @@
 });
 
 validate.init({
-	disableSubmit: true,
+	disableSubmit: false,
 	afterShowError: function(field, error) {
 		if (field.nodeName === 'SELECT' || field.id === 'website') {
 			var parent = field.parentNode.parentNode;
@@ -548,8 +548,29 @@ var formHelpers = {
 
 		for (var i = 0; i < allField.length; i++) {
 			var input = allField[i];
-			jsonData[input.name] = input.value;
+			switch (input.name) {
+				case 'First Name':
+					jsonData['firstName'] = input.value;
+					break;
+				case 'Last Name':
+					jsonData['lastName'] = input.value;
+					break;
+				case 'Lead Source':
+					jsonData['recipient'] = input.value;
+					break;
+				case 'Email':
+					jsonData['email'] = input.value;
+					break;
+				case 'CONTACTCF30':
+					jsonData['company'] = input.value;
+				case 'Description':
+					jsonData['message'] = input.value;
+				default:
+					jsonData[input.name] = input.value;
+					break;
+			}
 		}
+		console.log(jsonData);
 
 		if (jsonData.recipient === 'support') {
 			finalEndpoint = this.url + '/support';

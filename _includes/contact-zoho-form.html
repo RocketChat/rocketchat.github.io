@@ -1,0 +1,144 @@
+<!-- Note :
+   - You can modify the font style and form style to suit your website.
+   - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code.
+   - The Mandatory check script can modified as to suit your business needs.
+   - It is important that you test the modified form before going live.-->
+<div id='crmWebToEntityForm'>
+  <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
+  <form action='https://crm.zoho.com/crm/WebToContactForm' name=WebToContacts2982481000004477011 method='POST'
+    onSubmit='javascript:document.charset="UTF-8"; return checkMandatory2982481000004477011()' accept-charset='UTF-8'
+    id="contact-form" class="form-validate zoho-form" data-validate>
+    <input type='text' style='display:none;' name='xnQsjsdp'
+      value='96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03b'></input>
+    <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+    <input type='text' style='display:none;' name='xmIwtLD'
+      value='8ea917c61ae7f2f107ac548ac534375c5a9eec832ce849f742e027bba38a2eb0'></input>
+    <input type='text' style='display:none;' name='actionType' value='Q29udGFjdHM='></input>
+    <input type='text' style='display:none;' name='returnURL' value='https://rocket.chat/thank-you/'> </input><br></br>
+    <!-- Do not remove this code. -->
+
+      <fieldset>
+        <label class="label--small theme_type--grey" for="recipient">Department</label>
+        <div class="select select--theme-dark">
+          <select required name="Lead Source" id="recipient">
+            <option value="" selected disabled>Select the Department</option>
+            <option value="sales">Sales</option>
+            <option value="support">Support</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label class="label--small theme_type--grey" for="firstName">First Name</label>
+        <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="firstName" name="First Name" placeholder="Type your first name" />
+      </fieldset>
+
+      <fieldset>
+        <label class="label--small theme_type--grey" for="lastName">Last name</label>
+        <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="lastName" name="Last Name" placeholder="Type your last name" />
+      </fieldset>
+
+      <fieldset>
+        <label class="label--small theme_type--grey" for="email">Email Address</label>
+        <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email" id="email" name="Email" placeholder="Type your email address" />
+      </fieldset>
+
+      <fieldset>
+        <label class="label--small theme_type--grey" for="company">Company/Community</label>
+        <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="company" name="CONTACTCF30" placeholder="Type your company or community name" />
+      </fieldset>
+
+      <fieldset>
+        <label class="label--small theme_type--grey" for="message">Question</label>
+        <textarea required rows="7" class="input input--dark question" name="Description" id="message" placeholder="Type your Question"></textarea>
+      </fieldset>
+
+      <div class="space--2"></div>
+      <button type="submit" id='formsubmit' class="button">Send message</button>
+      <div class="space--4"></div>
+
+    <!-- <fieldset>
+      <label class="label--small theme_type--grey" for="First Name">First Name</label>
+      <input class="input input--dark" type='text' maxlength='40' name='First Name' />
+    </fieldset>
+
+    <fieldset>
+      <label class="label--small theme_type--grey" for="Last Name">Last Name</label>
+      <input class="input input--dark" type='text' maxlength='80' name='Last Name' /></td>
+    </fieldset>
+
+    <fieldset>
+      <label class="label--small theme_type--grey" for="Email">Email</label>
+      <input class="input input--dark" type='text' maxlength='100' name='Email' />
+    </fieldset>
+
+
+    <fieldset>
+      <label class="label--small theme_type--grey" for="CONTACTCF30">Company/Community</label>
+      <input class="input input--dark" type='text' style='width:100%;box-sizing:border-box;' maxlength='255' name='CONTACTCF30' />
+    </fieldset>
+
+
+    <fieldset>
+      <label class="label--small theme_type--grey" for="Email">Question</label>
+      <textarea class="input input--dark" name='Description' maxlength='32000'></textarea>
+    </fieldset>
+
+    <select hidden name='Lead Source'>
+      <option value='-None-'>-None-</option>
+      <option value='Events'>Events</option>
+      <option value='Partners'>Partners</option>
+      <option value='Prospection'>Prospection</option>
+      <option value='Referral'>Referral</option>
+      <option selected value='Sales&#x20;Contact&#x20;Form'>Sales Contact Form</option>
+      <option value='Support&#x20;Contact&#x20;Form'>Support Contact Form</option>
+      <option value='Trial&#x20;Version'>Trial Version</option>
+    </select>
+
+    <input id='formsubmit' type='submit' value='Submit'></input>
+    <input type='reset' name='reset' value='Reset'></input> -->
+
+    <script>
+      var mndFileds = new Array('First Name', 'Last Name', 'Email');
+      var fldLangVal = new Array('First Name', 'Last Name', 'Email');
+      var name = '';
+      var email = '';
+
+      function checkMandatory2982481000004477011() {
+        for (i = 0; i < mndFileds.length; i++) {
+          var fieldObj = document.forms['WebToContacts2982481000004477011'][mndFileds[i]];
+          if (fieldObj) {
+            if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+              if (fieldObj.type == 'file') {
+                alert('Please select a file to upload.');
+                fieldObj.focus();
+                return false;
+              }
+              alert(fldLangVal[i] + ' cannot be empty.');
+              fieldObj.focus();
+              return false;
+            } else if (fieldObj.nodeName == 'SELECT') {
+              if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
+                alert(fldLangVal[i] + ' cannot be none.');
+                fieldObj.focus();
+                return false;
+              }
+            } else if (fieldObj.type == 'checkbox') {
+              if (fieldObj.checked == false) {
+                alert('Please accept  ' + fldLangVal[i]);
+                fieldObj.focus();
+                return false;
+              }
+            }
+            try {
+              if (fieldObj.name == 'Last Name') {
+                name = fieldObj.value;
+              }
+            } catch (e) { }
+          }
+        }
+        document.getElementById('formsubmit').disabled = true;
+      }
+    </script>
+  </form>
+</div>
