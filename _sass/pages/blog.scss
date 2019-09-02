@@ -332,7 +332,13 @@ body.post {
 }
 
 .container.webinar h3 {
-  margin-bottom: 90px;
+  margin-bottom: 64px;
+
+  &.display--small {
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: bold;
+  }
 }
 
 .webinar-box {
@@ -345,7 +351,8 @@ body.post {
 }
 
 .webinar-form {
-  margin-left: 128px;
+  max-width: 300px;
+  margin-left: 84px;
   flex-shrink: 0;
   @media screen and (max-width: $tablet) {
     margin-left: 0;

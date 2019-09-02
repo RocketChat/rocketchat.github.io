@@ -1,5 +1,4 @@
 $(document).on('submit', '.featherlight .form-validate', function(event){
-    event.preventDefault();
     var data = $('.featherlight .form-validate').serializeArray().reduce(function(obj, item) {
         obj[item.name] = item.value;
         return obj;
