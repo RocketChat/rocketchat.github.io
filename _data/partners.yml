@@ -83,11 +83,6 @@
   logo: /images/partners/logos/zenvia.png
   type: isv
 
-- name: Artificial.Chat
-  website: http://artificial.chat/
-  logo: /images/partners/logos/artificial-chat.png
-  type: isv
-
 - name: Stefanini
   website: https://rocket.chat/2018/10/19/stefanini-rc-partnership/
   logo: /images/partners/logos/stefanini.svg

@@ -695,6 +695,8 @@
         display: grid;
         grid-template-columns: repeat(2, auto);
         grid-gap: 32px;
+        width: 85%;
+        margin: auto;
 
         .card {
             display: flex;
@@ -704,7 +706,11 @@
 
         .testimonial {
             i {
-                color: #fff;
+                font-size: 14px;
+                font-weight: 600;
+                font-stretch: normal;
+                line-height: 1.57;
+                color: #a3b4cc;
             }
         }
 

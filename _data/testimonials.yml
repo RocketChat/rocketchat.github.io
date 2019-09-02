@@ -7,7 +7,7 @@
 
 - name: "Максим Солярик"
   role: "UniComm"
-  image: "logos/unicomm.png"
+  image: "logos/unicomm-small.png"
   page: partners
   order: 2
   text: “Working together with Rocket.Chat, Unicomm has opened new directions for business development and has made major changes in its business development strategy. Through the efforts of two teams, we help our customers become more technological. The speed and safety of interaction between employees of our clients' companies became the main areas of Unicomm work. The API capabilities of the system are striking and in our opinion have no analogues in similar systems. Thanks to Rocket.Chat team!”
@@ -21,7 +21,7 @@
 
 - name: "Paul Levy"
   role: "Founder & CEO, ArtificialChat Inc. NYC"
-  image: "vortigo-small.png"
+  image: "logos/artificial-chat-small.png"
   page: partners
   order: 4
-  text: “Our Chatbots work hard enough without having to worry about Peer to Peer communication at scale.  That's why we chose RocketChat as the key Enterprise Communication Platform to integrate with.  RocketChat is constantly innovating and expanding their own 3rd Party integrations.  By integrating with RocketChat we're providing our clients with an expansive ecosystem of communication functionality in a solid environment that has proven itself over many years.  The RocketChat technical staff is the best we've worked with in embracing innovation and being quick to market with new functionality that's stable the day its released.  Our long term Roadmap includes RocketChat in all key areas of our Platform.”
+  text: “RocketChat is constantly innovating and expanding their own 3rd Party integrations.  By integrating with RocketChat we're providing our clients with an expansive ecosystem of communication functionality in a solid environment that has proven itself over many years.  The RocketChat technical staff is the best we've worked with in embracing innovation."
