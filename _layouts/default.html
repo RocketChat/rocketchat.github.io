@@ -31,6 +31,10 @@
   <meta property="og:image" content="{{ site.url }}/images/blog/post.jpg" />
   {% endif %}
 
+  {% if page.class contains "contact" %}
+    {% include zoho-contact-head.html %}
+  {% endif %}
+
   {% include gtm/head.html %}
 </head>
 <body class="{{ page.class }} {{ page.theme }} {{ page.layout }}">
