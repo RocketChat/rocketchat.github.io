@@ -220,7 +220,7 @@
   twitter: d_gubert
   photo: yes
   country: Brazil
-  
+
 - name: Markus Kirsch
   role: Lead Security Researcher and Developer
   department: Security
@@ -228,7 +228,7 @@
   username: markus.kirsch
   photo: yes
   country: Brazil
-  
+
 - name: Otávio Torres
   role: Head of People
   department: Operations
@@ -245,4 +245,12 @@
   username: marina.vdovkina
   photo: yes
   country: Ukraine
-  
+
+- name: Guilherme Cruz
+  role: Software Developer
+  department: Cloud
+  github_username: guicruzzs
+  username: guilherme.cruz
+  twitter: cruzguilherm
+  photo: no
+  country: Brazil
