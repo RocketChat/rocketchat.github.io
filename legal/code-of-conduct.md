@@ -9,7 +9,7 @@ redirect_from:
   - /code-of-conduct/
 ---
 
-_Effective date: December 18, 2017_
+_Effective date: September 06, 2019_
 
 ## Rocket.Chat Code of Conduct
 
