@@ -32,7 +32,7 @@ Feel free to share your views on someone else's problem as an outsider, but avoi
 
 We're mainly an English speaking community but welcome all nationalities. If you find yourself speaking primarily in a different language in an open channel or discussion, please PM that person to continue the conversation in a separate channel.
 
-Unwanted behavior
+### Unwanted behavior
 
 We do not want the following behavior on open.rocket.chat:
 
