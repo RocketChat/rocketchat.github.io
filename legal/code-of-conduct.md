@@ -24,7 +24,7 @@ Rocket.Chat provides numerous spaces for our community to interact and experienc
 
 The main objective of the rocket.chat community spaces is bringing people together to discuss and experience Rocket.Chat - our awesome communication platform. This Code of Conduct is mainly written in mind for Open.rocket.chat, but in its spirit will be applied to other Rocket.Chat community spaces as well.
 
-When new visitors enter a channel, you should acknowledge their arrival especially if you're engaged in social chit-chat / passing time. Failure to do so is likely to result in them leaving the channel feeling unsupported.
+When new visitors enter a channel, you should acknowledge their arrival especially if you're engaged in social chit-chat / passing time. Failure to do so is likely to result in them leaving the channel feeling unwelcome.
 
 You should try to minimize the chances of conflict by being open-minded and accepting of others. Understand that we each have a unique set of values, and we are all entitled to our own opinions.
 
