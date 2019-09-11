@@ -319,14 +319,14 @@
   community: ""
   pro: true
   enterprise: true
-  
-  - title: "24/7 Phone"	
-  bronze: ""	
-  silver: "High Only"	
-  gold: "All tickets"	
-  community: ""	
-  pro: "High Only"	
-  enterprise: "All tickets"	
+
+- title: "24/7 Phone"
+  bronze: ""
+  silver: "High Only"
+  gold: "All tickets"
+  community: ""
+  pro: "High Only"
+  enterprise: "All tickets"
 
 - title: "Support Entitlement"
   bronze: "Admins"
