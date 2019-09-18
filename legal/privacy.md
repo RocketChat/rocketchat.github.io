@@ -23,7 +23,7 @@ Definitions
 
   * Service
 
-    Service means the https://rocket.chat website, the https://open.rocket.chat community server, the Rocket.Chat Marketplace, incl. associated Rocket.Chat Apps, and the Rocket.Chat mobile application operated by Rocket.Chat Technologies Corp.
+    Service means the https://rocket.chat website, the https://open.rocket.chat community server, the Rocket.Chat Marketplace, incl. associated Rocket.Chat Apps, the https://cloud.rocket.chat service offering, push notification gateways and the Rocket.Chat mobile applications operated by Rocket.Chat Technologies Corp.
 
   * Personal Data
 
@@ -79,7 +79,7 @@ We may also collect information that your browser sends whenever you visit our S
 
 This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
-When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
+When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, the IP address of your mobile device, your mobile operating system, the app version, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
 
 #### Location Data
 
@@ -95,7 +95,7 @@ For Third Party Apps on the Marketplace, the Vendor will provide you with a spec
 
 #### Content you provide
 
-When you use our Services you may provide content into that service (e.g. upload file)
+When you use our Services you may provide content into that service (e.g. upload file, send a message).
 
 #### Tracking &amp; Cookies Data
 
@@ -124,6 +124,8 @@ Rocket.Chat Technologies Corp. uses the collected data for various purposes:
   * To monitor the usage of our Service
   * To detect, prevent and address technical issues
   * To provide you with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about if you have provided consent to receive this information or the processing is in our legitimate interests and it's not overridden by your rights.
+
+We do not process content data beyond providing you the service.
 
 Legal Basis for Processing Personal Data Under General Data Protection
 Regulation (GDPR)
@@ -286,5 +288,5 @@ Contact Us
 
 If you have any questions about this Privacy Policy, please contact us:
 
-  * Rocket.Chat´s Data Protection Officer by email: privacy@rocket.chat
-  * By visiting this page on our website: https://rocket.chat/contact
+  * Rocket.Chat´s Data Protection Officer by email: [privacy@rocket.chat](mailto:privacy@rocket.chat)
+  * By visiting this page on our website: [https://rocket.chat/contact](https://rocket.chat/contact)
