@@ -9,7 +9,7 @@ redirect_from:
   - /privacy/
 ---
 
-_Effective date: August 2nd, 2019_
+_Effective date: September 20th, 2019_
 
 Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the https://rocket.chat website, the https://open.rocket.chat community server, the Marketplace, incl. associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering and the Rocket.Chat mobile applications (the "Service").
 
