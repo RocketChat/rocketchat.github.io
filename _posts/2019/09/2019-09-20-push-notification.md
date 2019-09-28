@@ -1,10 +1,11 @@
 ---
-title: "Push notification"
+title: "Changes on notification behavior"
 categories:
 - News
+- Product
 date: 2019-09-20 12:00:00
 author: Diego Sampaio
-cover: /images/posts/2019/08/postmortem-android-3.5.1.png
+cover: /images/posts/2019/09/push/bell.jpg
 featured: true
 ---
 
@@ -14,7 +15,7 @@ Rocket.Chat has always tried to be smart when sending mobile notifications. We d
 
 We have created a diagram to show the conditions that cause Rocket.Chat to send a notification:
 
-<a href="https://whimsical.com/PRwN4MWNsxSwqHjHXaPUuC"><img src="/images/posts/2019/09/push-notification-diagram.png" style="width: 50%"></a>
+<a href="https://whimsical.com/PRwN4MWNsxSwqHjHXaPUuC"><img src="/images/posts/2019/09/push/diagram.png" style="width: 50%"></a>
 
 The conditions are hard to understand by new Rocket.Chat users, so we decided to change to a more predictable and consistent approach to benefit our users.
 
@@ -30,7 +31,7 @@ To match the expectations of our users, we know there is room for improvement. S
 
 * Allow scaling to larger rooms - no need to worry about the "Maximum Channel Size for ALL Message" setting anymore;
 * Remove a notification from mobile devices if that message was read on another device;
-* Do not rely on connection status to send a notification, but instead create a queue of notifications and send them if the message is not read in a certain amount of time - no "magic" anymore, you'll always get a notification on your phone if don't read the message.
+* Do not rely on connection status to send a notification, but instead create a queue of notifications and send them if the messages were not seen in any device for a certain amount of time - no "magic" anymore, you'll always get a notification on your phone if don't read a message.
 
 We will also create a troubleshooting screen on our mobile apps to help you identify any push issues you might have.
 
