@@ -31,7 +31,7 @@ To match the expectations of our users, we know there is room for improvement. S
 
 * Allow scaling to larger rooms - no need to worry about the "Maximum Channel Size for ALL Message" setting anymore;
 * Remove a notification from mobile devices if that message was read on another device;
-* Do not rely on connection status to send a notification, but instead create a queue of notifications and send them if the messages were not seen in any device for a certain amount of time - no "magic" anymore, you'll always get a notification on your phone if don't read a message.
+* Do not rely on connection status to send a notification, but instead create a queue of notifications and send them if the messages were not seen on any device for a certain amount of time - no "magic" anymore, you'll always get a notification on your phone if don't read a message.
 
 We will also create a troubleshooting screen on our mobile apps to help you identify any push issues you might have.
 
