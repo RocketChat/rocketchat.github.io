@@ -1,5 +1,5 @@
 ---
-title: "Changes on notification behavior"
+title: "Changes to notification behavior"
 categories:
 - News
 - Product
