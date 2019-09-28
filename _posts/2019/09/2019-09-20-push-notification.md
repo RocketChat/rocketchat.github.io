@@ -13,7 +13,7 @@ featured: true
 
 Rocket.Chat has always tried to be smart when sending mobile notifications. We don't want to disturb you with useless notifications, but we understand this is confusing to our users. Users expect notifications and think there are bugs when none are actually being sent.
 
-We have created a diagram to show the conditions that cause Rocket.Chat to send a notification:
+We have created a diagram to show the current conditions that cause Rocket.Chat to send a notification:
 
 <a href="https://whimsical.com/PRwN4MWNsxSwqHjHXaPUuC"><img src="/images/posts/2019/09/push/diagram.png" style="width: 50%"></a>
 
