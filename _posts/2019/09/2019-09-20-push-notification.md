@@ -21,13 +21,13 @@ The conditions are hard to understand by new Rocket.Chat users, so we decided to
 
 ## Coming changes
 
-Starting at Rocket.Chat version **2.1.0**, the default value for the user's default **Desktop Notification Default Alert** and **Mobile Notifications Default Alert** will be **All Messages**. When updating to version 2.1.0 or later the servers that were still using the previous default value **Mentions**, **will have** the value updated to **All Messages**.
+Starting at Rocket.Chat version **2.1.0**, the value for **Desktop Notification Default Alert** and **Mobile Notifications Default Alert** will be **All Messages**. When updating to version 2.1.0 or later the servers that were still using the previous default value **Mentions**, **will have** the value updated to **All Messages**.
 
 Large rooms (with more than 100 members) are still prevented from sending notifications on all messages. There is a setting that can be changed to increase this number called **Maximum Channel Size for ALL Message** (under Admin > Message) but **please use this setting with caution** as it may cause performance issues.
 
 ## Future actions
 
-To match the expectations of our users, we know there is room for improvement. So we're already planning to refactor the push notification logic as a whole with the following key things in mind:
+To match the expectations of our users, we know there is room for improvement. So we are planning to refactor the push notification logic as a whole with the following key things in mind:
 
 * Allow scaling to larger rooms - no need to worry about the "Maximum Channel Size for ALL Message" setting anymore;
 * Remove a notification from mobile devices if that message was read on another device;
