@@ -183,6 +183,17 @@
           placeholder="Type your Message"></textarea>
       </fieldset>
 
+      <fieldset>
+        <label class="label--small theme_type--grey" for="message">Captcha</label>
+        <img src='#' id='zsCaptchaUrl' name="zsCaptchaImage">
+      </fieldset>
+
+      <fieldset>
+        <label class="label--small theme_type--grey" for="repeatcaptcha">Repeat Captcha</label>
+        <input type='text' class="input input--dark" maxlength='10' id="repeatcaptcha" name='zsWebFormCaptchaWord'  />
+        <input type='hidden' name='zsCaptchaSrc' value='' />
+      </fieldset>
+
       <div class="space--2"></div>
       <button type="submit" id='zsSubmitButton_413244000001944007' class="button">Send message</button>
       <div class="space--4"></div>
