@@ -75,6 +75,18 @@
         </select>
       </fieldset>
 
+      <fieldset>
+        <label class="label--small theme_type--grey" for="captcha">Captcha</label>
+        <img id='imgid' src='https://crm.zoho.com/crm/CaptchaServlet?formId=8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9a&grpid=96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03b'>
+      </fieldset>
+
+      <fieldset>
+        <label class="label--small theme_type--grey" for="repeatcaptcha">Repeat captcha</label>
+        <input type='text' class="input input--dark" maxlength='10' id="repeatcaptcha" name='enterdigest'  />
+      </fieldset>
+
+      <iframe name='captchaFrame' style='display:none;'></iframe>
+
       <div class="space--2"></div>
       <button type="submit" id='formsubmit' class="button">Send message</button>
       <div class="space--4"></div>
