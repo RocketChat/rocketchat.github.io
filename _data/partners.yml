@@ -23,6 +23,11 @@
   logo: /images/partners/logos/amazebot.png
   type: isv
 
+- name: Docker
+  website: //www.docker.com
+  logo: /images/partners/logos/docker.png
+  type: institutional
+
 - name: Chef
   website: //www.chef.io
   logo: /images/partners/logos/chef.png
