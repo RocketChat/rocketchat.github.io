@@ -165,6 +165,65 @@
   community: ""
   pro: ""
   enterprise: true
+  
+- title: "Omnichannel"
+  isHeader: true
+  
+- title: "Canned Responses"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+  
+- title: "Agent Utilization Limit"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+  
+- title: "Waiting Queue"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Supervisor Role"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+  
+- title: "Sub-departments"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Pre-configured Tags"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+  
+- title: "Advanced Agent Routing Rules"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
 
 - title: "Preconfigured Proxy Servers"
   isHeader: true
