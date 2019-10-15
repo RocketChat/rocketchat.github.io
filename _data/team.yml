@@ -196,14 +196,6 @@
   photo: yes
   country: Brazil
 
-- name: Daniel Carboni
-  role: Head of International Revenue
-  github_username:
-  department: Sales
-  username: daniel.carboni
-  photo: yes
-  country: Brazil
-
 - name: Douglas Gubert
   role: Rocket.Chat Apps Lead
   department: Rocket.Chat Apps
