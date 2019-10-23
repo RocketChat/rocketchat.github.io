@@ -28,6 +28,11 @@
   logo: /images/partners/logos/docker.png
   type: institutional
 
+- name: MongoDB
+  website: https://www.mongodb.com/
+  logo: /images/partners/logos/mongodb.png
+  type: institutional
+
 - name: Chef
   website: //www.chef.io
   logo: /images/partners/logos/chef.png
@@ -129,6 +134,6 @@
   type: isv
 
 - name: Comlink
-  website: https://www.comlink.com.br/
+  website: http://www.comlinkinc.com/
   logo: /images/partners/logos/comlink.png
   type: isv
