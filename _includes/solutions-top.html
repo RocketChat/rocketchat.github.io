@@ -81,6 +81,16 @@
             </fieldset>
 
             <fieldset>
+                <label class="label--small theme_type--grey" for="LEADCF10">Country</label>
+                <div class="select select--theme-dark">
+                    <select required id="country" name="LEADCF10">
+                        <option selected disabled value="">Select Country</option>
+                        {% include select-countries.html %}
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
                 <label class="label--small theme_type--dark" for="Company">Company<span
                         class="required-field">*</span></label>
                 <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="company"
