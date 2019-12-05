@@ -288,3 +288,11 @@
   username: rogerio.saboia
   photo: yes
   country: Brazil
+
+- name: Schmidt Marcelo
+  role: Github Tester
+  department: Operations
+  github_username: schmidtmarceloa
+  username: schmidt.marcelo
+  photo: no
+  country: Brazil
