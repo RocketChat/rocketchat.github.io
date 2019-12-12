@@ -58,37 +58,33 @@ en:
 
   marketplace_title: Marketplace
   marketplace_description: Find and install apps to extend Rocket.Chat or upload and sell an app you have developed.
+  marketplace_find: Find apps now!
 
 
 
 pt:
   home-hero_title: Comunicação de equipe Open Source
-  home-hero_description: Rocket.Chat é gratuito, ilimitado e de código aberto. Substitua email, HipChat & Slack pela solução definitiva de software de chat em equipe.
-  home-hero_trial_button: Iniciar Teste na Nuvem
+  home-hero_description: Rocket.Chat é gratuito, ilimitado e Open Source. Substitua email, HipChat & Slack pela solução definitiva de software de chat em equipe.
+  home-hero_trial_button: Iniciar Teste na Cloud
   home-hero_install_button: Instalar servidor próprio
-
   clients_trusted_by: Confiado por
-
   home-landingpage_title: Substitua o Email
-  home-landingpage_description_1: Abra a conversa e remova a necessidade de CC / BCC usando Rocket.Chat Channels e Private Groups para falar com sua equipe abertamente para obter maior transparência.
-  home-landingpage_description_2: Inclua participantes relevantes com a menção @username para notificá-los imediatamente. Para anúncios importantes para todos os membros de um grupo, use @all. O histórico completo de chat permite que os participantes participem e saiam a qualquer momento.
-
-  home-landingpage2_title: Team Chat
-  home-landingpage2_description_1: Comunique-se e colabore usando o chat em equipe e alterne para chamadas de vídeo ou áudio com compartilhamento de tela para um trabalho em equipe mais eficiente.
-  home-landingpage2_description_2: Melhore a produtividade discutindo e compartilhando idéias, projetos e arquivos com o chat em equipe em tempo real ou assíncrono.
-
+  home-landingpage_description_1: Abra a conversa e remova a necessidade de CC / BCC usando Canais e Grupos Privados para falar com sua equipe abertamente para obter maior transparência.
+  home-landingpage_description_2: Inclua participantes relevantes com a menção @username para notificá-los imediatamente. Para anúncios importantes para todos os membros de um grupo, use @all. O histórico completo de chat permite que os membros participem e saiam a qualquer momento.
+  home-landingpage2_title: Chat em Equipe
+  home-landingpage2_description_1: Comunique-se e colabore usando chat em equipe e alterne para chamadas de vídeo ou áudio com screensharing para um trabalho mais eficiente.
+  home-landingpage2_description_2: Melhore a produtividade discutindo e compartilhando idéias, projetos e arquivos no chat em tempo real ou assíncrono.
   home-landingpage3_title: O que é Rocket.Chat?
   home-landingpage3_description_1: Comunique-se e colabore com sua equipe, compartilhe arquivos, converse em tempo real ou mude para videoconferência / áudio.
   home-landingpage3_description_2: Assista ao vídeo para ver como o Rocket.Chat fornece a plataforma ideal para suas necessidades de equipe ou de negócios.
   home-landingpage3_watch_now: "Assista Agora:"
-
   home-community_label: Open Source
   home-community_title: Um Universo de Possibilidades
-  home-community_description: Com acesso completo ao código-fonte, você pode customizar, estender ou adicionar novas funcionalidades completamente para atender aos seus requisitos.
+  home-community_description: Com acesso completo ao código-fonte, você pode customizar, estender ou adicionar novas funcionalidades para atender aos seus requisitos.
   home-community_description2: Junte-se aos milhares de desenvolvedores que estão criando a melhor plataforma de chat em
 
   secure-conversation_title: Conversas Seguras
-  secure-conversation_description: Um espaço de trabalho seguro com restrição de nome de usuário e transparência administrativa. Remova os maus atores adicionando moderadores e forneça aos administradores controles adicionais.
+  secure-conversation_description: Um espaço de trabalho seguro com regras de criação de nomes de usuários e transparência administrativa. Remova os maus atores adicionando moderadores e forneça aos administradores controles adicionais.
   blockchain_title: Confiado por inovadores de blockchain
   blockchain_description: Junte-se aos principais projetos de blockchain, como Aragon, Brave, Hyperledger, Golem, Tokenly e outros na migração do Slack. Faça isso facilmente graças ao
   migrating_from: Migrando de
@@ -96,18 +92,18 @@ pt:
   hipchat_importers: Importadores de HipChat
   learn_about_importing: Saiba mais sobre a importação para o Rocket.Chat
 
-  livechat_description1: Com o LiveChat by Rocket.Chat, você pode adicionar widgets de chat em tempo real a qualquer site ou aplicativo móvel para obter mais valor do seu chat em equipe e fornecer atendimento ao cliente de alta qualidade.
+  livechat_description1: Com o LiveChat feito por Rocket.Chat, você pode adicionar widgets de chat em tempo real a qualquer site ou aplicativo mobile para obter mais valor do seu chat e fornecer atendimento de alta qualidade para seus clientes .
   livechat_description2: Substitua outros sistemas e use uma plataforma de comunicação para economizar tempo e dinheiro. Crie um serviço de suporte ao usuário, responda a consultas de clientes e converta leads.
 
   realtime_title: Tradução em Tempo Real
-  realtime_description1: O Rocket.Chat usa o aprendizado de máquina de ponta para a tradução automática de mensagens em tempo real entre os usuários.
+  realtime_description1: O Rocket.Chat usa o machine learning de ponta para a tradução automática de mensagens em tempo real entre os usuários.
   realtime_description2: Nossa interface do usuário foi traduzida para mais de 50 idiomas, mais do que qualquer outro serviço de chat em equipe.
 
   home-install_title: Para todas as plataformas
   home-install_description: Você pode levar o Rocket.Chat para qualquer lugar com os nossos apps web, desktop e mobile, clientes LiveChat e SDK.
 
   customization_title: Personalização sem fim
-  customization_description: Customize sua plataforma para personalizar sua aparência e experiência, adicionando ou removendo recursos e selecionando suas próprias integrações, plugins e temas.
+  customization_description: Customize sua plataforma e personalize sua aparência e experiência, adicionando ou removendo recursos e selecionando suas próprias integrações, plugins e temas.
 
   integrations_title: Integrações
   integrations_description: Adicione integrações WebHook de entrada e saída ao Rocket.Chat
@@ -126,3 +122,4 @@ pt:
 
   marketplace_title: Marketplace
   marketplace_description: Encontre e instale Apps para estender o Rocket.Chat ou faça upload e venda de um Apps que você desenvolveu.
+  marketplace_find: Encontre Apps Agora!

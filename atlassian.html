@@ -22,16 +22,8 @@ redirect_from:
     <h1 class="display--big theme_type--dark">Rocket.Chat for Atlassian</h1>
     <p class="display--small theme_type--dark">On-premises communication and collaboration by Rocket.Chat, for Atlassian</p>
 
-    <div class="card theme_box--dark-strong content-page__box--small">
-        <div class="wrap">
-            <h2 class="display theme_type--dark">Ready to Migrate <br> to Rocket.Chat?</h2>
-            <p class="theme_type--grey"></p>
-            <div class="content-page__box-buttons">
-                <a href="/contact" rel="noopener noreferrer" class="button">Contact Sales</a>
-                <a href="https://rocket.chat/docs/administrator-guides/import/hipchat/" class="button button--ghost">View Migration Docs</a>
-            </div>
-        </div>
-    </div>
+    {% include components/card-box.html lang=page.lang box-type="migrate-box--small" %}
+
 </section>
 
 <div class="space--10"></div>
@@ -82,7 +74,7 @@ redirect_from:
 <section class="container">
     <div class="flex-grid grid--justify-around">
         <div class="col">
-            {% include components/features-box.html lang=include.lang class="content-page__features" %}
+            {% include components/features-box.html lang=page.lang class="content-page__features" %}
         </div>
     </div>
 </section>
@@ -146,16 +138,7 @@ redirect_from:
 </section>
 <div class="space--5"></div>
 
-<div class="card theme_box--dark-strong content-page--box">
-    <div class="wrap">
-        <h2 class="display--big theme_type--dark">Ready to Migrate to Rocket.Chat?</h2>
-        <p class="theme_type--grey"></p>
-        <div class="content-page__box-buttons">
-            <a href="/contact" rel="noopener noreferrer" class="button">Contact Sales</a>
-            <a href="https://rocket.chat/docs/administrator-guides/import/hipchat/" class="button button--ghost">View Migration Docs</a>
-        </div>
-        <div class="space--1"></div>
-    </div>
-</div>
+{% include components/card-box.html lang=page.lang box-type="migrate-box" %}
+
 
 <div class="space--8"></div>

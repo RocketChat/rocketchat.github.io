@@ -32,7 +32,11 @@ class: post
       </div>
     </header>
 
-    {% if page.cover %}
+    {% if page.videoURL %}
+    <div class="blog-post__cover">
+      {% include components/youtube-box.html cover=page.cover url=page.videoURL %}
+    </div>
+    {% elsif page.cover %}
       <img class="blog-post__cover" src="{{ page.cover }}" alt="{{ page.title }}" />
     {% endif %}
 

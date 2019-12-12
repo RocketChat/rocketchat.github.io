@@ -1,14 +1,15 @@
 ---
-title: "AMA webinar, Gabriel talks about our future and our new 2.0 release"
+title: "AMA webinar, Gabriel talks about our future and our new 2.1.0 release"
 categories:
-- Product
+- Videos
 date: 2019-09-27 12:00:00
+videoURL: https://www.youtube.com/embed/i8gZxR56OPc
 author: Marti Stephen
-cover: /images/blog/rockets/6.jpg
-featured: true
+cover: /images/blog/news-video.png
+featured: false
 ---
 
-Our CEO **Gabriel Engel** shared news about our progress, the future, and Rocket.Chat’s **2.0 release** at September’s Ask Me Anything webinar.
+Our CEO **Gabriel Engel** shared news about our progress, the future, and Rocket.Chat’s **2.1.0 release** at September’s Ask Me Anything webinar.
 
 One of our main highlights has been **Rocket.Chat’s first refactor of the Federation engine**, and we have been making a deeper dive to accommodate changes. This is not the final version, as it currently runs parallel with the main engine, but the idea is to fully incorporate Federation into the main engine of v3.0. This will allow servers to communicate and users to engage in inter-server communication.
 
@@ -20,7 +21,7 @@ It might appear that all we’ve been doing is taking little steps, but the whol
 
 We’d like you to know  that **we will only support version 3.4 and higher for MongoDB**, and we are **dropping support for 3.2.** It’s a case of staying current with what Mongo itself supports. The bonus is that by dropping 3.2  support, Rocket.Chat can use the database program’s newer features and support different query types.
 
-We are currently removing outdated or poorly performing parts of the code. To help **Rocket.Chat v2.0 perform at its best**, our developers have removed:
+We are currently removing outdated or poorly performing parts of the code. To help **Rocket.Chat v2.1.0 perform at its best**, our developers have removed:
 
 - REST endpoint /api/v1/emoji-custom ([#15206](https://github.com/RocketChat/Rocket.Chat/pull/15206))
 - REST endpoint /api/v1/info ([#15197](https://github.com/RocketChat/Rocket.Chat/pull/15197))
@@ -37,7 +38,7 @@ A shout out to our German contributors for their pull request on **granular perm
 
 We also integrated [DEEPL](https://www.deepl.com/en/home), a **translator system that uses Machine Learning**, into Rocket.Chat. In fact, **we are inviting the Community** to add more translation services to Rocket.Chat. We will migrate those kinds of contributions into Rocket.Chat Apps so that they can be easily used by everyone.
 
-Here are the recent **bug fixes** for 2.0:
+Here are the recent **bug fixes** for 2.1.0:
 
 - Mark room as read logic ([#15174](https://github.com/RocketChat/Rocket.Chat/pull/15174))
 - Forget user session on window close ([#15205](https://github.com/RocketChat/Rocket.Chat/pull/15205))
