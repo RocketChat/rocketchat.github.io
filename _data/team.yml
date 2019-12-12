@@ -229,16 +229,16 @@
   username: marina.vdovkina
   photo: yes
   country: Ukraine
-  
+
 - name: Guilherme Cruz
   role: Software Developer
   department: Cloud
   github_username: guicruzzs
   username: guilherme.cruz
   twitter: cruzguilherm
-  photo: no
+  photo: yes
   country: Brazil
-  
+
 - name: Djorkaeff Pereira
   role: React Native Developer
   department: Mobile
@@ -247,7 +247,7 @@
   username: djorkaeff.alexandre
   photo: no
   country: Brazil
-  
+
 - name: Eduardo Pereira
   role: Head of Sales North America
   department: Sales
@@ -263,7 +263,7 @@
   username: alexandre.fornes
   photo: yes
   country: Brazil
-  
+
 - name: William Valle
   role: Inside Sales Representative
   department: Sales
@@ -271,7 +271,7 @@
   username: william.valle
   photo: yes
   country: Brazil
-  
+
 - name: Shiqi Mei
   role: Rocket.Chat Apps Developer
   department: Rocket.Chat Apps
@@ -280,7 +280,7 @@
   username: shiqi.mei
   photo: yes
   country: China
- 
+
 - name: Laura Coutinho
   role: Talent Acquisition
   department: Operations
