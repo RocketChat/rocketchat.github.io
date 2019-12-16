@@ -69,24 +69,24 @@ pt:
   home-hero_install_button: Instalar servidor próprio
   clients_trusted_by: Confiado por
   home-landingpage_title: Substitua o Email
-  home-landingpage_description_1: Abra a conversa e remova a necessidade de CC / BCC usando Canais e Grupos Privados para falar com sua equipe abertamente para obter maior transparência.
-  home-landingpage_description_2: Inclua participantes relevantes com a menção @username para notificá-los imediatamente. Para anúncios importantes para todos os membros de um grupo, use @all. O histórico completo de chat permite que os membros participem e saiam a qualquer momento.
+  home-landingpage_description_1: Dinamize sua comunicação, reduza o retrabalho e a perda de performance com reenvios de mensagens usando Canais e Grupos para falar online com sua equipe e obter maior agilidade e transparência.
+  home-landingpage_description_2: Inclua participantes relevantes com a menção @username para notificá-los imediatamente. Para anúncios importantes, chame a atenção de todos os membros de um grupo usando @all. O histórico completo de chat permite que os membros participem e saiam a qualquer momento.
   home-landingpage2_title: Chat em Equipe
-  home-landingpage2_description_1: Comunique-se e colabore usando chat em equipe e alterne para chamadas de vídeo ou áudio com screensharing para um trabalho mais eficiente.
-  home-landingpage2_description_2: Melhore a produtividade discutindo e compartilhando idéias, projetos e arquivos no chat em tempo real ou assíncrono.
+  home-landingpage2_description_1: Comunique-se e colabore em  equipe, usando todas as ferramentas de comunicação disponíveis. Alterne mensagens, compartilhamento de arquivos, videoconferências, áudios, tutoriais, links,  compartilhamento de tela e muito mais para obter um trabalho mais eficiente dos times.
+  home-landingpage2_description_2: Melhore sua produtividade discutindo e compartilhando ideias, projetos e arquivos em tempo real.
   home-landingpage3_title: O que é Rocket.Chat?
-  home-landingpage3_description_1: Comunique-se e colabore com sua equipe, compartilhe arquivos, converse em tempo real ou mude para videoconferência / áudio.
+  home-landingpage3_description_1: A mais completa e eficiente ferramenta de comunicação online, atendimento ao mercado em ambiente omnichannel, Colaboração entre times, Comunicação segura entre empresas (Redes-Holdings-Dealers) e Integração ilimitada. Disponível em cloud ou implantada na infraestrutura da empresa.
   home-landingpage3_description_2: Assista ao vídeo para ver como o Rocket.Chat fornece a plataforma ideal para suas necessidades de equipe ou de negócios.
   home-landingpage3_watch_now: "Assista Agora:"
-  home-community_label: Open Source
+  home-community_label: Código Aberto
   home-community_title: Um Universo de Possibilidades
-  home-community_description: Com acesso completo ao código-fonte, você pode customizar, estender ou adicionar novas funcionalidades para atender aos seus requisitos.
+  home-community_description: Com acesso completo ao código-fonte, você pode customizar, estender ou adicionar novas funcionalidades para atender às suas necessidades.
   home-community_description2: Junte-se aos milhares de desenvolvedores que estão criando a melhor plataforma de chat em
 
   secure-conversation_title: Conversas Seguras
   secure-conversation_description: Um espaço de trabalho seguro com regras de criação de nomes de usuários e transparência administrativa. Remova os maus atores adicionando moderadores e forneça aos administradores controles adicionais.
   blockchain_title: Confiado por inovadores de blockchain
-  blockchain_description: Junte-se aos principais projetos de blockchain, como Aragon, Brave, Hyperledger, Golem, Tokenly e outros na migração do Slack. Faça isso facilmente graças ao
+  blockchain_description: JJunte-se aos principais projetos de blockchain, como Aragon, Brave, Hyperledger, Golem, Tokenly e outros na migração do Slack. Faça isso facilmente graças ao
   migrating_from: Migrando de
   choose_from: Escolha entre nossos dois
   hipchat_importers: Importadores de HipChat

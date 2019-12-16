@@ -33,6 +33,8 @@ en:
   connect-with-us: Connect With Us
   star-or-fork-on-github: Star or Fork on GitHub
   language: Language
+  moving_from_atlassian: Moving from Atlassian Hipchat?
+  welcome-to-rc: Welcome to Rocket.Chat!
 
 pt:
   english: Inglês
@@ -69,3 +71,5 @@ pt:
   connect-with-us: Conecte-se Conosco
   star-or-fork-on-github: Star ou Fork no GitHub
   language: Idioma
+  moving_from_atlassian: Migrando de Atlassian Hipchat?
+  welcome_to_rc: Bem vindo ao Rocket.Chat!

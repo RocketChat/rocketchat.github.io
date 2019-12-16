@@ -1,0 +1,13 @@
+{% assign tg = site.data.i18n-general[include.lang] %}
+
+
+<section class="banner container">
+    <div class="col">
+        <div class="banner_wrap align--center {% if page.theme == 'light' %}card theme_box--light{% else %}card theme_box--dark-strong{% endif %}">
+            <div  class="{% if page.theme == 'dark' %}theme_type--grey{% endif %}"> {{tg.moving_from_atlassian}} 🚀
+                <a id="atlassian-home-link" target="_blank" href="https://rocket.chat/atlassian" rel="noopener noreferrer">
+                    <strong>{{tg.welcome_to_rc}}</strong>
+                </a>
+        </div>
+    </div>
+</section>
