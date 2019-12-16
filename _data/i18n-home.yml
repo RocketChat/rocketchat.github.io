@@ -63,8 +63,8 @@ en:
 
 
 pt:
-  home-hero_title: Comunicação de equipe Open Source
-  home-hero_description: Rocket.Chat é gratuito, ilimitado e Open Source. Substitua email, HipChat & Slack pela solução definitiva de software de chat em equipe.
+  home-hero_title: Comunicação Open Source para times
+  home-hero_description: Controle sua comunicação, gerencie seus dados e melhore a produtividade da sua equipe. Rocket.Chat é escalável e de código aberto. Substitua email, HipChat e Slack.
   home-hero_trial_button: Iniciar Teste na Cloud
   home-hero_install_button: Instalar servidor próprio
   clients_trusted_by: Confiado por
@@ -86,7 +86,7 @@ pt:
   secure-conversation_title: Conversas Seguras
   secure-conversation_description: Um espaço de trabalho seguro com regras de criação de nomes de usuários e transparência administrativa. Remova os maus atores adicionando moderadores e forneça aos administradores controles adicionais.
   blockchain_title: Confiado por inovadores de blockchain
-  blockchain_description: JJunte-se aos principais projetos de blockchain, como Aragon, Brave, Hyperledger, Golem, Tokenly e outros na migração do Slack. Faça isso facilmente graças ao
+  blockchain_description: Junte-se aos principais projetos de blockchain, como Aragon, Brave, Hyperledger, Golem, Tokenly e outros na migração do Slack. Faça isso facilmente graças ao
   migrating_from: Migrando de
   choose_from: Escolha entre nossos dois
   hipchat_importers: Importadores de HipChat
