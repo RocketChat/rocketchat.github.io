@@ -21,6 +21,7 @@ theme: dark
 {% assign GermanyTeam = "" | split: "" %}
 {% assign UkraineTeam = "" | split: "" %}
 {% assign ChinaTeam = "" | split: "" %}
+{% assign EcuadorTeam = "" | split: "" %}
 
 {% for member in teamList %}
   {% if member.country == "Brazil" %}
@@ -49,6 +50,9 @@ theme: dark
 
   {% elsif member.country == "China" %}
     {% assign ChinaTeam = ChinaTeam | push: member %}
+
+  {% elsif member.country == "Ecuador" %}
+    {% assign EcuadorTeam = EcuadorTeam | push: member %}
   {% endif %}
 {% endfor %}
 
@@ -277,6 +281,30 @@ theme: dark
         <p>
           <strong>China</strong>
           <span><img src="/images/flags/China.png" alt="China" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin ecuador">
+      <div class="team-map__profile left">
+        <div class="flags">
+          {% for member in EcuadorTeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="/images/team/placeholder.png" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>Ecuador</strong>
+          <span><img src="/images/flags/Ecuador.png" alt="Ecuador" /></span>
         </p>
       </div>
     </div>
