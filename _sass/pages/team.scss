@@ -184,7 +184,7 @@
       }
     }
   }
-  
+
   &.ecuador {
     top: 76.5%;
     left: 28.5%;
@@ -192,11 +192,7 @@
 
     .team-map__profile {
       animation: 1s 1.8s appearsBox forwards;
-      transform: translate(1.5em, -2em);
-
-      &:after {
-        left: -10px;
-      }
+      transform: translate(-6.5em, -2em);
     }
   }
 }
@@ -256,6 +252,18 @@
     bottom: auto;
     top: 2em;
     left: calc(50% - 3.5em);
+  }
+
+  &.right:after {
+    content: "";
+    display: block;
+    border: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-left: 0.3em solid rgba(56,74,102,0.55);
+    position: absolute;
+    bottom: auto;
+    top: 2em;
+    left: 92px;
   }
 
   .flags {
