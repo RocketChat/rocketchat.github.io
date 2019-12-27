@@ -24,7 +24,3 @@ submit = function(data) {
         $.featherlight($('#solution-form__after-box'), {});
     }
 }
-
-
-
-
