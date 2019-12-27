@@ -10,11 +10,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
   <link rel="stylesheet" href="/styles.css?v={{ site.version }}">
-
-  {% if page.class == "index" or page.categories contains "Webinars" or page.class contains "solutions-page" or page.class == "pricing" or page.class contains "contact" or page.class contains "become-partner" or page.categories contains "Videos" %}
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-  {% endif %}
-
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@RocketChat">
   <meta name="twitter:title" content="Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -43,9 +39,7 @@
 <script src="/main.js"></script>
 <script src="/forms.js"></script>
 <script src="/redirect.js"></script>
-{% if page.class == "index" or page.categories contains "Webinars" or page.class contains "solutions-page" or page.class == "pricing"  or page.class contains "contact" or page.class contains "become-partner" or page.categories contains "Videos"%}
-  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" async type="text/javascript" charset="utf-8"></script>
-{% endif %}
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" async type="text/javascript" charset="utf-8"></script>
 
 <script>
   (function(h,o,t,j,a,r){
@@ -58,12 +52,11 @@
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
-<script type="text/javascript">var $zoho= $zoho ||  {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"1411113b99d1f0caef79cd67eeedad019f488d11a0332e4d6c7b0ba6d8d34b60", values:{},ready:function(){$zoho.salesiq.floatbutton.visible("hide");}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
-
 <!--[if IE]>
   <script src="/polyfill/modernizr.js"></script>
   <script src="/polyfill/respond.min.js"></script>
   <script src="/polyfill/calc.min.js"></script>
 <![endif]-->
+
 </body>
 </html>
