@@ -1,62 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
-	<meta name="viewport" content="width=device-width, user-scalable=no">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <link rel="preconnect" href="https://www.googletagmanager.com">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
-  <link rel="shortcut icon" href="/favicon.ico?v=1"/>
-  <link rel="stylesheet" href="/styles.css?v={{ site.version }}">
-  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@RocketChat">
-  <meta name="twitter:title" content="Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.cover %}https://rocket.chat{{page.cover}}{% else %}{{ site.url }}/images/blog/post.jpg{% endif %}">
-  <meta name="twitter:image:alt" content="Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="apple-itunes-app" content="app-id=1148741252">
-
-
-  {% if post.cover %}
-  <meta property="og:type"  content="article" />
-  <meta property="og:image" content="{{ post.cover }}" />
-  {% else %}
-  <meta property="og:image" content="{{ site.url }}/images/blog/post.jpg" />
-  {% endif %}
-
-  {% include gtm/head.html %}
-</head>
-<body class="{{ page.class }} {{ page.theme }} {{ page.layout }}">
-  {% include webrules.html %}
-  {% include livechat.html %}
-  {% include gtm/body.html %}
-  <script src="/jquery.js"></script>
-  {{ content }}
-
-<script src="/main.js"></script>
-<script src="/forms.js"></script>
-<script src="/redirect.js"></script>
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" async type="text/javascript" charset="utf-8"></script>
-
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:1234561,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
-<!--[if IE]>
-  <script src="/polyfill/modernizr.js"></script>
-  <script src="/polyfill/respond.min.js"></script>
-  <script src="/polyfill/calc.min.js"></script>
-<![endif]-->
-
-</body>
+    <head>
+        <title>
+            Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+        </title>
+        <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" name="description"/>
+        <meta content="width=device-width, user-scalable=no" name="viewport"/>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <link href="https://www.googletagmanager.com" rel="preconnect"/>
+        <link href="{{ page.url | absolute_url }}" rel="canonical"/>
+        <link href="/feed.xml" rel="alternate" title="{{ site.title }}" type="application/rss+xml"/>
+        <link href="/favicon.ico?v=1" rel="shortcut icon"/>
+        <link href="/styles.css?v={{ site.version }}" rel="stylesheet"/>
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" rel="stylesheet" type="text/css"/>
+        <meta content="summary_large_image" name="twitter:card"/>
+        <meta content="@RocketChat" name="twitter:site"/>
+        <meta content="Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" name="twitter:title"/>
+        <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" name="twitter:description"/>
+        <meta content="{% if page.cover %}https://rocket.chat{{page.cover}}{% else %}{{ site.url }}/images/blog/post.jpg{% endif %}" name="twitter:image"/>
+        <meta content="Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" name="twitter:image:alt"/>
+        <meta content="app-id=1148741252" name="apple-itunes-app"/>
+        {% if post.cover %}
+        <meta content="article" property="og:type"/>
+        <meta content="{{ post.cover }}" property="og:image"/>
+        {% else %}
+        <meta content="{{ site.url }}/images/blog/post.jpg" property="og:image"/>
+        {% endif %}
+        {% include gtm/head.html %}
+    </head>
+    <body class="{{ page.class }} {{ page.theme }} {{ page.layout }}">
+        {% include webrules.html %}
+        {% include livechat.html %}
+        {% include gtm/body.html %}
+        <script src="/jquery.js">
+        </script>
+        {{ content }}
+        <script src="/main.js">
+        </script>
+        <script src="/forms.js">
+        </script>
+        <script src="/redirect.js">
+        </script>
+        <script async="" charset="utf-8" src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript">
+        </script>
+        <script async="" defer="" src="//www.google.com/recaptcha/api.js">
+        </script>
+        <!--[if IE]>
+          <script src="/polyfill/modernizr.js" />
+          <script src="/polyfill/respond.min.js" />
+          <script src="/polyfill/calc.min.js" />
+        <![endif]-->
+    </body>
 </html>
