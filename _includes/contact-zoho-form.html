@@ -7,50 +7,43 @@
   </select>
 </div>
 
-
-
-
 <!-- Note :
-   - You can modify the font style and form style to suit your website.
-   - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code.
-   - The Mandatory check script can modified as to suit your business needs.
-   - It is important that you test the modified form before going live.-->
+   - You can modify the font style and form style to suit your website. 
+   - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code. 
+   - The Mandatory check script can modified as to suit your business needs. 
+   - It is important that you test the modified form before going live.
+   - Do not remove captcha and other form elements that are necessary for the form to work.  -->
 <div class="form-wrap" id="sales-form-wrap">
   <div id='crmWebToEntityForm'>
     <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
     <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2982481000004786007 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory2982481000004786007()' accept-charset='UTF-8' id="contact-form" class="form-validate zoho-form" data-validate>
-      <input type='text' style='display:none;' name='xnQsjsdp' value='96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03b'></input>
-      <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
-      <input type='text' style='display:none;' name='xmIwtLD' value='8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9a'></input>
-      <input type='text' style='display:none;' name='actionType' value='TGVhZHM='></input>
-      <input type='text' style='display:none;' name='returnURL' value='https://rocket.chat/contact#thank-you'> </input>
+      <input type='hidden' name='xnQsjsdp' value='96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03b' />
+      <input type='hidden' name='xmIwtLD' value='8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9a' />
+      <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+      <input type='hidden' name='actionType' value='TGVhZHM=' />
       <!-- Do not remove this code. -->
+      <input type='hidden' name='returnURL' value='https://rocket.chat/contact#thank-you' />
 
-      <fieldset style="display: none">
-        <label class="label--small theme_type--grey" for="recipient">Department</label>
-        <div class="select select--theme-dark">
-          <select required name="Lead Source" id="recipient">
-            <option selected value="Sales Contact Form">Sales</option>
-          </select>
-        </div>
-      </fieldset>
+      <input type='hidden' name='Lead Source' value='Contact Form' />
+      <input type='hidden' name='Lead Status' value='Not Qualified' />
+
+      <input type='hidden' name='eo' value='14f4ec16431e0686150daa43f3210513'/>
+      <input type='hidden' name='te' value='true'/>
+      <img style='display: none;' id='tr_img_8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9a' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServlet?rid=8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9agid96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03bgida378f81585080d3b6fb1acbec6638b71gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513' />
 
       <fieldset>
         <label class="label--small theme_type--grey" for="firstName">First Name</label>
-        <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text"
-          id="firstName" name="First Name" placeholder="Type your first name" />
+        <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="firstName" name="First Name" placeholder="Type your first name" />
       </fieldset>
 
       <fieldset>
         <label class="label--small theme_type--grey" for="lastName">Last Name</label>
-        <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text"
-          id="lastName" name="Last Name" placeholder="Type your last name" />
+        <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="lastName" name="Last Name" placeholder="Type your last name" />
       </fieldset>
 
       <fieldset>
         <label class="label--small theme_type--grey" for="email">Email Address</label>
-        <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email"
-          id="email" name="Email" placeholder="Type your email address" />
+        <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email" id="email" name="Email" placeholder="Type your email address" />
       </fieldset>
 
       <fieldset>
@@ -64,21 +57,13 @@
       </fieldset>
 
       <fieldset>
-        <label class="label--small theme_type--grey" for="company">Company/Community</label>
-        <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="company" name="Company"
-          placeholder="Type your company or community name" />
+        <label class="label--small theme_type--grey" for="company">Organization</label>
+        <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="company" name="Company" placeholder="Type your company, organization or community name" />
       </fieldset>
 
       <fieldset>
         <label class="label--small theme_type--grey" for="message">Question</label>
-        <textarea required rows="7" class="input input--dark question" name="Description" id="message"
-          placeholder="Type your Question"></textarea>
-      </fieldset>
-
-      <fieldset>
-        <select style='display: none' name='Lead Status'>
-          <option selected value='Not Qualified'>Not Qualified</option>
-        </select>
+        <textarea required rows="7" class="input input--dark question" name="Description" id="message" placeholder="Type your Question"></textarea>
       </fieldset>
 
       <fieldset>
@@ -88,7 +73,7 @@
 
       <fieldset>
         <label class="label--small theme_type--grey" for="repeatcaptcha">Repeat captcha</label>
-        <input type='text' class="input input--dark" maxlength='10' id="repeatcaptcha" name='enterdigest'  />
+        <input type='text' class="input input--dark" maxlength='10' id="repeatcaptcha" name='enterdigest' />
       </fieldset>
 
       <iframe name='captchaFrame' style='display:none;'></iframe>
@@ -97,13 +82,19 @@
       <button type="submit" id='formsubmit' class="button">Send message</button>
       <div class="space--4"></div>
 
-
-
       <script>
         var mndFileds = new Array('Last Name', 'Company', 'Email', 'Lead Source', 'Country');
         var fldLangVal = new Array('Last Name', 'Company', 'Email', 'Lead Source', 'Country');
         var name = '';
         var email = '';
+
+        function reloadImg() {
+          if(document.getElementById('imgid').src.indexOf('&d') !== -1 ) {
+                document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();
+          }  else {
+                document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();
+           } 
+         }
 
         function checkMandatory2982481000004786007() {
           for (i = 0; i < mndFileds.length; i++) {
@@ -140,7 +131,12 @@
           }
           document.getElementById('formsubmit').disabled = true;
         }
+
+        
       </script>
+
+      <script> if(typeof wfTRKey=='undefined'){wfTRKey = {};}wfTRKey['url_8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9a']='https://crm.zohopublic.com/crm/WebFormAnalyticsServlet?rid=8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9agid96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03bgid364f49863aa1c6f080988c8e111a90b8gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513';wfTRKey['rs_8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9a']=false; function sf(ev){var te = ev.target ? ev.target : ev.srcElement; var nd = te.nodeName ? te.nodeName.toLowerCase() : ''; var fm; if (te.form) { fm = te.form.elements.xmIwtLD.value; } if (fm && !wfTRKey['rs_' + fm] && ((nd == 'input' && te.type != 'file') || (nd == 'input' && te.type == 'file' && ev.type == 'click') || nd == 'select' || nd == 'textarea' || nd == 'div')) { document.getElementById('tr_img_'+fm).setAttribute('src', wfTRKey['url_'+fm]);  wfTRKey['rs_'+fm] = true }} if(document.addEventListener){document.addEventListener('click', sf);document.addEventListener('change', sf);}else{document.attachEvent('onclick', sf);document.attachEvent('onchange', sf);}</script>
+
     </form>
   </div>
 </div>
@@ -161,32 +157,27 @@
       <input type='hidden' name='returnURL' value='https://rocket.chat/contact#thank-you' />
       <fieldset>
         <label class="label--small theme_type--grey" for="firstName">First Name</label>
-        <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text"
-          id="firstName" name="First Name" placeholder="Type your first name" />
+        <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="firstName" name="First Name" placeholder="Type your first name" />
       </fieldset>
 
       <fieldset>
         <label class="label--small theme_type--grey" for="lastName">Last Name</label>
-        <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text"
-          id="lastName" name="Contact Name" placeholder="Type your last name" />
+        <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="lastName" name="Contact Name" placeholder="Type your last name" />
       </fieldset>
 
       <fieldset>
         <label class="label--small theme_type--grey" for="email">Email Address</label>
-        <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email"
-          id="email" name="Email" placeholder="Type your email address" />
+        <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email" id="email" name="Email" placeholder="Type your email address" />
       </fieldset>
 
       <fieldset>
         <label class="label--small theme_type--grey" for="subject">Subject</label>
-        <input required minlength="3" maxlength="100" class="input input--dark" type="text"
-          id="subject" name="Subject" placeholder="Type the subject of the message" />
+        <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="subject" name="Subject" placeholder="Type the subject of the message" />
       </fieldset>
 
       <fieldset>
         <label class="label--small theme_type--grey" for="message">Message</label>
-        <textarea required rows="7" class="input input--dark question" name="Description" id="message"
-          placeholder="Type your Message"></textarea>
+        <textarea required rows="7" class="input input--dark question" name="Description" id="message" placeholder="Type your Message"></textarea>
       </fieldset>
 
       <fieldset>
@@ -212,3 +203,5 @@
   <p>Thank you for contacting us!<br>
     We will be in touch with you shortly.</p>
 </div>
+
+<script async src="/forms.js"></script>
