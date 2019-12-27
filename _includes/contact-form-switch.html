@@ -5,6 +5,7 @@
     <option value="" selected disabled>Select the Department</option>
     <option value="sales-contact-form-wrap">Sales</option>
     <option value="support-contact-form-wrap">Support</option>
+    <option value="partners-contact-form-wrap">Partners</option>
   </select>
 </div>
 
@@ -16,8 +17,6 @@
   {% include support-contact-form.html %}
 </div>
 
-<div id="solution-form__after-box">
-  <h3>Message Sent!</h3>
-  <p>Thank you for contacting us!<br>
-    We will be in touch with you shortly.</p>
+<div class="form-wrap" id="partners-contact-form-wrap" style="display: none;">
+  {% include partners-contact-form.html %}
 </div>
