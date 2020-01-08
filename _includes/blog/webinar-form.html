@@ -3,17 +3,16 @@
         <bold>Sing up for this webinar</bold>
     </h3>
     <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
-    <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2982481000004866007 method='POST'
-        onSubmit='javascript:document.charset="UTF-8"; return checkMandatory2982481000004866007()'
-        accept-charset='UTF-8' id="{{ page.solution }}-form" class="form-validate" data-validate
-        data-source="Webinar Singup Form">
+    <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2982481000015053009 method='POST'
+        onSubmit='javascript:document.charset="UTF-8"; return checkMandatory2982481000015053009()'
+        accept-charset='UTF-8'>
         <input type='text' style='display:none;' name='xnQsjsdp'
             value='96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03b'></input>
         <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
         <input type='text' style='display:none;' name='xmIwtLD'
-            value='8ea917c61ae7f2f107ac548ac534375cbb748d661d0d06812e9533bb4c50f624'></input>
+            value='8ea917c61ae7f2f107ac548ac534375c358882e6b4d0b8d253bba3fb04d48c86'></input>
         <input type='text' style='display:none;' name='actionType' value='TGVhZHM='></input>
-        <input type='text' style='display:none;' name='returnURL' value='https://rocket.chat/contact#thank-you'>
+        <input type='text' style='display:none;' name='returnURL' value='{{site.url}}/{{page.url}}#thank-you'>
         </input>
         <!-- Do not remove this code. -->
         <fieldset>
@@ -77,14 +76,14 @@
 
 
         <script>
-            var mndFileds = new Array('First Name', 'Last Name', 'Company', 'Email', 'Lead Status', 'Lead Source');
-            var fldLangVal = new Array('First Name', 'Last Name', 'Company', 'Email', 'Lead Status', 'Lead Source');
+            var mndFileds = new Array('Company', 'Last Name', 'Email', 'Lead Status', 'Lead Source');
+            var fldLangVal = new Array('Company', 'Last Name', 'Email', 'Lead Status', 'Lead Source');
             var name = '';
             var email = '';
 
-            function checkMandatory2982481000004866007() {
+            function checkMandatory2982481000015053009() {
                 for (i = 0; i < mndFileds.length; i++) {
-                    var fieldObj = document.forms['WebToLeads2982481000004866007'][mndFileds[i]];
+                    var fieldObj = document.forms['WebToLeads2982481000015053009'][mndFileds[i]];
                     if (fieldObj) {
                         if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
                             if (fieldObj.type == 'file') {
@@ -118,5 +117,10 @@
                 document.getElementById('formsubmit').disabled = true;
             }
         </script>
-    </form>
+        <input type='hidden' name='eo' value='14f4ec16431e0686150daa43f3210513' /> <input type='hidden' name='te'
+            value='true' /><img id='tr_img_8ea917c61ae7f2f107ac548ac534375c358882e6b4d0b8d253bba3fb04d48c86'
+            src='https://crm.zohopublic.com/crm/WebFormAnalyticsServlet?rid=8ea917c61ae7f2f107ac548ac534375c358882e6b4d0b8d253bba3fb04d48c86gid96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03bgida378f81585080d3b6fb1acbec6638b71gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513'
+            style='display: none;' />
+        <script> if (typeof wfTRKey == 'undefined') { wfTRKey = {}; } wfTRKey['url_8ea917c61ae7f2f107ac548ac534375c358882e6b4d0b8d253bba3fb04d48c86'] = 'https://crm.zohopublic.com/crm/WebFormAnalyticsServlet?rid=8ea917c61ae7f2f107ac548ac534375c358882e6b4d0b8d253bba3fb04d48c86gid96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03bgid364f49863aa1c6f080988c8e111a90b8gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513'; wfTRKey['rs_8ea917c61ae7f2f107ac548ac534375c358882e6b4d0b8d253bba3fb04d48c86'] = false; function sf(ev) { var te = ev.target ? ev.target : ev.srcElement; var nd = te.nodeName ? te.nodeName.toLowerCase() : ''; var fm; if (te.form) { fm = te.form.elements.xmIwtLD.value; } if (fm && !wfTRKey['rs_' + fm] && ((nd == 'input' && te.type != 'file') || (nd == 'input' && te.type == 'file' && ev.type == 'click') || nd == 'select' || nd == 'textarea' || nd == 'div')) { document.getElementById('tr_img_' + fm).setAttribute('src', wfTRKey['url_' + fm]); wfTRKey['rs_' + fm] = true } } if (document.addEventListener) { document.addEventListener('click', sf); document.addEventListener('change', sf); } else { document.attachEvent('onclick', sf); document.attachEvent('onchange', sf); }</script>
+</form>
 </div>
