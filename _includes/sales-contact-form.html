@@ -17,22 +17,22 @@
 
     <fieldset>
       <label class="label--small theme_type--grey" for="firstName">First Name</label>
-      <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="firstName" name="First Name" placeholder="Type your first name" />
+      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-user" type="text" id="firstName" name="First Name" placeholder="Type your first name" />
     </fieldset>
 
     <fieldset>
       <label class="label--small theme_type--grey" for="lastName">Last Name</label>
-      <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="lastName" name="Last Name" placeholder="Type your last name" />
+      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-user" type="text" id="lastName" name="Last Name" placeholder="Type your last name" />
     </fieldset>
 
     <fieldset>
       <label class="label--small theme_type--grey" for="email">Email Address</label>
-      <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email" id="email" name="Email" placeholder="Type your email address" />
+      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-email" type="email" id="email" name="Email" placeholder="Type your email address" />
     </fieldset>
 
     <fieldset>
       <label class="label--small theme_type--grey" for="country">Country</label>
-      <div class="select select--theme-dark">
+      <div class="select select--theme-{{include.theme}}">
         <select required id="country" name="Country">
           <option selected disabled value="">Select Country</option>
           {% include select-countries.html %}
@@ -42,12 +42,12 @@
 
     <fieldset>
       <label class="label--small theme_type--grey" for="company">Organization</label>
-      <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="company" name="Company" placeholder="Type your company, organization or community name" />
+      <input required minlength="3" maxlength="100" class="input input--{{include.theme}}" type="text" id="company" name="Company" placeholder="Type your company, organization or community name" />
     </fieldset>
 
     <fieldset>
       <label class="label--small theme_type--grey" for="message">Question</label>
-      <textarea required rows="7" class="input input--dark question" name="Description" id="message" placeholder="Type your Question"></textarea>
+      <textarea required rows="7" class="input input--{{include.theme}} question" name="Description" id="message" placeholder="Type your Question"></textarea>
     </fieldset>
 
     <fieldset>
@@ -57,7 +57,7 @@
 
     <fieldset>
       <label class="label--small theme_type--grey" for="repeatcaptcha">Repeat captcha</label>
-      <input type='text' class="input input--dark" maxlength='10' id="repeatcaptcha" name='enterdigest' autocomplete="off" />
+      <input type='text' class="input input--{{include.theme}}" maxlength='10' id="repeatcaptcha" name='enterdigest' autocomplete="off" />
     </fieldset>
 
     <iframe name='captchaFrame' style='display:none;'></iframe>
@@ -77,7 +77,7 @@
               document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();
         }  else {
               document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();
-         } 
+         }
        }
 
       function checkMandatory() {

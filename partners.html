@@ -28,7 +28,7 @@ theme: dark
   <br />
 
   <a href="#partners" class="button--ghost">View Partners</a>
-  <a href="/become-partner" class="button">Become a Partner</a>
+  <a href="#" class="button" data-featherlight="#partner-contact-form-wrap" data-featherlight-variant="featherlight-form" rel="noopener noreferrer">Become a Partner</a>
 
   <div class="partners-hero__image"></div>
 </section>
@@ -181,8 +181,12 @@ theme: dark
       <p class="label theme_type--grey">Become a partner</p>
       <h2 class="display theme_type--dark">Join the Rocket.Chat ecosystem and become a partner</h2>
       <p class="theme_type--grey">Become a Partner or download our Partnership brochure to find out how you could become an approved Rocket.Chat partner</p>
-      <a class="button" href="/become-partner"  style="margin-right: .5em">Become a Partner</a>
+      <a href="#" class="button" data-featherlight="#partner-contact-form-wrap" data-featherlight-variant="featherlight-form" rel="noopener noreferrer">Become a Partner</a>
       <a href="/Rocket-Chat-Partnership-Program.pdf" download="/Rocket-Chat-Partnership-Program.pdf" target="_blank" class="button">Download Brochure</a>
     </div>
   </div>
 </section>
+
+<div id="partner-contact-form-wrap">
+  {% include partners-contact-form.html form-category="partner-contact-form" theme="dark"%}
+</div>

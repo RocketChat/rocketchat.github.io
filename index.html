@@ -346,7 +346,7 @@ redirect_from:
         <p class="label theme_type--grey">Become a partner</p>
         <h2 class="display theme_type--dark">Join the Rocket.Chat ecosystem and become a partner</h2>
         <p class="theme_type--grey">Contact us to find out  how you could become an approved Rocket.Chat partner</p>
-        <a class="button" href="/become-partner">Become Partner</a>
+        <a href="#" class="button" data-featherlight="#partner-contact-form-wrap" data-featherlight-variant="featherlight-form" rel="noopener noreferrer">Become Partner</a>
       </div>
     </div>
   </section>
@@ -357,5 +357,9 @@ redirect_from:
   </div>
 
   <div class="space--2"></div>
+
+  <div id="partner-contact-form-wrap">
+    {% include partners-contact-form.html form-category="partner-contact-form" %}
+  </div>
 
 </section>
