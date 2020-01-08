@@ -5,8 +5,9 @@ devops:
   features-uptitle: Tailored to your Developer Team
   features-title: All your tools at the center of the conversation
   features-subtitle: The open nature of our platform guarantees the possibility of new and powerful integrations, regardless of your choice of vendors.
-  logos-category: devops
+  solution-category: devops
   card-location: solutions/devops-card.html
+  form-id: devops
   tools:
     - title: "Collaboration"
       image: "collaboration.svg"
@@ -44,7 +45,7 @@ livechat:
   hero-title: "The customer messaging platform for all channels"
   hero-image: livechat-hero.svg
   hero-desc: "Do not miss business opportunities, let your customers, partners and external users talk to your team on the channel they prefer: website, email, SMS, social networks with chatbot automatization and all at the same place."
-  logos-category: livechat
+  solution-category: livechat
   features-uptitle: Tailored to best attend your customers
   features-title: All your tools at the center of the conversation
   features-subtitle: The open nature of our platform guarantees the possibility of new and powerful integrations, regardless of your choice of vendors.
@@ -86,7 +87,7 @@ collab:
   hero-title: "Real-time communication for teams to collaborate from any location"
   hero-image: collab-hero.svg
   hero-desc: "Put an end to crowded email inboxes and try out a new way of communicating with your team."
-  logos-category: team-collab
+  solution-category: team-collab
   features-uptitle: Tailored to best fit your team
   features-title: All your tools at the center of the conversation
   features-subtitle: The open nature of our platform guarantees the possibility of new and powerful integrations, regardless of your choice of vendors.
@@ -127,7 +128,7 @@ security:
   hero-title: "Rocket.Chat keeps your data secure and private"
   hero-image: security-hero.svg
   hero-desc: "We believe that trust in a product is essential. At Rocket.Chat we built our products true open-source and with the most advanced security features. That is why Rocket.Chat is the best messaging solution to protect your organization."
-  logos-category: security
+  solution-category: security
   features-uptitle: Security - built in Rocket.Chat´s core
   features-title: At Rocket.Chat, we are building security and privacy into our products by design
   features-subtitle: Our products contains a large amount of features to support a holistic security approach

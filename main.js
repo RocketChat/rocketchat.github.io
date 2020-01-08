@@ -243,7 +243,7 @@ function showSlides() {
 }
 
 $('.pricing .button.trial.contact').on('click', function (e) {
-  setTimeout(function(){ $('.pricing .featherlight #solution').attr('value', `Pricing ${e.target.dataset.label}`); }, 500);
+  setTimeout(function(){ $('.pricing .featherlight #lead-source').attr('value', `Pricing ${e.target.dataset.label}`); }, 500);
 });
 
 $(function() {
