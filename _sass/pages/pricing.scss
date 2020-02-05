@@ -21,12 +21,15 @@
   .hero {
     height: 600px;
     min-height: unset !important;
+    z-index: -1;
   }
 
   &-cloud-message {
     display: none;
     flex-direction: column;
     font-weight: 600;
+    width: max-content;
+    margin: auto;
   }
 
   &-concession{
@@ -133,6 +136,7 @@
     border-right-width: 0;
     color: #6b7d99;
     padding: 1em;
+    padding-top: 1.6em;
     vertical-align: top;
     line-height: 1.2;
     display: flex;
@@ -141,6 +145,10 @@
     text-align: center;
     background-color: #fff;
     border-radius: 2px;
+
+    .display {
+      font-size: 1.6em;
+    }
 
     &:not(:last-child) {
       margin-right: 15px;
