@@ -1,3 +1,5 @@
+{% assign tf = site.data.i18n-forms[include.lang] %}
+
 <div id='zohoSupportWebToCase'>
 
   <form name='zsWebToCase_413244000001944007' id='zsWebToCase_413244000001944007' data-validate="true"
@@ -10,28 +12,28 @@
     <input type='hidden' name='returnURL' value='https://rocket.chat/contact#thank-you' />
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="firstName">First Name</label>
-      <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="firstName" name="First Name" placeholder="Type your first name" />
+      <label class="label--small theme_type--grey" for="firstName">{{tf.first-name}}</label>
+      <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="firstName" name="firstName" placeholder="{tf.type-first-name}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="lastName">Last Name</label>
-      <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="lastName" name="Contact Name" placeholder="Type your last name" />
+      <label class="label--small theme_type--grey" for="lastName">{{tf.last-name}}</label>
+      <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="lastName" name="Contact Name" placeholder="{{tf.type-last-name}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="email">Email Address</label>
-      <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email" id="email" name="Email" placeholder="Type your email address" />
+      <label class="label--small theme_type--grey" for="email">{{tf.email-address}}</label>
+      <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email" id="email" name="Email" placeholder="{{tf.type-email-address}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="subject">Subject</label>
-      <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="subject" name="Subject" placeholder="Type the subject of the message" />
+      <label class="label--small theme_type--grey" for="subject">{{tf.subject}}</label>
+      <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="subject" name="Subject" placeholder="{{tf.type-subject}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="message">Message</label>
-      <textarea required rows="7" class="input input--dark question" name="Description" id="message" placeholder="Type your Message"></textarea>
+      <label class="label--small theme_type--grey" for="message">{{tf.message}}</label>
+      <textarea required rows="7" class="input input--dark question" name="Description" id="message" placeholder="{{tf.type-message}}"></textarea>
     </fieldset>
 
     <fieldset>
@@ -40,13 +42,13 @@
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="repeatcaptcha">Repeat Captcha</label>
+      <label class="label--small theme_type--grey" for="repeatcaptcha">{{tf.repeat-captcha}}</label>
       <input type='text' class="input input--dark" maxlength='10' id="repeatcaptcha" name='zsWebFormCaptchaWord' autocomplete="off" />
       <input type='hidden' name='zsCaptchaSrc' value='' />
     </fieldset>
 
     <div class="space--2"></div>
-    <button type="submit" id='zsSubmitButton_413244000001944007' class="button">Send message</button>
+    <button type="submit" id='zsSubmitButton_413244000001944007' class="button">{{tf.send-message}}</button>
     <div class="space--4"></div>
 
     <script src='https://d17nz991552y2g.cloudfront.net/app/js/jqueryandencoder.ffa5afd5124fbedceea9.js'></script>

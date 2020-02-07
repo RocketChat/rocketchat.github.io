@@ -1,22 +1,25 @@
-<label class="label--small theme_type--grey" for="recipient">Department</label>
+{% assign tf = site.data.i18n-forms[include.lang] %}
+
+
+<label class="label--small theme_type--grey" for="recipient">{{tf.department}}</label>
 
 <div class="select select--theme-dark">
   <select required id="contact-form-switch">
-    <option value="" selected disabled>Select the Department</option>
-    <option value="sales-contact-form-wrap">Sales</option>
-    <option value="support-contact-form-wrap">Support</option>
-    <option value="partners-contact-form-wrap">Partners</option>
+    <option value="" selected disabled>{{tf.select-department}}</option>
+    <option value="sales-contact-form-wrap">{{tf.sales}}</option>
+    <option value="support-contact-form-wrap">{{tf.support}}</option>
+    <option value="partners-contact-form-wrap">{{tf.partners}}</option>
   </select>
 </div>
 
 <div class="form-wrap" id="sales-contact-form-wrap">
-  {% include sales-contact-form.html form-category="sales-contact-form" theme="dark" %}
+  {% include sales-contact-form.html form-category="sales-contact-form" lang=include.lang theme="dark" %}
 </div>
 
 <div class="form-wrap" id="support-contact-form-wrap" style="display: none;">
-  {% include support-contact-form.html form-category="support-contact-form" theme="dark" %}
+  {% include support-contact-form.html form-category="support-contact-form" lang=include.lang theme="dark" %}
 </div>
 
 <div class="form-wrap" id="partners-contact-form-wrap" style="display: none;">
-  {% include partners-contact-form.html form-category="partners-contact-form" theme="dark" %}
+  {% include partners-contact-form.html form-category="partners-contact-form" lang=include.lang theme="dark" %}
 </div>

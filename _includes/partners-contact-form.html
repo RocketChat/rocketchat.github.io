@@ -1,3 +1,7 @@
+{% assign tf = site.data.i18n-forms[include.lang] %}
+{% assign tg = site.data.i18n-general[include.lang] %}
+
+
 <div id='crmWebToEntityForm'>
   <script src='https://www.google.com/recaptcha/api.js' async defer></script>
   <form action='https://crm.zoho.com/crm/WebToLeadForm' data-validate="true" name=WebToLeads2982481000015108192 method='POST'
@@ -17,113 +21,113 @@
 
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="First Name">First Name</label>
-      <input required class="input input--{{include.theme}}" type="text" id="firstName" name="First Name" placeholder="Type first name" />
+      <label class="label--small theme_type--grey" for="First Name">{{tf.first-name}}</label>
+      <input required class="input input--{{include.theme}}" type="text" id="firstName" name="First Name" placeholder="{{tf.type-first-name}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="Last Name">Last Name</label>
+      <label class="label--small theme_type--grey" for="Last Name">{{tf.last-name}}</label>
       <input required minlength="3" class="input input--{{include.theme}}" type="text" id="lastname" name="Last Name"
-        placeholder="Type last name" />
+        placeholder="{{tf.type-last-name}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="Designation">Job title</label>
+      <label class="label--small theme_type--grey" for="Designation">{{tf.job-title}}</label>
       <input required minlength="3" class="input input--{{include.theme}}" type="text" id="title" name="Designation"
-        placeholder="Type job title" />
+        placeholder="{{tf.type-job-title}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="Email">Email address</label>
+      <label class="label--small theme_type--grey" for="Email">{{tf.email-address}}</label>
       <input required minlength="3" class="input input--{{include.theme}}" type="email" id="email" name="Email"
-        placeholder="Type email address" />
+        placeholder="{{tf.type-email-address}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="Website">Website</label>
+      <label class="label--small theme_type--grey" for="Website">{{tf.website}}</label>
       <div data-prefix="https://" class="input-child input-child--dark">
         <input required type="text" id="Website" name="website"
           pattern="[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)"
-          placeholder="Type website" />
+          placeholder="{{tf.type-website}}" />
       </div>
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="Company">Company</label>
+      <label class="label--small theme_type--grey" for="Company">{{tf.company}}</label>
       <input required minlength="3" maxlength="100" class="input input--{{include.theme}}" type="text" id="company" name="Company"
-        placeholder="Type company name" />
+        placeholder="{{tf.type-company}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="Country">Country</label>
+      <label class="label--small theme_type--grey" for="Country">{{tf.country}}</label>
       <div class="select select--theme-{{include.theme}}">
         <select required id="country" name="Country">
-          <option selected disabled value="">Select Country</option>
+          <option selected disabled value="">{{tf.select-country}}</option>
           {% include select-countries.html %}
         </select>
       </div>
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="LEADCF4">Company Size</label>
+      <label class="label--small theme_type--grey" for="LEADCF4">{{tf.company-size}}</label>
       <div class="select select--theme-{{include.theme}}">
           <select style='width:100%;box-sizing:border-box;' name='LEADCF4'>
-            <option value='-None-'>-None-</option>
-            <option value='0 - 10 people'>0 - 10 people</option>
-            <option value='11 - 50 People'>11 - 50 People</option>
-            <option value='51 - 100 People'>51 - 100 People</option>
-            <option value='101 - 250 People'>101 - 250 People</option>
-            <option value='251 - 500 People'>251 - 500 People</option>
-            <option value='501 - 1000 People'>501 - 1000 People</option>
-            <option value='1001 - 4000 People'>1001 - 4000 People</option>
-            <option value='4001 or more'>4001 or more</option>
+            <option value='-None-'>{{tf.select-option}}</option>
+            <option value='0 - 10 people'>0 - 10 {{tf.people}}</option>
+            <option value='11 - 50 People'>11 - 50 {{tf.people}}</option>
+            <option value='51 - 100 People'>51 - 100 {{tf.people}}</option>
+            <option value='101 - 250 People'>101 - 250 {{tf.people}}</option>
+            <option value='251 - 500 People'>251 - 500 {{tf.people}}</option>
+            <option value='501 - 1000 People'>501 - 1000 {{tf.people}}</option>
+            <option value='1001 - 4000 People'>1001 - 4000 {{tf.people}}</option>
+            <option value='4001 or more'>4001 {{tf.or-more}}</option>
           </select>
         </div>
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="LEADCF2">Sales Team Size Size</label>
+      <label class="label--small theme_type--grey" for="LEADCF2">{{tf.sales-team-size}}</label>
       <div class="select select--theme-{{include.theme}}">
           <select style='width:100%;box-sizing:border-box;' name='LEADCF2'>
-              <option disabled selected value='-None-'>-None-</option>
-              <option value='0 - 10 People'>0 - 10 People</option>
-              <option value='11 - 50 People'>11 - 50 People</option>
-              <option value='51 - 250 People'>51 - 250 People</option>
-              <option value='251 - 500 People'>251 - 500 People</option>
-              <option value='501 or more'>501 or more</option>
+              <option disabled selected value='-None-'>{{tf.select-size}}</option>
+              <option value='0 - 10 People'>0 - 10 {{tf.people}}</option>
+              <option value='11 - 50 People'>11 - 50 {{tf.people}}</option>
+              <option value='51 - 250 People'>51 - 250 {{tf.people}}</option>
+              <option value='251 - 500 People'>251 - 500 {{tf.people}}</option>
+              <option value='501 or more'>501 {{tf.or-more}}</option>
           </select>
         </div>
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="LEADCF10">Expertise</label>
+      <label class="label--small theme_type--grey" for="LEADCF10">{{tf.expertise}}</label>
       <div class="select select--theme-{{include.theme}}">
         <select style='width:100%;box-sizing:border-box;' name='LEADCF10'>
-          <option disabled selected value='-None-'>-None-</option>
-          <option value='Collaboration&#x20;Products'>Collaboration Products</option>
+          <option disabled selected value='-None-'>{{tf.select-option}}</option>
+          <option value='Collaboration&#x20;Products'>{{tf.collaboration-products}}</option>
           <option value='Devops'>Devops</option>
-          <option value='Infrastructure'>Infrastructure</option>
+          <option value='Infrastructure'>{{tf.infrastructure}}</option>
           <option value='Omnichannel'>Omnichannel</option>
-          <option value='Software&#x20;Factory'>Software Factory</option>
+          <option value='Software&#x20;Factory'>{{tf.software-factory}}</option>
         </select>
       </div>
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="LEADCF11">Partnership Interest</label>
+      <label class="label--small theme_type--grey" for="LEADCF11">{{tf.partnership-interest}}</label>
       <div class="select select--theme-{{include.theme}}">
         <select style='width:100%;box-sizing:border-box;' name='LEADCF11'>
-          <option disabled selected value='-None-'>-None-</option>
-          <option value='Reseller'>Reseller</option>
+          <option disabled selected value='-None-'>{{tf.select-option}}</option>
+          <option value='Reseller'>{{tf.reseller}}</option>
           <option value='ISV&#x2f;OEM'>ISV&#x2f;OEM</option>
         </select>
       </div>
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="message">Message</label>
+      <label class="label--small theme_type--grey" for="message">{{tf.message}}</label>
       <textarea required rows="7" class="input input--{{include.theme}} question" name="Description" id="message"
-        placeholder="Type your Question"></textarea>
+        placeholder="{{tf.type-message}}"></textarea>
     </fieldset>
 
     <div class="space--2">
@@ -132,7 +136,7 @@
 
     <div class="flex-grid grid--justify-end">
       <div class="col--free no-gutter">
-        <button class="button button--nobreak" id='formsubmit' type="submit">Become a Partner</button>
+        <button class="button button--nobreak" id='formsubmit' type="submit">{{tg.become-partner}}</button>
       </div>
     </div>
 

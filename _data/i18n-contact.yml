@@ -1,0 +1,80 @@
+en:
+  contact_title: Contact Rocket.Chat
+  contact_description: Request a feature, report bugs or share your Rocket.Chat story with us
+
+  contact_support-desc: Get support from a passionate, global and active open source community
+  contact_support-title: Free Resources to help you
+  contact_support-label: Support resources
+
+  contact_research: Research & Development
+  contact_headquarters: Headquarters
+
+  contact_popover-message-sent: Message sent successfully!
+  contact_popover-thanks: Thanks for contacting us! We will be in touch with you shortly.
+
+  # Cards
+  contact_support-features-title: Features or Bugs
+  contact_support-features-desc: If you think you've found a bug or would like to request a feature for Rocket.Chat, join GitHub and search through the existing issues or create a new one if one doesn't exist.
+  contact_support-features-link: View Issues
+
+  contact_support-documentation-title: Documentation & Tutorials
+  contact_support-documentation-desc: The Rocket.Chat documentation has guides to help users, administrators and developers use, manage, customize and develop for Rocket.Chat.
+  contact_support-documentation-link: View Documentation
+
+  contact_support-forums-title: Forums
+  contact_support-forums-desc: To discuss Rocket.Chat development with the Rocket.Chat team and community join our Discourse forum.
+  contact_support-forums-link: Visit Forum
+
+  contact_support-videos-title: Tutorial Videos
+  contact_support-videos-desc: Rocket.Chat has a passionate community of content creators on YouTube sharing tutorials on configuring, installing, customizing and developing for Rocket.Chat.
+  contact_support-videos-link: View Videos
+
+  contact_support-chat-title: Chat with Us
+  contact_support-chat-desc: Chat with us and thousands of developers who are creating the best chat platform on the Rocket.Chat open server.
+  contact_support-chat-link: Join Open Server
+
+  contact_support-meet-title: Come Meet Us
+  contact_support-meet-desc: Come say hi at a local meetup or conference, tell us how you customized it to suit your needs and improved your team’s communication.
+  contact_support-meet-link: View Events
+
+pt:
+  contact_title: Contate Rocket.Chat
+  contact_description: Solicite uma feature, relate bugs ou compartilhe sua história do Rocket.
+
+  contact_support-title: Obtenha suporte de uma comunidade de código-fonte aberto, global e ativa
+  contact_support-desc: Recursos gratuitos para ajudá-lo
+  contact_support-label: Recursos de suporte
+
+  contact_research: Pesquisa & Desenvolvemento
+  contact_headquarters: Sede
+
+  contact_popover-message-sent: Mensagem enviada com sucesso!
+  contact_popover-thanks: Obrigado por entrar em contato! Entraremos em contato em breve.
+
+  # Cards
+  contact_support-features-title: Features ou Bugs
+  contact_support-features-desc: Se você acha que encontrou um bug ou gostaria de solicitar um recurso para o Rocket.Chat, entre no GitHub e pesquise as Issues existentes ou crie um novo, caso não exista.
+  contact_support-features-link: Explorar Issues
+
+  contact_support-documentation-title: Documentação & Tutoriais
+  contact_support-documentation-desc: A documentação do Rocket.Chat possui guias para ajudar usuários, administradores e desenvolvedores a usar, gerenciar, personalizar e desenvolver o Rocket.Chat.
+  contact_support-documentation-link: Explorar Documentação
+
+  contact_support-forums-title: Forums
+  contact_support-forums-desc: Para discutir o desenvolvimento do Rocket.Chat com o time e a comunidade do Rocket.Chat, entre no fórum Discourse.
+  contact_support-forums-link: Visitar Forum
+
+  contact_support-videos-title: Videos de Tutorial
+  contact_support-videos-desc: O Rocket.Chat possui uma comunidade apaixonada de criadores de conteúdo no YouTube, compartilhando tutoriais sobre configuração, instalação, personalização e desenvolvimento do Rocket.Chat.
+  contact_support-videos-link: Explorar Videos
+
+  contact_support-chat-title: Converse conosco
+  contact_support-chat-desc: Converse conosco e com milhares de desenvolvedores que estão criando a melhor plataforma de bate-papo no servidor aberto Rocket.Chat.
+  contact_support-chat-link: Ingressar no Open Server
+
+  contact_support-meet-title: Venha nos conhecer
+  contact_support-meet-desc: Venha dizer oi em uma meetup ou conferência, conte-nos como você o personalizou para atender às suas necessidades e melhorou a comunicação da sua equipe.
+  contact_support-meet-link: Explorar Events
+
+
+

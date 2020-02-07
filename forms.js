@@ -57,6 +57,44 @@
 		afterRemoveError: function() {}
 	};
 
+	var defaultsPt = {
+		// Classes and Selectors
+		selector: '[data-validate]',
+		fieldClass: 'error',
+		errorClass: 'error-message',
+
+		// Messages
+		messageValueMissing: 'Preencha este campo',
+		messageValueMissingSelect: 'Selecione um valor',
+		messageValueMissingSelectMulti: 'Selecione pelo menos um valor',
+		messageTypeMismatchEmail: 'Email inválido',
+		messageTypeMismatchURL: 'Use uma URL válida',
+		messageTooShort: 'Use no mínimo {minLength} caracteres.',
+		messageTooLong: 'Use no máximo {maxLength} caracteres.',
+		messagePatternMismatch: 'Use o formato requisistado',
+		messageBadInput: 'Insira um nùmero',
+		messageStepMismatch: 'Insira um valor válido',
+		messageRangeOverflow: 'Selecione um valor no máximo {max}.',
+		messageRangeUnderflow: 'Selecione um valor no mínimo {min}.',
+		messageGeneric: 'Valor Inválido',
+
+		// Form Submission
+		disableSubmit: false,
+		onSubmit: function() {},
+
+		// Callbacks
+		beforeShowError: function() {},
+		afterShowError: function() {},
+		beforeRemoveError: function() {},
+		afterRemoveError: function() {}
+	};
+
+	var pageLang = document.documentElement.lang;
+
+	if (pageLang === 'pt') {
+		defaults = defaultsPt;
+	}
+
 	//
 	// Methods
 	//

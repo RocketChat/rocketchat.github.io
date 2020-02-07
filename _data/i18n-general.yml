@@ -35,6 +35,9 @@ en:
   language: Language
   moving_from_atlassian: Moving from Atlassian Hipchat?
   welcome-to-rc: Welcome to Rocket.Chat!
+  become-partner: Become a partner
+  contact-us: Contact Us
+
 
 pt:
   english: Inglês
@@ -73,3 +76,5 @@ pt:
   language: Idioma
   moving_from_atlassian: Migrando do Atlassian Hipchat?
   welcome_to_rc: Bem vindo ao Rocket.Chat!
+  become-partner: Se torne Um Parceiro
+  contact-us: Fale Conosco

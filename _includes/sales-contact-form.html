@@ -1,5 +1,6 @@
-<div id='crmWebToEntityForm'>
+{% assign tf = site.data.i18n-forms[include.lang] %}
 
+<div id='crmWebToEntityForm'>
   <script src='https://www.google.com/recaptcha/api.js' async defer></script>
   <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2982481000014889035 method='POST'
         onSubmit='javascript:document.charset="UTF-8"; return checkMandatory2982481000014889035()'
@@ -22,55 +23,55 @@
     <img style='display: none;' id='tr_img_8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9a' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServlet?rid=8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9agid96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03bgida378f81585080d3b6fb1acbec6638b71gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513' />
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="firstName">First Name</label>
-      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-user" type="text" id="firstName" name="First Name" placeholder="Type your first name" />
+      <label class="label--small theme_type--grey" for="firstName">{{tf.first-name}}</label>
+      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-user" type="text" id="firstName" name="First Name" placeholder="{{tf.type-first-name}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="lastName">Last Name</label>
-      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-user" type="text" id="lastName" name="Last Name" placeholder="Type your last name" />
+      <label class="label--small theme_type--grey" for="lastName">{{tf.last-name}}</label>
+      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-user" type="text" id="lastName" name="Last Name" placeholder="{{tf.type-last-name}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="email">Email Address</label>
-      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-email" type="email" id="email" name="Email" placeholder="Type your email address" />
+      <label class="label--small theme_type--grey" for="email">{{tf.email-address}}</label>
+      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-email" type="email" id="email" name="Email" placeholder="{{tf.type-email-address}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="country">Country</label>
+      <label class="label--small theme_type--grey" for="country">{{tf.country}}</label>
       <div class="select select--theme-{{include.theme}}">
         <select required id="country" name="Country">
-          <option selected disabled value="">Select Country</option>
+          <option selected disabled value="">{{tf.select-country}}</option>
           {% include select-countries.html %}
         </select>
       </div>
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="company">Organization</label>
-      <input required minlength="3" maxlength="100" class="input input--{{include.theme}}" type="text" id="company" name="Company" placeholder="Type your company, organization or community name" />
+      <label class="label--small theme_type--grey" for="company">{{tf.organization}}</label>
+      <input required minlength="3" maxlength="100" class="input input--{{include.theme}}" type="text" id="company" name="Company" placeholder="{{tf.type-organization}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="LEADCF4">Company Size</label>
+      <label class="label--small theme_type--grey" for="LEADCF4">{{tf.company-size}}</label>
       <div class="select select--theme-{{include.theme}}">
           <select style='width:100%;box-sizing:border-box;' name='LEADCF4'>
-            <option value='-None-'>-None-</option>
-            <option value='0 - 10 people'>0 - 10 people</option>
-            <option value='11 - 50 People'>11 - 50 People</option>
-            <option value='51 - 100 People'>51 - 100 People</option>
-            <option value='101 - 250 People'>101 - 250 People</option>
-            <option value='251 - 500 People'>251 - 500 People</option>
-            <option value='501 - 1000 People'>501 - 1000 People</option>
-            <option value='1001 - 4000 People'>1001 - 4000 People</option>
-            <option value='4001 or more'>4001 or more</option>
+            <option selected disabled value='-None-'>{{tf.select-size}}</option>
+            <option value='0 - 10 people'>0 - 10 {{tf.people}}</option>
+            <option value='11 - 50 People'>11 - 50 {{tf.people}}</option>
+            <option value='51 - 100 People'>51 - 100 {{tf.people}}</option>
+            <option value='101 - 250 People'>101 - 250 {{tf.people}}</option>
+            <option value='251 - 500 People'>251 - 500 {{tf.people}}</option>
+            <option value='501 - 1000 People'>501 - 1000 {{tf.people}}</option>
+            <option value='1001 - 4000 People'>1001 - 4000 {{tf.people}}</option>
+            <option value='4001 or more'>4001 {{tf.or-more}}</option>
           </select>
         </div>
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="message">Question</label>
-      <textarea required rows="7" class="input input--{{include.theme}} question" name="Description" id="message" placeholder="Type your Question"></textarea>
+      <label class="label--small theme_type--grey" for="message">{{tf.question}}</label>
+      <textarea required rows="7" class="input input--{{include.theme}} question" name="Description" id="message" placeholder="{{tf.type-question}}"></textarea>
     </fieldset>
 
     <div class="space--2">
@@ -82,7 +83,7 @@
     <iframe name='captchaFrame' style='display:none;'></iframe>
 
     <div class="space--2"></div>
-    <button type="submit" id='formsubmit' class="button">Send message</button>
+    <button type="submit" id='formsubmit' class="button">{{tf.send-message}}</button>
     <div class="space--4"></div>
 
     <script>

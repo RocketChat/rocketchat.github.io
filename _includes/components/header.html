@@ -32,7 +32,9 @@
             <li><a {% if page.class == 'community' %}class="current-page"{%endif%} href="/community">{{tg.community}}</a></li>
             <li><a {% if page.class == 'docs' %}class="current-page"{%endif%} href="/docs/">{{tg.docs}}</a></li>
             <li><a {% if page.class == 'blog' %}class="current-page"{%endif%} href="/blog/">Blog</a></li>
-            <li><a {% if page.class == 'contact' %}class="current-page"{%endif%} href="/contact">{{tg.contact}}</a></li>
+            <li>
+              {% include translate-link.html link="/contact" lang=include.lang text=tg.contact %}
+            </li>
           </ul>
           <a id="try-now" class="app-header_install" href="//cloud.rocket.chat/trial/bronze"><span><img src="{{site.url}}/images/default/cloud.svg" alt="Install"></span> {{tg.try-now}}</a>
         </nav>

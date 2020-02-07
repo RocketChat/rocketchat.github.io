@@ -1,0 +1,86 @@
+en:
+# Form Fields and Labels
+  select-department: Select a Department
+  sales: Sales
+  support: Support
+  partners: Partners
+  first-name: First Name
+  type-first-name: Type your first name
+  last-name: Last Name
+  type-last-name: Type your last name
+  email-address: Email address
+  type-email-address: Type your email address
+  company: Company
+  type-company: Type your company name
+  country: Country
+  select-country: Select Country
+  organization: Organization
+  type-organization: Type your company, organization or community name
+  people: people
+  or-more: or more
+  question: question
+  type-question: Type your Question
+  send-message: Send Message
+  subject: Subject
+  type-subject: Type the subject of your message
+  message: Message
+  type-message: Type your message
+  repeat-captcha: Repeat Captcha
+  job-title: Job Title
+  type-job-title: Type your job title
+  website: Website
+  type-website: Type your website
+  company-size: Company Size
+  select-size: Select a Size
+  select-option: Select an Option
+  sales-team-size: Sales Team Size
+  expertise: expertise
+  collaboration-products: Collaboration Products
+  infrastructure: Infrastructure
+  software-factory: Software Factory
+  partnership-interest: Partnership Interest
+  reseller: Reseller
+  parner_text: Contact us to find out  how you could become an approved Rocket.Chat partner
+
+pt:
+  select-department: Selecione um Departamento
+  sales: Vendas
+  support: Suporte
+  partners: Parceiros
+  first-name: Primeiro Nome
+  type-first-name: Digite seu primeiro nome
+  last-name: Sobrenome
+  type-last-name: Digite seu sobrenome
+  email-address: Endereço de Email
+  type-email-address: Digite seu endereço de email
+  company: Companhia
+  type-company: Digite o nome de sua companhia
+  country: País
+  select-country: Selecione seu país
+  organization: Organização
+  type-organization: Digite o nome de sua companhia, organizaçaão ou comunidade
+  people: pessoas
+  or-more: ou mais
+  question: Pergunta
+  type-question: Digite sua pergunta
+  send-message: Enviar mensagem
+  subject: Assunto
+  type-subject: Digite o assunto da mensagem
+  message: Mensagem
+  type-message: Digite sua mensagem
+  repeat-captcha: Repita o Captcha
+  job-title: Cargo
+  type-job-title: Digite seu cargo
+  website: Website
+  type-website: Digite seu website
+  company-size: Tamanho da companhia
+  sales-team-size: Tamanho do seu time de vendas
+  select-size: Selecione um Tamanho
+  select-option: Selecione uma opção
+  expertise: Especialidade
+  collaboration-products: Produtos de colaboração
+  infrastructure: Infraestrutura
+  software-factory: Fábrica de Software
+  partnership-interest: Interesse de Parceria
+  reseller: Revendedor
+  parner_text: Entre em contato para saber como você pode virar um parceiro oficial da Rocket.Chat

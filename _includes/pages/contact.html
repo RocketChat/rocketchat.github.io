@@ -1,0 +1,162 @@
+{% assign tc = site.data.i18n-contact[include.lang] %}
+{% assign tg = site.data.i18n-general[include.lang] %}
+
+<div class="container">
+  <div class="flex-grid">
+    <div class="col--third contant-form">
+      <div class="space--2"></div>
+
+      <h1 class="display theme_type--dark">{{tc.contact_title}}</h1>
+
+      <p class="theme_type--grey display--small">{{tc.contact_desc}}</p>
+
+      <div class="space--1"></div>
+
+    {% include contact-form-switch.html lang=include.lang %}
+
+    </div>
+
+    <div class="contact-map__container">
+      <div class="contact-map">
+
+        <div class="contact-map_list">
+          <div class="contact-map__tooltip--brazil">
+            <div class="contact-map__tooltip-wrap">
+              <p class="label--small theme_type--grey">{{tc.contact_research}}</p>
+              <p class="theme_type--dark type--nomargin">Rua Dr. Jorge Fayet, 757<br>Porto Alegre, RS 91330-330<br>Brazil</p>
+            </div>
+          </div>
+
+          <div class="contact-map__tooltip--eua">
+            <div class="contact-map__tooltip-wrap">
+              <p class="label--small theme_type--grey">{{tc.contact_headquarters}}</p>
+              <p class="theme_type--dark type--nomargin">251 Little Falls Drive<br>Wilmington, DE 19808<br>United States</p>
+            </div>
+          </div>
+        </div>
+
+        <img class="contact-map__map" src="/images/team/world-map.svg" alt="World map" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="container" id="free-resources">
+  <div class="flex-grid grid--justify-around align--center">
+    <div class="col--haft">
+      <p class="label">{{tc.contact_support-label}}</p>
+      <h2 class="display theme_type--dark">{{tc.contact_support-title}}</h2>
+      <p class="display--small theme_type--grey">{{tc.contact_support-desc}}</p>
+    </div>
+  </div>
+
+  <div class="space--4"></div>
+
+  <div class="flex-grid">
+
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/community/squash_bugs.png" alt="Github Issues" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>{{tc.contact_support-features-title}}</strong></h3>
+            <p class="theme_type--grey">{{tc.contact_support-features-desc}}</p>
+            <a href="//github.com/RocketChat/Rocket.Chat/issues" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">{{tc.contact_support-features-link}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/community/writte_documentation.png" alt="Documentation & Tutorials" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>{{tc.contact_support-documentation-title}}</strong></h3>
+            <p class="theme_type--grey">{{tc.contact_support-documentation-desc}}</p>
+            <a href="/docs/" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">{{tc.contact_support-documentation-link}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="flex-grid">
+
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/community/forum.png" alt="Rocket.Chat Forums" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>{{tc.contact_support-forums-title}}</strong></h3>
+            <p class="theme_type--grey">{{tc.contact_support-forums-desc}}</p>
+            <a href="//forums.rocket.chat/" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">{{tc.contact_support-forums-link}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/support/video.png" alt="Tutorial Videos" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>{{tc.contact_support-videos-title}}</strong></h3>
+            <p class="theme_type--grey">{{tc.contact_support-videos-desc}}</p>
+            <a href="//www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">{{tc.contact_support-videos-link}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="flex-grid">
+
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/community/chat_with_us.png" alt="Rocket.Chat Forums" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>{{tc.contact_support-chat-title}}</strong></h3>
+            <p class="theme_type--grey">{{tc.contact_support-chat-desc}}</p>
+            <a href="//open.rocket.chat/" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">{{tc.contact_support-chat-link}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/community/come_meet_us.png" alt="Tutorial Videos" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>{{tc.contact_support-meet-title}}</strong></h3>
+            <p class="theme_type--grey">{{tc.contact_support-meet-desc}}</p>
+            <a href="/category/events/" class="button--link button--with-arrow">{{tc.contact_support-meet-link}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="modal">
+  <div class="modal__wrap">
+    <div class="flex-grid card theme_box--dark">
+      <div class="col--haft">
+        <div class="space--2"></div>
+        <p class="label theme_type--grey">{{tg.contact-us}}</p>
+        <h2 class="display--small theme_type--dark"><strong>{{tc.contact_popover-message-sent}}</strong></h2>
+        <p class="theme_type--dark">{{tc.contact_popover-thanks}}</p>
+        <button class="button js-become-partner-close">Ok</button>
+        <div class="space--1"></div>
+      </div>
+      <div class="col">
+        <img class="modal__success" src="/images/default/success@2x.png" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="space--4"></div>

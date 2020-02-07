@@ -1,13 +1,14 @@
 {% assign tb = site.data.i18n-box[include.lang] %}
+{% assign tg = site.data.i18n-general[include.lang] %}
 
 <section class="container">
     <div class="card theme_box--dark-strong {{include.box-type}}">
         <div class="wrap">
             {% if include.box-type == "partner-box"%}
-                <p class="label theme_type--grey">{{tb.partner_become}}</p>
+                <p class="label theme_type--grey">{{tg.become-partner}}</p>
                 <h2 class="display theme_type--dark">{{tb.parner_title}}</h2>
                 <p class="theme_type--grey">{{tb.parner_text}}</p>
-                <a href="#" id="partners-popup" class="button" data-featherlight="#partner-contact-form-wrap" data-featherlight-variant="featherlight-form" rel="noopener noreferrer">{{tb.partner_become}}</a>
+                <a href="#" id="partners-popup" class="button" data-featherlight="#partner-contact-form-wrap" data-featherlight-variant="featherlight-form" rel="noopener noreferrer">{{tg.become-partner}}</a>
             {% elsif include.box-type == "migrate-box" or include.box-type == "migrate-box--small"%}
                 <h2 class="display--big theme_type--dark">Ready to Migrate to Rocket.Chat?</h2>
                 <div class="content-page__box-buttons">

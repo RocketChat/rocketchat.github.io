@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{% if page.lang == blank %}en{% else %}{{page.lang}}{%endif%}">
     <head>
         <title>
             Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
