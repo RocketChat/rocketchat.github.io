@@ -1,5 +1,5 @@
 desktop:
-  version: 2.17.5
-  windowsSize: 94 MB
+  version: 2.17.6
+  windowsSize: 89 MB
   macosSize: 67 MB
-  linuxSize: 68 MB
+  linuxSize: 69 MB
