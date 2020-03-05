@@ -129,3 +129,47 @@ es:
   subscribe-newsletter: Suscríbete a nuestro newsletter
   subscribe: Suscribir
   subscribe: Suscrito
+
+
+de:
+  english: Englisch
+  portuguese: Portugiesisch
+  spanish: Spanisch
+  or: oder
+  open_on_github: Auf GitHub öffnen
+  learn_more: Erfahren Sie mehr
+  and: und
+  feature: feature
+  install: Installieren
+  solutions: Lösungen
+  team-collaboration: Gruppenarbeit
+  security: Sicherheit
+  pricing: Preisgestaltung
+  community: Gemeinschaft
+  docs: Docs
+  documentation: Dokumentation
+  contact: Kontakt
+  try-now: Versuch's jetzt
+  product: Produkt
+  company: Unternehmen
+  team: Mannschaft
+  jobs: Arbeitsplätze
+  partners: Partner
+  press: Drücken Sie
+  legal: Legal
+  terms-of-service: Nutzungsbedingungen
+  privacy: Privatsphäre
+  dmca-policy: DMCA-Richtlinie
+  get-started: Loslegen
+  cloud-trial: Cloud-Test
+  install-server: Server installieren
+  connect-with-us: Verbinde dich mit uns
+  star-or-fork-on-github: Stern oder Gabel auf GitHub
+  language: Sprache
+  moving_from_atlassian: Umzug von Atlassian Hipchat?
+  welcome-to-rc: Willkommen bei Rocket.Chat!
+  become-partner: Ein Partner werden
+  contact-us: Kontaktiere uns
+  subscribe-newsletter: Abonniere unseren Newsletter
+  subscribe: Abonnieren
+  subscribed: Gezeichnet

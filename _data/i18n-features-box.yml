@@ -32,3 +32,15 @@ es:
   messages: Mensajes
   guests: Invitados
   file-uploads: Carga de archivos
+
+de:
+  enterprise_label: UNBEGRENZT & OPEN SOURCE
+  enterprise_title: Eigenschaften
+  enterprise_description: Audio- und Videokonferenzen, Gastbenutzerzugriff, Bildschirmfreigabe, Dateifreigabe, LiveChat, LDAP-Gruppensynchronisierung, 2FA (Zweifaktorauthentisierung), Ende-zu-Ende-Verschlüsselung, Single-Sign-On und Dutzende von OAuth-Anbietern.
+  enterprise_description2: "Es enthält auch unbegrenzt:"
+  users: Benutzer
+  channels: Kanäle
+  searches: Suchen
+  messages: Nachrichten
+  guests: Gäste
+  file-uploads: Datei-Uploads

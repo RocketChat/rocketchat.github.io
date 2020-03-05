@@ -128,3 +128,47 @@ es:
   partnership-interest: Partnership Interest
   reseller: Revendedores
   parner_text: Contáctanos para saber cómo puedes convertirte en un socio Rocket.Chat aprobado.
+
+de:
+# Form Fields and Labels
+  select-department: Wählen Sie eine Abteilung aus
+  sales: Der Umsatz
+  support: Unterstützung
+  partners: Partner
+  first-name: Vorname
+  type-first-name: Geben Sie Ihren Vornamen ein
+  last-name: Nachname
+  type-last-name: Geben Sie Ihren Nachnamen ein
+  email-address: E-Mail-Addresse
+  type-email-address: Geben Sie Ihre E-Mail-Adresse ein
+  company: Unternehmen
+  type-company: Geben Sie Ihren Firmennamen ein
+  country: Land
+  select-country: Land auswählen
+  organization: Organisation
+  type-organization: Geben Sie Ihren Firmen-, Organisations- oder Community-Namen ein
+  people: Menschen
+  or-more: oder mehr
+  question: Frage
+  type-question: Geben Sie Ihre Frage ein
+  send-message: Nachricht senden
+  subject: Gegenstand
+  type-subject: Geben Sie den Betreff Ihrer Nachricht ein
+  message: Botschaft
+  type-message: Geben Sie Ihre Nachricht ein
+  repeat-captcha: Wiederholen Sie Captcha
+  job-title: Berufsbezeichnung
+  type-job-title: Geben Sie Ihre Berufsbezeichnung ein
+  website: Webseite
+  type-website: Geben Sie Ihre Website ein
+  company-size: Firmengröße
+  select-size: Wähle eine größe
+  select-option: Wähle eine Option
+  sales-team-size: Größe des Verkaufsteams
+  expertise: Sachverstand
+  collaboration-products: Produkte für die Zusammenarbeit
+  infrastructure: Infrastruktur
+  software-factory: Software Factory
+  partnership-interest: Partnerschaftsinteresse
+  reseller: Wiederverkäufer
+  parner_text: Kontaktieren Sie uns, um herauszufinden, wie Sie ein anerkannter Rocket.Chat-Partner werden können

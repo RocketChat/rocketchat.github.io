@@ -28,10 +28,8 @@
 .app-header_logo {
   @include flexbox();
   padding: 1.5em 0;
-
-  @media screen and (min-width: 60em) {
-    @include flex(1);
-  }
+  width: 124px;
+  margin-right: 10%;
 
   img {
     width: 7.5em;
