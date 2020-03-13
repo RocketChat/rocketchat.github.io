@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="{% if page.lang == blank %}en{% else %}{{page.lang}}{%endif%}">
     <head>
-        <title>
-            Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
-        </title>
+        <title>Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
         <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" name="description"/>
         <meta content="width=device-width, user-scalable=no" name="viewport"/>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
         <link href="https://www.googletagmanager.com" rel="preconnect"/>
         <link href="{{ page.url | absolute_url }}" rel="canonical"/>
-        <link href="/feed.xml" rel="alternate" title="{{ site.title }}" type="application/rss+xml"/>
-        <link href="/favicon.ico?v=1" rel="shortcut icon"/>
-        <link href="/styles.css?v={{ site.version }}" rel="stylesheet"/>
+        <link href="{{ "/feed.xml" | relative_url }}?v={{ site.version }}/" rel="alternate" title="{{ site.title }}" type="application/rss+xml"/>
+        <link href="{{ "/favicon.ico" | relative_url }}?v={{ site.version }}" rel="shortcut icon"/>
+        <link href="{{ "/styles.css" | relative_url }}?v={{ site.version }}" rel="stylesheet"/>
         <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" rel="stylesheet" type="text/css"/>
         <meta content="summary_large_image" name="twitter:card"/>
         <meta content="@RocketChat" name="twitter:site"/>
         <meta content="Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" name="twitter:title"/>
         <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" name="twitter:description"/>
-        <meta content="{% if page.cover %}https://rocket.chat{{page.cover}}{% else %}{{ site.url }}/images/blog/post.jpg{% endif %}" name="twitter:image"/>
+        <meta content="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ "/images/blog/post.jpg" | relative_url }}{% endif %}" name="twitter:image"/>
         <meta content="Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" name="twitter:image:alt"/>
         <meta content="app-id=1148741252" name="apple-itunes-app"/>
         {% if post.cover %}
@@ -32,23 +30,17 @@
         {% include webrules.html %}
         {% include livechat.html %}
         {% include gtm/body.html %}
-        <script src="/jquery.js">
-        </script>
+        <script src="/jquery.js"></script>
         {{ content }}
-        <script src="/main.js">
-        </script>
-        <script src="/forms.js">
-        </script>
-        <script src="/redirect.js">
-        </script>
-        <script charset="utf-8" src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript">
-        </script>
-        <script defer="" src="//www.google.com/recaptcha/api.js">
-        </script>
+        <script src="{{ "/main.js" | relative_url }}"></script>
+        <script src="{{ "/forms.js" | relative_url }}"></script>
+        <script src="{{ "/redirect.js" | relative_url }}"></script>
+        <script charset="utf-8" src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript"></script>
+        <script defer="" src="//www.google.com/recaptcha/api.js"></script>
         <!--[if IE]>
-          <script src="/polyfill/modernizr.js" />
-          <script src="/polyfill/respond.min.js" />
-          <script src="/polyfill/calc.min.js" />
+          <script src="{{ "/polyfill/modernizr.js" | relative_url }}" />
+          <script src="{{ "/polyfill/respond.min.js" | relative_url }}" />
+          <script src="{{ "/polyfill/calc.min.js" | relative_url }}" />
         <![endif]-->
     </body>
 </html>
