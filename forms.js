@@ -565,3 +565,38 @@ validate.init({
 		}
 	}
 });
+
+$( ".contact-form" ).submit(function( event ) {
+	var id = $(this).attr('id');
+	submit(id)
+	event.preventDefault();
+});
+
+
+function submit(id) {
+	var form = document.querySelector(`#${id}`)
+	var allField=  form.querySelectorAll('input, select, textarea');
+	var http = new XMLHttpRequest();
+	var jsonData = {};
+	var finalEndpoint = 'test';
+
+
+	for (var i = 0; i < allField.length; i++) {
+		var input = allField[i];
+		jsonData[input.name] = input.value;
+	}
+
+	http.open('POST', finalEndpoint, true);
+	http.setRequestHeader('Content-type', 'application/json');
+	http.onload = function() {
+		var response = JSON.parse(this.response);
+		if (response.message === 'success') {
+			// window.location.href = `${window.location.href}#thank-you`;
+		} else {
+			console.error(response.message);
+		}
+	};
+	console.log(JSON.stringify(jsonData));
+
+	// http.send(JSON.stringify(jsonData));
+}
