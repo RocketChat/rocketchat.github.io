@@ -4,25 +4,18 @@
 
 <div id='crmWebToEntityForm'>
   <form id="partners-contact-form" data-validate="true" class="contact-form">
-    <input type='hidden' name='xnQsjsdp' value='96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03b'></input>
-    <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
-    <input type='hidden' name='xmIwtLD' value='8ea917c61ae7f2f107ac548ac534375c1eae62e726a56c5b4d80a724a4d74443'></input>
-    <input type='hidden' name='actionType' value='TGVhZHM='></input>
-    <input type='hidden' name='returnURL' value='{{site.url}}/{{page.url}}#thank-you' />
-    <input type='hidden' name='Lead Source' id="lead-source" value='Website Form' />
-    <input type='hidden' name='LEADCF3' id="website-form" value='{{include.form-category}} at {{page.url}}' />
-    <input type='hidden' name='Lead Status' value='Not Qualified' />
-    <input type='hidden' name='eo' value='14f4ec16431e0686150daa43f3210513' />
-    <input type='hidden' name='te' value='true' />
+    <input type='hidden' name='Lead_Source' id="lead-source" value='Website Form' />
+    <input type='hidden' name='Website_Form' id="website-form" value='{{include.form-category}} at {{page.url}}' />
+    <input type='hidden' name='Lead_Status' value='Not Qualified' />
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="First Name">{{tf.first-name}}</label>
-      <input required class="input input--{{include.theme}}" type="text" id="firstName" name="First Name" placeholder="{{tf.type-first-name}}" />
+      <label class="label--small theme_type--grey" for="First_Name">{{tf.first-name}}</label>
+      <input required class="input input--{{include.theme}}" type="text" id="firstName" name="First_Name" placeholder="{{tf.type-first-name}}" />
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="Last Name">{{tf.last-name}}</label>
-      <input required minlength="3" class="input input--{{include.theme}}" type="text" id="lastname" name="Last Name"
+      <label class="label--small theme_type--grey" for="Last_Name">{{tf.last-name}}</label>
+      <input required minlength="3" class="input input--{{include.theme}}" type="text" id="lastname" name="Last_Name"
         placeholder="{{tf.type-last-name}}" />
     </fieldset>
 
@@ -64,9 +57,9 @@
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="LEADCF4">{{tf.company-size}}</label>
+      <label class="label--small theme_type--grey" for="Size">{{tf.company-size}}</label>
       <div class="select select--theme-{{include.theme}}">
-          <select style='width:100%;box-sizing:border-box;' name='LEADCF4'>
+          <select style='width:100%;box-sizing:border-box;' name='Size'>
             <option value='-None-'>{{tf.select-option}}</option>
             <option value='0 - 10 people'>0 - 10 {{tf.people}}</option>
             <option value='11 - 50 People'>11 - 50 {{tf.people}}</option>
@@ -81,9 +74,9 @@
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="LEADCF2">{{tf.sales-team-size}}</label>
+      <label class="label--small theme_type--grey" for="Sales_Team_Size">{{tf.sales-team-size}}</label>
       <div class="select select--theme-{{include.theme}}">
-          <select style='width:100%;box-sizing:border-box;' name='LEADCF2'>
+          <select style='width:100%;box-sizing:border-box;' name='Sales_Team_Size'>
               <option disabled selected value='-None-'>{{tf.select-size}}</option>
               <option value='0 - 10 People'>0 - 10 {{tf.people}}</option>
               <option value='11 - 50 People'>11 - 50 {{tf.people}}</option>
@@ -95,9 +88,9 @@
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="LEADCF10">{{tf.expertise}}</label>
+      <label class="label--small theme_type--grey" for="Expertise">{{tf.expertise}}</label>
       <div class="select select--theme-{{include.theme}}">
-        <select style='width:100%;box-sizing:border-box;' name='LEADCF10'>
+        <select style='width:100%;box-sizing:border-box;' name='Expertise'>
           <option disabled selected value='-None-'>{{tf.select-option}}</option>
           <option value='Collaboration&#x20;Products'>{{tf.collaboration-products}}</option>
           <option value='Devops'>Devops</option>
@@ -109,9 +102,9 @@
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="LEADCF11">{{tf.partnership-interest}}</label>
+      <label class="label--small theme_type--grey" for="Partnership_Interest">{{tf.partnership-interest}}</label>
       <div class="select select--theme-{{include.theme}}">
-        <select style='width:100%;box-sizing:border-box;' name='LEADCF11'>
+        <select style='width:100%;box-sizing:border-box;' name='Partnership_Interest'>
           <option disabled selected value='-None-'>{{tf.select-option}}</option>
           <option value='Reseller'>{{tf.reseller}}</option>
           <option value='ISV&#x2f;OEM'>ISV&#x2f;OEM</option>
@@ -124,6 +117,10 @@
       <textarea required rows="7" class="input input--{{include.theme}} question" name="Description" id="message"
         placeholder="{{tf.type-message}}"></textarea>
     </fieldset>
+
+    <div class="space--2">
+      <div class='g-recaptcha' data-sitekey='6LcYfsoUAAAAABkf5AFCBWwy0rUEFNFe0v56udfk' data-theme='light' data-callback='rccallback' captcha-verified='false' id='recap'></div>
+    </div>
 
     <div class="flex-grid grid--justify-end">
       <div class="col--free no-gutter">
