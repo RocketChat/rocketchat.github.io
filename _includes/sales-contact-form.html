@@ -1,30 +1,19 @@
 {% assign tf = site.data.i18n-forms[page.lang] %}
 
 <div id='crmWebToEntityForm'>
-  <script src='https://www.google.com/recaptcha/api.js' async defer></script>
-  <form id='sales-contact-form' action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2982481000014889035 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory2982481000014889035()' accept-charset='UTF-8' data-validate="true">
-    <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
-    <input type='hidden' name='xnQsjsdp' value='96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03b'></input>
-    <input type='hidden' name='xmIwtLD' value='8ea917c61ae7f2f107ac548ac534375c2fbfbf2e08cc8dacf15a9cca352b4b0e'></input>
-    <input type='hidden' name='actionType' value='TGVhZHM='></input>
-    <input type='hidden' name='returnURL' value='https://rocket.chat/contact#thank-you'></input>
-    <input type='hidden' name='Lead Source' id="lead-source" value='Website Form' />
-    <input type='hidden' name='LEADCF3' id="website-form" value='{{include.form-category}} at {{page.url}}' />
-    <input type='hidden' name='Lead Status' value='Not Qualified' />
-    <input type='hidden' name='eo' value='14f4ec16431e0686150daa43f3210513'/>
-    <input type='hidden' name='te' value='true'/>
-    <input type='hidden' name='eo' value='14f4ec16431e0686150daa43f3210513' />
-    <input type='hidden' name='te' value='true' />
-    <img style='display: none;' id='tr_img_8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9a' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServlet?rid=8ea917c61ae7f2f107ac548ac534375cea5e238aeef6fb472b09847f0ac73e9agid96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03bgida378f81585080d3b6fb1acbec6638b71gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513' />
+  <form id='sales-contact-form' accept-charset='UTF-8' class="contact-form" data-validate="true">
+    <input type='hidden' name='Lead_Source' id="lead-source" value='Website Form' />
+    <input type='hidden' name='Website_Form' id="website-form" value='{{include.form-category}} at {{page.url}}' />
+    <input type='hidden' name='Lead_Status' value='Not Qualified' />
 
     <fieldset>
       <label class="label--small theme_type--grey" for="firstName">{{tf.first-name}}</label>
-      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-user" type="text" id="firstName" name="First Name" placeholder="{{tf.type-first-name}}" />
+      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-user" type="text" id="firstName" name="First_Name" placeholder="{{tf.type-first-name}}" />
     </fieldset>
 
     <fieldset>
       <label class="label--small theme_type--grey" for="lastName">{{tf.last-name}}</label>
-      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-user" type="text" id="lastName" name="Last Name" placeholder="{{tf.type-last-name}}" />
+      <input required minlength="3" maxlength="100" class="input input--{{include.theme}} input--icon-user" type="text" id="lastName" name="Last_Name" placeholder="{{tf.type-last-name}}" />
     </fieldset>
 
     <fieldset>
@@ -48,9 +37,9 @@
     </fieldset>
 
     <fieldset>
-      <label class="label--small theme_type--grey" for="LEADCF4">{{tf.company-size}}</label>
+      <label class="label--small theme_type--grey" for="Size">{{tf.company-size}}</label>
       <div class="select select--theme-{{include.theme}}">
-          <select style='width:100%;box-sizing:border-box;' name='LEADCF4'>
+          <select style='width:100%;box-sizing:border-box;' name='Size'>
             <option selected disabled value='-None-'>{{tf.select-size}}</option>
             <option value='0 - 10 people'>0 - 10 {{tf.people}}</option>
             <option value='11 - 50 People'>11 - 50 {{tf.people}}</option>
@@ -79,82 +68,11 @@
     </fieldset>
 
     <div class="space--2">
-      <div captcha-verified="false" class="g-recaptcha" data-callback="rccallback"
-        data-sitekey="6LcYfsoUAAAAABkf5AFCBWwy0rUEFNFe0v56udfk" data-theme="dark" id="recap">
-      </div>
+      <div class='g-recaptcha' data-sitekey='6LcYfsoUAAAAABkf5AFCBWwy0rUEFNFe0v56udfk' data-theme='light' data-callback='rccallback' captcha-verified='false' id='recap'></div>
     </div>
 
-    <iframe name='captchaFrame' style='display:none;'></iframe>
-
     <div class="space--2"></div>
-    <button type="submit" id='formsubmit' class="button">{{tf.send-message}}</button>
+      <button type="submit" id='formsubmit' class="button">{{tf.send-message}}</button>
     <div class="space--4"></div>
-
-    <script>
-            var mndFileds = new Array('First Name', 'Last Name', 'Company', 'Designation', 'Email', 'Country', 'Description');
-            var fldLangVal = new Array('First Name', 'Last Name', 'Company', 'Title', 'Email', 'Country', 'Description');
-            var name = '';
-            var email = '';
-
-            /* Do not remove this code. */
-            function rccallback() {
-                document.getElementById('formsubmit').removeAttribute('disabled');
-                if (document.getElementById('privacyTool') != undefined) {
-                    var recap = document.getElementById('recap');
-                    recap.setAttribute('captcha-verified', true);
-                }
-            }
-            function checkReCapSubmit() {
-                if (document.getElementById('recap') != undefined) {
-                    var submitbutton = document.getElementById('formsubmit');
-                    var recap = document.getElementById('recap');
-                    if (recap.getAttribute('captcha-verified') == 'false') {
-                        submitbutton.setAttribute('disabled', true);
-                    }
-                }
-            }
-
-
-            function checkMandatory2982481000014889035() {
-                for (i = 0; i < mndFileds.length; i++) {
-                    var fieldObj = document.forms['WebToLeads2982481000014889035'][mndFileds[i]];
-                    if (fieldObj) {
-                        if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
-                            if (fieldObj.type == 'file') {
-                                alert('Please select a file to upload.');
-                                fieldObj.focus();
-                                return false;
-                            }
-                            alert(fldLangVal[i] + ' cannot be empty.');
-                            fieldObj.focus();
-                            return false;
-                        } else if (fieldObj.nodeName == 'SELECT') {
-                            if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
-                                alert(fldLangVal[i] + ' cannot be none.');
-                                fieldObj.focus();
-                                return false;
-                            }
-                        } else if (fieldObj.type == 'checkbox') {
-                            if (fieldObj.checked == false) {
-                                alert('Please accept  ' + fldLangVal[i]);
-                                fieldObj.focus();
-                                return false;
-                            }
-                        }
-                        try {
-                            if (fieldObj.name == 'Last Name') {
-                                name = fieldObj.value;
-                            }
-                        } catch (e) { }
-                    }
-                }
-                document.getElementById('formsubmit').disabled = true;
-            }
-        </script>
-        <input type='hidden' name='eo' value='14f4ec16431e0686150daa43f3210513' /> <input type='hidden' name='te'
-            value='true' /><img id='tr_img_8ea917c61ae7f2f107ac548ac534375c2fbfbf2e08cc8dacf15a9cca352b4b0e'
-            src='https://crm.zohopublic.com/crm/WebFormAnalyticsServlet?rid=8ea917c61ae7f2f107ac548ac534375c2fbfbf2e08cc8dacf15a9cca352b4b0egid96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03bgida378f81585080d3b6fb1acbec6638b71gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513'
-            style='display: none;' />
-        <script> if (typeof wfTRKey == 'undefined') { wfTRKey = {}; } wfTRKey['url_8ea917c61ae7f2f107ac548ac534375c2fbfbf2e08cc8dacf15a9cca352b4b0e'] = 'https://crm.zohopublic.com/crm/WebFormAnalyticsServlet?rid=8ea917c61ae7f2f107ac548ac534375c2fbfbf2e08cc8dacf15a9cca352b4b0egid96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03bgid364f49863aa1c6f080988c8e111a90b8gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513'; wfTRKey['rs_8ea917c61ae7f2f107ac548ac534375c2fbfbf2e08cc8dacf15a9cca352b4b0e'] = false; function sf(ev) { var te = ev.target ? ev.target : ev.srcElement; var nd = te.nodeName ? te.nodeName.toLowerCase() : ''; var fm; if (te.form) { fm = te.form.elements.xmIwtLD.value; } if (fm && !wfTRKey['rs_' + fm] && ((nd == 'input' && te.type != 'file') || (nd == 'input' && te.type == 'file' && ev.type == 'click') || nd == 'select' || nd == 'textarea' || nd == 'div')) { document.getElementById('tr_img_' + fm).setAttribute('src', wfTRKey['url_' + fm]); wfTRKey['rs_' + fm] = true } } if (document.addEventListener) { document.addEventListener('click', sf); document.addEventListener('change', sf); } else { document.attachEvent('onclick', sf); document.attachEvent('onchange', sf); }</script>
     </form>
 </div>
