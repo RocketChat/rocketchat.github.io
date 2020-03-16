@@ -567,22 +567,27 @@ validate.init({
 });
 
 $( ".contact-form" ).submit(function( event ) {
-	var id = $(this).attr('id');
-	form = event.currentTarget;
-	setTimeout(function() {
-		submit(id, form)
-	}, 200);
 	event.preventDefault();
-});
-
-
-function submit(id, form) {
+	var id = $(this).attr('id');
 	var form = document.querySelector(`#${id}`)
 	var errorFields = form.querySelectorAll('input.error, select.error, textarea.error');
-
 	if (errorFields.length) {
 		return
 	}
+
+	var submitButton = form.querySelector('button[type="submit"]');
+
+	submitButton.disabled = true;
+	submitButton.textContent = 'Sending';
+
+	setTimeout(function() {
+		submit(id)
+	}, 200);
+});
+
+
+function submit(id) {
+	var form = document.querySelector(`#${id}`)
 
 	var allField = form.querySelectorAll('input, select, textarea');
 	var http = new XMLHttpRequest();
@@ -598,12 +603,16 @@ function submit(id, form) {
 	http.setRequestHeader('Content-type', 'application/json');
 	http.onload = function() {
 		var response = JSON.parse(this.response);
+		var submitButton = form.querySelector('button[type="submit"]');
+		submitButton.disabled = false;
+		submitButton.textContent = 'Send Message';
+
 		if (response.message === 'success') {
-			form.reset();
+			event.currentTarget.reset();
 			console.log("success!");
 			window.location.href = `${window.location.href}#thank-you`;
 		} else {
-			console.error(response.message);
+			alert(response.message);
 		}
 	};
 
