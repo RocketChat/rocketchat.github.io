@@ -9,7 +9,7 @@ redirect_from:
   - /terms/
 ---
 
-_Effective date: August 2nd, 2019_
+_Effective date: March 16th, 2020_
 
 ## Terms
 
