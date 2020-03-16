@@ -610,7 +610,7 @@ function submit(id) {
 		if (response.message === 'success') {
 			event.currentTarget.reset();
 			console.log("success!");
-			window.location.href = `${window.location.href}#thank-you`;
+			window.location.href = 'https://rocket.chat/#thank-you';
 		} else {
 			alert(response.message);
 		}
