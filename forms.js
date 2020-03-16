@@ -608,7 +608,7 @@ function submit(id) {
 		submitButton.textContent = 'Send Message';
 
 		if (response.message === 'success') {
-			event.currentTarget.reset();
+			form.reset();
 			console.log("success!");
 			window.location.href = 'https://rocket.chat/#thank-you';
 		} else {
