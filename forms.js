@@ -568,14 +568,15 @@ validate.init({
 
 $( ".contact-form" ).submit(function( event ) {
 	var id = $(this).attr('id');
+	form = event.currentTarget;
 	setTimeout(function() {
-		submit(id)
+		submit(id, form)
 	}, 200);
 	event.preventDefault();
 });
 
 
-function submit(id) {
+function submit(id, form) {
 	var form = document.querySelector(`#${id}`)
 	var errorFields = form.querySelectorAll('input.error, select.error, textarea.error');
 
@@ -598,12 +599,13 @@ function submit(id) {
 	http.onload = function() {
 		var response = JSON.parse(this.response);
 		if (response.message === 'success') {
+			form.reset();
+			console.log("success!");
 			window.location.href = `${window.location.href}#thank-you`;
 		} else {
 			console.error(response.message);
 		}
 	};
-	console.log(JSON.stringify(jsonData));
 
 	http.send(JSON.stringify(jsonData));
 }
