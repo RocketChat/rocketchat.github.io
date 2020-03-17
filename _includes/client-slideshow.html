@@ -10,7 +10,8 @@
 <div class="slider fade">
   <div class="slider__logo-container">
     {% for client in clientsHome limit: 4 %}
-      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
+      {% capture client-logo-url%}/images/client-logos/{{client.logo}}{% endcapture %}
+      <img src="{{client-logo-url | relative_url}}" alt="{{client.name}}" />
     {% endfor %}
   </div>
 </div>
@@ -18,32 +19,32 @@
 <div class="slider fade">
   <div class="slider__logo-container">
     {% for client in clientsHome limit: 4 offset: 4 %}
-      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
-    {% endfor %}
+{% capture client-logo-url%}/images/client-logos/{{client.logo}}{% endcapture %}
+      <img src="{{client-logo-url | relative_url}}" alt="{{client.name}}" />    {% endfor %}
     </div>
 </div>
 
 <div class="slider fade">
   <div class="slider__logo-container">
     {% for client in clientsHome limit: 4 offset: 8 %}
-      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
-    {% endfor %}
+{% capture client-logo-url%}/images/client-logos/{{client.logo}}{% endcapture %}
+      <img src="{{client-logo-url | relative_url}}" alt="{{client.name}}" />    {% endfor %}
   </div>
 </div>
 
 <div class="slider fade">
   <div class="slider__logo-container">
     {% for client in clientsHome limit: 4 offset: 12 %}
-      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
-    {% endfor %}
+{% capture client-logo-url%}/images/client-logos/{{client.logo}}{% endcapture %}
+      <img src="{{client-logo-url | relative_url}}" alt="{{client.name}}" />    {% endfor %}
   </div>
 </div>
 
 <div class="slider fade">
   <div class="slider__logo-container">
     {% for client in clientsHome limit: 4 offset: 16 %}
-      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
-    {% endfor %}
+{% capture client-logo-url%}/images/client-logos/{{client.logo}}{% endcapture %}
+      <img src="{{client-logo-url | relative_url}}" alt="{{client.name}}" />    {% endfor %}
   </div>
 </div>
 
@@ -51,8 +52,8 @@
 <div class="slider fade">
     <div class="slider__logo-container">
     {% for client in clientsHome limit: 4 offset: 20 %}
-      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
-    {% endfor %}
+{% capture client-logo-url%}/images/client-logos/{{client.logo}}{% endcapture %}
+      <img src="{{client-logo-url | relative_url}}" alt="{{client.name}}" />    {% endfor %}
   </div>
 </div>
 
@@ -63,8 +64,8 @@
   <div class="slider__logo-container">
   {% for client in site.data.client-info%}
     {% if client.solution == include.client-type %}
-      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
-    {% endif %}
+{% capture client-logo-url%}/images/client-logos/{{client.logo}}{% endcapture %}
+      <img src="{{client-logo-url | relative_url}}" alt="{{client.name}}" />    {% endif %}
   {% endfor %}
   </div>
 </div>

@@ -10,12 +10,13 @@
             {% if page.webinarURL %}
               {% include components/youtube-box.html cover=page.cover url=page.webinarURL %}
             {% else %}
-              <a disabled class="youtube-image-link webinar" style="background-image: url({{ page.cover }})"></a>
+              <a disabled class="youtube-image-link webinar" style="background-image: url({{ page.cover | relative_url }})"></a>
             {% endif %}
         </div>
 
         <div class="webinar-description">
-          <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ page.dateEvent | date: "%A" }} (GMT {{page.gmt}}) <img class="post-flag" src="/images/flags/{{page.language}}.png" alt="language"></p>
+          {% capture flag-url %}/images/flags/{{page.language}}.png{% endcapture %}
+          <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ page.dateEvent | date: "%A" }} (GMT {{page.gmt}}) <img class="post-flag" src="{{flag-url | relative_url}}" alt="language"></p>
           <h4 class="display theme_type--dark">
             {{ page.dateEvent | date: "%d %b - %I:%M %P" }}
           </h4>
@@ -25,7 +26,8 @@
                 {% for member in site.data.team %}
                   {% if member.name == host %}
                     <div class="blog__webinar-host">
-                    <img class="host__image" src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg">
+                      {% capture host-image-url %}/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg{% endcapture %}
+                    <img class="host__image" src="{{host-image-url | relative_url}}">
                       <div class="host__text">
                         <h4 class="host__name theme_type--light">{{member.name}}</h4>
                         <p class="host__role">{{member.role}}</p>
@@ -36,7 +38,7 @@
                 {% endfor %}
             {% elsif page.off-team-host %}
               <div class="blog__webinar-host">
-                <img class="host__image" src="{{page.off-team-host-image}}">
+                <img class="host__image" src="{{page.off-team-host-image | relative_url}}">
                 <div class="host__text">
                   <h4 class="host__name theme_type--dark">{{page.off-team-host}}</h4>
                   <p class="host__role">{{page.off-team-host-role}}</p>

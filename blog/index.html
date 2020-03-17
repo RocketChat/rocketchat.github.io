@@ -93,7 +93,7 @@ category: home
               <div
                 class="card--blog__cover"
                 {% if post.cover %}
-                  style="background-image: url('{{ post.cover }}')"
+                  style="background-image: url('{{ post.cover | relative_url }}')"
                 {% else %}
                   style="background-image: url('/images/blog/post.jpg')"
                 {% endif %}
@@ -187,9 +187,9 @@ category: home
 
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous"><img src="/images/default/arrow--left.svg" /></a>
+      <a href="{{ paginator.previous_page_path }}" class="previous"><img src="{{'/images/default/arrow--left.svg' | relative_url}}" /></a>
     {% else %}
-      <span class="previous inactive"><img src="/images/default/arrow--left.svg" /></span>
+      <span class="previous inactive"><img src="{{'/images/default/arrow--left.svg' | relative_url}}" /></span>
     {% endif %}
 
     {% for page in (1..paginator.total_pages) %}
@@ -209,9 +209,9 @@ category: home
     {% endfor %}
 
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next"><img src="/images/default/arrow--right.svg" /></a>
+      <a href="{{ paginator.next_page_path }}" class="next"><img src="{{'/images/default/arrow--right.svg' | relative_url}}" /></a>
     {% else %}
-      <span class="next inactive"><img src="/images/default/arrow--right.svg" /></span>
+      <span class="next inactive"><img src="{{'/images/default/arrow--right.svg' | relative_url}}" /></span>
     {% endif %}
   </div>
 </div>

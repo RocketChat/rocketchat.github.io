@@ -4,7 +4,8 @@
         <p class="display--small theme_type--grey">{{include.solution.hero-desc}}</p>
         <a class="button" data-featherlight="#solution-form" data-featherlight-persist="true" href="#">Contact Us</a>
     </div>
-    <img class="hero__image" alt="hero-image" src="/images/solutions/{{include.solution.hero-image}}">
+    {% capture hero-image-url%}/images/solutions/{{include.solution.hero-image}}{% endcapture %}
+    <img class="hero__image" alt="hero-image" src="{{hero-image-url | relative_url}}">
 </section>
 
 <section class="features">
@@ -17,7 +18,8 @@
         <div class="features__icons">
             {% for feature in include.solution.tools %}
             <div class="feature">
-                <img class="feature__image" alt="{{feature.title}}" src="/images/solutions/{{feature.image}}">
+                {% capture feature-image-url%}/images/solutions/{{feature.image}}{% endcapture %}
+                <img class="feature__image" alt="{{feature.title}}" src="{{hero-image-url | relative_url}}">
                 <div class="feature__container">
                     <h3 class="feature__title">{{feature.title}}</h3>
                     <p class="feature__text">{{feature.text}}</p>
@@ -75,8 +77,8 @@
           <p class="theme_type--dark">Besides chat and many integrations, you can still count with: <b>audit trail, unlimited history, scalability and more special features.<b></p>
           <a href="#" class="button--ghost" data-featherlight="#solution-form">Contact Us</a>
         </div>
-        <img class="solutions-box__image" src="/images/solutions/devices.png" alt="screens" />
-        <img class="solutions-box__image mobile" src="/images/solutions/devices-mobile.png" alt="screens" />
+        <img class="solutions-box__image" src="{{'/images/solutions/devices.png' | relative_url}}" alt="screens" />
+        <img class="solutions-box__image mobile" src="{{'/images/solutions/devices-mobile.png' | relative_url}}" alt="screens" />
       </div>
 
     </div>

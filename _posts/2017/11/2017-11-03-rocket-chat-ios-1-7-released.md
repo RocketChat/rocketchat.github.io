@@ -37,7 +37,7 @@ providers that have already been added.
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2017/11/rocket-chat-ios-1-7-released/rocket-chat-ios-1-7-custom-oauth-providers.png"/>
+    <img src="{{'/images/posts/2017/11/rocket-chat-ios-1-7-released/rocket-chat-ios-1-7-custom-oauth-providers.png' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -53,7 +53,7 @@ are supported on iOS.
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2017/11/rocket-chat-ios-1-7-released/rocket-chat-ios-1-7-custom-registration-fields.png"/>
+    <img src="{{'/images/posts/2017/11/rocket-chat-ios-1-7-released/rocket-chat-ios-1-7-custom-registration-fields.png' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -68,7 +68,7 @@ read-only channels from iOS.
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2017/11/rocket-chat-ios-1-7-released/rocket-chat-ios-1-7-create-channels.png"/>
+    <img src="{{'/images/posts/2017/11/rocket-chat-ios-1-7-released/rocket-chat-ios-1-7-create-channels.png' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>
