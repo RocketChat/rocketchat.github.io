@@ -1,0 +1,15 @@
+---
+title: "How German Universities are improving their communication through Rocket.Chat"
+categories:
+- Product
+date: 2020-03-17 12:00:00
+author:  Marcus Schopen
+cover: /images/posts/2020/03/uni.jpg
+featured: true
+---
+
+Bielefeld University and the Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG) have been offering Rocket.Chat as a service for three years now.Nowadays, scientists work and research in constantly changing constellations beyond the boundaries of their own university or institution. After the extremely positive feedback from the testphase and the experiences gained, Rocket.Chat was included in the regular service portfolio of both institutions and since then has been available as an additional tool for easy collaboration.
+
+"In times of networked and mobile working, a tool like Rocket.Chat has become indispensable. It now serves as one of the central communication platforms on the Göttingen Campus and far beyond. Its main users are students and staff of the University of Göttingen and the Max Planck Society. However, external partners, e.g. from research projects, can also register for the service. Within the GWDG, lively discussions take place in various channels and in case of disturbances, thecross-location real-time communication has already proven itself several times. Rocket.Chat is operated in compliance with our IT security guidelines and the GDPR in the VMware Gold Cluster of the GWDG to ensure a very high availability. The current usage statistics reflect the great importance of Rocket.Chat as a collaboration tool: At peak times, around 600 users are logged in at the same time and together all Rocket.Chat users have written 2,000,000 messages so far," reports Björn Braunschweig, the responsible system administrator at the GWDG. The GWDG[https://www.gwdg.de] is a joint institution of the Georg-August-University Göttingen[http://www.uni-goettingen.de] and the Max-Planck-Society [https://www.mpg.de] and fulfils the function of a computing and IT competence center.
+
+At the University of Bielefeld [https://www.uni-bielefeld.de], Rocket.Chat has also become an integral part of university communication for many of the approximately 2,700 employees in administration and science. As in Göttingen, the Bielefeld Rocket.Chat installation is operated in thedata center of the Bielefeld IT Service Center (BITS) [https://www.uni-bielefeld.de/bits/]. "As open source software, Rocket.Chat lets us operate an instant messaging service with flexibility and in compliance with our IT security and European data protection regulations. The authentication of users via SAML integrates Rocket.Chat seamlessly into our central Single-Sign-On (SSO) concept. The fully open source implementation of Rocket.Chat, a very active community and the availability of professional support from the vendor has proven to be the perfect mix for a stable and secure service", says Marcus Schopen, initiator of the service at the University of Bielefeld
