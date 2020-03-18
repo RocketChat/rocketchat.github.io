@@ -55,17 +55,15 @@ theme: dark
           {% if testimonial.page == 'partners' %}
             {% if testimonial.order == 1 or testimonial.order == 2 %}
               <div class="card theme_box--dark">
-                  <p class="theme-type--dark testimonial"><i>{{testimonial.text}}</i></p>
-                  <div class="writer">
-                    {% capture writer-image %}
-                      /images/partners/{{testimonial.image}}
-                    {% endcapture %}
-                      <img class="writer__image" src="{{ writer-image | relative_url }}">
-                      <div class="writer__info">
-                          <p class="name theme_type--dark">{{testimonial.name}}</p>
-                          <p class="role">{{testimonial.role}}</p>
-                      </div>
+                <p class="theme-type--dark testimonial"><i>{{testimonial.text}}</i></p>
+                <div class="writer">
+                  {% capture writer-image %}/images/partners/{{testimonial.image}}{% endcapture %}
+                  <img class="writer__image" src="{{ writer-image | relative_url }}">
+                  <div class="writer__info">
+                    <p class="name theme_type--dark">{{testimonial.name}}</p>
+                    <p class="role">{{testimonial.role}}</p>
                   </div>
+                </div>
               </div>
             {% endif %}
           {% endif %}
