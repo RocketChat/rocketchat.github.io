@@ -22,15 +22,15 @@ Rocket.Chat is proud to announce its Rocket.Chat Android 2.4 release with the fo
 
 You can now see who read the message and when. The feature needs to be enabled on the server that you're logged into in order to appear on the app.
 
-<img src="/images/posts/2018/06/2018-06-7-android-2-4-release/read-receipts-in-message.png">
+<img src="{{'/images/posts/2018/06/2018-06-7-android-2-4-release/read-receipts-in-message.png' | relative_url}}">
 
-<img src="/images/posts/2018/06/2018-06-7-android-2-4-release/Read-receipts-message-info.png">
+<img src="{{'/images/posts/2018/06/2018-06-7-android-2-4-release/Read-receipts-message-info.png' | relative_url}}">
 
 ## Files list now available
 
 The files list enables you to see all the files that have been sent on any given channel. It can be accessed on the context menu (top right) of the screen.
 
-<img src="/images/posts/2018/06/2018-06-7-android-2-4-release/files-list.png">
+<img src="{{'/images/posts/2018/06/2018-06-7-android-2-4-release/files-list.png' | relative_url}}">
 
 ## Push notification migration
 
@@ -50,7 +50,7 @@ Users can now hop to a chat room by tapping a notification.
 
 Google Smart Lock has been refactored for 2.4: to use it, one must now tap the key icon on the righthand side of the username/email field.
 
-<img src="/images/posts/2018/06/2018-06-7-android-2-4-release/smart-lock.png">
+<img src="{{'/images/posts/2018/06/2018-06-7-android-2-4-release/smart-lock.png' | relative_url}}">
 
 ## Bugs fixed
 

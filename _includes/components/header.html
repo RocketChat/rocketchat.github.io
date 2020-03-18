@@ -6,8 +6,8 @@
       <div class="container">
         <h1 class="app-header_logo">
           <a href="/">
-            <img class="dark" src="{{site.url}}/images/default/logo--dark.svg" alt="Rocket.Chat">
-            <img class="normal" src="{{site.url}}/images/default/logo.svg" alt="Rocket.Chat">
+            <img class="dark" src="{{'/images/default/logo--dark.svg' | relative_url}}" alt="Rocket.Chat">
+            <img class="normal" src="{{'/images/default/logo.svg' | relative_url}}" alt="Rocket.Chat">
           </a>
         </h1>
 
@@ -36,7 +36,7 @@
               {% include translate-link.html link="/contact" lang=include.lang text=tg.contact %}
             </li>
           </ul>
-          <a id="try-now" class="app-header_install" href="//cloud.rocket.chat/trial/bronze"><span><img src="{{site.url}}/images/default/cloud.svg" alt="Install"></span> {{tg.try-now}}</a>
+          <a id="try-now" class="app-header_install" href="//cloud.rocket.chat/trial/bronze?utm_source=header&utm_medium=website&utm_campaign=trials"><span><img src="{{site.url}}/images/default/cloud.svg" alt="Install"></span> {{tg.try-now}}</a>
         </nav>
 
       </div>

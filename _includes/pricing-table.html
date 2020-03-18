@@ -28,14 +28,14 @@
                     <tr>
                       {% if include.name == "pricing" and item.bronze %}
                         <th scope="row" class="pricing-table_label {% if item.link %}link {% endif %}">{% if item.link %} <a href="{{item.link}}">{{item.title}}</a> {% else %} {{item.title}} {% endif %}</th>
-                        <td class="table-cell bronze">{% if item.bronze == true %}<img src="/images/default/check.svg" alt="check"/> {% else %}{{item.bronze}}{% endif %}</td>
-                        <td class="table-cell silver">{% if item.silver == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{item.silver}}{% endif %}</td>
-                        <td class="table-cell gold">{% if item.gold == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{item.gold}}{% endif %}</td>
+                        <td class="table-cell bronze">{% if item.bronze == true %}<img src="{{'/images/default/check.svg' | relative_url }}" alt="check"/> {% else %}{{item.bronze}}{% endif %}</td>
+                        <td class="table-cell silver">{% if item.silver == true %}<img src="{{'/images/default/check.svg' | relative_url }}" alt="check" /> {% else %}{{item.silver}}{% endif %}</td>
+                        <td class="table-cell gold">{% if item.gold == true %}<img src="{{'/images/default/check.svg' | relative_url }}" alt="check" /> {% else %}{{item.gold}}{% endif %}</td>
                       {% elsif include.name == "selfHosted" and item.community %}
                         <th scope="row" class="pricing-table_label {% if item.link %}link {% endif %}">{% if item.link %} <a href="{{item.link}}">{{item.title}}</a> {% else %} {{item.title}} {% endif %}</th>
-                        <td class="table-cell community">{% if item.community == true %}<img src="/images/default/check.svg" alt="check"/> {% else %}{{item.community}}{% endif %}</td>
-                        <td class="table-cell pro">{% if item.pro == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{item.pro}}{% endif %}</td>
-                        <td class="table-cell enterprise">{% if item.enterprise == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{item.enterprise}}{% endif %}</td>
+                        <td class="table-cell community">{% if item.community == true %}<img src="{{'/images/default/check.svg' | relative_url }}" alt="check"/> {% else %}{{item.community}}{% endif %}</td>
+                        <td class="table-cell pro">{% if item.pro == true %}<img src="{{'/images/default/check.svg' | relative_url }}" alt="check" /> {% else %}{{item.pro}}{% endif %}</td>
+                        <td class="table-cell enterprise">{% if item.enterprise == true %}<img src="{{'/images/default/check.svg' | relative_url }}" alt="check" /> {% else %}{{item.enterprise}}{% endif %}</td>
                       {% endif %}
                     </tr>
                 {% endif %}
@@ -44,8 +44,8 @@
         <tfoot>
           {% if include.name == "pricing" %}
             <th scope="row" class="pricing-table_label"></th>
-            <td class="table-cell bronze table-button"><a class="button trial" data-label="Cloud Bronze" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/bronze">Start trial</a></td>
-            <td class="table-cell silvert able-button"><a class="button trial" data-label="Cloud Silver" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/silver">Start trial</a></td>
+            <td class="table-cell bronze table-button"><a class="button trial" data-label="Cloud Bronze" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/bronze?utm_source=pricing&utm_medium=website&utm_campaign=trials">Start trial</a></td>
+            <td class="table-cell silvert able-button"><a class="button trial" data-label="Cloud Silver" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/silver?utm_source=pricing&utm_medium=website&utm_campaign=trials">Start trial</a></td>
             <td class="table-cell gold table-button"><a href="#" class="button trial contact" data-featherlight="#pricing-form" data-label="Cloud Gold" rel="noopener noreferrer">Contact Us</a></td>
           {% elsif include.name == "selfHosted" %}
             <th scope="row" class="pricing-table_label"></th>

@@ -38,9 +38,9 @@ Rocket.Chat will gradually adopt a hands-off approach, although some apps will b
 
 Here's a preview of how a couple of apps will look in the admin panel:
 
-<img alt="example app Jitsi Slash Command" src="/images/posts/2018/08/marketplace-post/app-example-jitsi.png" />
+<img alt="example app Jitsi Slash Command" src="{{'/images/posts/2018/08/marketplace-post/app-example-jitsi.png' | relative_url}}" />
 
-<img alt="example app Dropbox Paper" src="/images/posts/2018/08/marketplace-post/app-example-dropbox.png" />
+<img alt="example app Dropbox Paper" src="{{'/images/posts/2018/08/marketplace-post/app-example-dropbox.png' | relative_url}}" />
 
 **What were the key goals you wanted to achieve with the UX and UI of Marketplace? What makes it stand out?**
 
@@ -60,7 +60,7 @@ Access to apps will be enabled by becoming an admin on a Rocket.Chat server or b
 Upload of apps to the store will be done by distribution from a central Marketplace server.
 Marketplace will be available at [rocket.chat/marketplace](//rocket.chat/marketplace) and we plan to eventually have a dedicated apps.rocket.chat URL.
 
-<img alt="Rocket.Chat Marketplace Admin Panel" src="/images/posts/2018/08/marketplace-post/Marketplace-Admin.png" />
+<img alt="Rocket.Chat Marketplace Admin Panel" src="{{'/images/posts/2018/08/marketplace-post/Marketplace-Admin.png' | relative_url}}" />
 
 **How will the RC marketplace compare to competitors’ similar iterations?**
 

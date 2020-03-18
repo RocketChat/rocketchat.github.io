@@ -15,14 +15,14 @@
           <h1 class="display theme_type--dark">{{th.home-hero_title}}</h1>
           <p class="display--small theme_type--grey">{{th.home-hero_description}}</p>
           <div class="install-buttons">
-            <a href="//cloud.rocket.chat/trial/bronze" rel="noopener noreferrer" class="button">{{th.home-hero_trial_button}}</a>
+            <a href="//cloud.rocket.chat/trial/bronze?utm_source=home-hero&utm_medium=website&utm_campaign=trials" rel="noopener noreferrer" class="button">{{th.home-hero_trial_button}}</a>
             <a href="/install" class="button button--ghost">{{th.home-hero_install_button}}</a>
           </div>
         </div>
 
         <img
           class="home-hero_image"
-          src="{{site.url}}/images/index/devices.png" alt="Rocket Chat apps"
+          src="{{'/images/index/devices.png' | relative_url}}" alt="Rocket Chat apps"
         />
       </section>
     </div>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="col--third">
-          <img class="home-landingpage__mail" src="{{site.url}}/images/index/landingpage-mail.svg" alt="Our mission Replace Email" />
+          <img class="home-landingpage__mail" src="{{'/images/index/landingpage-mail.svg' | relative_url}}" alt="Our mission Replace Email" />
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@
         </div>
 
         <div class="col--third">
-          <img class="home-landingpage__chat" src="{{site.url}}/images/index/landingpage-teamchat.svg" alt="Our mission Team Chat" />
+          <img class="home-landingpage__chat" src="{{'/images/index/landingpage-teamchat.svg' | relative_url}}" alt="Our mission Team Chat" />
         </div>
       </div>
     </div>
@@ -81,7 +81,7 @@
           </div>
 
           <div class="col">
-            <a class="youtube-image-link" data-featherlight="#youtube-link"><img class="youtube-play" src="{{site.url}}/images/default/play-circle.svg" alt="play"></a>
+            <a class="youtube-image-link" data-featherlight="#youtube-link"><img class="youtube-play" src="{{'/images/default/play-circle.svg' | relative_url}}" alt="play"></a>
             <div id="youtube-link"><iframe class="youtube-video"src="https://www.youtube.com/embed/IzJ11kvM-P8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </div>
         </div>
@@ -97,15 +97,15 @@
           <p class="theme_type--grey">{{th.home-community_description}}</p>
           <p class="theme_type--grey">{{th.home-community_description2}}<a class="button--link" href="//open.rocket.chat/" target="_blank" rel="noopener noreferrer"> open.rocket.chat</a></p>
           <a class="home-community_github" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat/stargazers">
-            <span><img style="top: 0.1em;"src="{{site.url}}/images/default/star.svg" alt="GitHub Stars">Star</span>
+            <span><img style="top: 0.1em;"src="{{'/images/default/star.svg' | relative_url}}" alt="GitHub Stars">Star</span>
             <span class="star-count">{{site.stars}}K</span>
           </a>
           <a class="home-community_github" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat/fork">
-            <span><img src="{{site.url}}/images/default/fork.svg" alt="GitHub forks">Fork</span>
+            <span><img src="{{'/images/default/fork.svg' | relative_url}}" alt="GitHub forks">Fork</span>
             <span class="fork-count">{{site.forks}}K</span>
           </a>
           <a class="home-community_github-link" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat">
-            <span><img src="{{site.url}}/images/default/github.svg" alt="GitHub"></span>
+            <span><img src="{{'/images/default/github.svg' | relative_url}}" alt="GitHub"></span>
             {{tg.open_on_github}}
           </a>
         </div>
@@ -145,7 +145,7 @@
         </div>
 
         <div class="col--third">
-          <img src="{{site.url}}/images/index/live-chat.svg" alt="Live Chat"/>
+          <img src="{{'/images/index/live-chat.svg' | relative_url}}" alt="Live Chat"/>
         </div>
       </div>
     </div>
@@ -163,7 +163,7 @@
         </div>
 
         <div class="col--third">
-          <img src="{{site.url}}/images/index/translate.svg" alt="translate translation"/>
+          <img src="{{'/images/index/translate.svg' | relative_url}}" alt="translate translation"/>
         </div>
       </div>
     </div>
@@ -178,18 +178,18 @@
           <p class="theme_type--kinda-white">{{th.home-install_description}}</p>
 
           <div class="home-install__icons">
-            <img src="{{site.url}}/images/install/windows.svg" alt="Rocket.Chat for Windows" />
-            <img src="{{site.url}}/images/install/macos.svg" alt="Rocket.Chat for MacOS" />
-            <img src="{{site.url}}/images/install/linux.png" alt="Rocket.Chat for Linux" />
-            <img src="{{site.url}}/images/install/ios.svg" alt="Rocket.Chat for iOS" />
-            <img src="{{site.url}}/images/install/android.svg" alt="Rocket.Chat for Android" />
+            <img src="{{'/images/install/windows.svg' | relative_url}}" alt="Rocket.Chat for Windows" />
+            <img src="{{'/images/install/macos.svg' | relative_url}}" alt="Rocket.Chat for MacOS" />
+            <img src="{{'/images/install/linux.png' | relative_url}}" alt="Rocket.Chat for Linux" />
+            <img src="{{'/images/install/ios.svg' | relative_url}}" alt="Rocket.Chat for iOS" />
+            <img src="{{'/images/install/android.svg' | relative_url}}" alt="Rocket.Chat for Android" />
           </div>
 
           <div class="space--2"></div>
 
           <div class="home-install__button">
             <a href="/install" class="button--blank theme_type--brand" title="install">
-              <span class="button--icon"><img src="{{site.url}}/images/default/install.svg" alt="Install"></span>
+              <span class="button--icon"><img src="{{'/images/default/install.svg' | relative_url}}" alt="Install"></span>
               <span>{{tg.install}}</span>
             </a>
           </div>
@@ -216,19 +216,19 @@
         <div class="col--three-quarter align--center">
           <div class="flex-grid">
             <div class="col">
-              <img width="70px" src="{{site.url}}/images/index/icon__integrations.png" alt="Integrations" />
+              <img width="70px" src="{{'/images/index/icon__integrations.png' | relative_url}}" alt="Integrations" />
               <div class="space--075"></div>
               <h2 class="theme_type--space"><strong>{{th.integrations_title}}</strong></h2>
               <p class="theme_type--light">{{th.integrations_description}}</p>
             </div>
             <div class="col">
-              <img width="70px" src="{{site.url}}/images/index/icon__plugins.png" alt="Plugins" />
+              <img width="70px" src="{{'/images/index/icon__plugins.png' | relative_url}}" alt="Plugins" />
               <div class="space--075"></div>
               <h2 class="theme_type--space"><strong>{{th.plugins_title}}</strong></h2>
               <p class="theme_type--light">{{th.plugins_description}}</p>
             </div>
             <div class="col">
-              <img width="70px" src="{{site.url}}/images/index/icon__themes.png" alt="Themes" />
+              <img width="70px" src="{{'/images/index/icon__themes.png' | relative_url}}" alt="Themes" />
               <div class="space--075"></div>
               <h2 class="theme_type--space"><strong>{{th.themes_title}}</strong></h2>
               <p class="theme_type--light">{{th.themes_description}}</p>
@@ -237,19 +237,19 @@
 
           <div class="flex-grid">
             <div class="col">
-              <img width="70px" src="{{site.url}}/images/index/icon__api.png" alt="Powerful APIs" />
+              <img width="70px" src="{{'/images/index/icon__api.png' | relative_url}}" alt="Powerful APIs" />
               <div class="space--075"></div>
               <h2 class="theme_type--space"><strong>{{th.api_title}}</strong></h2>
               <p class="theme_type--light">{{th.api_description}}</p>
             </div>
             <div class="col">
-              <img width="70px" src="{{site.url}}/images/index/icon__import.png" alt="Data Importers" />
+              <img width="70px" src="{{'/images/index/icon__import.png' | relative_url}}" alt="Data Importers" />
               <div class="space--075"></div>
               <h2 class="theme_type--space"><strong>{{th.importers_title}}</strong></h2>
               <p class="theme_type--light">{{th.importers_description}}</p>
             </div>
             <div class="col">
-              <img width="70px" src="{{site.url}}/images/index/icon__market.png" alt="Marketplace" />
+              <img width="70px" src="{{/images/index/icon__market.png | relative_url}}" alt="Marketplace" />
               <div class="space--075"></div>
               <h2 class="theme_type--space"><strong>{{th.marketplace_title}}</strong></h2>
               <p class="theme_type--light">{{th.marketplace_description}}</p>
@@ -264,7 +264,7 @@
       <div class="home-customization__scroll-view">
         <img
           srcset="/images/index/sidebars@1x.png, /images/index/sidebars@2x.png 2x, /images/index/sidebars@3x.png 3x"
-          src="{{site.url}}/images/index/sidebars@1x.png" alt="Endless Customization"
+          src="{{'/images/index/sidebars@1x.png' | relative_url}}" alt="Endless Customization"
         />
       </div>
     </div>

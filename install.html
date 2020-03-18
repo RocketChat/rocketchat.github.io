@@ -37,12 +37,12 @@ redirect_from:
       </div>
       <div class="install_download mac active">
         <a class="store-download" target="_blank" rel="noopener noreferrer" href="//itunes.apple.com/us/app/rocket-chat/id1086818840">
-          <img class="itunes" src="/images/install/mac-store.svg">
+          <img class="itunes" src="{{'/images/install/mac-store.svg' | relative_url }}">
         </a>
-        <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.dmg" download="" data-download="macos" data-label="MacOS" class="button manual-download"><img class="download-icon" src="/images/install/download.svg" alt="download"> Direct Download</a>
+        <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.dmg" download="" data-download="macos" data-label="MacOS" class="button manual-download"><img class="download-icon" src="{{'/images/install/download.svg' | relative_url }}" alt="download"> Direct Download</a>
       </div>
       <div class="install_download windows">
-        <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-setup-{{ site.data.install.desktop.version }}.exe" data-label="Windows" class="button manual-download"><img class="download-icon" src="/images/install/download.svg" alt="download"> Direct Download</a>
+        <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-setup-{{ site.data.install.desktop.version }}.exe" data-label="Windows" class="button manual-download"><img class="download-icon" src="{{'/images/install/download.svg' | relative_url }}" alt="download"> Direct Download</a>
       </div>
       <div class="install_download linux">
           <p class="label theme_type--grey">Select your Version</p>
@@ -52,11 +52,11 @@ redirect_from:
               <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.x86_64.rpm">rpm(x64)</option>
             </select>
           </div>
-          <a href="" download="" data-download="linux" data-label="Linux" class="button manual-download"><img class="download-icon" src="/images/install/download.svg" alt="download"> Direct Download</a>
+          <a href="" download="" data-download="linux" data-label="Linux" class="button manual-download"><img class="download-icon" src="{{'/images/install/download.svg' | relative_url }}" alt="download"> Direct Download</a>
       </div>
 
     </div>
-    <img class="install__desktop-image" src="/images/install/desktop.png" alt="desktop">
+    <img class="install__desktop-image" src="{{'/images/install/desktop.png' | relative_url '}}" alt="desktop">
   </div>
 </section>
 
@@ -68,15 +68,15 @@ redirect_from:
       <p class="theme_type--grey">Take your conversations with you and never miss the action with our mobile apps for iOS and Android.</p>
       <div class="mobile-download">
         <a target="_blank" rel="noopener noreferrer" href="//play.google.com/store/apps/details?id=chat.rocket.android">
-          <img src="/images/install/google-play.svg">
+          <img src="{{'/images/install/google-play.svg' | relative_url }}">
         </a>
         <a target="_blank" rel="noopener noreferrer" href="//itunes.apple.com/app/rocket-chat/id1148741252">
-          <img class="itunes" src="/images/install/itunes-store.svg">
+          <img class="itunes" src="{{'/images/install/itunes-store.svg' | relative_url }}">
         </a>
       </div>
     </div>
-    <img class="install__mobile-image" src="/images/install/iphoneFull.png" alt="mobile">
-    <img class="install__mobile-image" src="/images/install/androidFull.png" alt="mobile">
+    <img class="install__mobile-image" src="{{'/images/install/iphoneFull.png' | relative_url }}" alt="mobile">
+    <img class="install__mobile-image" src="{{'/images/install/androidFull.png' | relative_url }}" alt="mobile">
 
   </div>
 </section>
