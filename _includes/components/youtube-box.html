@@ -1,2 +1,2 @@
-<a class="youtube-image-link webinar" style="background-image: url({{ include.cover }})" data-featherlight="#youtube-link"><img class="youtube-play" src="/images/default/play-circle.svg" alt="play"></a>
+<a class="youtube-image-link webinar" style="background-image: url({{ include.cover | relative_url }})" data-featherlight="#youtube-link"><img class="youtube-play" src="{{'/images/default/play-circle.svg' | relative_url}}" alt="play"></a>
 <div id="youtube-link"><iframe class="youtube-video"src="{{ include.url }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>

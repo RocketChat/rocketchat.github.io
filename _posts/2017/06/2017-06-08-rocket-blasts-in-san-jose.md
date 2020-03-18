@@ -17,7 +17,7 @@ Approximately 30 people turned up and we can happily report that we made quite a
 
 <div class="centre image">
   <p>
-    <img src="/images/posts/2017/06/rocket-blasts-in-san-jose/meetupfront.jpg"/>
+    <img src="{{'/images/posts/2017/06/rocket-blasts-in-san-jose/meetupfront.jpg' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>

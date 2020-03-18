@@ -23,7 +23,7 @@ Rocket.Chat is proud to announce its Rocket.Chat Android 2.1.1 release with the 
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/04/2018-05-04-rocket-chat-android-2-1-released.md/oath-en.png"/>
+    <img src="{{'/images/posts/2018/04/2018-05-04-rocket-chat-android-2-1-released.md/oath-en.png' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -40,7 +40,7 @@ Rocket.Chat is proud to announce its Rocket.Chat Android 2.1.1 release with the 
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/04/2018-05-04-rocket-chat-android-2-1-released.md/pdf attachment supported.png"/>
+    <img src="{{'/images/posts/2018/04/2018-05-04-rocket-chat-android-2-1-released.md/pdf attachment supported.png' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>
