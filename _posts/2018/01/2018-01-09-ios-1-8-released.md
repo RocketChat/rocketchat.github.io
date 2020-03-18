@@ -34,7 +34,7 @@ Slash commands are shown in auto-complete view. This feature will only work on R
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/01/2018-01-09-ios-1-8-released/2018-01-09-ios-1-8-released-slash-commands.png"/>
+    <img src="{{'/images/posts/2018/01/2018-01-09-ios-1-8-released/2018-01-09-ios-1-8-released-slash-commands.png' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -48,7 +48,7 @@ Users with an admin account will be able to access the admin panel from Rocket.C
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/01/2018-01-09-ios-1-8-released/2018-01-09-ios-1-8-released-admin-panel"/>
+    <img src="{{'/images/posts/2018/01/2018-01-09-ios-1-8-released/2018-01-09-ios-1-8-released-admin-panel' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>

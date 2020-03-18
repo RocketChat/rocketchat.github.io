@@ -30,7 +30,7 @@
         {% include webrules.html %}
         {% include livechat.html %}
         {% include gtm/body.html %}
-        <script src="/jquery.js"></script>
+        <script src="{{'/jquery.js' | relative_url}}"></script>
         {{ content }}
         <script src="{{ "/main.js" | relative_url }}"></script>
         <script src="{{ "/forms.js" | relative_url }}"></script>

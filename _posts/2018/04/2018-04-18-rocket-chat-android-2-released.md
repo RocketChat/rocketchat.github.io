@@ -39,7 +39,7 @@ Rocket.Chat mobile experience yet.
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/04/2018-04-18-rocket-chat-android-2-released/authentication.png"/>
+    <img src="{{'/images/posts/2018/04/2018-04-18-rocket-chat-android-2-released/authentication.png' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -53,7 +53,7 @@ Rocket.Chat mobile experience yet.
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/04/2018-04-18-rocket-chat-android-2-released/chats.png"/>
+    <img src="{{'/images/posts/2018/04/2018-04-18-rocket-chat-android-2-released/chats.png' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -67,7 +67,7 @@ Rocket.Chat mobile experience yet.
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/04/2018-04-18-rocket-chat-android-2-released/emojis.png"/>
+    <img src="{{'/images/posts/2018/04/2018-04-18-rocket-chat-android-2-released/emojis.png' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>

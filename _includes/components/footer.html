@@ -46,19 +46,19 @@
         <input id="menu4" type="checkbox" />
         <label for="menu4" class="app-footer_pre-menu">{{tg.get-started}}</label>
         <ul class="app-footer_nav">
-          <li><a class="app-footer_install" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/bronze?utm_source=footer&utm_medium=website&utm_campaign=trials"><span><img src="{{site.url}}/images/default/cloud.svg" alt="Free trial"></span> {{tg.cloud-trial}}</a></li>
-          <li><a class="app-footer_install" href="/install" title="install"><span style="margin-top: -0.1em;"><img src="{{site.url}}/images/default/install.svg" alt="Install" style="margin-top: 0.35em"></span> {{tg.install-server}}</a></li>
+          <li><a class="app-footer_install" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/bronze?utm_source=footer&utm_medium=website&utm_campaign=trials"><span><img src="{{'/images/default/cloud.svg' | relative_url}}" alt="Free trial"></span> {{tg.cloud-trial}}</a></li>
+          <li><a class="app-footer_install" href="{{'/install' | relative_url}}" title="install"><span style="margin-top: -0.1em;"><img src="{{'/images/default/install.svg' | relative_url}}" alt="Install" style="margin-top: 0.35em"></span> {{tg.install-server}}</a></li>
         </ul>
         <div class="app-footer_social">
           <input id="menu5" type="checkbox" />
           <label for="menu5" class="app-footer_pre-menu">{{tg.connect-with-us}}</label>
             <!-- <h2 class="app-footer_title">{{tg.connect-with-us}}</h2> -->
             <div class="social_icons {{page.theme}} app-footer_nav">
-              <a href="https://twitter.com/rocketchat" target="_blank" rel="noopener noreferrer"><img src="{{site.url}}/images/social/twitter.svg" alt="twitter" /></a>
-              <a href="https://github.com/RocketChat/Rocket.Chat" target="_blank" rel="noopener noreferrer"><img src="{{site.url}}/images/social/github.svg" alt="github" /></a>
-              <a href="https://www.facebook.com/RocketChatApp/" target="_blank" rel="noopener noreferrer"><img src="{{site.url}}/images/social/facebook.svg" alt="facebook" /></a>
-              <a href="https://www.linkedin.com/company/rocket-chat" target="_blank" rel="noopener noreferrer"><img src="{{site.url}}/images/social/linkedin.svg" alt="linkedin" /></a>
-              <a href="https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ" target="_blank" rel="noopener noreferrer"><img src="{{site.url}}/images/social/youtube.svg" alt="youtube" /></a>
+              <a href="https://twitter.com/rocketchat" target="_blank" rel="noopener noreferrer"><img src="{{'/images/social/twitter.svg' | relative_url}}" alt="twitter" /></a>
+              <a href="https://github.com/RocketChat/Rocket.Chat" target="_blank" rel="noopener noreferrer"><img src="{{'/images/social/github.svg' | relative_url}}" alt="github" /></a>
+              <a href="https://www.facebook.com/RocketChatApp/" target="_blank" rel="noopener noreferrer"><img src="{{'/images/social/facebook.svg' | relative_url}}" alt="facebook" /></a>
+              <a href="https://www.linkedin.com/company/rocket-chat" target="_blank" rel="noopener noreferrer"><img src="{{'/images/social/linkedin.svg' | relative_url}}" alt="linkedin" /></a>
+              <a href="https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ" target="_blank" rel="noopener noreferrer"><img src="{{'/images/social/youtube.svg' | relative_url}}" alt="youtube" /></a>
           </div>
         </div>
 
@@ -70,9 +70,9 @@
         <h1 class="app-footer_logo">
           <a href="/">
             {% if page.theme == 'light' %}
-              <img src="{{site.url}}/images/default/logo--dark.svg" alt="Rocket.Chat">
+              <img src="{{'/images/default/logo--dark.svg' | relative_url}}" alt="Rocket.Chat">
             {% else %}
-              <img src="{{site.url}}/images/default/logo.svg" alt="Rocket.Chat">
+              <img src="{{'/images/default/logo.svg' | relative_url}}" alt="Rocket.Chat">
             {% endif %}
           </a>
         </h1>
@@ -113,17 +113,17 @@
           <h2 class="app-footer_title">{{tg.star-or-fork-on-github}}</h2>
           <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat/stargazers" rel="noopener noreferrer">
             {% if page.theme == 'light' %}
-              <span><img src="{{site.url}}/images/default/star--dark.svg" alt="GitHub Stars" /></span>
+              <span><img src="{{'/images/default/star--dark.svg' | relative_url}}" alt="GitHub Stars" /></span>
             {% else %}
-              <span><img src="{{site.url}}/images/default/star.svg" alt="GitHub Stars"></span>
+              <span><img src="{{'/images/default/star.svg' | relative_url}}" alt="GitHub Stars"></span>
             {% endif %}
             <span class="star-count">{{site.stars}}K</span>
           </a>
           <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat/fork" rel="noopener noreferrer">
             {% if page.theme == 'light' %}
-              <span><img src="{{site.url}}/images/default/fork--dark.svg" alt="GitHub forks" /></span>
+              <span><img src="{{'/images/default/fork--dark.svg' | relative_url}}" alt="GitHub forks" /></span>
             {% else %}
-              <span><img src="{{site.url}}/images/default/fork.svg" alt="GitHub forks"></span>
+              <span><img src="{{'/images/default/fork.svg' | relative_url}}" alt="GitHub forks"></span>
             {% endif %}
             <span class="fork-count">{{site.forks}}K</span>
           </a>
@@ -131,9 +131,9 @@
 
         <a href="//keycdn.com" target="_blank" rel="noopener noreferrer" class="app-footer_partner">
           {% if page.theme == 'light' %}
-            <img src="{{site.url}}/images/partners/keycdnlogo--dark.png" alt="KeyCDN">
+            <img src="{{'/images/partners/keycdnlogo--dark.png' | relative_url}}" alt="KeyCDN">
           {% else %}
-            <img src="{{site.url}}/images/partners/keycdnlogo.png" alt="KeyCDN">
+            <img src="{{'/images/partners/keycdnlogo.png' | relative_url}}" alt="KeyCDN">
           {% endif %}
         </a>
       </div>

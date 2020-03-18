@@ -15,7 +15,7 @@
         <input type='text' style='display:none;' name='returnURL' value='{{site.url}}/{{page.url}}#thank-you'>
         </input>
 
-        <input type='hidden' name='Lead Source' id="lead-source" value='Website Form' />
+        <input type='hidden' name='Lead Source' id="lead-source" value='{{page.lead-source | default: "Website Form"}}' />
         <input type='hidden' name='LEADCF3' id="website-form" value='Webinar {{page.title}} Form' />
         <input type='hidden' name='Lead Status' value='Not Qualified' />
 

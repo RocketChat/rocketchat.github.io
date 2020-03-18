@@ -31,7 +31,7 @@ improves the stability and usability of the new UI introduced in 0.59.0.
 <div class="right image">
   <p>
     <img
-    src="/images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/admin-email-alert.png" alt="Alert Admins"/>
+    src="{{'/images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/admin-email-alert.png' | relative_url}}" alt="Alert Admins"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -67,7 +67,7 @@ their server settings `Administration > General > GraphQL API`.
 </div>
 <div class="left image">
   <p>
-    <img src="/images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/livestream-panel.png" alt="Livestream Panel"/>
+    <img src="{{'/images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/livestream-panel.png' | relative_url}}" alt="Livestream Panel"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -87,7 +87,7 @@ their server settings `Administration > General > GraphQL API`.
 </div>
 <div class="right image">
   <p>
-    <img src="/images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/read-receipt-admin.png" alt="read receipt"/>
+    <img src="{{'/images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/read-receipt-admin.png" alt="read receipt' | relative_url}}"/>
   </p>
 </div>
 <div class="clear"></div>
@@ -110,7 +110,7 @@ We have improved the sidebar layout to add more configuration options:
 </div>
 <div class="left image">
   <p>
-    <img src="/images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/version-update.png" alt="Version update"/>
+    <img src="{{'/images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/version-update.png' | relative_url}}" alt="Version update"/>
   </p>
 </div>
 <div class="clear"></div>

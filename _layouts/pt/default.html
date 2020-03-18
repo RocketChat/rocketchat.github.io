@@ -6,7 +6,7 @@ class: index
 <header>
   <div class="wrapper">
     <a class="logo" href="/">
-      <img src="/images/default/logo.svg" alt="Rocket.Chat">
+      <img src="{{'/images/default/logo.svg' | relative_url}}" alt="Rocket.Chat">
     </a>
     <ul>
       <li><a {% if page.class == 'cloud' %}class="active"{%endif%} href="/pt/cloud">Cloud</a></li>
@@ -49,10 +49,10 @@ class: index
       <li><a href="/pt/press">Imprensa</a></li>
       <li>
         <div class="social">
-          <a target="_blank" href="https://github.com/RocketChat"><img src="/images/social/github_light.svg" alt="GitHub"></a>
-          <a target="_blank" href="https://www.facebook.com/RocketChat"><img src="/images/social/facebook.svg" alt="Facebook"></a>
-          <a target="_blank" href="https://twitter.com/RocketChat"><img src="/images/social/twitter.svg" alt="Twitter"></a>
-          <a target="_blank" href="/feed.xml"><img src="/images/social/rss.svg" alt="Blog Posts RSS"></a>
+          <a target="_blank" href="https://github.com/RocketChat"><img src="{{'/images/social/github_light.svg' | relative_url}}" alt="GitHub"></a>
+          <a target="_blank" href="https://www.facebook.com/RocketChat"><img src="{{'/images/social/facebook.svg' | relative_url}}" alt="Facebook"></a>
+          <a target="_blank" href="https://twitter.com/RocketChat"><img src="{{'/images/social/twitter.svg' | relative_url}}" alt="Twitter"></a>
+          <a target="_blank" href="/feed.xml"><img src="{{'/images/social/rss.svg' | relative_url}}" alt="Blog Posts RSS"></a>
         </div>
       </li>
     </ul>

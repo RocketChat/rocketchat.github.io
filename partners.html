@@ -57,7 +57,10 @@ theme: dark
               <div class="card theme_box--dark">
                   <p class="theme-type--dark testimonial"><i>{{testimonial.text}}</i></p>
                   <div class="writer">
-                      <img class="writer__image" src="/images/partners/{{testimonial.image}}">
+                    {% capture writer-image %}
+                      /images/partners/{{testimonial.image}}
+                    {% endcapture %}
+                      <img class="writer__image" src="{{ writer-image | relative_url }}">
                       <div class="writer__info">
                           <p class="name theme_type--dark">{{testimonial.name}}</p>
                           <p class="role">{{testimonial.role}}</p>
@@ -78,7 +81,10 @@ theme: dark
               <div class="card theme_box--dark">
                   <p class="theme-type--dark testimonial"><i>{{testimonial.text}}</i></p>
                   <div class="writer">
-                      <img class="writer__image" src="/images/partners/{{testimonial.image}}">
+                    {% capture writer-image %}
+                      /images/partners/{{testimonial.image}}
+                    {% endcapture %}
+                      <img class="writer__image" src="{{ writer-image | relative_url }}">
                       <div class="writer__info">
                           <p class="name theme_type--dark">{{testimonial.name}}</p>
                           <p class="role">{{testimonial.role}}</p>
@@ -116,7 +122,7 @@ theme: dark
       <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
         <div class="card institutional theme_box--dark-strong">
           <div class="card__media">
-            <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+            <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}" />
           </div>
         </div>
       </a>
@@ -142,7 +148,7 @@ theme: dark
       <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
         <div class="card institutional theme_box--dark-strong">
           <div class="card__media">
-            <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+            <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}" />
           </div>
         </div>
       </a>
@@ -166,7 +172,7 @@ theme: dark
       <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
         <div class="card institutional theme_box--dark-strong">
           <div class="card__media">
-            <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+            <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}" />
           </div>
         </div>
       </a>

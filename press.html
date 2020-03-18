@@ -11,7 +11,7 @@ theme: dark
   <h1 class="display--big theme_type--dark">Rocket.Chat Press</h1>
   <p class="display--small theme_type--grey">Rocket.Chat is the leading free and open source team communication platform. </p>
 
-  <img src="/images/press/hero@2x.jpg" />
+  <img src="{{'/images/press/hero@2x.jpg' | relative_url }}" />
 </section>
 
 <div class="space--4"></div>
@@ -69,9 +69,11 @@ theme: dark
     {% for logo in site.data.logos %}
       <div class="col">
         <div class="card theme_box--dark">
-
+          {% capture logo-main %}
+          /images/press/logos/{{ logo.file }}.{{ logo.main }}
+          {% endcapture %}
           <h2 class="label--small theme_type--grey">{{ logo.name }}</h2>
-          <img class="{{ logo.file }}"src="/images/press/logos/{{ logo.file }}.{{ logo.main }}" alt="{{ logo.name }}">
+          <img class="{{ logo.file }}"src="{{ logo-main | relative_url }}" alt="{{ logo.name }}">
 
           <div class="card_footer theme_box--dark-strong">
             <div class="flex-grid--nobreak">

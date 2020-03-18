@@ -28,7 +28,7 @@ Our developers community need to note that this version upgrades Meteor to versi
 
 <div class="right image">
 	<p>
-		<img src="/images/posts/2017/12/rocket-chat-0-60-released/tokenly-icon-horiz.png"/>
+		<img src="{{'/images/posts/2017/12/rocket-chat-0-60-released/tokenly-icon-horiz.png' | relative_url}}"/>
 	</p>
 </div>
 <div class="clear"></div>
@@ -41,7 +41,7 @@ Our developers community need to note that this version upgrades Meteor to versi
 
 <div class="right image">
 	<p>
-		<img src="/images/posts/2017/12/rocket-chat-0-60-released/facebook_messenger_integration.png"/>
+		<img src="{{'/images/posts/2017/12/rocket-chat-0-60-released/facebook_messenger_integration.png' | relative_url}}"/>
 	</p>
 </div>
 <div class="clear"></div>
@@ -63,7 +63,7 @@ Numerous notification improvements are available in this release, including the 
 </div>
 
 <div class="right image">
-	<img src="/images/posts/2017/12/rocket-chat-0-60-released/mobile_reply.png"/>
+	<img src="{{'/images/posts/2017/12/rocket-chat-0-60-released/mobile_reply.png' | relative_url}}"/>
 </div>
 <div class="clear"></div>
 
