@@ -26,7 +26,7 @@ As Björn Braunschweig reports, lively discussions take place in various channel
 
 **The current usage statistics reflect the great importance of it as a collaboration tool: at peak times, around 600 users are logged in at the same time and together all Rocket.Chat users have written 2,000,000 messages so far.”**
 
-<img alt="gwdg" src="{{'/images/posts/2020/03/uni2.jpg' | relative_url}}">
+<img alt="uni2" src="{{'/images/posts/2020/03/uni2.jpg' | relative_url}}">
 
 ## FLEXIBILITY AND COMPLIANCE: THE OPTIMAL COMBINATION
 

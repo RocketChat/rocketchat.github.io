@@ -4,11 +4,18 @@
 {% if include.box-type == "post-cta-box"%}
 <div class="card theme_box--dark-strong {{include.box-type}}">
     <div class="wrap">
-        <h2 class="display--big theme_type--dark">Try Rocket.Chat For Free </h2>
-        <p class="theme_type--dark">Besides chat and many integrations, you can still count with: <b>audit trail, unlimited history, scalability and more special features</b></p>
+        <h2 class="display--big theme_type--dark">{{include.title | default: 'Try Rocket.Chat For Free'}}</h2>
+        <p class="theme_type--dark">{{include.content | default: 'Besides chat and many integrations, you can still count with: audit trail, unlimited history, scalability and more special features'}}</p>
 
         <div class="content-page__box-buttons">
-            <a href="//cloud.rocket.chat/trial/bronze" rel="noopener noreferrer" class="button">Start Cloud Trial</a>
+            {% if include.button-1 %}
+                <a href="{{include.button-1-link}}" rel="noopener noreferrer" class="button">{{include.button-1}}</a>
+                {% if include.button-2 %}
+                <a href="{{include.button-2-link}}" rel="noopener noreferrer" class="button">{{include.button-2}}</a>
+                {% endif %}
+            {% else %}
+                <a href="//cloud.rocket.chat/trial/bronze" rel="noopener noreferrer" class="button">Start Cloud Trial</a>
+            {% endif %}
         </div>
         <div class="space--1"></div>
     </div>

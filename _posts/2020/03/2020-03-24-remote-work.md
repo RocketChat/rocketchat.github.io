@@ -6,7 +6,6 @@ bgSize: cover
 lead-source: Webinar Remote Work
 bgColor: 030c1a
 hosts:
-    - Gabriel Engel
 language: USA
 gmt: -3
 cover: /images/posts/2020/03/remote-work.png
