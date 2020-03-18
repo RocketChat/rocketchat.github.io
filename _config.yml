@@ -6,9 +6,9 @@ paginate_path: /blog/page/:num/
 paginate: 8
 future: true
 
-# bump if alterting styles
+# bump if alterting styles or javascript
 
-version: 215
+version: 217
 
 # read speed
 wpm: 160

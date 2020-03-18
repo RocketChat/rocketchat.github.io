@@ -159,3 +159,17 @@
     }
   }
 }
+
+.post-cta-box {
+  margin: auto;
+  background-repeat: no-repeat;
+  background-image: url("/images/install/try-cloud.svg");
+  background-position: 0 bottom;
+  background-size: 100% auto;
+  background-color: #1d74f5;
+  padding-bottom: 146px;
+  .button {
+    background: #fff;
+    color: $brand;
+  }
+}

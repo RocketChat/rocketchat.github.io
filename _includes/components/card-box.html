@@ -1,36 +1,43 @@
 {% assign tb = site.data.i18n-box[include.lang] %}
 {% assign tg = site.data.i18n-general[include.lang] %}
 
-<section class="container">
-    <div class="card theme_box--dark-strong {{include.box-type}}">
-        <div class="wrap">
-            {% if include.box-type == "partner-box"%}
-                <p class="label theme_type--grey">{{tg.become-partner}}</p>
-                <h2 class="display theme_type--dark">{{tb.parner_title}}</h2>
-                <p class="theme_type--grey">{{tb.parner_text}}</p>
-                <a href="#" id="partners-popup" class="button" data-featherlight="#partner-contact-form-wrap" data-featherlight-variant="featherlight-form" rel="noopener noreferrer">{{tg.become-partner}}</a>
-            {% elsif include.box-type == "migrate-box" or include.box-type == "migrate-box--small"%}
-                <h2 class="display--big theme_type--dark">Ready to Migrate to Rocket.Chat?</h2>
-                <div class="content-page__box-buttons">
-                    <a href="/contact" rel="noopener noreferrer" class="button">Contact Sales</a>
-                    <a href="https://rocket.chat/docs/administrator-guides/import/hipchat/" class="button button--ghost">View Migration Docs</a>
-                </div>
-                <div class="space--1"></div>
+{% if include.box-type == "post-cta-box"%}
+<div class="card theme_box--dark-strong {{include.box-type}}">
+    <div class="wrap">
+        <h2 class="display--big theme_type--dark">Try Rocket.Chat For Free </h2>
+        <p class="theme_type--dark">Besides chat and many integrations, you can still count with: <b>audit trail, unlimited history, scalability and more special features</b></p>
 
-            {% elsif include.box-type == "post-cta-box"%}
-            <h2 class="display--big theme_type--dark">Try Rocket.Chat For Free </h2>
-            <div class="content-page__box-buttons">
-                <a href="//cloud.rocket.chat/trial/bronze" rel="noopener noreferrer" class="button" style="color: #fff;">Start Cloud Trial</a>
-            </div>
-            <div class="space--1"></div>
-            {% endif %}
+        <div class="content-page__box-buttons">
+            <a href="//cloud.rocket.chat/trial/bronze" rel="noopener noreferrer" class="button">Start Cloud Trial</a>
         </div>
+        <div class="space--1"></div>
     </div>
-</section>
+</div>
+{% else %}
+    <section class="container">
+        <div class="card theme_box--dark-strong {{include.box-type}}">
+            <div class="wrap">
+                {% if include.box-type == "partner-box"%}
+                    <p class="label theme_type--grey">{{tg.become-partner}}</p>
+                    <h2 class="display theme_type--dark">{{tb.parner_title}}</h2>
+                    <p class="theme_type--grey">{{tb.parner_text}}</p>
+                    <a href="#" id="partners-popup" class="button" data-featherlight="#partner-contact-form-wrap" data-featherlight-variant="featherlight-form" rel="noopener noreferrer">{{tg.become-partner}}</a>
+                {% elsif include.box-type == "migrate-box" or include.box-type == "migrate-box--small"%}
+                    <h2 class="display--big theme_type--dark">Ready to Migrate to Rocket.Chat?</h2>
+                    <div class="content-page__box-buttons">
+                        <a href="/contact" rel="noopener noreferrer" class="button">Contact Sales</a>
+                        <a href="https://rocket.chat/docs/administrator-guides/import/hipchat/" class="button button--ghost">View Migration Docs</a>
+                    </div>
+                    <div class="space--1"></div>
+                {% endif %}
+            </div>
+        </div>
+    </section>
 
-{% if include.box-type == "partner-box"%}
-    <div id="partner-contact-form-wrap">
-        {% include partners-contact-form.html form-category="partners-contact-form" lang=include.lang theme="dark" %}
-    </div>
+    {% if include.box-type == "partner-box"%}
+        <div id="partner-contact-form-wrap">
+            {% include partners-contact-form.html form-category="partners-contact-form" lang=include.lang theme="dark" %}
+        </div>
+    {% endif %}
 {% endif %}
 
