@@ -8,7 +8,7 @@ bgColor: 030c1a
 hosts:
 language: USA
 gmt: -3
-cover: /images/posts/2020/03/remote-work.png
+cover: /images/posts/2020/03/remote-work-best.png
 categories:
 - Webinars
 ---
