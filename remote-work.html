@@ -1,0 +1,111 @@
+---
+layout: en/default
+class: content-page
+title: "Rocket.Chat's Guide On Remote Working "
+description: |
+  remote-work
+
+permalink: /remote-work
+
+theme: light
+lang: en
+
+redirect_from:
+  - /remote-work/
+---
+
+
+<section class="hero">
+    <div class="space--5"></div>
+    <h1 class="display--big theme_type--dark">Rocket.Chat's Guide On Remote Working</h1>
+    <p class="display--small theme_type--dark">The Ultimate Resources To Guide You Through Challenging Times</p>
+    <div class="space--4"></div>
+    <section class="container ">
+        <img class="content-hero-img" src="{{ '/images/webinars/remote-cover.jpg' | relative_url }}" alt="{{ page.title }}" />
+    </section>
+
+</section>
+
+<div class="space--10"></div>
+<div class="space--6"></div>
+
+<section class="container">
+    <div class="flex-grid grid--justify-around">
+        <div class="col">
+            {% capture box-content %}Feeling lost in how to transition your operation to online?
+
+            Looking for high security while running your business online?
+
+            Rocket.Chat is committed to providing remote work best practices to its community.{% endcapture %}
+
+    {% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Chat with your team fastly, keeping your data privacy" content=box-content extra-classes="astronaut" %}
+        </div>
+    </div>
+</section>
+
+
+
+<section class="container">
+    <div class="flex-grid grid--justify-around">
+        <div class="col">
+            <h3 class="display align--center">Planning to move your business into the remote scenario?</h3>
+            <p class="theme_type--light align--center subtitle">Staying productive online requires defining the right tools.</p>
+            <p class="theme_type--light align--center subtitle">We are committed to supporting you and your team.</p>
+            <div class="space--3"></div>
+            <h3 class="display--medium align--center">Here is how we deal with it:</h3>
+            <div class="space--3"></div>
+
+
+            {% capture post1 %}/2020/03/17/covid-message/{% endcapture %}
+            {% capture post2 %}/2020/03/26/remote-work-tools/{% endcapture %}
+            {% capture post3 %}/2020/03/24/remote-work/{% endcapture %}
+
+            {% assign RelatedList = "" | split: "" %}
+
+            {% for post in site.posts %}
+                {% if post.url == post1 %}
+                    {% assign RelatedList = RelatedList | push: post %}
+                {% elsif post.url == post2 %}
+                    {% assign RelatedList = RelatedList | push: post %}
+                {% elsif post.url == post3 %}
+                    {% assign RelatedList = RelatedList | push: post %}
+                {% endif %}
+            {% endfor %}
+
+            <div class="blog__related light">
+                {% for post in RelatedList limit:3 %}
+                  {% include blog/article-link.html post=post %}
+                {% endfor %}
+              </div>
+        </div>
+    </div>
+</section>
+
+<div class="space--5"></div>
+
+<section class="container">
+    <div class="flex-grid grid--justify-around">
+        <div class="col">
+            {% include components/card-box.html lang=include.lang box-type="post-cta-box" label="REMOTE COMMUNICATION MADE SMOOTH & SAFE" title="Chat with your team fastly, keeping your data privacy" content="Audio and video conferencing, guest access, screen sharing, file sharing, LiveChat, LDAP Group Sync, two-factor authentication (2FA), E2E encryption, SSO, and dozens of OAuth providers." extra-classes="long" no-buttons=true %}
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="flex-grid grid--justify-around">
+        <div class="col">
+            <p class="theme_type--grey-dark half-paragraph">“Rocket.Chat makes it easy to collaborate with my fellow remote and non-remote teammates. We can have both async and sync conversations. We can bring our information into the chat for chat ops style communication. Rocket.Chat has a busy mode. Works very well. Can enter busy mode and focus on your tasks that require deeper focus. Not to mention can easily enter a video call right from context of conversation if it’s needed”
+            <div class="space--1"></div>
+            <p class="half-paragraph theme_type--space"> Aaron Ogle, Lead Cloud Architect</p>
+         </p>
+        </div>
+    </div>
+</section>
+<div class="space--5"></div>
+
+<section class="container">
+    {% include components/card-box.html lang=page.lang box-type="post-cta-box" %}
+</section>
+
+
+<div class="space--8"></div>
