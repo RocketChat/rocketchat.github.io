@@ -187,8 +187,17 @@
     background-color: #192738;
     text-align: left;
     padding: 32px;
+    &.care {
+      background-image: url("/images/press/hero@2x.jpg");
+      background-color: #040b1b;
+
+    }
     .wrap {
       width: 50%;
+    }
+    .button {
+      color: #fff;
+      background: #1d74f5;
     }
   }
 }
@@ -202,4 +211,20 @@
   max-height: 500px;
   justify-content: center;
   padding: 0;
+}
+
+.content-testimonial {
+  display: flex;
+  &-img {
+    width: auto;
+    flex-shrink: 0;
+    height: 300px;
+    margin-right: 64px;
+    margin-top: 12px;
+  }
+  &-text-right {
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 12px;
+  }
 }
