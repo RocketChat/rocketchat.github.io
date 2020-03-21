@@ -36,6 +36,7 @@ en:
   language: Language
   welcome_to_rc: Welcome to Rocket.Chat!
   moving_from_atlassian: Moving from Atlassian Hipchat?
+  covid_keep_you_home: COVID-19 keeping you home?
   welcome-to-rc: Welcome to Rocket.Chat!
   become-partner: Become a partner
   contact-us: Contact Us
@@ -81,6 +82,7 @@ pt:
   star-or-fork-on-github: Star ou Fork no GitHub
   language: Idioma
   moving_from_atlassian: Migrando do Atlassian Hipchat?
+  covid_keep_you_home: COVID-19 keeping you home?
   welcome_to_rc: Bem vindo ao Rocket.Chat!
   become-partner: Se torne Um Parceiro
   contact-us: Fale Conosco
@@ -124,6 +126,7 @@ es:
   star-or-fork-on-github: Star ou Fork no GitHub
   language: Idioma
   moving_from_atlassian: Usabas Atlassian Hipchat?
+  covid_keep_you_home: COVID-19 keeping you home?
   welcome_to_rc: Bienvenido a Rocket.Chat
   become-partner: Hazte socio
   contact-us: Hable con nosotros
@@ -168,6 +171,7 @@ de:
   star-or-fork-on-github: Stern oder Gabel auf GitHub
   language: Sprache
   moving_from_atlassian: Umzug von Atlassian Hipchat?
+  covid_keep_you_home: COVID-19 keeping you home?
   welcome-to-rc: Willkommen bei Rocket.Chat!
   become-partner: Ein Partner werden
   contact-us: Kontaktiere uns
