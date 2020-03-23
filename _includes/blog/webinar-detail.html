@@ -45,6 +45,9 @@
                 </div>
               </div>
             {% endif %}
+            <div class="blog-post__wrap dark">
+              {{ content }}
+            </div>
         </div>
       </div>
       {% capture posttime %} {{page.dateEvent | date: '%s'}} {% endcapture %}

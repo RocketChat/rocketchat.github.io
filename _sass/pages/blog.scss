@@ -501,6 +501,11 @@ body.category {
   margin-left: auto;
   margin-right: auto;
   padding: 0 $gutter;
+  &.dark {
+    color: #fff;
+    margin: 0;
+    padding: 0
+  }
 
   p {
     font-weight: normal;
