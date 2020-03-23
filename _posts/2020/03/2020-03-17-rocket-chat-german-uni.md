@@ -8,7 +8,7 @@ cover: /images/posts/2020/03/uni.jpg
 featured: true
 ---
 
-<img alt="gwdg" src="{{'/images/posts/2020/03/gwdg.png' | relative_url}}">
+<img alt="gwdg" src="{{'/images/posts/2020/03/bielefeld-gwdg.png' | relative_url}}">
 
 We live in times where scientists’ work and research constantly changes constellations beyond the boundaries of their own university or institution. Therefore, relying on a [fast communication tool](https://rocket.chat/customer-solutions) is a must for academic teams that seek high compliance and privacy of data.
 
