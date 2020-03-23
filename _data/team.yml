@@ -334,3 +334,11 @@
   username: paris.dufrayer
   photo: yes
   country: Spain
+
+- name: Thassio Carvalho
+  role: Backend Developer
+  github_username: thassio
+  department: Technology
+  username: thassio.carvalho
+  photo: yes
+  country: Brazil
