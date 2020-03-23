@@ -676,3 +676,28 @@ body.post .featherlight .featherlight-content {
   width: 100%;
   padding: 29% 0;
 }
+
+.light {
+  .card--blog {
+    &:hover {
+      box-shadow: 1em 1em 0 1px $grey-smoke,
+      -1em -1em 0 1px $grey-smoke,
+      -1em 1em 0 1px $grey-smoke,
+      1em -1em 0 1px $grey-smoke;
+
+      background: $grey-smoke;
+
+      .blog__webinar-host.multiple .host__image {
+        border-color: $grey-smoke;
+      }
+    }
+    .card--blog__wrap{
+      h3, h4 {
+        color: $space;
+      }
+      .card--blog__meta, .card--blog__author, .blog__event-dayweek {
+        color: $grey;
+      }
+    }
+  }
+}

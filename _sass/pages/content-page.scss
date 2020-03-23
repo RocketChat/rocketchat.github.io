@@ -108,7 +108,7 @@
     }
   }
 
-  .migrate-box--small {
+  .migrate-box--small, .hero-img {
     position: absolute;
     left: 0;
     right: 0;
@@ -166,10 +166,65 @@
   background-image: url("/images/install/try-cloud.svg");
   background-position: 0 bottom;
   background-size: 100% auto;
-  background-color: #1d74f5;
+  background-color: $brand;
   padding-bottom: 146px;
   .button {
     background: #fff;
     color: $brand;
+  }
+
+  &.long {;
+    .wrap {
+      width: 50%;
+    }
+  }
+
+  &.astronaut {
+    margin: auto;
+    background-image: url("/images/webinars/webinar-bg.png");
+    background-position: center right;
+    background-size: contain;
+    background-color: #192738;
+    text-align: left;
+    padding: 32px;
+    &.care {
+      background-image: url("/images/press/hero@2x.jpg");
+      background-color: #040b1b;
+
+    }
+    .wrap {
+      width: 50%;
+    }
+    .button {
+      color: #fff;
+      background: #1d74f5;
+    }
+  }
+}
+
+.content-hero-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-bottom: 5em;
+  max-height: 500px;
+  justify-content: center;
+  padding: 0;
+}
+
+.content-testimonial {
+  display: flex;
+  &-img {
+    width: auto;
+    flex-shrink: 0;
+    height: 300px;
+    margin-right: 64px;
+    margin-top: 12px;
+  }
+  &-text-right {
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 12px;
   }
 }
