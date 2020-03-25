@@ -24,6 +24,10 @@
         {% else %}
         <meta content="{{'/images/blog/post.jpg' | absolute_url}}" property="og:image"/>
         {% endif %}
+        <meta content="{{ page.url | absolute_url}}" property="og:url"/>
+        <meta content="{{ page.title | default: 'Rocket.Chat'}}" property="og:title"/>
+        <meta content="{{ page.description | default: 'Rocket.Chat description'}}" property="og:description"/>
+
         {% include gtm/head.html %}
     </head>
     <body class="{{ page.class }} {{ page.theme }} {{ page.layout }}">
