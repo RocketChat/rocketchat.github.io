@@ -49,6 +49,6 @@ If a counter-notice is received by the Designated Agent, Rocket.Chat may, in its
 
 **Marcelo Schmidt**<br />
 marcelo.schmidt@rocket.chat<br />
-Rua Carvalho Monteiro 234 / 604<br />
+Rua Jorge Fayet 757<br />
 Porto Alegre – RS – Brazil<br />
-90470-100
+91330-330
