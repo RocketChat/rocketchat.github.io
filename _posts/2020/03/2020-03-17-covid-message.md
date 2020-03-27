@@ -25,3 +25,5 @@ Additional best practice sources:
 - [Join the Rocket.Chat Community](https://rocket.chat/community)
 
 We are optimistic that this situation will be controlled and hopefully we can keep a fruitful relationship in the long term.
+
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Improve Your Remote Communication Today" button-1="Start Cloud Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=home-hero&utm_medium=website&utm_campaign=trials" button-2="Install Self Managed" button-2-link="https://rocket.chat/install" %}

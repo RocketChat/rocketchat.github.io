@@ -89,3 +89,4 @@ Watch our next webinar on “How to work remotely with Rocket.Chat”
 
 [ <img alt="remote-webinar" src="{{'/images/posts/2020/03/remote-work.png' | relative_url}}"> ](https://rocket.chat/2020/03/24/remote-work)
 
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Improve Your Remote Communication Today" button-1="Start Cloud Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=home-hero&utm_medium=website&utm_campaign=trials" button-2="Install Self Managed" button-2-link="https://rocket.chat/install" %}
