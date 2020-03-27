@@ -57,4 +57,4 @@ Rocket.Chat is an open-source communication hub, ideal for organizations that re
 
 **Currently, more than 350,000 users in 140 countries trust our platform to collaborate remotely.**
 
-{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Improve Your Remote Communication Today" button-1="Start Cloud Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=home-hero&utm_medium=website&utm_campaign=trials" button-2="Install Self Managed" button-2-link="https://rocket.chat/install" %}
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Improve Your Remote Communication Today" button-1="Start Cloud Trial" button-1-link="https://cloud.rocket.chat/trial/?utm_source=2020%2F03%2F26%2Fremote-work-14-hacks%2F&utm_medium=banner&utm_campaign=remote_work" button-2="Install Self Managed" button-2-link="https://rocket.chat/pricing?utm_source=2020%2F03%2F26%2Fremote-work-14-hacks%2F&utm_medium=banner&utm_campaign=remote_work" %}

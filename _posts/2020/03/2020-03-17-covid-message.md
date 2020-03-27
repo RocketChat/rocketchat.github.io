@@ -26,4 +26,4 @@ Additional best practice sources:
 
 We are optimistic that this situation will be controlled and hopefully we can keep a fruitful relationship in the long term.
 
-{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Improve Your Remote Communication Today" button-1="Start Cloud Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=home-hero&utm_medium=website&utm_campaign=trials" button-2="Install Self Managed" button-2-link="https://rocket.chat/install" %}
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Improve Your Remote Communication Today" button-1="Start Cloud Trial" button-1-link="https://cloud.rocket.chat/trial/?utm_source=2020%2F03%2F17%2Fcovid-message%2F&utm_medium=banner&utm_campaign=remote_work" button-2="Install Self Managed" button-2-link="https://rocket.chat/pricing?utm_source=2020%2F03%2F17%2Fcovid-message%2F&utm_medium=banner&utm_campaign=remote_work" %}

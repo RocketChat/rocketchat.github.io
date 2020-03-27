@@ -32,13 +32,29 @@ redirect_from:
 <section class="container">
     <div class="flex-grid grid--justify-around">
         <div class="col">
+            <h3 class="display align--center">Many things are being canceled, <br> Your productivity should not be one of them.</h3>
+
+            <div class="space--1"></div>
+
+            <p class="theme_type--space half-paragraph"><bold>Rocket.Chat is a communication hub</bold> that is ideal for organizations that are looking to communicate with different stakeholders and <a class="button--link" href="https://rocket.chat/team-collab">collaborate</a> regardless of the current location with <a class="button--link" href="https://rocket.chat/security">high-security standards.</a></p>
+            <div class="space--1"></div>
+            <p class="theme_type--space half-paragraph">We help you to reduce the number of communication tools and organize your conversations to improve your business productivity and reaction time. Learn how to navigate remote work challenges with us. </p>
+        </div>
+    </div>
+</section>
+
+<div class="space--3"></div>
+
+<section class="container">
+    <div class="flex-grid grid--justify-around">
+        <div class="col">
             {% capture box-content %}Feeling lost in how to transition your operation to online?
 
             Looking for high security while running your business online?
 
             Rocket.Chat is committed to providing remote work best practices to its community.{% endcapture %}
 
-    {% include components/card-box.html lang=include.lang box-type="post-cta-box" title="How to work remotely with Rocket.Chat" content=box-content extra-classes="astronaut" button-1="SUBSCRIBE" button-1-link="https://rocket.chat/2020/03/24/remote-work/" %}
+    {% include components/card-box.html lang=include.lang box-type="post-cta-box" title="How to work remotely with Rocket.Chat" content=box-content extra-classes="astronaut" button-1="SUBSCRIBE" button-1-link="https://rocket.chat/category/webinars/?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" %}
         </div>
     </div>
 </section>
@@ -49,8 +65,7 @@ redirect_from:
     <div class="flex-grid grid--justify-around">
         <div class="col">
             <h3 class="display align--center">Planning to move your business into the remote scenario?</h3>
-            <p class="theme_type--light align--center subtitle">Staying productive online requires defining the right tools.</p>
-            <p class="theme_type--light align--center subtitle">We are committed to supporting you and your team.</p>
+            <p class="theme_type--space align--center display--medium">Staying productive online requires defining the right tools.<br>We are committed to supporting you and your team.</p>
             <div class="space--3"></div>
             <h3 class="display--medium align--center">Here is how we deal with it:</h3>
             <div class="space--3"></div>
@@ -58,7 +73,7 @@ redirect_from:
 
             {% capture post1 %}/2020/03/17/covid-message/{% endcapture %}
             {% capture post2 %}/2020/03/26/remote-work-tools/{% endcapture %}
-            {% capture post3 %}/2020/03/24/remote-work/{% endcapture %}
+            {% capture post3 %}/2020/03/26/remote-work-14-hacks/{% endcapture %}
 
             {% assign RelatedList = "" | split: "" %}
 
@@ -94,11 +109,11 @@ redirect_from:
                     <div class="space--1"></div>
                     <p class="theme_type--light">Gabriel Engel</p>
                     <div class="space--1"></div>
-                    <p class="theme_type--light">Coronavirus is affecting workplaces worldwide. There is still much we don’t know about this epidemic, for how long it will last, how it will affect the population and the economy.  There are numerous practices that can help to contain the virus and prevent it from spreading, and at this time it's important that each individual put their social responsibility as a priority. </p>
-                    <p class="theme_type--light">The epidemic itself was not something we could predict, but side actions, such as remote work, can help business to keep productive. Rocket.Chat is committed to improving team collaboration and omnichannel communication. It is a great tool to keep track of projects and discussions with stakeholders without losing security, flexibility, and scalability.</p>
-                    <p class="theme_type--light">We are currently one of the most accessible communication tools in the market and at this time of uncertainty, we are committed to supporting you and your team even further. From March 17th and beyond we will host webinars on how to work remotely with Rocket.Chat on a weekly basis.</p>
+                    <p class="theme_type--space">Coronavirus is affecting workplaces worldwide. There is still much we don’t know about this epidemic, for how long it will last, how it will affect the population and the economy.  There are numerous practices that can help to contain the virus and prevent it from spreading, and at this time it's important that each individual put their social responsibility as a priority. </p>
+                    <p class="theme_type--space">The epidemic itself was not something we could predict, but side actions, such as remote work, can help business to keep productive. Rocket.Chat is committed to improving team collaboration and omnichannel communication. It is a great tool to keep track of projects and discussions with stakeholders without losing security, flexibility, and scalability.</p>
+                    <p class="theme_type--space">We are currently one of the most accessible communication tools in the market and at this time of uncertainty, we are committed to supporting you and your team even further. From March 17th and beyond we will host webinars on how to work remotely with Rocket.Chat on a weekly basis.</p>
 
-                    <a href="https://rocket.chat/2020/03/24/remote-work" class="button--link">Sign Up for our Next Edition</a>
+                    <a href="https://rocket.chat/2020/03/24/remote-work" class="button">Sign Up for our Next Edition</a>
             </div>
 
             </div>
@@ -113,7 +128,7 @@ redirect_from:
 <section class="container">
     <div class="flex-grid grid--justify-around">
         <div class="col">
-            {% include components/card-box.html lang=include.lang box-type="post-cta-box" label="REMOTE COMMUNICATION MADE SMOOTH & SAFE" title="Chat with your team fastly, keeping your data privacy" content="Audio and video conferencing, guest access, screen sharing, file sharing, LiveChat, LDAP Group Sync, two-factor authentication (2FA), E2E encryption, SSO, and dozens of OAuth providers." extra-classes="long" no-buttons=true %}
+            {% include components/card-box.html lang=include.lang box-type="post-cta-box" label="REMOTE COMMUNICATION MADE SMOOTH & SAFE" title="Chat with your team while keeping your data privacy" content="Audio and video conferencing, guest access, screen sharing, file sharing, LiveChat, LDAP Group Sync, two-factor authentication (2FA), E2E encryption, SSO, and dozens of OAuth providers." extra-classes="long" no-buttons=true %}
         </div>
     </div>
 </section>
@@ -123,7 +138,7 @@ redirect_from:
         <div class="col">
             <div class="content-testimonial">
                 <div class="content-testimonial-text-right">
-                    <p class="">“Rocket.Chat makes it easy to collaborate with my fellow remote and non-remote teammates. We can have both async and sync conversations. We can bring our information into the chat for chat ops style communication. Rocket.Chat has a busy mode. Works very well. Can enter busy mode and focus on your tasks that require deeper focus. Not to mention can easily enter a video call right from context of conversation if it’s needed”
+                    <p class="theme_type--space">“Rocket.Chat makes it easy to collaborate with my fellow remote and non-remote teammates. We can have both async and sync conversations. We can bring our information into the chat for chat ops style communication. Rocket.Chat has a busy mode. Works very well. Can enter busy mode and focus on your tasks that require deeper focus. Not to mention can easily enter a video call right from context of conversation if it’s needed”
                     </p>
                     <p class="theme_type--space"> Aaron Ogle, Lead Cloud Architect</p>
                     <div class="space--1"></div>
@@ -134,12 +149,47 @@ redirect_from:
         </div>
     </div>
 </section>
+
 <div class="space--5"></div>
 
 <section class="container">
     <div class="flex-grid grid--justify-around">
         <div class="col">
-            {% include components/card-box.html lang=include.lang box-type="post-cta-box" extra-classes="long astronaut care" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/bronze" button-2="Contact Us" button-2-link="https://rocket.chat/contact/" %}
+            <h3 class="display--medium align--center">Check out more relevant content :</h3>
+            <div class="space--3"></div>
+
+
+            {% capture post1 %}/2020/03/24/remote-work-1/{% endcapture %}
+            {% capture post2 %}/2020/03/26/remote-work-tools/{% endcapture %}
+            {% capture post3 %}/2020/03/10/covid/{% endcapture %}
+
+            {% assign RelatedList = "" | split: "" %}
+
+            {% for post in site.posts %}
+                {% if post.url == post1 %}
+                    {% assign RelatedList = RelatedList | push: post %}
+                {% elsif post.url == post2 %}
+                    {% assign RelatedList = RelatedList | push: post %}
+                {% elsif post.url == post3 %}
+                    {% assign RelatedList = RelatedList | push: post %}
+                {% endif %}
+            {% endfor %}
+
+            <div class="blog__related light">
+                {% for post in RelatedList limit:3 %}
+                  {% include blog/article-link.html post=post %}
+                {% endfor %}
+              </div>
+        </div>
+    </div>
+</section>
+
+<div class="space--5"></div>
+
+<section class="container">
+    <div class="flex-grid grid--justify-around">
+        <div class="col">
+            {% include components/card-box.html lang=include.lang box-type="post-cta-box" extra-classes="long astronaut care" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" button-2="Contact Us" button-2-link="https://rocket.chat/contact?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" %}
         </div>
     </div>
 </section>
