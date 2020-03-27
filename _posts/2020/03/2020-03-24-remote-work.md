@@ -2,7 +2,7 @@
 title: Best Practices to Work Remotely With Rocket.Chat
 description: Best Practices to Work Remotely With Rocket.Chat
 webinarID: 017
-dateEvent: 2020-03-24 13:00:00
+dateEvent: 2020-03-31 13:00:00
 bgSize: cover
 lead-source: Webinar Remote Work
 bgColor: 030c1a
@@ -20,21 +20,22 @@ This webinar series was created to help anyone that is looking to be productive 
 
 **This week:** Learn how to deal with remote communication
 
-- How to prioritize between tasks and meetings?
-- How to communicate effectively with stakeholders?
-- How to avoid unproductive virtual meetings?
-- How to set limits between professional and personal?
+- Async vs Sync Communication
+- How to collaboration with your team from home
+- Best ways to communicate with stakeholders
+- Basic rules for a productive virtual meetings
+- How to set limits between professional and personal life
+- Dealing with the isolation feeling
 
-**This webinar is best for:**
+If you want to get a brochure with this content, email us at [marketing@rocket.chat](mailto:marketing@rocket.chat)
 
-Everyone who faces these challenges and wants to better in their remote work
-
-**Things you’ll learn:**
-- Best communication tools to work effectively from home
-- How to use Rocket.Chat and other remote-friendly tools to increase your productivity
-- Best practices to have high-security telecommuting processes
-- Hacks to boost your work while setting limits between your personal and professional life
-
-**Duration**: 20 minutes
+**Video Duration:** 23 minutes
 
 **Where**: Rocket.Chat's [Youtube channel](https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ) (an email will be sent with the final link to join the webinar)
+
+**Looking for more tips?**
+Check our [Remote Work Best Practices](https://rocket.chat/remote-work)
+
+Currently, more than 400 thousand servers were deployed and over 10 million users in 140 countries trust our platform to collaborate remotely.
+
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Improve Your Remote Communication Today" button-1="Start Cloud Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=home-hero&utm_medium=website&utm_campaign=trials" button-2="Install Self Managed" button-2-link="https://rocket.chat/install" %}
