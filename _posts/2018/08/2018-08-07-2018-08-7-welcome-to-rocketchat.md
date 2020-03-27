@@ -1,10 +1,10 @@
 ---
-title: "Welcoming end-of-life HipChat customers to Rocket.Chat"
+title: Welcoming end-of-life HipChat customers to Rocket.Chat
+date: 2018-08-07 08:00:00 Z
 categories:
-  - News
-date: 2018-08-7 08:00:00
+- News
 author: Rocket.Chat Team
-cover: /images/posts/2018/08/2018-08-7-welcome-to-rocketchat/hipchat-rc-cover.jpg
+cover: "/images/posts/2018/08/2018-08-7-welcome-to-rocketchat/hipchat-rc-cover.jpg"
 featured: true
 ---
 

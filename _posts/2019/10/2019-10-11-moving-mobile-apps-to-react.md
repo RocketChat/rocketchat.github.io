@@ -1,11 +1,11 @@
 ---
-title: "Rocket.Chat is moving its mobile apps to React Native"
+title: Rocket.Chat is moving its mobile apps to React Native
+date: 2019-10-11 21:50:00 Z
 categories:
 - News
 - Product
-date: 2019-10-11 21:50:00
 author: Rodrigo Nascimento
-cover: /images/posts/2019/10/2019-10-11-moving-mobile-apps-to-react.png
+cover: "/images/posts/2019/10/2019-10-11-moving-mobile-apps-to-react.png"
 featured: true
 ---
 

@@ -1,15 +1,16 @@
 ---
-title: "Sachin Shinde: Add Rocket.Chat to any app with mobile SDK"
+title: 'Sachin Shinde: Add Rocket.Chat to any app with mobile SDK'
+date: 2017-07-05 23:57:44 Z
 categories:
-  - News
-  - Events
-date: 2017-07-05 23:57:44
+- News
+- Events
 author: Sing Li
-cover: /images/press/gsoc.png
+cover: "/images/press/gsoc.png"
 bgSize: logo
-bgColor: "ffffff"
-redirect_from: /blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation
+bgColor: ffffff
+redirect_from: "/blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation"
 ---
+
 _This series of blogs brings you a little closer to our active student contributors for the [Google Summer of Code 2017](https://rocket.chat/docs/contributing/google-summer-of-code) summer season. You will see their ongoing work featured throughout our [GitHub repositories](https://github.com/RocketChat) . Feel free to drop by and say "hello", or start collaborating on any of the projects._
 
 Our Google Summer of Code student Sachin Shinde aims to use his passion for coding to change the world! The first step will be Sachin's participation in the Google Summer of Code 2017 Rocket.Chat Android SDK project. 

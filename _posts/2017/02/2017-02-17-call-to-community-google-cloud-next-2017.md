@@ -1,12 +1,12 @@
 ---
-title: "Meet the Rocket.Chat gang at Google Cloud Next 2017"
+title: Meet the Rocket.Chat gang at Google Cloud Next 2017
+date: 2017-02-17 12:22:57 Z
 categories:
-  - News
-  - Events
-date: 2017-02-17 12:22:57
+- News
+- Events
 author: Sing Li
-cover: /images/posts/2017/02/call-to-community-google-cloud-next-2017/cover-san-fran-cloud.jpg
-redirect_from: /blog/call-to-community-google-cloud-next-2017
+cover: "/images/posts/2017/02/call-to-community-google-cloud-next-2017/cover-san-fran-cloud.jpg"
+redirect_from: "/blog/call-to-community-google-cloud-next-2017"
 ---
 
 Rocket.Chat has been invited to present at [Google Cloud Next 2017](https://cloudnext.withgoogle.com/), which takes place March 8th-10th.

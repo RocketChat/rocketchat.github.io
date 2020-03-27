@@ -1,12 +1,12 @@
 ---
-title: "TechMeetsTrader: a social network for traders"
+title: 'TechMeetsTrader: a social network for traders'
+date: 2017-01-04 16:35:43 Z
 categories:
-  - Case Studies
-  - Product
-date: 2017-01-04 16:35:43
+- Case Studies
+- Product
 author: Sing Li
-cover: /images/posts/2017/01/creating-facebook-of-stocks/business-1730089_1920.jpg
-redirect_from: /blog/creating-facebook-of-stocks
+cover: "/images/posts/2017/01/creating-facebook-of-stocks/business-1730089_1920.jpg"
+redirect_from: "/blog/creating-facebook-of-stocks"
 ---
 
 The recent boom in inexpensive electronic stock trading services has offered more individuals the opportunity to become an investor than ever before.

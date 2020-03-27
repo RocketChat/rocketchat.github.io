@@ -1,14 +1,13 @@
 ---
-title: "Rocket.Chat's Zapier App now public"
+title: Rocket.Chat's Zapier App now public
+date: 2018-08-16 08:00:00 Z
 categories:
-  - News
-  - Case Studies
-date: 2018-08-16 08:00:00
+- News
+- Case Studies
 author: Isabella Russell
-cover: /images/posts/2018/07/2018-07-01-zapier-public-launch/zapier&RC.png
+cover: "/images/posts/2018/07/2018-07-01-zapier-public-launch/zapier&RC.png"
 featured: true
 ---
-
 
 Rocket.Chat is delighted to announce that its Zapier App is out of beta and is now public, allowing you to connect your app to 1,000+ other integrations via Zapier!
 

@@ -1,10 +1,10 @@
 ---
-title: "Rocket.Chat iOS 1.8 Released"
+title: Rocket.Chat iOS 1.8 Released
+date: 2018-01-10 14:23:00 Z
 categories:
-  - News
-date: 2018-01-10 14:23:00
+- News
 author: Louise Message
-cover: /images/posts/2018/01/2018-01-10-ios-1-8-released/cover.jpg
+cover: "/images/posts/2018/01/2018-01-10-ios-1-8-released/cover.jpg"
 ios_release: true
 ---
 

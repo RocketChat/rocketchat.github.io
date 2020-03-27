@@ -1,12 +1,12 @@
 ---
-title: "20 things you should be doing with Rocket.Chat"
+title: 20 things you should be doing with Rocket.Chat
+date: 2016-09-01 14:13:25 Z
 categories:
-  - Product
-  - Case Studies
-date: 2016-09-01 14:13:25
+- Product
+- Case Studies
 author: Marcelo Schmidt
-cover: /images/posts/2016/09/20-things-you-should-be-doing-with-rocketchat/cover-do.jpg
-redirect_from: /blog/20-things-you-should-be-doing-with-rocketchat
+cover: "/images/posts/2016/09/20-things-you-should-be-doing-with-rocketchat/cover-do.jpg"
+redirect_from: "/blog/20-things-you-should-be-doing-with-rocketchat"
 ---
 
 Whether you're thinking of introducing your team to Rocket.Chat or you're already a loyal user you might be wondering about _all_ the ways Rocket.Chat can streamline your workflow.

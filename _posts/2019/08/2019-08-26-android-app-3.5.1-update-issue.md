@@ -1,10 +1,10 @@
 ---
-title: "Android native app upgrading failed on Google Play?"
+title: Android native app upgrading failed on Google Play?
+date: 2019-08-26 12:00:00 Z
 categories:
 - News
-date: 2019-08-26 12:00:00
 author: Marina Vdovkina
-cover: /images/posts/2019/08/postmortem-android-3.5.1.png
+cover: "/images/posts/2019/08/postmortem-android-3.5.1.png"
 featured: true
 ---
 

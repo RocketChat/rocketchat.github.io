@@ -1,10 +1,10 @@
 ---
-title: "Data Privacy Day at Rocket.Chat"
+title: Data Privacy Day at Rocket.Chat
+date: 2019-01-28 08:00:00 Z
 categories:
 - News
-date: 2019-01-28 08:00:00
 author: Isabella Russell
-cover: /images/posts/2019/01/2019-01-28-data-privacy-day/Privacy Day.png
+cover: "/images/posts/2019/01/2019-01-28-data-privacy-day/Privacy Day.png"
 featured: true
 ---
 

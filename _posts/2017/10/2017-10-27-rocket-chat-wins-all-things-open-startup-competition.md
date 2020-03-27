@@ -1,12 +1,12 @@
 ---
-title: "Rocket.Chat wins the All Things Open Startup Competition"
+title: Rocket.Chat wins the All Things Open Startup Competition
+date: 2017-10-27 10:00:00 Z
 categories:
-  - News
-  - Events
-date: 2017-10-27 10:00:00
+- News
+- Events
 author: Sean Packham
-cover: /images/posts/2017/10/rocket-chat-wins-all-things-open-startup-competition/cover.jpg
-redirect_from: /blog/rocket-chat-wins-all-things-open-startup-competition
+cover: "/images/posts/2017/10/rocket-chat-wins-all-things-open-startup-competition/cover.jpg"
+redirect_from: "/blog/rocket-chat-wins-all-things-open-startup-competition"
 ---
 
 This week Rocket.Chat was at [All Things Open (ATO)](https://allthingsopen.org/) in Raleigh, North Carolina to show our support for open source and to compete in the second [ATO "Open" pitch Competition](https://allthingsopen.org/start-up-pitch-competition/). All Things Open is the largest open source, open tech, and open web conference on the east coast of the United States. Gabriel put on his best spacesuit and gave an out-of-this-world pitch to win the ATO 2017 Startup Competition.

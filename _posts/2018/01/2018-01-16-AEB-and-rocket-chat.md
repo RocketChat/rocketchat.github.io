@@ -1,11 +1,11 @@
 ---
-date: 2018-01-16 14:11:00
 title: Changing the way government organizations work with Rocket.Chat
+date: 2018-01-16 14:11:00 Z
 categories:
-  - Case Studies
-  - Product
+- Case Studies
+- Product
 author: Louise Message
-cover: /images/posts/2018/01/2018-01-16-AEB-and-rocket-chat/cover.jpg
+cover: "/images/posts/2018/01/2018-01-16-AEB-and-rocket-chat/cover.jpg"
 ---
 
 The <a target="_blank" href="http://www.aeb.gov.br">Brazilian Space Agency's (AEB)</a> Department of Information Technology moved from Slack to Rocket.Chat over a year ago when they outgrew Slack's free offering and needed a self-managed open source alternative. Rocket.Chat has now overtaken email as the number-one communication tool in the department.

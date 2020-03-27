@@ -1,11 +1,12 @@
 ---
-title: "Rocket.Chat News, Gabriel talks about 2.3.4 release, new features improve efficiency and Omnichannel gains analytics"
+title: Rocket.Chat News, Gabriel talks about 2.3.4 release, new features improve efficiency
+  and Omnichannel gains analytics
+date: 2019-10-23 12:00:00 Z
 categories:
 - Videos
-date: 2019-10-23 12:00:00
 videoURL: https://www.youtube.com/embed/SG_itf3wJ_U
 author: Marti Stephen
-cover: /images/blog/news-video.png
+cover: "/images/blog/news-video.png"
 featured: false
 ---
 

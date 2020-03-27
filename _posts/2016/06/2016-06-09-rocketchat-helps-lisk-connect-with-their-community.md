@@ -1,12 +1,12 @@
 ---
-title: "Rocket.Chat Helps Lisk Connect with Their Community"
+title: Rocket.Chat Helps Lisk Connect with Their Community
+date: 2016-06-09 19:58:37 Z
 categories:
-  - News
-  - Case Studies
-date: 2016-06-09 19:58:37
+- News
+- Case Studies
 author: Marcelo Schmidt
-cover: /images/posts/2016/06/rocketchat-helps-lisk-connect-with-their-community/cover-lisk-community-connect.jpg
-redirect_from: /blog/rocketchat-helps-lisk-connect-with-their-community
+cover: "/images/posts/2016/06/rocketchat-helps-lisk-connect-with-their-community/cover-lisk-community-connect.jpg"
+redirect_from: "/blog/rocketchat-helps-lisk-connect-with-their-community"
 ---
 
 ![](/images/posts/2016/06/rocketchat-helps-lisk-connect-with-their-community/lisk-logo.jpg? "lisk-logo.jpg")

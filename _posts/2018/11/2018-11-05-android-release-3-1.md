@@ -1,10 +1,10 @@
 ---
-title: "Rocket.Chat Android 3.1 Released"
+title: Rocket.Chat Android 3.1 Released
+date: 2018-11-05 08:00:00 Z
 categories:
 - News
-date: 2018-11-05 08:00:00
 author: Isabella Russell
-cover: /images/posts/2018/11/2018-11-05-android-release-3-1/android-3-1-cover.jpg
+cover: "/images/posts/2018/11/2018-11-05-android-release-3-1/android-3-1-cover.jpg"
 featured: true
 android_release: true
 ---

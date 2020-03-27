@@ -1,14 +1,14 @@
 ---
-title: "Rocket.Chat sponsors students to take part in Google Summer of Code"
+title: Rocket.Chat sponsors students to take part in Google Summer of Code
+date: 2017-05-22 17:20:01 Z
 categories:
-  - News
-  - Events
-date: 2017-05-22 17:20:01
+- News
+- Events
 author: Sing Li
-cover: /images/press/gsoc.png
+cover: "/images/press/gsoc.png"
 bgSize: logo
-bgColor: "ffffff"
-redirect_from: /blog/rocketchat-funds-more-students-to-take-part-in-google-summer-of-code
+bgColor: ffffff
+redirect_from: "/blog/rocketchat-funds-more-students-to-take-part-in-google-summer-of-code"
 ---
 
 We're excited to announce that seven keen student coders will be taking part in the annual Google Summer of Code 2017 (GSoC). Four students will be sponsored by Google and three by Rocket.Chat.

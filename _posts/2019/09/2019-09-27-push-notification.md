@@ -1,11 +1,11 @@
 ---
-title: "Changes to notification behavior"
+title: Changes to notification behavior
+date: 2019-09-27 21:50:00 Z
 categories:
 - News
 - Product
-date: 2019-09-27 21:50:00
 author: Diego Sampaio
-cover: /images/posts/2019/09/push/bell.jpg
+cover: "/images/posts/2019/09/push/bell.jpg"
 featured: true
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: How Radically Open Security uses Rocket.Chat
+date: 2016-08-03 12:13:19 Z
 categories:
-  - Case Studies
-  - Product
-date: 2016-08-03 12:13:19
+- Case Studies
+- Product
 author: Marcelo Schmidt
-cover: /images/posts/2016/08/rocketchat-customer-story-radically-open-security/cover-rad-open-security.jpg
-redirect_from: /blog/rocketchat-customer-story-radically-open-security
+cover: "/images/posts/2016/08/rocketchat-customer-story-radically-open-security/cover-rad-open-security.jpg"
+redirect_from: "/blog/rocketchat-customer-story-radically-open-security"
 ---
 
 Radically Open Security (RSO) is the world's first not-for-profit computer security company. With 90% of the profits going to a charity that supports an open internet, the founders couldn't be more serious about the principle of an open information society.

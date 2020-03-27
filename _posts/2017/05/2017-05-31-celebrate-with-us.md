@@ -1,12 +1,12 @@
 ---
-title: "Rocket.Chat turns two!"
+title: Rocket.Chat turns two!
+date: 2017-05-31 22:03:40 Z
 categories:
-  - News
-  - Events
-date: 2017-05-31 22:03:40
+- News
+- Events
 author: Sing Li
-cover: /images/posts/2017/05/celebrate-with-us/cover-2nd-birthday.jpg
-redirect_from: /blog/celebrate-with-us
+cover: "/images/posts/2017/05/celebrate-with-us/cover-2nd-birthday.jpg"
+redirect_from: "/blog/celebrate-with-us"
 ---
 
 May 26th marked the second anniversary of Rocket.Chat going live back in 2015.

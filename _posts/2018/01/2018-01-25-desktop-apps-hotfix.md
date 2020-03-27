@@ -1,10 +1,10 @@
 ---
-title:  Electron 2.10.2 hotfix release
+title: Electron 2.10.2 hotfix release
+date: 2018-01-25 10:00:00 Z
 categories:
-  - News
-date: 2018-01-25 10:00:00
+- News
 author: Louise Message
-cover: /images/posts/2018/01/2018-01-25-desktop-apps-hotfix/cover.jpg
+cover: "/images/posts/2018/01/2018-01-25-desktop-apps-hotfix/cover.jpg"
 ---
 
 Today we released a hotfix for the Rocket.Chat desktop client.

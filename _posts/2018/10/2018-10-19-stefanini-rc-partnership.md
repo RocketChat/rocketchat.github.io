@@ -1,13 +1,13 @@
 ---
 title: Rocket.Chat and Stefanini announce partnership during Gartner Symposium/ITxpo
-date: 2018-10-19 10:00:00
+date: 2018-10-19 10:00:00 Z
+categories:
+- News
+- Product
+- Case Studies
 author: Isabella Russell
 featured: true
-categories:
-  - News
-  - Product
-  - Case Studies
-cover: /images/posts/2018/10/2018-10-19-stefanini-rc-partnershi/stefanini-rc-cover.png
+cover: "/images/posts/2018/10/2018-10-19-stefanini-rc-partnershi/stefanini-rc-cover.png"
 ---
 
 ### A new partnership live from Orlando, FL

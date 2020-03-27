@@ -1,11 +1,12 @@
 ---
-title: "Rocket.Chat News, Gabriel talks about Omnichannel and Performance Improvements, plus New Features in our new 2.2.0 release"
+title: Rocket.Chat News, Gabriel talks about Omnichannel and Performance Improvements,
+  plus New Features in our new 2.2.0 release
+date: 2019-10-23 12:00:00 Z
 categories:
 - Videos
-date: 2019-10-23 12:00:00
 videoURL: https://www.youtube.com/embed/zyMzjVcomtE
 author: Marti Stephen
-cover: /images/blog/news-video.png
+cover: "/images/blog/news-video.png"
 featured: false
 ---
 

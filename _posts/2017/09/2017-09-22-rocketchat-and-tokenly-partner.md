@@ -1,12 +1,12 @@
 ---
-title: "Rocket.Chat and Tokenly announce new partnership"
+title: Rocket.Chat and Tokenly announce new partnership
+date: 2017-09-22 21:26:41 Z
 categories:
-  - News
-  - Product
-date: 2017-09-22 21:26:41
+- News
+- Product
 author: Sing Li
-cover: /images/posts/2017/09/rocketchat-and-tokenly-partner/cover-tokenly.jpg
-redirect_from: /blog/rocketchat-and-tokenly-partner
+cover: "/images/posts/2017/09/rocketchat-and-tokenly-partner/cover-tokenly.jpg"
+redirect_from: "/blog/rocketchat-and-tokenly-partner"
 ---
 
 ## Bringing secure cryptocurrency token access to team chat channels

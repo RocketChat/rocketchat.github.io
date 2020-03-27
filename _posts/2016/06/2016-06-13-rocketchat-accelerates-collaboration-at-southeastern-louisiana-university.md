@@ -1,13 +1,14 @@
 ---
-title: "Rocket.Chat accelerates collaboration at Southeastern Louisiana University"
+title: Rocket.Chat accelerates collaboration at Southeastern Louisiana University
+date: 2016-06-13 14:04:15 Z
 categories:
-  - Case Studies
-  - News
-date: 2016-06-13 14:04:15
+- Case Studies
+- News
 author: Marcelo Schmidt
-cover: /images/posts/2016/06/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university/cover-accelerates-collab.jpg
-redirect_from: /blog/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university
+cover: "/images/posts/2016/06/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university/cover-accelerates-collab.jpg"
+redirect_from: "/blog/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university"
 ---
+
 <img style="float: right; margin: 0px 0px 50px 50px;" src="{{'/images/posts/2016/06/rocketchat-accelerates-collaboration-at-southeastern-louisiana-university/image00.jpg' | relative_url}}" width="100" />
 
 We recently spoke with Matthew Gill, a System Administrator at Southeastern Louisiana University where they have adopted Rocket.Chat for collaboration across the technology development team.

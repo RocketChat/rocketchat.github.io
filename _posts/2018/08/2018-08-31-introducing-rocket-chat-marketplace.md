@@ -1,13 +1,14 @@
 ---
-title: "Introducing Rocket.Chat Marketplace"
+title: Introducing Rocket.Chat Marketplace
+date: 2018-08-31 08:00:00 Z
 categories:
-  - News
-  - Product
-date: 2018-08-31 8:00:00
+- News
+- Product
 author: Isabella Russell
-cover: /images/posts/2018/08/marketplace-post/Marketplace-cover.png
+cover: "/images/posts/2018/08/marketplace-post/Marketplace-cover.png"
 featured: true
 ---
+
 <br/>
 <br/>
 *Rocket.Chat Marketplace is set to launch soon but, in the meantime, we want to give you all a little preview of what's to come! Our Marketing Lead Isabella sat down with CEO Gabriel Engel to discuss what Marketplace will bring to the table and how it will fit into the platform's wider aims going forward.*

@@ -1,12 +1,12 @@
 ---
-title: "Why open source is best for government"
+title: Why open source is best for government
+date: 2016-08-30 15:40:57 Z
 categories:
-  - Case Studies
-  - Product
-date: 2016-08-30 15:40:57
+- Case Studies
+- Product
 author: Marcelo Schmidt
-cover: /images/posts/2016/08/for-government-open-source-is-best/cover-gov-open-source.jpg
-redirect_from: /blog/for-government-open-source-is-best
+cover: "/images/posts/2016/08/for-government-open-source-is-best/cover-gov-open-source.jpg"
+redirect_from: "/blog/for-government-open-source-is-best"
 ---
 
 Last month, [Bulgaria passed a law](https://thepolicy.us/bulgaria-got-a-law-requiring-open-source-98bf626cf70a#.f9angczfq) that requires its government to use open source software.

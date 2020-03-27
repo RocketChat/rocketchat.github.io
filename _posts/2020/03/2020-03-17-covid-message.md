@@ -1,10 +1,10 @@
 ---
-title: "We can’t control the epidemic, but we can prevent it from spreading"
+title: We can’t control the epidemic, but we can prevent it from spreading
+date: 2020-03-17 12:00:00 Z
 categories:
 - News
-date: 2020-03-17 12:00:00
-author:  Gabriel Engel
-cover: /images/posts/2020/03/covid-message.jpg
+author: Gabriel Engel
+cover: "/images/posts/2020/03/covid-message.jpg"
 featured: true
 ---
 

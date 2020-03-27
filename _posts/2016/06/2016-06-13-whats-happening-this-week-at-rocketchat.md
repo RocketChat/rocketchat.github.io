@@ -1,11 +1,11 @@
 ---
 title: This week at Rocket.Chat
+date: 2016-06-13 17:07:21 Z
 categories:
-  - News
-date: 2016-06-13 17:07:21
+- News
 author: Marcelo Schmidt
-cover: /images/posts/2016/06/whats-happening-this-week-at-rocketchat/cover-this-week.jpg
-redirect_from: /blog/whats-happening-this-week-at-rocketchat
+cover: "/images/posts/2016/06/whats-happening-this-week-at-rocketchat/cover-this-week.jpg"
+redirect_from: "/blog/whats-happening-this-week-at-rocketchat"
 ---
 
 ![](/images/posts/2016/06/whats-happening-this-week-at-rocketchat/RC-BLOG-NEW%20STUFF.jpg?)

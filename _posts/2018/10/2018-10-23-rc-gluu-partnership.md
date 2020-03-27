@@ -1,14 +1,15 @@
 ---
-title: "Rocket.Chat announces partnership with Gluu, live from All Things Open 2018"
+title: Rocket.Chat announces partnership with Gluu, live from All Things Open 2018
+date: 2018-10-23 08:00:00 Z
 categories:
-  - News
-  - Product
-  - Case Studies
-date: 2018-10-23 08:00:00
+- News
+- Product
+- Case Studies
 author: Isabella Russell
-cover: /images/posts/2018/10/2018-10-22-rc-gluu-partnershi/gluu-rc-team-photo-cover.jpg
+cover: "/images/posts/2018/10/2018-10-22-rc-gluu-partnershi/gluu-rc-team-photo-cover.jpg"
 featured: true
 ---
+
 Rocket.Chat and [Gluu](https://www.gluu.org/) jointly announce an extensive partnership today to collaborate on identity and access management (IAM) and strong authentication for community, enterprise, and institutional customers.
 
 In accordance with this partnership, Rocket.Chat will work with Gluu to identify and support best practices for single sign-on (SSO), two-factor authentication (2FA), user enrollment, and access management in its industry-leading messaging platform. Gluu will in turn offer Rocket.Chat as an open source team collaboration and LiveChat platform to its clients.

@@ -1,12 +1,12 @@
 ---
-layout: en/legal
 title: Rocket.Chat Terms of Service
+permalink: "/terms"
+layout: en/legal
 class: legal
-permalink: /terms
 type: terms
 theme: light
 redirect_from:
-  - /terms/
+- "/terms/"
 ---
 
 _Effective date: March 16th, 2020_

@@ -1,12 +1,12 @@
 ---
-title: "Arvato Systems: creating connections at conferences and trade fairs"
+title: 'Arvato Systems: creating connections at conferences and trade fairs'
+date: 2017-01-25 06:01:00 Z
 categories:
-  - Product
-  - Case Studies
-date: 2017-01-25 06:01:00
+- Product
+- Case Studies
 author: Sing Li
-cover: /images/posts/2017/01/making-connections-at-conferences-and-trade-fairs/cover-meeting.jpg
-redirect_from: /blog/making-connections-at-conferences-and-trade-fairs
+cover: "/images/posts/2017/01/making-connections-at-conferences-and-trade-fairs/cover-meeting.jpg"
+redirect_from: "/blog/making-connections-at-conferences-and-trade-fairs"
 ---
 
 A problem faced by conference and trade event attendees is how difficult it can be to follow up with those they met at the event. Time restrictions and a wide variety of distractions both contribute to the issue, but it is ultimately the lack of a centralized communication platform that is to blame.

@@ -1,10 +1,10 @@
 ---
-title: "Rocket.Chat 0.63 Released"
+title: Rocket.Chat 0.63 Released
+date: 2018-04-11 08:00:00 Z
 categories:
-  - News
-date: 2018-04-11 08:00:00
+- News
 author: Rocket.Chat Team
-cover: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/cover-desktop-release.jpg
+cover: "/images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/cover-desktop-release.jpg"
 featured: true
 ---
 

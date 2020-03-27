@@ -1,12 +1,12 @@
 ---
-layout: en/legal
 title: Digital Millennium Copyright Act (DMCA) Policy
+permalink: "/dmca"
+layout: en/legal
 class: legal
-permalink: /dmca
 type: dmca
 theme: light
 redirect_from:
-  - /dmca/
+- "/dmca/"
 ---
 
 _Effective date: December 18, 2017_

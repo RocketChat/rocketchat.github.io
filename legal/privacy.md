@@ -1,12 +1,12 @@
 ---
+title: Rocket.Chat Privacy Policy
+permalink: "/privacy"
 layout: en/legal
 class: legal
-title: Rocket.Chat Privacy Policy
-permalink: /privacy
 type: privacy
 theme: light
 redirect_from:
-  - /privacy/
+- "/privacy/"
 ---
 
 _Effective date: March 2nd, 2020_

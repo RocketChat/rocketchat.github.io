@@ -1,13 +1,14 @@
 ---
-title: "Rocket.Chat introduces the all new LiveChat widget"
+title: Rocket.Chat introduces the all new LiveChat widget
+date: 2018-10-03 08:00:00 Z
 categories:
-  - News
-  - Product
-date: 2018-10-03 08:00:00
+- News
+- Product
 author: Gabriel Engel
-cover: /images/posts/2018/10/2018-10-03-introducing-rc-new-livechat/screen-grab.png
+cover: "/images/posts/2018/10/2018-10-03-introducing-rc-new-livechat/screen-grab.png"
 featured: false
 ---
+
 Rocket.Chat is introducing the all new LiveChat widget!
 
 <img alt="change department" src="{{'/images/posts/2018/10/2018-10-03-introducing-rc-new-livechat/change-department.png' | relative_url}}">

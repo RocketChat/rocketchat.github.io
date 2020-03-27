@@ -1,11 +1,11 @@
 ---
-title: "Migrating to Slack? Discover why Rocket.Chat could be your best option"
+title: Migrating to Slack? Discover why Rocket.Chat could be your best option
+date: 2020-02-18 12:00:00 Z
 categories:
 - News
 - Product
-date: 2020-02-18 12:00:00
 author: Rocket.Chat Team
-cover: /images/posts/2018/08/2018-08-7-welcome-to-rocketchat/hipchat-rc-cover.jpg
+cover: "/images/posts/2018/08/2018-08-7-welcome-to-rocketchat/hipchat-rc-cover.jpg"
 featured: true
 ---
 

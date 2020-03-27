@@ -1,12 +1,12 @@
 ---
-title: "Rocket.Chat partners with Amazon in launch of AWS Marketplace for Containers"
+title: Rocket.Chat partners with Amazon in launch of AWS Marketplace for Containers
+date: 2018-11-28 08:00:00 Z
 categories:
 - News
 - Product
-date: 2018-11-28 08:00:00
 author: Isabella Russell
-bgImage: /images/posts/2018/11/2018-11-28-rocket-chat-launches-on-aws-marketplace/aws-post-cover.jpg
-cover: /images/posts/2018/11/2018-11-28-rocket-chat-launches-on-aws-marketplace/aws-post-cover.jpg
+bgImage: "/images/posts/2018/11/2018-11-28-rocket-chat-launches-on-aws-marketplace/aws-post-cover.jpg"
+cover: "/images/posts/2018/11/2018-11-28-rocket-chat-launches-on-aws-marketplace/aws-post-cover.jpg"
 featured: true
 ---
 

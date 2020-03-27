@@ -1,14 +1,13 @@
 ---
-title: "Try Brave Browser-Support Rocket.Chat"
+title: Try Brave Browser-Support Rocket.Chat
+date: 2017-12-15 00:00:00 Z
 categories:
-  - Product
-  - News
-date: 2017-12-15 00:00:00
+- Product
+- News
 author: Sing Li
-cover: /images/posts/2017/12/try-brave-browser-and-support-rocket-chat/brave-rc.png
-redirect_from: /blog/try-brave-browser-and-support-rocket-chat
+cover: "/images/posts/2017/12/try-brave-browser-and-support-rocket-chat/brave-rc.png"
+redirect_from: "/blog/try-brave-browser-and-support-rocket-chat"
 ---
-
 
 Rocket.Chat is proud to be an official Brave verified publisher. Now you can support Rocket.Chat by using the Brave browser.
 

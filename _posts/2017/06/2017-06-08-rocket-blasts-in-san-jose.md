@@ -1,12 +1,12 @@
 ---
-title: "Rocket Blasts in San Jose"
+title: Rocket Blasts in San Jose
+date: 2017-06-08 18:57:52 Z
 categories:
-  - News
-  - Events
-date: 2017-06-08 18:57:52
+- News
+- Events
 author: Sing Li
-cover: /images/posts/2017/06/rocket-blasts-in-san-jose/cover-rocket-blasts-san-jose.jpg
-redirect_from: /blog/rocket-blasts-in-san-jose
+cover: "/images/posts/2017/06/rocket-blasts-in-san-jose/cover-rocket-blasts-san-jose.jpg"
+redirect_from: "/blog/rocket-blasts-in-san-jose"
 ---
 
 Hi everyone,

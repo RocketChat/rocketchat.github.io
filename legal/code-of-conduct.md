@@ -1,12 +1,12 @@
 ---
-layout: en/legal
 title: Code of Conduct
+permalink: "/code-of-conduct"
+layout: en/legal
 class: legal
-permalink: /code-of-conduct
 type: code-of-conduct
 theme: light
 redirect_from:
-  - /code-of-conduct/
+- "/code-of-conduct/"
 ---
 
 _Effective date: September 06, 2019_

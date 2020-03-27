@@ -1,10 +1,11 @@
 ---
-title: "Dark mode and Black mode - New themes for Rocket.Chat's iOS app (GSoC 2018 project)"
+title: Dark mode and Black mode - New themes for Rocket.Chat's iOS app (GSoC 2018
+  project)
+date: 2018-07-17 08:00:00 Z
 categories:
-  - News
-date: 2018-07-17 8:00:00
+- News
 author: Isabella Russell
-cover: /images/posts/2018/07/2018-07-17-gsoc-project-2/iPhone X-dark-mode-cover.png
+cover: "/images/posts/2018/07/2018-07-17-gsoc-project-2/iPhone X-dark-mode-cover.png"
 featured: true
 ios_release: true
 ---

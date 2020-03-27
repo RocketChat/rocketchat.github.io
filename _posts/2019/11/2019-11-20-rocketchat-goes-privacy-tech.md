@@ -1,11 +1,11 @@
 ---
-title: "Rocket.Chat goes Privacy Tech"
+title: Rocket.Chat goes Privacy Tech
+date: 2019-11-20 12:00:00 Z
 categories:
 - News
 - Product
-date: 2019-11-20 12:00:00
 author: Markus Kirsch
-cover: /images/posts/2019/11/lock.jpg
+cover: "/images/posts/2019/11/lock.jpg"
 featured: true
 ---
 

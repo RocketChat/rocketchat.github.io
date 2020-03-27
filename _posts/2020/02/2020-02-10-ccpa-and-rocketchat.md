@@ -1,11 +1,11 @@
 ---
-title: "California Consumer Privacy Act (CCPA) and Rocket.Chat"
+title: California Consumer Privacy Act (CCPA) and Rocket.Chat
+date: 2020-02-10 12:00:00 Z
 categories:
 - News
 - Product
-date: 2020-02-10 12:00:00
 author: Rocket.Chat Team
-cover: /images/posts/2020/02/ccpa.jpg
+cover: "/images/posts/2020/02/ccpa.jpg"
 featured: true
 ---
 

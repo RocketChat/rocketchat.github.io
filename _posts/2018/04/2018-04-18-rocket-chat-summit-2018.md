@@ -1,10 +1,10 @@
 ---
-title: "Rocket.Chat Summit 2018"
+title: Rocket.Chat Summit 2018
+date: 2018-04-18 10:00:00 Z
 categories:
-  - News
-date: 2018-04-18 10:00:00
+- News
 author: Isabella Russell
-cover: /images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/rocket-chat-team-summit-2018.jpg
+cover: "/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/rocket-chat-team-summit-2018.jpg"
 featured: true
 ---
 

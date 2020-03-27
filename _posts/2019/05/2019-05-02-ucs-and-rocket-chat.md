@@ -1,10 +1,10 @@
 ---
-title: "UCS: AD integration and Open Identity Management"
+title: 'UCS: AD integration and Open Identity Management'
+date: 2019-05-02 12:00:00 Z
 categories:
 - Case Studies
-date: 2019-05-02 12:00:00
 author: Nico Gulden
-cover: /images/posts/2019/05/ucs/cover.jpg
+cover: "/images/posts/2019/05/ucs/cover.jpg"
 featured: true
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: "How German Universities are improving their communication through Rocket.Chat"
+title: How German Universities are improving their communication through Rocket.Chat
+date: 2020-03-17 12:00:00 Z
 categories:
 - Case Studies
-date: 2020-03-17 12:00:00
-author:  Marcus Schopen and Björn Braunschweig
-cover: /images/posts/2020/03/uni.jpg
+author: Marcus Schopen and Björn Braunschweig
+cover: "/images/posts/2020/03/uni.jpg"
 featured: true
 ---
 

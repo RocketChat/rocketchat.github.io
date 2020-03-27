@@ -1,12 +1,12 @@
 ---
-layout: en/legal
 title: GDPR Compliance
+permalink: "/gdpr"
+layout: en/legal
 class: legal
-permalink: /gdpr
 type: gdpr
 theme: light
 redirect_from:
-  - /gdpr/
+- "/gdpr/"
 ---
 
 _Effective date: May 22, 2018_

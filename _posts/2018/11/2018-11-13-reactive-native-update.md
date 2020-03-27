@@ -1,11 +1,11 @@
 ---
-title: "Testing React Native for Rocket.Chat: a progress report"
+title: 'Testing React Native for Rocket.Chat: a progress report'
+date: 2018-11-13 08:00:00 Z
 categories:
 - Product
 - Case studies
-date: 2018-11-13 08:00:00
 author: Isabella Russell
-cover: /images/posts/2018/11/2018-11-13-reactive-native-update/ios-prints-RN.png
+cover: "/images/posts/2018/11/2018-11-13-reactive-native-update/ios-prints-RN.png"
 featured: true
 ---
 

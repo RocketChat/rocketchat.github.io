@@ -1,12 +1,12 @@
 ---
-layout: en/legal
 title: Limitation of Responsibility
+permalink: "/limitation"
+layout: en/legal
 class: legal
-permalink: /limitation
 type: limitation
 theme: light
 redirect_from:
-  - /limitation/
+- "/limitation/"
 ---
 
 # Limitation of Responsibility

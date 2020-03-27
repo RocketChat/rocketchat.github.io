@@ -1,13 +1,14 @@
 ---
-title: "Bots or Not? Looking at the Potential for Bot Integration"
+title: Bots or Not? Looking at the Potential for Bot Integration
+date: 2017-06-05 16:08:20 Z
 categories:
-  - Product
-  - Case Studies
-date: 2017-06-05 16:08:20
+- Product
+- Case Studies
 author: Sing Li
-cover: /images/posts/2017/06/bots-or-not-looking-at-the-potential-for-bot-integration/cover-bot.jpg
-redirect_from: /blog/bots-or-not-looking-at-the-potential-for-bot-integration
+cover: "/images/posts/2017/06/bots-or-not-looking-at-the-potential-for-bot-integration/cover-bot.jpg"
+redirect_from: "/blog/bots-or-not-looking-at-the-potential-for-bot-integration"
 ---
+
 Bots have been around forever, and they continue to be somewhat imperfect. For those who aren't clued up on bots, here is what you need to know. They are programs that let you carry out "conversations" (ie. type a question or command) and get an answer or accomplish your goal from within the app.
 
 

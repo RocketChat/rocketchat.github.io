@@ -1,14 +1,12 @@
 ---
-title: "14 Hacks To Keep Run Your Business Through COVID-19 Lockup"
+title: 14 Hacks To Keep Run Your Business Through COVID-19 Lockup
+date: 2020-03-26 12:00:00 Z
 categories:
 - News
-date: 2020-03-26 12:00:00
 author: Júlia Grala
-cover: /images/posts/2020/03/14-hacks.jpg
+cover: "/images/posts/2020/03/14-hacks.jpg"
 featured: true
 ---
-
-
 
 [Using the right tools](https://rocket.chat/2020/03/26/remote-work-tools/), working remotely comes with numerous benefits. It gives employees independence, enables the company to hire talent worldwide, saves time and money with transportation, reduces ecological footprint and can boost team productivity.
 

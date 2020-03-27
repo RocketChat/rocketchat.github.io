@@ -1,10 +1,10 @@
 ---
-title: "COVID-19: Keep productive with the 6 ultimate tools for remote work"
+title: 'COVID-19: Keep productive with the 6 ultimate tools for remote work'
+date: 2020-03-26 12:00:00 Z
 categories:
 - News
-date: 2020-03-26 12:00:00
 author: Lucia Fallavena
-cover: /images/posts/2020/03/remote-tools.jpg
+cover: "/images/posts/2020/03/remote-tools.jpg"
 featured: true
 ---
 

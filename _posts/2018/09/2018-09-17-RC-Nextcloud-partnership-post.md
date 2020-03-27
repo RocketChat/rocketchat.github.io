@@ -1,12 +1,12 @@
 ---
-title: "Rocket.Chat announces partnership and integration with Nextcloud"
+title: Rocket.Chat announces partnership and integration with Nextcloud
+date: 2018-09-17 08:00:00 Z
 categories:
 - News
 - Product
 - Case Studies
-date: 2018-09-17 08:00:00
 author: Isabella Russell
-cover: /images/posts/2018/09/2018-09-17-RC-Nextcloud-partnership-post/rocketchat-nextcloud.jpg
+cover: "/images/posts/2018/09/2018-09-17-RC-Nextcloud-partnership-post/rocketchat-nextcloud.jpg"
 featured: true
 ---
 

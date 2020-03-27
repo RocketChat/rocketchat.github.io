@@ -1,10 +1,10 @@
 ---
-title: "The Wonderful Rocket.Chat Summit 2020, Gramado, Brazil"
+title: The Wonderful Rocket.Chat Summit 2020, Gramado, Brazil
+date: 2020-03-02 12:00:00 Z
 categories:
 - News
-date: 2020-03-02 12:00:00
 author: Rocket.Chat Team
-cover: /images/posts/2020/03/summit.gif
+cover: "/images/posts/2020/03/summit.gif"
 featured: true
 ---
 

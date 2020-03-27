@@ -1,13 +1,15 @@
 ---
-title: "Rocket.Chat renews support for Open Source Initiative, live from All Things Open 2018"
+title: Rocket.Chat renews support for Open Source Initiative, live from All Things
+  Open 2018
+date: 2018-10-22 08:00:00 Z
 categories:
 - News
 - Product
-date: 2018-10-22 08:00:00
 author: Isabella Russell
-cover: /images/posts/2018/10/2018-10-22-rc-joins-OSI/rc-osi-cover.JPG
+cover: "/images/posts/2018/10/2018-10-22-rc-joins-OSI/rc-osi-cover.JPG"
 featured: true
 ---
+
 ### Rocket.Chat stays on as Corporate Sponsor
 The Open Source Initiative (OSI), the founding organization of the open source software movement, announced Rocket.Chat has continued its support for the global non-profit as a Corporate Sponsor. Rocket.Chat joins Craigslist Foundation, Facebook, Github, Google, Heptio, HPE, IBM, USB Direct, and many more sponsors, supporters and members committed to increasing awareness of open source software, and participation within the innovative communities that enable its continued advancement.
 

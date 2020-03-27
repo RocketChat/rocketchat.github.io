@@ -1,10 +1,10 @@
 ---
-title: "Rocket.Chat 0.66 Released"
+title: Rocket.Chat 0.66 Released
+date: 2018-07-17 08:00:00 Z
 categories:
-  - News
-date: 2018-07-17 08:00:00
+- News
 author: Rocket.Chat Team
-cover: /images/posts/2018/07/2018-07-17-v66-release-post/0.66-cover.jpg
+cover: "/images/posts/2018/07/2018-07-17-v66-release-post/0.66-cover.jpg"
 featured: true
 ---
 

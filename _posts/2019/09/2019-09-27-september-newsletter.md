@@ -1,11 +1,11 @@
 ---
-title: "AMA webinar, Gabriel talks about our future and our new 2.1.0 release"
+title: AMA webinar, Gabriel talks about our future and our new 2.1.0 release
+date: 2019-09-27 12:00:00 Z
 categories:
 - Videos
-date: 2019-09-27 12:00:00
 videoURL: https://www.youtube.com/embed/i8gZxR56OPc
 author: Marti Stephen
-cover: /images/blog/news-video.png
+cover: "/images/blog/news-video.png"
 featured: false
 ---
 

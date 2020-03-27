@@ -1,11 +1,11 @@
 ---
 title: IndieHosters - supporting internet freedom
+date: 2016-07-19 12:31:59 Z
 categories:
-  - Case Studies
-date: 2016-07-19 12:31:59
+- Case Studies
 author: Marcelo Schmidt
-cover: /images/posts/2016/07/viva-liberte-indiehosters-supporting-internet-freedom-with-open-source-chat/indiehosters-4.jpg
-redirect_from: /blog/viva-liberte-indiehosters-supporting-internet-freedom-with-open-source-chat
+cover: "/images/posts/2016/07/viva-liberte-indiehosters-supporting-internet-freedom-with-open-source-chat/indiehosters-4.jpg"
+redirect_from: "/blog/viva-liberte-indiehosters-supporting-internet-freedom-with-open-source-chat"
 ---
 
 One of the most rewarding developments for our team over the past year has been the success of <a href="https://indiehosters.net/" target="_blank">IndieHosters</a>, a company that helps organizations to achieve more freedom and individual security.

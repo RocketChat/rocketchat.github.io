@@ -1,12 +1,12 @@
 ---
-title: "Open source and higher education"
+title: Open source and higher education
+date: 2018-03-01 16:11:00 Z
 categories:
-  - Case Studies
-  - Product
-date: 2018-03-01 16:11
+- Case Studies
+- Product
 author: Louise Message
-cover: /images/posts/2018/03/03-13-18-open-source-higher-education-cover.jpg
-redirect_from: /2017/03/01/open-source-higher-education/
+cover: "/images/posts/2018/03/03-13-18-open-source-higher-education-cover.jpg"
+redirect_from: "/2017/03/01/open-source-higher-education/"
 featured: true
 ---
 

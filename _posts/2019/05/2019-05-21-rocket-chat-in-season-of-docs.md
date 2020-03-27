@@ -1,10 +1,10 @@
 ---
-title: "Tech writers join Rocket.Chat for Google Season of Docs"
+title: Tech writers join Rocket.Chat for Google Season of Docs
+date: 2019-05-21 12:00:00 Z
 categories:
 - Product
-date: 2019-05-21 12:00:00
 author: Martin Schoeler
-cover: /images/posts/2019/05/gsod/gsod.png
+cover: "/images/posts/2019/05/gsod/gsod.png"
 featured: true
 ---
 

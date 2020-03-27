@@ -1,14 +1,15 @@
 ---
-title: "Rocket.Chat in Barcelona"
+title: Rocket.Chat in Barcelona
+date: 2016-12-23 10:51:42 Z
 categories:
-  - Case Studies
-  - Product
-  - News
-date: 2016-12-23 10:51:42
+- Case Studies
+- Product
+- News
 author: Marcelo Schmidt
-cover: /images/posts/2016/12/rocketchat-in-barcelona/cover-barcelona.jpg
-redirect_from: /blog/rocketchat-in-barcelona
+cover: "/images/posts/2016/12/rocketchat-in-barcelona/cover-barcelona.jpg"
+redirect_from: "/blog/rocketchat-in-barcelona"
 ---
+
 Governments around the world are turning to open source software to fulfil their communication, operational and administrative needs.
 
 Open source solutions such as Rocket.Chat offer economic savings, transparency of source code and design, a growing global pool of development and consulting talent and can help prevent vendor lock-in.
