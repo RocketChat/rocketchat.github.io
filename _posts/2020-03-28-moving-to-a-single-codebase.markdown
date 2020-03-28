@@ -9,7 +9,7 @@ featured: true
 cover: "/images/posts/2020/03/remote-work-best.png"
 ---
 
-In Release 3.1.0, we combined Rocket.Chat Enterprise Edition (EE) and Rocket.Chat Community Edition (CE) into a single codebase.
+# In Release 3.1.0, we combined Rocket.Chat Enterprise Edition (EE) and Rocket.Chat Community Edition (CE) into a single codebase.
 
 We believe open source is best done transparently. We feel that communicating clearly and concisely what we are changing, adding, or fixing is a matter of high importance when it comes to our community.
 
