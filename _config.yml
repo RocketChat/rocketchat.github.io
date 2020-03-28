@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    lang: en
   uploads:
     title: Uploads
     output: true
