@@ -6,6 +6,8 @@ collections:
     title: Posts
     output: true
     lang: en
+    class: post
+    featured: false
   uploads:
     title: Uploads
     output: true
