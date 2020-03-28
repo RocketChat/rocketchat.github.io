@@ -63,4 +63,4 @@ If you have questions and want to learn more about what went on behind the scene
 
 * Ask me anything with Gabriel, in April: live session recorded to clarify doubts or concerns you might have about our release, or simply share thoughts and perceptions with us.
 
-* Let us know what you think on our forum announcement.
+* Let us know what you think on our [forum announcement](https://forums.rocket.chat/t/rocket-chat-is-moving-to-a-single-codebase/6259).
