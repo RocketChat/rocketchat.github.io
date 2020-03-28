@@ -19,11 +19,11 @@ This article will dive into our decision to switch Rocket.Chat over to a single 
 
 Firstly, it is crucial to understand that, with this change:
 
-* Rocket.Chat Community Edition remains open source and MIT licensed.
+* **Rocket.Chat Community Edition remains open source and MIT licensed.**
 
-* Rocket.Chat Enterprise Edition becomes source-available with a proprietary license
+* **Rocket.Chat Enterprise Edition becomes source-available with a proprietary license**
 
-* We foresee a wide range of benefits to the community after this change.
+* **We foresee a wide range of benefits to the community after this change.**
 
 Let's dive into each topic to give you a better understanding of these topics.
 
