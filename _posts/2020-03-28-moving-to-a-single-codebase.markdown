@@ -6,7 +6,7 @@ categories:
 - News
 author: Gabriel Engel
 featured: true
-cover: "/images/posts/2020/03/remote-work-best.png"
+cover: "/uploads/merging.png"
 ---
 
 # In Release 3.1.0, we combined Rocket.Chat Enterprise Edition (EE) and Rocket.Chat Community Edition (CE) into a single codebase.
