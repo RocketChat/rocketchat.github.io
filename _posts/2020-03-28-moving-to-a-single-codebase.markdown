@@ -33,11 +33,11 @@ Rocket.Chat's codebase will remain under the MIT license. The same applies to ou
 
 ### Rocket.Chat Enterprise Edition becomes source-available with a proprietary license
 
-The merge of the Community Edition and Enterprise Edition makes available the formerly unavailable Enterprise Edition code. It is totally optional and can be easily excluded via instructions that will be provided. The Community Edition will always be able to run independently from the Enterprise's codebase.
+The merge of the Community Edition and Enterprise Edition makes available the formerly unavailable Enterprise Edition code. It is totally optional and can be easily excluded. The Community Edition will always be able to run independently from the Enterprise's codebase.
 
 In regards to the official installation channels (Ex: Docker, Snap), you can still use them with its free open-source MIT license, but it will be easier to activate an Enterprise license key if you want. We are working to deliver new FOSS images without the proprietary code soon.
 
-Moreover, the Enterprise Edition features will remain proprietary resources. In other words, you are able to use the software for development and testing purposes, as stated in our License. However, if you wish to fully use EE's features, such as Engagement Dashboard, Premium Support, among others, it will be necessary to acquire a paid license.
+Moreover, the Enterprise Edition features will remain proprietary resources. In other words, you can use the software for development and testing purposes, as stated in our License. However, if you wish to fully use EE's features, such as Engagement Dashboard, Premium Support, among others, it will be necessary to acquire a paid license.
 
 ## How will our community benefit from this change?
 
@@ -55,7 +55,7 @@ The community won’t need to contact us or have any inconvenience in order to t
 
 ## Conclusion
 
-We expect the move to a single codebase to go smoothly. Rocket.Chat has invested significant development time to guarantee that this change will have no major impacts, and we forecast significant benefits for the company’s development and the community.
+We expect the move to a single codebase to go smoothly. Rocket.Chat has invested significant development time to guarantee that this change will have no major impacts, and we forecast substantial benefits for the company’s development and the community.
 
 **We hope to count on your support at this new stage.**
 
