@@ -334,6 +334,14 @@
   username: paris.dufrayer
   photo: yes
   country: Spain
+  
+- name: Lucia Fallavena
+  role: Content Marketing Analyst
+  github_username: luciafallavena
+  department: Marketing
+  username: lucia.fallavena
+  photo: yes
+  country: Portugal
 
 - name: Thassio Carvalho
   role: Backend Developer
@@ -342,3 +350,5 @@
   username: thassio.carvalho
   photo: yes
   country: Brazil
+  
+
