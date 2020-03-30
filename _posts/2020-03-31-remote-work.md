@@ -1,6 +1,6 @@
 ---
 title: Best Practices to Work Remotely With Rocket.Chat
-date: 2020-03-24 00:00:00 Z
+date: 2020-03-31 00:00:00 Z
 categories:
 - Webinars
 description: Best Practices to Work Remotely With Rocket.Chat
