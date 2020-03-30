@@ -1,9 +1,9 @@
 ---
+title: Rocket.Chat Bots
+permalink: "/bots"
 layout: en/default
 class: bots
-title: Rocket.Chat Bots
-permalink: /bots
-redirect_from: /bots/
+redirect_from: "/bots/"
 theme: dark
 ---
 
