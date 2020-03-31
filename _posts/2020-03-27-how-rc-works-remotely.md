@@ -4,7 +4,7 @@ date: 2020-03-27 12:00:00 Z
 categories:
 - News
 author: Júlia Grala
-cover: /images/posts/2020/03/how-rc-works-remotely/1.png
+cover: "/images/posts/2020/03/how-rc-works-remotely/1.png"
 featured: true
 ---
 
