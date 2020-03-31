@@ -1,8 +1,8 @@
 ---
-title: "How Rocket.Chat collaborates remotely"
+title: How Rocket.Chat collaborates remotely
+date: 2020-03-27 12:00:00 Z
 categories:
 - News
-date: 2020-03-27 12:00:00
 author: Júlia Grala
 cover: /images/posts/2020/03/how-rc-works-remotely/1.png
 featured: true
