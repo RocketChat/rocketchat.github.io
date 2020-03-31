@@ -5,7 +5,6 @@ categories:
 - Webinars
 description: How Rocket.Chat uses Rocket.Chat to work remotely
 webinarID: 16
-webinarURL: https://www.youtube.com/embed/i4lgjh6osi0
 dateEvent: 2020-04-06 12:30:00 Z
 bgSize: cover
 lead-source: Webinar Remote Work
@@ -13,8 +12,8 @@ bgColor: 030c1a
 hosts:
 - Eduardo Pereira
 language: USA
-gmt: -4
-cover: "/images/posts/2020/03/remote-work-best.png"
+gmt: EDT
+cover: "/images/posts/2020/03/remote-work-best1.png"
 ---
 
 We have seen lots of companies sharing their thoughts on the current situation. But we haven’t seen many people talk about what they’re actually doing.
