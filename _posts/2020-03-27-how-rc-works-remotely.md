@@ -1,10 +1,10 @@
 ---
-title: "How Rocket.Chat collaborates remotely"
+title: How Rocket.Chat collaborates remotely
+date: 2020-03-27 12:00:00 Z
 categories:
 - News
-date: 2020-03-27 12:00:00
 author: Júlia Grala
-cover: /images/posts/2020/03/remote-tools.jpg
+cover: "/images/posts/2020/03/remote-tools.jpg"
 featured: true
 ---
 
