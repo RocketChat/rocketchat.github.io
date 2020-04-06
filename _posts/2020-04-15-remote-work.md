@@ -13,7 +13,6 @@ hosts:
 - Marketing Team
 language: USA
 gmt: -3
-
 cover: "/images/posts/2020/03/remote-work-admin-101.jpg"
 ---
 
