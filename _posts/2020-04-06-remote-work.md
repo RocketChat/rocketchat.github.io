@@ -13,7 +13,7 @@ hosts:
 - Eduardo Pereira
 language: USA
 gmt: EDT
-cover: "/images/posts/2020/03/remote-work-best1.jpg"
+cover: "/images/posts/2020/03/remote-work-best1.png"
 ---
 
 We have seen lots of companies sharing their thoughts on the current situation. But we haven’t seen many people talk about what they’re actually doing.
