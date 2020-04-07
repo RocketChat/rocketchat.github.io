@@ -1,5 +1,6 @@
 ---
-title: Integrating Rocket.Chat - Exploring tools developers will absolutely need in 2020.
+title: Integrating Rocket.Chat - Exploring tools developers will absolutely need in
+  2020.
 date: 2020-04-22 00:00:00 Z
 categories:
 - Webinars
@@ -13,7 +14,6 @@ hosts:
 - Marketing Team
 language: USA
 gmt: -3
-
 cover: "/images/posts/2020/03/remote-work-dev-tools.jpg"
 ---
 
