@@ -101,6 +101,8 @@ This Usage Data may include information such as your computer's Internet Protoco
 
 When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, the IP address of your mobile device, your mobile operating system, the app version, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
 
+As a byproduct of the usage data within a Rocket.Chat instance, Administrators may chose to share aggregated and therefore anonymous, non-personal data with us to help us learn more about how our product is being used. The information shared is the same information as is shown on the "info"-page of the administration panel of an instance. E.g. this statistics sharing would transmit the total # of channels, but it would not transmit the actual channel names, and so on, preserving privacy of your workspace. This is completely optional to use and can be activated and deactivated any time.
+
 #### Location Data
 
 We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service (only to allow you to share your location to another user via Rocket.Chat, if it was enabled by the administrator).
