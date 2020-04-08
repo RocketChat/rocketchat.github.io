@@ -23,7 +23,7 @@ Summary
 
   * Administrators are responsible for user privacy, we help administrators
 
-    There are basically two ways of using Rocket.Chat: self-managed on your own or someone else´s infrastructure or via our hosted offering. In both cases, the administrator of that instance - or the organization behind the administrator - is the person responsible to ensure privacy of Rocket.Chat users. We aim to help by providing features in our products and services to make that job easier. We also provide this policy to explain what we do as a "helping hand"/data processor for administrators.
+    There are basically two ways of using Rocket.Chat: self-managed (also known as on-premises deployment) on your own or someone else´s infrastructure or via our hosted offering. In both cases, the administrator of that instance - or the organization behind the administrator - is the person responsible to ensure privacy of Rocket.Chat users. We aim to help by providing features in our products and services to make that job easier. We also provide this policy to explain what we do as a "helping hand"/data processor for administrators in case we process personal data of users.
     
   * You remain in control of your personal data
       
@@ -35,7 +35,7 @@ Summary
     
   * Our community server is for testing purposes
   
-    Our community server https://open.rocket.chat is a testing ground for our users and we use it to test new features. We track user activity in there with the trackers described below to learn how our service is used and to improve our product. Still, we do not sell that data.    
+    Our community server https://open.rocket.chat is a testing ground for our users and we use it to test and analyze new features. We track user activity in there with the trackers described below - including google analytics - to learn how our service is used and to improve our product.
     
 
 Definitions
@@ -103,7 +103,7 @@ When you access the Service by or through a mobile device, this Usage Data may i
 
 #### Location Data
 
-We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service (e.g to allow you to share your location to another user via Rocket.Chat).
+We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service (only to allow you to share your location to another user via Rocket.Chat, if it was enabled by the administrator).
 
 You can enable or disable location services when you use our Service at any time, through your device settings.
 
