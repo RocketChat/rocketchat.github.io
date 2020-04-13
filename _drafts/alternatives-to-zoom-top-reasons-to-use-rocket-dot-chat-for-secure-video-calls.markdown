@@ -14,9 +14,11 @@ As companies experience the outbreak of COVID-19, you’re likely holding team m
 
 ![gabriel-benois-qnWPjzewewA-unsplash (1).jpg](/uploads/gabriel-benois-qnWPjzewewA-unsplash%20(1).jpg)
 
-Many remote companies trust proprietary-code platforms, such as Skype or Zoom, to communicate online. Although easily accessible, they do not disclose how they actually function; they are often vague about how they technically handle user privacy and how your data is secured (or often not secured). 
+Many remote companies trust proprietary-code platforms, such as Skype or Zoom, to communicate online. 
 
-By using these applications, you take the risk of:
+Although easily accessible, **they do not disclose how they actually function**. They often are vague about how they technically handle user privacy and how your data is secured (or often *not secured*). 
+
+By using such applications, you take the risk of:
 
 * Being *[Zoombombed](https://thenextweb.com/security/2020/04/06/nyc-classrooms-cancel-zoom-after-trolls-make-zoombombing-a-thing/)* in a private call (when strangers join your video call)
 
@@ -76,26 +78,29 @@ Both come with similar advantages as Rocket.Chat:
 
 * Transparent about how your data is used
 
-Let's explore these two options below.
+Let's explore these two integrations.
 
 ### 1) Jitsi Integration
 
 Jitsi is an open-source video platform to easily make secure video calls. At the heart of the Jitsi platform is Jitsi Meet, which let you have conferences on the internet.
 
-**As a safer alternative to Zoom, Jitsi is also encrypted**. This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted. 
+**As a safer alternative to Zoom, Jitsi is also encrypted**. 
+
+This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted. 
 
 Check out the video made by Jitsi explaining how this encryption works:
 
-### **Since encryption is important for many organizations, how to combine the best of both?**
+\[place video here\]
 
+### **Since encryption is important for many organizations, how to combine the best of both?**
 
 Rocket.Chat can combine the best of both team chat and video call worlds.
 
-Using Rocket.Chat's end-to-end encryption feature for a chat and Jitsi's peer 2 peer or video bridge encryption for your video /audio calls.
+You can use Rocket.Chat's end-to-end encryption feature for a chat and Jitsi's peer 2 peer or video bridge encryption for your video /audio calls.
 
 By doing so, you guarantee a reliable and robust group video chat, audio chat, and screen sharing experience. For even more control, you can run a private Jitsi server. Read more about Security & Privacy in Jitsi here.
 
-Here is how to enable Jitsi in your Rocket.Chat environment.
+[Find here ](https://rocket.chat/docs/administrator-guides/setting-up-video-conferencing/)how to enable Jitsi in your Rocket.Chat environment.
 
 ### 2) Big Blue Button Integration
 
@@ -103,11 +108,13 @@ Born as an open-source video system for online learning, Big Blue Button rapidly
 
 This web-conferencing solution goes way beyond sharing screens and holding video calls. It relies on the same safe parameters that Jitsi uses, such as:
 
-It doesn't require external downloads, all you need is a credential to enter a call
-Only people invited to your private channels in Rocket.Chat are able to join calls
-No invitation links are generated in order to the meeting to take place, a quick click and you have your call started
+* It doesn't require external downloads, all you need is a credential to enter a call
 
-To use Big Blue Button within your Rocket.Chat's environment, we suggest contacting our partner Elos.
+* Only people invited to your private channels in Rocket.Chat are able to join calls
+
+* No invitation links are generated in order to the meeting to take place, a quick click and you have the call started
+
+To use Big Blue Button within your Rocket.Chat's environment, we suggest contacting our partner [Elos](https://elos.vc/site/en/).
 
 As you see, Rocket.Chat is a whole communication solution and a great alternative to holding high-security videoconferences.
 
