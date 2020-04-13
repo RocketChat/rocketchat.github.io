@@ -5,11 +5,15 @@ author: Lucia Fallavena & Markus Kirsch
 Field name: 
 ---
 
+![93132838_2621634237946472_1991729356250021888_n (1).png](/uploads/93132838_2621634237946472_1991729356250021888_n%20(1).png)
+
 ## Seeking high-security alternatives to Zoom? Check out how Rocket.Chat ensures privacy in your video calls
 
 As companies experience the outbreak of COVID-19, you’re likely holding team meetings with Zoom, Skype or similar applications. While Coronavirus made these applications popular, it also exposed serious [privacy issues](https://www.nytimes.com/2020/03/30/technology/new-york-attorney-general-zoom-privacy.html?searchResultPosition=1) and [security](https://www.theverge.com/2020/4/5/21208636/zoom-ceo-yuan-security-privacy-concerns) problems. 
 
 ## Why tools like Skype or Zoom might be unreliable for video calls? 
+
+![gabriel-benois-qnWPjzewewA-unsplash (1).jpg](/uploads/gabriel-benois-qnWPjzewewA-unsplash%20(1).jpg)
 
 Many remote companies trust proprietary-code platforms, such as Skype or Zoom, to communicate online. Although easily accessible, they do not disclose how they actually function; they are often vague about how they technically handle user privacy and how your data is secured (or often not secured). By using these applications, you take the risk of:
 
