@@ -14,9 +14,9 @@ As companies experience the outbreak of COVID-19, you’re likely holding team m
 
 ![gabriel-benois-qnWPjzewewA-unsplash (1).jpg](/uploads/gabriel-benois-qnWPjzewewA-unsplash%20(1).jpg)
 
-Many remote companies trust proprietary-code platforms, such as Skype or Zoom, to communicate online. 
+Many remote companies trust proprietary-code platforms, such as Skype or Zoom, to communicate online.
 
-Although easily accessible, **they do not disclose how they actually function**. They often are vague about how they technically handle user privacy and how your data is secured (or often *not secured*). 
+Although easily accessible, **they do not disclose how they actually function**. They often are vague about how they technically handle user privacy and how your data is secured (or often *not secured*).
 
 By using such applications, you take the risk of:
 
@@ -28,7 +28,7 @@ By using such applications, you take the risk of:
 
 When looking for a private and secured platform for video calls, you should insist on a few details:
 
-* **Transparency in the form of \*open-source \*code. **So everyone sees how the platform works, and global security experts can examine the code upon every single release ([and they DO i](https://www.theregister.co.uk/2016/11/18/hackers_modular_worm_builder_pwns_almost_all_popular_team_chat_apps/)t, because leading research institutions and security organizations are users of Rocket.Chat
+* \*\*Transparency in the form of \*open-source \*code. \*\*So everyone sees how the platform works, and global security experts can examine the code upon every single release ([and they DO i](https://www.theregister.co.uk/2016/11/18/hackers_modular_worm_builder_pwns_almost_all_popular_team_chat_apps/)t, because leading research institutions and security organizations are users of Rocket.Chat
 
 * **Full control over your own configuration**. No need to share  with thousands of other companies
 
@@ -54,13 +54,11 @@ You can run Rocket.Chat virtually on any hardware or private cloud. You control 
 
 ✔️**No need to install external apps.**
 
-Rocket.Chat can be used via your browser - no plugins required.
-
-On mobile phones or tablets, Rocket.Chat is available FREE from Google Play and Apple App Store.
+Rocket.Chat can be used via your browser - no plugins required. On mobile phones or tablets, Rocket.Chat is available FREE from Google Play and Apple App Store.
 
 ✔️**End-to-End encryption of chats**
 
-Rocket.Chat has the optional capability to encrypt your chats end-to-end. With this feature enabled, only the participants of a chat can decrypt and read the content of a message. 
+Rocket.Chat has the optional capability to encrypt your chats end-to-end. With this feature enabled, only the participants of a chat can decrypt and read the content of a message.
 
 You can also choose on a channel-by-channel basis to enable the feature, in turn giving you the flexibility to decide about what remains private and what can be visible to other users of the system.
 
@@ -68,9 +66,7 @@ You can also choose on a channel-by-channel basis to enable the feature, in turn
 
 ![zoom.png](/uploads/zoom.png)
 
-Rocket.Chat natively supports two main pluggable video conferencing systems: [Jitsi](https://rocket.chat/docs/administrator-guides/setting-up-video-conferencing/) and [Big Blue Button](https://bigbluebutton.org/).
-
-Both come with similar advantages as Rocket.Chat:
+Rocket.Chat natively supports two main pluggable video conferencing systems: [Jitsi](https://rocket.chat/docs/administrator-guides/setting-up-video-conferencing/) and [Big Blue Button](https://bigbluebutton.org/). Both come with similar advantages as Rocket.Chat:
 
 * Open-source
 
@@ -82,15 +78,13 @@ Let's explore these two integrations.
 
 ### 1) Jitsi Integration
 
-Jitsi is an open-source video platform to easily make secure video calls. At the heart of the Jitsi platform is Jitsi Meet, which let you have conferences on the internet.
+Jitsi is an open-source video platform to easily make secure video calls. At the heart of the Jitsi platform is Jitsi Meet, which let you have conferences on the internet. **As a safer alternative to Zoom, Jitsi is also encrypted**.
 
-**As a safer alternative to Zoom, Jitsi is also encrypted**. 
-
-This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted. 
+This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted.
 
 Check out the video made by Jitsi explaining how this encryption works:
 
-\[place video here\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QNKemVNrCbI" style="margin: auto;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### **Since encryption is important for many organizations, how to combine the best of both?**
 
@@ -100,7 +94,7 @@ You can use Rocket.Chat's end-to-end encryption feature for a chat and Jitsi's p
 
 ![giphy.gif](/uploads/giphy.gif)
 
-By doing so, you guarantee a reliable and robust group video chat, audio chat, and screen sharing experience. For even more control, you can run a private Jitsi server. Read more about Security & Privacy in Jitsi here.
+By doing so, you guarantee a reliable and robust group video chat, audio chat, and screen sharing experience. For even more control, you can run a private Jitsi server. Read more about Security & Privacy in Jitsi [here](https://jitsi.org/news/security/).
 
 [Find here ](https://rocket.chat/docs/administrator-guides/setting-up-video-conferencing/)how to enable Jitsi in your Rocket.Chat environment.
 
@@ -110,7 +104,7 @@ Born as an open-source video system for online learning, Big Blue Button rapidly
 
 This web-conferencing solution goes way beyond sharing screens and holding video calls. It relies on the same safe parameters that Jitsi uses, such as:
 
-* It doesn't require external downloads, all you need is a credential to enter a call
+* It doesn't require external downloads: all you need is a credential to enter a call
 
 * Only people invited to your private channels in Rocket.Chat are able to join calls
 
