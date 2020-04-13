@@ -2,9 +2,6 @@
 title: Free, Open Source, Enterprise Team Chat
 timezone: UTC
 collections:
-  i:
-    title: Images
-    output: true
   posts:
     title: Posts
     output: true
