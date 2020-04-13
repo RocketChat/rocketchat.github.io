@@ -1,8 +1,6 @@
 ---
 title: 'Alternatives to Zoom: Top Reasons to Use Rocket.Chat For Secure Video Calls'
 date: 2020-04-13 11:21:00 Z
-categories:
-- News
 author: Lucia Fallavena & Markus Kirsch
 cover: "/uploads/93132838_2621634237946472_1991729356250021888_n%20(1).png"
 featured: true
@@ -30,13 +28,13 @@ By using such applications, you take the risk of:
 
 When looking for a private and secured platform for video calls, you should insist on a few details:
 
-* **Transparency in the form of open-source code**. So everyone sees how the platform works, and global security experts can examine the code upon every single release ([and they DO i](https://www.theregister.co.uk/2016/11/18/hackers_modular_worm_builder_pwns_almost_all_popular_team_chat_apps/)t, because leading research institutions and security organizations are users of Rocket.Chat
+* **Transparency in the form of open-source code**. So everyone sees how the platform works, and global security experts can examine the code upon every single release ([and they DO it](https://www.theregister.co.uk/2016/11/18/hackers_modular_worm_builder_pwns_almost_all_popular_team_chat_apps/), because leading research institutions and security organizations are users of Rocket.Chat
 
-* **Full control over your own configuration**. No need to share  with thousands of other companies
+* **Full control over your own configuration**.** **No need to share  with thousands of other companies
 
-* **Secure encryption options available**
+* **Secure encryption options available **(we will explore this topic in the next paragraphs)
 
-*Moving your classes online?[ Here's how Rocket.Chat helps you become compliant.](https://drive.google.com/open?id=1HelQI76vh9OQ8Jlv7hcSjJq-DqAEF_QS)*
+  *Moving your classes online? [Here's how Rocket.Chat helps you become compliant.](https://drive.google.com/open?id=1HelQI76vh9OQ8Jlv7hcSjJq-DqAEF_QS)*
 
 ## Rocket.Chat's video calls: How do we compare to other tools?
 
@@ -98,7 +96,7 @@ You can use Rocket.Chat's end-to-end encryption feature for a chat and Jitsi's p
 
 By doing so, you guarantee a reliable and robust group video chat, audio chat, and screen sharing experience. For even more control, you can run a private Jitsi server. Read more about Security & Privacy in Jitsi [here](https://jitsi.org/news/security/).
 
-[Find here ](https://rocket.chat/docs/administrator-guides/setting-up-video-conferencing/)how to enable Jitsi in your Rocket.Chat environment.
+[Find here](https://rocket.chat/docs/administrator-guides/setting-up-video-conferencing/) how to enable Jitsi in your Rocket.Chat environment.
 
 ### 2) Big Blue Button Integration
 
