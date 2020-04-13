@@ -112,8 +112,10 @@ This web-conferencing solution goes way beyond sharing screens and holding video
 
 To use Big Blue Button within your Rocket.Chat's environment, we suggest contacting our partner [Elos](https://elos.vc/site/en/).
 
-As you see, Rocket.Chat is a whole communication solution and a great alternative to holding high-security videoconferences.
+_______________________________________________________________
 
-\+10 million users in 140 countries trust our platform to collaborate remotely.
+As you see, Rocket.Chat is a complete [communication solution](https://rocket.chat/team-collab) and a great alternative to holding high-security videoconferences.
 
-{% include components/card-box.html lang=include.lang box-type="post-cta-box" extra-classes="long astronaut care" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" button-2="Contact Us" button-2-link="https://rocket.chat/contact?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" %}
+### \+10 million users in 140 countries trust our platform to collaborate remotely.
+
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=blog-zoom&utm_medium=banner&utm_term=covid" button-2="Contact Us" button-2-link="https://rocket.chat/contact?utm_source=blog-zoom&utm_medium=banner&utm_term=covid" %}
