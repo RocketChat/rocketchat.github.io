@@ -30,8 +30,8 @@ So everyone understands how the platform works, and global security experts can 
 Full control over your own configuration; no need to share  with thousands of other companies
 Secure encryption options available
 
-
 *Moving your classes online? Here's how Rocket.Chat helps you become compliant.*
 
 ## Rocket.Chat's video calls: How do we compare to other tools?
+
 
