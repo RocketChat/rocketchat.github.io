@@ -32,7 +32,7 @@ When looking for a private and secured platform for video calls, you should insi
 
 * **Transparency in the form of open-source code**. So everyone sees how the platform works, and global security experts can examine the code upon every single release ([and they DO it](https://www.theregister.co.uk/2016/11/18/hackers_modular_worm_builder_pwns_almost_all_popular_team_chat_apps/), because leading research institutions and security organizations are users of Rocket.Chat
 
-* **Full control over your own configuration**.\*\* \*\*No need to share  with thousands of other companies
+* **Full control over your own configuration**. No need to share  with thousands of other companies
 
 * **Secure encryption options available **(we will explore this topic in the next paragraphs)
 
@@ -80,7 +80,7 @@ Let's explore these two integrations.
 
 ### 1) Jitsi Integration
 
-Jitsi is an open-source video platform to easily make secure video calls. At the heart of the Jitsi platform is Jitsi Meet, which let you have conferences on the internet. **As a safer alternative to Zoom, [Jitsi is also encrypted](https://jitsi.org/news/e2ee/)**.
+[Jitsi](https://jitsi.org/) is an open-source video platform to easily make secure video calls. At the heart of the Jitsi platform is Jitsi Meet, which let you have conferences on the internet. **As a safer alternative to Zoom, [Jitsi is also encrypted](https://jitsi.org/news/e2ee/)**.
 
 This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted.
 
@@ -102,7 +102,7 @@ By doing so, you guarantee a reliable and robust group video chat, audio chat, a
 
 ### 2) Big Blue Button Integration
 
-Born as an open-source video system for online learning, Big Blue Button rapidly became a great alternative for companies looking for data-privacy in their enterprise conferences.
+Born as an open-source video system for online learning, [Big Blue Button ](https://bigbluebutton.org/)rapidly became a great alternative for companies looking for data-privacy in their enterprise conferences.
 
 This web-conferencing solution goes way beyond sharing screens and holding video calls. It relies on the same safe parameters that Jitsi uses, such as:
 
