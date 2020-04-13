@@ -4,6 +4,8 @@ date: 2020-04-13 11:21:00 Z
 author: Lucia Fallavena & Markus Kirsch
 cover: "/uploads/93132838_2621634237946472_1991729356250021888_n%20(1).png"
 featured: true
+categories:
+    - News
 ---
 
 ## Seeking high-security alternatives to Zoom? Check out how Rocket.Chat ensures privacy in your video calls
