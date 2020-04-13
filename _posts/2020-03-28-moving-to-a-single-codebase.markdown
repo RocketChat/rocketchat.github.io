@@ -61,6 +61,6 @@ We expect the move to a single codebase to go smoothly. Rocket.Chat has invested
 
 If you have questions and want to learn more about what went on behind the scenes, please check the following resources:
 
-* Ask me anything with Gabriel, in April: live session recorded to clarify doubts or concerns you might have about our release, or simply share thoughts and perceptions with us.
+* **Ask me anything with Gabriel, April 24th:** live session with our founder to clarify doubts or concerns you might have about our release, or simply share thoughts and perceptions with us. [Save your spot here.](https://rocket.chat/2020/04/24/ask-gabriel-anything/)
 
 * Let us know what you think on our [forum announcement](https://forums.rocket.chat/t/rocket-chat-is-moving-to-a-single-codebase/6259).
