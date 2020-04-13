@@ -78,11 +78,11 @@ Let's explore these two integrations.
 
 ### 1) Jitsi Integration
 
-Jitsi is an open-source video platform to easily make secure video calls. At the heart of the Jitsi platform is Jitsi Meet, which let you have conferences on the internet. **As a safer alternative to Zoom, Jitsi is also encrypted**.
+Jitsi is an open-source video platform to easily make secure video calls. At the heart of the Jitsi platform is Jitsi Meet, which let you have conferences on the internet. **As a safer alternative to Zoom, [Jitsi is also encrypted](https://jitsi.org/news/e2ee/)**.
 
 This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted.
 
-Check out the video made by Jitsi explaining how this encryption works:
+Check out how Jitsi amazingly explains how their encryption works:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QNKemVNrCbI" style="margin: auto;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -112,7 +112,7 @@ This web-conferencing solution goes way beyond sharing screens and holding video
 
 To use Big Blue Button within your Rocket.Chat's environment, we suggest contacting our partner [Elos](https://elos.vc/site/en/).
 
-_______________________________________________________________
+---
 
 As you see, Rocket.Chat is a complete [communication solution](https://rocket.chat/team-collab) and a great alternative to holding high-security videoconferences.
 
