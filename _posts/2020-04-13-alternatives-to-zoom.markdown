@@ -84,7 +84,7 @@ Let's explore these two integrations.
 
 This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted.
 
-Check out how Jitsi amazingly explains how their encryption works:
+Check out this explainer video on how Jitsi's end-to-end encryption works:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QNKemVNrCbI" style="margin: auto;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
