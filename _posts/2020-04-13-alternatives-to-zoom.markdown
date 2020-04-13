@@ -116,7 +116,7 @@ To use Big Blue Button within your Rocket.Chat's environment, we suggest contact
 
 ---
 
-As you see, Rocket.Chat is a complete [communication solution](https://rocket.chat/team-collab) and a great alternative to holding high-security videoconferences.
+### As you see, Rocket.Chat is a complete [communication solution](https://rocket.chat/team-collab) and a great alternative to Zoom in terms of high-security videoconferences.
 
 ### \+10 million users in 140 countries trust our platform to collaborate remotely.
 
