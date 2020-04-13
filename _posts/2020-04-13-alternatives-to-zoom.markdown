@@ -1,6 +1,8 @@
 ---
 title: 'Alternatives to Zoom: Top Reasons to Use Rocket.Chat For Secure Video Calls'
 date: 2020-04-13 11:21:00 Z
+categories:
+- News
 author: Lucia Fallavena & Markus Kirsch
 cover: "/uploads/93132838_2621634237946472_1991729356250021888_n%20(1).png"
 featured: true
