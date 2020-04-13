@@ -44,22 +44,25 @@ You decide whether to self host your instance on-premises and go with a highly-s
 
 If you decide to use Rocket.Chat’s Cloud services to host your server, your data is stored in data centers in the US or Europe (as per your choice).
 
-✔️No surprises about where your data is routed through.
+✔️**No surprises about where your data is routed through.**
 
 You can run Rocket.Chat virtually on any hardware or private cloud. You control the flow of your data because all data flows through the network that you own.  See a list of our supported deployment methods [here](https://rocket.chat/docs/installation/paas-deployments/).
 
-✔️No need to install external apps.
+✔️**No need to install external apps.**
+
 Rocket.Chat can be used via your browser - no plugins required.
 
 On mobile phones or tablets, Rocket.Chat is available FREE from Google Play and Apple App Store.
 
-✔️End-to-End encryption of chats
+✔️**End-to-End encryption of chats**
 
-Rocket.Chat has the optional capability to encrypt your chats end-to-end. With this feature enabled, only the participants of a chat can decrypt and read the content of a message. You can also choose on a channel-by-channel basis to enable the feature, in turn giving you the flexibility to decide about what remains private and what can be visible to other users of the system.
+Rocket.Chat has the optional capability to encrypt your chats end-to-end. With this feature enabled, only the participants of a chat can decrypt and read the content of a message. 
+
+You can also choose on a channel-by-channel basis to enable the feature, in turn giving you the flexibility to decide about what remains private and what can be visible to other users of the system.
 
 ## How to use Rocket.Chat to hold private video calls?
 
-Rocket.Chat natively supports two main pluggable video conferencing systems: Jitsi and Big Blue Button.
+Rocket.Chat natively supports two main pluggable video conferencing systems: [Jitsi](https://rocket.chat/docs/administrator-guides/setting-up-video-conferencing/) and [Big Blue Button](https://bigbluebutton.org/).
 
 Both come with similar advantages as Rocket.Chat:
 
@@ -69,10 +72,18 @@ Both come with similar advantages as Rocket.Chat:
 
 * Transparent about how your data is used
 
-Jitsi Integration
+Let's explore these two options below.
+
+### 1) Jitsi Integration
 
 Jitsi is an open-source video platform to easily make secure video calls. At the heart of the Jitsi platform is Jitsi Meet, which let you have conferences on the internet.
-As a safer alternative to Zoom, Jitsi is also encrypted. This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted. Since encryption is important for many organizations, how to combine the best of both?
+
+
+As a safer alternative to Zoom, Jitsi is also encrypted. This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted. 
+
+### **Since encryption is important for many organizations, how to combine the best of both?**
+
+
 Rocket.Chat can combine the best of both team chat and video call worlds.
 
 Using Rocket.Chat's end-to-end encryption feature for a chat and Jitsi's peer 2 peer or video bridge encryption for your video /audio calls.
@@ -81,7 +92,7 @@ By doing so, you guarantee a reliable and robust group video chat, audio chat, a
 
 Here is how to enable Jitsi in your Rocket.Chat environment.
 
-1. Big Blue Button Integration
+### 2) Big Blue Button Integration
 
 Born as an open-source video system for online learning, Big Blue Button rapidly became a great alternative for companies looking for data-privacy in their enterprise conferences.
 
