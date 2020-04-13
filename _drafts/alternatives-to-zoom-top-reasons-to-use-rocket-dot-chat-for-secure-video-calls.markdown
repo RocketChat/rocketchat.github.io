@@ -2,8 +2,8 @@
 title: 'Alternatives to Zoom: Top Reasons to Use Rocket.Chat For Secure Video Calls'
 date: 2020-04-13 11:21:00 Z
 author: Lucia Fallavena & Markus Kirsch
-Field name: 
-cover: 
+cover: "/uploads/93132838_2621634237946472_1991729356250021888_n%20(1).png"
+featured: true
 ---
 
 ## Seeking high-security alternatives to Zoom? Check out how Rocket.Chat ensures privacy in your video calls
@@ -61,6 +61,8 @@ Rocket.Chat has the optional capability to encrypt your chats end-to-end. With t
 You can also choose on a channel-by-channel basis to enable the feature, in turn giving you the flexibility to decide about what remains private and what can be visible to other users of the system.
 
 ## How to use Rocket.Chat to hold private video calls?
+
+![zoom.png](/uploads/zoom.png)
 
 Rocket.Chat natively supports two main pluggable video conferencing systems: [Jitsi](https://rocket.chat/docs/administrator-guides/setting-up-video-conferencing/) and [Big Blue Button](https://bigbluebutton.org/).
 
