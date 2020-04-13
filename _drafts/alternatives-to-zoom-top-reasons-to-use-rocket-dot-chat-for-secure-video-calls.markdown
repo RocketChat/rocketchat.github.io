@@ -98,6 +98,8 @@ Rocket.Chat can combine the best of both team chat and video call worlds.
 
 You can use Rocket.Chat's end-to-end encryption feature for a chat and Jitsi's peer 2 peer or video bridge encryption for your video /audio calls.
 
+![giphy.gif](/uploads/giphy.gif)
+
 By doing so, you guarantee a reliable and robust group video chat, audio chat, and screen sharing experience. For even more control, you can run a private Jitsi server. Read more about Security & Privacy in Jitsi here.
 
 [Find here ](https://rocket.chat/docs/administrator-guides/setting-up-video-conferencing/)how to enable Jitsi in your Rocket.Chat environment.
