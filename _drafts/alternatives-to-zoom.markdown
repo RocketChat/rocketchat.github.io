@@ -28,7 +28,7 @@ By using such applications, you take the risk of:
 
 When looking for a private and secured platform for video calls, you should insist on a few details:
 
-* \*\*Transparency in the form of \*open-source \*code. \*\*So everyone sees how the platform works, and global security experts can examine the code upon every single release ([and they DO i](https://www.theregister.co.uk/2016/11/18/hackers_modular_worm_builder_pwns_almost_all_popular_team_chat_apps/)t, because leading research institutions and security organizations are users of Rocket.Chat
+* **Transparency in the form of open-source code**. So everyone sees how the platform works, and global security experts can examine the code upon every single release ([and they DO i](https://www.theregister.co.uk/2016/11/18/hackers_modular_worm_builder_pwns_almost_all_popular_team_chat_apps/)t, because leading research institutions and security organizations are users of Rocket.Chat
 
 * **Full control over your own configuration**. No need to share  with thousands of other companies
 
