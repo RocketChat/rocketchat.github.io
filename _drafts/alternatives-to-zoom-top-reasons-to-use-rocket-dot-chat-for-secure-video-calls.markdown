@@ -12,7 +12,11 @@ As companies experience the outbreak of COVID-19, you’re likely holding team m
 
 ## Why tools like Skype or Zoom might be unreliable for video calls?
 
-Many remote companies trust proprietary-code platforms, such as Skype or Zoom, to communicate online. Although easily accessible, they do not disclose how they actually function; they are often vague about how they technically handle user privacy and how your data is secured (or often not secured). By using these applications, you take the risk of:
+![gabriel-benois-qnWPjzewewA-unsplash (1).jpg](/uploads/gabriel-benois-qnWPjzewewA-unsplash%20(1).jpg)
+
+Many remote companies trust proprietary-code platforms, such as Skype or Zoom, to communicate online. Although easily accessible, they do not disclose how they actually function; they are often vague about how they technically handle user privacy and how your data is secured (or often not secured). 
+
+By using these applications, you take the risk of:
 
 * Being *[Zoombombed](https://thenextweb.com/security/2020/04/06/nyc-classrooms-cancel-zoom-after-trolls-make-zoombombing-a-thing/)* in a private call (when strangers join your video call)
 
@@ -22,19 +26,17 @@ Many remote companies trust proprietary-code platforms, such as Skype or Zoom, t
 
 When looking for a private and secured platform for video calls, you should insist on a few details:
 
-* Transparency in the form of \*open-source \*code
+* **Transparency in the form of \*open-source \*code. **So everyone sees how the platform works, and global security experts can examine the code upon every single release ([and they DO i](https://www.theregister.co.uk/2016/11/18/hackers_modular_worm_builder_pwns_almost_all_popular_team_chat_apps/)t, because leading research institutions and security organizations are users of Rocket.Chat
 
-  So everyone understands how the platform works, and global security experts can examine and test the code upon every single release and they do it because leading research institutions and security organizations are users of Rocket.Chat
+* **Full control over your own configuration**. No need to share  with thousands of other companies
 
-* Full control over your own configuration
-
-  No need to share  with thousands of other companies
-
-* Secure encryption options available
+* **Secure encryption options available**
 
 *Moving your classes online?[ Here's how Rocket.Chat helps you become compliant.](https://drive.google.com/open?id=1HelQI76vh9OQ8Jlv7hcSjJq-DqAEF_QS)*
 
 ## Rocket.Chat's video calls: How do we compare to other tools?
+
+![93216941_2621634197946476_2256838776691097600_n.png](/uploads/93216941_2621634197946476_2256838776691097600_n.png)
 
 Rocket.Chat is a communication hub that facilitates team collaboration and organizes conversations. It allows its users to choose how they will communicate, either by chat, video conference, audio messaging, file sharing or other omnichannel tools.
 
@@ -80,8 +82,9 @@ Let's explore these two options below.
 
 Jitsi is an open-source video platform to easily make secure video calls. At the heart of the Jitsi platform is Jitsi Meet, which let you have conferences on the internet.
 
+**As a safer alternative to Zoom, Jitsi is also encrypted**. This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted. 
 
-As a safer alternative to Zoom, Jitsi is also encrypted. This means that the connection between two points - either the participants themselves or the participants and the video bridge of Jitsi is encrypted. 
+Check out the video made by Jitsi explaining how this encryption works:
 
 ### **Since encryption is important for many organizations, how to combine the best of both?**
 
