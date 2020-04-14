@@ -32,7 +32,7 @@ A plataforma tem como objetivo:
 
 * Realizar atendimentos por vídeo & resolver casos urgentes
 
-![COVID-19 Materiai (7).png](/uploads/COVID-19%20Materiai%20(7).png)
+* 
 
 ## Principais Benefícios:
 
@@ -92,7 +92,7 @@ Todo o sistema possui perfis para auditoria, controles internos e seguro armazen
 
 Através de um sistema de CRM, desenvolvido pela Konecty, Bela continua monitorando perfis, mesmo após atendimento:
 
-**Etapa 9) O CRM permite gestão completa de crise **
+\*\*Etapa 9) O CRM permite gestão completa de crise \*\*
 
 Através de dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da [EloGroup](https://elogroup.com.br/).
 
