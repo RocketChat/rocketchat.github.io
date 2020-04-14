@@ -60,7 +60,7 @@ Sem necessidade de proficiência digital ou disponibilidade de hardware. Pode se
 
 **Etapa 2) Estados e Municípios divulgam número para atendimento**
 
-Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. Nenhum dado público é necessário além do número do estado ou prefeitura para contato da população. Com o decorrer do projeto integrações e adições de dados podem ser feitas.
+Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. Nenhum dado público é necessário além do número do estado ou prefeitura para contato da população; com o decorrer do projeto, integrações e adições de dados podem ser feitas.
 
 **Etapa 3) Plataforma faz a triagem da população **
 
@@ -70,25 +70,29 @@ Através do recurso **omnichannel**, que permite que pessoas contatem a platafor
 
 **Etapa 4) Bela, o bot desenvolvidO pela Ilhasoft, gerencia as conversas na plataforma**
 
+![COVID-19 Materiai (2).png](/uploads/COVID-19%20Materiai%20(2).png)
+
 Desenvolvido em conformidade com protocolos de atendimento da OMS e projetos em várias regiões com a Unicef, Bela categoriza cada paciente de acordo com as respostas das perguntas através da interação anterior.
 
-**Etapa 5) Encaminhamento de acordo com os sintomas** 
+**Etapa 5) Encaminhamento de acordo com os sintomas**
 
 Se os sintomas forem graves, um humano passa atendê-lo e faz uma nova triagem para entender níveis de risco de contágio.
 
 **Etapa 6) Vídeo-chamada com o médico é agendada** (através de um link enviado ao cidadão).
 
+![COVID-19 Materiai (3).png](/uploads/COVID-19%20Materiai%20(3).png)
+
 **Etapa 7) A vídeo-consulta é gravada e dados disponibilizados para consultas futuras.**
 
 Todo o sistema possui perfis para auditoria, controles internos e seguro armazenamento conforme as leis de proteção de dados e privacidade.
 
-**Etapa 8) Identificação única e histórico de cada pessoa** 
+**Etapa 8) Identificação única e histórico de cada pessoa**
 
 Através de um sistema de CRM, desenvolvido pela Konecty, Bela continua monitorando perfis, mesmo após atendimento:
 
-![download.png](/uploads/download.png)
+**Etapa 9) O CRM permite gestão completa de crise **
 
-**Etapa 9) O CRM permite gestão completa de crise - **Através de dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da EloGroup.
+Através de dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da EloGroup.
 
 ## Como isso auxilia o sistema de saúde?
 
