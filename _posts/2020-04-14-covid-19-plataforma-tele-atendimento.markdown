@@ -8,7 +8,7 @@ cover: "/uploads/national-cancer-institute-cQ8FfVNvbew-unsplash.jpg"
 
 ![COVID-19 Materiai (8).png](/uploads/COVID-19%20Materiai%20(8).png)
 
-# Criação da Rocket.Chat em parceria com empresas, plataforma de inteligência artificial e tele-orientação visa a combater o vírus de modo acessível e seguro.
+## Criação da Rocket.Chat em parceria com empresas, plataforma de inteligência artificial e tele-orientação visa a combater o vírus de modo acessível e seguro.
 
 A chegada do COVID-19 ao Brasil trouxe um  grande desafio a estados, prefeituras e governo federal: otimizar o atendimento à população, sem sobrecarregar o sistema de saúde e reduzindo o ritmo de contágio.
 
@@ -46,9 +46,9 @@ Até 5 dias: esse é o período necessário para estados e municípios terem o s
 
 Construída em ambiente testado e licenciado pela Amazon, a solução segue padrões internacionais de criptografia de dados e privacidade de informações. Ao fim, toda informação fica armazenada em servidores individualizados, por Estado ou Município, no Brasil
 
-# Como funciona?
+## Como funciona?
 
-Construída através de um sistema open-source (com código aberto e flexível para integrações), a plataforma de comunicação adaptável para o sistema de saúde de municípios e estados com\*\* população superior a 500 mil habitantes\*\*.
+Construída através de um sistema open-source (com código aberto e flexível para integrações), a plataforma de comunicação adaptável para o sistema de saúde de municípios e estados com **população superior a 500 mil habitantes**.
 
 Assista ao breve vídeo explicando como ela funciona:
 
