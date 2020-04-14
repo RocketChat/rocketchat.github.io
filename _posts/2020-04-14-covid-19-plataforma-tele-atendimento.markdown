@@ -3,7 +3,7 @@ title: 'COVID-19: Conheça a Plataforma Digital Que Beneficiará 30 Milhões de 
 date: 2020-04-14 12:02:00 Z
 author: Lucia Fallavena
 featured: false
-cover: 
+cover: "/uploads/national-cancer-institute-cQ8FfVNvbew-unsplash.jpg"
 ---
 
 # Criação da Rocket.Chat em parceria com empresas, plataforma de inteligência artificial e tele-orientação visa a combater o vírus de modo acessível e seguro.
