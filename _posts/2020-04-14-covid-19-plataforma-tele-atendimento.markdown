@@ -80,7 +80,11 @@ Se os sintomas forem graves, um humano passa atendê-lo e faz uma nova triagem p
 
 Todo o sistema possui perfis para auditoria, controles internos e seguro armazenamento conforme as leis de proteção de dados e privacidade.
 
-**Etapa 8) Identificação única e histórico de cada pessoa** - Através de um sistema de CRM, desenvolvido pela Konecty.
+**Etapa 8) Identificação única e histórico de cada pessoa** 
+
+Através de um sistema de CRM, desenvolvido pela Konecty, Bela continua monitorando perfis, mesmo após atendimento:
+
+![download.png](/uploads/download.png)
 
 **Etapa 9) O CRM permite gestão completa de crise - **Através de dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da EloGroup.
 
