@@ -64,6 +64,8 @@ Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. 
 
 **Etapa 3) Plataforma faz a triagem da população **
 
+![1.gif](/uploads/1.gif)
+
 Através do recurso **omnichannel**, que permite que pessoas contatem a plataforma como preferirem. Exemplo: via site ou Whatsapp.
 
 **Etapa 4) Bela, o bot desenvolvidO pela Ilhasoft, gerencia as conversas na plataforma**
