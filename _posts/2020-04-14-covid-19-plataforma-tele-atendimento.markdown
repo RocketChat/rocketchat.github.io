@@ -70,7 +70,7 @@ Através do recurso **omnichannel**, que permite que pessoas contatem a platafor
 
 **Etapa 4) Bela, o bot desenvolvidO pela Ilhasoft, gerencia as conversas na plataforma**
 
-![COVID-19 Materiai (2).png](/uploads/COVID-19%20Materiai%20(2).png)
+![9.gif](/uploads/9.gif)
 
 Desenvolvido em conformidade com protocolos de atendimento da OMS e projetos em várias regiões com a Unicef, Bela categoriza cada paciente de acordo com as respostas das perguntas através da interação anterior.
 
