@@ -6,6 +6,8 @@ featured: false
 cover: "/uploads/national-cancer-institute-cQ8FfVNvbew-unsplash.jpg"
 ---
 
+![COVID-19 Materiai (8).png](/uploads/COVID-19%20Materiai%20(8).png)
+
 # Criação da Rocket.Chat em parceria com empresas, plataforma de inteligência artificial e tele-orientação visa a combater o vírus de modo acessível e seguro.
 
 A chegada do COVID-19 ao Brasil trouxe um  grande desafio a estados, prefeituras e governo federal: otimizar o atendimento à população, sem sobrecarregar o sistema de saúde e reduzindo o ritmo de contágio.
@@ -46,7 +48,7 @@ Construída em ambiente testado e licenciado pela Amazon, a solução segue padr
 
 # Como funciona?
 
-Construída através de um sistema open-source (com código aberto e flexível para integrações), a plataforma de comunicação adaptável para o sistema de saúde de municípios e estados com** população superior a 500 mil habitantes**.
+Construída através de um sistema open-source (com código aberto e flexível para integrações), a plataforma de comunicação adaptável para o sistema de saúde de municípios e estados com\*\* população superior a 500 mil habitantes\*\*.
 
 Assista ao breve vídeo explicando como ela funciona:
 
@@ -56,52 +58,51 @@ Assista ao breve vídeo explicando como ela funciona:
 
 Sem necessidade de proficiência digital ou disponibilidade de hardware. Pode ser personalizado e configurado de acordo com os recursos e preferência de cada cidade.
 
-**Etapa 2) Estados e Municípios divulgam número para atendimento** 
+**Etapa 2) Estados e Municípios divulgam número para atendimento**
 
 Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. Nenhum dado público é necessário além do número do estado ou prefeitura para contato da população. Com o decorrer do projeto integrações e adições de dados podem ser feitas.
 
-**
-Etapa 3) Plataforma faz a triagem da população **
-
-![brian-mcgowan-gkpszAElZf8-unsplash-d684d5.jpg](/uploads/brian-mcgowan-gkpszAElZf8-unsplash-d684d5.jpg)
+**Etapa 3) Plataforma faz a triagem da população **
 
 Através do recurso **omnichannel**, que permite que pessoas contatem a plataforma como preferirem. Exemplo: via site ou Whatsapp.
 
-**
-Etapa 4) Bela, o bot desenvolvidO pela Ilhasoft, gerencia as conversas na plataforma. **
+**Etapa 4) Bela, o bot desenvolvidO pela Ilhasoft, gerencia as conversas na plataforma**
 
 Desenvolvido em conformidade com protocolos de atendimento da OMS e projetos em várias regiões com a Unicef, Bela categoriza cada paciente de acordo com as respostas das perguntas através da interação anterior.
 
-**
-Etapa 5) Encaminhamento de acordo com os sintomas **
+**Etapa 5) Encaminhamento de acordo com os sintomas** 
 
 Se os sintomas forem graves, um humano passa atendê-lo e faz uma nova triagem para entender níveis de risco de contágio.
 
-**
-Etapa 6) Vídeo-chamada com o médico é agendada através de um link enviado ao cidadão.**
+**Etapa 6) Vídeo-chamada com o médico é agendada** (através de um link enviado ao cidadão).
 
+**Etapa 7) A vídeo-consulta é gravada e dados disponibilizados para consultas futuras.**
 
-Etapa 7) A vídeo-consulta é gravada e todo o sistema possui perfis para auditoria, controles internos e seguro armazenamento conforme as leis de proteção de dados e privacidade.
+Todo o sistema possui perfis para auditoria, controles internos e seguro armazenamento conforme as leis de proteção de dados e privacidade.
 
+**Etapa 8) Identificação única e histórico de cada pessoa** - Através de um sistema de CRM, desenvolvido pela Konecty.
 
-Etapa 8) Identificação única e histórico de cada pessoa através de um sistema de CRM, desenvolvido pela Konecty.
+**Etapa 9) O CRM permite gestão completa de crise - **Através de dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da EloGroup.
 
-
-Etapa 9) O CRM permite gestão completa de crise, fornece dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da EloGroup.
-
-## Como isso auxilia o sistema de saúde em geral?
+## Como isso auxilia o sistema de saúde?
 
 ![national-cancer-institute-XNtFXcSgLB8-unsplash (1).jpg](/uploads/national-cancer-institute-XNtFXcSgLB8-unsplash%20(1).jpg)
 
-Além de mapear pessoas contaminadas, a plataforma auxiliar a reduzir custos de atendimento e superlotação em hospitais e postos de saúde.
+Além de mapear pessoas contaminadas, a plataforma traz benefícios como:
 
-**Evita riscos de contaminação, protegendo profissionais da saúde e desafogando o sistema de saúde também.**
+✔️Reduzir custos de atendimento e superlotação em hospitais/postos de saúde
 
-Uma série de análises podem ser extraídas para subsidiar o processo decisório da sala de situação, tal como: identificar as áreas de hotspot, tendências de disseminação do vírus, projeção de avanço, entre outros.
+✔️Diminuir a velocidade e evitar riscos de contaminação
 
-O sistema também permite  automatizar campanhas para pessoas de acordo com risco/grupos/região, facilitando e agilizando a comunicação.
+✔️Proteger profissionais da saúde, desafogando o sistema de saúde
 
-\*“É mais um canal de comunicação para a população. Tudo isso para que os cidadãos possam receber orientação sobre qual o momento correto para procurar uma unidade de saúde” \*Camilo Santana, governador do Ceará
+✔️Fornecer uma série de análises para subsidiar o processo decisório da sala de situação, tal como: identificar as áreas de hotspot, tendências de disseminação do vírus, projeção de avanço, entre outros.
+
+✔️Permite  automatizar campanhas para pessoas de acordo com risco/grupos/região, facilitando e agilizando a comunicação.
+
+> **“É mais um canal de comunicação para a população. Tudo isso para que os cidadãos possam receber orientação sobre qual o momento correto para procurar uma unidade de saúde”**
+
+Camilo Santana, Governador do Ceará
 
 ## Quanto tempo dura a implementação?
 
