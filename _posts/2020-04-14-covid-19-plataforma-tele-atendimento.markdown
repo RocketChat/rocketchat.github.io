@@ -32,7 +32,7 @@ A plataforma tem como objetivo:
 
 * Realizar atendimentos por vídeo & resolver casos urgentes
 
-![COVID-19 Materiai (7).png](/uploads/COVID-19%20Materiai%20(7).png)
+* 
 
 ## Principais Benefícios:
 
@@ -50,7 +50,7 @@ Construída em ambiente testado e licenciado pela Amazon, a solução segue padr
 
 Construída através de um sistema open-source (com código aberto e flexível para integrações), a plataforma de comunicação adaptável para o sistema de saúde de municípios e estados com **população superior a 500 mil habitantes**.
 
-Assista ao breve vídeo explicando como ela funciona:
+Assista ao vídeo com mais detalhes sobre a plataforma:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uhAw_CS3bOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -60,33 +60,41 @@ Sem necessidade de proficiência digital ou disponibilidade de hardware. Pode se
 
 **Etapa 2) Estados e Municípios divulgam número para atendimento**
 
-Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. Nenhum dado público é necessário além do número do estado ou prefeitura para contato da população. Com o decorrer do projeto integrações e adições de dados podem ser feitas.
+Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. Nenhum dado público é necessário além do número do estado ou prefeitura para contato da população; com o decorrer do projeto, integrações e adições de dados podem ser feitas.
 
-**Etapa 3) Plataforma faz a triagem da população **
+**Etapa 3) Plataforma faz a triagem da população**
 
 Através do recurso **omnichannel**, que permite que pessoas contatem a plataforma como preferirem. Exemplo: via site ou Whatsapp.
 
-**Etapa 4) Bela, o bot desenvolvidO pela Ilhasoft, gerencia as conversas na plataforma**
+**Etapa 4) Bela, o bot desenvolvido pela [Ilhasoft](https://www.ilhasoft.com.br/en/), gerencia as conversas na plataforma**
+
+![9.gif](/uploads/9.gif)
 
 Desenvolvido em conformidade com protocolos de atendimento da OMS e projetos em várias regiões com a Unicef, Bela categoriza cada paciente de acordo com as respostas das perguntas através da interação anterior.
 
-**Etapa 5) Encaminhamento de acordo com os sintomas** 
+**Etapa 5) Encaminhamento de acordo com os sintomas**
+
+![COVID-19 Materiai (8)-a413f8.png](/uploads/COVID-19%20Materiai%20(8)-a413f8.png)
 
 Se os sintomas forem graves, um humano passa atendê-lo e faz uma nova triagem para entender níveis de risco de contágio.
 
 **Etapa 6) Vídeo-chamada com o médico é agendada** (através de um link enviado ao cidadão).
 
+![COVID-19 Materiai (3).png](/uploads/COVID-19%20Materiai%20(3).png)
+
 **Etapa 7) A vídeo-consulta é gravada e dados disponibilizados para consultas futuras.**
 
 Todo o sistema possui perfis para auditoria, controles internos e seguro armazenamento conforme as leis de proteção de dados e privacidade.
 
-**Etapa 8) Identificação única e histórico de cada pessoa** 
+**Etapa 8) Identificação única e histórico de cada pessoa**
+
+![1.gif](/uploads/1.gif)
 
 Através de um sistema de CRM, desenvolvido pela Konecty, Bela continua monitorando perfis, mesmo após atendimento:
 
-![download.png](/uploads/download.png)
+**Etapa 9) O CRM permite gestão completa de crise**
 
-**Etapa 9) O CRM permite gestão completa de crise - **Através de dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da EloGroup.
+Através de dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da [EloGroup](https://elogroup.com.br/).
 
 ## Como isso auxilia o sistema de saúde?
 
@@ -134,4 +142,6 @@ Alta privacidade de dados é um dos grandes benefícios desse projeto, e isso va
 
 * Por exemplo: *Quantos casos foram tratados? Quantas consultas foram otimizadas ou poupadas por conta do tele-atendimento?* Todas essas são perguntas pertinentes e respondidas pela plataforma.
 
-Para mais informações, contate-nos aqui.
+![youtube (3).png](/uploads/youtube%20(3).png)
+
+Para mais informações, [contate-nos aqui](https://rocket.chat/contact?utm_source=covid-blog-post&utm_medium=CTA&utm_term=covid-19).
