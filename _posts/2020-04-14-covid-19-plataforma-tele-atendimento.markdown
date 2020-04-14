@@ -63,15 +63,31 @@ Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. 
 **
 Etapa 3) Plataforma faz a triagem da população **
 
+![brian-mcgowan-gkpszAElZf8-unsplash-d684d5.jpg](/uploads/brian-mcgowan-gkpszAElZf8-unsplash-d684d5.jpg)
+
 Através do recurso **omnichannel**, que permite que pessoas contatem a plataforma como preferirem. Exemplo: via site ou Whatsapp.
 
+**
+Etapa 4) Bela, o bot desenvolvidO pela Ilhasoft, gerencia as conversas na plataforma. **
 
-Etapa 4) Bela, o bot desenvolvidO pela Ilhasoft, gerencia as conversas na plataforma. Desenvolvido em conformidade com protocolos de atendimento da OMS e projetos em várias regiões com a Unicef, Bela categoriza cada paciente de acordo com as respostas das perguntas através da interação anterior.
-Etapa 5) Se os sintomas forem graves, um humano passa atendê-lo e faz uma nova triagem para entender níveis de risco de contágio.
-Etapa 6) De acordo com o estado do paciente, uma videochamada com o médico é agendada através de um link enviado ao cidadão.
+Desenvolvido em conformidade com protocolos de atendimento da OMS e projetos em várias regiões com a Unicef, Bela categoriza cada paciente de acordo com as respostas das perguntas através da interação anterior.
+
+**
+Etapa 5) Encaminhamento de acordo com os sintomas **
+
+Se os sintomas forem graves, um humano passa atendê-lo e faz uma nova triagem para entender níveis de risco de contágio.
+
+**
+Etapa 6) Vídeo-chamada com o médico é agendada através de um link enviado ao cidadão.**
+
+
 Etapa 7) A vídeo-consulta é gravada e todo o sistema possui perfis para auditoria, controles internos e seguro armazenamento conforme as leis de proteção de dados e privacidade.
+
+
 Etapa 8) Identificação única e histórico de cada pessoa através de um sistema de CRM, desenvolvido pela Konecty.
-Etapa 9) O CRM permite gestão completa de crise, fornece dashboards, análise de riscos por micro-regiao e ações de prevenção pelos especialistas em gestão pública da EloGroup.
+
+
+Etapa 9) O CRM permite gestão completa de crise, fornece dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da EloGroup.
 
 ## Como isso auxilia o sistema de saúde em geral?
 
