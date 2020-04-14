@@ -91,9 +91,11 @@ Etapa 9) O CRM permite gestão completa de crise, fornece dashboards, análise d
 
 ## Como isso auxilia o sistema de saúde em geral?
 
+![national-cancer-institute-XNtFXcSgLB8-unsplash (1).jpg](/uploads/national-cancer-institute-XNtFXcSgLB8-unsplash%20(1).jpg)
+
 Além de mapear pessoas contaminadas, a plataforma auxiliar a reduzir custos de atendimento e superlotação em hospitais e postos de saúde.
 
-**Isso evita riscos de contaminação, protegendo profissionais da saúde e desafogando o sistema de saúde também.**
+**Evita riscos de contaminação, protegendo profissionais da saúde e desafogando o sistema de saúde também.**
 
 Uma série de análises podem ser extraídas para subsidiar o processo decisório da sala de situação, tal como: identificar as áreas de hotspot, tendências de disseminação do vírus, projeção de avanço, entre outros.
 
