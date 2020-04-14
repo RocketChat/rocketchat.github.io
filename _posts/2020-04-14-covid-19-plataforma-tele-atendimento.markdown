@@ -32,8 +32,6 @@ A plataforma tem como objetivo:
 
 * Realizar atendimentos por vídeo & resolver casos urgentes
 
-* 
-
 ## Principais Benefícios:
 
 ✔️ **Prevenção, triagem e atendimento ágil**
@@ -143,5 +141,8 @@ Alta privacidade de dados é um dos grandes benefícios desse projeto, e isso va
 * Por exemplo: *Quantos casos foram tratados? Quantas consultas foram otimizadas ou poupadas por conta do tele-atendimento?* Todas essas são perguntas pertinentes e respondidas pela plataforma.
 
 [![youtube (3).png](/uploads/youtube%20(3).png)](https://rocket.chat/contact?utm_source=covid-blog-post&utm_medium=CTA&utm_term=covid-19)
+
+{% include components/uploads/youtube%20(3).png
+link="https://rocket.chat/contact?utm_source=covid-blog-post&utm_medium=CTA&utm_term=covid-19"%}
 
 Para mais informações, [envie-nos uma mensagem aqui.](https://rocket.chat/contact?utm_source=covid-blog-post&utm_medium=CTA&utm_term=covid-19)
