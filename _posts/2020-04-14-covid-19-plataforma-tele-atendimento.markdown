@@ -64,11 +64,9 @@ Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. 
 
 **Etapa 3) Plataforma faz a triagem da população**
 
-![COVID-19 Materiai (4).png](/uploads/COVID-19%20Materiai%20(4).png)
-
 Através do recurso **omnichannel**, que permite que pessoas contatem a plataforma como preferirem. Exemplo: via site ou Whatsapp.
 
-**Etapa 4) Bela, o bot desenvolvidO pela Ilhasoft, gerencia as conversas na plataforma**
+**Etapa 4) Bela, o bot desenvolvido pela [Ilhasoft](https://www.ilhasoft.com.br/en/), gerencia as conversas na plataforma**
 
 ![9.gif](/uploads/9.gif)
 
