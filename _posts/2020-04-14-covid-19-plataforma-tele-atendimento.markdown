@@ -2,7 +2,7 @@
 title: 'COVID-19: Conheça a Plataforma Digital Que Beneficiará 30 Milhões de Brasileiros'
 date: 2020-04-14 12:02:00 Z
 author: Lucia Fallavena
-featured: 
+featured: false
 ---
 
 COVID-19: Conheça a Plataforma Digital da Rocket.Chat Que Beneficiará 30 Milhões de Brasileiros
