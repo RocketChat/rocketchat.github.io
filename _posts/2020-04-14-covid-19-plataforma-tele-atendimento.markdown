@@ -3,7 +3,7 @@ title: 'COVID-19: Conheça a Plataforma Digital Que Beneficiará 30 Milhões de 
 date: 2020-04-14 12:02:00 Z
 author: Lucia Fallavena
 featured: false
-cover: "/uploads/national-cancer-institute-cQ8FfVNvbew-unsplash.jpg"
+cover: 
 ---
 
 # Criação da Rocket.Chat em parceria com empresas, plataforma de inteligência artificial e tele-orientação visa a combater o vírus de modo acessível e seguro.
@@ -11,6 +11,8 @@ cover: "/uploads/national-cancer-institute-cQ8FfVNvbew-unsplash.jpg"
 A chegada do COVID-19 ao Brasil trouxe um  grande desafio a estados, prefeituras e governo federal: otimizar o atendimento à população, sem sobrecarregar o sistema de saúde e reduzindo o ritmo de contágio.
 
 ## O que é a Plataforma de Atendimento Digital da Rocket.Chat?
+
+![national-cancer-institute-NFvdKIhxYlU-unsplash (1).jpg](/uploads/national-cancer-institute-NFvdKIhxYlU-unsplash%20(1).jpg)
 
 Tele-orientação: Mais Segurança no Combate ao COVID-19
 
@@ -28,7 +30,7 @@ A plataforma tem como objetivo:
 
 * Realizar atendimentos por vídeo & resolver casos urgentes
 
-![COVID-19 Materiai (2)-8070e6.png](/uploads/COVID-19%20Materiai%20(2)-8070e6.png)
+![COVID-19 Materiai (7).png](/uploads/COVID-19%20Materiai%20(7).png)
 
 ## Principais Benefícios:
 
@@ -44,11 +46,26 @@ Construída em ambiente testado e licenciado pela Amazon, a solução segue padr
 
 # Como funciona?
 
-Construída através de um sistema open-source (com código aberto e flexível para integrações), a plataforma de comunicação adaptável para o sistema de saúde de munícipios e estados com população superior a 500 mil habitantes.
+Construída através de um sistema open-source (com código aberto e flexível para integrações), a plataforma de comunicação adaptável para o sistema de saúde de municípios e estados com** população superior a 500 mil habitantes**.
 
-Etapa 1) Implementação do sistema, sem necessidade de proficiência digital ou disponibilidade de hardware. Pode ser personalizado e configurado de acordo com os recursos e preferência de cada cidade.
-Etapa 2) Estados e Municípios divulgam um número para atendimento via Whatsapp, Facebook e inserindo o live chat em seus websites. Nenhum dado público é necessário além do número do estado ou prefeitura para contato da população. Com o decorrer do projeto integrações e adições de dados podem ser feitas.
-Etapa 3) A plataforma faz triagem das pessoas usando um recurso chamado omnichannel, ou seja, permitindo que a pessoa contate a plataforma como preferir. Exemplo: pelo site ou Whatsapp.
+Assista ao breve vídeo explicando como ela funciona:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uhAw_CS3bOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Etapa 1) Implementação do Sistema**
+
+Sem necessidade de proficiência digital ou disponibilidade de hardware. Pode ser personalizado e configurado de acordo com os recursos e preferência de cada cidade.
+
+**Etapa 2) Estados e Municípios divulgam número para atendimento** 
+
+Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. Nenhum dado público é necessário além do número do estado ou prefeitura para contato da população. Com o decorrer do projeto integrações e adições de dados podem ser feitas.
+
+**
+Etapa 3) Plataforma faz a triagem da população **
+
+Através do recurso **omnichannel**, que permite que pessoas contatem a plataforma como preferirem. Exemplo: via site ou Whatsapp.
+
+
 Etapa 4) Bela, o bot desenvolvidO pela Ilhasoft, gerencia as conversas na plataforma. Desenvolvido em conformidade com protocolos de atendimento da OMS e projetos em várias regiões com a Unicef, Bela categoriza cada paciente de acordo com as respostas das perguntas através da interação anterior.
 Etapa 5) Se os sintomas forem graves, um humano passa atendê-lo e faz uma nova triagem para entender níveis de risco de contágio.
 Etapa 6) De acordo com o estado do paciente, uma videochamada com o médico é agendada através de um link enviado ao cidadão.
