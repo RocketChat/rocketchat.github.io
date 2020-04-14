@@ -64,7 +64,7 @@ Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. 
 
 **Etapa 3) Plataforma faz a triagem da população **
 
-![1.gif](/uploads/1.gif)
+![COVID-19 Materiai (4).png](/uploads/COVID-19%20Materiai%20(4).png)
 
 Através do recurso **omnichannel**, que permite que pessoas contatem a plataforma como preferirem. Exemplo: via site ou Whatsapp.
 
@@ -75,6 +75,8 @@ Através do recurso **omnichannel**, que permite que pessoas contatem a platafor
 Desenvolvido em conformidade com protocolos de atendimento da OMS e projetos em várias regiões com a Unicef, Bela categoriza cada paciente de acordo com as respostas das perguntas através da interação anterior.
 
 **Etapa 5) Encaminhamento de acordo com os sintomas**
+
+![COVID-19 Materiai (8)-a413f8.png](/uploads/COVID-19%20Materiai%20(8)-a413f8.png)
 
 Se os sintomas forem graves, um humano passa atendê-lo e faz uma nova triagem para entender níveis de risco de contágio.
 
@@ -87,6 +89,8 @@ Se os sintomas forem graves, um humano passa atendê-lo e faz uma nova triagem p
 Todo o sistema possui perfis para auditoria, controles internos e seguro armazenamento conforme as leis de proteção de dados e privacidade.
 
 **Etapa 8) Identificação única e histórico de cada pessoa**
+
+![1.gif](/uploads/1.gif)
 
 Através de um sistema de CRM, desenvolvido pela Konecty, Bela continua monitorando perfis, mesmo após atendimento:
 
