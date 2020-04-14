@@ -32,7 +32,6 @@ A plataforma tem como objetivo:
 
 * Realizar atendimentos por vídeo & resolver casos urgentes
 
-
 ## Principais Benefícios:
 
 ✔️ **Prevenção, triagem e atendimento ágil**
