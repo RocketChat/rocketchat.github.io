@@ -62,7 +62,7 @@ Sem necessidade de proficiência digital ou disponibilidade de hardware. Pode se
 
 Pode ser feito via Whatsapp, Facebook e inserindo o live chat em seus websites. Nenhum dado público é necessário além do número do estado ou prefeitura para contato da população; com o decorrer do projeto, integrações e adições de dados podem ser feitas.
 
-**Etapa 3) Plataforma faz a triagem da população **
+**Etapa 3) Plataforma faz a triagem da população**
 
 ![COVID-19 Materiai (4).png](/uploads/COVID-19%20Materiai%20(4).png)
 
@@ -96,7 +96,7 @@ Através de um sistema de CRM, desenvolvido pela Konecty, Bela continua monitora
 
 **Etapa 9) O CRM permite gestão completa de crise **
 
-Através de dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da EloGroup.
+Através de dashboards, análise de riscos por micro-região e ações de prevenção pelos especialistas em gestão pública da [EloGroup](https://elogroup.com.br/).
 
 ## Como isso auxilia o sistema de saúde?
 
@@ -144,4 +144,4 @@ Alta privacidade de dados é um dos grandes benefícios desse projeto, e isso va
 
 * Por exemplo: *Quantos casos foram tratados? Quantas consultas foram otimizadas ou poupadas por conta do tele-atendimento?* Todas essas são perguntas pertinentes e respondidas pela plataforma.
 
-Para mais informações, contate-nos aqui.
+Para mais informações, contate-nos [aqui](https://rocket.chat/contact).
