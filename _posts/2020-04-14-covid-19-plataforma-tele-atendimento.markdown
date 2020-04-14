@@ -142,4 +142,4 @@ Alta privacidade de dados é um dos grandes benefícios desse projeto, e isso va
 
 * Por exemplo: *Quantos casos foram tratados? Quantas consultas foram otimizadas ou poupadas por conta do tele-atendimento?* Todas essas são perguntas pertinentes e respondidas pela plataforma.
 
-Para mais informações, contate-nos [aqui](https://rocket.chat/contact).
+Para mais informações, [contate-nos aqui](https://rocket.chat/contact?utm_source=covid-blog-post&utm_medium=CTA&utm_term=covid-19).
