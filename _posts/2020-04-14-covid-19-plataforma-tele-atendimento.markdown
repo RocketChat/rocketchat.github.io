@@ -28,7 +28,7 @@ A plataforma tem como objetivo:
 
 * Realizar atendimentos por vídeo & resolver casos urgentes
 
-![COVID-19 Materiai (2).png](/uploads/COVID-19%20Materiai%20(2).png)
+![COVID-19 Materiai (2)-8070e6.png](/uploads/COVID-19%20Materiai%20(2)-8070e6.png)
 
 ## Principais Benefícios:
 
