@@ -6,7 +6,7 @@ categories:
 - News
 author: Gabriel Engel
 featured: true
-cover: "/uploads/merging.png"
+cover: "/uploads/Merging-51eecf.png"
 ---
 
 ## In Release 3.1.0, we combined Rocket.Chat Enterprise Edition (EE) and Rocket.Chat Community Edition (CE) into a single codebase.
