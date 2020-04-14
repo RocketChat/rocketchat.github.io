@@ -3,6 +3,7 @@ title: 'COVID-19: Conheça a Plataforma Digital Que Beneficiará 30 Milhões de 
 date: 2020-04-14 12:02:00 Z
 author: Lucia Fallavena
 featured: false
+cover: "/uploads/national-cancer-institute-cQ8FfVNvbew-unsplash.jpg"
 ---
 
 # Criação da Rocket.Chat em parceria com empresas, plataforma de inteligência artificial e tele-orientação visa a combater o vírus de modo acessível e seguro.
@@ -26,6 +27,8 @@ A plataforma tem como objetivo:
 * Fornecer cuidados de acordo com classificação de risco
 
 * Realizar atendimentos por vídeo & resolver casos urgentes
+
+![COVID-19 Materiai (2).png](/uploads/COVID-19%20Materiai%20(2).png)
 
 ## Principais Benefícios:
 
@@ -63,7 +66,7 @@ Uma série de análises podem ser extraídas para subsidiar o processo decisóri
 
 O sistema também permite  automatizar campanhas para pessoas de acordo com risco/grupos/região, facilitando e agilizando a comunicação.
 
-*“É mais um canal de comunicação para a população. Tudo isso para que os cidadãos possam receber orientação sobre qual o momento correto para procurar uma unidade de saúde” *Camilo Santana, governador do Ceará
+\*“É mais um canal de comunicação para a população. Tudo isso para que os cidadãos possam receber orientação sobre qual o momento correto para procurar uma unidade de saúde” \*Camilo Santana, governador do Ceará
 
 ## Quanto tempo dura a implementação?
 
