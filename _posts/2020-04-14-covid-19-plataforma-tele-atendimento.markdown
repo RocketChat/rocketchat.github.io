@@ -50,7 +50,7 @@ Construída em ambiente testado e licenciado pela Amazon, a solução segue padr
 
 Construída através de um sistema open-source (com código aberto e flexível para integrações), a plataforma de comunicação adaptável para o sistema de saúde de municípios e estados com **população superior a 500 mil habitantes**.
 
-Assista ao breve vídeo explicando como ela funciona:
+Assista ao vídeo com mais detalhes sobre a plataforma:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uhAw_CS3bOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
