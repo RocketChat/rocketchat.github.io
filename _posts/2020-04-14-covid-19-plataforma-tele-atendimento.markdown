@@ -142,7 +142,4 @@ Alta privacidade de dados é um dos grandes benefícios desse projeto, e isso va
 
 [![youtube (3).png](/uploads/youtube%20(3).png)](https://rocket.chat/contact?utm_source=covid-blog-post&utm_medium=CTA&utm_term=covid-19)
 
-{% include components/uploads/youtube%20(3).png
-link="https://rocket.chat/contact?utm_source=covid-blog-post&utm_medium=CTA&utm_term=covid-19"%}
-
 Para mais informações, [envie-nos uma mensagem aqui.](https://rocket.chat/contact?utm_source=covid-blog-post&utm_medium=CTA&utm_term=covid-19)
