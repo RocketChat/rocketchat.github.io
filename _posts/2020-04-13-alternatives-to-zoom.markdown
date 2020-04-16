@@ -36,8 +36,6 @@ When looking for a private and secured platform for video calls, you should insi
 
 * **Secure encryption options available** (we'll explore this topic better in the next paragraphs)
 
-  *Moving your classes online? [Here's how Rocket.Chat helps you become compliant.](https://drive.google.com/open?id=1HelQI76vh9OQ8Jlv7hcSjJq-DqAEF_QS)*
-
 ## Rocket.Chat's video calls: How do we compare to other tools?
 
 ![93216941_2621634197946476_2256838776691097600_n.png](/uploads/93216941_2621634197946476_2256838776691097600_n.png)
