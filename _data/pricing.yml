@@ -73,13 +73,13 @@
   pro: true
   enterprise: true
 
-- title: "Conferencing Server"
-  bronze: "Shared"
-  silver: "Shared"
-  gold: "Dedicated"
-  community: "Shared"
-  pro: "Dedicated"
-  enterprise: "Dedicated"
+#- title: "Conferencing Server"
+#  bronze: "Shared"
+#  silver: "Shared"
+#  gold: "Dedicated"
+#  community: "Shared"
+#  pro: "Dedicated"
+#  enterprise: "Dedicated"
 
 - title: "Storage"
   bronze: "1TB"
