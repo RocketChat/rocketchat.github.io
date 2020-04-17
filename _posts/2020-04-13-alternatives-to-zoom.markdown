@@ -122,4 +122,4 @@ To use Big Blue Button within your Rocket.Chat's environment, we suggest contact
 
 ### \+10 million users in 140 countries trust our platform to collaborate remotely.
 
-{% include components/card-box.html lang=include.lang box-type="post-cta-box" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=banner&utm_medium=zoom&utm_campaign=remote-work"Contact Us" button-2-link="https://rocket.chat/contact?utm_source=banner&utm_medium=zoom&utm_campaign=remote-work" %}
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=banner&utm_medium=zoom&utm_campaign=remote-work" button-2="Contact Us" button-2-link="https://rocket.chat/contact?utm_source=banner&utm_medium=zoom&utm_campaign=remote-work" %}
