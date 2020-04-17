@@ -1,3 +1,14 @@
+---
+title: Rocket.Chat Master Services Agreement
+permalink: "/master-services-agreement"
+layout: en/legal
+class: legal
+type: terms
+theme: light
+redirect_from:
+- "/master-services-agreement/"
+---
+
 # **ROCKET.CHAT MASTER SERVICES AGREEMENT**
 
 This Master Services Agreement (the "**Agreement**"), is entered as of _________________ (the “**Effective Date**”), by and between ______________________, whose address is _______________; an entity (“**You,**” “**Your**,” or “**Customer**”) and Rocket.Chat Technologies Corp. (“**Rocket.Chat**”). In this Agreement, Customer and Rocket.Chat may be individually referred to as “**party**” and collectively referred to as “**parties**.”
