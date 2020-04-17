@@ -62,9 +62,7 @@ Rocket.Chat has the optional capability to encrypt your chats end-to-end. With t
 
 You can also choose on a channel-by-channel basis to enable the feature, in turn giving you the flexibility to decide about what remains private and what can be visible to other users of the system.
 
-[![banner.png](/uploads/banner.png)](https://cloud.rocket.chat/trial/bronze?utm_source=banner-meio&utm_medium=zoom&utm_campaign=remote-work)
-
-{% include components/card-box.html lang=include.lang box-type="post-cta-box" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=banner-meio&utm_medium=zoom&utm_campaign=remote-work" %}
+![banner.png](/uploads/banner.png)
 
 ## How to use Rocket.Chat to hold private video calls?
 
@@ -122,4 +120,4 @@ To use Big Blue Button within your Rocket.Chat's environment, we suggest contact
 
 ### \+10 million users in 140 countries trust our platform to collaborate remotely.
 
-{% include components/card-box.html lang=include.lang box-type="post-cta-box" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=banner&utm_medium=zoom&utm_campaign=remote-work"Contact Us" button-2-link="https://rocket.chat/contact?utm_source=banner&utm_medium=zoom&utm_campaign=remote-work" %}
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=banner&utm_medium=zoom&utm_campaign=remote-work" button-2="Contact Us" button-2-link="https://rocket.chat/contact?utm_source=banner&utm_medium=zoom&utm_campaign=remote-work" %}
