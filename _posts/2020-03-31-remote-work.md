@@ -40,5 +40,3 @@ Check our [Remote Work Best Practices](https://rocket.chat/remote-work)
 Currently, more than 400 thousand servers were deployed and over 10 million users in 140 countries trust our platform to collaborate remotely.
 
 {% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Improve Your Remote Communication Today" button-1="Start Cloud Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=home-hero&utm_medium=website&utm_campaign=trials" button-2="Install Self Managed" button-2-link="https://rocket.chat/install" %}
-
-google-site-verification: googlebce9ab718d20b199.html
