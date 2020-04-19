@@ -62,7 +62,7 @@ Rocket.Chat has the optional capability to encrypt your chats end-to-end. With t
 
 You can also choose on a channel-by-channel basis to enable the feature, in turn giving you the flexibility to decide about what remains private and what can be visible to other users of the system.
 
-![banner.png](/uploads/banner.png)
+<a href="https://cloud.rocket.chat/trial/bronze?utm_source=blog&utm_medium=banner-1&utm_campaign=zoom"><img src="/uploads/banner.png" alt="banner.png"></a>
 
 ## How to use Rocket.Chat to hold private video calls?
 
