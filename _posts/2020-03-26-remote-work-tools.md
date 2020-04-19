@@ -61,7 +61,7 @@ The best thing about it is the fact that it offers thousands of apps you use eve
 
 As you can see, only Rocket.Chat counts for more than 2,000 integrations there. Now imagine you can find almost anything to be automated there since it is a really comprehensive platform. So make a list of all the tasks you’d need automated, and Zapier them up!
 
-![test1.png](/uploads/test1.png)
+<img alt="remote-zapier" src="{{'/uploads/test1.png' | relative_url}}">
 
 ## **5** [Zoho One](https://www.zoho.com/one/): The ultimate all-in-one marketing platform
 
@@ -88,9 +88,5 @@ We know changing means challenges for most companies. [However, COVID-19 is alre
 Feeling lost in how to transition your operation to online?
 
 Rocket.Chat is committed to providing remote work best practices to its community.
-
-Watch our next webinar on “How to work remotely with Rocket.Chat”
-
-[ <img alt="remote-webinar" src="{{'/images/posts/2020/03/remote-work.png' | relative_url}}"> ](https://rocket.chat/2020/03/24/remote-work)
 
 {% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Improve Your Remote Communication Today" button-1="Start Cloud Trial" button-1-link="https://cloud.rocket.chat/trial/?utm_source=2020%2F03%2F26%2Fremote-work-tools%2F&utm_medium=banner&utm_campaign=remote_work" button-2="Install Self Managed" button-2-link="https://rocket.chat/pricing?utm_source=2020%2F03%2F26%2Fremote-work-tools%2F&utm_medium=banner&utm_campaign=remote_work" %}
