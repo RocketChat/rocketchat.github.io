@@ -61,7 +61,7 @@ The best thing about it is the fact that it offers thousands of apps you use eve
 
 As you can see, only Rocket.Chat counts for more than 2,000 integrations there. Now imagine you can find almost anything to be automated there since it is a really comprehensive platform. So make a list of all the tasks you’d need automated, and Zapier them up!
 
-<a href="https://cloud.rocket.chat/trial/bronze?utm_source=blog&utm_medium=banner-1&utm_campaign=zoom"><img src="/uploads/Copy%20of%20youtube%20(1)-7985d9.png" alt="banner.png"></a>
+<a href="https://cloud.rocket.chat/trial/bronze?utm_source=blog&utm_medium=banner-1&utm_campaign=zoom"><img src="/uploads/test1.png" alt="banner.png"></a>
 
 ## **5** [Zoho One](https://www.zoho.com/one/): The ultimate all-in-one marketing platform
 
