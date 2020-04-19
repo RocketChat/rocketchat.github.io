@@ -23,9 +23,11 @@ Each team can have its own project, projects can have milestones, milestones hav
 
 However, since the tool has numerous features it can be tricky to keep track of project progress. For this reason, we have created an internal user guide to guide our team on:
 
-- How to prioritize the urgency of tasks
-- Update the status of a task
-- Connect a task with the overall company or team goals
+* How to prioritize the urgency of tasks
+
+* Update the status of a task
+
+* Connect a task with the overall company or team goals
 
 To build this guide, an internal brainstorming activity was done and even though each team organizes differently, the whole company tries to follow the best practices of this guide.
 
@@ -58,6 +60,8 @@ The best thing about it is the fact that it offers thousands of apps you use eve
 <img alt="remote-zapier" src="{{'/images/posts/2020/03/zapier.png' | relative_url}}">
 
 As you can see, only Rocket.Chat counts for more than 2,000 integrations there. Now imagine you can find almost anything to be automated there since it is a really comprehensive platform. So make a list of all the tasks you’d need automated, and Zapier them up!
+
+<a href="https://cloud.rocket.chat/trial/bronze?utm_source=blog&utm_medium=banner-1&utm_campaign=zoom"><img src="/uploads/Copy%20of%20youtube%20(1)-7985d9.png" alt="banner.png"></a>
 
 ## **5** [Zoho One](https://www.zoho.com/one/): The ultimate all-in-one marketing platform
 
