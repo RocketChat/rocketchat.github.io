@@ -11,4 +11,6 @@ Fear of change & trial period: How did the company implement Rocket.Chat?
 
 Using a new messaging platform worried managers. They were afraid it could be hard to incentivize people to adopt a new tool.
 
+![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
+
 ![TESTIMONIAL (4).png](/uploads/TESTIMONIAL%20(4).png)
