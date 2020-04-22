@@ -15,7 +15,7 @@ Being in business for over 13 years, KingHost is a well-known technology provide
 
 Acquired by Locaweb in 2019. A leader in Latin America for hosting services and cloud storage. Locaweb aims to become a well-known name in hosting infrastructure & in Latin America for organizational strategy. This also includes the development community.
 
-Founded: 2006; 
+Founded: 2006;
 
 Acquired by Locaweb in 2019
 
@@ -33,20 +33,21 @@ Acquired by Locaweb in 2019
 
 In 2016, KingHost's team was heavily using emails for internal communications. However, as an ever-growing tech company, they needed to communicate and get feedback on projects quicker. As a solution, they invested in an instant messaging tool based on XMPP protocol.
 
-But to everyone's surprise, it failed to deliver. The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
+> **But to everyone's surprise, it failed to deliver. **The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
 
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
 # ![test1.png](/uploads/test1.png)
+
 THE SOLUTION
 
-## ✔️70% decrease in email volume, fewer meetings, and quicker interaction.
+## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
 
 Apart from the rest of the company, the IT team decided to use Rocket.Chat's Team collaboration to centralize their communication in a single space. Because the platform is encrypted and focused on data privacy, the IT team could rely on a secure infrastructure.
 
 Their time savings and efficiency were so remarkable that they sold the idea to the rest of the company. Teams including Marketing and HR adopted Rocket.Chat as their collaboration & communication platform.
 
-Fear of change & trial period: How did the company implement Rocket.Chat?
+# Fear of change & trial period: How did the company implement Rocket.Chat?
 
 Using a new messaging platform worried managers. They were afraid it could be hard to incentivize people to adopt a new tool.
 
