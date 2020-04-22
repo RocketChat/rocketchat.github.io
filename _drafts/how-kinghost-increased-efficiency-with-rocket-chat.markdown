@@ -9,9 +9,11 @@ author: Lucia Fallavena
 featured: false
 ---
 
-# Here's how the third-largest hosting company in Brazil used Rocket.Chat to boost efficiency
+# Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency
 
-Being in business for over 13 years, KingHost is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
+![TESTIMONIAL (5)-fa9760.png](/uploads/TESTIMONIAL%20(5)-fa9760.png)
+
+Being in business for over 13 years, KingHost became a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
 Acquired by Locaweb in 2019. A leader in Latin America for hosting services and cloud storage. Locaweb aims to become a well-known name in hosting infrastructure & in Latin America for organizational strategy. This also includes the development community.
 
@@ -33,13 +35,13 @@ Acquired by Locaweb in 2019
 
 In 2016, KingHost's team was heavily using emails for internal communications. However, as an ever-growing tech company, they needed to communicate and get feedback on projects quicker. As a solution, they invested in an instant messaging tool based on XMPP protocol.
 
-> **But to everyone's surprise, it failed to deliver. **The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
+> \*\*But to everyone's surprise, it failed to deliver. \*\* The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
 
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
 # ![test1.png](/uploads/test1.png)
 
-THE SOLUTION
+# THE SOLUTION
 
 ## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
 
@@ -57,12 +59,12 @@ In order to experiment Rocket.Chat, the teams replaced their old chatting tool a
 
 # Feedback: How the teams ended up loving Rocket.Chat
 
-![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
-
 Quickly, they knew that the feedback received was great. Rocket.Chat was adopted by nearly 100% of the company, validating the platform to be used as KingHost team’s main chatting tool.
 
 KingHost's team uses two major channels to communicate: strategic decisions and Hosting news. However, they encourage everyone to create their own discussions, without any constraints.
 
-Besides that, Rocket.Chat's integrations made it possible to manage information quickly and efficiently in an organized manner. Thanks to it, webhooks were created to let teams know about important topics.
+Besides that, Rocket.Chat's integrations made it possible to manage information quickly and efficiently in an organized manner. Thanks to it, webhooks were created to let teams know about important topics.![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
 
 Even Quality Assurance has improved: Support analysts receive posts and new documentation about QA changes in their very own Rocket.Chat's platform.
+
+![banner.png](/uploads/banner.png)
