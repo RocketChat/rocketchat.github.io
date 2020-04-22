@@ -11,6 +11,10 @@ featured: false
 
 # Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency
 
+> **“If we look back, it seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”**
+
+Alessandro Huber, IT Infrastructure Supervisor at KingHost
+
 Being in business for over 13 years, KingHost became a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
 Acquired by Locaweb in 2019. A leader in Latin America for hosting services and cloud storage. Locaweb aims to become a well-known name in hosting infrastructure & in Latin America for organizational strategy. This also includes the development community.
