@@ -8,7 +8,7 @@ description: Join us for an Ask Me Anything (AMA) with our CEO Gabriel Engel. Ga
   launches and much much more. Join us in the <a class="button--link" href="https://open.rocket.chat/channel/gzrwhsbcad4qe3dkn">webinar
   channel</a> at our open server.
 webinarID: 13
-webinarURL: 
+webinarURL:
 dateEvent: 2020-04-24 14:00:00 Z
 bgSize: cover
 bgColor: 030c1a
@@ -17,5 +17,6 @@ hosts:
 language: USA
 gmt: -3
 cover: "/images/posts/2020/04/webinar-ama.jpg"
+custom-form: "<a class='button' href='http://zc.vg/NOe8B'>Subscribe to this Webinar</a>"
 ---
 
