@@ -9,8 +9,11 @@ author: Lucia Fallavena
 featured: false
 ---
 
-* Founded: 2006; Acquired by Locaweb in 2019
+KingHost is the third-largest hosting company in Brazil offering technology solutions. Website hosting, email marketing, e-commerce hosting, cloud hosting, marketing automation, and reseller hosting are a few of them.
 
+Being in business for over 13 years, the company was acquired by Locaweb in 2019. A leader in Latin America for hosting services and cloud storage. Locaweb aims to become a well-known name in hosting infrastructure & in Latin America for organizational strategy. This also includes the development community.
+
+Founded: 2006; Acquired by Locaweb in 2019
 
 * Location: Headquarters located in Porto Alegre, Brazil
 
@@ -20,15 +23,9 @@ featured: false
 
 * Mission: To transform businesses of all sizes by making it easy for everyone to use technology
 
-## About KingHost
-
-KingHost is the third-largest hosting company in Brazil offering cutting-edge technology solutions. Some of their services include website hosting, email marketing, e-commerce hosting, cloud hosting, marketing automation, and reseller hosting.
-
-Being in business for over 13 years, the company was acquired by Locaweb in 2019. A leader in Latin America for hosting services and cloud storage. Locaweb aims to become a well-known name in hosting infrastructure & in Latin America for organizational strategy. This also includes the development community.
-
 ## **THE CHALLENGE**
 
-## Increasing communication speed and minimizing inefficiencies with emails.
+## 🔴 Increasing communication speed and minimizing inefficiencies with emails.
 
 In 2016, KingHost's team was heavily using emails for internal communications. However, as an ever-growing tech company, they needed to communicate and get feedback on projects quicker. As a solution, they invested in an instant messaging tool based on XMPP protocol.
 
@@ -36,9 +33,10 @@ But to everyone's surprise, it failed to deliver. The XMPP protocol tool didn't 
 
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
-## 
+# ![test1.png](/uploads/test1.png)
 THE SOLUTION
-70% decrease in email volume, fewer meetings, and quicker interaction.
+
+## ✔️70% decrease in email volume, fewer meetings, and quicker interaction.
 
 Apart from the rest of the company, the IT team decided to use Rocket.Chat's Team collaboration to centralize their communication in a single space. Because the platform is encrypted and focused on data privacy, the IT team could rely on a secure infrastructure.
 
