@@ -1,9 +1,12 @@
 ---
 title: How KingHost Reduced Its Email Volume By A Shocking 70% With Rocket.Chat
 date: 2020-04-19 12:36:00 Z
+categories:
+- Case Studies
+- News
 cover: "/uploads/IMG_9237.JPG"
 author: Lucia Fallavena
-featured: true
+featured: false
 ---
 
 * Founded: 2006; Acquired by Locaweb in 2019
