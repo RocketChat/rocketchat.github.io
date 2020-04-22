@@ -3,7 +3,7 @@ title: 'Introducing Rocket.Chat 3.1: Get To Know New Features & Updates'
 date: 2020-04-22 10:36:00 Z
 categories:
 - News
-cover: "/uploads/Release%203.1.png"
+cover: "/uploads/Release%203.1%20(1).png"
 featured: true
 author: Lucia Fallavena
 ---
