@@ -9,11 +9,13 @@ author: Lucia Fallavena
 featured: false
 ---
 
-# Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency
+# ![Group 136.png](/uploads/Group%20136.png)
 
 > **“If we look back, it seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”**
 
 Alessandro Huber, IT Infrastructure Supervisor at KingHost
+
+# Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency.
 
 Being in business for over 13 years, KingHost became a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
