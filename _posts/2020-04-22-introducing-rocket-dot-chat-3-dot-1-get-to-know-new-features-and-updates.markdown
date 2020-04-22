@@ -4,7 +4,7 @@ date: 2020-04-22 10:36:00 Z
 categories:
 - News
 cover: 
-featured: 'yes'
+featured: 
 ---
 
 After significant development and thanks to our team and community, we are delighted to announce the arrival of [Rocket.Chat 3.1.0](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.1.0), full of exciting features!
@@ -13,7 +13,7 @@ In this post, we will give you a quick overview of the main features brought by 
 
 ## 🚀 New features released with Rocket.Chat 3.1
 
-## #1) Direct messages between multiple users
+## 1) Direct messages between multiple users
 
 Thanks to this feature, there is no need to create a private channel to have a chat with multiple users anymore.
 
@@ -23,7 +23,7 @@ Just go to **Create New (last icon on top right corner) > Direct Messages** and 
 
 Important: every room composed of a certain group of people is unique. This means that if you wish to include more people in your direct messages, another room for direct interaction will be created.
 
-## #2)  A Brand New Engagement Dashboard (Enterprise Edition)
+## 2)  A Brand New Engagement Dashboard (Enterprise Edition)
 
 ![engagement.gif](/uploads/engagement.gif)
 
@@ -39,7 +39,7 @@ The Engagement Dashboard shows the administrator how his team is using Rocket.Ch
 
 Only available for Enterprise clients, administrators can access it by clicking in **Administration > Engagement Dashboard**.
 
-## #3) Enterprise Edition Merge
+## 3) Enterprise Edition Merge
 
 We combined Rocket.Chat Enterprise Edition (EE) and Rocket.Chat Community Edition (CE) into a single codebase. We foresee numerous benefits to the community after this change; read more about the reasons behind it and  details [here](https://rocket.chat/2020/03/28/moving-to-a-single-codebase/).
 
@@ -51,7 +51,7 @@ Now, you'll find a folder called **ee** when accessing GitHub's repository. It h
 
 Rocket.Chat is still free and open-source as always; but since the code is more transparent, users now can read and check the code of EE features. Also, it is worth mentioning that you are able to delete the entire EE repository if you wish to.
 
-## #4) Setting to enable E2E encryption for Private and Direct Rooms By Default (BETA)
+## 4) Enable E2E encryption for Private and Direct Rooms By Default (BETA)
 
 Rocket.Chat has always been a safe platform to communicate. And you can never be too careful in times when **[zoombombing](https://rocket.chat/2020/04/13/alternatives-to-zoom/)** (strangers joining your private videoconference without permission) becomes a thing.
 
@@ -63,7 +63,7 @@ Access **Administration**> **E2E Encryption> Enabled**, then define if you want 
 
 Important: Since E2E Encryption is still in beta, we don't support it on mobiles yet.
 
-## #5) Two Factor Authentication Via Email
+## 5) Two Factor Authentication Via Email
 
 Another great feature to ensure security to users when performing certain actions in Rocket.Chat. **It adds an extra verification step** by asking for a code sent to the user's email to be able to proceed with a certain action.
 
@@ -77,17 +77,17 @@ The email code will only be required if the email is verified and if no TOTP was
 
 In addition, administrators can disable the feature or determine if the feature will be available for the users and if they will "auto opt-in". Just access \*\*Administration > Accounts > Two Factor Authentication \*\*and define the system preferences for your team.
 
-## #6) Translation via MS Translate
+## 6) Translation via MS Translate
 
 A brand new option to translate your message, this feature allows anyone's message to be translated through Microsoft's translation service, with an interface very similar to Google and DeepL.
 
-## #7) Save Time With The Info Panel For Agents (Omnichannel)
+## 7) Save Time With The Info Panel For Agents (Omnichannel)
 
 This feature allows agents to see all information regarding clients automatically when they enter an omnichannel room.
 
 Ultimately, it should save time for agents dealing with massive tickets to quickly edit information, close or forward the conversion.
 
-## #8) Last, But Not Least: Merging Sort List \+ View Mode
+## 8) Last, But Not Least: Merging Sort List \+ View Mode
 
 We merged the Sort List and the View Mode to improving Rocket.Chat's user interface and design. Now, you can do the following things from the same menu:
 
