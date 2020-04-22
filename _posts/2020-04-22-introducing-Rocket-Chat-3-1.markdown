@@ -76,7 +76,7 @@ The email code will only be required if the email is verified and if no TOTP was
 
 ![2FA.gif](/uploads/2FA.gif)
 
-In addition, administrators can disable the feature or determine if the feature will be available for the users and if they will "auto opt-in". Just access \*\*Administration > Accounts > Two Factor Authentication \*\*and define the system preferences for your team.
+In addition, administrators can disable the feature or determine if the feature will be available for the users and if they will "auto opt-in". Just access **Administration > Accounts > Two Factor Authentication** and define the system preferences for your team.
 
 ## 6) Translation via MS Translate
 
@@ -85,6 +85,8 @@ A brand new option to translate your message, this feature allows anyone's messa
 ## 7) Save Time With The Info Panel For Agents (Omnichannel)
 
 This feature allows agents to see all information regarding clients automatically when they enter an omnichannel room.
+
+![agent panel.gif](/uploads/agent%20panel.gif)
 
 Ultimately, it should save time for agents dealing with massive tickets to quickly edit information, close or forward the conversion.
 
@@ -104,7 +106,7 @@ In order to access it, just click in Sort (top left menu) and define your prefer
 
 ## Next Steps: How To Update Your Rocket.Chat To Version 3.1?
 
-* **If you host in our cloud: **The release happens automatically on our cloud, which means that no further action is required from your side. In addition, as upgrading instances might take a few weeks, feel free to reach out to ask us to upgrade your version for you sooner.
+* **If you host in our cloud:** The release happens automatically on our cloud, which means that no further action is required from your side. In addition, as upgrading instances might take a few weeks, feel free to reach out to ask us to upgrade your version for you sooner.
 
 
 * **If you use the self-managed version**: Depending on the installation mode, you might need to update your server manually. It should be easily done by following these instructions.
