@@ -1,6 +1,10 @@
 ---
 title: 'Introducing Rocket.Chat 3.1: Get To Know New Features & Updates'
 date: 2020-04-22 10:36:00 Z
+categories:
+- News
+cover: 
+featured: 'yes'
 ---
 
 After significant development and thanks to our team and community, we are delighted to announce the arrival of [Rocket.Chat 3.1.0](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.1.0), full of exciting features!
