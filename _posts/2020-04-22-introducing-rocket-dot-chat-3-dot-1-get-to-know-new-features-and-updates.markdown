@@ -53,7 +53,7 @@ Rocket.Chat is still free and open-source as always; but since the code is more 
 
 ## #4) Setting to enable E2E encryption for Private and Direct Rooms By Default (BETA)
 
-Rocket.Chat has always been a safe platform to communicate. And you can never be too careful in times when **zoombombing** (when strangers join your private videoconference without permission) becomes a thing.
+Rocket.Chat has always been a safe platform to communicate. And you can never be too careful in times when **[zoombombing](https://rocket.chat/2020/04/13/alternatives-to-zoom/)** (strangers joining your private videoconference without permission) becomes a thing.
 
 This feature allows every conversation room to have E2E encryption. Since it is not activated by default, you will need to do that by following these steps:
 
