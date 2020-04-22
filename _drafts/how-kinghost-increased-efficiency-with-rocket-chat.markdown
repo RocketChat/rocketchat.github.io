@@ -54,7 +54,7 @@ Using a new messaging platform worried managers. They were afraid it could be ha
 
 In order to experiment Rocket.Chat, the teams replaced their old chatting tool and implemented Rocket.Chat throughout the company to test it.
 
-## Feedback: How the teams ended up loving Rocket.Chat
+# Feedback: How the teams ended up loving Rocket.Chat
 
 ![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
 
