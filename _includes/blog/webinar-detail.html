@@ -55,7 +55,11 @@
 
       {% if posttime > nowunix %}
         <div class="webinar-form">
-          {% include blog/webinar-form.html post=post %}
+          {% if page.custom-form %}
+            {{page.custom-form}}
+          {% else %}
+            {% include blog/webinar-form.html post=post %}
+          {% endif %}
         </div>
       {% endif %}
     </div>

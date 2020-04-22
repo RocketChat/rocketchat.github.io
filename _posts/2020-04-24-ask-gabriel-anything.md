@@ -17,5 +17,6 @@ hosts:
 language: USA
 gmt: -3
 cover: "/images/posts/2020/04/webinar-ama.jpg"
+custom-form: "<a class='button' href='http://zc.vg/NOe8B'>Subscribe to this Webinar</a>"
 ---
 
