@@ -11,9 +11,9 @@ featured: false
 
 # ![Group 136.png](/uploads/Group%20136.png)
 
-> **“If we look back, it seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”**
-
-Alessandro Huber, IT Infrastructure Supervisor at KingHost
+> **“It seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.” **
+>
+> Alessandro Huber, IT Infrastructure Supervisor at KingHost
 
 # Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency.
 
