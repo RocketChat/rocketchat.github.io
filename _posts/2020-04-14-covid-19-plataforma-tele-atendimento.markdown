@@ -1,8 +1,10 @@
 ---
 title: 'COVID-19: Conheça a Plataforma Digital Que Beneficiará 30 Milhões de Brasileiros'
 date: 2020-04-14 12:02:00 Z
+categories:
+- News
 author: Lucia Fallavena
-featured: false
+featured: true
 cover: "/uploads/national-cancer-institute-cQ8FfVNvbew-unsplash.jpg"
 ---
 

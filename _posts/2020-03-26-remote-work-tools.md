@@ -23,9 +23,11 @@ Each team can have its own project, projects can have milestones, milestones hav
 
 However, since the tool has numerous features it can be tricky to keep track of project progress. For this reason, we have created an internal user guide to guide our team on:
 
-- How to prioritize the urgency of tasks
-- Update the status of a task
-- Connect a task with the overall company or team goals
+* How to prioritize the urgency of tasks
+
+* Update the status of a task
+
+* Connect a task with the overall company or team goals
 
 To build this guide, an internal brainstorming activity was done and even though each team organizes differently, the whole company tries to follow the best practices of this guide.
 
@@ -84,9 +86,5 @@ We know changing means challenges for most companies. [However, COVID-19 is alre
 Feeling lost in how to transition your operation to online?
 
 Rocket.Chat is committed to providing remote work best practices to its community.
-
-Watch our next webinar on “How to work remotely with Rocket.Chat”
-
-[ <img alt="remote-webinar" src="{{'/images/posts/2020/03/remote-work.png' | relative_url}}"> ](https://rocket.chat/2020/03/24/remote-work)
 
 {% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Improve Your Remote Communication Today" button-1="Start Cloud Trial" button-1-link="https://cloud.rocket.chat/trial/?utm_source=2020%2F03%2F26%2Fremote-work-tools%2F&utm_medium=banner&utm_campaign=remote_work" button-2="Install Self Managed" button-2-link="https://rocket.chat/pricing?utm_source=2020%2F03%2F26%2Fremote-work-tools%2F&utm_medium=banner&utm_campaign=remote_work" %}
