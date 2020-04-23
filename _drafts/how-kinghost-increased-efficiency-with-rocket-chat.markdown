@@ -31,6 +31,8 @@ Before they knew it, everyone was using emails to transmit sensitive data. Their
 
 # THE SOLUTION
 
+![Portugal.jpg](/uploads/Portugal.jpg)
+
 ## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
 
 Apart from the rest of the company, the IT team decided to use Rocket.Chat's Team collaboration to centralize their communication in a single space. Because the platform is encrypted and focused on data privacy, the IT team could rely on a secure infrastructure.
