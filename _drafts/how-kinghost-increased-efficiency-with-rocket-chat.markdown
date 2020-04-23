@@ -23,8 +23,6 @@ Acquired in 2019 by Locaweb **the leader in Latin America for hosting services a
 
 Alessandro Huber, IT Infrastructure Supervisor at KingHost
 
-![test1.png](/uploads/test1.png)
-
 # THE CHALLENGE
 
 # Increasing communication speed and minimizing inefficiencies with emails.
