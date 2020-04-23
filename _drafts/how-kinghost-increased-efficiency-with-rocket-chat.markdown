@@ -33,7 +33,14 @@ In 2016, KingHost's team was heavily using emails for internal communications. H
 
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
-<p class="theme_type--space"> Aaron Ogle, Lead Cloud Architect</p>
+<section class="container">
+    <div class="flex-grid grid--justify-around">
+        <div class="col">
+            <div class="content-testimonial">
+                <div class="content-testimonial-text-right">
+                    <p class="theme_type--space">“Rocket.Chat makes it easy to collaborate with my fellow remote and non-remote teammates. We can have both async and sync conversations. We can bring our information into the chat for chat ops style communication. Rocket.Chat has a busy mode. Works very well. Can enter busy mode and focus on your tasks that require deeper focus. Not to mention can easily enter a video call right from context of conversation if it’s needed”
+                    </p>
+                    <p class="theme_type--space"> Aaron Ogle, Lead Cloud Architect</p>
                     <div class="space--1"></div>
                 </div>
 
@@ -43,6 +50,7 @@ Before they knew it, everyone was using emails to transmit sensitive data. Their
     </div>
 </section>
 
+<div class="space--5"></div>
 
 # **THE SOLUTION**
 
