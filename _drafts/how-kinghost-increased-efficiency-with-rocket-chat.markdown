@@ -44,8 +44,6 @@ Before they knew it, everyone was using emails to transmit sensitive data. Their
 </section>
 
 
-
-
 # **THE SOLUTION**
 
 ## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
