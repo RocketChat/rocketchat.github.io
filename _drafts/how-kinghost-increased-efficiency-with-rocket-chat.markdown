@@ -17,21 +17,7 @@ Being in business for over 13 years, KingHost is a well-known technology provide
 
 ![TESTIMONIAL (7).png](/uploads/TESTIMONIAL%20(7).png)
 
-Acquired in 2019 by Locaweb **the leader in Latin America for hosting services and cloud storage**, improving communication is an ongoing task to establish leadership in the market. Let's dive into their challenges and how they used our platform to improve their communication.
-
-> “It seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”
-
-Alessandro Huber, IT Infrastructure Supervisor at KingHost
-
-# THE CHALLENGE
-
-# Increasing communication speed and minimizing inefficiencies with emails.
-
-In 2016, KingHost's team was heavily using emails for internal communications. However, as an ever-growing tech company, they needed to communicate and get feedback on projects quicker. As a solution, they invested in an instant messaging tool based on XMPP protocol.
-
-**But to everyone's surprise, it failed to deliver.** The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
-
-Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
+Acquired in 2019 by Locaweb **the leader in Latin America for hosting services and cloud storage**, improving communication is an ongoing task to establish leadership in the market. 
 
 <div class="content-testimonial">
 <div class="content-testimonial-text-right">
@@ -46,6 +32,18 @@ Before they knew it, everyone was using emails to transmit sensitive data. Their
 
 <div class="space--5"></div>
 
+Let's dive into their challenges and how they used our platform to improve their communication.
+
+# THE CHALLENGE
+
+## Increasing communication speed and minimizing inefficiencies with emails.
+
+In 2016, KingHost's team was heavily using emails for internal communications. However, as an ever-growing tech company, they needed to communicate and get feedback on projects quicker. As a solution, they invested in an instant messaging tool based on XMPP protocol.
+
+**But to everyone's surprise, it failed to deliver.** The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
+
+Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
+
 # THE SOLUTION
 
 ## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
@@ -53,6 +51,8 @@ Before they knew it, everyone was using emails to transmit sensitive data. Their
 Apart from the rest of the company, the IT team decided to use Rocket.Chat's Team collaboration to centralize their communication in a single space. Because the platform is encrypted and focused on data privacy, the IT team could rely on a secure infrastructure.
 
 Their time savings and efficiency were so remarkable that they sold the idea to the rest of the company. Teams including Marketing and HR adopted Rocket.Chat as their collaboration & communication platform.
+
+![Banners for pages.png](/uploads/Banners%20for%20pages.png)
 
 # Fear of change & trial period: How did the company implement Rocket.Chat?
 
