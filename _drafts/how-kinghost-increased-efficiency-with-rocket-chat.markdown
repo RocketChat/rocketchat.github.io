@@ -23,6 +23,8 @@ Acquired in 2019 by Locaweb **the leader in Latin America for hosting services a
 
 ## Increasing communication speed and minimising inefficiencies with emails.
 
+![Screen Capture on 2020-04-20 at 21-54-35-8abc9d.gif](/uploads/Screen%20Capture%20on%202020-04-20%20at%2021-54-35-8abc9d.gif)
+
 In 2016, KingHost's team was heavily using emails for internal communications. However, as an ever-growing tech company, they needed to communicate and get feedback on projects quicker. As a solution, they invested in an instant messaging tool based on XMPP protocol.
 
 **But to everyone's surprise, it failed to deliver.** The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
