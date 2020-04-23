@@ -11,7 +11,7 @@ featured: false
 
 # ![Group 136 (2).png](/uploads/Group%20136%20(2).png)
 
-<h2>Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency</h2>
+<h1 style="color:blue;">Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency</h1>
 
 > “It seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”
 >
@@ -40,7 +40,7 @@ Before they knew it, everyone was using emails to transmit sensitive data. Their
                 <div class="content-testimonial-text-right">
                     <p class="theme_type--space">“Rocket.Chat makes it easy to collaborate with my fellow remote and non-remote teammates. We can have both async and sync conversations. We can bring our information into the chat for chat ops style communication. Rocket.Chat has a busy mode. Works very well. Can enter busy mode and focus on your tasks that require deeper focus. Not to mention can easily enter a video call right from context of conversation if it’s needed”
                     </p>
-                    <p class="theme_type--space"> Aaron Ogle, Lead Cloud Architect</p>
+                    <p class="theme_type--space"> Alessandro Huber, IT Infrastructure Supervisor at KingHost</p>
                     <div class="space--1"></div>
                 </div>
 
