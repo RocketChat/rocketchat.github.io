@@ -44,8 +44,8 @@
         <tfoot>
           {% if include.name == "pricing" %}
             <th scope="row" class="pricing-table_label"></th>
-            <td class="table-cell bronze table-button"><a class="button trial" data-label="Cloud Bronze" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/bronze?utm_source=pricing&utm_medium=website&utm_campaign=trials">Start trial</a></td>
-            <td class="table-cell silvert able-button"><a class="button trial" data-label="Cloud Silver" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/silver?utm_source=pricing&utm_medium=website&utm_campaign=trials">Start trial</a></td>
+            <td class="table-cell bronze table-button"><a id="cloud-bronze-table-start-trial" class="button trial start_trial" data-label="Cloud Bronze" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/bronze?utm_source=pricing&utm_medium=website&utm_campaign=trials">Start trial</a></td>
+            <td class="table-cell silvert able-button"><a id="cloud-silver-table-start-trial" class="button trial start_trial" data-label="Cloud Silver" target="_blank" rel="noopener noreferrer" href="//cloud.rocket.chat/trial/silver?utm_source=pricing&utm_medium=website&utm_campaign=trials">Start trial</a></td>
             <td class="table-cell gold table-button"><a href="#" class="button trial contact" data-featherlight="#pricing-form" data-label="Cloud Gold" rel="noopener noreferrer">Contact Us</a></td>
           {% elsif include.name == "selfHosted" %}
             <th scope="row" class="pricing-table_label"></th>
