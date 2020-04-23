@@ -15,7 +15,7 @@ featured: false
 
 Being in business for over 13 years, KingHost is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
-![TESTIMONIAL (7).png](/uploads/TESTIMONIAL%20(7).png)
+![Copy of TESTIMONIAL.png](/uploads/Copy%20of%20TESTIMONIAL.png)
 
 Acquired in 2019 by Locaweb **the leader in Latin America for hosting services and cloud storage**, improving communication is an ongoing task to establish leadership in the market. 
 
