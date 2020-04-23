@@ -17,9 +17,11 @@ Being in business for over 13 years, KingHost is a well-known technology provide
 
 Acquired in 2019 by Locaweb **the leader in Latin America for hosting services and cloud storage**, improving communication is an ongoing task to establish leadership in the market. 
 
-![Copy of TESTIMONIAL.png](/uploads/Copy%20of%20TESTIMONIAL.png)Let's dive into their challenges and how they used our platform to improve their communication.
+Let's dive into their challenges and how they used our platform to improve their communication.
 
-# THE CHALLENGE
+![Copy of TESTIMONIAL.png](/uploads/Copy%20of%20TESTIMONIAL.png)
+
+# # THE CHALLENGE
 
 ## Increasing communication speed and minimising inefficiencies with emails.
 
