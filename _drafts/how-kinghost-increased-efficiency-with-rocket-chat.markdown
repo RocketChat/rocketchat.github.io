@@ -11,34 +11,19 @@ featured: false
 
 # ![Group 136 (2).png](/uploads/Group%20136%20(2).png)
 
+<h2>Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency</h2>
+
 > “It seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”
 >
+
 Alessandro Huber, IT Infrastructure Supervisor at KingHost
 
-# **Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency.**
+Being in business for over 13 years, KingHost is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
-<p><a id="what" title="Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency" class="toc-item"></a></p>
-
-<h2>Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency?</h2>
+Acquired in 2019 by Locaweb **the leader in Latin America for hosting services and cloud storage**, improving communication is an ongoing task to establish leadership in the market. Let's dive into their challenges and how they used our platform to improve
 
 
-Being in business for over 13 years, KingHost became a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
-
-Acquired by Locaweb in 2019. A leader in Latin America for hosting services and cloud storage. Locaweb aims to become a well-known name in hosting infrastructure & in Latin America for organizational strategy. This also includes the development community.
-
-Founded: 2006;
-
-Acquired by Locaweb in 2019
-
-* Location: Headquarters located in Porto Alegre, Brazil
-
-
-* Industry: Website hosting and software
-
-
-* Mission: To transform businesses of all sizes by making it easy for everyone to use technology
-
-# **THE CHALLENGE**
+# THE CHALLENGE
 
 # Increasing communication speed and minimizing inefficiencies with emails.
 
