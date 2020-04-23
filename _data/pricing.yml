@@ -18,6 +18,7 @@
 
 - title: "Deployment"
   isHeader: true
+  dontShow: pricing
 
 - title: "High Scalability Cluster"
   community: ""

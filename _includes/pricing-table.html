@@ -21,9 +21,13 @@
         <tbody>
             {% for item in pricingTable %}
                 {% if item.isHeader == true %}
-                    <tr>
-                        <th class="pricing-table_header" colspan="4">{{item.title}}</th>
-                    </tr>
+                  {% if item.dontShow == "pricing" and include.name == "pricing" %}
+
+                  {% else %}
+                  <tr>
+                    <th class="pricing-table_header" colspan="4">{{item.title}}</th>
+                  </tr>
+                  {% endif %}
                 {% else %}
                     <tr>
                       {% if include.name == "pricing" and item.bronze %}
