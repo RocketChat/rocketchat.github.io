@@ -15,13 +15,13 @@ featured: false
 
 Being in business for over 13 years, KingHost is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
+Acquired in 2019 by Locaweb **the leader in Latin America for hosting services and cloud storage**, improving communication is an ongoing task to establish leadership in the market. Let's dive into their challenges and how they used our platform to improve their communication.
+
 > “It seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”
 
 Alessandro Huber, IT Infrastructure Supervisor at KingHost
 
-Acquired in 2019 by Locaweb **the leader in Latin America for hosting services and cloud storage**, improving communication is an ongoing task to establish leadership in the market. Let's dive into their challenges and how they used our platform to improve
-
-<h1 style="color:indigo;">THE CHALLENGE</h1>
+# THE CHALLENGE
 
 # Increasing communication speed and minimizing inefficiencies with emails.
 
@@ -51,7 +51,7 @@ Before they knew it, everyone was using emails to transmit sensitive data. Their
 
 <div class="space--5"></div>
 
-# **THE SOLUTION**
+# THE SOLUTION
 
 ## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
 
