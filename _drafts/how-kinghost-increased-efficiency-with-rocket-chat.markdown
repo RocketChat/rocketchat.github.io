@@ -15,6 +15,8 @@ featured: false
 
 Being in business for over 13 years, KingHost is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
+![TESTIMONIAL (7).png](/uploads/TESTIMONIAL%20(7).png)
+
 Acquired in 2019 by Locaweb **the leader in Latin America for hosting services and cloud storage**, improving communication is an ongoing task to establish leadership in the market. Let's dive into their challenges and how they used our platform to improve their communication.
 
 > “It seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”
@@ -31,9 +33,6 @@ In 2016, KingHost's team was heavily using emails for internal communications. H
 
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
-
-
-
 <div class="content-testimonial">
 <div class="content-testimonial-text-right">
 <p class="theme_type--space">“Rocket.Chat makes it easy to collaborate with my fellow remote and non-remote teammates. We can have both async and sync conversations. We can bring our information into the chat for chat ops style communication. Rocket.Chat has a busy mode. Works very well. Can enter busy mode and focus on your tasks that require deeper focus. Not to mention can easily enter a video call right from context of conversation if it’s needed”
@@ -44,10 +43,6 @@ Before they knew it, everyone was using emails to transmit sensitive data. Their
 
                 <img class="content-testimonial-img" src="/uploads/TESTIMONIAL%20(5)-e3ed31.png" alt="Rocket.Chat's Guide On Remote Working " />
             </div>
-
-
-
-
 
 <div class="space--5"></div>
 
