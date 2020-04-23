@@ -45,6 +45,7 @@ en:
   subscribe: Subscribe
   subscribed: Subscribed
   remote-work: Remote Work
+  alternative-to-zoom: Seeking high-security alternatives to Zoom? Here's how to use Rocket.Chat for safe video calls
 
 
 pt:
@@ -93,6 +94,7 @@ pt:
   subscribe: Se Inscrever
   subscribed: Inscrito
   remote-work: Trabalho Remoto
+  alternative-to-zoom: Procurando alternativas de alta segurança ao Zoom? Veja como usar o Rocket.Chat para videochamadas seguras
 
 es:
   english: Inglés
@@ -139,6 +141,7 @@ es:
   subscribe: Suscribir
   subscribe: Suscrito
   remote-work: Trabajo remoto
+  alternative-to-zoom: ¿Busca alternativas de alta seguridad para Zoom? Aquí se explica cómo usar Rocket.Chat para realizar videollamadas seguras
 
 
 de:
@@ -186,3 +189,4 @@ de:
   subscribe: Abonnieren
   subscribed: Gezeichnet
   remote-work: Heimarbeit
+  alternative-to-zoom: Suchen Sie nach hochsicheren Alternativen zu Zoom? So verwenden Sie Rocket.Chat für sichere Videoanrufe

@@ -69,9 +69,7 @@ theme: dark
     {% for logo in site.data.logos %}
       <div class="col">
         <div class="card theme_box--dark">
-          {% capture logo-main %}
-          /images/press/logos/{{ logo.file }}.{{ logo.main }}
-          {% endcapture %}
+          {% capture logo-main %}/images/press/logos/{{ logo.file }}.{{ logo.main }}{% endcapture %}
           <h2 class="label--small theme_type--grey">{{ logo.name }}</h2>
           <img class="{{ logo.file }}"src="{{ logo-main | relative_url }}" alt="{{ logo.name }}">
 
