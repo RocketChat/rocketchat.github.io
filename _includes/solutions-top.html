@@ -19,7 +19,7 @@
             {% for feature in include.solution.tools %}
             <div class="feature">
                 {% capture feature-image-url%}/images/solutions/{{feature.image}}{% endcapture %}
-                <img class="feature__image" alt="{{feature.title}}" src="{{hero-image-url | relative_url}}">
+                <img class="feature__image" alt="{{feature.title}}" src="{{feature-image-url | relative_url}}">
                 <div class="feature__container">
                     <h3 class="feature__title">{{feature.title}}</h3>
                     <p class="feature__text">{{feature.text}}</p>
