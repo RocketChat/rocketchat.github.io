@@ -33,6 +33,19 @@ In 2016, KingHost's team was heavily using emails for internal communications. H
 
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
+<p class="theme_type--space"> Aaron Ogle, Lead Cloud Architect</p>
+                    <div class="space--1"></div>
+                </div>
+
+                <img class="content-testimonial-img" src="/uploads/TESTIMONIAL%20(5)-e3ed31.png" alt="Rocket.Chat's Guide On Remote Working " />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 # **THE SOLUTION**
 
 ## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
