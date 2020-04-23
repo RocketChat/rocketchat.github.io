@@ -9,9 +9,18 @@ author: Lucia Fallavena
 featured: false
 ---
 
-# Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency
+# ![Group 136 (2).png](/uploads/Group%20136%20(2).png)
 
-![TESTIMONIAL (5)-fa9760.png](/uploads/TESTIMONIAL%20(5)-fa9760.png)
+> “It seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”
+>
+Alessandro Huber, IT Infrastructure Supervisor at KingHost
+
+# **Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency.**
+
+<p><a id="what" title="Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency" class="toc-item"></a></p>
+
+<h2>Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency?</h2>
+
 
 Being in business for over 13 years, KingHost became a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
@@ -35,13 +44,11 @@ Acquired by Locaweb in 2019
 
 In 2016, KingHost's team was heavily using emails for internal communications. However, as an ever-growing tech company, they needed to communicate and get feedback on projects quicker. As a solution, they invested in an instant messaging tool based on XMPP protocol.
 
-> \*\*But to everyone's surprise, it failed to deliver. \*\* The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
+**But to everyone's surprise, it failed to deliver.** The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
 
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
-# ![test1.png](/uploads/test1.png)
-
-# THE SOLUTION
+# **THE SOLUTION**
 
 ## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
 
