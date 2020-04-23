@@ -57,13 +57,12 @@ Quickly, they knew that the feedback received was great.
 
 **Rocket.Chat was adopted by nearly 100% of the company, validating the platform as KingHost team’s main chatting tool.**
 
-KingHost's team uses two major channels to communicate: 
+KingHost encourages everyone to create their own discussions at Rocket.Chat, without any constraints.
+They use two major channels to communicate with the whole company: 
 
 * Strategic Decisions 
 
 * Hosting news
-
-However, they encourage everyone to create their own discussions, without any constraints.
 
 Besides that, Rocket.Chat's integrations made it possible to manage information quickly and efficiently in an organized manner. Webhooks were created to let teams know about important topics.![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
 
