@@ -13,19 +13,15 @@ featured: false
 
 <h2 style="color:indigo;">Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost its efficiency</h2>
 
-Being in business for over 13 years, KingHost is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
+Being in business for over 13 years, [KingHost](https://king.host/) is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
-Acquired in 2019 by Locaweb **the leader in Latin America for hosting services and cloud storage**, improving communication is an ongoing task to establish leadership in the market. 
-
-Let's dive into their challenges and how they used our platform to improve their communication.
+Acquired in 2019 by Locaweb, the leader in Latin America for hosting services,   communication plays an essential role to maintain the market leadership. Let's dive into their challenges and how Rocket.Chat helped the company to improve increase efficiency in 70%.
 
 ![Copy of TESTIMONIAL.png](/uploads/Copy%20of%20TESTIMONIAL.png)
 
-# # THE CHALLENGE
+# THE CHALLENGE
 
-## Increasing communication speed and minimising inefficiencies with emails.
-
-![Screen Capture on 2020-04-20 at 21-54-35-8abc9d.gif](/uploads/Screen%20Capture%20on%202020-04-20%20at%2021-54-35-8abc9d.gif)
+# Increasing communication speed and minimising inefficiencies with emails
 
 In 2016, KingHost's team was heavily using emails for internal communications. However, as an ever-growing tech company, they needed to communicate and get feedback on projects quicker. As a solution, they invested in an instant messaging tool based on XMPP protocol.
 
@@ -35,9 +31,7 @@ Before they knew it, everyone was using emails to transmit sensitive data. Their
 
 # THE SOLUTION
 
-![Portugal.jpg](/uploads/Portugal.jpg)
-
-## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
+# ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
 
 Apart from the rest of the company, the IT team decided to use Rocket.Chat's Team collaboration to centralize their communication in a single space. Because the platform is encrypted and focused on data privacy, the IT team could rely on a secure infrastructure.
 
