@@ -3,7 +3,8 @@ title: 'Rocket.Chat SaaS: A Secure Hosted Service'
 date: 2020-04-22 11:08:00 Z
 categories:
 - News
-author: Lucia Fallavena & Markus Kirsch
+- Product
+author: Markus Kirsch & Julia Grala
 featured: true
 cover: "/uploads/saas-security.png"
 ---
