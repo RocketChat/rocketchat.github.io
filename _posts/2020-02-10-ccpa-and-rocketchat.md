@@ -38,4 +38,4 @@ For our hosted offerings:
 
 We hope this helped you with the implications of CCPA on your organization. As the next update of the CCPA called "CCPA 2.0" is already in planning, let us know which other features you would like to see upcoming.
 
-Curious to learn more about our privacy and security features? See a product demo? Contact our sales team and get started right now.
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Chat with your team while keeping your data privacy" content="Audio and video conferencing, guest access, screen sharing, file sharing, LiveChat, LDAP Group Sync, two-factor authentication (2FA), E2E encryption, SSO, and dozens of OAuth providers." button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" button-2="Contact Us" button-2-link="https://rocket.chat/contact?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" %}
