@@ -9,9 +9,9 @@ author: Lucia Fallavena
 featured: false
 ---
 
-<h2 style="color:indigo;">Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency</h2>
-
 # ![Group 136 (2).png](/uploads/Group%20136%20(2).png)
+
+<h2 style="color:indigo;">Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency</h2>
 
 Being in business for over 13 years, KingHost is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
