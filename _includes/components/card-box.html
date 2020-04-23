@@ -13,9 +13,9 @@
         {% if include.no-buttons != true %}
         <div class="content-page__box-buttons">
             {% if include.button-1 %}
-                <a href="{{include.button-1-link}}" rel="noopener noreferrer" class="button">{{include.button-1}}</a>
+                <a href="{{include.button-1-link}}" rel="noopener noreferrer" class="button {% if include.button-1 == 'Start Cloud Trial' %}start_trial{% elsif include.button-1 == 'Contact Us' %}contac_us{% endif %}">{{include.button-1}}</a>
                 {% if include.button-2 %}
-                <a href="{{include.button-2-link}}" rel="noopener noreferrer" class="button">{{include.button-2}}</a>
+                <a href="{{include.button-2-link}}" rel="noopener noreferrer" class="button {% if include.button-2 == 'Start Cloud Trial' %}start_trial{% elsif include.button-2 == 'Contact Us' %}contac_us{% endif %}">{{include.button-2}}</a>
                 {% endif %}
             {% else %}
                 <a href="//cloud.rocket.chat/trial/bronze" rel="noopener noreferrer" class="button start_trial">Start Cloud Trial</a>
