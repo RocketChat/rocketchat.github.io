@@ -9,7 +9,6 @@ author: Lucia Fallavena
 featured: false
 ---
 
-
 <h2 style="color:indigo;">Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency</h2>
 
 # ![Group 136 (2).png](/uploads/Group%20136%20(2).png)
@@ -17,13 +16,10 @@ featured: false
 Being in business for over 13 years, KingHost is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
 
 > “It seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”
->
 
 Alessandro Huber, IT Infrastructure Supervisor at KingHost
 
-
 Acquired in 2019 by Locaweb **the leader in Latin America for hosting services and cloud storage**, improving communication is an ongoing task to establish leadership in the market. Let's dive into their challenges and how they used our platform to improve
-
 
 <h1 style="color:indigo;">THE CHALLENGE</h1>
 
@@ -36,20 +32,21 @@ In 2016, KingHost's team was heavily using emails for internal communications. H
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
 <section class="container">
-    <div class="flex-grid grid--justify-around">
-        <div class="col">
-            <div class="content-testimonial">
-                <div class="content-testimonial-text-right">
-                    <p class="theme_type--space">“Rocket.Chat makes it easy to collaborate with my fellow remote and non-remote teammates. We can have both async and sync conversations. We can bring our information into the chat for chat ops style communication. Rocket.Chat has a busy mode. Works very well. Can enter busy mode and focus on your tasks that require deeper focus. Not to mention can easily enter a video call right from context of conversation if it’s needed”
-                    </p>
-                    <p class="theme_type--space"> Alessandro Huber, IT Infrastructure Supervisor at KingHost</p>
-                    <div class="space--1"></div>
-                </div>
+<div class="flex-grid grid--justify-around">
+<div class="col">
+<div class="content-testimonial">
+<div class="content-testimonial-text-right">
+<p class="theme_type--space">“Rocket.Chat makes it easy to collaborate with my fellow remote and non-remote teammates. We can have both async and sync conversations. We can bring our information into the chat for chat ops style communication. Rocket.Chat has a busy mode. Works very well. Can enter busy mode and focus on your tasks that require deeper focus. Not to mention can easily enter a video call right from context of conversation if it’s needed”
+</p>
+<p class="theme_type--space"> Alessandro Huber, IT Infrastructure Supervisor at KingHost</p>
+<div class="space--1"></div>
+</div>
 
                 <img class="content-testimonial-img" src="/uploads/TESTIMONIAL%20(5)-e3ed31.png" alt="Rocket.Chat's Guide On Remote Working " />
             </div>
         </div>
     </div>
+
 </section>
 
 <div class="space--5"></div>
