@@ -21,6 +21,8 @@ Acquired in 2019 by Locaweb **the leader in Latin America for hosting services a
 
 Alessandro Huber, IT Infrastructure Supervisor at KingHost
 
+![test1.png](/uploads/test1.png)
+
 # THE CHALLENGE
 
 # Increasing communication speed and minimizing inefficiencies with emails.
@@ -30,9 +32,6 @@ In 2016, KingHost's team was heavily using emails for internal communications. H
 **But to everyone's surprise, it failed to deliver.** The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
 
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
-
-
-
 
 <div class="content-testimonial">
 <div class="content-testimonial-text-right">
@@ -44,10 +43,6 @@ Before they knew it, everyone was using emails to transmit sensitive data. Their
 
                 <img class="content-testimonial-img" src="/uploads/TESTIMONIAL%20(5)-e3ed31.png" alt="Rocket.Chat's Guide On Remote Working " />
             </div>
-
-
-
-
 
 <div class="space--5"></div>
 
