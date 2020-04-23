@@ -11,7 +11,7 @@ featured: false
 
 # ![Group 136 (2).png](/uploads/Group%20136%20(2).png)
 
-<h1 style="color:blue;">Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency</h1>
+<h1 style="color:indigo;">Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost efficiency</h1>
 
 > “It seems crazy to imagine the long email threads we had before Rocket.Chat. They became our partner to ensure agile communication and quicker results.”
 >
