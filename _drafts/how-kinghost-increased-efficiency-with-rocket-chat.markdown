@@ -27,6 +27,8 @@ In 2016, KingHost's team was heavily using emails for internal communications. H
 
 **But to everyone's surprise, it failed to deliver.** The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
 
+![IMG_9454.JPG](/uploads/IMG_9454.JPG)
+
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
 # THE SOLUTION
@@ -40,6 +42,8 @@ Their time savings and efficiency were so remarkable that they sold the idea to 
 ![Banners for pages.png](/uploads/Banners%20for%20pages.png)
 
 # Fear of change & trial period: How did the company implement Rocket.Chat?
+
+![IMG_9422.JPG](/uploads/IMG_9422.JPG)
 
 Using a new messaging platform worried managers. They were afraid it could be hard to incentivize people to adopt a new tool.
 
