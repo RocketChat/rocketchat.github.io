@@ -4,7 +4,7 @@ date: 2020-04-22 11:08:00 Z
 categories:
 - News
 - Product
-author: Markus Kirsch & Julia Grala
+author: Julia Grala
 featured: true
 cover: "/uploads/saas-security.png"
 ---
