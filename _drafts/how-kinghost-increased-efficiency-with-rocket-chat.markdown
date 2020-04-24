@@ -67,14 +67,14 @@ Even their Quality Management department (QA) gained new ways to be updated abou
 
 ‍Rocket.Chat has become one of the key players in KingHost's routine. **We  provided automation that facilitates their information management, increasing their efficiency by 70%.** Our team collaboration feature connects their 280 employees daily, allowing quicker discussions and faster results.
 
-Results like these are only possible if you use high-quality platforms that:
+Results like these are only possible if you use a platforms that:
 
 ✔️ Centralize your communication
 ✔️ Improve your team collaboration seamlessly
-✔️ Provide high-privacy standards for data privacy
+✔️ Provide high-privacy standards for your data
 
-## Start your free trial of Rocket.Chat. 
+## Move away from long email threads.Empower your team to collaborate remote smartly with Rocket.Chat
 
-## A complete communication solution used by +10 million users in 140 countries.
+## A complete communication solution used by \+10 million users in 140 countries.
 
 ![banner.png](/uploads/banner.png)
