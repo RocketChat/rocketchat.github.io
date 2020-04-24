@@ -31,7 +31,7 @@ In 2016, KingHost's team was heavily using emails for internal communications. H
 
 ![IMG_9454.JPG](/uploads/IMG_9454.JPG)
 
-Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
+Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months trying to adopt a new communication tool had gone to waste.
 
 ## The Solution
 
@@ -72,12 +72,6 @@ Results like these are only possible if you use a platforms that:
 ✔️ Improve your team collaboration seamlessly
 ✔️ Provide high-privacy standards for your data
 
-## Move away from long email threads. Empower your team to work smartly with Rocket.Chat
-
-## A complete communication hub used by \+10 million users in 140 countries.
-
-<div class="space--3"></div>
+## Move away from long email threads. Empower your team to work smartly with the communication hub used by \+10 million clients in 140 countries.
 
 {% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Chat with your team while keeping your data privacy" content="Get access to an amazing open source communication platform without having to manage and scale your own infrastructure and support team" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" button-2="Contact Us" button-2-link="https://rocket.chat/contact?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" %}
-
-<div class="space--3"></div>
