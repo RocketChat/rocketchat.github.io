@@ -46,9 +46,7 @@ Their time savings and efficiency were so remarkable that they sold the idea to 
 
 ![IMG_9422.JPG](/uploads/IMG_9422.JPG)
 
-Using a new messaging platform worried managers. They were afraid it could be hard to incentivize people to adopt a new tool.
-
-In order to experiment Rocket.Chat, the teams replaced their old chatting tool and implemented Rocket.Chat throughout the company to test it.
+Using a new messaging platform worried managers. They were afraid it could be hard to incentivize people to adopt a new tool.In order to experiment Rocket.Chat, the teams replaced their old chatting tool and implemented Rocket.Chat throughout the company to test it.
 
 ## Feedback: How the teams ended up loving Rocket.Chat
 
@@ -75,6 +73,8 @@ Results like these are only possible if you use high-quality platforms that:
 ✔️ Improve your team collaboration seamlessly
 ✔️ Provide high-privacy standards for data privacy
 
-## Start your free trial of Rocket.Chat today. A complete communication solution used by +10 million users in 140 countries.
+## Start your free trial of Rocket.Chat. 
+
+## A complete communication solution used by +10 million users in 140 countries.
 
 ![banner.png](/uploads/banner.png)
