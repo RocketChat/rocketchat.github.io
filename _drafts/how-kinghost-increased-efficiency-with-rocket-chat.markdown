@@ -54,8 +54,6 @@ In order to experiment Rocket.Chat, the teams replaced their old chatting tool a
 
 ![TESTIMONIAL (4).png](/uploads/TESTIMONIAL%20(4).png)
 
-Quickly, they knew that the feedback received was great.
-
 **Rocket.Chat was adopted by nearly 100% of the company, validating the platform as KingHost team’s main chatting tool.**
 
 KingHost encouraged everyone to create their own discussions at Rocket.Chat, without any constraints. They use two major channels to communicate with the whole company: **Strategic Decisions** and **Hosting news**.
@@ -65,12 +63,12 @@ KingHost encouraged everyone to create their own discussions at Rocket.Chat, wit
 **Rocket.Chat's integrations** also made it possible to manage information quickly and efficiently in an organized manner. Webhooks were created to let teams know about important topics.
 ![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
 
-Even Quality Assurance was improved. Thanks to an automation created with our [DevOps](https://5e8148b015cb7d47c1f974cf.preview.siteleaf.com/2020/04/19/how-kinghost-increased-efficiency-with-rocket-chat/) feature, now Support analysts receive posts and new documentation about QA changes in their very own Rocket.Chat's platform.
+Even their Quality Management department (QA) gained new ways to be updated about changes quickly. Thanks to the automation created with through our [DevOps](https://5e8148b015cb7d47c1f974cf.preview.siteleaf.com/2020/04/19/how-kinghost-increased-efficiency-with-rocket-chat/) feature, now Support analysts receive posts and new documentation about QA changes in their very own Rocket.Chat's platform.
 
-## How can Rocket.Chat help your business increase efficiency too?
+## How can your company achieve the same results with Rocket.Chat help>
 
-‍Rocket.Chat has become one of the key players in KingHost's routine. **We  provided automations that facilitate their information management, increasing efficiency in 70%.** Our team collaboration feature connects their 280 employees daily, allowing quicker discussions and faster results.
+‍Rocket.Chat has become one of the key players in KingHost's routine. **We  provided automation that facilitates their information management, increasing efficiency by 70%.** Our team collaboration feature connects their 280 employees daily, allowing quicker discussions and faster results.
 
-## Is your company struggling to be efficient remote?
+## Rocket.Chat is a complete communication solution used by +10 million users in 140 countries trust our platform to collaborate remotely.
 
 ![banner.png](/uploads/banner.png)
