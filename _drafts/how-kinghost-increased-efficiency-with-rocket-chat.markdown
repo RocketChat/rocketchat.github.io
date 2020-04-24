@@ -19,7 +19,7 @@ Acquired in 2019 by Locaweb, the leader in Latin America for hosting services,  
 
 ![Copy of TESTIMONIAL.png](/uploads/Copy%20of%20TESTIMONIAL.png)
 
-# THE CHALLENGE
+## THE CHALLENGE
 
 # Increasing communication speed and minimising inefficiencies with emails
 
@@ -27,11 +27,13 @@ In 2016, KingHost's team was heavily using emails for internal communications. H
 
 **But to everyone's surprise, it failed to deliver.** The XMPP protocol tool didn't provide basic features such as group chats. It only allowed one-on-one conversations, making it difficult for larger teams to collaborate. They also spotted bugs that quickly led to the tool's unpopularity.
 
+![IMG_9454.JPG](/uploads/IMG_9454.JPG)
+
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
-# THE SOLUTION
+## THE SOLUTION
 
-# ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
+## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
 
 Apart from the rest of the company, the IT team decided to use Rocket.Chat's Team collaboration to centralize their communication in a single space. Because the platform is encrypted and focused on data privacy, the IT team could rely on a secure infrastructure.
 
@@ -39,22 +41,29 @@ Their time savings and efficiency were so remarkable that they sold the idea to 
 
 ![Banners for pages.png](/uploads/Banners%20for%20pages.png)
 
-# Fear of change & trial period: How did the company implement Rocket.Chat?
+## Fear of change & trial period: How did the company implement Rocket.Chat?
+
+![IMG_9422.JPG](/uploads/IMG_9422.JPG)
 
 Using a new messaging platform worried managers. They were afraid it could be hard to incentivize people to adopt a new tool.
 
-![TESTIMONIAL (4).png](/uploads/TESTIMONIAL%20(4).png)
-
 In order to experiment Rocket.Chat, the teams replaced their old chatting tool and implemented Rocket.Chat throughout the company to test it.
 
-# Feedback: How the teams ended up loving Rocket.Chat
+## Feedback: How the teams ended up loving Rocket.Chat
 
-Quickly, they knew that the feedback received was great. Rocket.Chat was adopted by nearly 100% of the company, validating the platform to be used as KingHost team’s main chatting tool.
+![TESTIMONIAL (4).png](/uploads/TESTIMONIAL%20(4).png)
 
-KingHost's team uses two major channels to communicate: strategic decisions and Hosting news. However, they encourage everyone to create their own discussions, without any constraints.
+Quickly, they knew that the feedback received was great. 
 
-Besides that, Rocket.Chat's integrations made it possible to manage information quickly and efficiently in an organized manner. Thanks to it, webhooks were created to let teams know about important topics.![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
+**Rocket.Chat was adopted by nearly 100% of the company, validating the platform as KingHost team’s main chatting tool.**
+
+KingHost encourages everyone to create their own discussions at Rocket.Chat, without any constraints.
+They use two major channels to communicate with the whole company: **Strategic Decisions** and **Hosting news**.
+
+Rocket.Chat's integrations also made it possible to manage information quickly and efficiently in an organized manner. Webhooks were created to let teams know about important topics.![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
 
 Even Quality Assurance has improved: Support analysts receive posts and new documentation about QA changes in their very own Rocket.Chat's platform.
+
+
 
 ![banner.png](/uploads/banner.png)
