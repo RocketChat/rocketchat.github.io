@@ -22,7 +22,7 @@ Acquired in 2019 by Locaweb, the leader in Latin America for hosting services, c
 
 ## The Challenge
 
-## Increasing communication speed and minimizing inefficiencies with emails
+## ⬆️ Increasing communication speed and minimizing inefficiencies with emails
 
 In 2016, KingHost's team was heavily using emails for internal communications. However, as an ever-growing tech company, they needed to communicate and get feedback on projects quicker. As a solution, they invested in an instant messaging tool based on XMPP protocol.
 
@@ -65,11 +65,15 @@ KingHost encouraged everyone to create their own discussions at Rocket.Chat, wit
 
 Even their Quality Management department (QA) gained new ways to be updated about changes quickly. Thanks to the automation created with through our [DevOps](https://5e8148b015cb7d47c1f974cf.preview.siteleaf.com/2020/04/19/how-kinghost-increased-efficiency-with-rocket-chat/) feature, now Support analysts receive posts and new documentation about QA changes in their very own Rocket.Chat's platform.
 
-## How can your company achieve the same results with Rocket.Chat?
+## How can your company achieve the same results?
 
 ‍Rocket.Chat has become one of the key players in KingHost's routine. **We  provided automation that facilitates their information management, increasing their efficiency by 70%.** Our team collaboration feature connects their 280 employees daily, allowing quicker discussions and faster results.
 
-Results like these are only possible if you use high-quality platforms that centralize your communication and improve your team collaboration seamlessly.
+Results like these are only possible if you use high-quality platforms that:
+
+✔️ Centralize your communication
+✔️ Improve your team collaboration seamlessly
+✔️ Provide high-privacy standards for data privacy
 
 ## Start your free trial of Rocket.Chat today. A complete communication solution used by +10 million users in 140 countries.
 
