@@ -20,7 +20,7 @@ Acquired in 2019 by Locaweb, the leader in Latin America for hosting services,  
 
 ![Copy of TESTIMONIAL.png](/uploads/Copy%20of%20TESTIMONIAL.png)
 
-# The Challenge
+## The Challenge
 
 ## Increasing communication speed and minimizing inefficiencies with emails
 
@@ -32,7 +32,7 @@ In 2016, KingHost's team was heavily using emails for internal communications. H
 
 Before they knew it, everyone was using emails to transmit sensitive data. Their 12 months of trying to adopt a new communication tool had gone to waste.
 
-# The Solution
+## The Solution
 
 ## ✔️ 70% decrease in email volume, fewer meetings, and quicker interaction.
 
@@ -62,11 +62,12 @@ KingHost encouraged everyone to create their own discussions at Rocket.Chat, wit
 
 **After all, they reduced in 70% the time spent in discussions through email and other tools centralizing their conversations in Rocket.Chat.**
 
-**Rocket.Chat's integrations** also made it possible to manage information quickly and efficiently in an organized manner. Webhooks were created to let teams know about important topics.![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
+**Rocket.Chat's integrations** also made it possible to manage information quickly and efficiently in an organized manner. Webhooks were created to let teams know about important topics.
+![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
 
 Even Quality Assurance was improved. Thanks to an automation created with our [DevOps](https://5e8148b015cb7d47c1f974cf.preview.siteleaf.com/2020/04/19/how-kinghost-increased-efficiency-with-rocket-chat/) feature, now Support analysts receive posts and new documentation about QA changes in their very own Rocket.Chat's platform.
 
-# How can Rocket.Chat help your business increase efficiency too?
+## How can Rocket.Chat help your business increase efficiency too?
 
 ‍Rocket.Chat has become one of the key players in KingHost's routine. **We  provided automations that facilitate their information management, increasing efficiency in 70%.** Our team collaboration feature connects their 280 employees daily, allowing quicker discussions and faster results.
 
