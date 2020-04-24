@@ -69,7 +69,9 @@ Even their Quality Management department (QA) gained new ways to be updated abou
 Results like these are only possible if you use a platforms that:
 
 ✔️ Centralize your communication
-✔️ Improve your team collaboration seamlessly
+
+✔️Improve your team collaboration seamlessly
+
 ✔️ Provide high-privacy standards for your data
 
 ## Move away from long email threads. Empower your team to work smartly with the communication hub used by \+10 million clients in 140 countries.
