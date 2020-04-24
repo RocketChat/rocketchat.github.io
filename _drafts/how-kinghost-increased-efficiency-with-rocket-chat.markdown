@@ -7,8 +7,8 @@ categories:
 - News
 cover: "/uploads/IMG_9237.JPG"
 author: Lucia Fallavena
-featured: false
-justified: 
+featured: true
+justified: true
 ---
 
 # ![Group 136 (2).png](/uploads/Group%20136%20(2).png)
