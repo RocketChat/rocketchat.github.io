@@ -14,9 +14,9 @@ justified:
 
 <h2 style="color:indigo;">Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost its efficiency</h2>
 
-Being in business for over 13 years, [KingHost](https://king.host/) is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting and marketing automation.
+Being in business for over 13 years, [KingHost](https://king.host/) is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting, and marketing automation.
 
-Acquired in 2019 by Locaweb, the leader in Latin America for hosting services,   communication plays an essential role to maintain the market leadership. Let's dive into their challenges and how Rocket.Chat helped the company to improve increase efficiency in 70%.
+Acquired in 2019 by Locaweb, the leader in Latin America for hosting services, communication plays an essential role to maintain market leadership. Let's dive into their challenges and how Rocket.Chat helped the company to improve increase efficiency in 70%.
 
 ![Copy of TESTIMONIAL.png](/uploads/Copy%20of%20TESTIMONIAL.png)
 
@@ -58,17 +58,19 @@ In order to experiment Rocket.Chat, the teams replaced their old chatting tool a
 
 KingHost encouraged everyone to create their own discussions at Rocket.Chat, without any constraints. They use two major channels to communicate with the whole company: **Strategic Decisions** and **Hosting news**.
 
-**After all, they reduced in 70% the time spent in discussions through email and other tools centralizing their conversations in Rocket.Chat.**
+**After all, they reduced by 70% the time spent in discussions through email and other tools centralizing their conversations in Rocket.Chat.**
 
 **Rocket.Chat's integrations** also made it possible to manage information quickly and efficiently in an organized manner. Webhooks were created to let teams know about important topics.
 ![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
 
 Even their Quality Management department (QA) gained new ways to be updated about changes quickly. Thanks to the automation created with through our [DevOps](https://5e8148b015cb7d47c1f974cf.preview.siteleaf.com/2020/04/19/how-kinghost-increased-efficiency-with-rocket-chat/) feature, now Support analysts receive posts and new documentation about QA changes in their very own Rocket.Chat's platform.
 
-## How can your company achieve the same results with Rocket.Chat help>
+## How can your company achieve the same results with Rocket.Chat?
 
-‍Rocket.Chat has become one of the key players in KingHost's routine. **We  provided automation that facilitates their information management, increasing efficiency by 70%.** Our team collaboration feature connects their 280 employees daily, allowing quicker discussions and faster results.
+‍Rocket.Chat has become one of the key players in KingHost's routine. **We  provided automation that facilitates their information management, increasing their efficiency by 70%.** Our team collaboration feature connects their 280 employees daily, allowing quicker discussions and faster results.
 
-## Rocket.Chat is a complete communication solution used by +10 million users in 140 countries trust our platform to collaborate remotely.
+Results like these are only possible if you use high-quality platforms that centralize your communication and improve your team collaboration seamlessly.
+
+## Start your free trial of Rocket.Chat today. A complete communication solution used by +10 million users in 140 countries.
 
 ![banner.png](/uploads/banner.png)
