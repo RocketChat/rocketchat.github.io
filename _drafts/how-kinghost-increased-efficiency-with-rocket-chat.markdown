@@ -47,25 +47,23 @@ Their time savings and efficiency were so remarkable that they sold the idea to 
 
 Using a new messaging platform worried managers. They were afraid it could be hard to incentivize people to adopt a new tool.
 
-![TESTIMONIAL (4).png](/uploads/TESTIMONIAL%20(4).png)
-
 In order to experiment Rocket.Chat, the teams replaced their old chatting tool and implemented Rocket.Chat throughout the company to test it.
 
 ## Feedback: How the teams ended up loving Rocket.Chat
+
+![TESTIMONIAL (4).png](/uploads/TESTIMONIAL%20(4).png)
 
 Quickly, they knew that the feedback received was great. 
 
 **Rocket.Chat was adopted by nearly 100% of the company, validating the platform as KingHost team’s main chatting tool.**
 
 KingHost encourages everyone to create their own discussions at Rocket.Chat, without any constraints.
-They use two major channels to communicate with the whole company: 
+They use two major channels to communicate with the whole company: **Strategic Decisions** and **Hosting news**.
 
-* Strategic Decisions 
-
-* Hosting news
-
-Besides that, Rocket.Chat's integrations made it possible to manage information quickly and efficiently in an organized manner. Webhooks were created to let teams know about important topics.![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
+Rocket.Chat's integrations also made it possible to manage information quickly and efficiently in an organized manner. Webhooks were created to let teams know about important topics.![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
 
 Even Quality Assurance has improved: Support analysts receive posts and new documentation about QA changes in their very own Rocket.Chat's platform.
+
+
 
 ![banner.png](/uploads/banner.png)
