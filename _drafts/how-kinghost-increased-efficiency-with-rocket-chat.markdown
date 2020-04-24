@@ -12,7 +12,7 @@ justified:
 
 # ![Group 136 (2).png](/uploads/Group%20136%20(2).png)
 
-<h2 style="color:indigo;">Here's how the third-largest hosting company in Brazil uses Rocket.Chat to boost its efficiency</h2>
+<h2 style="color:indigo;">A quick overview of how the third-largest hosting company in Brazil uses Rocket.Chat to boost its efficiency</h2>
 
 Being in business for over 13 years, [KingHost](https://king.host/) is a well-known technology provider for website hosting, email marketing, e-commerce hosting, cloud hosting, and marketing automation.
 
