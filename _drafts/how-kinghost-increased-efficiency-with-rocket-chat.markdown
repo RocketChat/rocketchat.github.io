@@ -1,5 +1,6 @@
 ---
-title: How KingHost Increased Its Efficiency By A Shocking 70% With Rocket.Chat
+title: How KingHost Reduced Its Email Volume By A Shocking 70% & Increased Efficiency
+  With Rocket.Chat
 date: 2020-04-19 12:36:00 Z
 categories:
 - Case Studies
