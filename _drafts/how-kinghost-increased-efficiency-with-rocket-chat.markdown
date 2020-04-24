@@ -43,19 +43,17 @@ Their time savings and efficiency were so remarkable that they sold the idea to 
 
 ![Banners for pages.png](/uploads/Banners%20for%20pages.png)
 
-## How did the company implement Rocket.Chat?
-
-![IMG_9422.JPG](/uploads/IMG_9422.JPG)
+## Feedback: How the teams ended up loving Rocket.Chat
 
 Using a new messaging platform worried managers. They were afraid it could be hard to incentivize people to adopt a new tool.In order to experiment Rocket.Chat, the teams replaced their old chatting tool and implemented Rocket.Chat throughout the company to test it.
-
-## Feedback: How the teams ended up loving Rocket.Chat
 
 ![TESTIMONIAL (4).png](/uploads/TESTIMONIAL%20(4).png)
 
 **Rocket.Chat was adopted by nearly 100% of the company, validating the platform as KingHost team’s main chatting tool.**
 
 KingHost encouraged everyone to create their own discussions at Rocket.Chat, without any constraints. They use two major channels to communicate with the whole company: **Strategic Decisions** and **Hosting news**.
+
+![IMG_9422.JPG](/uploads/IMG_9422.JPG)
 
 **After all, they reduced by 70% the time spent in discussions through email and other tools centralizing their conversations in Rocket.Chat.**
 
