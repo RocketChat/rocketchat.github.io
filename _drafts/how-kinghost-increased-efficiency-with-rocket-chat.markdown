@@ -43,6 +43,8 @@ Their time savings and efficiency were so remarkable that they sold the idea to 
 
 ![Copy of youtube (1).png](/uploads/Copy%20of%20youtube%20(1).png)
 
+<a href="https://cloud.rocket.chat/trial/?utm_source=blog&utm_medium=banner-1&utm_campaign=remote_work"><img src="/uploads/Copy%20of%20youtube%20(1).png" alt="banner.png"></a>
+
 ## Feedback: How the teams ended up loving Rocket.Chat
 
 Using a new messaging platform worried managers. They were afraid it could be hard to incentivize people to adopt a new tool.In order to experiment Rocket.Chat, the teams replaced their old chatting tool and implemented Rocket.Chat throughout the company to test it.
@@ -70,10 +72,10 @@ Results like these are only possible if you use a platforms that:
 
 ✔️ Centralize your communication
 
-✔️Improve your team collaboration seamlessly
+✔️ Improve your team collaboration seamlessly
 
 ✔️ Provide high-privacy standards for your data
 
-## Move away from long email threads. Empower your team with the communication hub used by +10 million clients in 140 countries.
+## Move away from long email threads. Empower your team with the communication hub used by \+10 million clients in 140 countries.
 
 {% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Chat with your team while keeping your data privacy" content="Get access to an amazing open source communication platform without having to manage and scale your own infrastructure and support team" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/bronze?utm_source=blog&utm_medium=banner&utm_campaign=remote_work" button-2="Contact Us" button-2-link="https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=remote_work" %}
