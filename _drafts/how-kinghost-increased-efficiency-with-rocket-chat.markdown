@@ -7,6 +7,7 @@ categories:
 cover: "/uploads/IMG_9237.JPG"
 author: Lucia Fallavena
 featured: false
+justified: true
 ---
 
 # ![Group 136 (2).png](/uploads/Group%20136%20(2).png)
@@ -21,7 +22,7 @@ Acquired in 2019 by Locaweb, the leader in Latin America for hosting services,  
 
 ## THE CHALLENGE
 
-# Increasing communication speed and minimising inefficiencies with emails
+# Increasing communication speed and minimizing inefficiencies with emails
 
 In 2016, KingHost's team was heavily using emails for internal communications. However, as an ever-growing tech company, they needed to communicate and get feedback on projects quicker. As a solution, they invested in an instant messaging tool based on XMPP protocol.
 
@@ -41,7 +42,7 @@ Their time savings and efficiency were so remarkable that they sold the idea to 
 
 ![Banners for pages.png](/uploads/Banners%20for%20pages.png)
 
-## Fear of change & trial period: How did the company implement Rocket.Chat?
+## How did the company implement Rocket.Chat?
 
 ![IMG_9422.JPG](/uploads/IMG_9422.JPG)
 
@@ -53,17 +54,18 @@ In order to experiment Rocket.Chat, the teams replaced their old chatting tool a
 
 ![TESTIMONIAL (4).png](/uploads/TESTIMONIAL%20(4).png)
 
-Quickly, they knew that the feedback received was great. 
+Quickly, they knew that the feedback received was great.
 
 **Rocket.Chat was adopted by nearly 100% of the company, validating the platform as KingHost team’s main chatting tool.**
 
-KingHost encourages everyone to create their own discussions at Rocket.Chat, without any constraints.
-They use two major channels to communicate with the whole company: **Strategic Decisions** and **Hosting news**.
+KingHost encouraged everyone to create their own discussions at Rocket.Chat, without any constraints. Nowadays, they use two major channels to communicate with the whole company: **Strategic Decisions** and **Hosting news**.
 
-Rocket.Chat's integrations also made it possible to manage information quickly and efficiently in an organized manner. Webhooks were created to let teams know about important topics.![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
+**Rocket.Chat's integrations** also made it possible to manage information quickly and efficiently in an organized manner. Webhooks were created to let teams know about important topics.![TESTIMONIAL (5).png](/uploads/TESTIMONIAL%20(5).png)
 
 Even Quality Assurance has improved: Support analysts receive posts and new documentation about QA changes in their very own Rocket.Chat's platform.
 
+‍Rocket.Chat has become one of the key players in KingHost's routine. We have provided information to identify areas of improvement and take immediate action. After implementing Rocket.Chat, they were able to efficiently monitor and improve the needed scope of metrics.
 
+## Is your company struggling to be efficient remote?
 
 ![banner.png](/uploads/banner.png)
