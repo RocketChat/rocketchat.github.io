@@ -41,8 +41,6 @@ Apart from the rest of the company, the IT team decided to use Rocket.Chat's Tea
 
 Their time savings and efficiency were so remarkable that they sold the idea to the rest of the company. Teams including Marketing and HR adopted Rocket.Chat as their collaboration & communication platform.
 
-![Copy of youtube (1).png](/uploads/Copy%20of%20youtube%20(1).png)
-
 <a href="https://cloud.rocket.chat/trial/?utm_source=blog&utm_medium=banner-1&utm_campaign=remote_work"><img src="/uploads/Copy%20of%20youtube%20(1).png" alt="banner.png"></a>
 
 ## Feedback: How the teams ended up loving Rocket.Chat
