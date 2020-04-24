@@ -507,6 +507,10 @@ body.category {
     padding: 0
   }
 
+  &.justified {
+    text-align: justify;
+  }
+
   p {
     font-weight: normal;
 

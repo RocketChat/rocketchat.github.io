@@ -35,7 +35,7 @@ permalink: "/:year/:month/:day/:title/"
 paginate_path: "/blog/page/:num/"
 paginate: 8
 future: true
-version: 225
+version: 226
 wpm: 160
 sass:
   style: compressed
