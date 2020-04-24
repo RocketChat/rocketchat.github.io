@@ -39,7 +39,7 @@ class: post
       <img class="blog-post__cover" src="{{ page.cover | relative_url }}" alt="{{ page.title }}" />
     {% endif %}
 
-    <div class="blog-post__wrap">
+    <div class="blog-post__wrap {% if page.justified %}justified{% endif %}">
       {{ content }}
     </div>
 
