@@ -5,6 +5,7 @@ date: 2020-04-28 14:34:00 Z
 categories:
 - News
 - Case Studies
+- Product
 Featured: true
 Author: Lucia Fallavena
 justified: true
@@ -78,6 +79,7 @@ These are the usual steps taken in order to adopt the platform:
 \*\*Step 8) \*\*Each resident receives a unique and confidential identification and the history is recorded in the CRM system, developed by Konecty. As a step further, health public managers can access that information through dashboards and reports of risk analysis by micro-region.
 
 ![1.gif](/uploads/1.gif)
+
 
 > **"We make daily reports to the crisis committee linked to the governor or mayor and complete dashboards to monitor the scenarios, mainly due to the ability to generate welcoming campaigns by micro-region."**
 
