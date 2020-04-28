@@ -166,64 +166,136 @@
   community: ""
   pro: ""
   enterprise: true
-  
-- title: "Omnichannel"
+
+- title: "Omnichannel Features"
   isHeader: true
-  
+
+- title: "Manual & Auto Chat Routing"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Smart Chat Routing"
+  bronze: ""
+  silver: ""
+  gold: ""
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Queue Management"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Transfers"
+  bronze: ""
+  silver: ""
+  gold: ""
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Priority Assignment"
+  bronze: ""
+  silver: ""
+  gold: ""
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Chat Tagging"
+  bronze: ""
+  silver: ""
+  gold: ""
+  community: true
+  pro: true
+  enterprise: true
+
 - title: "Canned Responses"
   bronze: ""
   silver: ""
-  gold: true
-  community: ""
-  pro: ""
-  enterprise: true
-  
-- title: "Agent Utilization Limit"
-  bronze: ""
-  silver: ""
-  gold: true
-  community: ""
-  pro: ""
-  enterprise: true
-  
-- title: "Waiting Queue"
-  bronze: ""
-  silver: ""
-  gold: true
+  gold: ""
   community: ""
   pro: ""
   enterprise: true
 
-- title: "Supervisor Role"
+- title: "Concurrent Chat Limit"
   bronze: ""
   silver: ""
-  gold: true
-  community: ""
-  pro: ""
-  enterprise: true
-  
-- title: "Sub-departments"
-  bronze: ""
-  silver: ""
-  gold: true
+  gold: ""
   community: ""
   pro: ""
   enterprise: true
 
-- title: "Pre-configured Tags"
+- title: "Queue Waiting Time"
   bronze: ""
   silver: ""
-  gold: true
+  gold: ""
   community: ""
   pro: ""
   enterprise: true
-  
-- title: "Advanced Agent Routing Rules"
+
+- title: "Advanced Queue Monitoring"
+  bronze: ""
+  silver: ""
+  gold: ""
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Office Hours Control"
+  bronze: ""
+  silver: ""
+  gold: ""
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Integrations & API"
   bronze: ""
   silver: ""
   gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Analytics API"
+  bronze: ""
+  silver: ""
+  gold: ""
   community: ""
   pro: ""
+  enterprise: true
+
+- title: "Realtime Monitoring"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "Facebook & WhatsApp Integration"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "SMS & CRM Integration"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: true
+  pro: true
   enterprise: true
 
 - title: "Preconfigured Proxy Servers"
@@ -379,14 +451,14 @@
   community: ""
   pro: true
   enterprise: true
-  
-- title: "24/7 Phone"	
-  bronze: ""	
-  silver: "High Only"	
-  gold: "All tickets"	
-  community: ""	
-  pro: "High Only"	
-  enterprise: "All tickets"	
+
+- title: "24/7 Phone"
+  bronze: ""
+  silver: "High Only"
+  gold: "All tickets"
+  community: ""
+  pro: "High Only"
+  enterprise: "All tickets"
 
 - title: "Support Entitlement"
   bronze: "Admins"
