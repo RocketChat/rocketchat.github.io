@@ -79,7 +79,7 @@ These are the usual steps taken in order to adopt the platform:
 
 ![1.gif](/uploads/1.gif)
 
-> We make daily reports to the crisis committee linked to the governor or mayor and complete dashboards to monitor the scenarios, mainly due to the ability to generate welcoming campaigns by micro-region. 
+> **We make daily reports to the crisis committee linked to the governor or mayor and complete dashboards to monitor the scenarios, mainly due to the ability to generate welcoming campaigns by micro-region.**
 >
 > Leandro Coletti, Head of Revenue at Rocket.Chat
 
@@ -99,6 +99,8 @@ Designed to answer more than 100,000 queries about doubts, screening, and suppor
 
 ![national-cancer-institute-XNtFXcSgLB8-unsplash (1).jpg](/uploads/national-cancer-institute-XNtFXcSgLB8-unsplash%20(1).jpg)
 
-Thanks to the data processing system given by Konecty, each patient receives a unique ID, which stores the data to understand the progress of each case individually. This ensures that states and cities manage confidential information with high-privacy standards.
+Thanks to the data processing system given by [Konecty](https://konecty.com/), each patient receives a unique ID, which stores the data to understand the progress of each case individually. **This ensures that states and cities manage confidential information with high-privacy standards.**
 
-The history is saved in real time, allowing health care managers to map and analyze it later. The information collected can be used in a confidential manner for the analysis of effectiveness within each state or municipality. For instance: How many cases were treated? How many consultations were optimized or saved due to the teleservice? All of these are pertinent questions answered by our platform.
+The history is saved in real time, allowing health care managers to map and analyse it later. In addition, the information collected can be used in a confidential manner for the analysis of effectiveness within each state or municipality. 
+
+For instance: *How many cases were treated*? *How many consultations were optimized or saved due to the teleservice*? **All of these are pertinent questions answered by our platform.**
