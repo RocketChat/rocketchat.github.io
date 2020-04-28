@@ -2,8 +2,13 @@
 title: "How Rocket.Chat \nis deploying AI to spot COVID-19 and unburden the Brazilian
   health system"
 date: 2020-04-28 14:34:00 Z
+categories:
+- News
+- Case Studies
 Featured: false
 Author: Lucia Fallavena
+justified: true
+cover: "/uploads/national-cancer-institute-L8tWZT4CcVQ-unsplash%20(1).jpg"
 ---
 
 # Created by Rocket.Chat in partnership with Amazon, teleconsultation platform uses artificial intelligence to fight Coronavirus in Brazil
