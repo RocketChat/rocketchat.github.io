@@ -5,6 +5,7 @@ date: 2020-04-28 14:34:00 Z
 categories:
 - News
 - Case Studies
+- Product
 Featured: true
 Author: Lucia Fallavena
 justified: true
