@@ -81,7 +81,7 @@ These are the usual steps taken in order to adopt the platform:
 ![1.gif](/uploads/1.gif)
 
 
-> **"We make daily reports to the crisis committee linked to the governor or mayor and complete dashboards to monitor the scenarios, mainly due to the ability to generate welcoming campaigns by micro-region."**
+**"We make daily reports to the crisis committee linked to the governor or mayor and complete dashboards to monitor the scenarios, mainly due to the ability to generate welcoming campaigns by micro-region."**
 
 Leandro Coletti, Head of Revenue at Rocket.Chat
 
