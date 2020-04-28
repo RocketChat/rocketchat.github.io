@@ -7,12 +7,12 @@ categories:
 - Case Studies
 - Product
 Featured: true
-Author: Lucia Fallavena
+author: Lucia Fallavena
 justified: true
 cover: "/uploads/national-cancer-institute-L8tWZT4CcVQ-unsplash%20(1).jpg"
 ---
 
-# Created by Rocket.Chat in partnership with Amazon, teleconsultation platform uses artificial intelligence to fight Coronavirus in Brazil
+## Created by Rocket.Chat in partnership with Amazon, teleconsultation platform uses artificial intelligence to fight Coronavirus in Brazil
 
 ![COVID-19 Materiai (8).png](/uploads/COVID-19%20Materiai%20(8).png)
 
@@ -76,7 +76,7 @@ These are the usual steps taken in order to adopt the platform:
 
 **Step 7)** The teleconsultation is recorded and the CRM receives key-information for auditing, internal controls, and secure storage in accordance with data protection and privacy laws.
 
-\*\*Step 8) \*\*Each resident receives a unique and confidential identification and the history is recorded in the CRM system, developed by Konecty. As a step further, health public managers can access that information through dashboards and reports of risk analysis by micro-region.
+**Step 8)** Each resident receives a unique and confidential identification and the history is recorded in the CRM system, developed by Konecty. As a step further, health public managers can access that information through dashboards and reports of risk analysis by micro-region.
 
 ![1.gif](/uploads/1.gif)
 
@@ -115,8 +115,6 @@ Thanks to the data processing system given by [Konecty's CRM:](https://konecty.c
 
 ## How can you implement the solution in your country or region as well?
 
-Rocket.Chat is working on translating and adapting the solution for other countries and places outside Brazil. If you want to receive more information, please get in touch with us [by clicking here](https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=covid-19).
-
-We will be happy to discuss how the platform can benefit your particular environment.
+Rocket.Chat is working on translating and adapting the solution for other countries and places outside Brazil. If you want to receive more information, please get in touch with us [by clicking here](https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=covid-19). **We will be happy to discuss how the platform can benefit your particular environment.**
 
 ![youtube (7).png](/uploads/youtube%20(7).png)
