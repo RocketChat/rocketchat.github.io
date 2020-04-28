@@ -5,7 +5,7 @@ date: 2020-04-28 14:34:00 Z
 categories:
 - News
 - Case Studies
-Featured: false
+Featured: true
 Author: Lucia Fallavena
 justified: true
 cover: "/uploads/national-cancer-institute-L8tWZT4CcVQ-unsplash%20(1).jpg"
