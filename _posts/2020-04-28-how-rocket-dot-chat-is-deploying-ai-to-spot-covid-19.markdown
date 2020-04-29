@@ -6,7 +6,7 @@ categories:
 - News
 - Case Studies
 - Product
-Featured: true
+featured: true
 author: Lucia Fallavena
 justified: true
 cover: "/uploads/national-cancer-institute-L8tWZT4CcVQ-unsplash%20(1).jpg"
@@ -103,7 +103,7 @@ Designed to answer more than 100,000 queries about doubts, screening, and suppor
 
 Thanks to the data processing system given by [Konecty's CRM:](https://konecty.com/)
 
-* Each patient receives a unique ID, which stores the data to track the progress of each case individually. 
+* Each patient receives a unique ID, which stores the data to track the progress of each case individually.
 
 * **This ensures that states and cities manage confidential information with high-privacy standards.**
 
@@ -117,4 +117,4 @@ Thanks to the data processing system given by [Konecty's CRM:](https://konecty.c
 
 Rocket.Chat is working on translating and adapting the solution for other countries and places outside Brazil. If you want to receive more information, please get in touch with us [by clicking here](https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=covid-19). **We will be happy to discuss how the platform can benefit your particular environment.**
 
-![youtube (7).png](/uploads/youtube%20(7).png)
+<a href="https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=covid-19">![youtube (7).png](/uploads/youtube%20(7).png)</a>
