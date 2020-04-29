@@ -117,4 +117,4 @@ Thanks to the data processing system given by [Konecty's CRM:](https://konecty.c
 
 Rocket.Chat is working on translating and adapting the solution for other countries and places outside Brazil. If you want to receive more information, please get in touch with us [by clicking here](https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=covid-19). **We will be happy to discuss how the platform can benefit your particular environment.**
 
-<a href="https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=covid-19">![youtube (7).png](/uploads/youtube%20(7).png)</a>
+<a href="https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=covid-19">![youtube (7).png](/uploads/youtube%20(8).png)</a>
