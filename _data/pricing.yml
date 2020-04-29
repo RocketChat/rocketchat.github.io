@@ -23,6 +23,7 @@
   community: ""
   pro: true
   enterprise: true
+  dontShow: "pricing"
 
 - title: "File Storage Migrate Tool"
   community: ""
