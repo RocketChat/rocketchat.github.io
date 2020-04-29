@@ -171,8 +171,8 @@
   isHeader: true
 
 - title: "Manual & Auto Chat Routing"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
@@ -181,23 +181,23 @@
 - title: "Smart Chat Routing"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
 
 - title: "Queue Management"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
   enterprise: true
 
 - title: "Transfers"
-  bronze: ""
-  silver: ""
-  gold: ""
+  bronze: true
+  silver: true
+  gold: true
   community: true
   pro: true
   enterprise: true
@@ -205,15 +205,15 @@
 - title: "Priority Assignment"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
 
 - title: "Chat Tagging"
-  bronze: ""
-  silver: ""
-  gold: ""
+  bronze: true
+  silver: true
+  gold: true
   community: true
   pro: true
   enterprise: true
@@ -221,7 +221,7 @@
 - title: "Canned Responses"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
@@ -229,7 +229,7 @@
 - title: "Concurrent Chat Limit"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
@@ -237,7 +237,7 @@
 - title: "Queue Waiting Time"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
@@ -245,22 +245,22 @@
 - title: "Advanced Queue Monitoring"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
 
 - title: "Office Hours Control"
-  bronze: ""
-  silver: ""
-  gold: ""
+  bronze: true
+  silver: true
+  gold: true
   community: true
   pro: true
   enterprise: true
 
 - title: "Integrations & API"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
@@ -269,30 +269,30 @@
 - title: "Analytics API"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
 
 - title: "Realtime Monitoring"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
   enterprise: true
 
 - title: "Facebook & WhatsApp Integration"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
   enterprise: true
 
 - title: "SMS & CRM Integration"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
