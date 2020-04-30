@@ -30,7 +30,7 @@ So what exactly are the benefits you get with our hosted offering?
 
 ✔️ Confidentiality of your data: transport encryption via TLS and encryption at rest
 
-✔️ Backups and restore capabilities: if something goes wrong, up to hourly backups are available to protect you from data loss.
+✔️ Backups and restore capabilities: if something goes wrong, backups are available to protect you from data loss.
 
 ✔️ Automatic upgrades: no more need to test the impact of the new Rocket.Chat versions on your infrastructure. We are doing this for you and upgrade your instance automatically. This includes security fixes as well!
 
