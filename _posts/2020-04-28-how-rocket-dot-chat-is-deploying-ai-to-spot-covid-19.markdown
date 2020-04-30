@@ -80,7 +80,6 @@ These are the usual steps taken in order to adopt the platform:
 
 ![1.gif](/uploads/1.gif)
 
-
 **"We make daily reports to the crisis committee linked to the governor or mayor and complete dashboards to monitor the scenarios, mainly due to the ability to generate welcoming campaigns by micro-region."**
 
 Leandro Coletti, Head of Revenue at Rocket.Chat
@@ -117,4 +116,4 @@ Thanks to the data processing system given by [Konecty's CRM:](https://konecty.c
 
 Rocket.Chat is working on translating and adapting the solution for other countries and places outside Brazil. If you want to receive more information, please get in touch with us [by clicking here](https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=covid-19). **We will be happy to discuss how the platform can benefit your particular environment.**
 
-<a href="https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=covid-19">![youtube (7).png](/uploads/youtube%20(8).png)</a>
+<a href="https://rocket.chat/contact?utm_source=blog&utm_medium=banner&utm_campaign=covid-19">![youtube (7).png](/uploads/youtube%20(10).png)</a>
