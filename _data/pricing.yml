@@ -18,20 +18,6 @@
 
 - title: "Deployment"
   isHeader: true
-  dontShow: pricing
-
-- title: "High Scalability Cluster"
-  community: ""
-  pro: true
-  enterprise: true
-
-- title: "File Storage Migrate Tool"
-  community: ""
-  pro: true
-  enterprise: true
-
-- title: "Features"
-  isHeader: true
 
 - title: "Users"
   bronze: "Unlimited"
@@ -41,6 +27,24 @@
   pro: "Unlimited"
   enterprise: "Unlimited"
 
+- title: "Custom Domain"
+  bronze: ""
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
+- title: "High Scalability Cluster"
+  bronze: ""
+  silver: ""
+  gold: ""
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Team Collaboration Features"
+  isHeader: true
 
 - title: "Messages History"
   bronze: "Unlimited"
@@ -75,12 +79,12 @@
   enterprise: true
 
 - title: "Conferencing Server"
-  bronze: "Shared"
-  silver: "Shared"
-  gold: "Dedicated"
-  community: "Shared"
-  pro: "Dedicated"
-  enterprise: "Dedicated"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
 
 - title: "Storage"
   bronze: "1TB"
@@ -119,8 +123,8 @@
   pro: "Android, iOS"
   enterprise: "Android, iOS"
 
-- title: "Custom Domain"
-  bronze: ""
+- title: "End To End Encryption"
+  bronze: true
   silver: true
   gold: true
   community: true
@@ -135,31 +139,23 @@
   pro: true
   enterprise: true
 
-- title: "Livechat"
-  bronze: ""
-  silver: true
-  gold: true
-  community: true
-  pro: true
-  enterprise: true
-
-- title: "Live Streaming"
-  bronze: ""
-  silver: true
-  gold: true
-  community: true
-  pro: true
-  enterprise: true
-
 - title: "Read Receipt"
   bronze: ""
-  silver: true
+  silver: ""
   gold: true
-  community: true
-  pro: true
+  community: ""
+  pro: ""
   enterprise: true
 
 - title: "Message Auditing Panel"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Engagement Dashboard"
   bronze: ""
   silver: ""
   gold: true
@@ -171,8 +167,8 @@
   isHeader: true
 
 - title: "Manual & Auto Chat Routing"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
@@ -181,23 +177,23 @@
 - title: "Smart Chat Routing"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
 
 - title: "Queue Management"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
   enterprise: true
 
 - title: "Transfers"
-  bronze: ""
-  silver: ""
-  gold: ""
+  bronze: true
+  silver: true
+  gold: true
   community: true
   pro: true
   enterprise: true
@@ -205,15 +201,15 @@
 - title: "Priority Assignment"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
 
 - title: "Chat Tagging"
-  bronze: ""
-  silver: ""
-  gold: ""
+  bronze: true
+  silver: true
+  gold: true
   community: true
   pro: true
   enterprise: true
@@ -221,7 +217,7 @@
 - title: "Canned Responses"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
@@ -229,7 +225,7 @@
 - title: "Concurrent Chat Limit"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
@@ -237,7 +233,7 @@
 - title: "Queue Waiting Time"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
@@ -245,22 +241,22 @@
 - title: "Advanced Queue Monitoring"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
 
 - title: "Office Hours Control"
-  bronze: ""
-  silver: ""
-  gold: ""
+  bronze: true
+  silver: true
+  gold: true
   community: true
   pro: true
   enterprise: true
 
 - title: "Integrations & API"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
@@ -269,30 +265,30 @@
 - title: "Analytics API"
   bronze: ""
   silver: ""
-  gold: ""
+  gold: true
   community: ""
   pro: ""
   enterprise: true
 
 - title: "Realtime Monitoring"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
   enterprise: true
 
 - title: "Facebook & WhatsApp Integration"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
   enterprise: true
 
 - title: "SMS & CRM Integration"
-  bronze: ""
-  silver: ""
+  bronze: true
+  silver: true
   gold: true
   community: true
   pro: true
@@ -317,7 +313,7 @@
   pro: true
   enterprise: true
 
-- title: "OmniChannel Integrations"
+- title: "Omnichannel Integrations"
   bronze: ""
   silver: true
   gold: true
@@ -326,14 +322,6 @@
   enterprise: true
 
 - title: "Realtime Translation"
-  bronze: ""
-  silver: true
-  gold: true
-  community: ""
-  pro: true
-  enterprise: true
-
-- title: "Audio to Text Conversion"
   bronze: ""
   silver: ""
   gold: true
@@ -375,14 +363,6 @@
   community: "Basic"
   pro: "Real Time Sync"
   enterprise: "Real Time Sync"
-
-- title: "Engagement Dashboard"
-  bronze: ""
-  silver: ""
-  gold: true
-  community: ""
-  pro: ""
-  enterprise: true
 
 - title: "Resources"
   isHeader: true
@@ -500,37 +480,35 @@
   pro: "2 hours"
   enterprise: "30 minutes"
 
-- title: "Extras"
+- title: "On-Demand Services"
   isHeader: true
 
 - title: "Onboarding Call"
   bronze: ""
   silver: ""
-  gold: true
+  gold: "Included"
   community: ""
   pro: ""
-  enterprise: true
+  enterprise: "Included"
 
 - title: "Migration Assistance"
   bronze: ""
   silver: ""
-  gold: true
-  community: ""
-  pro: true
-  enterprise: true
-
-- title: "Access to Product Team"
-  bronze: ""
-  silver: ""
-  gold: true
+  gold: "Available for Purchase"
   community: ""
   pro: ""
-  enterprise: true
+  enterprise: "Available for Purchase"
 
 - title: "On-Call Upgrade Assistance"
+  bronze: ""
+  silver: ""
+  gold: "Available for Purchase"
   community: ""
   pro: ""
-  enterprise: true
+  enterprise: "Available for Purchase"
+
+- title: "Extras"
+  isHeader: true
 
 - title: "Atlassian Integration Apps Bundle"
   bronze: true
