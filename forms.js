@@ -237,7 +237,7 @@
 
 		// If a number field is over the max
 		if (validity.rangeOverflow)
-			return localSettings.messageRangeOverflow.replace('{max}', field.getAttribute('max'));
+		return localSettings.messageRangeOverflow.replace('{max}', field.getAttribute('max'));
 
 		// If a number field is below the min
 		if (validity.rangeUnderflow)
@@ -601,6 +601,7 @@ function submit(id) {
 
 	http.open('POST', finalEndpoint, true);
 	http.setRequestHeader('Content-type', 'application/json');
+	http.setRequestHeader('Access-Control-Allow-Origin', 'https://rocket.chat');
 	http.onload = function() {
 		var response = JSON.parse(this.response);
 		var submitButton = form.querySelector('button[type="submit"]');
