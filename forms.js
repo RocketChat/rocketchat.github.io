@@ -592,7 +592,7 @@ function submit(id) {
 	var allField = form.querySelectorAll('input, select, textarea');
 	var http = new XMLHttpRequest();
 	var jsonData = {};
-	var finalEndpoint = 'https://mail-contact-form.now.sh/contact';
+	var finalEndpoint = 'https://rocket-chat-mail-contact-form.now.sh';
 
 	for (var i = 0; i < allField.length; i++) {
 		var input = allField[i];
