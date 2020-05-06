@@ -9,7 +9,6 @@ redirect_from:
 - "/censorship-and-harmful-content/"
 ---
 
-
 ## Our stance on harmful content and censorship in Rocket.Chat
 
 Our position:
