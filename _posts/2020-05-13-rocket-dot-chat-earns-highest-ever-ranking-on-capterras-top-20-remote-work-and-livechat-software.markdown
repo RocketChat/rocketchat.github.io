@@ -7,7 +7,7 @@ categories:
 - Product
 author: Lucia Fallavena
 justified: false
-cover: "/uploads/Screenshot%202020-05-13%20at%2018.05.32.png"
+cover: "/uploads/new.png"
 featured: true
 ---
 
