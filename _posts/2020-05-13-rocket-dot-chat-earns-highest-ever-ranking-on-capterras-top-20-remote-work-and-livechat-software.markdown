@@ -23,11 +23,11 @@ featured: true
 
 [Capterra](https://www.capterra.com/) is a free online service that helps organizations find the best tech solutions to succeed. We are humbled to see our efforts recognized by such a well-known authority for tech platforms!
 
-To give you an overview of why users pointed Rocket.Chat as such a valuable platform, we dove into each category explaining what users love most about us. **Check it out** :)
+To give you an overview of why users pointed Rocket.Chat as such a valuable platform, we dove into each category explaining what users love most about us:
 
 ## 🏆Top 20 Remote Work Softwares: Why Was Rocket.Chat Chosen Out Of 300 Companies?
 
-![Screenshot 2020-05-13 at 18.30.02.png](/uploads/Screenshot%202020-05-13%20at%2018.30.02.png)
+![Screenshot 2020-05-13 at 20.16.12.png](/uploads/Screenshot%202020-05-13%20at%2020.16.12.png)
 
 The category *Remote Work* software includes a combination of different types of solutions needed for professionals to be efficient and effective in their role from outside fixed office space. This is exactly why Rocket.Chat was named out of 300 solutions analyzed by Capterra's users.
 
@@ -50,6 +50,12 @@ Based on verified ratings from Capterra, we listed what users said they love mos
 🎉 “Great in terms of the fact that it allows you to manage your own chat server without having to go through third-party services”.(Ramindu D., Software Technical Lead)
 
 🎉 “I would say in a nutshell this product is a huge savior to keep a steady workflow within any organization or company as well”.(Kristy W. Software Developer)
+
+<div class="space--3"></div>
+
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Chat with your team while keeping your data privacy" content="Get access to an amazing open source communication platform without having to manage and scale your own infrastructure and support team" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" button-2="Contact Us" button-2-link="https://rocket.chat/contact?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" %}
+
+<div class="space--3"></div>
 
 ## 🏆 Top 5 LiveChat Software: Behind The Impressive 4.4/5 Users Satisfaction
 
