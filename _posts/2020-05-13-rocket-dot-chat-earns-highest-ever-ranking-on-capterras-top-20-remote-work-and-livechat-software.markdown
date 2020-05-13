@@ -6,7 +6,9 @@ categories:
 - news
 - Product
 author: Lucia Fallavena
-Field name: 
+justified: true
+cover: "/uploads/Screenshot%202020-05-13%20at%2018.05.32.png"
+featured: true
 ---
 
 # We're Over The Moon!
