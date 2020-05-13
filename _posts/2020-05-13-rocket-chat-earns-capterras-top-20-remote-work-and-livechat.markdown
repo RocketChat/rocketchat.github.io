@@ -52,7 +52,7 @@ Based on verified ratings from Capterra, we listed what users said they love mos
 
 <div class="space--3"></div>
 
-{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Chat with your team while keeping your data privacy" content="Get access to an amazing open source communication platform without having to manage and scale your own infrastructure and support team" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" button-2="Contact Us" button-2-link="https://rocket.chat/contact?utm_source=remote-work&utm_medium=banner&utm_campaign=remote_work" %}
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Chat with your team while keeping your data privacy" content="Get access to an amazing open source communication platform without having to manage and scale your own infrastructure and support team" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/" button-2="Contact Us" button-2-link="https://rocket.chat/contact" %}
 
 <div class="space--3"></div>
 
