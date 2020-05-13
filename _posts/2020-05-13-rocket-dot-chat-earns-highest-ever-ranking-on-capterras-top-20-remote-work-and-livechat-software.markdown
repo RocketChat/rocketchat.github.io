@@ -6,7 +6,6 @@ categories:
 - Product
 - News
 author: Lucia Fallavena
-justified: false
 cover: "/uploads/new.png"
 featured: true
 ---
@@ -81,6 +80,6 @@ Source: [Capterra](https://www.capterra.com/p/161575/Rocket-Chat/reviews/1764243
 
 These are only a few benefits among numerous offered by our platform. If you don't use a communication hub to make your team more productive, **[start your Rocket.Chat free trial today](https://cloud.rocket.chat/trial/bronze)** (14 days, no credit card required).
 
----
+\*\*\*\*
 
 Capterra Top 20 reports constitute the subjective opinions of individual end-user reviews, ratings, and data applied against a documented methodology; they neither represent the views of nor constitute an endorsement by, Capterra or its affiliates.
