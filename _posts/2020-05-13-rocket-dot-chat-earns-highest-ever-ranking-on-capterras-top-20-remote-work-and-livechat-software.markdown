@@ -3,17 +3,19 @@ title: "\U0001F389 Rocket.Chat Earns Highest-ever Ranking On Capterra's Top 20 R
   Work & Livechat Software!"
 date: 2020-05-13 17:23:00 Z
 categories:
-- news
 - Product
+- News
 author: Lucia Fallavena
 justified: false
-cover: "/uploads/Screenshot%202020-05-13%20at%2018.05.32.png"
+cover: "/uploads/new.png"
 featured: true
 ---
 
 ## We're Over The Moon!
 
-## We´re over the moon! Last week, the leading software review platform Capterra announced that Rocket.Chat has been named Top 20 in these two categories:
+![giphy (1).gif](/uploads/giphy%20(1).gif)
+
+## Last week, the leading software review platform Capterra announced that Rocket.Chat has been named Top 20 in these two categories:
 
 🏆 [Top 5 Most Popular Live Chat Softwares](https://www.capterra.com/live-chat-software/#top-20)
 
@@ -35,21 +37,19 @@ Rocket.Chat's main features for remote work ensure that you:
 ✔️ Count on high-security standards to your data, with easy deployment
 ✔️ Move away from long email threads or non-reliable communication tools
 
-> **Rocket.Chat was born to disrupt standard and inefficient communication. Placing in categories like these is no small feat! A huge thanks to our loyal customers, we hope to contribute even more at these uncertain times when more companies need reliable platforms for secure remote work.
-> **
+> **“Rocket.Chat was born to disrupt standard and inefficient communication. Placing in categories like these is no small feat! A huge thanks to our loyal customers, we hope to contribute even more at these uncertain times when more companies need reliable platforms for secure remote work.”**
 
 Gabriel Engel, Founder and CEO of Rocket.Chat
 
 Based on verified ratings from Capterra, we listed what users said they love most about using working remotely in Rocket.Chat:
 
-![Screenshot 2020-05-13 at 18.29.12.png](/uploads/Screenshot%202020-05-13%20at%2018.29.12.png)
+![Screenshot 2020-05-13 at 18.29.12.png](/uploads/Screenshot%202020-05-13%20at%2018.29.12.png)Source: [Capterra](https://www.capterra.com/p/161575/Rocket-Chat/reviews/502385/)
 
 🎉 “Love for in-company communication, it makes communicating within the company very easy. Love ability to create groups, send a variety of message formats, and chat history logging.” (Faraan Q. Software Developer)
 
 🎉 “Great in terms of the fact that it allows you to manage your own chat server without having to go through third-party services”.(Ramindu D., Software Technical Lead)
 
 🎉 “I would say in a nutshell this product is a huge savior to keep a steady workflow within any organization or company as well”.(Kristy W. Software Developer)
-
 
 ## 🏆 Top 5 LiveChat Software: Behind The Impressive 4.4/5 Users Satisfaction
 
@@ -65,15 +65,16 @@ Thanks to these benefits behind our platform, Rocket.Chat just made it to the to
 
 ![Screenshot 2020-05-13 at 18.30.02.png](/uploads/Screenshot%202020-05-13%20at%2018.30.02.png)
 
-🎉 “I used this product as a secure chat interface to get away from Facebook.” (Adam N, user for +2 years)
+Source: [Capterra](https://www.capterra.com/p/161575/Rocket-Chat/reviews/1764243/)
+
+🎉 “I used this product as a secure chat interface to get away from Facebook.” (Adam N, user for \+2 years)
 
 🎉 “As a user, it was very simple to get used to, very intuitive, and even today very stable. Keeping a great track record is perhaps your greatest asset”.(Pedro D., technical director and user for 1 year)
 
 🎉 “Rocket.Chat provides all of the chat solutions I am looking for. Public channels, private channels, private messaging, Webhooks and integrations, including SMS and a website chat widget.” (Nick T. Owner Marketing and Advertising, Self-employed)
 
-These are only a few benefits among numerous offered by our platform. If you don't use a communication hub to make your team more productive, start your Rocket.Chat free trial today (14 days, no credit card required).
+These are only a few benefits among numerous offered by our platform. If you don't use a communication hub to make your team more productive, **[start your Rocket.Chat free trial today](https://cloud.rocket.chat/trial/bronze)** (14 days, no credit card required).
 
-______________________________________________________________________________________
+---
 
 Capterra Top 20 reports constitute the subjective opinions of individual end-user reviews, ratings, and data applied against a documented methodology; they neither represent the views of nor constitute an endorsement by, Capterra or its affiliates.
-
