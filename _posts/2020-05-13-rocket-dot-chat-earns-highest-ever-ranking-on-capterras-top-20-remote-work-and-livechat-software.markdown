@@ -3,8 +3,8 @@ title: "\U0001F389 Rocket.Chat Earns Highest-ever Ranking On Capterra's Top 20 R
   Work & Livechat Software!"
 date: 2020-05-13 17:23:00 Z
 categories:
-- news
 - Product
+- News
 author: Lucia Fallavena
 justified: false
 cover: "/uploads/new.png"
