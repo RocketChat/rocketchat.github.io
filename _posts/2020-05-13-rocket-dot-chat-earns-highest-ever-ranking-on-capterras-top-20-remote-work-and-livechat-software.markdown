@@ -2,6 +2,11 @@
 title: "\U0001F389 Rocket.Chat Earns Highest-ever Ranking On Capterra's Top 20 Remote
   Work & Livechat Software!"
 date: 2020-05-13 17:23:00 Z
+categories:
+- news
+- Product
+author: Lucia Fallavena
+Field name: 
 ---
 
 # We're Over The Moon!
