@@ -13,7 +13,9 @@ featured: true
 
 ## We're Over The Moon!
 
-## We´re over the moon! Last week, the leading software review platform Capterra announced that Rocket.Chat has been named Top 20 in these two categories:
+![giphy (1).gif](/uploads/giphy%20(1).gif)
+
+## Last week, the leading software review platform Capterra announced that Rocket.Chat has been named Top 20 in these two categories:
 
 🏆 [Top 5 Most Popular Live Chat Softwares](https://www.capterra.com/live-chat-software/#top-20)
 
