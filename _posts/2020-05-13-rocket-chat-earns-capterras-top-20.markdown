@@ -26,8 +26,6 @@ To give you an overview of why users pointed Rocket.Chat as such a valuable plat
 
 ## 🏆Top 20 Remote Work Softwares: Why Was Rocket.Chat Chosen Out Of 300 Companies?
 
-![Screenshot 2020-05-13 at 20.16.12.png](/uploads/Screenshot%202020-05-13%20at%2020.16.12.png)
-
 The category *Remote Work* software includes a combination of different types of solutions needed for professionals to be efficient and effective in their role from outside fixed office space. This is exactly why Rocket.Chat was named out of 300 solutions analyzed by Capterra's users.
 
 Rocket.Chat's main features for remote work ensure that you:
