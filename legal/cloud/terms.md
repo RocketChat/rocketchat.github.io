@@ -137,6 +137,6 @@ The Customer Terms, including any terms incorporated by reference into the Custo
 Please also feel free to contact us if you have any questions about Rocket.Chat’s Customer Terms of Service. You may contact us at contact@rocket.chat or at our mailing address below:
 
 Rocket.Chat Technologies Corp.
-2711 Centerville Road, Suite 400
+251 Little Falls Rd
 Wilmington, DE, 19808
 USA
