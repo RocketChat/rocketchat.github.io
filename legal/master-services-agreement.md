@@ -9,6 +9,8 @@ redirect_from:
 - "/master-services-agreement/"
 ---
 
+_Effective date: May 27th, 2020_
+
 # **ROCKET.CHAT MASTER SERVICES AGREEMENT**
 
 This Master Services Agreement (the "**Agreement**"), is entered as of _________________ (the “**Effective Date**”), by and between ______________________, whose address is _______________; an entity (“**You,**” “**Your**,” or “**Customer**”) and Rocket.Chat Technologies Corp. (“**Rocket.Chat**”). In this Agreement, Customer and Rocket.Chat may be individually referred to as “**party**” and collectively referred to as “**parties**.”
