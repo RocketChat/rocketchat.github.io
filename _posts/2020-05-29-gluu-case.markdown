@@ -1,0 +1,72 @@
+---
+title: " How Gluu Managed To Win Large Enterprise Customers With Rocket.Chat"
+date: 2020-05-29 12:00:00 Z
+categories:
+- Case Studies
+- News
+author: Lucia Fallavena
+cover: "/uploads/gluu-cover.png"
+featured: true
+---
+
+## Learn How Rocket.Chat Helped Gluu Become More Productive & Close More Deals
+
+![Testimonial](/uploads/gluu-testimonial.png)
+
+## A BILLION AUTHENTICATIONS PER DAY AND MORE: WHAT IS GLUU?
+
+Managing users and passwords for different applications can be a real challenge. especially if you are an enterprise admin. The stakes are high--get it wrong and hackers may compromise your organization. That’s why Gluu has been helping different organizations to centralize digital authentication since 2009.
+
+[The Gluu Server](https://www.gluu.org/) is the most comprehensive open-source identity platform on the market. Their Cloud-Native distribution horizontally scales to meet the most demanding requirements, even an [impressive billion authentications per day](https://www.gluu.org/resources/documents/articles/billion-authentications-per-day-2/).
+
+As a software vendor,  Gluu serves enterprise customers who have economies of scale in IT. Many of their customers are in highly regulated industries that prefer not exposing their identity data to third-party hosted services, including military,  banking, telecommunication, and healthcare companies.
+
+## THE PROBLEM
+
+## A GLOBAL TEAM AND THE LACK OF ENCRYPTED COMMUNICATIONS
+
+With a remote distributed global team of 45 people, **chat communication was always essential for Gluu**. As a security vendor,  private communication achieved via end-to-end encryption was an absolute must.
+
+The leadership team at Gluu was concerned with the potential privacy risks involved in mainstream communication platforms. It was unclear who could be monitoring communication, or where data was persisted.  Mike Schwartz, Founder and CEO of Gluu, was particularly concerned that communication could be intercepted with, or even without, the consent or knowledge of the platform.
+
+> **We used Skype, Telegram and WhatsApp, but these platforms didn’t have the confidentiality protection we needed. The public chat platforms are a honeypot of data. So, we decided to move. Our driver was to have an encrypted communication platform for team collaboration.”**
+
+Mike Schwartz, CEO and Founder of Gluu
+
+## THE SOLUTION
+
+## A RELIABLE OPEN-SOURCE CHATTING PLATFORM
+
+As a single sign-on company, Gluu needed a platform that could communicate with their central authentication system. Once they realized that Rocket.Chat was the only platform to offer such type of integration in its community version, they chose Rocket.Chat:
+
+> **We felt comfortable knowing Rocket.Chat had encryption, that there was an HTTPS connection between the browser and the RocketChat server. Rocket.Chat’s model gave us enough security and confidentiality for our daily conversations.**
+
+Gluu has been using Rocket.Chat for the past three years. Besides the improvement in team collaboration, Mike really likes the great user experience provided by Rocket.Chat.
+
+> **RocketChat’s just a way better user experience. We've been super happy with it! We've found it really easy to share resources and images, like the ability to paste in images. It has become our essential communication channel.**
+
+## Ease To Use & Not Even A Single Question
+
+In five years, Gluu has not fielded any questions from any employee about how to use Rocket.Chat. In Mike’s words: It's immediately obvious how you use it.
+
+Besides pointing to the great usability of Rocket.Chat, Gluu has built a few **automation** to make their daily tasks easier. GitBot is one of them. No matter what code is entered into GitHub, an automatic notification is sent out to a specific  RocketChat channel and the assigned emails.
+
+They also value the ability to [audit conversations](https://desk.rocket.chat/portal/kb/articles/message-auditing-panel) related to partners and their internal team. Having a text transcript of the conversation was very useful so they could go back to it whenever it was necessary.
+
+## OMNICHANNEL: HOW ROCKET.CHAT ADDED A COMPETITIVE ADVANTAGE FOR GLUU
+
+As technology shapes consumer preferences, having a great customer experience is a must for companies like Gluu. Their large size customer base demanded outstanding and immediate support. Therefore they opted to use Rocket.Chat as an additional support channel.
+
+The [Omnichannel Feature](https://rocket.chat/customer-solutions) allowed them to have a unique business advantage: managing and answering messages from external customers within Rocket.Chat:
+
+> **We introduced RocketChat as a secure support channel for customers, and they really loved it. They kind of love it too much, because they tend to go to chat first, no matter what.**
+
+The adoption rate was impressive. Rocket.Chat channels were (and still are) very active, with thousands of messages on them. Customers are happy with receiving high-level support. **Soon, Gluu decided to use their excellent customer support as a selling point to their VIP offer**. All thanks to Rocket.Chat:
+
+> **We offer Rocket.Chat support now as part of our VIP support offering. When clients can experience the support within Rocket.Chat, they're more likely to buy. So, we feel that chat support is a competitive differentiator for us.**
+
+At the end of the day, what matters is finding a strong competitive advantage and a way to outshine their competitors. **RocketChat enabled Gluu to provide outstanding support without sending engineers on-site and closing more deals. So, what are you waiting for?**
+
+## Join the community of 12,000,000+ users who are increasing their productivity on a daily basis. Try Rocket.Chat For Free!
+
+{% include components/card-box.html lang=include.lang box-type="post-cta-box" title="Chat with your team while keeping your data privacy" content="Get access to an amazing open source communication platform without having to manage and scale your own infrastructure and support team" button-1="Start SaaS Trial" button-1-link="https://cloud.rocket.chat/trial/bronze" button-2="Contact Us" button-2-link="https://rocket.chat/contact" %}
