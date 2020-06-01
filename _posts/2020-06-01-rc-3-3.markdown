@@ -1,0 +1,96 @@
+---
+title: "Rocket.Chat 3.3: Get To Know New Features & Updates"
+date: 2020-06-01 12:00:00 Z
+categories:
+- Product
+- News
+author: Lucia Fallavena
+cover: "/uploads/3-3/cover.png"
+featured: true
+---
+
+Get to know the main features brought by our latest release, [Rocket.Chat 3.3.0](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.3.0).
+
+# 🚀 New Features Released With Rocket.Chat 3.3
+
+## 🎉 Enterprise
+
+### 1) [Support Omnichannel Conversations Auditing](https://github.com/RocketChat/Rocket.Chat/pull/17692)
+
+Thanks to this feature, now you are able to audit agent or visitors’ conversations in Rocket.Chat’ omnichannel environment. You’ll need to enter the visitor or agent’s name, as well as the dates you would like to verify. This is how you audit Omnichannel messages inside your admin panel:
+
+![1](/uploads/3-3/1.gif)
+
+Note: All chat participants will be notified of the auditing process (similarly to when you audit information from Rocket.Chat standard servers).
+
+### 2) [Support For Custom Livechat Registration Form Fields](https://github.com/RocketChat/Rocket.Chat/pull/17581)
+
+Thanks to this feature, the Livechat widget supported by the Omnichannel (one of the main entry-points of contact with customers) is now able to gather more information regarding customers.
+✔️Now, besides name, email and Department, you can set the Livechat to ask relevant questions such as Size Of The Company, and other types of questions to help your support agents better understand the ticket:
+
+![2](/uploads/3-3/2.gif)
+
+Ultimately, the Omnichannel Room Info panel will be filled with relevant information to the customers who got in touch. Note that this change only applies to the visitor scope.
+
+This is how you can create new visitor fields inside Rocket.Chat:
+
+![3](/uploads/3-3/3.gif)
+
+### 3) [Omnichannel Last-Chatted Agent Preferred Option](https://github.com/RocketChat/Rocket.Chat/pull/17666)
+
+This feature is a milestone to improve the customer experience of returning clients.
+Nowadays, the system sends calls to available agents first. Thanks to this feature, once every agent are occupied, it will queue the call to the last agent that the customer has talked to previously.
+
+✔️If the agent has been found, the system will check the agent's availability to assist the new chat. If it's not available, then the routing system will get the next available agent in the queue. It works with any entry point (Livechat, Facebook, REST API).
+
+The feature can be activated by going to **Administration> Omnichannel> Routing> Last-Chatted Agent Preferred.**
+
+![4](/uploads/3-3/4.gif)
+
+### 4) [Add Permissions To Deal With Omnichannel Visitor Past Chats History](https://github.com/RocketChat/Rocket.Chat/pull/17580)
+
+A great feature especially for businesses dealing with **outsourced teams and highly-sensitive information**. This feature allows you to:
+Define whether agents can access past chats of returning customers
+Determine they only see pasts chats from the same department
+✔️ **In order to allow agents, regardless of their departments, to access past chats** of a customer who previously contacted your support, just access **Administration> Permissions> view-livechat-closed-by-another-agent> tick the box _livechat-agent_**:
+
+✔️ On the other hand, if you wish **to allow that only agents from the same department are able to see past chats**, follow the same previous instructions. Go to **Administration> Permissions, but choose view-livechat-closed-same-department, then tick the box _livechat-agent_**:
+
+![5](/uploads/3-3/5.gif)
+
+### 5) [Screen Lock Settings - Mobile Client](https://github.com/RocketChat/Rocket.Chat/pull/17523)
+
+When enabled, this feature enables users to securely unlock Rocket.Chat’s mobile app by using their PIN, biometry, or Face ID to unlock the mobile app. Admins can activate the feature by accessing **Administration> Mobile> Force screen lock**:
+
+![6](/uploads/3-3/6.gif)
+
+### 6) [Allow Filtering Omnichannel Analytics Dashboards By Department](https://github.com/RocketChat/Rocket.Chat/pull/17463)
+
+The Realtime Monitoring Dashboard inside Omnichannel gained a useful new filter: now users can filter the metrics by the department. The feature allows you to understand the average of abandoned chats, chat durations, and get insights on your team’s performance.
+
+To access this feature, go to **Omnichannel> Real-time monitoring> Type the name of the department you want to receive information about**:
+
+![7](/uploads/3-3/7.gif)
+
+### 7) [Send Livechat Offline Messages To A Channel](https://github.com/RocketChat/Rocket.Chat/pull/17442)
+
+Never miss a query sent while your support team is offline anymore. If enabled, this new feature allows you to receive Livechat offline messages on a specific channel inside Rocket.Chat. There are two options to set up this feature:
+
+Send all offline messages to a global channel by going to **Admin> Omnichannel> Livechat> Send Livechat offline messages to a channel**:
+
+![8](/uploads/3-3/8.gif)
+
+Set up the channel per department. In order to do it, **open the department's configuration and set the following field**:
+
+![9](/uploads/3-3/9.gif)
+
+### Next Steps: How To Update Your Rocket.Chat To Version 3.3?
+
+**If you host in our cloud:** The release happens automatically on our cloud, which means that no further action is required from your side. In addition, as upgrading instances might take a few weeks, feel free to reach out to ask us to upgrade your version for you sooner.
+
+**If you use the self-managed version:** Depending on the installation mode, you might need to update your server manually. It should be easily done by following these instructions.
+Want to learn more about new features and product improvements in Rocket.Chat?
+
+<a href="https://vwik.maillist-manage.com/ua/Optin?od=11287ecafd2ee5&zx=1275b4957&lD=17e95fa74d76f51d&n=11699f74cba0768&sD=17e95fa74d82646d">
+<img src="/uploads/3-3/Signup.jpg">
+</a>
