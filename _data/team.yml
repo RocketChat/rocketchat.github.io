@@ -250,7 +250,6 @@
 - name: Alexandre Fornes
   role: Head of Sales Emerging Markets
   department: Sales
-  github_username: alexandrefornes75
   username: alexandre.fornes
   photo: yes
   country: Brazil
@@ -334,7 +333,7 @@
   username: paris.dufrayer
   photo: yes
   country: Spain
-  
+
 - name: Lucia Fallavena
   role: Content Marketing Analyst
   github_username: luciafallavena
@@ -350,11 +349,11 @@
   username: thassio.carvalho
   photo: yes
   country: Brazil
-  
+
 - name: Bruno Weiblen
   role: General Manager
   github_username: brunoweiblen
-  department: 
+  department:
   username: bruno.weiblen
   photo: yes
   country: Brazil
