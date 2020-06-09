@@ -10,7 +10,7 @@ bgSize: cover
 lead-source: Webinar Remote Work
 bgColor: 030c1a
 hosts: Bruno Weiblen
-language: USA
+language: Brazil
 gmt: -3
 cover: "/uploads/edu-webinar.jpg"
 ---
