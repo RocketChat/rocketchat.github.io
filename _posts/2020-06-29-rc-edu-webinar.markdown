@@ -20,10 +20,12 @@ Em tempos de pandemia e incerteza no setor educacional, **ampliar a comunicaçã
 ➡️ Nesse webinar, você aprenderá como Rocket.Chat pode auxiliar sua instituição educacional a:
 
 ✔️ Otimizar em até **80%** o uso de recursos para atendimento de alunos automatizando SAC e FAQ
+
 ✔️ Construir campanhas de retenção digital para controlar a evasão de alunos
+
 ✔️ Gerar mais **leads** e **conversão** através do uso de bots inteligentes vinculados ao Whatsapp Business
 
-Onde: Ao vivo, no canal do [Youtube da Rocket.Chat](https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ)
+**Onde**: Ao vivo, no canal do [Youtube da Rocket.Chat](https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ)
 
-Duração: 20 minutos + tempo para perguntas
+**Duração**: 20 minutos + tempo para perguntas
 
