@@ -357,3 +357,11 @@
   username: bruno.weiblen
   photo: yes
   country: Brazil
+
+- name: Andres Arrieta
+  role: Support Analyst
+  github_username: andres-mauricio
+  department: Operations
+  username: andres.mauricio
+  photo: yes
+  country: Colombia
