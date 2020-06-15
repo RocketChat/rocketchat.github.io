@@ -357,3 +357,13 @@
   username: bruno.weiblen
   photo: yes
   country: Brazil
+
+- name: Matheus Marsiglio
+  role: Software Engineer
+  github_username: mtmr0x
+  github_uid: 5414299
+  twitter: mtmr0x
+  department: Technology
+  username: matheus.marsiglio
+  photo: yes
+  country: Brazil

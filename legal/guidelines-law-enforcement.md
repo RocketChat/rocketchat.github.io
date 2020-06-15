@@ -63,7 +63,7 @@ Preservation requests, in accordance with applicable law, should:
 
 We may honor requests for extensions of preservation requests, but encourage law enforcement agencies to seek records through the appropriate channels in a timely manner, as we cannot guarantee that requested information will be available.
 
-Law enforcement and government preservation requests for user information may be submitted through our Legal Request Submissions site (<https://rocket.chat/legalrequests>). You can find further instructions below.
+Law enforcement and government preservation requests for user information may be submitted to our legal team at [legal@rocket.chat](mailto:legal@rocket.chat). You can find further instructions below.
 
 ## Requests for Rocket.Chat Cloud or Community Server account information
 
