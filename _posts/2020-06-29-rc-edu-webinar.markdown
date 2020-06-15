@@ -9,7 +9,9 @@ dateEvent: 2020-07-02 11:00:00 Z
 bgSize: cover
 lead-source: Webinar Remote Work
 bgColor: 030c1a
-hosts: Bruno Weiblen
+hosts:
+- Bruno Weiblen
+- Gabriel Engel
 language: Brazil
 gmt: -3
 cover: "/uploads/edu-webinar.jpg"
