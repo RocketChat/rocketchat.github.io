@@ -11,7 +11,7 @@ redirect_from:
 
 _Effective date: July 4th, 2020_
 
-# **ROCKET.CHAT MASTER SERVICES AGREEMENT - SELF MANAGED**
+# **ROCKET.CHAT MASTER SERVICES AGREEMENT FOR SELF-MANAGED DEPLOYMENTS**
 
 This Master Services Agreement (the "**Agreement**"), is entered as of _________________ (the “**Effective Date**”), by and between ______________________, whose address is _______________; an entity (“**You,**” “**Your**,” or “**Customer**”) and Rocket.Chat Technologies Corp. (“**Rocket.Chat**”). In this Agreement, Customer and Rocket.Chat may be individually referred to as “**party**” and collectively referred to as “**parties**.”
 
@@ -88,7 +88,7 @@ Either party may terminate this Agreement, without notice, (i) upon the institut
 **5.3 Effect of Termination.** Unless You are entitled for a refund under 5.4, Termination shall not relieve You of the obligation to pay any fees or other amounts accrued or payable to Rocket.Chat through the end of the Term. Without prejudice to any other rights, upon termination, You must cease all use of the Services, Software, and Documentation and destroy or return (upon request by Rocket.Chat) all copies of the Services, Software, and Documentation. You further acknowledge and agree that You will retrieve Your Data or copies of Your Data from Rocket.Chat within thirty (30) business days of the termination of this Agreement. Unless in accordance with our internal policies, contractual, legal, or other obligation, You acknowledge and agree that Rocket.Chat has the right to delete Your Data, including any and all copies thereof. Your Data, once deleted, will not be able to be recovered. Sections 1, 3, 4, 5.3, 6, 8, 9, 10, 11, and 12, shall survive any termination or expiration of this Agreement.
 
 **5.4 Refund Policy.**
-You are entitled to a full refund if you terminate your initial order within 30 days of the order date.
+You are entitled to a full refund of pre-paid fees if you terminate your initial order within 30 days of the order date.
 You are also entitled to a refund in the event that You terminate this Agreement after 30 days of the order date pursuant to a material breach by Rocket.Chat. In this case, Rocket.Chat will refund You a pro-rated, undiscounted portion of pre-paid Fees for Services not actually received by You as of the date of such termination.
 
 **6. FEES AND PAYMENT; TAXES.**
