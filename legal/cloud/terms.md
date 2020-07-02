@@ -9,7 +9,7 @@ redirect_from:
 - "/terms/"
 ---
 
-_Effective date: May 27th, 2020_
+_Effective date: July 4th, 2020_
 
 ## Terms of Service, including Hosting
 
