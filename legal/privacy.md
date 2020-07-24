@@ -9,7 +9,7 @@ redirect_from:
 - "/privacy/"
 ---
 
-_Effective date: June 5th, 2020_
+_Effective date: July 30th, 2020_
 
 Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the https://rocket.chat website, the https://open.rocket.chat community server, the Marketplace, incl. associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering and the Rocket.Chat mobile applications (the "Service").
 
@@ -27,7 +27,7 @@ Summary
     
   * You remain in control of your personal data
       
-    We cannot access your personal data in a self-managed instance of Rocket.Chat. Our code is open source, there are no back doors whatsoever. You are however free to connect a self-managed instance to other services, e.g. our marketplace or push notification gateway, where this privacy policy applies. You can also connect it to third party services, such as external authentication services, in which case their privacy policy applies. It is your choice and you are not forced to do so. In our hosted offering, we only process your data for the purposes of providing you the service in the name of the administrator. Administrators are still in full control over the configuration of their instance.
+    We cannot access your personal data in a self-managed instance of Rocket.Chat. Our code is open source, there are no back doors whatsoever. You are however free to connect a self-managed instance to other services, e.g. our marketplace or push notification gateway, where this privacy policy applies. When you do not register your instance, these settings are turned off by default. You can also connect it to third party services, such as external authentication services, in which case their privacy policy applies. It is your choice and you are not forced to do so. In our hosted offering, we only process your data for the purposes of providing you the service in the name of the administrator. Administrators are still in full control over the configuration of their instance.
 
   * We don´t sell your data
 
