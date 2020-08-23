@@ -15,7 +15,9 @@ _Effective date: July 4th, 2020_
 
 This Master Services Agreement (the "**Agreement**"), is entered as of _________________ (the “**Effective Date**”), by and between ______________________, whose address is _______________; an entity (“**You,**” “**Your**,” or “**Customer**”) and Rocket.Chat Technologies Corp. (“**Rocket.Chat**”). In this Agreement, Customer and Rocket.Chat may be individually referred to as “**party**” and collectively referred to as “**parties**.”
 
-The Agreement covers the provision of services by Rocket.Chat to You for self-managed (otherwise known as "on-premise") deployment of Rocket.Chat and generally comes with an Order Form that specifies services and product editions. It does explicitly not cover the mere provision of the Community Edition of our product or any other edition of our product which does not come with a reference to this agreement.
+The Agreement covers both the provision of services by Rocket.Chat to You for **self-managed** (otherwise known as "on-premise") deployment of Rocket.Chat and our **hosted offering** (otherwise known as "cloud") and generally comes with an **Order Form** that specifies services and product editions. 
+It is also supplemented by the [pricing page](https://rocket.chat/pricing) as per the time of Your order or explicitely referenced substitute containing a pricing reference (e.g. a custom Enterprise pricing for Your case).
+It does explicitly **not cover** the mere provision of the Community Edition of our product or any other edition of our product which does not come with a reference to this agreement.
 
 **1. DEFINITIONS.**
 
